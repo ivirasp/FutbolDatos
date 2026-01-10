@@ -14,12 +14,13 @@ CALENDAR_FILE = "calendar.json"
 STANDINGS_FILE = "standings.json"
 RESULTS_FILE = "results.json"
 
-TARGET_URLS_AGENDA = [
-    "https://www.futboltv.info/competicion/laliga",
-    "https://www.futboltv.info/competicion/champions-league",
-    "https://www.futboltv.info/competicion/europa-league",
-    "https://www.futboltv.info/competicion/copa-del-rey"
-]
+# Mapeo de URLs a etiquetas de competición
+TARGET_URLS_AGENDA = {
+    "https://www.futboltv.info/competicion/laliga": "LALIGA",
+    "https://www.futboltv.info/competicion/champions-league": "CHAMPIONS",
+    "https://www.futboltv.info/competicion/europa-league": "EUROPA",
+    "https://www.futboltv.info/competicion/copa-del-rey": "COPA"
+}
 
 URLS_STANDINGS = {
     "LALIGA": "https://www.lavanguardia.com/deportes/resultados/laliga-primera-division/clasificacion",
@@ -35,16 +36,17 @@ URLS_RESULTS = {
 }
 
 def scrape_agenda():
-    print("🌍 Extrayendo Agenda...")
+    print("🌍 Extrayendo Agenda con Competición...")
     agenda = []
     seen = set()
     headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'}
-    for url in TARGET_URLS_AGENDA:
+    
+    for url, comp_label in TARGET_URLS_AGENDA.items():
         try:
             r = requests.get(url, headers=headers, timeout=15)
             soup = BeautifulSoup(r.content, 'html.parser')
-            # Cambio clave: Buscamos <article class="match">
             articles = soup.find_all("article", class_="match")
+            
             for art in articles:
                 name_tag = art.find("meta", itemprop="name")
                 date_tag = art.find("meta", itemprop="startDate")
@@ -55,19 +57,24 @@ def scrape_agenda():
                 dt = datetime.strptime(date_str, "%Y-%m-%dT%H:%M:%S")
                 ts = TZ_MADRID.localize(dt).timestamp()
 
-                # Canal: Buscamos el span con itemprop="name" dentro de match_channels
+                # Canal
                 chan_span = art.find("span", itemprop="name")
                 channel = chan_span.get_text(strip=True) if chan_span else "TBD"
 
                 match_id = f"{title}_{ts}"
                 if match_id not in seen:
                     seen.add(match_id)
-                    agenda.append({"title": title, "start_ts": ts, "channel": channel})
+                    agenda.append({
+                        "title": title,
+                        "start_ts": ts,
+                        "channel": channel,
+                        "competition": comp_label  # <-- NUEVO CAMPO
+                    })
         except: continue
     return sorted(agenda, key=lambda x: x['start_ts'])
 
+# (Aquí van tus funciones scrape_standings y scrape_results que ya funcionan)
 def scrape_standings():
-    print("📊 Extrayendo Clasificaciones...")
     data_map = {}
     headers = {'User-Agent': 'Mozilla/5.0'}
     for name, url in URLS_STANDINGS.items():
@@ -80,18 +87,14 @@ def scrape_standings():
             rows = main_table.find_all('tr')
             league_data = []; seen_teams = set()
             for row in rows:
-                th = row.find('th')
-                if not th: continue
-                rank_n = th.find('span', class_='classification-pos')
-                team_n = th.find('h2', class_='nombre-equipo')
+                th = row.find('th'); rank_n = th.find('span', class_='classification-pos') if th else None
+                team_n = th.find('h2', class_='nombre-equipo') if th else None
                 if not rank_n or not team_n: continue
-                rank = rank_n.get_text(strip=True)
-                team = team_n.get_text(strip=True)
+                rank = rank_n.get_text(strip=True); team = team_n.get_text(strip=True)
                 if team in seen_teams: continue
                 seen_teams.add(team)
                 tds = row.find_all('td')
                 if len(tds) < 7: continue
-                # Pts, PJ, PG, PE, PP, GF, GC
                 pts, pj, pg, pe, pp, gf, gc = [t.get_text(strip=True) for t in tds[:7]]
                 dg = f"+{int(gf)-int(gc)}" if int(gf)-int(gc) > 0 else str(int(gf)-int(gc))
                 league_data.append({"rank": rank, "team": team, "points": pts, "played": pj, "won": pg, "drawn": pe, "lost": pp, "gf": gf, "ga": gc, "dg": dg})
@@ -100,16 +103,15 @@ def scrape_standings():
     return data_map
 
 def scrape_results():
-    print("⚽ Extrayendo Resultados...")
     results_map = {}
+    headers = {'User-Agent': 'Mozilla/5.0'}
     for name, url in URLS_RESULTS.items():
         try:
-            r = requests.get(url, headers={'User-Agent': 'Mozilla/5.0'}, timeout=15)
+            r = requests.get(url, headers=headers, timeout=15)
             soup = BeautifulSoup(r.content, 'html.parser')
             temp_rounds = []
             for table in soup.find_all('table'):
-                cap = table.find("caption")
-                title = cap.find("h2").get_text(strip=True).replace("ª", "") if cap else "Jornada"
+                cap = table.find("caption"); title = cap.find("h2").get_text(strip=True).replace("ª", "") if cap else "Jornada"
                 matches = []
                 for row in table.find_all('tr'):
                     cols = row.find_all('td')
@@ -124,4 +126,4 @@ if __name__ == "__main__":
     with open(CALENDAR_FILE, 'w') as f: json.dump(scrape_agenda(), f, indent=2)
     with open(STANDINGS_FILE, 'w') as f: json.dump(scrape_standings(), f, indent=2)
     with open(RESULTS_FILE, 'w') as f: json.dump(scrape_results(), f, indent=2)
-    print("🎉 ¡Datos actualizados!")
+    print("🎉 Datos actualizados con competición.")
