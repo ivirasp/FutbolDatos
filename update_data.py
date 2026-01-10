@@ -8,18 +8,10 @@ import time
 from datetime import datetime
 import pytz
 
-# --- CONFIGURACIÓN ---
 TZ_MADRID = pytz.timezone('Europe/Madrid')
 CALENDAR_FILE = "calendar.json"
 STANDINGS_FILE = "standings.json"
 RESULTS_FILE = "results.json"
-
-TARGET_URLS_AGENDA = [
-    "https://www.futboltv.info/competicion/laliga",
-    "https://www.futboltv.info/competicion/champions-league",
-    "https://www.futboltv.info/competicion/europa-league",
-    "https://www.futboltv.info/competicion/copa-del-rey"
-]
 
 URLS_STANDINGS = {
     "LALIGA": "https://www.lavanguardia.com/deportes/resultados/laliga-primera-division/clasificacion",
@@ -27,33 +19,19 @@ URLS_STANDINGS = {
     "EUROPA": "https://www.lavanguardia.com/deportes/resultados/europa-league/clasificacion"
 }
 
-URLS_RESULTS = {
-    "LALIGA": "https://www.sport.es/resultados/futbol/primera-division/calendario-liga/",
-    "CHAMPIONS": "https://www.sport.es/resultados/futbol/champions-league/calendario/",
-    "EUROPA": "https://www.sport.es/resultados/futbol/europa-league/calendario-liga/",
-    "COPA": "https://www.superdeporte.es/deportes/futbol/copa-rey/calendario/"
-}
-
-# Reglas de Clasificación e Indicadores
-RULES = {
-    "LALIGA": { "champions": (1, 4), "europa": (5, 5), "conference": (6, 6), "relegation": (18, 20) },
-    "CHAMPIONS": { "knockout_direct": (1, 8), "playoff": (9, 24) },
-    "EUROPA": { "knockout_direct": (1, 8), "playoff": (9, 24) }
-}
-INDICATORS = {
-    "champions": "🟢 ", "europa": "🔵 ", "conference": "🟡 ", "relegation": "🔴 ", 
-    "knockout_direct": "✅ ", "playoff": "⚔️ ", "midtable": ""
-}
-
 def get_prefix(competition, rank_str):
+    """ Mantenemos los indicadores visuales para los puestos especiales """
     try:
         rank = int(rank_str)
-        comp_rules = RULES.get(competition)
-        if not comp_rules: return INDICATORS["midtable"]
-        for status_name, (start, end) in comp_rules.items():
-            if start <= rank <= end: return INDICATORS.get(status_name, "")
-        return INDICATORS["midtable"]
-    except: return INDICATORS["midtable"]
+        if competition == "LALIGA":
+            if rank <= 4: return "🟢 "
+            if rank == 5: return "🔵 "
+            if rank == 6: return "🟡 "
+            if rank >= 18: return "🔴 "
+        elif rank <= 8: return "✅ "
+        elif rank <= 24: return "⚔️ "
+    except: pass
+    return ""
 
 def scrape_standings():
     print("📊 Extrayendo Clasificaciones COMPLETAS...")
@@ -64,40 +42,34 @@ def scrape_standings():
             r = requests.get(url, headers=headers, timeout=15)
             soup = BeautifulSoup(r.content, 'html.parser')
             
-            # Buscamos la tabla que más filas tenga (la principal)
+            # Buscamos específicamente la tabla de clasificación para evitar duplicados de Casa/Fuera
+            # En La Vanguardia, la tabla principal suele estar dentro de un div específico
             tables = soup.find_all('table')
             if not tables: continue
-            table = max(tables, key=lambda t: len(t.find_all('tr')))
-            rows = table.find_all('tr')
+            
+            # Seleccionamos la tabla con más filas (la clasificación general tiene más datos)
+            main_table = max(tables, key=lambda t: len(t.find_all('tr')))
+            rows = main_table.find_all('tr')
             
             league_data = []
-            seen_teams = set() # <--- Esto evita que se repitan Barça, Madrid, etc.
-
             for row in rows:
-                # Buscamos el rango y el nombre del equipo según tu código fuente
-                rank_span = row.find('span', class_='classification-pos')
-                team_h2 = row.find('h2', class_='nombre-equipo')
+                th = row.find('th')
+                if not th: continue
                 
-                if not rank_span or not team_h2: continue
+                # Intentamos sacar el rango y el equipo
+                rank_node = th.find('span', class_='classification-pos')
+                team_node = th.find('h2', class_='nombre-equipo')
                 
-                rank = rank_span.get_text(strip=True)
-                team = team_h2.get_text(strip=True)
+                if not rank_node or not team_node: continue
                 
-                # Si el equipo ya lo hemos procesado en esta liga, lo saltamos (evita Casa/Fuera)
-                if team in seen_teams: continue
-                seen_teams.add(team)
+                rank = rank_node.get_text(strip=True)
+                team = team_node.get_text(strip=True)
                 
                 tds = row.find_all('td')
                 if len(tds) < 7: continue
                 
-                # Mapeo exacto de tu fuente: 0=Pts, 1=PJ, 2=PG, 3=PE, 4=PP, 5=GF, 6=GC
-                pts = tds[0].get_text(strip=True)
-                pj  = tds[1].get_text(strip=True)
-                pg  = tds[2].get_text(strip=True)
-                pe  = tds[3].get_text(strip=True)
-                pp  = tds[4].get_text(strip=True)
-                gf  = tds[5].get_text(strip=True)
-                gc  = tds[6].get_text(strip=True)
+                # Mapeo: Puntos, PJ, PG, PE, PP, GF, GC
+                pts, pj, pg, pe, pp, gf, gc = [t.get_text(strip=True) for t in tds[:7]]
                 
                 try:
                     dg_val = int(gf) - int(gc)
@@ -174,9 +146,7 @@ def scrape_results():
     return results_map
 
 if __name__ == "__main__":
-    # Forzamos la actualización eliminando el IF para probar
-    print("🚀 Iniciando actualización forzada...")
-    with open(CALENDAR_FILE, 'w') as f: json.dump(scrape_agenda(), f, indent=2)
-    with open(STANDINGS_FILE, 'w') as f: json.dump(scrape_standings(), f, indent=2)
-    with open(RESULTS_FILE, 'w') as f: json.dump(scrape_results(), f, indent=2)
-    print("🎉 ¡Datos actualizados con éxito!")
+    # Guardar standings.json con todos los datos
+    standings = scrape_standings()
+    with open(STANDINGS_FILE, 'w') as f:
+        json.dump(standings, f, indent=2)
