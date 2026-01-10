@@ -14,13 +14,46 @@ CALENDAR_FILE = "calendar.json"
 STANDINGS_FILE = "standings.json"
 RESULTS_FILE = "results.json"
 
+TARGET_URLS_AGENDA = [
+    "https://www.futboltv.info/competicion/laliga",
+    "https://www.futboltv.info/competicion/champions-league",
+    "https://www.futboltv.info/competicion/europa-league",
+    "https://www.futboltv.info/competicion/copa-del-rey"
+]
+
 URLS_STANDINGS = {
     "LALIGA": "https://www.lavanguardia.com/deportes/resultados/laliga-primera-division/clasificacion",
     "CHAMPIONS": "https://www.lavanguardia.com/deportes/resultados/champions-league/clasificacion",
     "EUROPA": "https://www.lavanguardia.com/deportes/resultados/europa-league/clasificacion"
 }
 
-# (Mantén aquí tus listas TARGET_URLS_AGENDA y URLS_RESULTS igual que antes)
+URLS_RESULTS = {
+    "LALIGA": "https://www.sport.es/resultados/futbol/primera-division/calendario-liga/",
+    "CHAMPIONS": "https://www.sport.es/resultados/futbol/champions-league/calendario/",
+    "EUROPA": "https://www.sport.es/resultados/futbol/europa-league/calendario-liga/",
+    "COPA": "https://www.superdeporte.es/deportes/futbol/copa-rey/calendario/"
+}
+
+# Reglas de Clasificación e Indicadores
+RULES = {
+    "LALIGA": { "champions": (1, 4), "europa": (5, 5), "conference": (6, 6), "relegation": (18, 20) },
+    "CHAMPIONS": { "knockout_direct": (1, 8), "playoff": (9, 24) },
+    "EUROPA": { "knockout_direct": (1, 8), "playoff": (9, 24) }
+}
+INDICATORS = {
+    "champions": "🟢 ", "europa": "🔵 ", "conference": "🟡 ", "relegation": "🔴 ", 
+    "knockout_direct": "✅ ", "playoff": "⚔️ ", "midtable": ""
+}
+
+def get_prefix(competition, rank_str):
+    try:
+        rank = int(rank_str)
+        comp_rules = RULES.get(competition)
+        if not comp_rules: return INDICATORS["midtable"]
+        for status_name, (start, end) in comp_rules.items():
+            if start <= rank <= end: return INDICATORS.get(status_name, "")
+        return INDICATORS["midtable"]
+    except: return INDICATORS["midtable"]
 
 def scrape_standings():
     print("📊 Extrayendo Clasificaciones Completas...")
@@ -30,43 +63,28 @@ def scrape_standings():
         try:
             r = requests.get(url, headers=headers, timeout=15)
             soup = BeautifulSoup(r.content, 'html.parser')
-            
-            # Buscamos las filas basándonos en las clases que pusiste (cha, cla, rel)
             rows = soup.find_all('tr', class_=lambda x: x and any(c in x for c in ['cha', 'cla', 'rel']))
             
             league_data = []
             for row in rows:
                 th = row.find('th')
                 if not th: continue
-                
-                # Nombre y Posición
                 rank = th.find('span', class_='classification-pos').get_text(strip=True)
                 team = th.find('h2', class_='nombre-equipo').get_text(strip=True)
-                
-                # Estadísticas (tds)
                 tds = row.find_all('td')
                 if len(tds) < 7: continue
                 
-                # Mapeo según tu código fuente:
-                # tds[0] = Puntos, [1] = PJ, [2] = PG, [3] = PE, [4] = PP, [5] = GF, [6] = GC
-                pts = tds[0].get_text(strip=True)
-                pj  = tds[1].get_text(strip=True)
-                pg  = tds[2].get_text(strip=True)
-                pe  = tds[3].get_text(strip=True)
-                pp  = tds[4].get_text(strip=True)
-                gf  = tds[5].get_text(strip=True)
-                gc  = tds[6].get_text(strip=True)
+                pts, pj, pg, pe, pp, gf, gc = [t.get_text(strip=True) for t in tds[:7]]
                 
-                # Diferencia de Goles
                 try:
                     dg_val = int(gf) - int(gc)
                     dg = f"+{dg_val}" if dg_val > 0 else str(dg_val)
                 except: dg = "0"
 
-                # MUY IMPORTANTE: Aquí es donde metemos todos los datos al JSON
+                prefix = get_prefix(name, rank)
                 league_data.append({
                     "rank": rank,
-                    "team": team,
+                    "team": f"{prefix}{team}",
                     "points": pts,
                     "played": pj,
                     "won": pg,
@@ -76,16 +94,12 @@ def scrape_standings():
                     "ga": gc,
                     "dg": dg
                 })
-            
-            if league_data:
-                data_map[name] = league_data
-                print(f"   ✅ {name} procesado.")
-        except Exception as e:
-            print(f"   ❌ Error en {name}: {e}")
+            if league_data: data_map[name] = league_data
+            print(f"   ✅ {name} procesado correctamente.")
+        except Exception as e: print(f"   ❌ Error en {name}: {e}")
     return data_map
 
 def scrape_agenda():
-    """ Extrae la agenda de partidos próximos """
     print("🌍 Extrayendo Agenda...")
     agenda = []
     headers = {'User-Agent': 'Mozilla/5.0'}
@@ -104,7 +118,6 @@ def scrape_agenda():
     return sorted(agenda, key=lambda x: x['start_ts'])
 
 def scrape_results():
-    """ Extrae resultados históricos por jornada """
     print("⚽ Extrayendo Resultados...")
     results_map = {}
     headers = {'User-Agent': 'Mozilla/5.0'}
@@ -135,22 +148,9 @@ def scrape_results():
     return results_map
 
 if __name__ == "__main__":
-    # Lógica de decisión de ejecución
-    now = time.time()
-    update = False
-    if not os.path.exists(CALENDAR_FILE):
-        update = True
-    else:
-        with open(CALENDAR_FILE, 'r') as f:
-            m = json.load(f)
-            # Modo partido (cada 15 min) o ahorro (cada 4h)
-            if any(x for x in m if (x['start_ts'] - 10800) <= now <= x['stop_ts']) or (now - os.path.getmtime(CALENDAR_FILE)) > 14400:
-                update = True
-
-    if update:
-        with open(CALENDAR_FILE, 'w') as f: json.dump(scrape_agenda(), f, indent=2)
-        with open(STANDINGS_FILE, 'w') as f: json.dump(scrape_standings(), f, indent=2)
-        with open(RESULTS_FILE, 'w') as f: json.dump(scrape_results(), f, indent=2)
-        print("🎉 Datos actualizados en GitHub.")
-    else:
-        print("💤 No hay partidos cerca. Saltando actualización.")
+    # Forzamos la actualización eliminando el IF para probar
+    print("🚀 Iniciando actualización forzada...")
+    with open(CALENDAR_FILE, 'w') as f: json.dump(scrape_agenda(), f, indent=2)
+    with open(STANDINGS_FILE, 'w') as f: json.dump(scrape_standings(), f, indent=2)
+    with open(RESULTS_FILE, 'w') as f: json.dump(scrape_results(), f, indent=2)
+    print("🎉 ¡Datos actualizados con éxito!")
