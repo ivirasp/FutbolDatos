@@ -77,21 +77,56 @@ def scrape_standings():
     return data_map
 
 def scrape_agenda():
-    print("🌍 Extrayendo Agenda...")
+    print("🌍 Extrayendo Agenda con precisión...")
     agenda = []
-    headers = {'User-Agent': 'Mozilla/5.0'}
+    seen = set()
+    headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'}
+    
     for url in TARGET_URLS_AGENDA:
         try:
             r = requests.get(url, headers=headers, timeout=15)
+            if r.status_code != 200: continue
             soup = BeautifulSoup(r.content, 'html.parser')
-            for div in soup.find_all("div", class_="match"):
+            
+            # Buscamos los bloques de partidos (div con clase match)
+            matches = soup.find_all("div", class_="match")
+            
+            for div in matches:
+                # Extraer Fecha/Hora desde el meta tag
                 meta_date = div.find("meta", itemprop="startDate")
-                if not meta_date: continue
-                ts = TZ_MADRID.localize(datetime.strptime(meta_date.get("content", "").split('+')[0], "%Y-%m-%dT%H:%M:%S")).timestamp()
-                name = div.find("meta", itemprop="name").get("content", "").strip()
-                chan = div.find("div", class_="m_chan").get_text(strip=True) if div.find("div", class_="m_chan") else "TBD"
-                agenda.append({"title": name, "start_ts": ts, "channel": chan, "stop_ts": ts + 7200})
-        except: continue
+                meta_name = div.find("meta", itemprop="name")
+                
+                if not meta_date or not meta_name: continue
+                
+                # Procesar timestamp
+                date_str = meta_date.get("content", "").split('+')[0]
+                dt = datetime.strptime(date_str, "%Y-%m-%dT%H:%M:%S")
+                ts = TZ_MADRID.localize(dt).timestamp()
+                
+                # Título del partido
+                title = meta_name.get("content", "").strip()
+                
+                # Canal (buscamos en m_chan o alternativas)
+                chan_div = div.find("div", class_="m_chan")
+                if not chan_div: 
+                    chan_div = div.find("div", class_="channels")
+                
+                channel = chan_div.get_text(strip=True) if chan_div else "TBD"
+                
+                # Evitar duplicados
+                match_id = f"{title}_{ts}"
+                if match_id not in seen:
+                    seen.add(match_id)
+                    agenda.append({
+                        "title": title,
+                        "start_ts": ts,
+                        "channel": channel,
+                        "stop_ts": ts + 7200  # Duración estimada: 2 horas
+                    })
+            print(f"   ✅ Partidos encontrados en {url.split('/')[-1]}: {len(matches)}")
+        except Exception as e:
+            print(f"   ❌ Error en agenda {url}: {e}")
+            
     return sorted(agenda, key=lambda x: x['start_ts'])
 
 def scrape_results():
@@ -125,6 +160,11 @@ def scrape_results():
     return results_map
 
 if __name__ == "__main__":
+    # Forzar ejecución para llenar el calendario
+    print("🚀 Iniciando actualización de Agenda...")
+    agenda_data = scrape_agenda()
+    with open(CALENDAR_FILE, 'w') as f:
+        json.dump(agenda_data, f, indent=2)
     standings = scrape_standings()
     with open(STANDINGS_FILE, 'w') as f:
         json.dump(standings, f, indent=2)
