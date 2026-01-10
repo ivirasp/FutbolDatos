@@ -58,8 +58,7 @@ def get_prefix(competition, rank_str):
     except: return INDICATORS["midtable"]
 
 def scrape_standings():
-    """ Extrae la tabla detallada con PJ, G, E, P, GF, GC, DG y PTS """
-    print("📊 Extrayendo Clasificaciones Detalladas...")
+    print("📊 Extrayendo Clasificaciones...")
     data_map = {}
     headers = {'User-Agent': 'Mozilla/5.0'}
     for name, url in URLS_STANDINGS.items():
@@ -67,48 +66,38 @@ def scrape_standings():
             r = requests.get(url, headers=headers, timeout=15)
             soup = BeautifulSoup(r.content, 'html.parser')
             table = max(soup.find_all('table'), key=lambda t: len(t.find_all('tr')))
-            rows = table.find_all('tr')
             
             league_data = []
-            seen_teams = set()
-            rank_counter = 0
+            # Buscamos las filas ignorando la primera (cabecera)
+            rows = table.find_all('tr')[1:] 
             
             for row in rows:
-                cells = row.find_all(['th', 'td'])
-                texts = [c.get_text(strip=True) for c in cells if c.get_text(strip=True)]
-                if len(texts) < 5 or any(t.upper() in ["EQUIPO", "PTS"] for t in texts): continue
+                cols = row.find_all(['td', 'th'])
+                # Limpiamos y obtenemos solo el texto
+                d = [c.get_text(strip=True) for c in cols]
                 
-                # Identificar equipo y estadísticas numéricas
-                team = ""
-                stats = []
-                for t in texts:
-                    if len(t) > 2 and not t.isdigit(): team = t
-                    elif t.replace('-','').isdigit(): stats.append(t)
-                
-                if not team or team in seen_teams: continue
-                seen_teams.add(team)
-                team = re.sub(r'^\d+\.?\s*', '', team)
-                
-                if len(stats) >= 5:
-                    rank_counter += 1
-                    prefix = get_prefix(name, str(rank_counter))
-                    # Cálculo de Diferencia de Goles (DG)
-                    dg = "0"
-                    if len(stats) >= 7:
-                        dg_val = int(stats[5]) - int(stats[6])
-                        dg = f"+{dg_val}" if dg_val > 0 else str(dg_val)
+                # Una fila válida de La Vanguardia suele tener al menos 8-10 columnas
+                if len(d) >= 8:
+                    # En La Vanguardia el orden suele ser: 
+                    # 0:Pos, 1:Equipo, 2:Puntos, 3:PJ, 4:PG, 5:PE, 6:PP, 7:GF, 8:GC...
+                    team_name = re.sub(r'^\d+\s*', '', d[1]) # Quitar número si existe
+                    rank = d[0]
+                    prefix = get_prefix(name, rank)
 
                     league_data.append({
-                        "rank": str(rank_counter),
-                        "team": f"{prefix}{team}",
-                        "points": stats[0],
-                        "played": stats[1], "won": stats[2], "drawn": stats[3], "lost": stats[4],
-                        "gf": stats[5] if len(stats)>5 else "0",
-                        "ga": stats[6] if len(stats)>6 else "0",
-                        "dg": dg
+                        "rank": rank,
+                        "team": f"{prefix}{team_name}",
+                        "points": d[2],
+                        "played": d[3],
+                        "won": d[4],
+                        "drawn": d[5],
+                        "lost": d[6],
+                        "gf": d[7],
+                        "ga": d[8],
+                        "dg": str(int(d[7]) - int(d[8])) if d[7].isdigit() and d[8].isdigit() else "0"
                     })
             if league_data: data_map[name] = league_data
-        except: continue
+        except Exception as e: print(f"Error en {name}: {e}")
     return data_map
 
 def scrape_agenda():
