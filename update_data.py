@@ -34,7 +34,7 @@ URLS_RESULTS = [
     ("COPA", "https://www.superdeporte.es/deportes/futbol/copa-rey/calendario/")
 ]
 
-# Mapa de meses para traducir Champions
+# Mapa de meses para traducir fechas de cabecera
 MONTH_MAP = {
     "enero": "01", "febrero": "02", "marzo": "03", "abril": "04",
     "mayo": "05", "junio": "06", "julio": "07", "agosto": "08",
@@ -118,7 +118,7 @@ def scrape_standings():
     return data_map
 
 def scrape_results():
-    print("⚽ Extrayendo Resultados (Universal)...")
+    print("⚽ Extrayendo Resultados (Detectando Fin y Actual)...")
     results_map = {}
     today = datetime.now(TZ_MADRID).date()
     
@@ -131,7 +131,7 @@ def scrape_results():
             current_found = False
             
             for table in soup.find_all('table'):
-                # 1. TÍTULO DE JORNADA
+                # 1. NOMBRE JORNADA
                 cap = table.find("caption")
                 orig_title = "Jornada"
                 if cap and cap.find("h2"):
@@ -144,27 +144,32 @@ def scrape_results():
                 
                 final_title = orig_title
                 
-                # 2. DETECCIÓN "ACTUAL" (Rango fechas LIGA)
+                # --- DETECCIÓN "ACTUAL" ---
+                # A. Caso La Liga (Rango en cabecera)
+                is_actual = False
                 current_header_date = ""
                 thead = table.find("thead")
+                
                 if thead:
                     th_date = thead.find("th", class_="textoizda")
                     if th_date:
                         raw_txt = th_date.get_text(strip=True)
                         dates_range = re.findall(r'(\d{4}-\d{2}-\d{2})', raw_txt)
                         if len(dates_range) == 2:
-                            if not current_found:
-                                end_date = datetime.strptime(dates_range[1], "%Y-%m-%d").date()
-                                if today <= end_date:
-                                    final_title = f"{orig_title} (Actual)"
-                                    current_round_key = final_title
-                                    current_found = True
+                            end_date = datetime.strptime(dates_range[1], "%Y-%m-%d").date()
+                            if today <= end_date and not current_found:
+                                is_actual = True
                         else:
                             parsed = parse_header_date(raw_txt)
                             if parsed: current_header_date = parsed
 
+                # Lista para recolectar las fechas reales de los partidos de esta jornada
+                # (Necesario para Champions/Copa donde no hay rango en cabecera)
+                round_dates_objs = [] 
+
                 matches = []
                 for row in table.find_all('tr'):
+                    # Si es cabecera intermedia (Champions)
                     th_sub = row.find("th", class_="textoizda")
                     if th_sub:
                         parsed = parse_header_date(th_sub.get_text(strip=True))
@@ -174,23 +179,48 @@ def scrape_results():
                     tds = row.find_all('td')
                     if len(tds) < 3: continue
 
-                    # A. FECHA
+                    # A. FECHA y ESTADO (Fin)
                     date_val = ""
+                    status = ""
+                    
                     time_tag = row.find('time')
-                    if time_tag and time_tag.has_attr('datetime'):
-                        dt_s = time_tag['datetime'].split('T')[0]
-                        try:
-                            date_val = datetime.strptime(dt_s, "%Y-%m-%d").strftime("%d-%m-%Y")
-                        except: pass
+                    if time_tag:
+                        # Estado: Fin, Descanso, Prórroga
+                        status = time_tag.get_text(strip=True)
+                        
+                        if time_tag.has_attr('datetime'):
+                            dt_s = time_tag['datetime'].split('T')[0]
+                            try:
+                                do = datetime.strptime(dt_s, "%Y-%m-%d")
+                                round_dates_objs.append(do.date()) # Guardamos para cálculo de Actual
+                                date_val = do.strftime("%d-%m-%Y")
+                            except: pass
                     
                     if not date_val:
                         txt_c0 = tds[0].get_text(strip=True)
-                        if re.search(r'\d{2}/\d{2}', txt_c0): date_val = txt_c0
-                    
-                    if not date_val and current_header_date:
-                        date_val = current_header_date
+                        # Intentar parsear DD/MM para añadirlo a round_dates_objs
+                        # Asumimos año actual o próximo según el mes
+                        match_d = re.search(r'(\d{2})/(\d{2})', txt_c0)
+                        if match_d:
+                            date_val = txt_c0
+                            try:
+                                d, m = int(match_d.group(1)), int(match_d.group(2))
+                                y = today.year
+                                # Ajuste básico de año
+                                if m < 7 and today.month > 7: y += 1
+                                elif m > 7 and today.month < 7: y -= 1
+                                round_dates_objs.append(datetime(y, m, d).date())
+                            except: pass
+                        elif current_header_date:
+                            date_val = current_header_date
+                            # También intentamos guardar esta fecha de contexto
+                            try:
+                                d, m = map(int, current_header_date.split('/'))
+                                y = today.year
+                                round_dates_objs.append(datetime(y, m, d).date())
+                            except: pass
 
-                    # B. EQUIPOS (Title > Texto)
+                    # B. EQUIPOS
                     home, away = "", ""
                     
                     home_td = row.find("td", class_="textodcha")
@@ -207,9 +237,10 @@ def scrape_results():
                         else: away = away_td.get_text(strip=True)
                     elif len(tds) > 3: away = tds[3].get_text(strip=True)
 
-                    # C. RESULTADO (Regex Flexible)
+                    # C. RESULTADO
                     final_score = "vs"
                     candidates = []
+                    
                     score_a = row.find('a', class_='geca_enlace_partido')
                     if score_a: candidates.append(score_a.get_text(strip=True))
                     score_span = row.find('span', class_='celdagoles')
@@ -217,10 +248,15 @@ def scrape_results():
                     for td in tds: candidates.append(td.get_text(strip=True))
 
                     for txt in candidates:
-                        # Regex flexible: permite espacios alrededor del guion
-                        if re.search(r'\d+\s*-\s*\d+', txt):
+                        if re.search(r'^\d+\s*-\s*\d+$', txt):
                             final_score = txt
                             break
+                    
+                    # Añadir " (Fin)" si el partido acabó y hay marcador
+                    if final_score != "vs" and ("Fin" in status or "Pen" in status):
+                        final_score += " (Fin)"
+                    elif "Descanso" in status and final_score != "vs":
+                        final_score += " (Desc)"
 
                     home = home.strip()
                     away = away.strip()
@@ -233,11 +269,25 @@ def scrape_results():
                             "score": final_score
                         })
                 
+                # B. Cálculo de Actual para Champions/Copa (Si no se detectó por rango)
+                if not is_actual and not current_found and round_dates_objs:
+                    # Si la última fecha de esta jornada es Hoy o Futura -> Es la Actual
+                    max_date = max(round_dates_objs)
+                    if max_date >= today:
+                        is_actual = True
+
+                if is_actual:
+                    final_title = f"{orig_title} (Actual)"
+                    current_round_key = final_title
+                    current_found = True
+
                 if matches:
                     temp_rounds.append({"key": final_title, "matches": matches})
             
             if temp_rounds:
+                # Si llegamos al final y no hemos marcado ninguna como Actual, marcamos la última
                 def_current = current_round_key if current_round_key else temp_rounds[-1]["key"]
+                
                 results_map[name] = {
                     "rounds": {r["key"]: r["matches"] for r in temp_rounds},
                     "current": def_current
@@ -251,4 +301,4 @@ if __name__ == "__main__":
     with open(CALENDAR_FILE, 'w') as f: json.dump(scrape_agenda(), f, indent=2)
     with open(STANDINGS_FILE, 'w') as f: json.dump(scrape_standings(), f, indent=2)
     with open(RESULTS_FILE, 'w') as f: json.dump(scrape_results(), f, indent=2)
-    print("🎉 Datos actualizados (Soporte Copa/Europa + Corrección Resultados).")
+    print("🎉 Datos generados (Fin y Actual detectados).")
