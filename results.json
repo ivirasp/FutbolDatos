@@ -7,70 +7,70 @@
           "home": "Girona",
           "away": "Rayo Vallecano",
           "score": "1 - 3",
-          "status": ""
+          "status": "Fin"
         },
         {
           "date": "15/08",
           "home": "Villarreal",
           "away": "Real Oviedo",
           "score": "2 - 0",
-          "status": ""
+          "status": "Fin"
         },
         {
           "date": "16/08",
           "home": "Alav\u00e9s",
           "away": "Levante",
           "score": "2 - 1",
-          "status": ""
+          "status": "Fin"
         },
         {
           "date": "16/08",
           "home": "Mallorca",
           "away": "Barcelona",
           "score": "0 - 3",
-          "status": ""
+          "status": "Fin"
         },
         {
           "date": "16/08",
           "home": "Valencia CF",
           "away": "Real Sociedad",
           "score": "1 - 1",
-          "status": ""
+          "status": "Fin"
         },
         {
           "date": "17/08",
           "home": "Athletic Club",
           "away": "Sevilla",
           "score": "3 - 2",
-          "status": ""
+          "status": "Fin"
         },
         {
           "date": "17/08",
           "home": "Celta de Vigo",
           "away": "Getafe",
           "score": "0 - 2",
-          "status": ""
+          "status": "Fin"
         },
         {
           "date": "17/08",
           "home": "Espanyol",
           "away": "Atl\u00e9tico de Madrid",
           "score": "2 - 1",
-          "status": ""
+          "status": "Fin"
         },
         {
           "date": "18/08",
           "home": "Elche",
           "away": "Real Betis",
           "score": "1 - 1",
-          "status": ""
+          "status": "Fin"
         },
         {
           "date": "19/08",
           "home": "Real Madrid",
           "away": "Osasuna",
           "score": "1 - 0",
-          "status": ""
+          "status": "Fin"
         }
       ],
       "Jornada 2": [
@@ -79,70 +79,70 @@
           "home": "Real Betis",
           "away": "Alav\u00e9s",
           "score": "1 - 0",
-          "status": ""
+          "status": "Fin"
         },
         {
           "date": "23/08",
           "home": "Atl\u00e9tico de Madrid",
           "away": "Elche",
           "score": "1 - 1",
-          "status": ""
+          "status": "Fin"
         },
         {
           "date": "23/08",
           "home": "Levante",
           "away": "Barcelona",
           "score": "2 - 3",
-          "status": ""
+          "status": "Fin"
         },
         {
           "date": "23/08",
           "home": "Mallorca",
           "away": "Celta de Vigo",
           "score": "1 - 1",
-          "status": ""
+          "status": "Fin"
         },
         {
           "date": "24/08",
           "home": "Osasuna",
           "away": "Valencia CF",
           "score": "1 - 0",
-          "status": ""
+          "status": "Fin"
         },
         {
           "date": "24/08",
           "home": "Real Oviedo",
           "away": "Real Madrid",
           "score": "0 - 3",
-          "status": ""
+          "status": "Fin"
         },
         {
           "date": "24/08",
           "home": "Real Sociedad",
           "away": "Espanyol",
           "score": "2 - 2",
-          "status": ""
+          "status": "Fin"
         },
         {
           "date": "24/08",
           "home": "Villarreal",
           "away": "Girona",
           "score": "5 - 0",
-          "status": ""
+          "status": "Fin"
         },
         {
           "date": "25/08",
           "home": "Athletic Club",
           "away": "Rayo Vallecano",
           "score": "1 - 0",
-          "status": ""
+          "status": "Fin"
         },
         {
           "date": "25/08",
           "home": "Sevilla",
           "away": "Getafe",
           "score": "1 - 2",
-          "status": ""
+          "status": "Fin"
         }
       ],
       "Jornada 3": [
@@ -151,70 +151,70 @@
           "home": "Elche",
           "away": "Levante",
           "score": "2 - 0",
-          "status": ""
+          "status": "Fin"
         },
         {
           "date": "29/08",
           "home": "Valencia CF",
           "away": "Getafe",
           "score": "3 - 0",
-          "status": ""
+          "status": "Fin"
         },
         {
           "date": "30/08",
           "home": "Alav\u00e9s",
           "away": "Atl\u00e9tico de Madrid",
           "score": "1 - 1",
-          "status": ""
+          "status": "Fin"
         },
         {
           "date": "30/08",
           "home": "Girona",
           "away": "Sevilla",
           "score": "0 - 2",
-          "status": ""
+          "status": "Fin"
         },
         {
           "date": "30/08",
           "home": "Real Madrid",
           "away": "Mallorca",
           "score": "2 - 1",
-          "status": ""
+          "status": "Fin"
         },
         {
           "date": "30/08",
           "home": "Real Oviedo",
           "away": "Real Sociedad",
           "score": "1 - 0",
-          "status": ""
+          "status": "Fin"
         },
         {
           "date": "31/08",
           "home": "Celta de Vigo",
           "away": "Villarreal",
           "score": "1 - 1",
-          "status": ""
+          "status": "Fin"
         },
         {
           "date": "31/08",
           "home": "Espanyol",
           "away": "Osasuna",
           "score": "1 - 0",
-          "status": ""
+          "status": "Fin"
         },
         {
           "date": "31/08",
           "home": "Rayo Vallecano",
           "away": "Barcelona",
           "score": "1 - 1",
-          "status": ""
+          "status": "Fin"
         },
         {
           "date": "31/08",
           "home": "Real Betis",
           "away": "Athletic Club",
           "score": "1 - 2",
-          "status": ""
+          "status": "Fin"
         }
       ],
       "Jornada 4": [
@@ -223,70 +223,70 @@
           "home": "Sevilla",
           "away": "Elche",
           "score": "2 - 2",
-          "status": ""
+          "status": "Fin"
         },
         {
           "date": "13/09",
           "home": "Athletic Club",
           "away": "Alav\u00e9s",
           "score": "0 - 1",
-          "status": ""
+          "status": "Fin"
         },
         {
           "date": "13/09",
           "home": "Atl\u00e9tico de Madrid",
           "away": "Villarreal",
           "score": "2 - 0",
-          "status": ""
+          "status": "Fin"
         },
         {
           "date": "13/09",
           "home": "Getafe",
           "away": "Real Oviedo",
           "score": "2 - 0",
-          "status": ""
+          "status": "Fin"
         },
         {
           "date": "13/09",
           "home": "Real Sociedad",
           "away": "Real Madrid",
           "score": "1 - 2",
-          "status": ""
+          "status": "Fin"
         },
         {
           "date": "14/09",
           "home": "Barcelona",
           "away": "Valencia CF",
           "score": "6 - 0",
-          "status": ""
+          "status": "Fin"
         },
         {
           "date": "14/09",
           "home": "Celta de Vigo",
           "away": "Girona",
           "score": "1 - 1",
-          "status": ""
+          "status": "Fin"
         },
         {
           "date": "14/09",
           "home": "Levante",
           "away": "Real Betis",
           "score": "2 - 2",
-          "status": ""
+          "status": "Fin"
         },
         {
           "date": "14/09",
           "home": "Osasuna",
           "away": "Rayo Vallecano",
           "score": "2 - 0",
-          "status": ""
+          "status": "Fin"
         },
         {
           "date": "15/09",
           "home": "Espanyol",
           "away": "Mallorca",
           "score": "3 - 2",
-          "status": ""
+          "status": "Fin"
         }
       ],
       "Jornada 5": [
@@ -295,70 +295,70 @@
           "home": "Real Betis",
           "away": "Real Sociedad",
           "score": "3 - 1",
-          "status": ""
+          "status": "Fin"
         },
         {
           "date": "20/09",
           "home": "Alav\u00e9s",
           "away": "Sevilla",
           "score": "1 - 2",
-          "status": ""
+          "status": "Fin"
         },
         {
           "date": "20/09",
           "home": "Girona",
           "away": "Levante",
           "score": "0 - 4",
-          "status": ""
+          "status": "Fin"
         },
         {
           "date": "20/09",
           "home": "Real Madrid",
           "away": "Espanyol",
           "score": "2 - 0",
-          "status": ""
+          "status": "Fin"
         },
         {
           "date": "20/09",
           "home": "Valencia CF",
           "away": "Athletic Club",
           "score": "2 - 0",
-          "status": ""
+          "status": "Fin"
         },
         {
           "date": "20/09",
           "home": "Villarreal",
           "away": "Osasuna",
           "score": "2 - 1",
-          "status": ""
+          "status": "Fin"
         },
         {
           "date": "21/09",
           "home": "Barcelona",
           "away": "Getafe",
           "score": "3 - 0",
-          "status": ""
+          "status": "Fin"
         },
         {
           "date": "21/09",
           "home": "Elche",
           "away": "Real Oviedo",
           "score": "1 - 0",
-          "status": ""
+          "status": "Fin"
         },
         {
           "date": "21/09",
           "home": "Mallorca",
           "away": "Atl\u00e9tico de Madrid",
           "score": "1 - 1",
-          "status": ""
+          "status": "Fin"
         },
         {
           "date": "21/09",
           "home": "Rayo Vallecano",
           "away": "Celta de Vigo",
           "score": "1 - 1",
-          "status": ""
+          "status": "Fin"
         }
       ],
       "Jornada 6": [
@@ -367,70 +367,70 @@
           "home": "Athletic Club",
           "away": "Girona",
           "score": "1 - 1",
-          "status": ""
+          "status": "Fin"
         },
         {
           "date": "23/09",
           "home": "Espanyol",
           "away": "Valencia CF",
           "score": "2 - 2",
-          "status": ""
+          "status": "Fin"
         },
         {
           "date": "23/09",
           "home": "Levante",
           "away": "Real Madrid",
           "score": "1 - 4",
-          "status": ""
+          "status": "Fin"
         },
         {
           "date": "23/09",
           "home": "Sevilla",
           "away": "Villarreal",
           "score": "1 - 2",
-          "status": ""
+          "status": "Fin"
         },
         {
           "date": "24/09",
           "home": "Atl\u00e9tico de Madrid",
           "away": "Rayo Vallecano",
           "score": "3 - 2",
-          "status": ""
+          "status": "Fin"
         },
         {
           "date": "24/09",
           "home": "Getafe",
           "away": "Alav\u00e9s",
           "score": "1 - 1",
-          "status": ""
+          "status": "Fin"
         },
         {
           "date": "24/09",
           "home": "Real Sociedad",
           "away": "Mallorca",
           "score": "1 - 0",
-          "status": ""
+          "status": "Fin"
         },
         {
           "date": "25/09",
           "home": "Osasuna",
           "away": "Elche",
           "score": "1 - 1",
-          "status": ""
+          "status": "Fin"
         },
         {
           "date": "25/09",
           "home": "Real Oviedo",
           "away": "Barcelona",
           "score": "1 - 3",
-          "status": ""
+          "status": "Fin"
         },
         {
           "date": "27/08",
           "home": "Celta de Vigo",
           "away": "Real Betis",
           "score": "1 - 1",
-          "status": ""
+          "status": "Fin"
         }
       ],
       "Jornada 7": [
@@ -439,70 +439,70 @@
           "home": "Girona",
           "away": "Espanyol",
           "score": "0 - 0",
-          "status": ""
+          "status": "Fin"
         },
         {
           "date": "27/09",
           "home": "Atl\u00e9tico de Madrid",
           "away": "Real Madrid",
           "score": "5 - 2",
-          "status": ""
+          "status": "Fin"
         },
         {
           "date": "27/09",
           "home": "Getafe",
           "away": "Levante",
           "score": "1 - 1",
-          "status": ""
+          "status": "Fin"
         },
         {
           "date": "27/09",
           "home": "Mallorca",
           "away": "Alav\u00e9s",
           "score": "1 - 0",
-          "status": ""
+          "status": "Fin"
         },
         {
           "date": "27/09",
           "home": "Villarreal",
           "away": "Athletic Club",
           "score": "1 - 0",
-          "status": ""
+          "status": "Fin"
         },
         {
           "date": "28/09",
           "home": "Barcelona",
           "away": "Real Sociedad",
           "score": "2 - 1",
-          "status": ""
+          "status": "Fin"
         },
         {
           "date": "28/09",
           "home": "Elche",
           "away": "Celta de Vigo",
           "score": "2 - 1",
-          "status": ""
+          "status": "Fin"
         },
         {
           "date": "28/09",
           "home": "Rayo Vallecano",
           "away": "Sevilla",
           "score": "0 - 1",
-          "status": ""
+          "status": "Fin"
         },
         {
           "date": "28/09",
           "home": "Real Betis",
           "away": "Osasuna",
           "score": "2 - 0",
-          "status": ""
+          "status": "Fin"
         },
         {
           "date": "30/09",
           "home": "Valencia CF",
           "away": "Real Oviedo",
           "score": "1 - 2",
-          "status": ""
+          "status": "Fin"
         }
       ],
       "Jornada 8": [
@@ -511,70 +511,70 @@
           "home": "Osasuna",
           "away": "Getafe",
           "score": "2 - 1",
-          "status": ""
+          "status": "Fin"
         },
         {
           "date": "04/10",
           "home": "Athletic Club",
           "away": "Mallorca",
           "score": "2 - 1",
-          "status": ""
+          "status": "Fin"
         },
         {
           "date": "04/10",
           "home": "Girona",
           "away": "Valencia CF",
           "score": "2 - 1",
-          "status": ""
+          "status": "Fin"
         },
         {
           "date": "04/10",
           "home": "Real Madrid",
           "away": "Villarreal",
           "score": "3 - 1",
-          "status": ""
+          "status": "Fin"
         },
         {
           "date": "04/10",
           "home": "Real Oviedo",
           "away": "Levante",
           "score": "0 - 2",
-          "status": ""
+          "status": "Fin"
         },
         {
           "date": "05/10",
           "home": "Alav\u00e9s",
           "away": "Elche",
           "score": "3 - 1",
-          "status": ""
+          "status": "Fin"
         },
         {
           "date": "05/10",
           "home": "Celta de Vigo",
           "away": "Atl\u00e9tico de Madrid",
           "score": "1 - 1",
-          "status": ""
+          "status": "Fin"
         },
         {
           "date": "05/10",
           "home": "Espanyol",
           "away": "Real Betis",
           "score": "1 - 2",
-          "status": ""
+          "status": "Fin"
         },
         {
           "date": "05/10",
           "home": "Real Sociedad",
           "away": "Rayo Vallecano",
           "score": "0 - 1",
-          "status": ""
+          "status": "Fin"
         },
         {
           "date": "05/10",
           "home": "Sevilla",
           "away": "Barcelona",
           "score": "4 - 1",
-          "status": ""
+          "status": "Fin"
         }
       ],
       "Jornada 9": [
@@ -583,70 +583,70 @@
           "home": "Real Oviedo",
           "away": "Espanyol",
           "score": "0 - 2",
-          "status": ""
+          "status": "Fin"
         },
         {
           "date": "18/10",
           "home": "Atl\u00e9tico de Madrid",
           "away": "Osasuna",
           "score": "1 - 0",
-          "status": ""
+          "status": "Fin"
         },
         {
           "date": "18/10",
           "home": "Barcelona",
           "away": "Girona",
           "score": "2 - 1",
-          "status": ""
+          "status": "Fin"
         },
         {
           "date": "18/10",
           "home": "Sevilla",
           "away": "Mallorca",
           "score": "1 - 3",
-          "status": ""
+          "status": "Fin"
         },
         {
           "date": "18/10",
           "home": "Villarreal",
           "away": "Real Betis",
           "score": "2 - 2",
-          "status": ""
+          "status": "Fin"
         },
         {
           "date": "19/10",
           "home": "Celta de Vigo",
           "away": "Real Sociedad",
           "score": "1 - 1",
-          "status": ""
+          "status": "Fin"
         },
         {
           "date": "19/10",
           "home": "Elche",
           "away": "Athletic Club",
           "score": "0 - 0",
-          "status": ""
+          "status": "Fin"
         },
         {
           "date": "19/10",
           "home": "Getafe",
           "away": "Real Madrid",
           "score": "0 - 1",
-          "status": ""
+          "status": "Fin"
         },
         {
           "date": "19/10",
           "home": "Levante",
           "away": "Rayo Vallecano",
           "score": "0 - 3",
-          "status": ""
+          "status": "Fin"
         },
         {
           "date": "20/10",
           "home": "Alav\u00e9s",
           "away": "Valencia CF",
           "score": "0 - 0",
-          "status": ""
+          "status": "Fin"
         }
       ],
       "Jornada 10": [
@@ -655,70 +655,70 @@
           "home": "Real Sociedad",
           "away": "Sevilla",
           "score": "2 - 1",
-          "status": ""
+          "status": "Fin"
         },
         {
           "date": "25/10",
           "home": "Athletic Club",
           "away": "Getafe",
           "score": "0 - 1",
-          "status": ""
+          "status": "Fin"
         },
         {
           "date": "25/10",
           "home": "Espanyol",
           "away": "Elche",
           "score": "1 - 0",
-          "status": ""
+          "status": "Fin"
         },
         {
           "date": "25/10",
           "home": "Girona",
           "away": "Real Oviedo",
           "score": "3 - 3",
-          "status": ""
+          "status": "Fin"
         },
         {
           "date": "25/10",
           "home": "Valencia CF",
           "away": "Villarreal",
           "score": "0 - 2",
-          "status": ""
+          "status": "Fin"
         },
         {
           "date": "26/10",
           "home": "Mallorca",
           "away": "Levante",
           "score": "1 - 1",
-          "status": ""
+          "status": "Fin"
         },
         {
           "date": "26/10",
           "home": "Osasuna",
           "away": "Celta de Vigo",
           "score": "2 - 3",
-          "status": ""
+          "status": "Fin"
         },
         {
           "date": "26/10",
           "home": "Rayo Vallecano",
           "away": "Alav\u00e9s",
           "score": "1 - 0",
-          "status": ""
+          "status": "Fin"
         },
         {
           "date": "26/10",
           "home": "Real Madrid",
           "away": "Barcelona",
           "score": "2 - 1",
-          "status": ""
+          "status": "Fin"
         },
         {
           "date": "27/10",
           "home": "Real Betis",
           "away": "Atl\u00e9tico de Madrid",
           "score": "0 - 2",
-          "status": ""
+          "status": "Fin"
         }
       ],
       "Jornada 11": [
@@ -727,70 +727,70 @@
           "home": "Getafe",
           "away": "Girona",
           "score": "2 - 1",
-          "status": ""
+          "status": "Fin"
         },
         {
           "date": "01/11",
           "home": "Atl\u00e9tico de Madrid",
           "away": "Sevilla",
           "score": "3 - 0",
-          "status": ""
+          "status": "Fin"
         },
         {
           "date": "01/11",
           "home": "Real Madrid",
           "away": "Valencia CF",
           "score": "4 - 0",
-          "status": ""
+          "status": "Fin"
         },
         {
           "date": "01/11",
           "home": "Real Sociedad",
           "away": "Athletic Club",
           "score": "3 - 2",
-          "status": ""
+          "status": "Fin"
         },
         {
           "date": "01/11",
           "home": "Villarreal",
           "away": "Rayo Vallecano",
           "score": "4 - 0",
-          "status": ""
+          "status": "Fin"
         },
         {
           "date": "02/11",
           "home": "Alav\u00e9s",
           "away": "Espanyol",
           "score": "2 - 1",
-          "status": ""
+          "status": "Fin"
         },
         {
           "date": "02/11",
           "home": "Barcelona",
           "away": "Elche",
           "score": "3 - 1",
-          "status": ""
+          "status": "Fin"
         },
         {
           "date": "02/11",
           "home": "Levante",
           "away": "Celta de Vigo",
           "score": "1 - 2",
-          "status": ""
+          "status": "Fin"
         },
         {
           "date": "02/11",
           "home": "Real Betis",
           "away": "Mallorca",
           "score": "3 - 0",
-          "status": ""
+          "status": "Fin"
         },
         {
           "date": "03/11",
           "home": "Real Oviedo",
           "away": "Osasuna",
           "score": "0 - 0",
-          "status": ""
+          "status": "Fin"
         }
       ],
       "Jornada 12": [
@@ -799,70 +799,70 @@
           "home": "Elche",
           "away": "Real Sociedad",
           "score": "1 - 1",
-          "status": ""
+          "status": "Fin"
         },
         {
           "date": "08/11",
           "home": "Atl\u00e9tico de Madrid",
           "away": "Levante",
           "score": "3 - 1",
-          "status": ""
+          "status": "Fin"
         },
         {
           "date": "08/11",
           "home": "Espanyol",
           "away": "Villarreal",
           "score": "0 - 2",
-          "status": ""
+          "status": "Fin"
         },
         {
           "date": "08/11",
           "home": "Girona",
           "away": "Alav\u00e9s",
           "score": "1 - 0",
-          "status": ""
+          "status": "Fin"
         },
         {
           "date": "08/11",
           "home": "Sevilla",
           "away": "Osasuna",
           "score": "1 - 0",
-          "status": ""
+          "status": "Fin"
         },
         {
           "date": "09/11",
           "home": "Athletic Club",
           "away": "Real Oviedo",
           "score": "1 - 0",
-          "status": ""
+          "status": "Fin"
         },
         {
           "date": "09/11",
           "home": "Celta de Vigo",
           "away": "Barcelona",
           "score": "2 - 4",
-          "status": ""
+          "status": "Fin"
         },
         {
           "date": "09/11",
           "home": "Mallorca",
           "away": "Getafe",
           "score": "1 - 0",
-          "status": ""
+          "status": "Fin"
         },
         {
           "date": "09/11",
           "home": "Rayo Vallecano",
           "away": "Real Madrid",
           "score": "0 - 0",
-          "status": ""
+          "status": "Fin"
         },
         {
           "date": "09/11",
           "home": "Valencia CF",
           "away": "Real Betis",
           "score": "1 - 1",
-          "status": ""
+          "status": "Fin"
         }
       ],
       "Jornada 13": [
@@ -871,70 +871,70 @@
           "home": "Valencia CF",
           "away": "Levante",
           "score": "1 - 0",
-          "status": ""
+          "status": "Fin"
         },
         {
           "date": "22/11",
           "home": "Alav\u00e9s",
           "away": "Celta de Vigo",
           "score": "0 - 1",
-          "status": ""
+          "status": "Fin"
         },
         {
           "date": "22/11",
           "home": "Barcelona",
           "away": "Athletic Club",
           "score": "4 - 0",
-          "status": ""
+          "status": "Fin"
         },
         {
           "date": "22/11",
           "home": "Osasuna",
           "away": "Real Sociedad",
           "score": "1 - 3",
-          "status": ""
+          "status": "Fin"
         },
         {
           "date": "22/11",
           "home": "Villarreal",
           "away": "Mallorca",
           "score": "2 - 1",
-          "status": ""
+          "status": "Fin"
         },
         {
           "date": "23/11",
           "home": "Elche",
           "away": "Real Madrid",
           "score": "2 - 2",
-          "status": ""
+          "status": "Fin"
         },
         {
           "date": "23/11",
           "home": "Getafe",
           "away": "Atl\u00e9tico de Madrid",
           "score": "0 - 1",
-          "status": ""
+          "status": "Fin"
         },
         {
           "date": "23/11",
           "home": "Real Betis",
           "away": "Girona",
           "score": "1 - 1",
-          "status": ""
+          "status": "Fin"
         },
         {
           "date": "23/11",
           "home": "Real Oviedo",
           "away": "Rayo Vallecano",
           "score": "0 - 0",
-          "status": ""
+          "status": "Fin"
         },
         {
           "date": "24/11",
           "home": "Espanyol",
           "away": "Sevilla",
           "score": "2 - 1",
-          "status": ""
+          "status": "Fin"
         }
       ],
       "Jornada 14": [
@@ -943,70 +943,70 @@
           "home": "Getafe",
           "away": "Elche",
           "score": "1 - 0",
-          "status": ""
+          "status": "Fin"
         },
         {
           "date": "29/11",
           "home": "Atl\u00e9tico de Madrid",
           "away": "Real Oviedo",
           "score": "2 - 0",
-          "status": ""
+          "status": "Fin"
         },
         {
           "date": "29/11",
           "home": "Barcelona",
           "away": "Alav\u00e9s",
           "score": "3 - 1",
-          "status": ""
+          "status": "Fin"
         },
         {
           "date": "29/11",
           "home": "Levante",
           "away": "Athletic Club",
           "score": "0 - 2",
-          "status": ""
+          "status": "Fin"
         },
         {
           "date": "29/11",
           "home": "Mallorca",
           "away": "Osasuna",
           "score": "2 - 2",
-          "status": ""
+          "status": "Fin"
         },
         {
           "date": "30/11",
           "home": "Celta de Vigo",
           "away": "Espanyol",
           "score": "0 - 1",
-          "status": ""
+          "status": "Fin"
         },
         {
           "date": "30/11",
           "home": "Girona",
           "away": "Real Madrid",
           "score": "1 - 1",
-          "status": ""
+          "status": "Fin"
         },
         {
           "date": "30/11",
           "home": "Real Sociedad",
           "away": "Villarreal",
           "score": "2 - 3",
-          "status": ""
+          "status": "Fin"
         },
         {
           "date": "30/11",
           "home": "Sevilla",
           "away": "Real Betis",
           "score": "0 - 2",
-          "status": ""
+          "status": "Fin"
         },
         {
           "date": "01/12",
           "home": "Rayo Vallecano",
           "away": "Valencia CF",
           "score": "1 - 1",
-          "status": ""
+          "status": "Fin"
         }
       ],
       "Jornada 15": [
@@ -1015,70 +1015,70 @@
           "home": "Real Oviedo",
           "away": "Mallorca",
           "score": "0 - 0",
-          "status": ""
+          "status": "Fin"
         },
         {
           "date": "06/12",
           "home": "Alav\u00e9s",
           "away": "Real Sociedad",
           "score": "1 - 0",
-          "status": ""
+          "status": "Fin"
         },
         {
           "date": "06/12",
           "home": "Athletic Club",
           "away": "Atl\u00e9tico de Madrid",
           "score": "1 - 0",
-          "status": ""
+          "status": "Fin"
         },
         {
           "date": "06/12",
           "home": "Real Betis",
           "away": "Barcelona",
           "score": "3 - 5",
-          "status": ""
+          "status": "Fin"
         },
         {
           "date": "06/12",
           "home": "Villarreal",
           "away": "Getafe",
           "score": "2 - 0",
-          "status": ""
+          "status": "Fin"
         },
         {
           "date": "07/12",
           "home": "Elche",
           "away": "Girona",
           "score": "3 - 0",
-          "status": ""
+          "status": "Fin"
         },
         {
           "date": "07/12",
           "home": "Espanyol",
           "away": "Rayo Vallecano",
           "score": "1 - 0",
-          "status": ""
+          "status": "Fin"
         },
         {
           "date": "07/12",
           "home": "Real Madrid",
           "away": "Celta de Vigo",
           "score": "0 - 2",
-          "status": ""
+          "status": "Fin"
         },
         {
           "date": "07/12",
           "home": "Valencia CF",
           "away": "Sevilla",
           "score": "1 - 1",
-          "status": ""
+          "status": "Fin"
         },
         {
           "date": "08/12",
           "home": "Osasuna",
           "away": "Levante",
           "score": "2 - 0",
-          "status": ""
+          "status": "Fin"
         }
       ],
       "Jornada 16": [
@@ -1087,49 +1087,49 @@
           "home": "Real Sociedad",
           "away": "Girona",
           "score": "1 - 2",
-          "status": ""
+          "status": "Fin"
         },
         {
           "date": "13/12",
           "home": "Atl\u00e9tico de Madrid",
           "away": "Valencia CF",
           "score": "2 - 1",
-          "status": ""
+          "status": "Fin"
         },
         {
           "date": "13/12",
           "home": "Barcelona",
           "away": "Osasuna",
           "score": "2 - 0",
-          "status": ""
+          "status": "Fin"
         },
         {
           "date": "13/12",
           "home": "Getafe",
           "away": "Espanyol",
           "score": "0 - 1",
-          "status": ""
+          "status": "Fin"
         },
         {
           "date": "13/12",
           "home": "Mallorca",
           "away": "Elche",
           "score": "3 - 1",
-          "status": ""
+          "status": "Fin"
         },
         {
           "date": "14/12",
           "home": "Alav\u00e9s",
           "away": "Real Madrid",
           "score": "1 - 2",
-          "status": ""
+          "status": "Fin"
         },
         {
           "date": "14/12",
           "home": "Celta de Vigo",
           "away": "Athletic Club",
           "score": "2 - 0",
-          "status": ""
+          "status": "Fin"
         },
         {
           "date": "14/12",
@@ -1143,14 +1143,14 @@
           "home": "Sevilla",
           "away": "Real Oviedo",
           "score": "4 - 0",
-          "status": ""
+          "status": "Fin"
         },
         {
           "date": "15/12",
           "home": "Rayo Vallecano",
           "away": "Real Betis",
           "score": "0 - 0",
-          "status": ""
+          "status": "Fin"
         }
       ],
       "Jornada 17": [
@@ -1159,70 +1159,70 @@
           "home": "Valencia CF",
           "away": "Mallorca",
           "score": "1 - 1",
-          "status": ""
+          "status": "Fin"
         },
         {
           "date": "20/12",
           "home": "Levante",
           "away": "Real Sociedad",
           "score": "1 - 1",
-          "status": ""
+          "status": "Fin"
         },
         {
           "date": "20/12",
           "home": "Osasuna",
           "away": "Alav\u00e9s",
           "score": "3 - 0",
-          "status": ""
+          "status": "Fin"
         },
         {
           "date": "20/12",
           "home": "Real Madrid",
           "away": "Sevilla",
           "score": "2 - 0",
-          "status": ""
+          "status": "Fin"
         },
         {
           "date": "20/12",
           "home": "Real Oviedo",
           "away": "Celta de Vigo",
           "score": "0 - 0",
-          "status": ""
+          "status": "Fin"
         },
         {
           "date": "21/12",
           "home": "Elche",
           "away": "Rayo Vallecano",
           "score": "4 - 0",
-          "status": ""
+          "status": "Fin"
         },
         {
           "date": "21/12",
           "home": "Girona",
           "away": "Atl\u00e9tico de Madrid",
           "score": "0 - 3",
-          "status": ""
+          "status": "Fin"
         },
         {
           "date": "21/12",
           "home": "Real Betis",
           "away": "Getafe",
           "score": "4 - 0",
-          "status": ""
+          "status": "Fin"
         },
         {
           "date": "21/12",
           "home": "Villarreal",
           "away": "Barcelona",
           "score": "0 - 2",
-          "status": ""
+          "status": "Fin"
         },
         {
           "date": "22/12",
           "home": "Athletic Club",
           "away": "Espanyol",
           "score": "1 - 2",
-          "status": ""
+          "status": "Fin"
         }
       ],
       "Jornada 18": [
@@ -1231,70 +1231,70 @@
           "home": "Rayo Vallecano",
           "away": "Getafe",
           "score": "1 - 1",
-          "status": ""
+          "status": "Fin"
         },
         {
           "date": "03/01",
           "home": "Celta de Vigo",
           "away": "Valencia CF",
           "score": "4 - 1",
-          "status": ""
+          "status": "Fin"
         },
         {
           "date": "03/01",
           "home": "Elche",
           "away": "Villarreal",
           "score": "1 - 3",
-          "status": ""
+          "status": "Fin"
         },
         {
           "date": "03/01",
           "home": "Espanyol",
           "away": "Barcelona",
           "score": "0 - 2",
-          "status": ""
+          "status": "Fin"
         },
         {
           "date": "03/01",
           "home": "Osasuna",
           "away": "Athletic Club",
           "score": "1 - 1",
-          "status": ""
+          "status": "Fin"
         },
         {
           "date": "04/01",
           "home": "Alav\u00e9s",
           "away": "Real Oviedo",
           "score": "1 - 1",
-          "status": ""
+          "status": "Fin"
         },
         {
           "date": "04/01",
           "home": "Mallorca",
           "away": "Girona",
           "score": "1 - 2",
-          "status": ""
+          "status": "Fin"
         },
         {
           "date": "04/01",
           "home": "Real Madrid",
           "away": "Real Betis",
           "score": "5 - 1",
-          "status": ""
+          "status": "Fin"
         },
         {
           "date": "04/01",
           "home": "Real Sociedad",
           "away": "Atl\u00e9tico de Madrid",
           "score": "1 - 1",
-          "status": ""
+          "status": "Fin"
         },
         {
           "date": "04/01",
           "home": "Sevilla",
           "away": "Levante",
           "score": "0 - 3",
-          "status": ""
+          "status": "Fin"
         }
       ],
       "Jornada 19 (Actual)": [
@@ -1303,21 +1303,21 @@
           "home": "Getafe",
           "away": "Real Sociedad",
           "score": "1 - 2",
-          "status": ""
+          "status": "Fin"
         },
         {
           "date": "10/01",
           "home": "Girona",
           "away": "Osasuna",
-          "score": "vs",
-          "status": ""
+          "score": "1 - 0",
+          "status": "Fin"
         },
         {
           "date": "10/01",
           "home": "Real Oviedo",
           "away": "Real Betis",
-          "score": "0 - 0",
-          "status": ""
+          "score": "1 - 1",
+          "status": "Fin"
         },
         {
           "date": "10/01",
@@ -1330,8 +1330,8 @@
           "date": "10/01",
           "home": "Villarreal",
           "away": "Alav\u00e9s",
-          "score": "vs",
-          "status": ""
+          "score": "3 - 1",
+          "status": "Fin"
         },
         {
           "date": "11/01",
@@ -1359,14 +1359,14 @@
           "home": "Barcelona",
           "away": "Atl\u00e9tico de Madrid",
           "score": "3 - 1",
-          "status": ""
+          "status": "Fin"
         },
         {
           "date": "03/12",
           "home": "Athletic Club",
           "away": "Real Madrid",
           "score": "0 - 3",
-          "status": ""
+          "status": "Fin"
         }
       ],
       "Jornada 20": [
@@ -3777,126 +3777,126 @@
           "home": "Estrella Roja",
           "away": "Celtic",
           "score": "1 - 1",
-          "status": ""
+          "status": "Fin"
         },
         {
           "date": "24/09",
           "home": "Dinamo Zagreb",
           "away": "Fenerbah\u00e7e",
           "score": "3 - 1",
-          "status": ""
+          "status": "Fin"
         },
         {
           "date": "24/09",
           "home": "FC Midtjylland",
           "away": "Sturm Graz",
           "score": "2 - 0",
-          "status": ""
+          "status": "Fin"
         },
         {
           "date": "24/09",
           "home": "Malm\u00f6 FF",
           "away": "Ludogorets Razgrad",
           "score": "1 - 2",
-          "status": ""
+          "status": "Fin"
         },
         {
           "date": "24/09",
           "home": "Nice",
           "away": "Roma",
           "score": "1 - 2",
-          "status": ""
+          "status": "Fin"
         },
         {
           "date": "24/09",
           "home": "PAOK Salonika",
           "away": "Maccabi Tel Aviv",
           "score": "0 - 0",
-          "status": ""
+          "status": "Fin"
         },
         {
           "date": "24/09",
           "home": "Real Betis",
           "away": "Nottingham Forest",
           "score": "2 - 2",
-          "status": ""
+          "status": "Fin"
         },
         {
           "date": "24/09",
           "home": "Sport-Club Freiburg",
           "away": "Basel",
           "score": "2 - 1",
-          "status": ""
+          "status": "Fin"
         },
         {
           "date": "24/09",
           "home": "Sporting Braga",
           "away": "Feyenoord",
           "score": "1 - 0",
-          "status": ""
+          "status": "Fin"
         },
         {
           "date": "25/09",
           "home": "Aston Villa",
           "away": "Bolonia",
           "score": "1 - 0",
-          "status": ""
+          "status": "Fin"
         },
         {
           "date": "25/09",
           "home": "RB Salzburgo",
           "away": "FC Porto",
           "score": "0 - 1",
-          "status": ""
+          "status": "Fin"
         },
         {
           "date": "25/09",
           "home": "FC Utrecht",
           "away": "Lyon",
           "score": "0 - 1",
-          "status": ""
+          "status": "Fin"
         },
         {
           "date": "25/09",
           "home": "Ferencv\u00e1rosi TC",
           "away": "Viktoria Plzen",
           "score": "1 - 1",
-          "status": ""
+          "status": "Fin"
         },
         {
           "date": "25/09",
           "home": "Go Ahead Eagles",
           "away": "FCSB",
           "score": "0 - 1",
-          "status": ""
+          "status": "Fin"
         },
         {
           "date": "25/09",
           "home": "Lille",
           "away": "Brann",
           "score": "2 - 1",
-          "status": ""
+          "status": "Fin"
         },
         {
           "date": "25/09",
           "home": "Rangers",
           "away": "KRC Genk",
           "score": "0 - 1",
-          "status": ""
+          "status": "Fin"
         },
         {
           "date": "25/09",
           "home": "Stuttgart",
           "away": "Celta de Vigo",
           "score": "2 - 1",
-          "status": ""
+          "status": "Fin"
         },
         {
           "date": "25/09",
           "home": "Young Boys",
           "away": "Panathinaikos",
           "score": "1 - 4",
-          "status": ""
+          "status": "Fin"
         }
       ],
       "Jornada 2": [
@@ -3905,126 +3905,126 @@
           "home": "Basel",
           "away": "Stuttgart",
           "score": "2 - 0",
-          "status": ""
+          "status": "Fin"
         },
         {
           "date": "02/10",
           "home": "Bolonia",
           "away": "Sport-Club Freiburg",
           "score": "1 - 1",
-          "status": ""
+          "status": "Fin"
         },
         {
           "date": "02/10",
           "home": "Brann",
           "away": "FC Utrecht",
           "score": "1 - 0",
-          "status": ""
+          "status": "Fin"
         },
         {
           "date": "02/10",
           "home": "Celta de Vigo",
           "away": "PAOK Salonika",
           "score": "3 - 1",
-          "status": ""
+          "status": "Fin"
         },
         {
           "date": "02/10",
           "home": "Celtic",
           "away": "Sporting Braga",
           "score": "0 - 2",
-          "status": ""
+          "status": "Fin"
         },
         {
           "date": "02/10",
           "home": "FC Porto",
           "away": "Estrella Roja",
           "score": "2 - 1",
-          "status": ""
+          "status": "Fin"
         },
         {
           "date": "02/10",
           "home": "FCSB",
           "away": "Young Boys",
           "score": "0 - 2",
-          "status": ""
+          "status": "Fin"
         },
         {
           "date": "02/10",
           "home": "Fenerbah\u00e7e",
           "away": "Nice",
           "score": "2 - 1",
-          "status": ""
+          "status": "Fin"
         },
         {
           "date": "02/10",
           "home": "Feyenoord",
           "away": "Aston Villa",
           "score": "0 - 2",
-          "status": ""
+          "status": "Fin"
         },
         {
           "date": "02/10",
           "home": "KRC Genk",
           "away": "Ferencv\u00e1rosi TC",
           "score": "0 - 1",
-          "status": ""
+          "status": "Fin"
         },
         {
           "date": "02/10",
           "home": "Ludogorets Razgrad",
           "away": "Real Betis",
           "score": "0 - 2",
-          "status": ""
+          "status": "Fin"
         },
         {
           "date": "02/10",
           "home": "Lyon",
           "away": "RB Salzburgo",
           "score": "2 - 0",
-          "status": ""
+          "status": "Fin"
         },
         {
           "date": "02/10",
           "home": "Maccabi Tel Aviv",
           "away": "Dinamo Zagreb",
           "score": "1 - 3",
-          "status": ""
+          "status": "Fin"
         },
         {
           "date": "02/10",
           "home": "Nottingham Forest",
           "away": "FC Midtjylland",
           "score": "2 - 3",
-          "status": ""
+          "status": "Fin"
         },
         {
           "date": "02/10",
           "home": "Panathinaikos",
           "away": "Go Ahead Eagles",
           "score": "1 - 2",
-          "status": ""
+          "status": "Fin"
         },
         {
           "date": "02/10",
           "home": "Roma",
           "away": "Lille",
           "score": "0 - 1",
-          "status": ""
+          "status": "Fin"
         },
         {
           "date": "02/10",
           "home": "Sturm Graz",
           "away": "Rangers",
           "score": "2 - 1",
-          "status": ""
+          "status": "Fin"
         },
         {
           "date": "02/10",
           "home": "Viktoria Plzen",
           "away": "Malm\u00f6 FF",
           "score": "3 - 0",
-          "status": ""
+          "status": "Fin"
         }
       ],
       "Jornada 3": [
@@ -4033,126 +4033,126 @@
           "home": "Brann",
           "away": "Rangers",
           "score": "3 - 0",
-          "status": ""
+          "status": "Fin"
         },
         {
           "date": "23/10",
           "home": "Celta de Vigo",
           "away": "Nice",
           "score": "2 - 1",
-          "status": ""
+          "status": "Fin"
         },
         {
           "date": "23/10",
           "home": "Celtic",
           "away": "Sturm Graz",
           "score": "2 - 1",
-          "status": ""
+          "status": "Fin"
         },
         {
           "date": "23/10",
           "home": "RB Salzburgo",
           "away": "Ferencv\u00e1rosi TC",
           "score": "2 - 3",
-          "status": ""
+          "status": "Fin"
         },
         {
           "date": "23/10",
           "home": "FCSB",
           "away": "Bolonia",
           "score": "1 - 2",
-          "status": ""
+          "status": "Fin"
         },
         {
           "date": "23/10",
           "home": "Fenerbah\u00e7e",
           "away": "Stuttgart",
           "score": "1 - 0",
-          "status": ""
+          "status": "Fin"
         },
         {
           "date": "23/10",
           "home": "Feyenoord",
           "away": "Panathinaikos",
           "score": "3 - 1",
-          "status": ""
+          "status": "Fin"
         },
         {
           "date": "23/10",
           "home": "KRC Genk",
           "away": "Real Betis",
           "score": "0 - 0",
-          "status": ""
+          "status": "Fin"
         },
         {
           "date": "23/10",
           "home": "Go Ahead Eagles",
           "away": "Aston Villa",
           "score": "2 - 1",
-          "status": ""
+          "status": "Fin"
         },
         {
           "date": "23/10",
           "home": "Lille",
           "away": "PAOK Salonika",
           "score": "3 - 4",
-          "status": ""
+          "status": "Fin"
         },
         {
           "date": "23/10",
           "home": "Lyon",
           "away": "Basel",
           "score": "2 - 0",
-          "status": ""
+          "status": "Fin"
         },
         {
           "date": "23/10",
           "home": "Maccabi Tel Aviv",
           "away": "FC Midtjylland",
           "score": "0 - 3",
-          "status": ""
+          "status": "Fin"
         },
         {
           "date": "23/10",
           "home": "Malm\u00f6 FF",
           "away": "Dinamo Zagreb",
           "score": "1 - 1",
-          "status": ""
+          "status": "Fin"
         },
         {
           "date": "23/10",
           "home": "Nottingham Forest",
           "away": "FC Porto",
           "score": "2 - 0",
-          "status": ""
+          "status": "Fin"
         },
         {
           "date": "23/10",
           "home": "Roma",
           "away": "Viktoria Plzen",
           "score": "1 - 2",
-          "status": ""
+          "status": "Fin"
         },
         {
           "date": "23/10",
           "home": "Sport-Club Freiburg",
           "away": "FC Utrecht",
           "score": "2 - 0",
-          "status": ""
+          "status": "Fin"
         },
         {
           "date": "23/10",
           "home": "Sporting Braga",
           "away": "Estrella Roja",
           "score": "2 - 0",
-          "status": ""
+          "status": "Fin"
         },
         {
           "date": "23/10",
           "home": "Young Boys",
           "away": "Ludogorets Razgrad",
           "score": "3 - 2",
-          "status": ""
+          "status": "Fin"
         }
       ],
       "Jornada 4": [
@@ -4161,126 +4161,126 @@
           "home": "Aston Villa",
           "away": "Maccabi Tel Aviv",
           "score": "2 - 0",
-          "status": ""
+          "status": "Fin"
         },
         {
           "date": "06/11",
           "home": "Basel",
           "away": "FCSB",
           "score": "3 - 1",
-          "status": ""
+          "status": "Fin"
         },
         {
           "date": "06/11",
           "home": "Bolonia",
           "away": "Brann",
           "score": "0 - 0",
-          "status": ""
+          "status": "Fin"
         },
         {
           "date": "06/11",
           "home": "Estrella Roja",
           "away": "Lille",
           "score": "1 - 0",
-          "status": ""
+          "status": "Fin"
         },
         {
           "date": "06/11",
           "home": "Dinamo Zagreb",
           "away": "Celta de Vigo",
           "score": "0 - 3",
-          "status": ""
+          "status": "Fin"
         },
         {
           "date": "06/11",
           "home": "FC Midtjylland",
           "away": "Celtic",
           "score": "3 - 1",
-          "status": ""
+          "status": "Fin"
         },
         {
           "date": "06/11",
           "home": "RB Salzburgo",
           "away": "Go Ahead Eagles",
           "score": "2 - 0",
-          "status": ""
+          "status": "Fin"
         },
         {
           "date": "06/11",
           "home": "FC Utrecht",
           "away": "FC Porto",
           "score": "1 - 1",
-          "status": ""
+          "status": "Fin"
         },
         {
           "date": "06/11",
           "home": "Ferencv\u00e1rosi TC",
           "away": "Ludogorets Razgrad",
           "score": "3 - 1",
-          "status": ""
+          "status": "Fin"
         },
         {
           "date": "06/11",
           "home": "Malm\u00f6 FF",
           "away": "Panathinaikos",
           "score": "0 - 1",
-          "status": ""
+          "status": "Fin"
         },
         {
           "date": "06/11",
           "home": "Nice",
           "away": "Sport-Club Freiburg",
           "score": "1 - 3",
-          "status": ""
+          "status": "Fin"
         },
         {
           "date": "06/11",
           "home": "PAOK Salonika",
           "away": "Young Boys",
           "score": "4 - 0",
-          "status": ""
+          "status": "Fin"
         },
         {
           "date": "06/11",
           "home": "Rangers",
           "away": "Roma",
           "score": "0 - 2",
-          "status": ""
+          "status": "Fin"
         },
         {
           "date": "06/11",
           "home": "Real Betis",
           "away": "Lyon",
           "score": "2 - 0",
-          "status": ""
+          "status": "Fin"
         },
         {
           "date": "06/11",
           "home": "Sturm Graz",
           "away": "Nottingham Forest",
           "score": "0 - 0",
-          "status": ""
+          "status": "Fin"
         },
         {
           "date": "06/11",
           "home": "Sporting Braga",
           "away": "KRC Genk",
           "score": "3 - 4",
-          "status": ""
+          "status": "Fin"
         },
         {
           "date": "06/11",
           "home": "Stuttgart",
           "away": "Feyenoord",
           "score": "2 - 0",
-          "status": ""
+          "status": "Fin"
         },
         {
           "date": "06/11",
           "home": "Viktoria Plzen",
           "away": "Fenerbah\u00e7e",
           "score": "0 - 0",
-          "status": ""
+          "status": "Fin"
         }
       ],
       "Jornada 5": [
@@ -4289,126 +4289,126 @@
           "home": "Aston Villa",
           "away": "Young Boys",
           "score": "2 - 1",
-          "status": ""
+          "status": "Fin"
         },
         {
           "date": "27/11",
           "home": "Bolonia",
           "away": "RB Salzburgo",
           "score": "4 - 1",
-          "status": ""
+          "status": "Fin"
         },
         {
           "date": "27/11",
           "home": "Estrella Roja",
           "away": "FCSB",
           "score": "1 - 0",
-          "status": ""
+          "status": "Fin"
         },
         {
           "date": "27/11",
           "home": "FC Porto",
           "away": "Nice",
           "score": "3 - 0",
-          "status": ""
+          "status": "Fin"
         },
         {
           "date": "27/11",
           "home": "Fenerbah\u00e7e",
           "away": "Ferencv\u00e1rosi TC",
           "score": "1 - 1",
-          "status": ""
+          "status": "Fin"
         },
         {
           "date": "27/11",
           "home": "Feyenoord",
           "away": "Celtic",
           "score": "1 - 3",
-          "status": ""
+          "status": "Fin"
         },
         {
           "date": "27/11",
           "home": "KRC Genk",
           "away": "Basel",
           "score": "2 - 1",
-          "status": ""
+          "status": "Fin"
         },
         {
           "date": "27/11",
           "home": "Go Ahead Eagles",
           "away": "Stuttgart",
           "score": "0 - 4",
-          "status": ""
+          "status": "Fin"
         },
         {
           "date": "27/11",
           "home": "Lille",
           "away": "Dinamo Zagreb",
           "score": "4 - 0",
-          "status": ""
+          "status": "Fin"
         },
         {
           "date": "27/11",
           "home": "Ludogorets Razgrad",
           "away": "Celta de Vigo",
           "score": "3 - 2",
-          "status": ""
+          "status": "Fin"
         },
         {
           "date": "27/11",
           "home": "Maccabi Tel Aviv",
           "away": "Lyon",
           "score": "0 - 6",
-          "status": ""
+          "status": "Fin"
         },
         {
           "date": "27/11",
           "home": "Nottingham Forest",
           "away": "Malm\u00f6 FF",
           "score": "3 - 0",
-          "status": ""
+          "status": "Fin"
         },
         {
           "date": "27/11",
           "home": "PAOK Salonika",
           "away": "Brann",
           "score": "1 - 1",
-          "status": ""
+          "status": "Fin"
         },
         {
           "date": "27/11",
           "home": "Panathinaikos",
           "away": "Sturm Graz",
           "score": "2 - 1",
-          "status": ""
+          "status": "Fin"
         },
         {
           "date": "27/11",
           "home": "Rangers",
           "away": "Sporting Braga",
           "score": "1 - 1",
-          "status": ""
+          "status": "Fin"
         },
         {
           "date": "27/11",
           "home": "Real Betis",
           "away": "FC Utrecht",
           "score": "2 - 1",
-          "status": ""
+          "status": "Fin"
         },
         {
           "date": "27/11",
           "home": "Roma",
           "away": "FC Midtjylland",
           "score": "2 - 1",
-          "status": ""
+          "status": "Fin"
         },
         {
           "date": "27/11",
           "home": "Viktoria Plzen",
           "away": "Sport-Club Freiburg",
           "score": "0 - 0",
-          "status": ""
+          "status": "Fin"
         }
       ],
       "Jornada 6": [
@@ -4417,126 +4417,126 @@
           "home": "Basel",
           "away": "Aston Villa",
           "score": "1 - 2",
-          "status": ""
+          "status": "Fin"
         },
         {
           "date": "11/12",
           "home": "Brann",
           "away": "Fenerbah\u00e7e",
           "score": "0 - 4",
-          "status": ""
+          "status": "Fin"
         },
         {
           "date": "11/12",
           "home": "Celta de Vigo",
           "away": "Bolonia",
           "score": "1 - 2",
-          "status": ""
+          "status": "Fin"
         },
         {
           "date": "11/12",
           "home": "Celtic",
           "away": "Roma",
           "score": "0 - 3",
-          "status": ""
+          "status": "Fin"
         },
         {
           "date": "11/12",
           "home": "Dinamo Zagreb",
           "away": "Real Betis",
           "score": "1 - 3",
-          "status": ""
+          "status": "Fin"
         },
         {
           "date": "11/12",
           "home": "FC Midtjylland",
           "away": "KRC Genk",
           "score": "1 - 0",
-          "status": ""
+          "status": "Fin"
         },
         {
           "date": "11/12",
           "home": "FC Porto",
           "away": "Malm\u00f6 FF",
           "score": "2 - 1",
-          "status": ""
+          "status": "Fin"
         },
         {
           "date": "11/12",
           "home": "FC Utrecht",
           "away": "Nottingham Forest",
           "score": "1 - 2",
-          "status": ""
+          "status": "Fin"
         },
         {
           "date": "11/12",
           "home": "FCSB",
           "away": "Feyenoord",
           "score": "4 - 3",
-          "status": ""
+          "status": "Fin"
         },
         {
           "date": "11/12",
           "home": "Ferencv\u00e1rosi TC",
           "away": "Rangers",
           "score": "2 - 1",
-          "status": ""
+          "status": "Fin"
         },
         {
           "date": "11/12",
           "home": "Ludogorets Razgrad",
           "away": "PAOK Salonika",
           "score": "3 - 3",
-          "status": ""
+          "status": "Fin"
         },
         {
           "date": "11/12",
           "home": "Lyon",
           "away": "Go Ahead Eagles",
           "score": "2 - 1",
-          "status": ""
+          "status": "Fin"
         },
         {
           "date": "11/12",
           "home": "Nice",
           "away": "Sporting Braga",
           "score": "0 - 1",
-          "status": ""
+          "status": "Fin"
         },
         {
           "date": "11/12",
           "home": "Panathinaikos",
           "away": "Viktoria Plzen",
           "score": "0 - 0",
-          "status": ""
+          "status": "Fin"
         },
         {
           "date": "11/12",
           "home": "Sport-Club Freiburg",
           "away": "RB Salzburgo",
           "score": "1 - 0",
-          "status": ""
+          "status": "Fin"
         },
         {
           "date": "11/12",
           "home": "Sturm Graz",
           "away": "Estrella Roja",
           "score": "0 - 1",
-          "status": ""
+          "status": "Fin"
         },
         {
           "date": "11/12",
           "home": "Stuttgart",
           "away": "Maccabi Tel Aviv",
           "score": "4 - 1",
-          "status": ""
+          "status": "Fin"
         },
         {
           "date": "11/12",
           "home": "Young Boys",
           "away": "Lille",
           "score": "1 - 0",
-          "status": ""
+          "status": "Fin"
         }
       ],
       "Jornada 7 (Actual)": [
