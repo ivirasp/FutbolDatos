@@ -46,7 +46,6 @@ def scrape_agenda():
         try:
             r = requests.get(url, headers=headers, timeout=15)
             soup = BeautifulSoup(r.content, 'html.parser')
-            # Buscamos el bloque <article class="match"> que nos pasaste
             articles = soup.find_all("article", class_="match")
             for art in articles:
                 name_tag = art.find("meta", itemprop="name")
@@ -58,7 +57,6 @@ def scrape_agenda():
                 dt = datetime.strptime(date_str, "%Y-%m-%dT%H:%M:%S")
                 ts = TZ_MADRID.localize(dt).timestamp()
 
-                # Canal: Buscamos el span con itemprop="name" dentro del bloque de canales
                 chan_span = art.find("span", itemprop="name")
                 channel = chan_span.get_text(strip=True) if chan_span else "TBD"
 
@@ -85,9 +83,8 @@ def scrape_standings():
             tables = soup.find_all('table')
             if not tables: continue
             
-            # Cogemos la tabla con más filas para asegurar que salen todos los equipos
             main_table = max(tables, key=lambda t: len(t.find_all('tr')))
-            rows = main_table.find_all('tr')[1:] # Saltamos la cabecera
+            rows = main_table.find_all('tr')[1:]
             
             league_data = []
             seen_teams = set()
@@ -105,7 +102,6 @@ def scrape_standings():
                 
                 tds = row.find_all('td')
                 if len(tds) < 7: continue
-                # Datos: Pts, PJ, PG, PE, PP, GF, GC
                 pts, pj, pg, pe, pp, gf, gc = [t.get_text(strip=True) for t in tds[:7]]
                 
                 try:
@@ -123,7 +119,7 @@ def scrape_standings():
     return data_map
 
 def scrape_results():
-    print("⚽ Extrayendo Resultados y detectando Jornada Actual...")
+    print("⚽ Extrayendo Resultados con Jornada (Actual)...")
     results_map = {}
     today = datetime.now(TZ_MADRID).date()
     
@@ -132,6 +128,7 @@ def scrape_results():
             r = requests.get(url, headers={'User-Agent': 'Mozilla/5.0'}, timeout=15)
             soup = BeautifulSoup(r.content, 'html.parser')
             temp_rounds = []
+            current_round_name = ""
             current_found = False
             
             for table in soup.find_all('table'):
@@ -139,7 +136,6 @@ def scrape_results():
                 orig_title = cap.find("h2").get_text(strip=True).replace("ª", "") if cap else "Jornada"
                 if any(kw in orig_title.upper() for kw in ["FIFA", "WOMEN"]): continue
                 
-                # Lógica de Jornada Actual por fechas
                 final_title = orig_title
                 if not current_found:
                     date_th = table.find("th", class_="textoizda")
@@ -148,9 +144,9 @@ def scrape_results():
                         dates = re.findall(r'(\d{4}-\d{2}-\d{2})', date_text)
                         if len(dates) == 2:
                             end_date = datetime.strptime(dates[1], "%Y-%m-%d").date()
-                            # Si hoy es anterior o igual a la fecha fin, es la actual
                             if today <= end_date:
-                                final_title = "Jornada Actual"
+                                final_title = f"{orig_title} (Actual)"
+                                current_round_name = final_title
                                 current_found = True
 
                 matches = []
@@ -169,13 +165,12 @@ def scrape_results():
             if temp_rounds:
                 results_map[name] = {
                     "rounds": {r["key"]: r["matches"] for r in temp_rounds},
-                    "current": "Jornada Actual" if current_found else temp_rounds[-1]["key"]
+                    "current": current_round_name if current_round_name else temp_rounds[-1]["key"]
                 }
         except: continue
     return results_map
 
 if __name__ == "__main__":
-    # Ejecución total
     agenda_data = scrape_agenda()
     with open(CALENDAR_FILE, 'w') as f: json.dump(agenda_data, f, indent=2)
     
@@ -184,4 +179,4 @@ if __name__ == "__main__":
     
     results_data = scrape_results()
     with open(RESULTS_FILE, 'w') as f: json.dump(results_data, f, indent=2)
-    print("🎉 Proceso finalizado con éxito.")
+    print("🎉 Proceso finalizado.")
