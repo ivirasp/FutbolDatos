@@ -34,7 +34,7 @@ URLS_RESULTS = [
     ("COPA", "https://www.superdeporte.es/deportes/futbol/copa-rey/calendario/")
 ]
 
-# --- 2. FUNCIONES ---
+# --- 2. FUNCIONES DE EXTRACCIÓN ---
 
 def scrape_agenda():
     print("🌍 Extrayendo Agenda...")
@@ -72,7 +72,7 @@ def scrape_agenda():
     return sorted(agenda, key=lambda x: x['start_ts'])
 
 def scrape_standings():
-    print("📊 Extrayendo Clasificaciones (20 equipos)...")
+    print("📊 Extrayendo Clasificaciones...")
     data_map = {}
     headers = {'User-Agent': 'Mozilla/5.0'}
     for name, url in URLS_STANDINGS.items():
@@ -112,7 +112,7 @@ def scrape_standings():
     return data_map
 
 def scrape_results():
-    print("⚽ Extrayendo Resultados (Buscando patrón 'Goles - Goles')...")
+    print("⚽ Extrayendo Resultados (Búsqueda por clases)...")
     results_map = {}
     today = datetime.now(TZ_MADRID).date()
     
@@ -125,12 +125,13 @@ def scrape_results():
             current_found = False
             
             for table in soup.find_all('table'):
-                # 1. Detectar Jornada
+                # 1. Nombre de la Jornada
                 cap = table.find("caption")
                 orig_title = cap.find("h2").get_text(strip=True).replace("ª", "") if cap else "Jornada"
                 if any(kw in orig_title.upper() for kw in ["FIFA", "WOMEN"]): continue
                 
                 final_title = orig_title
+                # 2. Identificar Jornada Actual
                 date_th = table.find("th", class_="textoizda")
                 if date_th and not current_found:
                     dates = re.findall(r'(\d{4}-\d{2}-\d{2})', date_th.get_text())
@@ -144,47 +145,58 @@ def scrape_results():
                 matches = []
                 for row in table.find_all('tr'):
                     tds = row.find_all('td')
-                    if len(tds) < 3: continue
+                    if not tds: continue
 
-                    # A. EXTRACCIÓN DE FECHA
+                    # A. EXTRACCIÓN DEL RESULTADO (Prioritaria)
+                    score = ""
+                    # 1. Buscar enlace o span con clase específica (Champions/Copa/LaLiga moderna)
+                    score_container = row.find('a', class_='geca_enlace_partido') or \
+                                      row.find('span', class_='celdagoles') or \
+                                      row.find('td', class_='resultado')
+                    
+                    if score_container:
+                        score = score_container.get_text(strip=True)
+                    else:
+                        # 2. Búsqueda manual: escanear celdas buscando patrón "N - N"
+                        for td in tds:
+                            txt = td.get_text(strip=True)
+                            # Si encontramos "numero - numero", es el marcador seguro
+                            if re.search(r'^\d+\s*-\s*\d+$', txt):
+                                score = txt
+                                break
+                    
+                    # Si después de todo score está vacío o es raro, marcamos "vs"
+                    if not score or ":" in score or "/" in score or score == "-":
+                        score = "vs"
+
+                    # B. EXTRACCIÓN DE FECHA
                     time_tag = row.find('time')
                     if time_tag:
-                        # Formato Champions/Copa
                         dt_s = time_tag.get('datetime', '').split('T')[0]
                         date_val = datetime.strptime(dt_s, "%Y-%m-%d").strftime("%d-%m-%Y")
                     else:
-                        # Formato LaLiga
-                        date_val = tds[0].get_text(strip=True)
+                        # Buscamos celda con formato fecha DD/MM o fecha completa
+                        date_val = ""
+                        for td in tds:
+                            txt = td.get_text(strip=True)
+                            if re.search(r'\d{2}/\d{2}', txt) or re.search(r'\d{2}-\d{2}', txt):
+                                date_val = txt
+                                break
+                        # Fallback: primera columna si no se encontró nada
+                        if not date_val: date_val = tds[0].get_text(strip=True)
 
-                    # B. EXTRACCIÓN DE EQUIPOS
+                    # C. EXTRACCIÓN DE EQUIPOS
                     team_links = row.find_all('a', class_='geca_enlace_equipo')
                     if len(team_links) >= 2:
                         home = team_links[0].get('title', team_links[0].get_text(strip=True))
                         away = team_links[1].get('title', team_links[1].get_text(strip=True))
-                    else:
+                    elif len(tds) >= 4:
+                        # Asumimos estructura estándar si no hay enlaces geca
+                        # Evitamos coger la columna que identificamos como fecha o score
                         home = tds[1].get_text(strip=True)
                         away = tds[3].get_text(strip=True)
-
-                    # C. EXTRACCIÓN DE MARCADOR (CRÍTICO)
-                    raw_score = ""
-                    # 1. Intentar enlace de partido (Champions/Copa)
-                    score_a = row.find('a', class_='geca_enlace_partido')
-                    if score_a:
-                        raw_score = score_a.get_text(strip=True)
-                    # 2. Intentar span celdagoles
-                    elif row.find('span', class_='celdagoles'):
-                        raw_score = row.find('span', class_='celdagoles').get_text(strip=True)
-                    # 3. Intentar columna central (LaLiga)
-                    elif len(tds) >= 3:
-                        raw_score = tds[2].get_text(strip=True)
-
-                    # D. VALIDACIÓN DEL MARCADOR
-                    # Buscamos explícitamente un patrón de "número - número"
-                    # Si lo encuentra, es un resultado finalizado. Si no, es "vs".
-                    if re.search(r'\d+\s*-\s*\d+', raw_score):
-                        score = raw_score
                     else:
-                        score = "vs"
+                        continue # Fila inválida
 
                     if home and away:
                         matches.append({
@@ -223,4 +235,4 @@ if __name__ == "__main__":
     with open(RESULTS_FILE, 'w') as f:
         json.dump(results_data, f, indent=2)
     
-    print("🎉 Datos generados (Resultados validados con regex).")
+    print("🎉 Datos generados (Búsqueda selectiva de marcador).")
