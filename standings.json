@@ -1,1 +1,468 @@
-{}
+{
+  "LALIGA": [
+    {
+      "rank": "1",
+      "team": "FC Barcelona",
+      "points": "49"
+    },
+    {
+      "rank": "2",
+      "team": "Real Madrid",
+      "points": "45"
+    },
+    {
+      "rank": "3",
+      "team": "Villarreal",
+      "points": "38"
+    },
+    {
+      "rank": "4",
+      "team": "Atl\u00e9tico de Madrid",
+      "points": "38"
+    },
+    {
+      "rank": "5",
+      "team": "Espanyol",
+      "points": "33"
+    },
+    {
+      "rank": "6",
+      "team": "Real Betis",
+      "points": "28"
+    },
+    {
+      "rank": "7",
+      "team": "Celta",
+      "points": "26"
+    },
+    {
+      "rank": "8",
+      "team": "Athletic",
+      "points": "24"
+    },
+    {
+      "rank": "9",
+      "team": "Elche",
+      "points": "22"
+    },
+    {
+      "rank": "10",
+      "team": "Real Sociedad",
+      "points": "21"
+    },
+    {
+      "rank": "11",
+      "team": "Getafe",
+      "points": "21"
+    },
+    {
+      "rank": "12",
+      "team": "Sevilla",
+      "points": "20"
+    },
+    {
+      "rank": "13",
+      "team": "Osasuna",
+      "points": "19"
+    },
+    {
+      "rank": "14",
+      "team": "Deportivo Alav\u00e9s",
+      "points": "19"
+    },
+    {
+      "rank": "15",
+      "team": "Rayo Vallecano",
+      "points": "19"
+    },
+    {
+      "rank": "16",
+      "team": "Mallorca",
+      "points": "18"
+    },
+    {
+      "rank": "17",
+      "team": "Girona FC",
+      "points": "18"
+    },
+    {
+      "rank": "18",
+      "team": "Valencia",
+      "points": "16"
+    },
+    {
+      "rank": "19",
+      "team": "Levante",
+      "points": "13"
+    },
+    {
+      "rank": "20",
+      "team": "Real Oviedo",
+      "points": "12"
+    }
+  ],
+  "CHAMPIONS": [
+    {
+      "rank": "1",
+      "team": "Arsenal",
+      "points": "18"
+    },
+    {
+      "rank": "2",
+      "team": "Bayern de Munich",
+      "points": "15"
+    },
+    {
+      "rank": "3",
+      "team": "PSG",
+      "points": "13"
+    },
+    {
+      "rank": "4",
+      "team": "Manchester City",
+      "points": "13"
+    },
+    {
+      "rank": "5",
+      "team": "Atalanta",
+      "points": "13"
+    },
+    {
+      "rank": "6",
+      "team": "Inter de Mil\u00e1n",
+      "points": "12"
+    },
+    {
+      "rank": "7",
+      "team": "Real Madrid",
+      "points": "12"
+    },
+    {
+      "rank": "8",
+      "team": "Atl\u00e9tico de Madrid",
+      "points": "12"
+    },
+    {
+      "rank": "9",
+      "team": "Liverpool",
+      "points": "12"
+    },
+    {
+      "rank": "10",
+      "team": "Borussia Dortmund",
+      "points": "11"
+    },
+    {
+      "rank": "11",
+      "team": "Tottenham",
+      "points": "11"
+    },
+    {
+      "rank": "12",
+      "team": "Newcastle",
+      "points": "10"
+    },
+    {
+      "rank": "13",
+      "team": "Chelsea",
+      "points": "10"
+    },
+    {
+      "rank": "14",
+      "team": "Sporting de Portugal",
+      "points": "10"
+    },
+    {
+      "rank": "15",
+      "team": "FC Barcelona",
+      "points": "10"
+    },
+    {
+      "rank": "16",
+      "team": "Olympique de Marsella",
+      "points": "9"
+    },
+    {
+      "rank": "17",
+      "team": "Juventus",
+      "points": "9"
+    },
+    {
+      "rank": "18",
+      "team": "Galatasaray",
+      "points": "9"
+    },
+    {
+      "rank": "19",
+      "team": "M\u00f3naco",
+      "points": "9"
+    },
+    {
+      "rank": "20",
+      "team": "Bayer Leverkusen",
+      "points": "9"
+    },
+    {
+      "rank": "21",
+      "team": "PSV",
+      "points": "8"
+    },
+    {
+      "rank": "22",
+      "team": "Qarabag",
+      "points": "7"
+    },
+    {
+      "rank": "23",
+      "team": "N\u00e1poles",
+      "points": "7"
+    },
+    {
+      "rank": "24",
+      "team": "Kobenhavn",
+      "points": "7"
+    },
+    {
+      "rank": "25",
+      "team": "Benfica",
+      "points": "6"
+    },
+    {
+      "rank": "26",
+      "team": "Pafos",
+      "points": "6"
+    },
+    {
+      "rank": "27",
+      "team": "Uni\u00f3n Saint-Gilloise",
+      "points": "6"
+    },
+    {
+      "rank": "28",
+      "team": "Athletic",
+      "points": "5"
+    },
+    {
+      "rank": "29",
+      "team": "Olympiacos",
+      "points": "5"
+    },
+    {
+      "rank": "30",
+      "team": "Eintracht de Frankfurt",
+      "points": "4"
+    },
+    {
+      "rank": "31",
+      "team": "Brujas",
+      "points": "4"
+    },
+    {
+      "rank": "32",
+      "team": "Bodo Glimt",
+      "points": "3"
+    },
+    {
+      "rank": "33",
+      "team": "Slavia de Praga",
+      "points": "3"
+    },
+    {
+      "rank": "34",
+      "team": "Ajax",
+      "points": "3"
+    },
+    {
+      "rank": "35",
+      "team": "Villarreal",
+      "points": "1"
+    },
+    {
+      "rank": "36",
+      "team": "Kairat Almaty",
+      "points": "1"
+    }
+  ],
+  "EUROPA": [
+    {
+      "rank": "1",
+      "team": "Olympique de Lyon",
+      "points": "15"
+    },
+    {
+      "rank": "2",
+      "team": "Midtjylland",
+      "points": "15"
+    },
+    {
+      "rank": "3",
+      "team": "Aston Villa",
+      "points": "15"
+    },
+    {
+      "rank": "4",
+      "team": "Real Betis",
+      "points": "14"
+    },
+    {
+      "rank": "5",
+      "team": "SC Friburgo",
+      "points": "14"
+    },
+    {
+      "rank": "6",
+      "team": "Ferencv\u00e1ros",
+      "points": "14"
+    },
+    {
+      "rank": "7",
+      "team": "Sporting de Braga",
+      "points": "13"
+    },
+    {
+      "rank": "8",
+      "team": "Oporto",
+      "points": "13"
+    },
+    {
+      "rank": "9",
+      "team": "Stuttgart",
+      "points": "12"
+    },
+    {
+      "rank": "10",
+      "team": "Roma",
+      "points": "12"
+    },
+    {
+      "rank": "11",
+      "team": "Nottingham Forest",
+      "points": "11"
+    },
+    {
+      "rank": "12",
+      "team": "Fenerbah\u00e7e",
+      "points": "11"
+    },
+    {
+      "rank": "13",
+      "team": "Bolonia",
+      "points": "11"
+    },
+    {
+      "rank": "14",
+      "team": "Viktoria Plzen",
+      "points": "10"
+    },
+    {
+      "rank": "15",
+      "team": "Panathinaikos",
+      "points": "10"
+    },
+    {
+      "rank": "16",
+      "team": "Genk",
+      "points": "10"
+    },
+    {
+      "rank": "17",
+      "team": "Estrella Roja de Belgrado",
+      "points": "10"
+    },
+    {
+      "rank": "18",
+      "team": "PAOK",
+      "points": "9"
+    },
+    {
+      "rank": "19",
+      "team": "Celta",
+      "points": "9"
+    },
+    {
+      "rank": "20",
+      "team": "Lille",
+      "points": "9"
+    },
+    {
+      "rank": "21",
+      "team": "Young Boys",
+      "points": "9"
+    },
+    {
+      "rank": "22",
+      "team": "SK Brann",
+      "points": "8"
+    },
+    {
+      "rank": "23",
+      "team": "Ludogorets",
+      "points": "7"
+    },
+    {
+      "rank": "24",
+      "team": "Celtic",
+      "points": "7"
+    },
+    {
+      "rank": "25",
+      "team": "Dinamo Zagreb",
+      "points": "7"
+    },
+    {
+      "rank": "26",
+      "team": "Basel",
+      "points": "6"
+    },
+    {
+      "rank": "27",
+      "team": "Steaua",
+      "points": "6"
+    },
+    {
+      "rank": "28",
+      "team": "Go Ahead Eagles",
+      "points": "6"
+    },
+    {
+      "rank": "29",
+      "team": "Sturm Graz",
+      "points": "4"
+    },
+    {
+      "rank": "30",
+      "team": "Feyenoord",
+      "points": "3"
+    },
+    {
+      "rank": "31",
+      "team": "Salzburgo",
+      "points": "3"
+    },
+    {
+      "rank": "32",
+      "team": "Utrecht",
+      "points": "1"
+    },
+    {
+      "rank": "33",
+      "team": "Rangers",
+      "points": "1"
+    },
+    {
+      "rank": "34",
+      "team": "Malm\u00f6 FF",
+      "points": "1"
+    },
+    {
+      "rank": "35",
+      "team": "Maccabi Tel Aviv",
+      "points": "1"
+    },
+    {
+      "rank": "36",
+      "team": "Niza",
+      "points": "0"
+    }
+  ]
+}
