@@ -5,7 +5,7 @@ import json
 import os
 import re
 import time
-from datetime import datetime, timedelta
+from datetime import datetime
 import pytz
 
 # --- CONFIGURACIÓN ---
@@ -14,73 +14,41 @@ CALENDAR_FILE = "calendar.json"
 STANDINGS_FILE = "standings.json"
 RESULTS_FILE = "results.json"
 
-# URLs de Origen
-TARGET_URLS_AGENDA = [
-    "https://www.futboltv.info/competicion/laliga",
-    "https://www.futboltv.info/competicion/champions-league",
-    "https://www.futboltv.info/competicion/europa-league",
-    "https://www.futboltv.info/competicion/copa-del-rey"
-]
-
 URLS_STANDINGS = {
     "LALIGA": "https://www.lavanguardia.com/deportes/resultados/laliga-primera-division/clasificacion",
     "CHAMPIONS": "https://www.lavanguardia.com/deportes/resultados/champions-league/clasificacion",
     "EUROPA": "https://www.lavanguardia.com/deportes/resultados/europa-league/clasificacion"
 }
 
-URLS_RESULTS = {
-    "LALIGA": "https://www.sport.es/resultados/futbol/primera-division/calendario-liga/",
-    "CHAMPIONS": "https://www.sport.es/resultados/futbol/champions-league/calendario/",
-    "EUROPA": "https://www.sport.es/resultados/futbol/europa-league/calendario-liga/",
-    "COPA": "https://www.superdeporte.es/deportes/futbol/copa-rey/calendario/"
-}
-
-# Reglas de Clasificación e Indicadores
-RULES = {
-    "LALIGA": { "champions": (1, 4), "europa": (5, 5), "conference": (6, 6), "relegation": (18, 20) },
-    "CHAMPIONS": { "knockout_direct": (1, 8), "playoff": (9, 24) },
-    "EUROPA": { "knockout_direct": (1, 8), "playoff": (9, 24) }
-}
-INDICATORS = {
-    "champions": "🟢 ", "europa": "🔵 ", "conference": "🟡 ", "relegation": "🔴 ", 
-    "knockout_direct": "✅ ", "playoff": "⚔️ ", "midtable": "⚫ "
-}
-
-def get_prefix(competition, rank_str):
-    """ Determina el emoji de estatus según la posición """
-    try:
-        rank = int(rank_str)
-        comp_rules = RULES.get(competition)
-        if not comp_rules: return INDICATORS["midtable"]
-        for status_name, (start, end) in comp_rules.items():
-            if start <= rank <= end: return INDICATORS.get(status_name, "")
-        return INDICATORS["midtable"]
-    except: return INDICATORS["midtable"]
+# (Mantén aquí tus listas TARGET_URLS_AGENDA y URLS_RESULTS igual que antes)
 
 def scrape_standings():
-    print("📊 Extrayendo Clasificaciones con precisión HTML...")
+    print("📊 Extrayendo Clasificaciones Completas...")
     data_map = {}
     headers = {'User-Agent': 'Mozilla/5.0'}
     for name, url in URLS_STANDINGS.items():
         try:
             r = requests.get(url, headers=headers, timeout=15)
             soup = BeautifulSoup(r.content, 'html.parser')
-            # Buscamos las filas de la tabla
-            rows = soup.find_all('tr', class_=lambda x: x and ('cha' in x or 'cla' in x or 'rel' in x))
+            
+            # Buscamos las filas basándonos en las clases que pusiste (cha, cla, rel)
+            rows = soup.find_all('tr', class_=lambda x: x and any(c in x for c in ['cha', 'cla', 'rel']))
             
             league_data = []
             for row in rows:
-                # 1. Extraer del <th> (Rango y Nombre)
                 th = row.find('th')
                 if not th: continue
-                rank = th.find('span', class_='classification-pos').get_text(strip=True)
-                team_name = th.find('h2', class_='nombre-equipo').get_text(strip=True)
                 
-                # 2. Extraer de los <td> (Stats)
+                # Nombre y Posición
+                rank = th.find('span', class_='classification-pos').get_text(strip=True)
+                team = th.find('h2', class_='nombre-equipo').get_text(strip=True)
+                
+                # Estadísticas (tds)
                 tds = row.find_all('td')
                 if len(tds) < 7: continue
                 
-                # Siguiendo tu código fuente:
+                # Mapeo según tu código fuente:
+                # tds[0] = Puntos, [1] = PJ, [2] = PG, [3] = PE, [4] = PP, [5] = GF, [6] = GC
                 pts = tds[0].get_text(strip=True)
                 pj  = tds[1].get_text(strip=True)
                 pg  = tds[2].get_text(strip=True)
@@ -89,17 +57,16 @@ def scrape_standings():
                 gf  = tds[5].get_text(strip=True)
                 gc  = tds[6].get_text(strip=True)
                 
-                # Calcular Diferencia de Goles (DG)
+                # Diferencia de Goles
                 try:
                     dg_val = int(gf) - int(gc)
                     dg = f"+{dg_val}" if dg_val > 0 else str(dg_val)
                 except: dg = "0"
 
-                prefix = get_prefix(name, rank)
-                
+                # MUY IMPORTANTE: Aquí es donde metemos todos los datos al JSON
                 league_data.append({
                     "rank": rank,
-                    "team": f"{prefix}{team_name}",
+                    "team": team,
                     "points": pts,
                     "played": pj,
                     "won": pg,
@@ -110,10 +77,11 @@ def scrape_standings():
                     "dg": dg
                 })
             
-            if league_data: 
+            if league_data:
                 data_map[name] = league_data
-                print(f"   ✅ {name} ok")
-        except Exception as e: print(f"Error en {name}: {e}")
+                print(f"   ✅ {name} procesado.")
+        except Exception as e:
+            print(f"   ❌ Error en {name}: {e}")
     return data_map
 
 def scrape_agenda():
