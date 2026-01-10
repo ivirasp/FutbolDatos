@@ -8,7 +8,7 @@ import time
 from datetime import datetime
 import pytz
 
-# --- CONFIGURACIÓN GLOBAL ---
+# --- 1. CONFIGURACIÓN GLOBAL ---
 TZ_MADRID = pytz.timezone('Europe/Madrid')
 CALENDAR_FILE = "calendar.json"
 STANDINGS_FILE = "standings.json"
@@ -29,13 +29,15 @@ URLS_STANDINGS = {
     "EUROPA": "https://www.lavanguardia.com/deportes/resultados/europa-league/clasificacion"
 }
 
-# URLs para Resultados (Orden solicitado: La liga, Champions, Europa y Copa)
+# URLs para Resultados (Orden solicitado: LALIGA, CHAMPIONS, EUROPA, COPA)
 URLS_RESULTS = [
     ("LALIGA", "https://www.sport.es/resultados/futbol/primera-division/calendario-liga/"),
     ("CHAMPIONS", "https://www.sport.es/resultados/futbol/champions-league/calendario/"),
     ("EUROPA", "https://www.sport.es/resultados/futbol/europa-league/calendario-liga/"),
     ("COPA", "https://www.superdeporte.es/deportes/futbol/copa-rey/calendario/")
 ]
+
+# --- 2. FUNCIONES DE EXTRACCIÓN ---
 
 def scrape_agenda():
     print("🌍 Extrayendo Agenda...")
@@ -46,6 +48,7 @@ def scrape_agenda():
         try:
             r = requests.get(url, headers=headers, timeout=15)
             soup = BeautifulSoup(r.content, 'html.parser')
+            # Bloque <article class="match">
             articles = soup.find_all("article", class_="match")
             for art in articles:
                 name_tag = art.find("meta", itemprop="name")
@@ -82,6 +85,7 @@ def scrape_standings():
             soup = BeautifulSoup(r.content, 'html.parser')
             tables = soup.find_all('table')
             if not tables: continue
+            
             main_table = max(tables, key=lambda t: len(t.find_all('tr')))
             rows = main_table.find_all('tr')[1:]
             
@@ -101,13 +105,12 @@ def scrape_standings():
                 
                 tds = row.find_all('td')
                 if len(tds) < 7: continue
+                # Pts, PJ, PG, PE, PP, GF, GC
                 pts, pj, pg, pe, pp, gf, gc = [t.get_text(strip=True) for t in tds[:7]]
-                
                 try:
                     dg_val = int(gf) - int(gc)
                     dg = f"+{dg_val}" if dg_val > 0 else str(dg_val)
                 except: dg = "0"
-
                 league_data.append({
                     "rank": rank, "team": team, "points": pts, 
                     "played": pj, "won": pg, "drawn": pe, "lost": pp,
@@ -118,7 +121,7 @@ def scrape_standings():
     return data_map
 
 def scrape_results():
-    print("⚽ Extrayendo Resultados y detectando Jornada Actual...")
+    print("⚽ Extrayendo Resultados (Híbrido LaLiga/Champions/Copa)...")
     results_map = {}
     today = datetime.now(TZ_MADRID).date()
     
@@ -131,51 +134,59 @@ def scrape_results():
             current_found = False
             
             for table in soup.find_all('table'):
+                # 1. Nombre de la Jornada
                 cap = table.find("caption")
                 orig_title = cap.find("h2").get_text(strip=True).replace("ª", "") if cap else "Jornada"
                 if any(kw in orig_title.upper() for kw in ["FIFA", "WOMEN"]): continue
                 
-                # Lógica de Jornada Actual por fechas
                 final_title = orig_title
-                if not current_found:
-                    date_th = table.find("th", class_="textoizda")
-                    if date_th:
-                        date_text = date_th.get_text(strip=True)
-                        dates = re.findall(r'(\d{4}-\d{2}-\d{2})', date_text)
-                        if len(dates) == 2:
-                            end_date = datetime.strptime(dates[1], "%Y-%m-%d").date()
-                            if today <= end_date:
-                                final_title = f"{orig_title} (Actual)"
-                                current_round_name = final_title
-                                current_found = True
+                # 2. Identificación de Jornada Actual
+                date_th = table.find("th", class_="textoizda")
+                if date_th and not current_found:
+                    dates = re.findall(r'(\d{4}-\d{2}-\d{2})', date_th.get_text())
+                    if len(dates) == 2:
+                        end_date = datetime.strptime(dates[1], "%Y-%m-%d").date()
+                        if today <= end_date:
+                            final_title = f"{orig_title} (Actual)"
+                            current_round_name = final_title
+                            current_found = True
 
                 matches = []
                 for row in table.find_all('tr'):
-                    # 1. Extraer Fecha (Prioridad etiqueta <time> para Champions/Copa)
+                    tds = row.find_all('td')
+                    if not tds: continue
+
+                    # --- LÓGICA HÍBRIDA DE EXTRACCIÓN ---
+                    
+                    # A. Intentar extraer Fecha
                     time_tag = row.find('time')
                     if time_tag:
-                        dt_str = time_tag.get('datetime', '').split('T')[0]
-                        date_val = datetime.strptime(dt_str, "%Y-%m-%d").strftime("%d-%m-%Y")
+                        dt_s = time_tag.get('datetime', '').split('T')[0]
+                        date_val = datetime.strptime(dt_s, "%Y-%m-%d").strftime("%d-%m-%Y")
                     else:
-                        tds_date = row.find_all('td')
-                        date_val = tds_date[0].get_text(strip=True) if tds_date else ""
+                        date_val = tds[0].get_text(strip=True)
 
-                    # 2. Extraer Equipos (Prioridad clases Champions/Copa)
-                    team_names = row.find_all('span', class_='geca_enlace_equipo__name')
-                    if len(team_names) >= 2:
-                        home = team_names[0].get_text(strip=True)
-                        away = team_names[1].get_text(strip=True)
-                    else:
-                        tds = row.find_all('td')
-                        if len(tds) < 4: continue
+                    # B. Intentar extraer Equipos
+                    team_spans = row.find_all('span', class_='geca_enlace_equipo__name')
+                    if len(team_spans) >= 2:
+                        home = team_spans[0].get_text(strip=True)
+                        away = team_spans[1].get_text(strip=True)
+                    elif len(tds) >= 4:
                         home = tds[1].get_text(strip=True)
                         away = tds[3].get_text(strip=True)
+                    else:
+                        continue
 
-                    # 3. Extraer Marcador
-                    score_link = row.find('a', class_='geca_enlace_partido')
-                    score = score_link.get_text(strip=True) if score_link else "vs"
-                    if score == "vs" and row.find('span', class_='celdagoles'):
+                    # C. Intentar extraer Marcador
+                    score_a = row.find('a', class_='geca_enlace_partido')
+                    if score_a:
+                        score = score_a.get_text(strip=True)
+                    elif row.find('span', class_='celdagoles'):
                         score = row.find('span', class_='celdagoles').get_text(strip=True)
+                    elif len(tds) >= 3:
+                        score = tds[2].get_text(strip=True)
+                    else:
+                        score = "vs"
 
                     if home and away:
                         matches.append({
@@ -184,6 +195,7 @@ def scrape_results():
                             "away": away,
                             "score": score
                         })
+                
                 if matches:
                     temp_rounds.append({"key": final_title, "matches": matches})
             
@@ -197,13 +209,22 @@ def scrape_results():
             
     return results_map
 
+# --- 3. EJECUCIÓN PRINCIPAL ---
+
 if __name__ == "__main__":
+    # 1. Agenda
     agenda_data = scrape_agenda()
-    with open(CALENDAR_FILE, 'w') as f: json.dump(agenda_data, f, indent=2)
+    with open(CALENDAR_FILE, 'w') as f:
+        json.dump(agenda_data, f, indent=2)
     
+    # 2. Standings
     standings_data = scrape_standings()
-    with open(STANDINGS_FILE, 'w') as f: json.dump(standings_data, f, indent=2)
+    with open(STANDINGS_FILE, 'w') as f:
+        json.dump(standings_data, f, indent=2)
     
+    # 3. Resultados
     results_data = scrape_results()
-    with open(RESULTS_FILE, 'w') as f: json.dump(results_data, f, indent=2)
-    print("🎉 Proceso finalizado con éxito.")
+    with open(RESULTS_FILE, 'w') as f:
+        json.dump(results_data, f, indent=2)
+    
+    print("🎉 Proceso finalizado. Agenda, Clasificación y Resultados (Híbridos) generados.")
