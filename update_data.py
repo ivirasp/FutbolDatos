@@ -27,52 +27,100 @@ URLS_STANDINGS = {
     "EUROPA": "https://www.lavanguardia.com/deportes/resultados/europa-league/clasificacion"
 }
 
-URLS_RESULTS = {
-    "LALIGA": "https://www.sport.es/resultados/futbol/primera-division/calendario-liga/",
-    "CHAMPIONS": "https://www.sport.es/resultados/futbol/champions-league/calendario/",
-    "EUROPA": "https://www.sport.es/resultados/futbol/europa-league/calendario-liga/",
-    "COPA": "https://www.superdeporte.es/deportes/futbol/copa-rey/calendario/"
-}
+# Orden solicitado: La liga, Champions, Europa y Copa
+URLS_RESULTS = [
+    ("LALIGA", "https://www.sport.es/resultados/futbol/primera-division/calendario-liga/"),
+    ("CHAMPIONS", "https://www.sport.es/resultados/futbol/champions-league/calendario/"),
+    ("EUROPA", "https://www.sport.es/resultados/futbol/europa-league/calendario-liga/"),
+    ("COPA", "https://www.superdeporte.es/deportes/futbol/copa-rey/calendario/")
+]
+
+def scrape_results():
+    print("⚽ Extrayendo Resultados y detectando Jornada Actual...")
+    results_map = {}
+    today = datetime.now(TZ_MADRID).date()
+    
+    for name, url in URLS_RESULTS:
+        try:
+            r = requests.get(url, headers={'User-Agent': 'Mozilla/5.0'}, timeout=15)
+            soup = BeautifulSoup(r.content, 'html.parser')
+            temp_rounds = []
+            current_found = False
+            
+            for table in soup.find_all('table'):
+                # 1. Extraer nombre de la jornada (ej: Jornada 6)
+                cap = table.find("caption")
+                orig_title = cap.find("h2").get_text(strip=True).replace("ª", "") if cap else "Jornada"
+                if any(kw in orig_title.upper() for kw in ["FIFA", "WOMEN"]): continue
+                
+                # 2. Lógica de fecha para "Jornada Actual"
+                final_title = orig_title
+                if not current_found:
+                    # Buscamos el th con el rango de fechas
+                    date_th = table.find("th", class_="textoizda")
+                    if date_th:
+                        date_text = date_th.get_text(strip=True) # "2026-01-16 - 2026-01-19"
+                        dates = re.findall(r'(\d{4}-\d{2}-\d{2})', date_text)
+                        if len(dates) == 2:
+                            end_date = datetime.strptime(dates[1], "%Y-%m-%d").date()
+                            # Si hoy no ha pasado la fecha de fin, es la actual
+                            if today <= end_date:
+                                final_title = "Jornada Actual"
+                                current_found = True
+
+                matches = []
+                for row in table.find_all('tr'):
+                    cols = row.find_all('td')
+                    if len(cols) < 4: continue
+                    matches.append({
+                        "date": cols[0].get_text(strip=True),
+                        "home": cols[1].get_text(strip=True),
+                        "away": cols[3].get_text(strip=True),
+                        "score": cols[2].get_text(strip=True)
+                    })
+                
+                if matches:
+                    temp_rounds.append({"key": final_title, "matches": matches})
+            
+            if temp_rounds:
+                results_map[name] = {
+                    "rounds": {r["key"]: r["matches"] for r in temp_rounds},
+                    "current": "Jornada Actual" if current_found else temp_rounds[-1]["key"]
+                }
+        except Exception as e:
+            print(f"Error resultados {name}: {e}")
+            
+    return results_map
 
 def scrape_agenda():
     print("🌍 Extrayendo Agenda...")
     agenda = []
     seen = set()
-    headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'}
+    headers = {'User-Agent': 'Mozilla/5.0'}
     for url, comp_label in TARGET_URLS_AGENDA.items():
         try:
             r = requests.get(url, headers=headers, timeout=15)
             soup = BeautifulSoup(r.content, 'html.parser')
-            # Buscamos el bloque <article class="match"> que nos pasaste
             articles = soup.find_all("article", class_="match")
             for art in articles:
                 name_tag = art.find("meta", itemprop="name")
-                date_tag = art.find("meta", itemprop="startDate") # <-- Aquí está el día
+                date_tag = art.find("meta", itemprop="startDate")
                 if not name_tag or not date_tag: continue
-
                 title = name_tag.get("content", "").strip()
-                # Extraemos la fecha completa: 2026-01-11T13:00:00
                 date_str = date_tag.get("content", "").split('+')[0]
                 dt = datetime.strptime(date_str, "%Y-%m-%dT%H:%M:%S")
                 ts = TZ_MADRID.localize(dt).timestamp()
-
                 chan_span = art.find("span", itemprop="name")
                 channel = chan_span.get_text(strip=True) if chan_span else "TBD"
-
                 match_id = f"{title}_{ts}"
                 if match_id not in seen:
                     seen.add(match_id)
-                    agenda.append({
-                        "title": title,
-                        "start_ts": ts,
-                        "channel": channel,
-                        "competition": comp_label
-                    })
+                    agenda.append({"title": title, "start_ts": ts, "channel": channel, "competition": comp_label})
         except: continue
     return sorted(agenda, key=lambda x: x['start_ts'])
 
-# --- (Funciones de Standings y Results omitidas por brevedad, se mantienen igual) ---
 def scrape_standings():
+    print("📊 Extrayendo Clasificaciones...")
     data_map = {}
     for name, url in URLS_STANDINGS.items():
         try:
@@ -97,27 +145,8 @@ def scrape_standings():
         except: continue
     return data_map
 
-def scrape_results():
-    results_map = {}
-    for name, url in URLS_RESULTS.items():
-        try:
-            r = requests.get(url, headers={'User-Agent': 'Mozilla/5.0'}, timeout=15)
-            soup = BeautifulSoup(r.content, 'html.parser')
-            temp_rounds = []
-            for table in soup.find_all('table'):
-                cap = table.find("caption"); title = cap.find("h2").get_text(strip=True).replace("ª", "") if cap else "Jornada"
-                matches = []
-                for row in table.find_all('tr'):
-                    cols = row.find_all('td')
-                    if len(cols) < 4: continue
-                    matches.append({"date": cols[0].get_text(strip=True), "home": cols[1].get_text(strip=True), "away": cols[3].get_text(strip=True), "score": cols[2].get_text(strip=True)})
-                if matches: temp_rounds.append({"key": title, "matches": matches})
-            if temp_rounds: results_map[name] = {"rounds": {r["key"]: r["matches"] for r in temp_rounds}, "current": temp_rounds[-1]["key"]}
-        except: continue
-    return results_map
-
 if __name__ == "__main__":
     with open(CALENDAR_FILE, 'w') as f: json.dump(scrape_agenda(), f, indent=2)
     with open(STANDINGS_FILE, 'w') as f: json.dump(scrape_standings(), f, indent=2)
     with open(RESULTS_FILE, 'w') as f: json.dump(scrape_results(), f, indent=2)
-    print("🎉 Datos actualizados!")
+    print("🎉 Proceso completado.")
