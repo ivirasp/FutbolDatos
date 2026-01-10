@@ -5,6 +5,7 @@ import json
 import os
 import re
 import time
+import random
 from datetime import datetime, date
 import pytz
 
@@ -87,6 +88,7 @@ def scrape_agenda():
     headers = {'User-Agent': 'Mozilla/5.0'}
     for url, comp_label in TARGET_URLS_AGENDA.items():
         try:
+            time.sleep(random.uniform(2, 5))
             r = requests.get(url, headers=headers, timeout=15)
             soup = BeautifulSoup(r.content, 'html.parser')
             articles = soup.find_all("article", class_="match")
@@ -113,6 +115,7 @@ def scrape_standings():
     headers = {'User-Agent': 'Mozilla/5.0'}
     for name, url in URLS_STANDINGS.items():
         try:
+            time.sleep(random.uniform(2, 5))
             r = requests.get(url, headers=headers, timeout=15)
             soup = BeautifulSoup(r.content, 'html.parser')
             tables = soup.find_all('table')
@@ -147,6 +150,7 @@ def scrape_results():
     
     for name, url in URLS_RESULTS:
         try:
+            time.sleep(random.uniform(2, 5))
             r = requests.get(url, headers={'User-Agent': 'Mozilla/5.0'}, timeout=15)
             soup = BeautifulSoup(r.content, 'html.parser')
             temp_rounds = []
