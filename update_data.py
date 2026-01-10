@@ -8,7 +8,7 @@ import time
 from datetime import datetime
 import pytz
 
-# --- CONFIGURACIÓN ---
+# --- 1. CONFIGURACIÓN ---
 TZ_MADRID = pytz.timezone('Europe/Madrid')
 CALENDAR_FILE = "calendar.json"
 STANDINGS_FILE = "standings.json"
@@ -34,13 +34,14 @@ URLS_RESULTS = [
     ("COPA", "https://www.superdeporte.es/deportes/futbol/copa-rey/calendario/")
 ]
 
+# Mapa para traducir meses (Champions/Copa suelen poner "16 de Septiembre")
 MONTH_MAP = {
     "enero": "01", "febrero": "02", "marzo": "03", "abril": "04",
     "mayo": "05", "junio": "06", "julio": "07", "agosto": "08",
     "septiembre": "09", "octubre": "10", "noviembre": "11", "diciembre": "12"
 }
 
-# --- FUNCIONES ---
+# --- 2. FUNCIONES AUXILIARES ---
 
 def parse_header_date(text):
     """Convierte 'Miércoles, 16 de Septiembre' a '16/09'"""
@@ -53,6 +54,8 @@ def parse_header_date(text):
             return f"{day.zfill(2)}/{month_num}"
     except: pass
     return ""
+
+# --- 3. SCRAPERS ---
 
 def scrape_agenda():
     print("🌍 Extrayendo Agenda...")
@@ -131,7 +134,7 @@ def scrape_results():
                 # --- REINICIO DE VARIABLES POR TABLA (JORNADA) ---
                 current_header_date = "" 
                 is_actual = False
-                round_dates_objs = [] # Fechas de partidos DE ESTA JORNADA
+                round_dates_objs = [] # Para calcular si es la jornada actual en Copas
                 
                 # 1. NOMBRE DE JORNADA
                 cap = table.find("caption")
@@ -203,6 +206,7 @@ def scrape_results():
                             try:
                                 d, m = int(match_d.group(1)), int(match_d.group(2))
                                 y = today.year
+                                # Ajuste de año para meses (si estamos en Enero y sale Agosto, es año anterior)
                                 if m < 7 and today.month > 7: y += 1
                                 elif m > 7 and today.month < 7: y -= 1
                                 round_dates_objs.append(datetime(y, m, d).date())
@@ -243,7 +247,8 @@ def scrape_results():
                     for td in tds: candidates.append(td.get_text(strip=True))
 
                     for txt in candidates:
-                        if re.search(r'^\d+\s*-\s*\d+$', txt):
+                        # Regex flexible: busca "N - N"
+                        if re.search(r'\d+\s*-\s*\d+', txt):
                             final_score = txt
                             break
                     
@@ -262,7 +267,7 @@ def scrape_results():
                 
                 # CALCULO ACTUAL (Si no fue detectado por rango en cabecera)
                 if not is_actual and not current_found and round_dates_objs:
-                    # Si el partido MÁS TARDÍO de esta jornada es hoy o futuro -> Es la actual
+                    # Si la última fecha de la ronda es hoy o futura -> Es la actual
                     if max(round_dates_objs) >= today:
                         is_actual = True
 
@@ -282,6 +287,8 @@ def scrape_results():
                 }
         except: continue
     return results_map
+
+# --- 4. MAIN ---
 
 if __name__ == "__main__":
     with open(CALENDAR_FILE, 'w') as f: json.dump(scrape_agenda(), f, indent=2)
