@@ -1,8 +1,15 @@
 name: Actualizador de Datos
 on:
   schedule:
-    - cron: '*/15 * * * *'
-  workflow_dispatch:
+    # --- MODO PARTIDO (Tardes/Noches) ---
+    # Ejecutar cada 15 min desde las 12:00 UTC (13:00/14:00 España) hasta las 23:00 UTC (00:00 España)
+    - cron: '*/15 12-23 * * *'
+
+    # --- MODO DESCANSO (Madrugadas/Mañanas) ---
+    # Ejecutar una vez a las 04:00, 07:00 y 10:00 UTC (Para mantener la agenda al día)
+    - cron: '0 4,7,10 * * *'
+  
+  workflow_dispatch: # Botón manual (siempre disponible)
 
 permissions:
   contents: write  # Esto arregla el error 403 (Permiso denegado)
