@@ -8,7 +8,7 @@ import time
 from datetime import datetime
 import pytz
 
-# --- 1. CONFIGURACIÓN GLOBAL ---
+# --- 1. CONFIGURACIÓN ---
 TZ_MADRID = pytz.timezone('Europe/Madrid')
 CALENDAR_FILE = "calendar.json"
 STANDINGS_FILE = "standings.json"
@@ -27,7 +27,6 @@ URLS_STANDINGS = {
     "EUROPA": "https://www.lavanguardia.com/deportes/resultados/europa-league/clasificacion"
 }
 
-# Orden solicitado: LALIGA, CHAMPIONS, EUROPA, COPA
 URLS_RESULTS = [
     ("LALIGA", "https://www.sport.es/resultados/futbol/primera-division/calendario-liga/"),
     ("CHAMPIONS", "https://www.sport.es/resultados/futbol/champions-league/calendario/"),
@@ -35,7 +34,30 @@ URLS_RESULTS = [
     ("COPA", "https://www.superdeporte.es/deportes/futbol/copa-rey/calendario/")
 ]
 
-# --- 2. FUNCIONES DE EXTRACCIÓN ---
+# Mapa de meses para traducir Champions "Septiembre" -> "09"
+MONTH_MAP = {
+    "enero": "01", "febrero": "02", "marzo": "03", "abril": "04",
+    "mayo": "05", "junio": "06", "julio": "07", "agosto": "08",
+    "septiembre": "09", "octubre": "10", "noviembre": "11", "diciembre": "12"
+}
+
+# --- 2. FUNCIONES AUXILIARES ---
+
+def parse_spanish_date(text):
+    """Convierte 'Miércoles, 16 de Septiembre' a '16/09'"""
+    try:
+        text = text.lower()
+        # Buscar patrón "16 de mes"
+        match = re.search(r"(\d+)\s+de\s+(\w+)", text)
+        if match:
+            day, month_txt = match.groups()
+            month_num = MONTH_MAP.get(month_txt, "01")
+            return f"{day.zfill(2)}/{month_num}"
+    except:
+        pass
+    return ""
+
+# --- 3. FUNCIONES DE EXTRACCIÓN ---
 
 def scrape_agenda():
     print("🌍 Extrayendo Agenda...")
@@ -73,7 +95,7 @@ def scrape_agenda():
     return sorted(agenda, key=lambda x: x['start_ts'])
 
 def scrape_standings():
-    print("📊 Extrayendo Clasificaciones (20 equipos)...")
+    print("📊 Extrayendo Clasificaciones...")
     data_map = {}
     headers = {'User-Agent': 'Mozilla/5.0'}
     for name, url in URLS_STANDINGS.items():
@@ -82,10 +104,8 @@ def scrape_standings():
             soup = BeautifulSoup(r.content, 'html.parser')
             tables = soup.find_all('table')
             if not tables: continue
-            
             main_table = max(tables, key=lambda t: len(t.find_all('tr')))
             rows = main_table.find_all('tr')[1:]
-            
             league_data = []
             seen_teams = set()
             for row in rows:
@@ -94,32 +114,21 @@ def scrape_standings():
                 rank_n = th.find('span', class_='classification-pos')
                 team_n = th.find('h2', class_='nombre-equipo')
                 if not rank_n or not team_n: continue
-                
-                rank = rank_n.get_text(strip=True)
-                team = team_n.get_text(strip=True)
+                rank = rank_n.get_text(strip=True); team = team_n.get_text(strip=True)
                 if team in seen_teams: continue
                 seen_teams.add(team)
-                
                 tds = row.find_all('td')
                 if len(tds) < 7: continue
                 pts, pj, pg, pe, pp, gf, gc = [t.get_text(strip=True) for t in tds[:7]]
-                
-                try:
-                    dg_val = int(gf) - int(gc)
-                    dg = f"+{dg_val}" if dg_val > 0 else str(dg_val)
-                except: dg = "0"
-
-                league_data.append({
-                    "rank": rank, "team": team, "points": pts, 
-                    "played": pj, "won": pg, "drawn": pe, "lost": pp,
-                    "gf": gf, "ga": gc, "dg": dg
-                })
+                try: dg_val = f"+{int(gf)-int(gc)}" if int(gf)-int(gc) > 0 else str(int(gf)-int(gc))
+                except: dg_val = "0"
+                league_data.append({"rank": rank, "team": team, "points": pts, "played": pj, "won": pg, "drawn": pe, "lost": pp, "gf": gf, "ga": gc, "dg": dg_val})
             if league_data: data_map[name] = league_data
         except: continue
     return data_map
 
 def scrape_results():
-    print("⚽ Extrayendo Resultados (Lógica Estricta HTML)...")
+    print("⚽ Extrayendo Resultados (Unificado Champions/Liga)...")
     results_map = {}
     today = datetime.now(TZ_MADRID).date()
     
@@ -131,145 +140,172 @@ def scrape_results():
             current_round_key = ""
             current_found = False
             
-            # Cada tabla es una Jornada
             for table in soup.find_all('table'):
-                # 1. Nombre de la Jornada
+                # 1. Nombre de Jornada
+                # A veces el caption está dentro de la tabla, a veces es un H2 previo
                 cap = table.find("caption")
-                orig_title = cap.find("h2").get_text(strip=True).replace("ª", "") if cap else "Jornada"
+                orig_title = "Jornada"
+                if cap and cap.find("h2"):
+                    orig_title = cap.find("h2").get_text(strip=True).replace("ª", "")
+                else:
+                    # Intento fallback para estructura rara
+                    prev_h2 = table.find_previous("h2", class_="table-caption")
+                    if prev_h2: orig_title = prev_h2.get_text(strip=True).replace("ª", "")
+
                 if any(kw in orig_title.upper() for kw in ["FIFA", "WOMEN"]): continue
                 
                 final_title = orig_title
-                # 2. Rango de Fechas (th.textoizda en el thead)
-                date_th = table.find("th", class_="textoizda")
-                if date_th and not current_found:
-                    dates = re.findall(r'(\d{4}-\d{2}-\d{2})', date_th.get_text())
-                    if len(dates) == 2:
-                        end_date = datetime.strptime(dates[1], "%Y-%m-%d").date()
-                        if today <= end_date:
-                            final_title = f"{orig_title} (Actual)"
-                            current_round_key = final_title
-                            current_found = True
+                
+                # 2. Contexto de Fecha (Header de Champions)
+                # Buscamos si hay un TH con fecha en el THEAD (ej: "Miércoles, 16 de Septiembre")
+                current_header_date = ""
+                thead = table.find("thead")
+                if thead:
+                    th_date = thead.find("th", class_="textoizda")
+                    if th_date:
+                        # Si es un rango (Liga): "2025-08-15 - 2025-08-19"
+                        raw_txt = th_date.get_text(strip=True)
+                        dates_range = re.findall(r'(\d{4}-\d{2}-\d{2})', raw_txt)
+                        
+                        if len(dates_range) == 2:
+                            # Es Liga, usamos rango para "Actual"
+                            if not current_found:
+                                end_date = datetime.strptime(dates_range[1], "%Y-%m-%d").date()
+                                if today <= end_date:
+                                    final_title = f"{orig_title} (Actual)"
+                                    current_round_key = final_title
+                                    current_found = True
+                        else:
+                            # Es Champions/Copa, es una fecha única texto: "Miércoles, 16 de Septiembre"
+                            # Intentamos parsear para tener una fecha por defecto para las filas
+                            parsed = parse_spanish_date(raw_txt)
+                            if parsed: current_header_date = parsed
 
                 matches = []
-                # Recorrer filas de partidos
+                # Recorremos filas (TR)
                 for row in table.find_all('tr'):
-                    tds = row.find_all('td')
-                    if not tds: continue
+                    # Si es una fila de cabecera intermedia (Champions tiene varias fechas en una tabla)
+                    th_sub = row.find("th", class_="textoizda")
+                    if th_sub:
+                        # Actualizamos la fecha contexto
+                        raw_txt = th_sub.get_text(strip=True)
+                        parsed = parse_spanish_date(raw_txt)
+                        if parsed: current_header_date = parsed
+                        continue
 
+                    tds = row.find_all('td')
+                    if len(tds) < 3: continue
+
+                    # A. FECHA
+                    date_val = ""
+                    # 1. Mirar si la primera celda tiene formato DD/MM (La Liga)
+                    txt_col0 = tds[0].get_text(strip=True)
+                    if re.search(r'\d{2}/\d{2}', txt_col0):
+                        date_val = txt_col0
+                    # 2. Si no, usar la fecha de cabecera (Champions)
+                    elif current_header_date:
+                        date_val = current_header_date
+                    
+                    # B. EQUIPOS (Prioridad Title)
+                    # La Liga: td.textodcha > a[title]
+                    # Champions: td.textodcha > div > a > span (o title)
                     home = ""
                     away = ""
-                    score = "vs"
-                    date_val = ""
-
-                    # --- LÓGICA A: ESTRUCTURA LALIGA / EUROPA (HTML proporcionado) ---
-                    # td.textodcha -> Local
-                    # td.textoizda -> Visitante
-                    # span.celdagoles -> Resultado
-                    if row.find("td", class_="textodcha") and row.find("td", class_="textoizda"):
-                        
-                        # 1. FECHA: Primer td
-                        date_val = tds[0].get_text(strip=True)
-
-                        # 2. LOCAL: td class="textodcha" -> a title="..."
-                        home_td = row.find("td", class_="textodcha")
-                        home_a = home_td.find("a")
-                        if home_a and home_a.has_attr("title"):
-                            home = home_a["title"]
+                    
+                    # Local
+                    home_node = row.find("td", class_="textodcha")
+                    if home_node:
+                        # Buscamos enlace con title
+                        a_tag = home_node.find("a", class_="geca_enlace_equipo")
+                        if a_tag and a_tag.has_attr("title"):
+                            home = a_tag["title"]
+                        elif a_tag:
+                            home = a_tag.get_text(strip=True) # Fallback al texto
                         else:
-                            home = home_td.get_text(strip=True)
+                            home = home_node.get_text(strip=True)
 
-                        # 3. VISITANTE: td class="textoizda" -> a title="..."
-                        away_td = row.find("td", class_="textoizda")
-                        away_a = away_td.find("a")
-                        if away_a and away_a.has_attr("title"):
-                            away = away_a["title"]
-                        else:
-                            away = away_td.get_text(strip=True)
+                    # Visitante
+                    away_node = row.find("td", class_="textoizda") # Ojo, en champions a veces comparten clase
+                    # Truco: el visitante es el último td con clase textoizda o el td siguiente al resultado
+                    if away_node:
+                         a_tag = away_node.find("a", class_="geca_enlace_equipo")
+                         if a_tag and a_tag.has_attr("title"):
+                            away = a_tag["title"]
+                         elif a_tag:
+                            away = a_tag.get_text(strip=True)
+                         else:
+                            away = away_node.get_text(strip=True)
+                    
+                    # Si falló la extracción por clases específicas, fallback a índices
+                    if not home and len(tds) > 1: home = tds[1].get_text(strip=True)
+                    if not away and len(tds) > 3: away = tds[3].get_text(strip=True)
 
-                        # 4. RESULTADO: span class="celdagoles"
-                        score_span = row.find("span", class_="celdagoles")
+                    # C. RESULTADO
+                    final_score = "vs"
+                    
+                    # 1. Buscar enlace de partido
+                    score_a = row.find('a', class_='geca_enlace_partido')
+                    if score_a:
+                        txt = score_a.get_text(strip=True)
+                        if re.search(r'^\d+\s*-\s*\d+$', txt): final_score = txt
+                    
+                    # 2. Buscar celdagoles
+                    if final_score == "vs":
+                        score_span = row.find('span', class_='celdagoles')
                         if score_span:
-                            raw_score = score_span.get_text(strip=True)
-                            # Si es una hora (tiene :) o fecha (tiene /), se queda en 'vs'
-                            # Si tiene guion (1 - 3), es marcador
-                            if "-" in raw_score and not "/" in raw_score:
-                                score = raw_score
-                            else:
-                                score = "vs"
+                            txt = score_span.get_text(strip=True)
+                            if re.search(r'^\d+\s*-\s*\d+$', txt): final_score = txt
+                    
+                    # 3. Fuerza bruta columnas (La Liga suele tenerlo en col 2, pero validamos)
+                    if final_score == "vs":
+                        for td in tds:
+                            txt = td.get_text(strip=True)
+                            if re.search(r'^\d+\s*-\s*\d+$', txt):
+                                final_score = txt
+                                break
 
-                    # --- LÓGICA B: ESTRUCTURA CHAMPIONS / COPA (HTML moderno) ---
-                    # Usa time y geca_enlace_equipo__name
-                    elif row.find("time") or row.find("span", class_="geca_enlace_equipo__name"):
-                        
-                        # 1. FECHA: <time>
-                        time_tag = row.find("time")
-                        if time_tag:
-                            dt_s = time_tag.get('datetime', '').split('T')[0]
-                            date_val = datetime.strptime(dt_s, "%Y-%m-%d").strftime("%d-%m-%Y")
-                        else:
-                            date_val = tds[0].get_text(strip=True) if tds else ""
+                    # Limpieza final de nombres
+                    home = home.strip()
+                    away = away.strip()
 
-                        # 2. EQUIPOS
-                        team_spans = row.find_all("span", class_="geca_enlace_equipo__name")
-                        if len(team_spans) >= 2:
-                            home = team_spans[0].get_text(strip=True)
-                            away = team_spans[1].get_text(strip=True)
-                        
-                        # 3. RESULTADO
-                        score_a = row.find("a", class_="geca_enlace_partido")
-                        if score_a:
-                            raw_score = score_a.get_text(strip=True)
-                            if "-" in raw_score and not "/" in raw_score:
-                                score = raw_score
-                            else:
-                                score = "vs"
-                        # Fallback si no hay enlace partido pero hay celdagoles
-                        elif row.find("span", class_="celdagoles"):
-                            raw_score = row.find("span", class_="celdagoles").get_text(strip=True)
-                            if "-" in raw_score and not "/" in raw_score:
-                                score = raw_score
-                            else:
-                                score = "vs"
-
-                    # Si logramos extraer equipos, guardamos
                     if home and away:
                         matches.append({
                             "date": date_val,
                             "home": home,
                             "away": away,
-                            "score": score
+                            "score": final_score
                         })
                 
                 if matches:
                     temp_rounds.append({"key": final_title, "matches": matches})
             
+            # Ordenamos Champions/Copa para que la última jornada sea la "Actual" por defecto si no detectamos fecha
             if temp_rounds:
+                # Si no encontramos "Actual" por fecha (Champions), cogemos la última del array
+                def_current = current_round_key if current_round_key else temp_rounds[-1]["key"]
+                
+                # Hack: En Champions/Copa, si no hemos detectado fecha fin, marcamos la última como actual
+                if "Actual" not in def_current and name in ["CHAMPIONS", "COPA"]:
+                     # Simplemente usamos la última disponible como la que se muestra
+                     pass 
+
                 results_map[name] = {
                     "rounds": {r["key"]: r["matches"] for r in temp_rounds},
-                    "current": current_round_key if current_round_key else temp_rounds[-1]["key"]
+                    "current": def_current
                 }
-        except Exception as e:
-            print(f"Error en {name}: {e}")
-            continue
+        except Exception as e: print(f"Error {name}: {e}")
             
     return results_map
 
-# --- 3. EJECUCIÓN PRINCIPAL ---
+# --- 4. MAIN ---
 
 if __name__ == "__main__":
-    # Agenda
     agenda_data = scrape_agenda()
-    with open(CALENDAR_FILE, 'w') as f:
-        json.dump(agenda_data, f, indent=2)
+    with open(CALENDAR_FILE, 'w') as f: json.dump(agenda_data, f, indent=2)
     
-    # Standings
     standings_data = scrape_standings()
-    with open(STANDINGS_FILE, 'w') as f:
-        json.dump(standings_data, f, indent=2)
+    with open(STANDINGS_FILE, 'w') as f: json.dump(standings_data, f, indent=2)
     
-    # Resultados
     results_data = scrape_results()
-    with open(RESULTS_FILE, 'w') as f:
-        json.dump(results_data, f, indent=2)
-    
-    print("🎉 Datos actualizados. Extracción estricta aplicada.")
+    with open(RESULTS_FILE, 'w') as f: json.dump(results_data, f, indent=2)
+    print("🎉 Datos generados (Unificación Liga/Champions completa).")
