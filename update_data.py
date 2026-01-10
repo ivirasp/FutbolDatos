@@ -86,6 +86,10 @@ def scrape_agenda():
     agenda = []
     seen = set()
     headers = {'User-Agent': 'Mozilla/5.0'}
+    
+    # Definimos UTC explícitamente para evitar confusiones
+    UTC = pytz.utc
+
     for url, comp_label in TARGET_URLS_AGENDA.items():
         try:
             time.sleep(random.uniform(2, 5))
@@ -99,15 +103,20 @@ def scrape_agenda():
                 title = name_tag.get("content", "").strip()
                 date_str = date_tag.get("content", "").split('+')[0]
                 
-                # Procesar fecha
-                dt = datetime.strptime(date_str, "%Y-%m-%dT%H:%M:%S")
-                # Localizamos a hora de Madrid
-                local_dt = TZ_MADRID.localize(dt)
-                ts = local_dt.timestamp()
+                # 1. Parseamos la fecha tal cual viene (ej: 19:00)
+                dt_naive = datetime.strptime(date_str, "%Y-%m-%dT%H:%M:%S")
                 
-                # --- NUEVO: CREAR LA HORA TEXTO AQUÍ ---
-                # Extraemos "HH:MM" directamente usando la zona horaria de Madrid
-                time_formatted = local_dt.strftime("%H:%M") 
+                # 2. Le decimos a Python: "Oye, esta fecha bruta es UTC"
+                dt_utc = UTC.localize(dt_naive)
+                
+                # 3. Ahora CONVIERTE esa hora UTC a hora de Madrid (+1 o +2 según toque)
+                dt_madrid = dt_utc.astimezone(TZ_MADRID)
+                
+                # Guardamos el timestamp correcto
+                ts = dt_madrid.timestamp()
+                
+                # Formateamos la hora YA convertida (ej: saldrá 20:00 en vez de 19:00)
+                time_formatted = dt_madrid.strftime("%H:%M")
                 
                 chan_span = art.find("span", itemprop="name")
                 channel = chan_span.get_text(strip=True) if chan_span else "TBD"
@@ -115,11 +124,10 @@ def scrape_agenda():
                 match_id = f"{title}_{ts}"
                 if match_id not in seen:
                     seen.add(match_id)
-                    # Añadimos 'time_str' al diccionario
                     agenda.append({
                         "title": title, 
                         "start_ts": ts, 
-                        "time_str": time_formatted, # <--- CAMPO NUEVO
+                        "time_str": time_formatted, # Ahora sí llevará la hora correcta
                         "channel": channel, 
                         "competition": comp_label
                     })
