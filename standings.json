@@ -63,14 +63,14 @@
     {
       "rank": "6",
       "team": "Real Betis",
-      "points": "29",
+      "points": "28",
       "played": "19",
       "won": "7",
-      "drawn": "8",
-      "lost": "4",
+      "drawn": "7",
+      "lost": "5",
       "gf": "30",
-      "ga": "24",
-      "dg": "+6"
+      "ga": "25",
+      "dg": "+5"
     },
     {
       "rank": "7",
@@ -218,6 +218,18 @@
     },
     {
       "rank": "19",
+      "team": "Real Oviedo",
+      "points": "15",
+      "played": "19",
+      "won": "3",
+      "drawn": "6",
+      "lost": "10",
+      "gf": "9",
+      "ga": "27",
+      "dg": "-18"
+    },
+    {
+      "rank": "20",
       "team": "Levante",
       "points": "13",
       "played": "17",
@@ -227,18 +239,6 @@
       "gf": "20",
       "ga": "29",
       "dg": "-9"
-    },
-    {
-      "rank": "20",
-      "team": "Real Oviedo",
-      "points": "13",
-      "played": "19",
-      "won": "2",
-      "drawn": "7",
-      "lost": "10",
-      "gf": "8",
-      "ga": "27",
-      "dg": "-19"
     }
   ],
   "CHAMPIONS": [
