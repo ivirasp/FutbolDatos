@@ -1117,7 +1117,7 @@
           "score": "0 - 3"
         }
       ],
-      "Jornada 19": [
+      "Jornada Actual": [
         {
           "date": "09/01",
           "home": "Getafe",
@@ -2358,7 +2358,7 @@
         }
       ]
     },
-    "current": "Jornada 38"
+    "current": "Jornada Actual"
   },
   "CHAMPIONS": {
     "rounds": {
@@ -3137,7 +3137,7 @@
           "score": "1 - 0"
         }
       ],
-      "Jornada 7": [
+      "Jornada Actual": [
         {
           "date": "22/01",
           "home": "Bolonia",
@@ -3358,7 +3358,7 @@
         }
       ]
     },
-    "current": "Jornada 8"
+    "current": "Jornada Actual"
   },
   "COPA": {
     "rounds": {
