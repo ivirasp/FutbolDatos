@@ -8,7 +8,7 @@ import time
 from datetime import datetime
 import pytz
 
-# --- 1. CONFIGURACIÓN ---
+# --- CONFIGURACIÓN ---
 TZ_MADRID = pytz.timezone('Europe/Madrid')
 CALENDAR_FILE = "calendar.json"
 STANDINGS_FILE = "standings.json"
@@ -34,14 +34,13 @@ URLS_RESULTS = [
     ("COPA", "https://www.superdeporte.es/deportes/futbol/copa-rey/calendario/")
 ]
 
-# Mapa de meses para traducir fechas de cabecera
 MONTH_MAP = {
     "enero": "01", "febrero": "02", "marzo": "03", "abril": "04",
     "mayo": "05", "junio": "06", "julio": "07", "agosto": "08",
     "septiembre": "09", "octubre": "10", "noviembre": "11", "diciembre": "12"
 }
 
-# --- 2. FUNCIONES AUXILIARES ---
+# --- FUNCIONES ---
 
 def parse_header_date(text):
     """Convierte 'Miércoles, 16 de Septiembre' a '16/09'"""
@@ -54,8 +53,6 @@ def parse_header_date(text):
             return f"{day.zfill(2)}/{month_num}"
     except: pass
     return ""
-
-# --- 3. SCRAPERS ---
 
 def scrape_agenda():
     print("🌍 Extrayendo Agenda...")
@@ -118,7 +115,7 @@ def scrape_standings():
     return data_map
 
 def scrape_results():
-    print("⚽ Extrayendo Resultados (Detectando Fin y Actual)...")
+    print("⚽ Extrayendo Resultados (Status separado + Actual)...")
     results_map = {}
     today = datetime.now(TZ_MADRID).date()
     
@@ -131,7 +128,7 @@ def scrape_results():
             current_found = False
             
             for table in soup.find_all('table'):
-                # 1. NOMBRE JORNADA
+                # 1. NOMBRE DE JORNADA
                 cap = table.find("caption")
                 orig_title = "Jornada"
                 if cap and cap.find("h2"):
@@ -144,8 +141,7 @@ def scrape_results():
                 
                 final_title = orig_title
                 
-                # --- DETECCIÓN "ACTUAL" ---
-                # A. Caso La Liga (Rango en cabecera)
+                # --- DETECCIÓN "ACTUAL" (Lógica Híbrida) ---
                 is_actual = False
                 current_header_date = ""
                 thead = table.find("thead")
@@ -156,20 +152,22 @@ def scrape_results():
                         raw_txt = th_date.get_text(strip=True)
                         dates_range = re.findall(r'(\d{4}-\d{2}-\d{2})', raw_txt)
                         if len(dates_range) == 2:
+                            # TIPO LIGA (Rango)
                             end_date = datetime.strptime(dates_range[1], "%Y-%m-%d").date()
                             if today <= end_date and not current_found:
                                 is_actual = True
                         else:
+                            # TIPO CHAMPIONS (Texto fecha) - Guardamos contexto
                             parsed = parse_header_date(raw_txt)
                             if parsed: current_header_date = parsed
 
-                # Lista para recolectar las fechas reales de los partidos de esta jornada
-                # (Necesario para Champions/Copa donde no hay rango en cabecera)
+                # Array para recolectar fechas reales de los partidos de esta tabla
+                # para calcular si es la "Actual" en torneos tipo Copa/Champions
                 round_dates_objs = [] 
 
                 matches = []
                 for row in table.find_all('tr'):
-                    # Si es cabecera intermedia (Champions)
+                    # Cabecera intermedia (Champions)
                     th_sub = row.find("th", class_="textoizda")
                     if th_sub:
                         parsed = parse_header_date(th_sub.get_text(strip=True))
@@ -179,41 +177,42 @@ def scrape_results():
                     tds = row.find_all('td')
                     if len(tds) < 3: continue
 
-                    # A. FECHA y ESTADO (Fin)
+                    # A. FECHA & STATUS
                     date_val = ""
-                    status = ""
+                    status_val = ""
                     
                     time_tag = row.find('time')
                     if time_tag:
-                        # Estado: Fin, Descanso, Prórroga
-                        status = time_tag.get_text(strip=True)
+                        # Extraer estado (Fin, Descanso, Prórroga, Hora)
+                        status_text = time_tag.get_text(strip=True)
+                        # Si es hora (XX:XX) no es un estado relevante para mostrar abajo, excepto si no hay resultado
+                        if ":" not in status_text and status_text:
+                            status_val = status_text
                         
                         if time_tag.has_attr('datetime'):
                             dt_s = time_tag['datetime'].split('T')[0]
                             try:
                                 do = datetime.strptime(dt_s, "%Y-%m-%d")
-                                round_dates_objs.append(do.date()) # Guardamos para cálculo de Actual
+                                round_dates_objs.append(do.date())
                                 date_val = do.strftime("%d-%m-%Y")
                             except: pass
                     
                     if not date_val:
                         txt_c0 = tds[0].get_text(strip=True)
-                        # Intentar parsear DD/MM para añadirlo a round_dates_objs
-                        # Asumimos año actual o próximo según el mes
+                        # Intentar formato DD/MM
                         match_d = re.search(r'(\d{2})/(\d{2})', txt_c0)
                         if match_d:
                             date_val = txt_c0
                             try:
                                 d, m = int(match_d.group(1)), int(match_d.group(2))
                                 y = today.year
-                                # Ajuste básico de año
+                                # Ajuste de año para meses
                                 if m < 7 and today.month > 7: y += 1
                                 elif m > 7 and today.month < 7: y -= 1
                                 round_dates_objs.append(datetime(y, m, d).date())
                             except: pass
                         elif current_header_date:
                             date_val = current_header_date
-                            # También intentamos guardar esta fecha de contexto
                             try:
                                 d, m = map(int, current_header_date.split('/'))
                                 y = today.year
@@ -252,12 +251,7 @@ def scrape_results():
                             final_score = txt
                             break
                     
-                    # Añadir " (Fin)" si el partido acabó y hay marcador
-                    if final_score != "vs" and ("Fin" in status or "Pen" in status):
-                        final_score += " (Fin)"
-                    elif "Descanso" in status and final_score != "vs":
-                        final_score += " (Desc)"
-
+                    # Limpieza
                     home = home.strip()
                     away = away.strip()
 
@@ -266,14 +260,14 @@ def scrape_results():
                             "date": date_val,
                             "home": home,
                             "away": away,
-                            "score": final_score
+                            "score": final_score,
+                            "status": status_val # Campo nuevo
                         })
                 
-                # B. Cálculo de Actual para Champions/Copa (Si no se detectó por rango)
+                # CALCULO ACTUAL (Si no fue por rango)
                 if not is_actual and not current_found and round_dates_objs:
-                    # Si la última fecha de esta jornada es Hoy o Futura -> Es la Actual
-                    max_date = max(round_dates_objs)
-                    if max_date >= today:
+                    # Si la última fecha de la ronda es hoy o futura -> Actual
+                    if max(round_dates_objs) >= today:
                         is_actual = True
 
                 if is_actual:
@@ -285,9 +279,7 @@ def scrape_results():
                     temp_rounds.append({"key": final_title, "matches": matches})
             
             if temp_rounds:
-                # Si llegamos al final y no hemos marcado ninguna como Actual, marcamos la última
                 def_current = current_round_key if current_round_key else temp_rounds[-1]["key"]
-                
                 results_map[name] = {
                     "rounds": {r["key"]: r["matches"] for r in temp_rounds},
                     "current": def_current
@@ -295,10 +287,9 @@ def scrape_results():
         except: continue
     return results_map
 
-# --- 4. MAIN ---
-
+# --- MAIN ---
 if __name__ == "__main__":
     with open(CALENDAR_FILE, 'w') as f: json.dump(scrape_agenda(), f, indent=2)
     with open(STANDINGS_FILE, 'w') as f: json.dump(scrape_standings(), f, indent=2)
     with open(RESULTS_FILE, 'w') as f: json.dump(scrape_results(), f, indent=2)
-    print("🎉 Datos generados (Fin y Actual detectados).")
+    print("🎉 Datos generados (Status separado).")
