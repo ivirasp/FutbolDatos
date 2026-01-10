@@ -86,18 +86,6 @@
     },
     {
       "rank": "8",
-      "team": "Elche",
-      "points": "25",
-      "played": "19",
-      "won": "6",
-      "drawn": "7",
-      "lost": "6",
-      "gf": "25",
-      "ga": "23",
-      "dg": "+2"
-    },
-    {
-      "rank": "9",
       "team": "Athletic",
       "points": "24",
       "played": "19",
@@ -107,6 +95,18 @@
       "gf": "17",
       "ga": "25",
       "dg": "-8"
+    },
+    {
+      "rank": "9",
+      "team": "Elche",
+      "points": "23",
+      "played": "19",
+      "won": "5",
+      "drawn": "8",
+      "lost": "6",
+      "gf": "25",
+      "ga": "24",
+      "dg": "+1"
     },
     {
       "rank": "10",
@@ -207,14 +207,14 @@
     {
       "rank": "18",
       "team": "Valencia",
-      "points": "16",
+      "points": "17",
       "played": "19",
       "won": "3",
-      "drawn": "7",
-      "lost": "9",
-      "gf": "17",
+      "drawn": "8",
+      "lost": "8",
+      "gf": "18",
       "ga": "31",
-      "dg": "-14"
+      "dg": "-13"
     },
     {
       "rank": "19",
