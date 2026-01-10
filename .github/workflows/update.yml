@@ -4,8 +4,8 @@ on:
     - cron: '*/15 * * * *'
   workflow_dispatch:
 
-permissions:      # <--- AÑADE ESTO
-  contents: write # <--- AÑADE ESTO
+permissions:
+  contents: write
 
 jobs:
   build:
