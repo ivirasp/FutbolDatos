@@ -2360,6 +2360,121 @@
     },
     "current": "Jornada 19 (Actual)"
   },
+  "CHAMPIONS": {
+    "rounds": {
+      "Jornada": [
+        {
+          "date": "10-01-2026",
+          "home": "Ajax",
+          "away": "Olympiakos",
+          "score": "vs"
+        },
+        {
+          "date": "10-01-2026",
+          "home": "Liverpool",
+          "away": "FK Qarabag",
+          "score": "vs"
+        },
+        {
+          "date": "10-01-2026",
+          "home": "PSG",
+          "away": "Newcastle United",
+          "score": "vs"
+        },
+        {
+          "date": "10-01-2026",
+          "home": "Pafos",
+          "away": "Slavia Prague",
+          "score": "vs"
+        },
+        {
+          "date": "10-01-2026",
+          "home": "PSV",
+          "away": "Bayern M\u00fanich",
+          "score": "vs"
+        },
+        {
+          "date": "10-01-2026",
+          "home": "Napoli",
+          "away": "Chelsea",
+          "score": "vs"
+        },
+        {
+          "date": "10-01-2026",
+          "home": "M\u00f3naco",
+          "away": "Juventus",
+          "score": "vs"
+        },
+        {
+          "date": "10-01-2026",
+          "home": "Manchester City",
+          "away": "Galatasaray",
+          "score": "vs"
+        },
+        {
+          "date": "10-01-2026",
+          "home": "Eintracht Frankfurt",
+          "away": "Tottenham Hotspur",
+          "score": "vs"
+        },
+        {
+          "date": "10-01-2026",
+          "home": "Arsenal",
+          "away": "Kairat",
+          "score": "vs"
+        },
+        {
+          "date": "10-01-2026",
+          "home": "Brujas",
+          "away": "Marseille",
+          "score": "vs"
+        },
+        {
+          "date": "10-01-2026",
+          "home": "Borussia Dortmund",
+          "away": "Inter",
+          "score": "vs"
+        },
+        {
+          "date": "10-01-2026",
+          "home": "Benfica",
+          "away": "Real Madrid",
+          "score": "vs"
+        },
+        {
+          "date": "10-01-2026",
+          "home": "Bayer Leverkusen",
+          "away": "Villarreal",
+          "score": "vs"
+        },
+        {
+          "date": "10-01-2026",
+          "home": "Barcelona",
+          "away": "FC K\u00f8benhavn",
+          "score": "vs"
+        },
+        {
+          "date": "10-01-2026",
+          "home": "Atl\u00e9tico de Madrid",
+          "away": "Bod\u00f8/Glimt",
+          "score": "vs"
+        },
+        {
+          "date": "10-01-2026",
+          "home": "Athletic Club",
+          "away": "Sporting CP",
+          "score": "vs"
+        },
+        {
+          "date": "10-01-2026",
+          "home": "Union Saint-Gilloise",
+          "away": "Atalanta",
+          "score": "vs"
+        }
+      ]
+    },
+    "current": "Jornada"
+  },
   "EUROPA": {
     "rounds": {
       "Jornada 1": [
@@ -3244,5 +3359,60 @@
       ]
     },
     "current": "Jornada 7 (Actual)"
+  },
+  "COPA": {
+    "rounds": {
+      "Jornada": [
+        {
+          "date": "10-01-2026",
+          "home": "Cultural Leonesa",
+          "away": "Athletic Club",
+          "score": "vs"
+        },
+        {
+          "date": "10-01-2026",
+          "home": "Deportivo de La Coru\u00f1a",
+          "away": "Atl\u00e9tico de Madrid",
+          "score": "vs"
+        },
+        {
+          "date": "10-01-2026",
+          "home": "Real Sociedad",
+          "away": "Osasuna",
+          "score": "vs"
+        },
+        {
+          "date": "10-01-2026",
+          "home": "Alav\u00e9s",
+          "away": "Rayo Vallecano",
+          "score": "vs"
+        },
+        {
+          "date": "10-01-2026",
+          "home": "Albacete",
+          "away": "Real Madrid",
+          "score": "vs"
+        },
+        {
+          "date": "10-01-2026",
+          "home": "Real Betis",
+          "away": "Elche",
+          "score": "vs"
+        },
+        {
+          "date": "10-01-2026",
+          "home": "Burgos CF",
+          "away": "Valencia CF",
+          "score": "vs"
+        },
+        {
+          "date": "10-01-2026",
+          "home": "Racing de Santander",
+          "away": "Barcelona",
+          "score": "vs"
+        }
+      ]
+    },
+    "current": "Jornada"
   }
 }
