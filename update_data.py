@@ -44,40 +44,34 @@ MONTH_MAP = {
 
 def calculate_season_year(target_month, today_date):
     """
-    Calcula el año correcto basándose en la temporada de fútbol (Agosto-Mayo).
-    Si estamos en 2026 (Ene-Jul) y leemos 'Noviembre', debe ser 2025.
+    Calcula el año de la fecha leída basándose en la temporada actual.
+    Ejemplo: Si estamos en Enero 2026 y leemos 'Septiembre', debe ser 2025.
     """
-    current_year = today_date.year
-    current_month = today_date.month
+    curr_year = today_date.year
+    curr_month = today_date.month
     
-    # Si estamos en la segunda mitad de la temporada (Ene-Jul)
-    if current_month <= 7:
-        # Y la fecha leída es de la primera mitad (Ago-Dic) -> Es del año pasado
-        if target_month >= 8:
-            return current_year - 1
-        # Si la fecha leída es Ene-Jul -> Es de este año
-        return current_year
+    # Estamos en 2ª mitad de temporada (Ene-Jul)
+    if curr_month <= 7:
+        if target_month >= 8: return curr_year - 1 # Septiembre es del año pasado
+        return curr_year # Febrero es de este año
     
-    # Si estamos en la primera mitad de la temporada (Ago-Dic)
+    # Estamos en 1ª mitad de temporada (Ago-Dic)
     else:
-        # Y la fecha leída es Ene-Jul -> Es del año que viene
-        if target_month <= 7:
-            return current_year + 1
-        # Si la fecha leída es Ago-Dic -> Es de este año
-        return current_year
+        if target_month <= 7: return curr_year + 1 # Febrero es del año que viene
+        return curr_year # Septiembre es de este año
 
-def parse_header_date_obj(text, today_date):
+def parse_header_text(text, today_date):
     """
-    Parsea 'Miércoles, 16 de Septiembre' devolviendo un objeto DATE con el año corregido.
+    Extrae fecha de: 'Viernes, 18 de Septiembre' -> date(2025, 9, 18)
     """
     try:
         text = text.lower()
+        # Buscamos patrón: "18 de septiembre"
         match = re.search(r"(\d+)\s+de\s+(\w+)", text)
         if match:
             day = int(match.group(1))
             month_txt = match.group(2)
             month = MONTH_MAP.get(month_txt, 0)
-            
             if month > 0:
                 year = calculate_season_year(month, today_date)
                 return date(year, month, day)
@@ -147,7 +141,7 @@ def scrape_standings():
     return data_map
 
 def scrape_results():
-    print("⚽ Extrayendo Resultados (Lógica de Temporada)...")
+    print("⚽ Extrayendo Resultados (Corregido: Prioridad Headers TH)...")
     results_map = {}
     today = datetime.now(TZ_MADRID).date()
     
@@ -159,12 +153,12 @@ def scrape_results():
             current_round_key = ""
             current_found = False
             
-            # Recorremos cada tabla (Jornada)
+            # Recorrer cada tabla (Jornada)
             for table in soup.find_all('table'):
-                current_header_date_obj = None
-                round_dates_objs = [] # Fechas reales de los partidos de ESTA jornada
+                current_header_date = None # Fecha activa para los partidos de este grupo
+                round_match_dates = [] # Para calcular la jornada actual
                 
-                # 1. Nombre Jornada
+                # 1. Título Jornada
                 cap = table.find("caption")
                 orig_title = "Jornada"
                 if cap and cap.find("h2"):
@@ -172,92 +166,83 @@ def scrape_results():
                 else:
                     prev_h2 = table.find_previous("h2", class_="table-caption")
                     if prev_h2: orig_title = prev_h2.get_text(strip=True).replace("ª", "")
-
+                
                 if any(kw in orig_title.upper() for kw in ["FIFA", "WOMEN"]): continue
                 final_title = orig_title
-                
-                # 2. Detección Fecha en Cabecera (THEAD)
-                thead = table.find("thead")
-                if thead:
-                    th_date = thead.find("th", class_="textoizda")
-                    if th_date:
-                        raw_txt = th_date.get_text(strip=True)
-                        # Intento Rango (Liga: "2025-08-15 - 2025-08-19")
-                        dates_range = re.findall(r'(\d{4}-\d{2}-\d{2})', raw_txt)
-                        if len(dates_range) == 2:
-                            # En Liga la fecha ya viene con año, es fácil
-                            end_date = datetime.strptime(dates_range[1], "%Y-%m-%d").date()
-                            round_dates_objs.append(end_date)
-                        else:
-                            # Intento Texto (Champions: "Miércoles, 16 de Septiembre")
-                            # Aquí aplicamos la lógica del AÑO
-                            dt_obj = parse_header_date_obj(raw_txt, today)
-                            if dt_obj: current_header_date_obj = dt_obj
 
+                # 2. Iterar filas buscando cabeceras TH y partidos
                 matches = []
                 for row in table.find_all('tr'):
-                    # Cabeceras intermedias (Múltiples días en una jornada Champions)
-                    th_sub = row.find("th", class_="textoizda")
-                    if th_sub:
-                        dt_obj = parse_header_date_obj(th_sub.get_text(strip=True), today)
-                        if dt_obj: current_header_date_obj = dt_obj
-                        continue
+                    
+                    # --- A. DETECTAR CABECERA DE FECHA (Lo que el usuario pidió) ---
+                    # <th class="textoizda">Viernes, 18 de Septiembre</th>
+                    th_date = row.find("th", class_="textoizda")
+                    if th_date:
+                        parsed_date = parse_header_text(th_date.get_text(strip=True), today)
+                        if parsed_date:
+                            current_header_date = parsed_date
+                        continue # Pasamos a la siguiente fila, esta era solo header
 
+                    # --- B. DETECTAR PARTIDO ---
                     tds = row.find_all('td')
                     if len(tds) < 3: continue
 
-                    # A. FECHA & STATUS
-                    match_date_obj = None
-                    date_display = ""
+                    # 1. STATUS / HORA
                     status_val = ""
-                    
                     time_tag = row.find('time')
                     if time_tag:
+                        # Extraemos texto visual (21:00)
                         status_text = time_tag.get_text(strip=True)
-                        if ":" not in status_text and status_text: status_val = status_text
-                        if time_tag.has_attr('datetime'):
-                            dt_s = time_tag['datetime'].split('T')[0]
-                            try:
-                                match_date_obj = datetime.strptime(dt_s, "%Y-%m-%d").date()
-                            except: pass
-                    
-                    # Fallback status en última columna
+                        if ":" not in status_text and status_text: 
+                            status_val = status_text # Es un estado tipo "Fin"
+                        
+                        # IMPORTANTE: NO usamos time['datetime'] para la FECHA si es 1970
+                        # Solo confiamos en time tag si no tenemos cabecera y el año es razonable
+                        pass 
+
+                    # Fallback status (última columna)
                     if not status_val and len(tds) >= 4:
                         last = tds[-1].get_text(strip=True)
                         if "Fin" in last or "Desc" in last: status_val = last
 
-                    # Si no tenemos fecha por <time>, buscamos en celdas o cabecera
-                    if not match_date_obj:
+                    # 2. FECHA DEL PARTIDO
+                    match_date = None
+                    
+                    # Opción A: Heredar de la cabecera TH (Prioridad Máxima en Champions/Copa)
+                    if current_header_date:
+                        match_date = current_header_date
+                    
+                    # Opción B: Fecha explícita en columna 0 (típico LaLiga: "18/09")
+                    if not match_date:
                         txt_c0 = tds[0].get_text(strip=True)
-                        match_d = re.search(r'(\d{2})/(\d{2})', txt_c0)
-                        if match_d:
-                            d, m = int(match_d.group(1)), int(match_d.group(2))
-                            # Calcular año según mes vs hoy
+                        m_d = re.search(r'(\d{2})/(\d{2})', txt_c0)
+                        if m_d:
+                            d, m = int(m_d.group(1)), int(m_d.group(2))
                             y = calculate_season_year(m, today)
-                            match_date_obj = date(y, m, d)
-                        elif current_header_date_obj:
-                            match_date_obj = current_header_date_obj
-
-                    # Si logramos calcular fecha real, la guardamos para la lógica de "Actual"
-                    if match_date_obj:
-                        round_dates_objs.append(match_date_obj)
-                        date_display = match_date_obj.strftime("%d-%m-%Y")
-
-                    # B. EQUIPOS
+                            match_date = date(y, m, d)
+                    
+                    # Si conseguimos fecha válida, la guardamos
+                    date_str = ""
+                    if match_date:
+                        round_match_dates.append(match_date)
+                        date_str = match_date.strftime("%d-%m-%Y")
+                    
+                    # 3. EQUIPOS
                     home, away = "", ""
+                    # Home
                     home_td = row.find("td", class_="textodcha")
                     if home_td:
                         a = home_td.find("a", class_="geca_enlace_equipo")
                         home = a["title"] if a and a.has_attr("title") else home_td.get_text(strip=True)
                     elif len(tds) > 1: home = tds[1].get_text(strip=True)
-
+                    # Away
                     away_td = row.find("td", class_="textoizda")
                     if away_td:
                         a = away_td.find("a", class_="geca_enlace_equipo")
                         away = a["title"] if a and a.has_attr("title") else away_td.get_text(strip=True)
                     elif len(tds) > 3: away = tds[3].get_text(strip=True)
 
-                    # C. RESULTADO
+                    # 4. RESULTADO
                     final_score = "vs"
                     candidates = []
                     score_a = row.find('a', class_='geca_enlace_partido')
@@ -265,42 +250,43 @@ def scrape_results():
                     score_span = row.find('span', class_='celdagoles')
                     if score_span: candidates.append(score_span.get_text(strip=True))
                     
-                    found_score = False
+                    found_s = False
                     for txt in candidates:
                         if re.search(r'\d+\s*-\s*\d+', txt):
-                            final_score = txt; found_score = True; break
+                            final_score = txt; found_s = True; break
                     
-                    if not found_score and len(tds) >= 3:
+                    if not found_s and len(tds) >= 3:
                         center = tds[2].get_text(strip=True)
                         if re.search(r'\d+\s*-\s*\d+', center): final_score = center
 
                     if home and away:
                         matches.append({
-                            "date": date_display,
+                            "date": date_str,
                             "home": home.strip(),
                             "away": away.strip(),
                             "score": final_score,
                             "status": status_val
                         })
-                
-                # --- CÁLCULO DE JORNADA ACTUAL ---
-                # Si la fecha MÁS TARDÍA de esta jornada es HOY o FUTURA -> Esta es la Actual
-                if not current_found and round_dates_objs:
-                    max_date_in_round = max(round_dates_objs)
-                    if max_date_in_round >= today:
+
+                # --- CÁLCULO JORNADA ACTUAL ---
+                # Si esta jornada tiene fechas y la última fecha es >= HOY -> Es la actual
+                if not current_found and round_match_dates:
+                    max_d = max(round_match_dates)
+                    if max_d >= today:
                         final_title = f"{orig_title} (Actual)"
                         current_round_key = final_title
                         current_found = True
-
+                
                 if matches:
                     temp_rounds.append({"key": final_title, "matches": matches})
-            
+
             if temp_rounds:
                 def_current = current_round_key if current_round_key else temp_rounds[-1]["key"]
                 results_map[name] = {
                     "rounds": {r["key"]: r["matches"] for r in temp_rounds},
                     "current": def_current
                 }
+
         except: continue
     return results_map
 
