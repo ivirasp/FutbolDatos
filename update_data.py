@@ -58,52 +58,61 @@ def get_prefix(competition, rank_str):
     except: return INDICATORS["midtable"]
 
 def scrape_standings():
-    print("📊 Extrayendo Clasificaciones...")
+    print("📊 Extrayendo Clasificaciones con precisión HTML...")
     data_map = {}
     headers = {'User-Agent': 'Mozilla/5.0'}
     for name, url in URLS_STANDINGS.items():
         try:
             r = requests.get(url, headers=headers, timeout=15)
             soup = BeautifulSoup(r.content, 'html.parser')
-            table = max(soup.find_all('table'), key=lambda t: len(t.find_all('tr')))
+            # Buscamos las filas de la tabla
+            rows = soup.find_all('tr', class_=lambda x: x and ('cha' in x or 'cla' in x or 'rel' in x))
             
             league_data = []
-            rows = table.find_all('tr')[1:] 
-            
             for row in rows:
-                cols = row.find_all(['td', 'th'])
-                # Filtramos solo los que tienen números o el nombre del equipo
-                text_data = [c.get_text(strip=True) for c in cols if c.get_text(strip=True)]
+                # 1. Extraer del <th> (Rango y Nombre)
+                th = row.find('th')
+                if not th: continue
+                rank = th.find('span', class_='classification-pos').get_text(strip=True)
+                team_name = th.find('h2', class_='nombre-equipo').get_text(strip=True)
                 
-                # Buscamos el nombre del equipo (suele ser el único texto largo)
-                team_name = ""
-                stats = []
-                for t in text_data:
-                    if not t.isdigit() and len(t) > 2:
-                        team_name = re.sub(r'^\d+\s*', '', t)
-                    elif t.isdigit() or (t.startswith('-') and t[1:].isdigit()) or (t.startswith('+') and t[1:].isdigit()):
-                        stats.append(t)
+                # 2. Extraer de los <td> (Stats)
+                tds = row.find_all('td')
+                if len(tds) < 7: continue
+                
+                # Siguiendo tu código fuente:
+                pts = tds[0].get_text(strip=True)
+                pj  = tds[1].get_text(strip=True)
+                pg  = tds[2].get_text(strip=True)
+                pe  = tds[3].get_text(strip=True)
+                pp  = tds[4].get_text(strip=True)
+                gf  = tds[5].get_text(strip=True)
+                gc  = tds[6].get_text(strip=True)
+                
+                # Calcular Diferencia de Goles (DG)
+                try:
+                    dg_val = int(gf) - int(gc)
+                    dg = f"+{dg_val}" if dg_val > 0 else str(dg_val)
+                except: dg = "0"
 
-                # Si tenemos equipo y al menos los datos básicos (Pos, Puntos, PJ, G, E, P, GF, GC)
-                # La Vanguardia suele dar: [0:Pos, 1:Puntos, 2:PJ, 3:PG, 4:PE, 5:PP, 6:GF, 7:GC]
-                if team_name and len(stats) >= 7:
-                    rank = stats[0]
-                    prefix = get_prefix(name, rank)
-
-                    league_data.append({
-                        "rank": rank,
-                        "team": f"{prefix}{team_name}",
-                        "points": stats[1],
-                        "played": stats[2],
-                        "won": stats[3],
-                        "drawn": stats[4],
-                        "lost": stats[5],
-                        "gf": stats[6],
-                        "ga": stats[7],
-                        "dg": str(int(stats[6]) - int(stats[7])) if len(stats) > 7 else "0"
-                    })
-            if league_data: data_map[name] = league_data
-            print(f"✅ {name} cargado correctamente")
+                prefix = get_prefix(name, rank)
+                
+                league_data.append({
+                    "rank": rank,
+                    "team": f"{prefix}{team_name}",
+                    "points": pts,
+                    "played": pj,
+                    "won": pg,
+                    "drawn": pe,
+                    "lost": pp,
+                    "gf": gf,
+                    "ga": gc,
+                    "dg": dg
+                })
+            
+            if league_data: 
+                data_map[name] = league_data
+                print(f"   ✅ {name} ok")
         except Exception as e: print(f"Error en {name}: {e}")
     return data_map
 
