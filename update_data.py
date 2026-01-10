@@ -46,7 +46,7 @@ def scrape_agenda():
         try:
             r = requests.get(url, headers=headers, timeout=15)
             soup = BeautifulSoup(r.content, 'html.parser')
-            # Buscamos el bloque <article class="match">
+            # Buscamos el bloque <article class="match"> que nos pasaste
             articles = soup.find_all("article", class_="match")
             for art in articles:
                 name_tag = art.find("meta", itemprop="name")
@@ -54,11 +54,11 @@ def scrape_agenda():
                 if not name_tag or not date_tag: continue
 
                 title = name_tag.get("content", "").strip()
-                # Extraemos fecha completa
                 date_str = date_tag.get("content", "").split('+')[0]
                 dt = datetime.strptime(date_str, "%Y-%m-%dT%H:%M:%S")
                 ts = TZ_MADRID.localize(dt).timestamp()
 
+                # Canal: Buscamos el span con itemprop="name" dentro del bloque de canales
                 chan_span = art.find("span", itemprop="name")
                 channel = chan_span.get_text(strip=True) if chan_span else "TBD"
 
@@ -75,7 +75,7 @@ def scrape_agenda():
     return sorted(agenda, key=lambda x: x['start_ts'])
 
 def scrape_standings():
-    print("📊 Extrayendo Clasificaciones...")
+    print("📊 Extrayendo Clasificaciones (20 equipos)...")
     data_map = {}
     headers = {'User-Agent': 'Mozilla/5.0'}
     for name, url in URLS_STANDINGS.items():
@@ -84,8 +84,10 @@ def scrape_standings():
             soup = BeautifulSoup(r.content, 'html.parser')
             tables = soup.find_all('table')
             if not tables: continue
+            
+            # Cogemos la tabla con más filas para asegurar que salen todos los equipos
             main_table = max(tables, key=lambda t: len(t.find_all('tr')))
-            rows = main_table.find_all('tr')
+            rows = main_table.find_all('tr')[1:] # Saltamos la cabecera
             
             league_data = []
             seen_teams = set()
@@ -97,16 +99,20 @@ def scrape_standings():
                 if not rank_n or not team_n: continue
                 
                 rank = rank_n.get_text(strip=True)
-                team = team_node_text = team_n.get_text(strip=True)
+                team = team_n.get_text(strip=True)
                 if team in seen_teams: continue
                 seen_teams.add(team)
                 
                 tds = row.find_all('td')
                 if len(tds) < 7: continue
-                # Pts, PJ, PG, PE, PP, GF, GC
+                # Datos: Pts, PJ, PG, PE, PP, GF, GC
                 pts, pj, pg, pe, pp, gf, gc = [t.get_text(strip=True) for t in tds[:7]]
-                dg = f"+{int(gf)-int(gc)}" if int(gf)-int(gc) > 0 else str(int(gf)-int(gc))
                 
+                try:
+                    dg_val = int(gf) - int(gc)
+                    dg = f"+{dg_val}" if dg_val > 0 else str(dg_val)
+                except: dg = "0"
+
                 league_data.append({
                     "rank": rank, "team": team, "points": pts, 
                     "played": pj, "won": pg, "drawn": pe, "lost": pp,
@@ -117,7 +123,7 @@ def scrape_standings():
     return data_map
 
 def scrape_results():
-    print("⚽ Extrayendo Resultados...")
+    print("⚽ Extrayendo Resultados y detectando Jornada Actual...")
     results_map = {}
     today = datetime.now(TZ_MADRID).date()
     
@@ -133,16 +139,16 @@ def scrape_results():
                 orig_title = cap.find("h2").get_text(strip=True).replace("ª", "") if cap else "Jornada"
                 if any(kw in orig_title.upper() for kw in ["FIFA", "WOMEN"]): continue
                 
+                # Lógica de Jornada Actual por fechas
                 final_title = orig_title
                 if not current_found:
-                    # Buscamos el rango de fechas en el th
                     date_th = table.find("th", class_="textoizda")
                     if date_th:
                         date_text = date_th.get_text(strip=True)
                         dates = re.findall(r'(\d{4}-\d{2}-\d{2})', date_text)
                         if len(dates) == 2:
                             end_date = datetime.strptime(dates[1], "%Y-%m-%d").date()
-                            # Si hoy no ha pasado la fecha fin, es la actual
+                            # Si hoy es anterior o igual a la fecha fin, es la actual
                             if today <= end_date:
                                 final_title = "Jornada Actual"
                                 current_found = True
@@ -169,7 +175,13 @@ def scrape_results():
     return results_map
 
 if __name__ == "__main__":
-    with open(CALENDAR_FILE, 'w') as f: json.dump(scrape_agenda(), f, indent=2)
-    with open(STANDINGS_FILE, 'w') as f: json.dump(scrape_standings(), f, indent=2)
-    with open(RESULTS_FILE, 'w') as f: json.dump(scrape_results(), f, indent=2)
-    print("🎉 Datos grabados a fuego.")
+    # Ejecución total
+    agenda_data = scrape_agenda()
+    with open(CALENDAR_FILE, 'w') as f: json.dump(agenda_data, f, indent=2)
+    
+    standings_data = scrape_standings()
+    with open(STANDINGS_FILE, 'w') as f: json.dump(standings_data, f, indent=2)
+    
+    results_data = scrape_results()
+    with open(RESULTS_FILE, 'w') as f: json.dump(results_data, f, indent=2)
+    print("🎉 Proceso finalizado con éxito.")
