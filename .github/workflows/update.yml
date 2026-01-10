@@ -1,0 +1,26 @@
+name: Actualizador de Datos
+on:
+  schedule:
+    - cron: '*/15 * * * *' # Pregunta cada 15 min
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Configurar Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+      - name: Instalar librerías
+        run: pip install requests beautifulsoup4 pytz
+      - name: Ejecutar Script
+        run: python update_data.py
+      - name: Subir Cambios
+        run: |
+          git config --global user.name 'Cerebro-Bot'
+          git config --global user.email 'bot@futboltv.com'
+          git add calendar.json standings.json
+          git commit -m "Actualización automática de datos" || exit 0
+          git push
