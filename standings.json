@@ -2,7 +2,7 @@
   "LALIGA": [
     {
       "rank": "1",
-      "team": "\ud83d\udfe2 FC Barcelona",
+      "team": "FC Barcelona",
       "points": "49",
       "played": "19",
       "won": "16",
@@ -14,7 +14,7 @@
     },
     {
       "rank": "2",
-      "team": "\ud83d\udfe2 Real Madrid",
+      "team": "Real Madrid",
       "points": "45",
       "played": "19",
       "won": "14",
@@ -26,7 +26,7 @@
     },
     {
       "rank": "3",
-      "team": "\ud83d\udfe2 Villarreal",
+      "team": "Villarreal",
       "points": "38",
       "played": "17",
       "won": "12",
@@ -38,7 +38,7 @@
     },
     {
       "rank": "4",
-      "team": "\ud83d\udfe2 Atl\u00e9tico de Madrid",
+      "team": "Atl\u00e9tico de Madrid",
       "points": "38",
       "played": "19",
       "won": "11",
@@ -50,7 +50,7 @@
     },
     {
       "rank": "5",
-      "team": "\ud83d\udd35 Espanyol",
+      "team": "Espanyol",
       "points": "33",
       "played": "18",
       "won": "10",
@@ -62,7 +62,7 @@
     },
     {
       "rank": "6",
-      "team": "\ud83d\udfe1 Real Betis",
+      "team": "Real Betis",
       "points": "28",
       "played": "18",
       "won": "7",
@@ -206,7 +206,7 @@
     },
     {
       "rank": "18",
-      "team": "\ud83d\udd34 Valencia",
+      "team": "Valencia",
       "points": "16",
       "played": "18",
       "won": "3",
@@ -218,7 +218,7 @@
     },
     {
       "rank": "19",
-      "team": "\ud83d\udd34 Levante",
+      "team": "Levante",
       "points": "13",
       "played": "17",
       "won": "3",
@@ -230,7 +230,7 @@
     },
     {
       "rank": "20",
-      "team": "\ud83d\udd34 Real Oviedo",
+      "team": "Real Oviedo",
       "points": "12",
       "played": "18",
       "won": "2",
@@ -244,7 +244,7 @@
   "CHAMPIONS": [
     {
       "rank": "1",
-      "team": "\u2705 Arsenal",
+      "team": "Arsenal",
       "points": "18",
       "played": "6",
       "won": "6",
@@ -256,7 +256,7 @@
     },
     {
       "rank": "2",
-      "team": "\u2705 Bayern de Munich",
+      "team": "Bayern de Munich",
       "points": "15",
       "played": "6",
       "won": "5",
@@ -268,7 +268,7 @@
     },
     {
       "rank": "3",
-      "team": "\u2705 PSG",
+      "team": "PSG",
       "points": "13",
       "played": "6",
       "won": "4",
@@ -280,7 +280,7 @@
     },
     {
       "rank": "4",
-      "team": "\u2705 Manchester City",
+      "team": "Manchester City",
       "points": "13",
       "played": "6",
       "won": "4",
@@ -292,7 +292,7 @@
     },
     {
       "rank": "5",
-      "team": "\u2705 Atalanta",
+      "team": "Atalanta",
       "points": "13",
       "played": "6",
       "won": "4",
@@ -304,7 +304,7 @@
     },
     {
       "rank": "6",
-      "team": "\u2705 Inter de Mil\u00e1n",
+      "team": "Inter de Mil\u00e1n",
       "points": "12",
       "played": "6",
       "won": "4",
@@ -316,7 +316,7 @@
     },
     {
       "rank": "7",
-      "team": "\u2705 Real Madrid",
+      "team": "Real Madrid",
       "points": "12",
       "played": "6",
       "won": "4",
@@ -328,7 +328,7 @@
     },
     {
       "rank": "8",
-      "team": "\u2705 Atl\u00e9tico de Madrid",
+      "team": "Atl\u00e9tico de Madrid",
       "points": "12",
       "played": "6",
       "won": "4",
@@ -340,7 +340,7 @@
     },
     {
       "rank": "9",
-      "team": "\u2694\ufe0f Liverpool",
+      "team": "Liverpool",
       "points": "12",
       "played": "6",
       "won": "4",
@@ -352,7 +352,7 @@
     },
     {
       "rank": "10",
-      "team": "\u2694\ufe0f Borussia Dortmund",
+      "team": "Borussia Dortmund",
       "points": "11",
       "played": "6",
       "won": "3",
@@ -364,7 +364,7 @@
     },
     {
       "rank": "11",
-      "team": "\u2694\ufe0f Tottenham",
+      "team": "Tottenham",
       "points": "11",
       "played": "6",
       "won": "3",
@@ -376,7 +376,7 @@
     },
     {
       "rank": "12",
-      "team": "\u2694\ufe0f Newcastle",
+      "team": "Newcastle",
       "points": "10",
       "played": "6",
       "won": "3",
@@ -388,7 +388,7 @@
     },
     {
       "rank": "13",
-      "team": "\u2694\ufe0f Chelsea",
+      "team": "Chelsea",
       "points": "10",
       "played": "6",
       "won": "3",
@@ -400,7 +400,7 @@
     },
     {
       "rank": "14",
-      "team": "\u2694\ufe0f Sporting de Portugal",
+      "team": "Sporting de Portugal",
       "points": "10",
       "played": "6",
       "won": "3",
@@ -412,7 +412,7 @@
     },
     {
       "rank": "15",
-      "team": "\u2694\ufe0f FC Barcelona",
+      "team": "FC Barcelona",
       "points": "10",
       "played": "6",
       "won": "3",
@@ -424,7 +424,7 @@
     },
     {
       "rank": "16",
-      "team": "\u2694\ufe0f Olympique de Marsella",
+      "team": "Olympique de Marsella",
       "points": "9",
       "played": "6",
       "won": "3",
@@ -436,7 +436,7 @@
     },
     {
       "rank": "17",
-      "team": "\u2694\ufe0f Juventus",
+      "team": "Juventus",
       "points": "9",
       "played": "6",
       "won": "2",
@@ -448,7 +448,7 @@
     },
     {
       "rank": "18",
-      "team": "\u2694\ufe0f Galatasaray",
+      "team": "Galatasaray",
       "points": "9",
       "played": "6",
       "won": "3",
@@ -460,7 +460,7 @@
     },
     {
       "rank": "19",
-      "team": "\u2694\ufe0f M\u00f3naco",
+      "team": "M\u00f3naco",
       "points": "9",
       "played": "6",
       "won": "2",
@@ -472,7 +472,7 @@
     },
     {
       "rank": "20",
-      "team": "\u2694\ufe0f Bayer Leverkusen",
+      "team": "Bayer Leverkusen",
       "points": "9",
       "played": "6",
       "won": "2",
@@ -484,7 +484,7 @@
     },
     {
       "rank": "21",
-      "team": "\u2694\ufe0f PSV",
+      "team": "PSV",
       "points": "8",
       "played": "6",
       "won": "2",
@@ -496,7 +496,7 @@
     },
     {
       "rank": "22",
-      "team": "\u2694\ufe0f Qarabag",
+      "team": "Qarabag",
       "points": "7",
       "played": "6",
       "won": "2",
@@ -508,7 +508,7 @@
     },
     {
       "rank": "23",
-      "team": "\u2694\ufe0f N\u00e1poles",
+      "team": "N\u00e1poles",
       "points": "7",
       "played": "6",
       "won": "2",
@@ -520,7 +520,7 @@
     },
     {
       "rank": "24",
-      "team": "\u2694\ufe0f Kobenhavn",
+      "team": "Kobenhavn",
       "points": "7",
       "played": "6",
       "won": "2",
@@ -678,7 +678,7 @@
   "EUROPA": [
     {
       "rank": "1",
-      "team": "\u2705 Olympique de Lyon",
+      "team": "Olympique de Lyon",
       "points": "15",
       "played": "6",
       "won": "5",
@@ -690,7 +690,7 @@
     },
     {
       "rank": "2",
-      "team": "\u2705 Midtjylland",
+      "team": "Midtjylland",
       "points": "15",
       "played": "6",
       "won": "5",
@@ -702,7 +702,7 @@
     },
     {
       "rank": "3",
-      "team": "\u2705 Aston Villa",
+      "team": "Aston Villa",
       "points": "15",
       "played": "6",
       "won": "5",
@@ -714,7 +714,7 @@
     },
     {
       "rank": "4",
-      "team": "\u2705 Real Betis",
+      "team": "Real Betis",
       "points": "14",
       "played": "6",
       "won": "4",
@@ -726,7 +726,7 @@
     },
     {
       "rank": "5",
-      "team": "\u2705 SC Friburgo",
+      "team": "SC Friburgo",
       "points": "14",
       "played": "6",
       "won": "4",
@@ -738,7 +738,7 @@
     },
     {
       "rank": "6",
-      "team": "\u2705 Ferencv\u00e1ros",
+      "team": "Ferencv\u00e1ros",
       "points": "14",
       "played": "6",
       "won": "4",
@@ -750,7 +750,7 @@
     },
     {
       "rank": "7",
-      "team": "\u2705 Sporting de Braga",
+      "team": "Sporting de Braga",
       "points": "13",
       "played": "6",
       "won": "4",
@@ -762,7 +762,7 @@
     },
     {
       "rank": "8",
-      "team": "\u2705 Oporto",
+      "team": "Oporto",
       "points": "13",
       "played": "6",
       "won": "4",
@@ -774,7 +774,7 @@
     },
     {
       "rank": "9",
-      "team": "\u2694\ufe0f Stuttgart",
+      "team": "Stuttgart",
       "points": "12",
       "played": "6",
       "won": "4",
@@ -786,7 +786,7 @@
     },
     {
       "rank": "10",
-      "team": "\u2694\ufe0f Roma",
+      "team": "Roma",
       "points": "12",
       "played": "6",
       "won": "4",
@@ -798,7 +798,7 @@
     },
     {
       "rank": "11",
-      "team": "\u2694\ufe0f Nottingham Forest",
+      "team": "Nottingham Forest",
       "points": "11",
       "played": "6",
       "won": "3",
@@ -810,7 +810,7 @@
     },
     {
       "rank": "12",
-      "team": "\u2694\ufe0f Fenerbah\u00e7e",
+      "team": "Fenerbah\u00e7e",
       "points": "11",
       "played": "6",
       "won": "3",
@@ -822,7 +822,7 @@
     },
     {
       "rank": "13",
-      "team": "\u2694\ufe0f Bolonia",
+      "team": "Bolonia",
       "points": "11",
       "played": "6",
       "won": "3",
@@ -834,7 +834,7 @@
     },
     {
       "rank": "14",
-      "team": "\u2694\ufe0f Viktoria Plzen",
+      "team": "Viktoria Plzen",
       "points": "10",
       "played": "6",
       "won": "2",
@@ -846,7 +846,7 @@
     },
     {
       "rank": "15",
-      "team": "\u2694\ufe0f Panathinaikos",
+      "team": "Panathinaikos",
       "points": "10",
       "played": "6",
       "won": "3",
@@ -858,7 +858,7 @@
     },
     {
       "rank": "16",
-      "team": "\u2694\ufe0f Genk",
+      "team": "Genk",
       "points": "10",
       "played": "6",
       "won": "3",
@@ -870,7 +870,7 @@
     },
     {
       "rank": "17",
-      "team": "\u2694\ufe0f Estrella Roja de Belgrado",
+      "team": "Estrella Roja de Belgrado",
       "points": "10",
       "played": "6",
       "won": "3",
@@ -882,7 +882,7 @@
     },
     {
       "rank": "18",
-      "team": "\u2694\ufe0f PAOK",
+      "team": "PAOK",
       "points": "9",
       "played": "6",
       "won": "2",
@@ -894,7 +894,7 @@
     },
     {
       "rank": "19",
-      "team": "\u2694\ufe0f Celta",
+      "team": "Celta",
       "points": "9",
       "played": "6",
       "won": "3",
@@ -906,7 +906,7 @@
     },
     {
       "rank": "20",
-      "team": "\u2694\ufe0f Lille",
+      "team": "Lille",
       "points": "9",
       "played": "6",
       "won": "3",
@@ -918,7 +918,7 @@
     },
     {
       "rank": "21",
-      "team": "\u2694\ufe0f Young Boys",
+      "team": "Young Boys",
       "points": "9",
       "played": "6",
       "won": "3",
@@ -930,7 +930,7 @@
     },
     {
       "rank": "22",
-      "team": "\u2694\ufe0f SK Brann",
+      "team": "SK Brann",
       "points": "8",
       "played": "6",
       "won": "2",
@@ -942,7 +942,7 @@
     },
     {
       "rank": "23",
-      "team": "\u2694\ufe0f Ludogorets",
+      "team": "Ludogorets",
       "points": "7",
       "played": "6",
       "won": "2",
@@ -954,7 +954,7 @@
     },
     {
       "rank": "24",
-      "team": "\u2694\ufe0f Celtic",
+      "team": "Celtic",
       "points": "7",
       "played": "6",
       "won": "2",
