@@ -134,15 +134,15 @@
     },
     {
       "rank": "12",
-      "team": "Osasuna",
-      "points": "20",
+      "team": "Girona FC",
+      "points": "21",
       "played": "19",
       "won": "5",
-      "drawn": "5",
-      "lost": "9",
+      "drawn": "6",
+      "lost": "8",
       "gf": "18",
-      "ga": "21",
-      "dg": "-3"
+      "ga": "34",
+      "dg": "-16"
     },
     {
       "rank": "13",
@@ -158,6 +158,18 @@
     },
     {
       "rank": "14",
+      "team": "Osasuna",
+      "points": "19",
+      "played": "19",
+      "won": "5",
+      "drawn": "4",
+      "lost": "10",
+      "gf": "18",
+      "ga": "22",
+      "dg": "-4"
+    },
+    {
+      "rank": "15",
       "team": "Rayo Vallecano",
       "points": "19",
       "played": "18",
@@ -169,7 +181,7 @@
       "dg": "-7"
     },
     {
-      "rank": "15",
+      "rank": "16",
       "team": "Deportivo Alav\u00e9s",
       "points": "19",
       "played": "19",
@@ -179,18 +191,6 @@
       "gf": "16",
       "ga": "24",
       "dg": "-8"
-    },
-    {
-      "rank": "16",
-      "team": "Girona FC",
-      "points": "19",
-      "played": "19",
-      "won": "4",
-      "drawn": "7",
-      "lost": "8",
-      "gf": "17",
-      "ga": "34",
-      "dg": "-17"
     },
     {
       "rank": "17",
