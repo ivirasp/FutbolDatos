@@ -46,7 +46,6 @@ def scrape_agenda():
         try:
             r = requests.get(url, headers=headers, timeout=15)
             soup = BeautifulSoup(r.content, 'html.parser')
-            # Buscamos el bloque <article class="match">
             articles = soup.find_all("article", class_="match")
             for art in articles:
                 name_tag = art.find("meta", itemprop="name")
@@ -83,7 +82,6 @@ def scrape_standings():
             soup = BeautifulSoup(r.content, 'html.parser')
             tables = soup.find_all('table')
             if not tables: continue
-            
             main_table = max(tables, key=lambda t: len(t.find_all('tr')))
             rows = main_table.find_all('tr')[1:]
             
@@ -120,7 +118,7 @@ def scrape_standings():
     return data_map
 
 def scrape_results():
-    print("⚽ Extrayendo Resultados (Jornada Actual)...")
+    print("⚽ Extrayendo Resultados y detectando Jornada Actual...")
     results_map = {}
     today = datetime.now(TZ_MADRID).date()
     
@@ -137,6 +135,7 @@ def scrape_results():
                 orig_title = cap.find("h2").get_text(strip=True).replace("ª", "") if cap else "Jornada"
                 if any(kw in orig_title.upper() for kw in ["FIFA", "WOMEN"]): continue
                 
+                # Lógica de Jornada Actual por fechas
                 final_title = orig_title
                 if not current_found:
                     date_th = table.find("th", class_="textoizda")
@@ -152,14 +151,39 @@ def scrape_results():
 
                 matches = []
                 for row in table.find_all('tr'):
-                    cols = row.find_all('td')
-                    if len(cols) < 4: continue
-                    matches.append({
-                        "date": cols[0].get_text(strip=True),
-                        "home": cols[1].get_text(strip=True),
-                        "away": cols[3].get_text(strip=True),
-                        "score": cols[2].get_text(strip=True)
-                    })
+                    # 1. Extraer Fecha (Prioridad etiqueta <time> para Champions/Copa)
+                    time_tag = row.find('time')
+                    if time_tag:
+                        dt_str = time_tag.get('datetime', '').split('T')[0]
+                        date_val = datetime.strptime(dt_str, "%Y-%m-%d").strftime("%d-%m-%Y")
+                    else:
+                        tds_date = row.find_all('td')
+                        date_val = tds_date[0].get_text(strip=True) if tds_date else ""
+
+                    # 2. Extraer Equipos (Prioridad clases Champions/Copa)
+                    team_names = row.find_all('span', class_='geca_enlace_equipo__name')
+                    if len(team_names) >= 2:
+                        home = team_names[0].get_text(strip=True)
+                        away = team_names[1].get_text(strip=True)
+                    else:
+                        tds = row.find_all('td')
+                        if len(tds) < 4: continue
+                        home = tds[1].get_text(strip=True)
+                        away = tds[3].get_text(strip=True)
+
+                    # 3. Extraer Marcador
+                    score_link = row.find('a', class_='geca_enlace_partido')
+                    score = score_link.get_text(strip=True) if score_link else "vs"
+                    if score == "vs" and row.find('span', class_='celdagoles'):
+                        score = row.find('span', class_='celdagoles').get_text(strip=True)
+
+                    if home and away:
+                        matches.append({
+                            "date": date_val,
+                            "home": home,
+                            "away": away,
+                            "score": score
+                        })
                 if matches:
                     temp_rounds.append({"key": final_title, "matches": matches})
             
@@ -168,7 +192,9 @@ def scrape_results():
                     "rounds": {r["key"]: r["matches"] for r in temp_rounds},
                     "current": current_round_name if current_round_name else temp_rounds[-1]["key"]
                 }
-        except: continue
+        except Exception as e:
+            print(f"Error en {name}: {e}")
+            
     return results_map
 
 if __name__ == "__main__":
@@ -180,4 +206,4 @@ if __name__ == "__main__":
     
     results_data = scrape_results()
     with open(RESULTS_FILE, 'w') as f: json.dump(results_data, f, indent=2)
-    print("🎉 Proceso finalizado.")
+    print("🎉 Proceso finalizado con éxito.")
