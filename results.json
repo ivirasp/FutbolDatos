@@ -1117,7 +1117,7 @@
           "score": "0 - 3"
         }
       ],
-      "Jornada Actual": [
+      "Jornada 19 (Actual)": [
         {
           "date": "09/01",
           "home": "Getafe",
@@ -1305,6 +1305,36 @@
       ],
       "Jornada 22": [
         {
+          "date": "30/01",
+          "home": "Espanyol",
+          "away": "Alav\u00e9s",
+          "score": "-"
+        },
+        {
+          "date": "31/01",
+          "home": "Elche",
+          "away": "Barcelona",
+          "score": "-"
+        },
+        {
+          "date": "31/01",
+          "home": "Levante",
+          "away": "Atl\u00e9tico de Madrid",
+          "score": "-"
+        },
+        {
+          "date": "31/01",
+          "home": "Osasuna",
+          "away": "Villarreal",
+          "score": "-"
+        },
+        {
+          "date": "31/01",
+          "home": "Real Oviedo",
+          "away": "Girona",
+          "score": "-"
+        },
+        {
           "date": "01/02",
           "home": "Athletic Club",
           "away": "Real Sociedad",
@@ -1312,38 +1342,8 @@
         },
         {
           "date": "01/02",
-          "home": "Elche",
-          "away": "Barcelona",
-          "score": "-"
-        },
-        {
-          "date": "01/02",
-          "home": "Espanyol",
-          "away": "Alav\u00e9s",
-          "score": "-"
-        },
-        {
-          "date": "01/02",
           "home": "Getafe",
           "away": "Celta de Vigo",
-          "score": "-"
-        },
-        {
-          "date": "01/02",
-          "home": "Levante",
-          "away": "Atl\u00e9tico de Madrid",
-          "score": "-"
-        },
-        {
-          "date": "01/02",
-          "home": "Mallorca",
-          "away": "Sevilla",
-          "score": "-"
-        },
-        {
-          "date": "01/02",
-          "home": "Osasuna",
-          "away": "Villarreal",
           "score": "-"
         },
         {
@@ -1359,9 +1359,9 @@
           "score": "-"
         },
         {
-          "date": "01/02",
-          "home": "Real Oviedo",
-          "away": "Girona",
+          "date": "02/02",
+          "home": "Mallorca",
+          "away": "Sevilla",
           "score": "-"
         }
       ],
@@ -2358,7 +2358,7 @@
         }
       ]
     },
-    "current": "Jornada Actual"
+    "current": "Jornada 19 (Actual)"
   },
   "CHAMPIONS": {
     "rounds": {
@@ -3137,7 +3137,7 @@
           "score": "1 - 0"
         }
       ],
-      "Jornada Actual": [
+      "Jornada 7 (Actual)": [
         {
           "date": "22/01",
           "home": "Bolonia",
@@ -3358,7 +3358,7 @@
         }
       ]
     },
-    "current": "Jornada Actual"
+    "current": "Jornada 7 (Actual)"
   },
   "COPA": {
     "rounds": {
