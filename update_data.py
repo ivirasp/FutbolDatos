@@ -34,7 +34,7 @@ URLS_RESULTS = [
     ("COPA", "https://www.superdeporte.es/deportes/futbol/copa-rey/calendario/")
 ]
 
-# --- 2. FUNCIONES DE EXTRACCIÓN ---
+# --- 2. FUNCIONES ---
 
 def scrape_agenda():
     print("🌍 Extrayendo Agenda...")
@@ -112,7 +112,7 @@ def scrape_standings():
     return data_map
 
 def scrape_results():
-    print("⚽ Extrayendo Resultados (Limpieza de marcadores)...")
+    print("⚽ Extrayendo Resultados (Buscando patrón 'Goles - Goles')...")
     results_map = {}
     today = datetime.now(TZ_MADRID).date()
     
@@ -124,16 +124,13 @@ def scrape_results():
             current_round_key = ""
             current_found = False
             
-            # Recorremos las tablas (cada una es una Jornada)
             for table in soup.find_all('table'):
-                # 1. Extraer nombre de la jornada (ej: Jornada 6)
+                # 1. Detectar Jornada
                 cap = table.find("caption")
-                if not cap: continue
-                orig_title = cap.find("h2").get_text(strip=True).replace("ª", "")
+                orig_title = cap.find("h2").get_text(strip=True).replace("ª", "") if cap else "Jornada"
                 if any(kw in orig_title.upper() for kw in ["FIFA", "WOMEN"]): continue
                 
                 final_title = orig_title
-                # 2. Identificar si es la Actual por el rango de fechas
                 date_th = table.find("th", class_="textoizda")
                 if date_th and not current_found:
                     dates = re.findall(r'(\d{4}-\d{2}-\d{2})', date_th.get_text())
@@ -147,43 +144,55 @@ def scrape_results():
                 matches = []
                 for row in table.find_all('tr'):
                     tds = row.find_all('td')
-                    if not tds: continue
+                    if len(tds) < 3: continue
 
-                    # FECHA: Prioridad <time>
+                    # A. EXTRACCIÓN DE FECHA
                     time_tag = row.find('time')
                     if time_tag:
+                        # Formato Champions/Copa
                         dt_s = time_tag.get('datetime', '').split('T')[0]
-                        date_v = datetime.strptime(dt_s, "%Y-%m-%d").strftime("%d-%m-%Y")
+                        date_val = datetime.strptime(dt_s, "%Y-%m-%d").strftime("%d-%m-%Y")
                     else:
-                        date_v = tds[0].get_text(strip=True)
+                        # Formato LaLiga
+                        date_val = tds[0].get_text(strip=True)
 
-                    # EQUIPOS: Prioridad clase geca_enlace_equipo__name
-                    team_spans = row.find_all('span', class_='geca_enlace_equipo__name')
-                    if len(team_spans) >= 2:
-                        home = team_spans[0].get_text(strip=True)
-                        away = team_spans[1].get_text(strip=True)
-                    elif len(tds) >= 4:
+                    # B. EXTRACCIÓN DE EQUIPOS
+                    team_links = row.find_all('a', class_='geca_enlace_equipo')
+                    if len(team_links) >= 2:
+                        home = team_links[0].get('title', team_links[0].get_text(strip=True))
+                        away = team_links[1].get('title', team_links[1].get_text(strip=True))
+                    else:
                         home = tds[1].get_text(strip=True)
                         away = tds[3].get_text(strip=True)
-                    else: continue
 
-                    # MARCADOR: Limpieza estricta para evitar fechas/horas
-                    score = "vs"
-                    score_link = row.find('a', class_='geca_enlace_partido')
-                    if score_link:
-                        score = score_link.get_text(strip=True)
+                    # C. EXTRACCIÓN DE MARCADOR (CRÍTICO)
+                    raw_score = ""
+                    # 1. Intentar enlace de partido (Champions/Copa)
+                    score_a = row.find('a', class_='geca_enlace_partido')
+                    if score_a:
+                        raw_score = score_a.get_text(strip=True)
+                    # 2. Intentar span celdagoles
                     elif row.find('span', class_='celdagoles'):
-                        score = row.find('span', class_='celdagoles').get_text(strip=True)
+                        raw_score = row.find('span', class_='celdagoles').get_text(strip=True)
+                    # 3. Intentar columna central (LaLiga)
                     elif len(tds) >= 3:
-                        score = tds[2].get_text(strip=True)
+                        raw_score = tds[2].get_text(strip=True)
 
-                    # --- FILTRO DE SEGURIDAD ---
-                    # Si el marcador contiene ':' (hora) o '/' (fecha), es un partido no jugado
-                    if ":" in score or "/" in score or score.strip() == "":
+                    # D. VALIDACIÓN DEL MARCADOR
+                    # Buscamos explícitamente un patrón de "número - número"
+                    # Si lo encuentra, es un resultado finalizado. Si no, es "vs".
+                    if re.search(r'\d+\s*-\s*\d+', raw_score):
+                        score = raw_score
+                    else:
                         score = "vs"
-                    
+
                     if home and away:
-                        matches.append({"date": date_v, "home": home, "away": away, "score": score})
+                        matches.append({
+                            "date": date_val,
+                            "home": home,
+                            "away": away,
+                            "score": score
+                        })
                 
                 if matches:
                     temp_rounds.append({"key": final_title, "matches": matches})
@@ -199,16 +208,19 @@ def scrape_results():
 # --- 3. EJECUCIÓN ---
 
 if __name__ == "__main__":
+    # Agenda
     agenda_data = scrape_agenda()
     with open(CALENDAR_FILE, 'w') as f:
         json.dump(agenda_data, f, indent=2)
     
+    # Standings
     standings_data = scrape_standings()
     with open(STANDINGS_FILE, 'w') as f:
         json.dump(standings_data, f, indent=2)
     
+    # Resultados
     results_data = scrape_results()
     with open(RESULTS_FILE, 'w') as f:
         json.dump(results_data, f, indent=2)
     
-    print("🎉 Proceso finalizado. JSONs limpios generados.")
+    print("🎉 Datos generados (Resultados validados con regex).")
