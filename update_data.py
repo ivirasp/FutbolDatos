@@ -68,35 +68,42 @@ def scrape_standings():
             table = max(soup.find_all('table'), key=lambda t: len(t.find_all('tr')))
             
             league_data = []
-            # Buscamos las filas ignorando la primera (cabecera)
             rows = table.find_all('tr')[1:] 
             
             for row in rows:
                 cols = row.find_all(['td', 'th'])
-                # Limpiamos y obtenemos solo el texto
-                d = [c.get_text(strip=True) for c in cols]
+                # Filtramos solo los que tienen números o el nombre del equipo
+                text_data = [c.get_text(strip=True) for c in cols if c.get_text(strip=True)]
                 
-                # Una fila válida de La Vanguardia suele tener al menos 8-10 columnas
-                if len(d) >= 8:
-                    # En La Vanguardia el orden suele ser: 
-                    # 0:Pos, 1:Equipo, 2:Puntos, 3:PJ, 4:PG, 5:PE, 6:PP, 7:GF, 8:GC...
-                    team_name = re.sub(r'^\d+\s*', '', d[1]) # Quitar número si existe
-                    rank = d[0]
+                # Buscamos el nombre del equipo (suele ser el único texto largo)
+                team_name = ""
+                stats = []
+                for t in text_data:
+                    if not t.isdigit() and len(t) > 2:
+                        team_name = re.sub(r'^\d+\s*', '', t)
+                    elif t.isdigit() or (t.startswith('-') and t[1:].isdigit()) or (t.startswith('+') and t[1:].isdigit()):
+                        stats.append(t)
+
+                # Si tenemos equipo y al menos los datos básicos (Pos, Puntos, PJ, G, E, P, GF, GC)
+                # La Vanguardia suele dar: [0:Pos, 1:Puntos, 2:PJ, 3:PG, 4:PE, 5:PP, 6:GF, 7:GC]
+                if team_name and len(stats) >= 7:
+                    rank = stats[0]
                     prefix = get_prefix(name, rank)
 
                     league_data.append({
                         "rank": rank,
                         "team": f"{prefix}{team_name}",
-                        "points": d[2],
-                        "played": d[3],
-                        "won": d[4],
-                        "drawn": d[5],
-                        "lost": d[6],
-                        "gf": d[7],
-                        "ga": d[8],
-                        "dg": str(int(d[7]) - int(d[8])) if d[7].isdigit() and d[8].isdigit() else "0"
+                        "points": stats[1],
+                        "played": stats[2],
+                        "won": stats[3],
+                        "drawn": stats[4],
+                        "lost": stats[5],
+                        "gf": stats[6],
+                        "ga": stats[7],
+                        "dg": str(int(stats[6]) - int(stats[7])) if len(stats) > 7 else "0"
                     })
             if league_data: data_map[name] = league_data
+            print(f"✅ {name} cargado correctamente")
         except Exception as e: print(f"Error en {name}: {e}")
     return data_map
 
