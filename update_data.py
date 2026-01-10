@@ -98,14 +98,31 @@ def scrape_agenda():
                 if not name_tag or not date_tag: continue
                 title = name_tag.get("content", "").strip()
                 date_str = date_tag.get("content", "").split('+')[0]
+                
+                # Procesar fecha
                 dt = datetime.strptime(date_str, "%Y-%m-%dT%H:%M:%S")
-                ts = TZ_MADRID.localize(dt).timestamp()
+                # Localizamos a hora de Madrid
+                local_dt = TZ_MADRID.localize(dt)
+                ts = local_dt.timestamp()
+                
+                # --- NUEVO: CREAR LA HORA TEXTO AQUÍ ---
+                # Extraemos "HH:MM" directamente usando la zona horaria de Madrid
+                time_formatted = local_dt.strftime("%H:%M") 
+                
                 chan_span = art.find("span", itemprop="name")
                 channel = chan_span.get_text(strip=True) if chan_span else "TBD"
+                
                 match_id = f"{title}_{ts}"
                 if match_id not in seen:
                     seen.add(match_id)
-                    agenda.append({"title": title, "start_ts": ts, "channel": channel, "competition": comp_label})
+                    # Añadimos 'time_str' al diccionario
+                    agenda.append({
+                        "title": title, 
+                        "start_ts": ts, 
+                        "time_str": time_formatted, # <--- CAMPO NUEVO
+                        "channel": channel, 
+                        "competition": comp_label
+                    })
         except: continue
     return sorted(agenda, key=lambda x: x['start_ts'])
 
