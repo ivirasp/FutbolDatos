@@ -27,14 +27,14 @@
     {
       "rank": "3",
       "team": "Villarreal",
-      "points": "39",
+      "points": "41",
       "played": "18",
-      "won": "12",
-      "drawn": "3",
+      "won": "13",
+      "drawn": "2",
       "lost": "3",
-      "gf": "34",
+      "gf": "36",
       "ga": "16",
-      "dg": "+18"
+      "dg": "+20"
     },
     {
       "rank": "4",
@@ -146,18 +146,6 @@
     },
     {
       "rank": "13",
-      "team": "Deportivo Alav\u00e9s",
-      "points": "20",
-      "played": "19",
-      "won": "5",
-      "drawn": "5",
-      "lost": "9",
-      "gf": "15",
-      "ga": "21",
-      "dg": "-6"
-    },
-    {
-      "rank": "14",
       "team": "Osasuna",
       "points": "19",
       "played": "18",
@@ -169,7 +157,7 @@
       "dg": "-3"
     },
     {
-      "rank": "15",
+      "rank": "14",
       "team": "Rayo Vallecano",
       "points": "19",
       "played": "18",
@@ -179,6 +167,18 @@
       "gf": "14",
       "ga": "21",
       "dg": "-7"
+    },
+    {
+      "rank": "15",
+      "team": "Deportivo Alav\u00e9s",
+      "points": "19",
+      "played": "19",
+      "won": "5",
+      "drawn": "4",
+      "lost": "10",
+      "gf": "15",
+      "ga": "23",
+      "dg": "-8"
     },
     {
       "rank": "16",
