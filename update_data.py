@@ -176,7 +176,6 @@ def scrape_results():
                     date_val = ""
                     status_val = ""
                     
-                    # Columna Estado/Hora (suele ser la última o tener <time>)
                     time_tag = row.find('time')
                     if time_tag:
                         status_text = time_tag.get_text(strip=True)
@@ -189,13 +188,12 @@ def scrape_results():
                                 date_val = do.strftime("%d-%m-%Y")
                             except: pass
                     
-                    # Si no hay <time>, miramos la última columna para "Fin" o hora
+                    # Si no hay <time>, miramos la última columna
                     if not status_val and len(tds) >= 4:
                         last_col_txt = tds[-1].get_text(strip=True)
                         if "Fin" in last_col_txt or "Desc" in last_col_txt:
                             status_val = last_col_txt
-                        elif ":" in last_col_txt: # Es una hora, no status
-                            pass 
+                        elif ":" in last_col_txt: pass 
 
                     if not date_val:
                         txt_c0 = tds[0].get_text(strip=True)
@@ -234,7 +232,7 @@ def scrape_results():
                         else: away = away_td.get_text(strip=True)
                     elif len(tds) > 3: away = tds[3].get_text(strip=True)
 
-                    # C. RESULTADO (Lógica Refinada LaLiga)
+                    # C. RESULTADO (Lógica Refinada)
                     final_score = "vs"
                     
                     # 1. Intentar encontrar resultado explícito en span/enlace
@@ -244,7 +242,6 @@ def scrape_results():
                     score_span = row.find('span', class_='celdagoles')
                     if score_span: candidates.append(score_span.get_text(strip=True))
                     
-                    # Si encontramos un candidato "N - N", lo usamos
                     found_score = False
                     for txt in candidates:
                         if re.search(r'\d+\s*-\s*\d+', txt):
@@ -252,10 +249,9 @@ def scrape_results():
                             found_score = True
                             break
                     
-                    # 2. Si no, y es LaLiga (estructura de 4 columnas min), miramos la columna 2
+                    # 2. Si no, y es LaLiga (4 columnas), miramos la columna 2
                     if not found_score and len(tds) >= 3:
                         center_txt = tds[2].get_text(strip=True)
-                        # En LaLiga, si hay resultado es "1 - 2". Si no, es "-"
                         if re.search(r'\d+\s*-\s*\d+', center_txt):
                             final_score = center_txt
                         # Si tiene solo un guion, se queda en "vs"
@@ -273,7 +269,7 @@ def scrape_results():
                             "status": status_val
                         })
                 
-                # CALCULO ACTUAL (Champions/Copa)
+                # CALCULO ACTUAL (Copas)
                 if not is_actual and not current_found and round_dates_objs:
                     if max(round_dates_objs) >= today:
                         is_actual = True
