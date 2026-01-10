@@ -19,56 +19,40 @@ URLS_STANDINGS = {
     "EUROPA": "https://www.lavanguardia.com/deportes/resultados/europa-league/clasificacion"
 }
 
-def get_prefix(competition, rank_str):
-    """ Mantenemos los indicadores visuales para los puestos especiales """
-    try:
-        rank = int(rank_str)
-        if competition == "LALIGA":
-            if rank <= 4: return "🟢 "
-            if rank == 5: return "🔵 "
-            if rank == 6: return "🟡 "
-            if rank >= 18: return "🔴 "
-        elif rank <= 8: return "✅ "
-        elif rank <= 24: return "⚔️ "
-    except: pass
-    return ""
-
 def scrape_standings():
-    print("📊 Extrayendo Clasificaciones COMPLETAS...")
+    print("📊 Extrayendo Clasificaciones Limpias...")
     data_map = {}
     headers = {'User-Agent': 'Mozilla/5.0'}
     for name, url in URLS_STANDINGS.items():
         try:
             r = requests.get(url, headers=headers, timeout=15)
             soup = BeautifulSoup(r.content, 'html.parser')
-            
-            # Buscamos específicamente la tabla de clasificación para evitar duplicados de Casa/Fuera
-            # En La Vanguardia, la tabla principal suele estar dentro de un div específico
             tables = soup.find_all('table')
             if not tables: continue
             
-            # Seleccionamos la tabla con más filas (la clasificación general tiene más datos)
             main_table = max(tables, key=lambda t: len(t.find_all('tr')))
             rows = main_table.find_all('tr')
             
             league_data = []
+            seen_teams = set()
+
             for row in rows:
                 th = row.find('th')
                 if not th: continue
-                
-                # Intentamos sacar el rango y el equipo
                 rank_node = th.find('span', class_='classification-pos')
                 team_node = th.find('h2', class_='nombre-equipo')
-                
                 if not rank_node or not team_node: continue
                 
                 rank = rank_node.get_text(strip=True)
                 team = team_node.get_text(strip=True)
+                if team in seen_teams: continue
+                seen_teams.add(team)
                 
                 tds = row.find_all('td')
                 if len(tds) < 7: continue
                 
-                # Mapeo: Puntos, PJ, PG, PE, PP, GF, GC
+                # Capturamos todos los datos técnicos
+                # tds[0]=Pts, [1]=PJ, [2]=PG, [3]=PE, [4]=PP, [5]=GF, [6]=GC
                 pts, pj, pg, pe, pp, gf, gc = [t.get_text(strip=True) for t in tds[:7]]
                 
                 try:
@@ -76,10 +60,9 @@ def scrape_standings():
                     dg = f"+{dg_val}" if dg_val > 0 else str(dg_val)
                 except: dg = "0"
 
-                prefix = get_prefix(name, rank)
                 league_data.append({
                     "rank": rank,
-                    "team": f"{prefix}{team}",
+                    "team": team, # Nombre limpio sin iconos
                     "points": pts,
                     "played": pj,
                     "won": pg,
@@ -89,12 +72,8 @@ def scrape_standings():
                     "ga": gc,
                     "dg": dg
                 })
-            
-            if league_data:
-                data_map[name] = league_data
-                print(f"   ✅ {name} ok: {len(league_data)} equipos.")
-        except Exception as e:
-            print(f"   ❌ Error en {name}: {e}")
+            if league_data: data_map[name] = league_data
+        except Exception as e: print(f"Error en {name}: {e}")
     return data_map
 
 def scrape_agenda():
@@ -146,7 +125,6 @@ def scrape_results():
     return results_map
 
 if __name__ == "__main__":
-    # Guardar standings.json con todos los datos
     standings = scrape_standings()
     with open(STANDINGS_FILE, 'w') as f:
         json.dump(standings, f, indent=2)
