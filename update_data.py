@@ -14,7 +14,6 @@ CALENDAR_FILE = "calendar.json"
 STANDINGS_FILE = "standings.json"
 RESULTS_FILE = "results.json"
 
-# URLs para la Agenda
 TARGET_URLS_AGENDA = {
     "https://www.futboltv.info/competicion/laliga": "LALIGA",
     "https://www.futboltv.info/competicion/champions-league": "CHAMPIONS",
@@ -22,14 +21,12 @@ TARGET_URLS_AGENDA = {
     "https://www.futboltv.info/competicion/copa-del-rey": "COPA"
 }
 
-# URLs para Clasificaciones
 URLS_STANDINGS = {
     "LALIGA": "https://www.lavanguardia.com/deportes/resultados/laliga-primera-division/clasificacion",
     "CHAMPIONS": "https://www.lavanguardia.com/deportes/resultados/champions-league/clasificacion",
     "EUROPA": "https://www.lavanguardia.com/deportes/resultados/europa-league/clasificacion"
 }
 
-# URLs para Resultados (Orden solicitado: LALIGA, CHAMPIONS, EUROPA, COPA)
 URLS_RESULTS = [
     ("LALIGA", "https://www.sport.es/resultados/futbol/primera-division/calendario-liga/"),
     ("CHAMPIONS", "https://www.sport.es/resultados/futbol/champions-league/calendario/"),
@@ -48,7 +45,6 @@ def scrape_agenda():
         try:
             r = requests.get(url, headers=headers, timeout=15)
             soup = BeautifulSoup(r.content, 'html.parser')
-            # Bloque <article class="match">
             articles = soup.find_all("article", class_="match")
             for art in articles:
                 name_tag = art.find("meta", itemprop="name")
@@ -85,10 +81,8 @@ def scrape_standings():
             soup = BeautifulSoup(r.content, 'html.parser')
             tables = soup.find_all('table')
             if not tables: continue
-            
             main_table = max(tables, key=lambda t: len(t.find_all('tr')))
             rows = main_table.find_all('tr')[1:]
-            
             league_data = []
             seen_teams = set()
             for row in rows:
@@ -97,15 +91,12 @@ def scrape_standings():
                 rank_n = th.find('span', class_='classification-pos')
                 team_n = th.find('h2', class_='nombre-equipo')
                 if not rank_n or not team_n: continue
-                
                 rank = rank_n.get_text(strip=True)
                 team = team_n.get_text(strip=True)
                 if team in seen_teams: continue
                 seen_teams.add(team)
-                
                 tds = row.find_all('td')
                 if len(tds) < 7: continue
-                # Pts, PJ, PG, PE, PP, GF, GC
                 pts, pj, pg, pe, pp, gf, gc = [t.get_text(strip=True) for t in tds[:7]]
                 try:
                     dg_val = int(gf) - int(gc)
@@ -121,7 +112,7 @@ def scrape_standings():
     return data_map
 
 def scrape_results():
-    print("⚽ Extrayendo Resultados (Híbrido LaLiga/Champions/Copa)...")
+    print("⚽ Extrayendo Resultados (Limpieza de marcadores)...")
     results_map = {}
     today = datetime.now(TZ_MADRID).date()
     
@@ -130,17 +121,19 @@ def scrape_results():
             r = requests.get(url, headers={'User-Agent': 'Mozilla/5.0'}, timeout=15)
             soup = BeautifulSoup(r.content, 'html.parser')
             temp_rounds = []
-            current_round_name = ""
+            current_round_key = ""
             current_found = False
             
+            # Recorremos las tablas (cada una es una Jornada)
             for table in soup.find_all('table'):
-                # 1. Nombre de la Jornada
+                # 1. Extraer nombre de la jornada (ej: Jornada 6)
                 cap = table.find("caption")
-                orig_title = cap.find("h2").get_text(strip=True).replace("ª", "") if cap else "Jornada"
+                if not cap: continue
+                orig_title = cap.find("h2").get_text(strip=True).replace("ª", "")
                 if any(kw in orig_title.upper() for kw in ["FIFA", "WOMEN"]): continue
                 
                 final_title = orig_title
-                # 2. Identificación de Jornada Actual
+                # 2. Identificar si es la Actual por el rango de fechas
                 date_th = table.find("th", class_="textoizda")
                 if date_th and not current_found:
                     dates = re.findall(r'(\d{4}-\d{2}-\d{2})', date_th.get_text())
@@ -148,7 +141,7 @@ def scrape_results():
                         end_date = datetime.strptime(dates[1], "%Y-%m-%d").date()
                         if today <= end_date:
                             final_title = f"{orig_title} (Actual)"
-                            current_round_name = final_title
+                            current_round_key = final_title
                             current_found = True
 
                 matches = []
@@ -156,17 +149,15 @@ def scrape_results():
                     tds = row.find_all('td')
                     if not tds: continue
 
-                    # --- LÓGICA HÍBRIDA DE EXTRACCIÓN ---
-                    
-                    # A. Intentar extraer Fecha
+                    # FECHA: Prioridad <time>
                     time_tag = row.find('time')
                     if time_tag:
                         dt_s = time_tag.get('datetime', '').split('T')[0]
-                        date_val = datetime.strptime(dt_s, "%Y-%m-%d").strftime("%d-%m-%Y")
+                        date_v = datetime.strptime(dt_s, "%Y-%m-%d").strftime("%d-%m-%Y")
                     else:
-                        date_val = tds[0].get_text(strip=True)
+                        date_v = tds[0].get_text(strip=True)
 
-                    # B. Intentar extraer Equipos
+                    # EQUIPOS: Prioridad clase geca_enlace_equipo__name
                     team_spans = row.find_all('span', class_='geca_enlace_equipo__name')
                     if len(team_spans) >= 2:
                         home = team_spans[0].get_text(strip=True)
@@ -174,27 +165,25 @@ def scrape_results():
                     elif len(tds) >= 4:
                         home = tds[1].get_text(strip=True)
                         away = tds[3].get_text(strip=True)
-                    else:
-                        continue
+                    else: continue
 
-                    # C. Intentar extraer Marcador
-                    score_a = row.find('a', class_='geca_enlace_partido')
-                    if score_a:
-                        score = score_a.get_text(strip=True)
+                    # MARCADOR: Limpieza estricta para evitar fechas/horas
+                    score = "vs"
+                    score_link = row.find('a', class_='geca_enlace_partido')
+                    if score_link:
+                        score = score_link.get_text(strip=True)
                     elif row.find('span', class_='celdagoles'):
                         score = row.find('span', class_='celdagoles').get_text(strip=True)
                     elif len(tds) >= 3:
                         score = tds[2].get_text(strip=True)
-                    else:
-                        score = "vs"
 
+                    # --- FILTRO DE SEGURIDAD ---
+                    # Si el marcador contiene ':' (hora) o '/' (fecha), es un partido no jugado
+                    if ":" in score or "/" in score or score.strip() == "":
+                        score = "vs"
+                    
                     if home and away:
-                        matches.append({
-                            "date": date_val,
-                            "home": home,
-                            "away": away,
-                            "score": score
-                        })
+                        matches.append({"date": date_v, "home": home, "away": away, "score": score})
                 
                 if matches:
                     temp_rounds.append({"key": final_title, "matches": matches})
@@ -202,29 +191,24 @@ def scrape_results():
             if temp_rounds:
                 results_map[name] = {
                     "rounds": {r["key"]: r["matches"] for r in temp_rounds},
-                    "current": current_round_name if current_round_name else temp_rounds[-1]["key"]
+                    "current": current_round_key if current_round_key else temp_rounds[-1]["key"]
                 }
-        except Exception as e:
-            print(f"Error en {name}: {e}")
-            
+        except: continue
     return results_map
 
-# --- 3. EJECUCIÓN PRINCIPAL ---
+# --- 3. EJECUCIÓN ---
 
 if __name__ == "__main__":
-    # 1. Agenda
     agenda_data = scrape_agenda()
     with open(CALENDAR_FILE, 'w') as f:
         json.dump(agenda_data, f, indent=2)
     
-    # 2. Standings
     standings_data = scrape_standings()
     with open(STANDINGS_FILE, 'w') as f:
         json.dump(standings_data, f, indent=2)
     
-    # 3. Resultados
     results_data = scrape_results()
     with open(RESULTS_FILE, 'w') as f:
         json.dump(results_data, f, indent=2)
     
-    print("🎉 Proceso finalizado. Agenda, Clasificación y Resultados (Híbridos) generados.")
+    print("🎉 Proceso finalizado. JSONs limpios generados.")
