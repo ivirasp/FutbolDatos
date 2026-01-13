@@ -1,12 +1,5 @@
 [
   {
-    "title": "Sevilla - Celta",
-    "start_ts": 1768248000.0,
-    "time_str": "21:00",
-    "channel": "M+ LaLiga",
-    "competition": "LALIGA"
-  },
-  {
     "title": "Real Sociedad - Osasuna",
     "start_ts": 1768334400.0,
     "time_str": "21:00",
@@ -383,6 +376,13 @@
     "time_str": "21:00",
     "channel": "M+ Liga de Campeones",
     "competition": "EUROPA"
+  },
+  {
+    "title": "Levante - Elche",
+    "start_ts": 1769198400.0,
+    "time_str": "21:00",
+    "channel": "DAZN LaLiga",
+    "competition": "LALIGA"
   },
   {
     "title": "Arsenal - F.C. Kairat",
