@@ -1,316 +1,326 @@
+# -*- coding: utf-8 -*-
 import requests
-import xml.etree.ElementTree as ET
-import re
-import os
-import logging
-import sys
+from bs4 import BeautifulSoup
 import json
+import os
+import re
 import time
-import unicodedata 
+import random
+from datetime import datetime, date
+import pytz
 
 # --- 1. CONFIGURACIÓN ---
-URL_XMLTV = "https://raw.githubusercontent.com/davidmuma/EPG_dobleM/master/guiatv.xml"
-URL_M3U_PRIVADA = "http://vd5yk8ep.k3ane.xyz:80/get.php?username=Ivan1129X&password=Awypyfedm121&type=m3u_plus&output=mpegts"
-THREADFIN_URL = "http://10.0.0.51:34400"
+TZ_MADRID = pytz.timezone('Europe/Madrid')
+CALENDAR_FILE = "calendar.json"
+STANDINGS_FILE = "standings.json"
+RESULTS_FILE = "results.json"
 
-# Configuración de Plex
-# ID 13 sacado de tu comando curl. Si borras el DVR en Plex y lo creas de nuevo, este ID cambiará.
-PLEX_URL_RELOAD = "http://10.0.10.3:32400/livetv/dvrs/13/reloadGuide"
-PLEX_TOKEN = "t8jp3zScbjUR4RxY2LQ2"
+TARGET_URLS_AGENDA = {
+    "https://www.futboltv.info/competicion/laliga": "LALIGA",
+    "https://www.futboltv.info/competicion/champions-league": "CHAMPIONS",
+    "https://www.futboltv.info/competicion/europa-league": "EUROPA",
+    "https://www.futboltv.info/competicion/copa-del-rey": "COPA"
+}
 
-# Directorio base dentro del Docker
-DIR_BASE = "/opt/threadfin/conf/scripts/"
-RUTA_SALIDA = os.path.join(DIR_BASE, "lista_filtrada.m3u")
-RUTA_LOG = os.path.join(DIR_BASE, "historial_actualizaciones.log")
+URLS_STANDINGS = {
+    "LALIGA": "https://www.lavanguardia.com/deportes/resultados/laliga-primera-division/clasificacion",
+    "CHAMPIONS": "https://www.lavanguardia.com/deportes/resultados/champions-league/clasificacion",
+    "EUROPA": "https://www.lavanguardia.com/deportes/resultados/europa-league/clasificacion"
+}
 
-# --- 2. CONFIGURACIÓN DE LOGGING ---
-logging.basicConfig(
-    filename=RUTA_LOG,
-    level=logging.INFO,
-    format='%(asctime)s - %(levelname)s - %(message)s',
-    datefmt='%Y-%m-%d %H:%M:%S'
-)
+URLS_RESULTS = [
+    ("LALIGA", "https://www.sport.es/resultados/futbol/primera-division/calendario-liga/"),
+    ("CHAMPIONS", "https://www.sport.es/resultados/futbol/champions-league/calendario/"),
+    ("EUROPA", "https://www.sport.es/resultados/futbol/europa-league/calendario-liga/"),
+    ("COPA", "https://www.superdeporte.es/deportes/futbol/copa-rey/calendario/")
+]
 
-console = logging.StreamHandler(sys.stdout)
-console.setLevel(logging.INFO)
-formatter = logging.Formatter('%(levelname)s - %(message)s')
-console.setFormatter(formatter)
-logging.getLogger('').addHandler(console)
+MONTH_MAP = {
+    "enero": 1, "febrero": 2, "marzo": 3, "abril": 4,
+    "mayo": 5, "junio": 6, "julio": 7, "agosto": 8,
+    "septiembre": 9, "octubre": 10, "noviembre": 11, "diciembre": 12
+}
 
-# --- 3. FUNCIONES DE LÓGICA ---
+# --- 2. FUNCIONES AUXILIARES ---
 
-def normalizar_nombre(texto):
+def calculate_season_year(target_month, today_date):
     """
-    Convierte el texto a mayúsculas y elimina tildes/acentos.
-    Ejemplo: 'M+ Acción' -> 'M+ ACCION'
+    Calcula el año de la fecha leída basándose en la temporada actual.
+    Ejemplo: Si estamos en Enero 2026 y leemos 'Septiembre', debe ser 2025.
     """
-    if not texto: return ""
-    texto = texto.upper()
-    texto_normalizado = unicodedata.normalize('NFKD', texto)
-    return "".join([c for c in texto_normalizado if not unicodedata.combining(c)]).strip()
+    curr_year = today_date.year
+    curr_month = today_date.month
 
-def obtener_calidad(nombre_canal):
-    nombre = nombre_canal.upper()
-    if 'FHD' in nombre: return 4
-    if 'HD' in nombre: return 3
-    if 'SD' in nombre: return 2
-    return 1
+    # Estamos en 2ª mitad de temporada (Ene-Jul)
+    if curr_month <= 7:
+        if target_month >= 8: return curr_year - 1 # Septiembre es del año pasado
+        return curr_year # Febrero es de este año
 
-def descargar_y_parsear_xml(url):
-    logging.info("1. Descargando guía XMLTV...")
-    try:
-        response = requests.get(url, stream=True)
-        response.raise_for_status()
-        response.raw.decode_content = True
-        
-        mapa_canales = {}
-        orden_contador = 0 
-        
-        context = ET.iterparse(response.raw, events=("start", "end"))
-        
-        for event, elem in context:
-            if event == "start" and elem.tag == "programme":
-                break
-                
-            if event == "end" and elem.tag == "channel":
-                orden_contador += 1
-                channel_id = elem.get("id")
-                
-                icon_elem = elem.find("icon")
-                logo_src = icon_elem.get("src") if icon_elem is not None else ""
-                
-                nombres = [dn.text for dn in elem.findall("display-name")]
-                
-                if nombres:
-                    datos_canal = {
-                        "id": channel_id,
-                        "logo": logo_src,
-                        "nombre_oficial": nombres[0],
-                        "orden_xml": orden_contador
-                    }
-                    for nombre in nombres:
-                        if nombre:
-                            clave_limpia = normalizar_nombre(nombre)
-                            mapa_canales[clave_limpia] = datos_canal
-                elem.clear()
-        
-        logging.info("    XML procesado correctamente.")
-        return mapa_canales
-
-    except Exception as e:
-        logging.error(f"    ERROR descargando XML: {e}")
-        return None
-
-def descargar_lista_m3u(url):
-    logging.info("2. Descargando lista M3U personal...")
-    try:
-        response = requests.get(url)
-        response.raise_for_status()
-        response.encoding = 'utf-8'
-        
-        contenido = response.text
-        lineas = contenido.splitlines()
-        
-        logging.info(f"    Lista descargada. Total líneas: {len(lineas)}")
-        return lineas
-    except Exception as e:
-        logging.error(f"    ERROR descargando M3U: {e}")
-        return None
-
-def procesar_datos(lineas, mapa_xml):
-    logging.info("3. Analizando y filtrando canales...")
-    canales_seleccionados = {} 
-    fallos = []
-    
-    total_ignorados_no_es = 0
-    total_procesados = 0
-    last_processed_id = None
-    
-    for linea in lineas:
-        linea = linea.strip()
-        
-        if linea.startswith("#EXTINF:"):
-            total_procesados += 1
-            match_name = re.search(r'tvg-name="([^"]+)"', linea)
-            if match_name:
-                raw_name = match_name.group(1) 
-                
-                if not raw_name.startswith("ES: "):
-                    total_ignorados_no_es += 1
-                    last_processed_id = None
-                    continue 
-                
-                clean_m3u_name = raw_name[4:].strip() 
-                if "VAMOS" in clean_m3u_name.upper():
-                    clean_m3u_name = clean_m3u_name.replace("#", "").strip()
-                
-                key_busqueda = normalizar_nombre(clean_m3u_name)
-                
-                if key_busqueda in mapa_xml:
-                    datos_xml = mapa_xml[key_busqueda]
-                    xml_id = datos_xml['id']
-                    calidad_nueva = obtener_calidad(clean_m3u_name)
-                    
-                    if xml_id not in canales_seleccionados or \
-                       calidad_nueva >= canales_seleccionados[xml_id]['calidad']:
-                        
-                        canales_seleccionados[xml_id] = {
-                            "id": xml_id,
-                            "nombre_mostrar": datos_xml['nombre_oficial'],
-                            "logo": datos_xml['logo'],
-                            "orden": datos_xml['orden_xml'],
-                            "calidad": calidad_nueva,
-                            "url": "" 
-                        }
-                        last_processed_id = xml_id
-                    else:
-                        last_processed_id = None
-                else:
-                    fallos.append(clean_m3u_name)
-                    last_processed_id = None
-            else:
-                total_ignorados_no_es += 1
-                last_processed_id = None
-
-        elif linea and not linea.startswith("#"):
-            if last_processed_id:
-                canales_seleccionados[last_processed_id]['url'] = linea
-
-    logging.info(f"    Ignorados (No ES:): {total_ignorados_no_es}")
-    logging.info(f"    Encontrados y Guardados: {len(canales_seleccionados)}")
-    logging.info(f"    NO ENCONTRADOS en XML: {len(fallos)}")
-    
-    return list(canales_seleccionados.values())
-
-def generar_m3u_final(canales, archivo_salida):
-    logging.info(f"    Guardando archivo M3U en disco...")
-    canales_ordenados = sorted(canales, key=lambda x: x['orden'])
-    
-    try:
-        with open(archivo_salida, 'w', encoding='utf-8') as f:
-            f.write('#EXTM3U\n')
-            for c in canales_ordenados:
-                linea = f'#EXTINF:-1 tvg-id="{c["id"]}" tvg-name="{c["nombre_mostrar"]}" tvg-logo="{c["logo"]}" group-title="TV", {c["nombre_mostrar"]}\n'
-                f.write(linea)
-                f.write(f'{c["url"]}\n')
-        return True
-    except Exception as e:
-        logging.error(f"Error guardando archivo: {e}")
-        return False
-
-def enviar_comando_api(cmd_name):
-    api_endpoint = f"{THREADFIN_URL}/api/"
-    payload = {'cmd': cmd_name}
-    
-    try:
-        logging.info(f"    -> Enviando comando: {cmd_name}...")
-        response = requests.post(api_endpoint, json=payload, timeout=15)
-        
-        if response.status_code == 200:
-            try:
-                resp_json = response.json()
-                if resp_json.get('status') is True:
-                    logging.info(f"       OK: Comando {cmd_name} ejecutado correctamente.")
-                    return True
-                else:
-                    logging.warning(f"       ADVERTENCIA: API devolvió status false: {resp_json}")
-            except:
-                logging.info(f"       OK: (Respuesta 200 recibida).")
-                return True
-        else:
-            logging.warning(f"       FALLO: Código HTTP {response.status_code}. Respuesta: {response.text}")
-            return False
-            
-    except Exception as e:
-        logging.error(f"       ERROR de conexión: {e}")
-        return False
-
-def resetear_threadfin():
-    """Borra la lista temporalmente para forzar el reordenamiento"""
-    logging.info("4.A. Limpiando Threadfin (Borrando lista previa)...")
-    try:
-        with open(RUTA_SALIDA, 'w', encoding='utf-8') as f:
-            f.write('#EXTM3U\n')
-        
-        if enviar_comando_api('update.m3u'):
-            logging.info("       -> Lista vaciada. Esperando 3 segundos...")
-            time.sleep(3) 
-            return True
-    except Exception as e:
-        logging.error(f"Error al vaciar lista: {e}")
-    return False
-
-def actualizar_threadfin_final():
-    logging.info("5. Contactando con Threadfin para carga final...")
-    if enviar_comando_api('update.m3u'):
-        time.sleep(2)
-        enviar_comando_api('update.xmltv')
-        time.sleep(1)
-        enviar_comando_api('update.xepg')
-        logging.info("    --- Threadfin actualizado correctamente ---")
-        return True
+    # Estamos en 1ª mitad de temporada (Ago-Dic)
     else:
-        logging.error("    Fallo en la actualización final de Threadfin.")
-        return False
+        if target_month <= 7: return curr_year + 1 # Febrero es del año que viene
+        return curr_year # Septiembre es de este año
 
-def actualizar_plex():
-    logging.info("6. Contactando con PLEX para recargar guía...")
-    
-    # Construimos la URL con el token
-    url_final = f"{PLEX_URL_RELOAD}?X-Plex-Token={PLEX_TOKEN}"
-    
+def parse_header_text(text, today_date):
+    """
+    Extrae fecha de: 'Viernes, 18 de Septiembre' -> date(2025, 9, 18)
+    """
     try:
-        # Plex espera una petición POST
-        response = requests.post(url_final, timeout=10)
-        
-        if response.status_code == 200:
-            logging.info("    ¡ÉXITO! Plex ha iniciado la actualización de la guía.")
-        else:
-            logging.warning(f"    Advertencia Plex: Código {response.status_code}. {response.text}")
-    except Exception as e:
-        logging.error(f"    ERROR contactando con Plex: {e}")
+        text = text.lower()
+        # Buscamos patrón: "18 de septiembre"
+        match = re.search(r"(\d+)\s+de\s+(\w+)", text)
+        if match:
+            day = int(match.group(1))
+            month_txt = match.group(2)
+            month = MONTH_MAP.get(month_txt, 0)
+            if month > 0:
+                year = calculate_season_year(month, today_date)
+                return date(year, month, day)
+    except: pass
+    return None
 
-# --- 4. EJECUCIÓN PRINCIPAL ---
+# --- 3. SCRAPERS ---
 
-def main():
-    logging.info("--- INICIO DEL PROCESO AUTOMÁTICO ---")
-    
-    if not os.path.exists(DIR_BASE):
+def scrape_agenda():
+    print("🌍 Extrayendo Agenda...")
+    agenda = []
+    seen = set()
+    headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'}
+
+    # Definimos UTC explícitamente para evitar confusiones
+    UTC = pytz.utc
+
+    for url, comp_label in TARGET_URLS_AGENDA.items():
         try:
-            os.makedirs(DIR_BASE)
-        except OSError as e:
-            logging.error(f"No se pudo crear el directorio {DIR_BASE}: {e}")
-            return
+            time.sleep(random.uniform(2, 5))
+            r = requests.get(url, headers=headers, timeout=15)
+            soup = BeautifulSoup(r.content, 'html.parser')
+            articles = soup.find_all("article", class_="match")
+            for art in articles:
+                name_tag = art.find("meta", itemprop="name")
+                date_tag = art.find("meta", itemprop="startDate")
+                if not name_tag or not date_tag: continue
+                title = name_tag.get("content", "").strip()
+                date_str = date_tag.get("content", "").split('+')[0]
 
-    # 1. Obtener datos (memoria)
-    mapa_xml = descargar_y_parsear_xml(URL_XMLTV)
-    lineas_m3u = descargar_lista_m3u(URL_M3U_PRIVADA)
-    
-    if not mapa_xml or not lineas_m3u:
-        logging.error("Fallo en descargas. Abortando.")
-        return
+                # 1. Parseamos la fecha tal cual viene (ej: 19:00)
+                dt_naive = datetime.strptime(date_str, "%Y-%m-%dT%H:%M:%S")
 
-    # 2. Procesar (memoria)
-    canales_finales = procesar_datos(lineas_m3u, mapa_xml)
-    
-    if not canales_finales:
-        logging.error("No se generaron canales. Abortando.")
-        return
+                # 2. Le decimos a Python: "Oye, esta fecha bruta es UTC"
+                dt_utc = UTC.localize(dt_naive)
 
-    # 3. FASE DE LIMPIEZA
-    if resetear_threadfin():
-        
-        # 4. FASE DE ESCRITURA
-        logging.info(f"4.B. Guardando nueva lista ({len(canales_finales)} canales)...")
-        if generar_m3u_final(canales_finales, RUTA_SALIDA):
-            
-            # 5. ACTUALIZAR THREADFIN
-            if actualizar_threadfin_final():
-                
-                # 6. ACTUALIZAR PLEX (Solo si todo lo anterior fue bien)
-                actualizar_plex()
-            
-    logging.info("--- FIN DEL PROCESO ---")
+                # 3. Ahora CONVIERTE esa hora UTC a hora de Madrid (+1 o +2 según toque)
+                dt_madrid = dt_utc.astimezone(TZ_MADRID)
+
+                # Guardamos el timestamp correcto
+                ts = dt_madrid.timestamp()
+
+                # Formateamos la hora YA convertida (ej: saldrá 20:00 en vez de 19:00)
+                time_formatted = dt_madrid.strftime("%H:%M")
+
+                chan_span = art.find("span", itemprop="name")
+                channel = chan_span.get_text(strip=True) if chan_span else "TBD"
+
+                match_id = f"{title}_{ts}"
+                if match_id not in seen:
+                    seen.add(match_id)
+                    agenda.append({
+                        "title": title, 
+                        "start_ts": ts, 
+                        "time_str": time_formatted, # Ahora sí llevará la hora correcta
+                        "channel": channel, 
+                        "competition": comp_label
+                    })
+        except: continue
+    return sorted(agenda, key=lambda x: x['start_ts'])
+
+def scrape_standings():
+    print("📊 Extrayendo Clasificaciones...")
+    data_map = {}
+    headers = {'User-Agent': 'Mozilla/5.0'}
+    for name, url in URLS_STANDINGS.items():
+        try:
+            time.sleep(random.uniform(2, 5))
+            r = requests.get(url, headers=headers, timeout=15)
+            soup = BeautifulSoup(r.content, 'html.parser')
+            tables = soup.find_all('table')
+            if not tables: continue
+            main_table = max(tables, key=lambda t: len(t.find_all('tr')))
+            rows = main_table.find_all('tr')[1:]
+            league_data = []
+            seen_teams = set()
+            for row in rows:
+                th = row.find('th')
+                if not th: continue
+                rank_n = th.find('span', class_='classification-pos')
+                team_n = th.find('h2', class_='nombre-equipo')
+                if not rank_n or not team_n: continue
+                rank = rank_n.get_text(strip=True); team = team_n.get_text(strip=True)
+                if team in seen_teams: continue
+                seen_teams.add(team)
+                tds = row.find_all('td')
+                if len(tds) < 7: continue
+                pts, pj, pg, pe, pp, gf, gc = [t.get_text(strip=True) for t in tds[:7]]
+                try: dg_val = f"+{int(gf)-int(gc)}" if int(gf)-int(gc) > 0 else str(int(gf)-int(gc))
+                except: dg_val = "0"
+                league_data.append({"rank": rank, "team": team, "points": pts, "played": pj, "won": pg, "drawn": pe, "lost": pp, "gf": gf, "ga": gc, "dg": dg_val})
+            if league_data: data_map[name] = league_data
+        except: continue
+    return data_map
+
+def scrape_results():
+    print("⚽ Extrayendo Resultados (Corregido: Prioridad Headers TH)...")
+    results_map = {}
+    today = datetime.now(TZ_MADRID).date()
+
+    for name, url in URLS_RESULTS:
+        try:
+            time.sleep(random.uniform(2, 5))
+            r = requests.get(url, headers={'User-Agent': 'Mozilla/5.0'}, timeout=15)
+            soup = BeautifulSoup(r.content, 'html.parser')
+            temp_rounds = []
+            current_round_key = ""
+            current_found = False
+
+            # Recorrer cada tabla (Jornada)
+            for table in soup.find_all('table'):
+                current_header_date = None # Fecha activa para los partidos de este grupo
+                round_match_dates = [] # Para calcular la jornada actual
+
+                # 1. Título Jornada
+                cap = table.find("caption")
+                orig_title = "Jornada"
+                if cap and cap.find("h2"):
+                    orig_title = cap.find("h2").get_text(strip=True).replace("ª", "")
+                else:
+                    prev_h2 = table.find_previous("h2", class_="table-caption")
+                    if prev_h2: orig_title = prev_h2.get_text(strip=True).replace("ª", "")
+
+                if any(kw in orig_title.upper() for kw in ["FIFA", "WOMEN"]): continue
+                final_title = orig_title
+
+                # 2. Iterar filas buscando cabeceras TH y partidos
+                matches = []
+                for row in table.find_all('tr'):
+
+                    # --- A. DETECTAR CABECERA DE FECHA (Lo que el usuario pidió) ---
+                    # <th class="textoizda">Viernes, 18 de Septiembre</th>
+                    th_date = row.find("th", class_="textoizda")
+                    if th_date:
+                        parsed_date = parse_header_text(th_date.get_text(strip=True), today)
+                        if parsed_date:
+                            current_header_date = parsed_date
+                        continue # Pasamos a la siguiente fila, esta era solo header
+
+                    # --- B. DETECTAR PARTIDO ---
+                    tds = row.find_all('td')
+                    if len(tds) < 3: continue
+
+                    # 1. STATUS / HORA
+                    status_val = ""
+                    time_tag = row.find('time')
+                    if time_tag:
+                        # Extraemos texto visual (21:00)
+                        status_text = time_tag.get_text(strip=True)
+                        if ":" not in status_text and status_text: 
+                            status_val = status_text # Es un estado tipo "Fin"
+
+                        # IMPORTANTE: NO usamos time['datetime'] para la FECHA si es 1970
+                        # Solo confiamos en time tag si no tenemos cabecera y el año es razonable
+                        pass 
+
+                    # Fallback status (última columna)
+                    if not status_val and len(tds) >= 4:
+                        last = tds[-1].get_text(strip=True)
+                        if "Fin" in last or "Desc" in last: status_val = last
+
+                    # 2. FECHA DEL PARTIDO
+                    match_date = None
+
+                    # Opción A: Heredar de la cabecera TH (Prioridad Máxima en Champions/Copa)
+                    if current_header_date:
+                        match_date = current_header_date
+
+                    # Opción B: Fecha explícita en columna 0 (típico LaLiga: "18/09")
+                    if not match_date:
+                        txt_c0 = tds[0].get_text(strip=True)
+                        m_d = re.search(r'(\d{2})/(\d{2})', txt_c0)
+                        if m_d:
+                            d, m = int(m_d.group(1)), int(m_d.group(2))
+                            y = calculate_season_year(m, today)
+                            match_date = date(y, m, d)
+
+                    # Si conseguimos fecha válida, la guardamos
+                    date_str = ""
+                    if match_date:
+                        round_match_dates.append(match_date)
+                        date_str = match_date.strftime("%d-%m-%Y")
+
+                    # 3. EQUIPOS
+                    home, away = "", ""
+                    # Home
+                    home_td = row.find("td", class_="textodcha")
+                    if home_td:
+                        a = home_td.find("a", class_="geca_enlace_equipo")
+                        home = a["title"] if a and a.has_attr("title") else home_td.get_text(strip=True)
+                    elif len(tds) > 1: home = tds[1].get_text(strip=True)
+                    # Away
+                    away_td = row.find("td", class_="textoizda")
+                    if away_td:
+                        a = away_td.find("a", class_="geca_enlace_equipo")
+                        away = a["title"] if a and a.has_attr("title") else away_td.get_text(strip=True)
+                    elif len(tds) > 3: away = tds[3].get_text(strip=True)
+
+                    # 4. RESULTADO
+                    final_score = "vs"
+                    candidates = []
+                    score_a = row.find('a', class_='geca_enlace_partido')
+                    if score_a: candidates.append(score_a.get_text(strip=True))
+                    score_span = row.find('span', class_='celdagoles')
+                    if score_span: candidates.append(score_span.get_text(strip=True))
+
+                    found_s = False
+                    for txt in candidates:
+                        if re.search(r'\d+\s*-\s*\d+', txt):
+                            final_score = txt; found_s = True; break
+
+                    if not found_s and len(tds) >= 3:
+                        center = tds[2].get_text(strip=True)
+                        if re.search(r'\d+\s*-\s*\d+', center): final_score = center
+
+                    if home and away:
+                        matches.append({
+                            "date": date_str,
+                            "home": home.strip(),
+                            "away": away.strip(),
+                            "score": final_score,
+                            "status": status_val
+                        })
+
+                # --- CÁLCULO JORNADA ACTUAL ---
+                # Si esta jornada tiene fechas y la última fecha es >= HOY -> Es la actual
+                if not current_found and round_match_dates:
+                    max_d = max(round_match_dates)
+                    if max_d >= today:
+                        final_title = f"{orig_title} (Actual)"
+                        current_round_key = final_title
+                        current_found = True
+
+                if matches:
+                    temp_rounds.append({"key": final_title, "matches": matches})
+
+            if temp_rounds:
+                def_current = current_round_key if current_round_key else temp_rounds[-1]["key"]
+                results_map[name] = {
+                    "rounds": {r["key"]: r["matches"] for r in temp_rounds},
+                    "current": def_current
+                }
+
+        except: continue
+    return results_map
 
 if __name__ == "__main__":
-    main()
+    with open(CALENDAR_FILE, 'w') as f: json.dump(scrape_agenda(), f, indent=2)
+    with open(STANDINGS_FILE, 'w') as f: json.dump(scrape_standings(), f, indent=2)
+    with open(RESULTS_FILE, 'w') as f: json.dump(scrape_results(), f, indent=2)
+    print("🎉 Datos generados.")
