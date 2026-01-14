@@ -51,7 +51,6 @@ def normalizar_nombre(texto):
 
 def obtener_calidad(nombre_canal):
     nombre = nombre_canal.upper()
-    if 'FHD HEVC' in nombre: return 5
     if 'FHD' in nombre: return 4
     if 'HD' in nombre: return 3
     if 'SD' in nombre: return 2
