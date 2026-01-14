@@ -1,26 +1,5 @@
 [
   {
-    "title": "Real Sociedad - Osasuna",
-    "start_ts": 1768334400.0,
-    "time_str": "21:00",
-    "channel": "M+ LaLiga 2",
-    "competition": "COPA"
-  },
-  {
-    "title": "Deportivo - Atl\u00e9tico de Madrid",
-    "start_ts": 1768334400.0,
-    "time_str": "21:00",
-    "channel": "Movistar+",
-    "competition": "COPA"
-  },
-  {
-    "title": "Cultural Leonesa - Athletic Club",
-    "start_ts": 1768334400.0,
-    "time_str": "21:00",
-    "channel": "Movistar+",
-    "competition": "COPA"
-  },
-  {
     "title": "Betis - Elche",
     "start_ts": 1768420800.0,
     "time_str": "21:00",
