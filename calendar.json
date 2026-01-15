@@ -1,26 +1,5 @@
 [
   {
-    "title": "Betis - Elche",
-    "start_ts": 1768420800.0,
-    "time_str": "21:00",
-    "channel": "M+ LaLiga",
-    "competition": "COPA"
-  },
-  {
-    "title": "Albacete - Real Madrid",
-    "start_ts": 1768420800.0,
-    "time_str": "21:00",
-    "channel": "Esport 3",
-    "competition": "COPA"
-  },
-  {
-    "title": "Alav\u00e9s - Rayo Vallecano",
-    "start_ts": 1768420800.0,
-    "time_str": "21:00",
-    "channel": "M+ LaLiga 2",
-    "competition": "COPA"
-  },
-  {
     "title": "Burgos C.F. - Valencia",
     "start_ts": 1768507200.0,
     "time_str": "21:00",
