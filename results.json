@@ -5506,7 +5506,7 @@
           "status": "Fin"
         }
       ],
-      "Octavos de final (Actual)": [
+      "Octavos de final": [
         {
           "date": "13-01-2026",
           "home": "Cultural Leonesa",
@@ -5565,6 +5565,6 @@
         }
       ]
     },
-    "current": "Octavos de final (Actual)"
+    "current": "Octavos de final"
   }
 }
