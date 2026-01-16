@@ -1,19 +1,5 @@
 [
   {
-    "title": "Burgos C.F. - Valencia",
-    "start_ts": 1768507200.0,
-    "time_str": "21:00",
-    "channel": "M+ LaLiga 2",
-    "competition": "COPA"
-  },
-  {
-    "title": "Racing de Santander - Barcelona",
-    "start_ts": 1768507200.0,
-    "time_str": "21:00",
-    "channel": "M+ LaLiga",
-    "competition": "COPA"
-  },
-  {
     "title": "Espanyol - Girona",
     "start_ts": 1768593600.0,
     "time_str": "21:00",
