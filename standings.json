@@ -51,14 +51,14 @@
     {
       "rank": "5",
       "team": "Espanyol",
-      "points": "35",
+      "points": "34",
       "played": "20",
       "won": "10",
-      "drawn": "5",
-      "lost": "5",
+      "drawn": "4",
+      "lost": "6",
       "gf": "23",
-      "ga": "20",
-      "dg": "+3"
+      "ga": "21",
+      "dg": "+2"
     },
     {
       "rank": "6",
@@ -98,6 +98,18 @@
     },
     {
       "rank": "9",
+      "team": "Girona FC",
+      "points": "24",
+      "played": "20",
+      "won": "6",
+      "drawn": "6",
+      "lost": "8",
+      "gf": "19",
+      "ga": "34",
+      "dg": "-15"
+    },
+    {
+      "rank": "10",
       "team": "Elche",
       "points": "23",
       "played": "19",
@@ -109,7 +121,7 @@
       "dg": "+1"
     },
     {
-      "rank": "10",
+      "rank": "11",
       "team": "Rayo Vallecano",
       "points": "22",
       "played": "19",
@@ -119,18 +131,6 @@
       "gf": "16",
       "ga": "22",
       "dg": "-6"
-    },
-    {
-      "rank": "11",
-      "team": "Girona FC",
-      "points": "22",
-      "played": "20",
-      "won": "5",
-      "drawn": "7",
-      "lost": "8",
-      "gf": "18",
-      "ga": "34",
-      "dg": "-16"
     },
     {
       "rank": "12",
