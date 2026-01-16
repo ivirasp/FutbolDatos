@@ -51,10 +51,10 @@
     {
       "rank": "5",
       "team": "Espanyol",
-      "points": "34",
-      "played": "19",
+      "points": "35",
+      "played": "20",
       "won": "10",
-      "drawn": "4",
+      "drawn": "5",
       "lost": "5",
       "gf": "23",
       "ga": "20",
@@ -122,6 +122,18 @@
     },
     {
       "rank": "11",
+      "team": "Girona FC",
+      "points": "22",
+      "played": "20",
+      "won": "5",
+      "drawn": "7",
+      "lost": "8",
+      "gf": "18",
+      "ga": "34",
+      "dg": "-16"
+    },
+    {
+      "rank": "12",
       "team": "Real Sociedad",
       "points": "21",
       "played": "19",
@@ -133,7 +145,7 @@
       "dg": "-3"
     },
     {
-      "rank": "12",
+      "rank": "13",
       "team": "Getafe",
       "points": "21",
       "played": "19",
@@ -143,18 +155,6 @@
       "gf": "15",
       "ga": "25",
       "dg": "-10"
-    },
-    {
-      "rank": "13",
-      "team": "Girona FC",
-      "points": "21",
-      "played": "19",
-      "won": "5",
-      "drawn": "6",
-      "lost": "8",
-      "gf": "18",
-      "ga": "34",
-      "dg": "-16"
     },
     {
       "rank": "14",
