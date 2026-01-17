@@ -87,13 +87,13 @@
     {
       "rank": "8",
       "team": "Athletic",
-      "points": "24",
-      "played": "19",
+      "points": "25",
+      "played": "20",
       "won": "7",
-      "drawn": "3",
+      "drawn": "4",
       "lost": "9",
-      "gf": "17",
-      "ga": "25",
+      "gf": "18",
+      "ga": "26",
       "dg": "-8"
     },
     {
@@ -182,6 +182,18 @@
     },
     {
       "rank": "16",
+      "team": "Mallorca",
+      "points": "19",
+      "played": "20",
+      "won": "4",
+      "drawn": "7",
+      "lost": "9",
+      "gf": "22",
+      "ga": "29",
+      "dg": "-7"
+    },
+    {
+      "rank": "17",
       "team": "Deportivo Alav\u00e9s",
       "points": "19",
       "played": "19",
@@ -191,18 +203,6 @@
       "gf": "16",
       "ga": "24",
       "dg": "-8"
-    },
-    {
-      "rank": "17",
-      "team": "Mallorca",
-      "points": "18",
-      "played": "19",
-      "won": "4",
-      "drawn": "6",
-      "lost": "9",
-      "gf": "21",
-      "ga": "28",
-      "dg": "-7"
     },
     {
       "rank": "18",
