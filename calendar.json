@@ -129,7 +129,7 @@
     "title": "Qarabag FK - Eintracht Frankfurt",
     "start_ts": 1769017500.0,
     "time_str": "18:45",
-    "channel": "M+ Liga de Campeones",
+    "channel": "M+ Liga de Campeones 3",
     "competition": "CHAMPIONS"
   },
   {
@@ -143,7 +143,7 @@
     "title": "Juventus - Benfica",
     "start_ts": 1769025600.0,
     "time_str": "21:00",
-    "channel": "M+ Liga de Campeones",
+    "channel": "M+ Liga de Campeones 6",
     "competition": "CHAMPIONS"
   },
   {
@@ -157,7 +157,7 @@
     "title": "Newcastle - PSV Eindhoven",
     "start_ts": 1769025600.0,
     "time_str": "21:00",
-    "channel": "M+ Liga de Campeones",
+    "channel": "M+ Liga de Campeones 9",
     "competition": "CHAMPIONS"
   },
   {
@@ -178,7 +178,7 @@
     "title": "Atalanta - Athletic Club",
     "start_ts": 1769025600.0,
     "time_str": "21:00",
-    "channel": "M+ Liga de Campeones",
+    "channel": "M+ Liga de Campeones 2",
     "competition": "CHAMPIONS"
   },
   {
@@ -192,42 +192,42 @@
     "title": "Friburgo - Maccabi Tel Aviv FC",
     "start_ts": 1769103900.0,
     "time_str": "18:45",
-    "channel": "M+ Liga de Campeones",
+    "channel": "M+ Liga de Campeones 3",
     "competition": "EUROPA"
   },
   {
     "title": "Bologna - Celtic FC",
     "start_ts": 1769103900.0,
     "time_str": "18:45",
-    "channel": "M+ Liga de Campeones",
+    "channel": "M+ Liga de Campeones 3",
     "competition": "EUROPA"
   },
   {
     "title": "Feyenoord - Sturm Graz",
     "start_ts": 1769103900.0,
     "time_str": "18:45",
-    "channel": "M+ Liga de Campeones",
+    "channel": "M+ Liga de Campeones 3",
     "competition": "EUROPA"
   },
   {
     "title": "Viktoria Plzen - Porto",
     "start_ts": 1769103900.0,
     "time_str": "18:45",
-    "channel": "M+ Liga de Campeones",
+    "channel": "M+ Liga de Campeones 3",
     "competition": "EUROPA"
   },
   {
     "title": "Fenerbah\u00e7e - Aston Villa",
     "start_ts": 1769103900.0,
     "time_str": "18:45",
-    "channel": "M+ Liga de Campeones",
+    "channel": "M+ Liga de Campeones 2",
     "competition": "EUROPA"
   },
   {
     "title": "Young Boys - Olympique Lyon",
     "start_ts": 1769103900.0,
     "time_str": "18:45",
-    "channel": "M+ Liga de Campeones",
+    "channel": "M+ Liga de Campeones 3",
     "competition": "EUROPA"
   },
   {
@@ -241,21 +241,21 @@
     "title": "Malm\u00f6 FF - Crvena Zvezda",
     "start_ts": 1769103900.0,
     "time_str": "18:45",
-    "channel": "M+ Liga de Campeones",
+    "channel": "M+ Liga de Campeones 3",
     "competition": "EUROPA"
   },
   {
     "title": "SK Brann - FC Midtjylland",
     "start_ts": 1769103900.0,
     "time_str": "18:45",
-    "channel": "M+ Liga de Campeones",
+    "channel": "M+ Liga de Campeones 3",
     "competition": "EUROPA"
   },
   {
     "title": "Roma - Stuttgart",
     "start_ts": 1769112000.0,
     "time_str": "21:00",
-    "channel": "M+ Liga de Campeones",
+    "channel": "M+ Liga de Campeones 2",
     "competition": "EUROPA"
   },
   {
@@ -269,56 +269,56 @@
     "title": "Utrecht - Genk",
     "start_ts": 1769112000.0,
     "time_str": "21:00",
-    "channel": "M+ Liga de Campeones",
+    "channel": "M+ Liga de Campeones 3",
     "competition": "EUROPA"
   },
   {
     "title": "Niza - Go Ahead Eagles",
     "start_ts": 1769112000.0,
     "time_str": "21:00",
-    "channel": "M+ Liga de Campeones",
+    "channel": "M+ Liga de Campeones 3",
     "competition": "EUROPA"
   },
   {
     "title": "Red Bull Salzburg - Basilea",
     "start_ts": 1769112000.0,
     "time_str": "21:00",
-    "channel": "M+ Liga de Campeones",
+    "channel": "M+ Liga de Campeones 3",
     "competition": "EUROPA"
   },
   {
     "title": "Dinamo Zagreb - FCSB",
     "start_ts": 1769112000.0,
     "time_str": "21:00",
-    "channel": "M+ Liga de Campeones",
+    "channel": "M+ Liga de Campeones 3",
     "competition": "EUROPA"
   },
   {
     "title": "Ferencvaros - Panathinaikos",
     "start_ts": 1769112000.0,
     "time_str": "21:00",
-    "channel": "M+ Liga de Campeones",
+    "channel": "M+ Liga de Campeones 3",
     "competition": "EUROPA"
   },
   {
     "title": "Rangers FC - PFC Ludogorets",
     "start_ts": 1769112000.0,
     "time_str": "21:00",
-    "channel": "M+ Liga de Campeones",
+    "channel": "M+ Liga de Campeones 3",
     "competition": "EUROPA"
   },
   {
     "title": "Braga - Nottingham Forest",
     "start_ts": 1769112000.0,
     "time_str": "21:00",
-    "channel": "M+ Liga de Campeones",
+    "channel": "M+ Liga de Campeones 3",
     "competition": "EUROPA"
   },
   {
     "title": "Levante - Elche",
     "start_ts": 1769198400.0,
     "time_str": "21:00",
-    "channel": "DAZN LaLiga",
+    "channel": "Teledeporte",
     "competition": "LALIGA"
   },
   {
