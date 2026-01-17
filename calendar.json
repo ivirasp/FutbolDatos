@@ -1,12 +1,5 @@
 [
   {
-    "title": "Espanyol - Girona",
-    "start_ts": 1768593600.0,
-    "time_str": "21:00",
-    "channel": "M+ LaLiga",
-    "competition": "LALIGA"
-  },
-  {
     "title": "Real Madrid - Levante",
     "start_ts": 1768654800.0,
     "time_str": "14:00",
@@ -326,6 +319,34 @@
     "start_ts": 1769198400.0,
     "time_str": "21:00",
     "channel": "DAZN LaLiga",
+    "competition": "LALIGA"
+  },
+  {
+    "title": "Rayo Vallecano - Osasuna",
+    "start_ts": 1769259600.0,
+    "time_str": "14:00",
+    "channel": "DAZN LaLiga",
+    "competition": "LALIGA"
+  },
+  {
+    "title": "Valencia - Espanyol",
+    "start_ts": 1769267700.0,
+    "time_str": "16:15",
+    "channel": "M+ LaLiga",
+    "competition": "LALIGA"
+  },
+  {
+    "title": "Sevilla - Athletic Club",
+    "start_ts": 1769275800.0,
+    "time_str": "18:30",
+    "channel": "DAZN LaLiga",
+    "competition": "LALIGA"
+  },
+  {
+    "title": "Villarreal - Real Madrid",
+    "start_ts": 1769284800.0,
+    "time_str": "21:00",
+    "channel": "M+ LaLiga",
     "competition": "LALIGA"
   },
   {
