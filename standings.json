@@ -170,6 +170,18 @@
     },
     {
       "rank": "15",
+      "team": "Osasuna",
+      "points": "20",
+      "played": "20",
+      "won": "5",
+      "drawn": "5",
+      "lost": "10",
+      "gf": "18",
+      "ga": "22",
+      "dg": "-4"
+    },
+    {
+      "rank": "16",
       "team": "Sevilla",
       "points": "20",
       "played": "19",
@@ -179,18 +191,6 @@
       "gf": "24",
       "ga": "30",
       "dg": "-6"
-    },
-    {
-      "rank": "16",
-      "team": "Osasuna",
-      "points": "19",
-      "played": "19",
-      "won": "5",
-      "drawn": "4",
-      "lost": "10",
-      "gf": "18",
-      "ga": "22",
-      "dg": "-4"
     },
     {
       "rank": "17",
@@ -231,10 +231,10 @@
     {
       "rank": "20",
       "team": "Real Oviedo",
-      "points": "13",
-      "played": "19",
+      "points": "14",
+      "played": "20",
       "won": "2",
-      "drawn": "7",
+      "drawn": "8",
       "lost": "10",
       "gf": "9",
       "ga": "28",
