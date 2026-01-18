@@ -146,18 +146,6 @@
     },
     {
       "rank": "13",
-      "team": "Getafe",
-      "points": "22",
-      "played": "20",
-      "won": "6",
-      "drawn": "4",
-      "lost": "10",
-      "gf": "15",
-      "ga": "25",
-      "dg": "-10"
-    },
-    {
-      "rank": "14",
       "team": "Real Sociedad",
       "points": "21",
       "played": "19",
@@ -169,7 +157,7 @@
       "dg": "-3"
     },
     {
-      "rank": "15",
+      "rank": "14",
       "team": "Mallorca",
       "points": "21",
       "played": "20",
@@ -179,6 +167,18 @@
       "gf": "24",
       "ga": "30",
       "dg": "-6"
+    },
+    {
+      "rank": "15",
+      "team": "Getafe",
+      "points": "21",
+      "played": "20",
+      "won": "6",
+      "drawn": "3",
+      "lost": "11",
+      "gf": "15",
+      "ga": "26",
+      "dg": "-11"
     },
     {
       "rank": "16",
@@ -194,6 +194,18 @@
     },
     {
       "rank": "17",
+      "team": "Valencia",
+      "points": "20",
+      "played": "20",
+      "won": "4",
+      "drawn": "8",
+      "lost": "8",
+      "gf": "19",
+      "ga": "31",
+      "dg": "-12"
+    },
+    {
+      "rank": "18",
       "team": "Deportivo Alav\u00e9s",
       "points": "19",
       "played": "19",
@@ -203,18 +215,6 @@
       "gf": "16",
       "ga": "24",
       "dg": "-8"
-    },
-    {
-      "rank": "18",
-      "team": "Valencia",
-      "points": "18",
-      "played": "20",
-      "won": "3",
-      "drawn": "9",
-      "lost": "8",
-      "gf": "18",
-      "ga": "31",
-      "dg": "-13"
     },
     {
       "rank": "19",
