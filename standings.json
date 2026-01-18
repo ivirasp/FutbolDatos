@@ -3,14 +3,14 @@
     {
       "rank": "1",
       "team": "FC Barcelona",
-      "points": "50",
+      "points": "49",
       "played": "20",
       "won": "16",
-      "drawn": "2",
-      "lost": "2",
+      "drawn": "1",
+      "lost": "3",
       "gf": "53",
-      "ga": "20",
-      "dg": "+33"
+      "ga": "21",
+      "dg": "+32"
     },
     {
       "rank": "2",
@@ -86,6 +86,18 @@
     },
     {
       "rank": "8",
+      "team": "Real Sociedad",
+      "points": "24",
+      "played": "20",
+      "won": "6",
+      "drawn": "6",
+      "lost": "8",
+      "gf": "25",
+      "ga": "27",
+      "dg": "-2"
+    },
+    {
+      "rank": "9",
       "team": "Athletic",
       "points": "24",
       "played": "20",
@@ -97,7 +109,7 @@
       "dg": "-9"
     },
     {
-      "rank": "9",
+      "rank": "10",
       "team": "Girona FC",
       "points": "24",
       "played": "20",
@@ -109,7 +121,7 @@
       "dg": "-14"
     },
     {
-      "rank": "10",
+      "rank": "11",
       "team": "Elche",
       "points": "23",
       "played": "19",
@@ -119,18 +131,6 @@
       "gf": "25",
       "ga": "24",
       "dg": "+1"
-    },
-    {
-      "rank": "11",
-      "team": "Real Sociedad",
-      "points": "22",
-      "played": "20",
-      "won": "5",
-      "drawn": "7",
-      "lost": "8",
-      "gf": "24",
-      "ga": "27",
-      "dg": "-3"
     },
     {
       "rank": "12",
