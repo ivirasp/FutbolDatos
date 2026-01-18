@@ -3,10 +3,10 @@
     {
       "rank": "1",
       "team": "FC Barcelona",
-      "points": "49",
-      "played": "19",
+      "points": "50",
+      "played": "20",
       "won": "16",
-      "drawn": "1",
+      "drawn": "2",
       "lost": "2",
       "gf": "53",
       "ga": "20",
@@ -122,6 +122,18 @@
     },
     {
       "rank": "11",
+      "team": "Real Sociedad",
+      "points": "22",
+      "played": "20",
+      "won": "5",
+      "drawn": "7",
+      "lost": "8",
+      "gf": "24",
+      "ga": "27",
+      "dg": "-3"
+    },
+    {
+      "rank": "12",
       "team": "Osasuna",
       "points": "22",
       "played": "20",
@@ -133,7 +145,7 @@
       "dg": "-3"
     },
     {
-      "rank": "12",
+      "rank": "13",
       "team": "Rayo Vallecano",
       "points": "22",
       "played": "20",
@@ -143,18 +155,6 @@
       "gf": "16",
       "ga": "25",
       "dg": "-9"
-    },
-    {
-      "rank": "13",
-      "team": "Real Sociedad",
-      "points": "21",
-      "played": "19",
-      "won": "5",
-      "drawn": "6",
-      "lost": "8",
-      "gf": "24",
-      "ga": "27",
-      "dg": "-3"
     },
     {
       "rank": "14",
