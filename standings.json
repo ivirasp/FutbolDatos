@@ -39,14 +39,14 @@
     {
       "rank": "4",
       "team": "Atl\u00e9tico de Madrid",
-      "points": "39",
+      "points": "41",
       "played": "20",
-      "won": "11",
-      "drawn": "6",
+      "won": "12",
+      "drawn": "5",
       "lost": "3",
-      "gf": "34",
+      "gf": "35",
       "ga": "17",
-      "dg": "+17"
+      "dg": "+18"
     },
     {
       "rank": "5",
@@ -194,18 +194,6 @@
     },
     {
       "rank": "17",
-      "team": "Deportivo Alav\u00e9s",
-      "points": "20",
-      "played": "20",
-      "won": "5",
-      "drawn": "5",
-      "lost": "10",
-      "gf": "16",
-      "ga": "24",
-      "dg": "-8"
-    },
-    {
-      "rank": "18",
       "team": "Valencia",
       "points": "20",
       "played": "20",
@@ -215,6 +203,18 @@
       "gf": "19",
       "ga": "31",
       "dg": "-12"
+    },
+    {
+      "rank": "18",
+      "team": "Deportivo Alav\u00e9s",
+      "points": "19",
+      "played": "20",
+      "won": "5",
+      "drawn": "4",
+      "lost": "11",
+      "gf": "16",
+      "ga": "25",
+      "dg": "-9"
     },
     {
       "rank": "19",
