@@ -1,33 +1,5 @@
 [
   {
-    "title": "Getafe - Valencia",
-    "start_ts": 1768741200.0,
-    "time_str": "14:00",
-    "channel": "M+ LaLiga",
-    "competition": "LALIGA"
-  },
-  {
-    "title": "Atl\u00e9tico de Madrid - Alav\u00e9s",
-    "start_ts": 1768749300.0,
-    "time_str": "16:15",
-    "channel": "DAZN LaLiga",
-    "competition": "LALIGA"
-  },
-  {
-    "title": "Celta - Rayo Vallecano",
-    "start_ts": 1768757400.0,
-    "time_str": "18:30",
-    "channel": "M+ LaLiga",
-    "competition": "LALIGA"
-  },
-  {
-    "title": "Real Sociedad - Barcelona",
-    "start_ts": 1768766400.0,
-    "time_str": "21:00",
-    "channel": "DAZN LaLiga",
-    "competition": "LALIGA"
-  },
-  {
     "title": "Elche - Sevilla",
     "start_ts": 1768852800.0,
     "time_str": "21:00",
@@ -347,6 +319,13 @@
     "start_ts": 1769371200.0,
     "time_str": "21:00",
     "channel": "DAZN LaLiga",
+    "competition": "LALIGA"
+  },
+  {
+    "title": "Girona - Getafe",
+    "start_ts": 1769457600.0,
+    "time_str": "21:00",
+    "channel": "M+ LaLiga",
     "competition": "LALIGA"
   },
   {
