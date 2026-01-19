@@ -1081,7 +1081,7 @@
           "status": "Fin"
         }
       ],
-      "Jornada 16": [
+      "Jornada 16 (Actual)": [
         {
           "date": "12-12-2025",
           "home": "Real Sociedad",
@@ -1133,13 +1133,6 @@
         },
         {
           "date": "14-12-2025",
-          "home": "Levante",
-          "away": "Villarreal",
-          "score": "0 - 0",
-          "status": ""
-        },
-        {
-          "date": "14-12-2025",
           "home": "Sevilla",
           "away": "Real Oviedo",
           "score": "4 - 0",
@@ -1151,6 +1144,13 @@
           "away": "Real Betis",
           "score": "0 - 0",
           "status": "Fin"
+        },
+        {
+          "date": "18-02-2026",
+          "home": "Levante",
+          "away": "Villarreal",
+          "score": "vs",
+          "status": ""
         }
       ],
       "Jornada 17": [
@@ -1369,7 +1369,7 @@
           "status": "Fin"
         }
       ],
-      "Jornada 20 (Actual)": [
+      "Jornada 20": [
         {
           "date": "16-01-2026",
           "home": "Espanyol",
@@ -2738,7 +2738,7 @@
         }
       ]
     },
-    "current": "Jornada 20 (Actual)"
+    "current": "Jornada 16 (Actual)"
   },
   "CHAMPIONS": {
     "rounds": {
