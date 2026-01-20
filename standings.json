@@ -508,6 +508,18 @@
     },
     {
       "rank": "23",
+      "team": "Brujas",
+      "points": "7",
+      "played": "7",
+      "won": "2",
+      "drawn": "1",
+      "lost": "4",
+      "gf": "12",
+      "ga": "16",
+      "dg": "-4"
+    },
+    {
+      "rank": "24",
       "team": "N\u00e1poles",
       "points": "7",
       "played": "6",
@@ -519,25 +531,13 @@
       "dg": "-5"
     },
     {
-      "rank": "24",
+      "rank": "25",
       "team": "Kobenhavn",
       "points": "7",
       "played": "6",
       "won": "2",
       "drawn": "1",
       "lost": "3",
-      "gf": "10",
-      "ga": "16",
-      "dg": "-6"
-    },
-    {
-      "rank": "25",
-      "team": "Brujas",
-      "points": "7",
-      "played": "7",
-      "won": "2",
-      "drawn": "1",
-      "lost": "4",
       "gf": "10",
       "ga": "16",
       "dg": "-6"
@@ -671,8 +671,8 @@
       "drawn": "1",
       "lost": "6",
       "gf": "4",
-      "ga": "17",
-      "dg": "-13"
+      "ga": "19",
+      "dg": "-15"
     }
   ],
   "EUROPA": [
