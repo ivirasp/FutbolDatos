@@ -1,12 +1,5 @@
 [
   {
-    "title": "Elche - Sevilla",
-    "start_ts": 1768852800.0,
-    "time_str": "21:00",
-    "channel": "DAZN LaLiga",
-    "competition": "LALIGA"
-  },
-  {
     "title": "F.C. Kairat - Club Brugge",
     "start_ts": 1768923000.0,
     "time_str": "16:30",
@@ -579,5 +572,12 @@
     "time_str": "21:00",
     "channel": "M+ Liga de Campeones",
     "competition": "EUROPA"
+  },
+  {
+    "title": "Espanyol - Alav\u00e9s",
+    "start_ts": 1769803200.0,
+    "time_str": "21:00",
+    "channel": "DAZN LaLiga",
+    "competition": "LALIGA"
   }
 ]
