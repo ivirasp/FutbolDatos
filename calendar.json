@@ -1,1 +1,611 @@
-[]
+[
+  {
+    "title": "F.C. Kairat - Club Brugge",
+    "start_ts": 1768923000.0,
+    "time_str": "16:30",
+    "channel": "M+ Liga de Campeones",
+    "competition": "CHAMPIONS"
+  },
+  {
+    "title": "Bod\u00f8/Glimt - Manchester City",
+    "start_ts": 1768931100.0,
+    "time_str": "18:45",
+    "channel": "M+ Liga de Campeones",
+    "competition": "CHAMPIONS"
+  },
+  {
+    "title": "Villarreal - Ajax",
+    "start_ts": 1768939200.0,
+    "time_str": "21:00",
+    "channel": "M+ Liga de Campeones 2",
+    "competition": "CHAMPIONS"
+  },
+  {
+    "title": "Inter de Milan - Arsenal",
+    "start_ts": 1768939200.0,
+    "time_str": "21:00",
+    "channel": "M+ Liga de Campeones 3",
+    "competition": "CHAMPIONS"
+  },
+  {
+    "title": "Tottenham - Borussia Dortmund",
+    "start_ts": 1768939200.0,
+    "time_str": "21:00",
+    "channel": "M+ Liga de Campeones 4",
+    "competition": "CHAMPIONS"
+  },
+  {
+    "title": "K\u00f8benhavn - N\u00e1poles",
+    "start_ts": 1768939200.0,
+    "time_str": "21:00",
+    "channel": "M+ Liga de Campeones 4",
+    "competition": "CHAMPIONS"
+  },
+  {
+    "title": "Sporting Portugal - PSG",
+    "start_ts": 1768939200.0,
+    "time_str": "21:00",
+    "channel": "M+ Liga de Campeones 4",
+    "competition": "CHAMPIONS"
+  },
+  {
+    "title": "Olympiacos - Bayer Leverkusen",
+    "start_ts": 1768939200.0,
+    "time_str": "21:00",
+    "channel": "M+ Liga de Campeones 4",
+    "competition": "CHAMPIONS"
+  },
+  {
+    "title": "Real Madrid - M\u00f3naco",
+    "start_ts": 1768939200.0,
+    "time_str": "21:00",
+    "channel": "M+ Liga de Campeones",
+    "competition": "CHAMPIONS"
+  },
+  {
+    "title": "Qarabag FK - Eintracht Frankfurt",
+    "start_ts": 1769017500.0,
+    "time_str": "18:45",
+    "channel": "M+ Liga de Campeones 3",
+    "competition": "CHAMPIONS"
+  },
+  {
+    "title": "Galatasaray - Atl\u00e9tico de Madrid",
+    "start_ts": 1769017500.0,
+    "time_str": "18:45",
+    "channel": "M+ Liga de Campeones",
+    "competition": "CHAMPIONS"
+  },
+  {
+    "title": "Juventus - Benfica",
+    "start_ts": 1769025600.0,
+    "time_str": "21:00",
+    "channel": "M+ Liga de Campeones 4",
+    "competition": "CHAMPIONS"
+  },
+  {
+    "title": "Chelsea - Pafos FC",
+    "start_ts": 1769025600.0,
+    "time_str": "21:00",
+    "channel": "M+ Liga de Campeones 4",
+    "competition": "CHAMPIONS"
+  },
+  {
+    "title": "Newcastle - PSV Eindhoven",
+    "start_ts": 1769025600.0,
+    "time_str": "21:00",
+    "channel": "M+ Liga de Campeones 4",
+    "competition": "CHAMPIONS"
+  },
+  {
+    "title": "FC Bayern - Union Saint-Gilloise",
+    "start_ts": 1769025600.0,
+    "time_str": "21:00",
+    "channel": "M+ Liga de Campeones 4",
+    "competition": "CHAMPIONS"
+  },
+  {
+    "title": "O. Marsella - Liverpool",
+    "start_ts": 1769025600.0,
+    "time_str": "21:00",
+    "channel": "M+ Liga de Campeones 4",
+    "competition": "CHAMPIONS"
+  },
+  {
+    "title": "Atalanta - Athletic Club",
+    "start_ts": 1769025600.0,
+    "time_str": "21:00",
+    "channel": "M+ Liga de Campeones 2",
+    "competition": "CHAMPIONS"
+  },
+  {
+    "title": "Slavia Praha - Barcelona",
+    "start_ts": 1769025600.0,
+    "time_str": "21:00",
+    "channel": "M+ Liga de Campeones",
+    "competition": "CHAMPIONS"
+  },
+  {
+    "title": "Friburgo - Maccabi Tel Aviv FC",
+    "start_ts": 1769103900.0,
+    "time_str": "18:45",
+    "channel": "M+ Liga de Campeones 3",
+    "competition": "EUROPA"
+  },
+  {
+    "title": "Bologna - Celtic FC",
+    "start_ts": 1769103900.0,
+    "time_str": "18:45",
+    "channel": "M+ Liga de Campeones 3",
+    "competition": "EUROPA"
+  },
+  {
+    "title": "Feyenoord - Sturm Graz",
+    "start_ts": 1769103900.0,
+    "time_str": "18:45",
+    "channel": "M+ Liga de Campeones 3",
+    "competition": "EUROPA"
+  },
+  {
+    "title": "Viktoria Plzen - Porto",
+    "start_ts": 1769103900.0,
+    "time_str": "18:45",
+    "channel": "M+ Liga de Campeones 3",
+    "competition": "EUROPA"
+  },
+  {
+    "title": "Fenerbah\u00e7e - Aston Villa",
+    "start_ts": 1769103900.0,
+    "time_str": "18:45",
+    "channel": "M+ Liga de Campeones 2",
+    "competition": "EUROPA"
+  },
+  {
+    "title": "Young Boys - Olympique Lyon",
+    "start_ts": 1769103900.0,
+    "time_str": "18:45",
+    "channel": "M+ Liga de Campeones 3",
+    "competition": "EUROPA"
+  },
+  {
+    "title": "PAOK FC - Betis",
+    "start_ts": 1769103900.0,
+    "time_str": "18:45",
+    "channel": "M+ Liga de Campeones",
+    "competition": "EUROPA"
+  },
+  {
+    "title": "Malm\u00f6 FF - Crvena Zvezda",
+    "start_ts": 1769103900.0,
+    "time_str": "18:45",
+    "channel": "M+ Liga de Campeones 3",
+    "competition": "EUROPA"
+  },
+  {
+    "title": "SK Brann - FC Midtjylland",
+    "start_ts": 1769103900.0,
+    "time_str": "18:45",
+    "channel": "M+ Liga de Campeones 3",
+    "competition": "EUROPA"
+  },
+  {
+    "title": "Roma - Stuttgart",
+    "start_ts": 1769112000.0,
+    "time_str": "21:00",
+    "channel": "M+ Liga de Campeones 2",
+    "competition": "EUROPA"
+  },
+  {
+    "title": "Celta - Lille",
+    "start_ts": 1769112000.0,
+    "time_str": "21:00",
+    "channel": "M+ Liga de Campeones",
+    "competition": "EUROPA"
+  },
+  {
+    "title": "Utrecht - Genk",
+    "start_ts": 1769112000.0,
+    "time_str": "21:00",
+    "channel": "M+ Liga de Campeones 3",
+    "competition": "EUROPA"
+  },
+  {
+    "title": "Niza - Go Ahead Eagles",
+    "start_ts": 1769112000.0,
+    "time_str": "21:00",
+    "channel": "M+ Liga de Campeones 3",
+    "competition": "EUROPA"
+  },
+  {
+    "title": "Red Bull Salzburg - Basilea",
+    "start_ts": 1769112000.0,
+    "time_str": "21:00",
+    "channel": "M+ Liga de Campeones 3",
+    "competition": "EUROPA"
+  },
+  {
+    "title": "Dinamo Zagreb - FCSB",
+    "start_ts": 1769112000.0,
+    "time_str": "21:00",
+    "channel": "M+ Liga de Campeones 3",
+    "competition": "EUROPA"
+  },
+  {
+    "title": "Ferencvaros - Panathinaikos",
+    "start_ts": 1769112000.0,
+    "time_str": "21:00",
+    "channel": "M+ Liga de Campeones 3",
+    "competition": "EUROPA"
+  },
+  {
+    "title": "Rangers FC - PFC Ludogorets",
+    "start_ts": 1769112000.0,
+    "time_str": "21:00",
+    "channel": "M+ Liga de Campeones 3",
+    "competition": "EUROPA"
+  },
+  {
+    "title": "Braga - Nottingham Forest",
+    "start_ts": 1769112000.0,
+    "time_str": "21:00",
+    "channel": "M+ Liga de Campeones 3",
+    "competition": "EUROPA"
+  },
+  {
+    "title": "Levante - Elche",
+    "start_ts": 1769198400.0,
+    "time_str": "21:00",
+    "channel": "Teledeporte",
+    "competition": "LALIGA"
+  },
+  {
+    "title": "Rayo Vallecano - Osasuna",
+    "start_ts": 1769259600.0,
+    "time_str": "14:00",
+    "channel": "DAZN LaLiga",
+    "competition": "LALIGA"
+  },
+  {
+    "title": "Valencia - Espanyol",
+    "start_ts": 1769267700.0,
+    "time_str": "16:15",
+    "channel": "M+ LaLiga",
+    "competition": "LALIGA"
+  },
+  {
+    "title": "Sevilla - Athletic Club",
+    "start_ts": 1769275800.0,
+    "time_str": "18:30",
+    "channel": "DAZN LaLiga",
+    "competition": "LALIGA"
+  },
+  {
+    "title": "Villarreal - Real Madrid",
+    "start_ts": 1769284800.0,
+    "time_str": "21:00",
+    "channel": "M+ LaLiga",
+    "competition": "LALIGA"
+  },
+  {
+    "title": "Atl\u00e9tico de Madrid - Mallorca",
+    "start_ts": 1769346000.0,
+    "time_str": "14:00",
+    "channel": "M+ LaLiga",
+    "competition": "LALIGA"
+  },
+  {
+    "title": "Barcelona - Real Oviedo",
+    "start_ts": 1769354100.0,
+    "time_str": "16:15",
+    "channel": "DAZN LaLiga",
+    "competition": "LALIGA"
+  },
+  {
+    "title": "Real Sociedad - Celta",
+    "start_ts": 1769362200.0,
+    "time_str": "18:30",
+    "channel": "M+ LaLiga",
+    "competition": "LALIGA"
+  },
+  {
+    "title": "Alav\u00e9s - Betis",
+    "start_ts": 1769371200.0,
+    "time_str": "21:00",
+    "channel": "DAZN LaLiga",
+    "competition": "LALIGA"
+  },
+  {
+    "title": "Girona - Getafe",
+    "start_ts": 1769457600.0,
+    "time_str": "21:00",
+    "channel": "M+ LaLiga",
+    "competition": "LALIGA"
+  },
+  {
+    "title": "Arsenal - F.C. Kairat",
+    "start_ts": 1769630400.0,
+    "time_str": "21:00",
+    "channel": "M+ Liga de Campeones",
+    "competition": "CHAMPIONS"
+  },
+  {
+    "title": "Bayer Leverkusen - Villarreal",
+    "start_ts": 1769630400.0,
+    "time_str": "21:00",
+    "channel": "M+ Liga de Campeones",
+    "competition": "CHAMPIONS"
+  },
+  {
+    "title": "PSG - Newcastle",
+    "start_ts": 1769630400.0,
+    "time_str": "21:00",
+    "channel": "M+ Liga de Campeones",
+    "competition": "CHAMPIONS"
+  },
+  {
+    "title": "Atl\u00e9tico de Madrid - Bod\u00f8/Glimt",
+    "start_ts": 1769630400.0,
+    "time_str": "21:00",
+    "channel": "M+ Liga de Campeones",
+    "competition": "CHAMPIONS"
+  },
+  {
+    "title": "N\u00e1poles - Chelsea",
+    "start_ts": 1769630400.0,
+    "time_str": "21:00",
+    "channel": "M+ Liga de Campeones",
+    "competition": "CHAMPIONS"
+  },
+  {
+    "title": "Barcelona - K\u00f8benhavn",
+    "start_ts": 1769630400.0,
+    "time_str": "21:00",
+    "channel": "M+ Liga de Campeones",
+    "competition": "CHAMPIONS"
+  },
+  {
+    "title": "Liverpool - Qarabag FK",
+    "start_ts": 1769630400.0,
+    "time_str": "21:00",
+    "channel": "M+ Liga de Campeones",
+    "competition": "CHAMPIONS"
+  },
+  {
+    "title": "PSV Eindhoven - FC Bayern",
+    "start_ts": 1769630400.0,
+    "time_str": "21:00",
+    "channel": "M+ Liga de Campeones",
+    "competition": "CHAMPIONS"
+  },
+  {
+    "title": "Ajax - Olympiacos",
+    "start_ts": 1769630400.0,
+    "time_str": "21:00",
+    "channel": "M+ Liga de Campeones",
+    "competition": "CHAMPIONS"
+  },
+  {
+    "title": "Athletic Club - Sporting Portugal",
+    "start_ts": 1769630400.0,
+    "time_str": "21:00",
+    "channel": "M+ Liga de Campeones",
+    "competition": "CHAMPIONS"
+  },
+  {
+    "title": "Borussia Dortmund - Inter de Milan",
+    "start_ts": 1769630400.0,
+    "time_str": "21:00",
+    "channel": "M+ Liga de Campeones",
+    "competition": "CHAMPIONS"
+  },
+  {
+    "title": "Eintracht Frankfurt - Tottenham",
+    "start_ts": 1769630400.0,
+    "time_str": "21:00",
+    "channel": "M+ Liga de Campeones",
+    "competition": "CHAMPIONS"
+  },
+  {
+    "title": "Benfica - Real Madrid",
+    "start_ts": 1769630400.0,
+    "time_str": "21:00",
+    "channel": "M+ Liga de Campeones",
+    "competition": "CHAMPIONS"
+  },
+  {
+    "title": "Manchester City - Galatasaray",
+    "start_ts": 1769630400.0,
+    "time_str": "21:00",
+    "channel": "M+ Liga de Campeones",
+    "competition": "CHAMPIONS"
+  },
+  {
+    "title": "Union Saint-Gilloise - Atalanta",
+    "start_ts": 1769630400.0,
+    "time_str": "21:00",
+    "channel": "M+ Liga de Campeones",
+    "competition": "CHAMPIONS"
+  },
+  {
+    "title": "Pafos FC - Slavia Praha",
+    "start_ts": 1769630400.0,
+    "time_str": "21:00",
+    "channel": "M+ Liga de Campeones",
+    "competition": "CHAMPIONS"
+  },
+  {
+    "title": "Club Brugge - O. Marsella",
+    "start_ts": 1769630400.0,
+    "time_str": "21:00",
+    "channel": "M+ Liga de Campeones",
+    "competition": "CHAMPIONS"
+  },
+  {
+    "title": "M\u00f3naco - Juventus",
+    "start_ts": 1769630400.0,
+    "time_str": "21:00",
+    "channel": "M+ Liga de Campeones",
+    "competition": "CHAMPIONS"
+  },
+  {
+    "title": "Betis - Feyenoord",
+    "start_ts": 1769716800.0,
+    "time_str": "21:00",
+    "channel": "M+ Liga de Campeones",
+    "competition": "EUROPA"
+  },
+  {
+    "title": "Genk - Malm\u00f6 FF",
+    "start_ts": 1769716800.0,
+    "time_str": "21:00",
+    "channel": "M+ Liga de Campeones",
+    "competition": "EUROPA"
+  },
+  {
+    "title": "Aston Villa - Red Bull Salzburg",
+    "start_ts": 1769716800.0,
+    "time_str": "21:00",
+    "channel": "M+ Liga de Campeones",
+    "competition": "EUROPA"
+  },
+  {
+    "title": "Stuttgart - Young Boys",
+    "start_ts": 1769716800.0,
+    "time_str": "21:00",
+    "channel": "M+ Liga de Campeones",
+    "competition": "EUROPA"
+  },
+  {
+    "title": "FCSB - Fenerbah\u00e7e",
+    "start_ts": 1769716800.0,
+    "time_str": "21:00",
+    "channel": "M+ Liga de Campeones",
+    "competition": "EUROPA"
+  },
+  {
+    "title": "Celtic FC - Utrecht",
+    "start_ts": 1769716800.0,
+    "time_str": "21:00",
+    "channel": "M+ Liga de Campeones",
+    "competition": "EUROPA"
+  },
+  {
+    "title": "Olympique Lyon - PAOK FC",
+    "start_ts": 1769716800.0,
+    "time_str": "21:00",
+    "channel": "M+ Liga de Campeones",
+    "competition": "EUROPA"
+  },
+  {
+    "title": "Basilea - Viktoria Plzen",
+    "start_ts": 1769716800.0,
+    "time_str": "21:00",
+    "channel": "M+ Liga de Campeones",
+    "competition": "EUROPA"
+  },
+  {
+    "title": "Nottingham Forest - Ferencvaros",
+    "start_ts": 1769716800.0,
+    "time_str": "21:00",
+    "channel": "M+ Liga de Campeones",
+    "competition": "EUROPA"
+  },
+  {
+    "title": "Lille - Friburgo",
+    "start_ts": 1769716800.0,
+    "time_str": "21:00",
+    "channel": "M+ Liga de Campeones",
+    "competition": "EUROPA"
+  },
+  {
+    "title": "Porto - Rangers FC",
+    "start_ts": 1769716800.0,
+    "time_str": "21:00",
+    "channel": "M+ Liga de Campeones",
+    "competition": "EUROPA"
+  },
+  {
+    "title": "Sturm Graz - SK Brann",
+    "start_ts": 1769716800.0,
+    "time_str": "21:00",
+    "channel": "M+ Liga de Campeones",
+    "competition": "EUROPA"
+  },
+  {
+    "title": "PFC Ludogorets - Niza",
+    "start_ts": 1769716800.0,
+    "time_str": "21:00",
+    "channel": "M+ Liga de Campeones",
+    "competition": "EUROPA"
+  },
+  {
+    "title": "Go Ahead Eagles - Braga",
+    "start_ts": 1769716800.0,
+    "time_str": "21:00",
+    "channel": "M+ Liga de Campeones",
+    "competition": "EUROPA"
+  },
+  {
+    "title": "Maccabi Tel Aviv FC - Bologna",
+    "start_ts": 1769716800.0,
+    "time_str": "21:00",
+    "channel": "M+ Liga de Campeones",
+    "competition": "EUROPA"
+  },
+  {
+    "title": "Panathinaikos - Roma",
+    "start_ts": 1769716800.0,
+    "time_str": "21:00",
+    "channel": "M+ Liga de Campeones",
+    "competition": "EUROPA"
+  },
+  {
+    "title": "Crvena Zvezda - Celta",
+    "start_ts": 1769716800.0,
+    "time_str": "21:00",
+    "channel": "M+ Liga de Campeones",
+    "competition": "EUROPA"
+  },
+  {
+    "title": "FC Midtjylland - Dinamo Zagreb",
+    "start_ts": 1769716800.0,
+    "time_str": "21:00",
+    "channel": "M+ Liga de Campeones",
+    "competition": "EUROPA"
+  },
+  {
+    "title": "Espanyol - Alav\u00e9s",
+    "start_ts": 1769803200.0,
+    "time_str": "21:00",
+    "channel": "DAZN LaLiga",
+    "competition": "LALIGA"
+  },
+  {
+    "title": "Albacete - Barcelona",
+    "start_ts": 1770148800.0,
+    "time_str": "21:00",
+    "channel": "La 1",
+    "competition": "COPA"
+  },
+  {
+    "title": "Alav\u00e9s - Real Sociedad",
+    "start_ts": 1770235200.0,
+    "time_str": "21:00",
+    "channel": "M+ LaLiga 2",
+    "competition": "COPA"
+  },
+  {
+    "title": "Valencia - Athletic Club",
+    "start_ts": 1770235200.0,
+    "time_str": "21:00",
+    "channel": "M+ LaLiga",
+    "competition": "COPA"
+  },
+  {
+    "title": "Betis - Atl\u00e9tico de Madrid",
+    "start_ts": 1770321600.0,
+    "time_str": "21:00",
+    "channel": "M+ LaLiga",
+    "competition": "COPA"
+  }
+]
