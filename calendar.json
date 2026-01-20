@@ -17,46 +17,46 @@
     "title": "Villarreal - Ajax",
     "start_ts": 1768939200.0,
     "time_str": "21:00",
-    "channel": "M+ Liga de Campeones",
+    "channel": "M+ Liga de Campeones 2",
     "competition": "CHAMPIONS"
   },
   {
     "title": "Inter de Milan - Arsenal",
     "start_ts": 1768939200.0,
     "time_str": "21:00",
-    "channel": "M+ Liga de Campeones",
-    "competition": "CHAMPIONS"
-  },
-  {
-    "title": "Real Madrid - M\u00f3naco",
-    "start_ts": 1768939200.0,
-    "time_str": "21:00",
-    "channel": "M+ Liga de Campeones",
+    "channel": "M+ Liga de Campeones 3",
     "competition": "CHAMPIONS"
   },
   {
     "title": "Tottenham - Borussia Dortmund",
     "start_ts": 1768939200.0,
     "time_str": "21:00",
-    "channel": "M+ Liga de Campeones",
+    "channel": "M+ Liga de Campeones 4",
     "competition": "CHAMPIONS"
   },
   {
     "title": "K\u00f8benhavn - N\u00e1poles",
     "start_ts": 1768939200.0,
     "time_str": "21:00",
-    "channel": "M+ Liga de Campeones",
+    "channel": "M+ Liga de Campeones 4",
     "competition": "CHAMPIONS"
   },
   {
     "title": "Sporting Portugal - PSG",
     "start_ts": 1768939200.0,
     "time_str": "21:00",
-    "channel": "M+ Liga de Campeones",
+    "channel": "M+ Liga de Campeones 4",
     "competition": "CHAMPIONS"
   },
   {
     "title": "Olympiacos - Bayer Leverkusen",
+    "start_ts": 1768939200.0,
+    "time_str": "21:00",
+    "channel": "M+ Liga de Campeones 4",
+    "competition": "CHAMPIONS"
+  },
+  {
+    "title": "Real Madrid - M\u00f3naco",
     "start_ts": 1768939200.0,
     "time_str": "21:00",
     "channel": "M+ Liga de Campeones",
@@ -80,35 +80,35 @@
     "title": "Juventus - Benfica",
     "start_ts": 1769025600.0,
     "time_str": "21:00",
-    "channel": "M+ Liga de Campeones 6",
+    "channel": "M+ Liga de Campeones 4",
     "competition": "CHAMPIONS"
   },
   {
     "title": "Chelsea - Pafos FC",
     "start_ts": 1769025600.0,
     "time_str": "21:00",
-    "channel": "M+ Liga de Campeones",
+    "channel": "M+ Liga de Campeones 4",
     "competition": "CHAMPIONS"
   },
   {
     "title": "Newcastle - PSV Eindhoven",
     "start_ts": 1769025600.0,
     "time_str": "21:00",
-    "channel": "M+ Liga de Campeones 9",
+    "channel": "M+ Liga de Campeones 4",
     "competition": "CHAMPIONS"
   },
   {
     "title": "FC Bayern - Union Saint-Gilloise",
     "start_ts": 1769025600.0,
     "time_str": "21:00",
-    "channel": "M+ Liga de Campeones",
+    "channel": "M+ Liga de Campeones 4",
     "competition": "CHAMPIONS"
   },
   {
     "title": "O. Marsella - Liverpool",
     "start_ts": 1769025600.0,
     "time_str": "21:00",
-    "channel": "M+ Liga de Campeones",
+    "channel": "M+ Liga de Campeones 4",
     "competition": "CHAMPIONS"
   },
   {
@@ -579,5 +579,33 @@
     "time_str": "21:00",
     "channel": "DAZN LaLiga",
     "competition": "LALIGA"
+  },
+  {
+    "title": "Albacete - Barcelona",
+    "start_ts": 1770148800.0,
+    "time_str": "21:00",
+    "channel": "La 1",
+    "competition": "COPA"
+  },
+  {
+    "title": "Alav\u00e9s - Real Sociedad",
+    "start_ts": 1770235200.0,
+    "time_str": "21:00",
+    "channel": "M+ LaLiga 2",
+    "competition": "COPA"
+  },
+  {
+    "title": "Valencia - Athletic Club",
+    "start_ts": 1770235200.0,
+    "time_str": "21:00",
+    "channel": "M+ LaLiga",
+    "competition": "COPA"
+  },
+  {
+    "title": "Betis - Atl\u00e9tico de Madrid",
+    "start_ts": 1770321600.0,
+    "time_str": "21:00",
+    "channel": "M+ LaLiga",
+    "competition": "COPA"
   }
 ]
