@@ -280,18 +280,6 @@
     },
     {
       "rank": "4",
-      "team": "Atl\u00e9tico de Madrid",
-      "points": "15",
-      "played": "7",
-      "won": "5",
-      "drawn": "0",
-      "lost": "2",
-      "gf": "16",
-      "ga": "12",
-      "dg": "+4"
-    },
-    {
-      "rank": "5",
       "team": "Tottenham",
       "points": "14",
       "played": "7",
@@ -303,7 +291,7 @@
       "dg": "+8"
     },
     {
-      "rank": "6",
+      "rank": "5",
       "team": "PSG",
       "points": "13",
       "played": "7",
@@ -315,7 +303,7 @@
       "dg": "+10"
     },
     {
-      "rank": "7",
+      "rank": "6",
       "team": "Sporting de Portugal",
       "points": "13",
       "played": "7",
@@ -327,7 +315,7 @@
       "dg": "+5"
     },
     {
-      "rank": "8",
+      "rank": "7",
       "team": "Manchester City",
       "points": "13",
       "played": "7",
@@ -337,6 +325,18 @@
       "gf": "13",
       "ga": "9",
       "dg": "+4"
+    },
+    {
+      "rank": "8",
+      "team": "Atl\u00e9tico de Madrid",
+      "points": "13",
+      "played": "7",
+      "won": "4",
+      "drawn": "1",
+      "lost": "2",
+      "gf": "16",
+      "ga": "13",
+      "dg": "+3"
     },
     {
       "rank": "9",
@@ -424,15 +424,15 @@
     },
     {
       "rank": "16",
-      "team": "Qarabag",
+      "team": "Galatasaray",
       "points": "10",
       "played": "7",
       "won": "3",
       "drawn": "1",
       "lost": "3",
-      "gf": "11",
-      "ga": "13",
-      "dg": "-2"
+      "gf": "9",
+      "ga": "9",
+      "dg": "0"
     },
     {
       "rank": "17",
@@ -460,18 +460,6 @@
     },
     {
       "rank": "19",
-      "team": "Galatasaray",
-      "points": "9",
-      "played": "7",
-      "won": "3",
-      "drawn": "0",
-      "lost": "4",
-      "gf": "8",
-      "ga": "9",
-      "dg": "-1"
-    },
-    {
-      "rank": "20",
       "team": "Bayer Leverkusen",
       "points": "9",
       "played": "7",
@@ -483,7 +471,7 @@
       "dg": "-4"
     },
     {
-      "rank": "21",
+      "rank": "20",
       "team": "M\u00f3naco",
       "points": "9",
       "played": "7",
@@ -495,7 +483,7 @@
       "dg": "-6"
     },
     {
-      "rank": "22",
+      "rank": "21",
       "team": "PSV",
       "points": "8",
       "played": "6",
@@ -505,6 +493,18 @@
       "gf": "15",
       "ga": "11",
       "dg": "+4"
+    },
+    {
+      "rank": "22",
+      "team": "Qarabag",
+      "points": "8",
+      "played": "7",
+      "won": "2",
+      "drawn": "2",
+      "lost": "3",
+      "gf": "11",
+      "ga": "14",
+      "dg": "-3"
     },
     {
       "rank": "23",
@@ -629,14 +629,14 @@
     {
       "rank": "33",
       "team": "Eintracht de Frankfurt",
-      "points": "4",
+      "points": "5",
       "played": "7",
       "won": "1",
-      "drawn": "1",
-      "lost": "5",
-      "gf": "8",
+      "drawn": "2",
+      "lost": "4",
+      "gf": "9",
       "ga": "17",
-      "dg": "-9"
+      "dg": "-8"
     },
     {
       "rank": "34",
