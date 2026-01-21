@@ -3510,7 +3510,7 @@
           "status": "Fin"
         }
       ],
-      "Jornada 7 (Actual)": [
+      "Jornada 7": [
         {
           "date": "20-01-2026",
           "home": "Kairat",
@@ -3638,7 +3638,7 @@
           "status": "Fin"
         }
       ],
-      "Jornada 8": [
+      "Jornada 8 (Actual)": [
         {
           "date": "28-01-2026",
           "home": "Ajax",
@@ -3767,7 +3767,7 @@
         }
       ]
     },
-    "current": "Jornada 7 (Actual)"
+    "current": "Jornada 8 (Actual)"
   },
   "EUROPA": {
     "rounds": {
