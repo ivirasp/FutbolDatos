@@ -714,6 +714,18 @@
     },
     {
       "rank": "4",
+      "team": "Ferencv\u00e1ros",
+      "points": "17",
+      "played": "7",
+      "won": "5",
+      "drawn": "2",
+      "lost": "0",
+      "gf": "12",
+      "ga": "6",
+      "dg": "+6"
+    },
+    {
+      "rank": "5",
       "team": "Midtjylland",
       "points": "16",
       "played": "7",
@@ -725,7 +737,19 @@
       "dg": "+8"
     },
     {
-      "rank": "5",
+      "rank": "6",
+      "team": "Sporting de Braga",
+      "points": "16",
+      "played": "7",
+      "won": "5",
+      "drawn": "1",
+      "lost": "1",
+      "gf": "11",
+      "ga": "5",
+      "dg": "+6"
+    },
+    {
+      "rank": "7",
       "team": "Roma",
       "points": "15",
       "played": "7",
@@ -737,19 +761,7 @@
       "dg": "+6"
     },
     {
-      "rank": "6",
-      "team": "Ferencv\u00e1ros",
-      "points": "15",
-      "played": "7",
-      "won": "4",
-      "drawn": "3",
-      "lost": "0",
-      "gf": "11",
-      "ga": "6",
-      "dg": "+5"
-    },
-    {
-      "rank": "7",
+      "rank": "8",
       "team": "Real Betis",
       "points": "14",
       "played": "7",
@@ -758,18 +770,6 @@
       "lost": "1",
       "gf": "11",
       "ga": "6",
-      "dg": "+5"
-    },
-    {
-      "rank": "8",
-      "team": "Sporting de Braga",
-      "points": "14",
-      "played": "7",
-      "won": "4",
-      "drawn": "2",
-      "lost": "1",
-      "gf": "10",
-      "ga": "5",
       "dg": "+5"
     },
     {
@@ -822,18 +822,6 @@
     },
     {
       "rank": "13",
-      "team": "Nottingham Forest",
-      "points": "12",
-      "played": "7",
-      "won": "3",
-      "drawn": "3",
-      "lost": "1",
-      "gf": "11",
-      "ga": "6",
-      "dg": "+5"
-    },
-    {
-      "rank": "14",
       "team": "Celta",
       "points": "12",
       "played": "7",
@@ -845,13 +833,25 @@
       "dg": "+4"
     },
     {
-      "rank": "15",
+      "rank": "14",
       "team": "Bolonia",
       "points": "12",
       "played": "7",
       "won": "3",
       "drawn": "3",
       "lost": "1",
+      "gf": "11",
+      "ga": "7",
+      "dg": "+4"
+    },
+    {
+      "rank": "15",
+      "team": "Nottingham Forest",
+      "points": "11",
+      "played": "7",
+      "won": "3",
+      "drawn": "2",
+      "lost": "2",
       "gf": "11",
       "ga": "7",
       "dg": "+4"
@@ -882,26 +882,26 @@
     },
     {
       "rank": "18",
-      "team": "Panathinaikos",
+      "team": "Genk",
       "points": "11",
       "played": "7",
       "won": "3",
       "drawn": "2",
       "lost": "2",
-      "gf": "9",
-      "ga": "7",
-      "dg": "+2"
+      "gf": "7",
+      "ga": "6",
+      "dg": "+1"
     },
     {
       "rank": "19",
-      "team": "Genk",
+      "team": "Panathinaikos",
       "points": "10",
-      "played": "6",
+      "played": "7",
       "won": "3",
       "drawn": "1",
-      "lost": "2",
-      "gf": "7",
-      "ga": "6",
+      "lost": "3",
+      "gf": "9",
+      "ga": "8",
       "dg": "+1"
     },
     {
@@ -990,19 +990,19 @@
     },
     {
       "rank": "27",
-      "team": "Salzburgo",
+      "team": "Basel",
       "points": "6",
       "played": "7",
       "won": "2",
       "drawn": "0",
       "lost": "5",
-      "gf": "8",
-      "ga": "11",
+      "gf": "9",
+      "ga": "12",
       "dg": "-3"
     },
     {
       "rank": "28",
-      "team": "Basel",
+      "team": "Salzburgo",
       "points": "6",
       "played": "7",
       "won": "2",
@@ -1033,8 +1033,8 @@
       "drawn": "0",
       "lost": "5",
       "gf": "5",
-      "ga": "13",
-      "dg": "-8"
+      "ga": "14",
+      "dg": "-9"
     },
     {
       "rank": "31",
@@ -1068,17 +1068,17 @@
       "won": "1",
       "drawn": "0",
       "lost": "6",
-      "gf": "6",
+      "gf": "7",
       "ga": "13",
-      "dg": "-7"
+      "dg": "-6"
     },
     {
       "rank": "34",
       "team": "Utrecht",
-      "points": "1",
-      "played": "6",
+      "points": "2",
+      "played": "7",
       "won": "0",
-      "drawn": "1",
+      "drawn": "2",
       "lost": "5",
       "gf": "3",
       "ga": "9",
