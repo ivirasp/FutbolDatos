@@ -678,39 +678,39 @@
   "EUROPA": [
     {
       "rank": "1",
-      "team": "Midtjylland",
+      "team": "Olympique de Lyon",
       "points": "18",
       "played": "7",
       "won": "6",
       "drawn": "0",
       "lost": "1",
       "gf": "14",
-      "ga": "5",
-      "dg": "+9"
+      "ga": "3",
+      "dg": "+11"
     },
     {
       "rank": "2",
-      "team": "Olympique de Lyon",
-      "points": "16",
+      "team": "Midtjylland",
+      "points": "18",
       "played": "7",
-      "won": "5",
-      "drawn": "1",
+      "won": "6",
+      "drawn": "0",
       "lost": "1",
-      "gf": "13",
-      "ga": "3",
-      "dg": "+10"
+      "gf": "15",
+      "ga": "6",
+      "dg": "+9"
     },
     {
       "rank": "3",
       "team": "Aston Villa",
-      "points": "16",
+      "points": "18",
       "played": "7",
-      "won": "5",
-      "drawn": "1",
+      "won": "6",
+      "drawn": "0",
       "lost": "1",
-      "gf": "10",
+      "gf": "11",
       "ga": "4",
-      "dg": "+6"
+      "dg": "+7"
     },
     {
       "rank": "4",
@@ -786,6 +786,18 @@
     },
     {
       "rank": "10",
+      "team": "Estrella Roja de Belgrado",
+      "points": "13",
+      "played": "7",
+      "won": "4",
+      "drawn": "1",
+      "lost": "2",
+      "gf": "6",
+      "ga": "5",
+      "dg": "+1"
+    },
+    {
+      "rank": "11",
       "team": "Stuttgart",
       "points": "12",
       "played": "6",
@@ -797,7 +809,7 @@
       "dg": "+7"
     },
     {
-      "rank": "11",
+      "rank": "12",
       "team": "Roma",
       "points": "12",
       "played": "6",
@@ -807,18 +819,6 @@
       "gf": "10",
       "ga": "5",
       "dg": "+5"
-    },
-    {
-      "rank": "12",
-      "team": "Fenerbah\u00e7e",
-      "points": "12",
-      "played": "7",
-      "won": "3",
-      "drawn": "3",
-      "lost": "1",
-      "gf": "9",
-      "ga": "5",
-      "dg": "+4"
     },
     {
       "rank": "13",
@@ -834,7 +834,7 @@
     },
     {
       "rank": "14",
-      "team": "Bolonia",
+      "team": "Fenerbah\u00e7e",
       "points": "11",
       "played": "7",
       "won": "3",
@@ -846,15 +846,15 @@
     },
     {
       "rank": "15",
-      "team": "Estrella Roja de Belgrado",
+      "team": "Bolonia",
       "points": "11",
       "played": "7",
       "won": "3",
       "drawn": "2",
       "lost": "2",
-      "gf": "5",
-      "ga": "5",
-      "dg": "0"
+      "gf": "9",
+      "ga": "7",
+      "dg": "+2"
     },
     {
       "rank": "16",
@@ -900,24 +900,12 @@
       "won": "3",
       "drawn": "1",
       "lost": "3",
-      "gf": "8",
+      "gf": "9",
       "ga": "11",
-      "dg": "-3"
+      "dg": "-2"
     },
     {
       "rank": "20",
-      "team": "Young Boys",
-      "points": "10",
-      "played": "7",
-      "won": "3",
-      "drawn": "1",
-      "lost": "3",
-      "gf": "8",
-      "ga": "12",
-      "dg": "-4"
-    },
-    {
-      "rank": "21",
       "team": "Celta",
       "points": "9",
       "played": "6",
@@ -929,7 +917,7 @@
       "dg": "+3"
     },
     {
-      "rank": "22",
+      "rank": "21",
       "team": "Lille",
       "points": "9",
       "played": "6",
@@ -941,6 +929,18 @@
       "dg": "+3"
     },
     {
+      "rank": "22",
+      "team": "Young Boys",
+      "points": "9",
+      "played": "7",
+      "won": "3",
+      "drawn": "0",
+      "lost": "4",
+      "gf": "8",
+      "ga": "13",
+      "dg": "-5"
+    },
+    {
       "rank": "23",
       "team": "SK Brann",
       "points": "8",
@@ -948,8 +948,8 @@
       "won": "2",
       "drawn": "2",
       "lost": "3",
-      "gf": "6",
-      "ga": "8",
+      "gf": "7",
+      "ga": "9",
       "dg": "-2"
     },
     {
@@ -1050,18 +1050,6 @@
     },
     {
       "rank": "32",
-      "team": "Malm\u00f6 FF",
-      "points": "2",
-      "played": "7",
-      "won": "0",
-      "drawn": "2",
-      "lost": "5",
-      "gf": "3",
-      "ga": "12",
-      "dg": "-9"
-    },
-    {
-      "rank": "33",
       "team": "Maccabi Tel Aviv",
       "points": "2",
       "played": "7",
@@ -1073,7 +1061,7 @@
       "dg": "-16"
     },
     {
-      "rank": "34",
+      "rank": "33",
       "team": "Utrecht",
       "points": "1",
       "played": "6",
@@ -1085,7 +1073,7 @@
       "dg": "-6"
     },
     {
-      "rank": "35",
+      "rank": "34",
       "team": "Rangers",
       "points": "1",
       "played": "6",
@@ -1095,6 +1083,18 @@
       "gf": "3",
       "ga": "11",
       "dg": "-8"
+    },
+    {
+      "rank": "35",
+      "team": "Malm\u00f6 FF",
+      "points": "1",
+      "played": "7",
+      "won": "0",
+      "drawn": "1",
+      "lost": "6",
+      "gf": "3",
+      "ga": "13",
+      "dg": "-10"
     },
     {
       "rank": "36",
