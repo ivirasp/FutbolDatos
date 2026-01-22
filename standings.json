@@ -786,6 +786,18 @@
     },
     {
       "rank": "10",
+      "team": "Genk",
+      "points": "13",
+      "played": "7",
+      "won": "4",
+      "drawn": "1",
+      "lost": "2",
+      "gf": "8",
+      "ga": "6",
+      "dg": "+2"
+    },
+    {
+      "rank": "11",
       "team": "Estrella Roja de Belgrado",
       "points": "13",
       "played": "7",
@@ -797,7 +809,7 @@
       "dg": "+1"
     },
     {
-      "rank": "11",
+      "rank": "12",
       "team": "PAOK",
       "points": "12",
       "played": "7",
@@ -809,7 +821,7 @@
       "dg": "+5"
     },
     {
-      "rank": "12",
+      "rank": "13",
       "team": "Stuttgart",
       "points": "12",
       "played": "7",
@@ -821,7 +833,7 @@
       "dg": "+5"
     },
     {
-      "rank": "13",
+      "rank": "14",
       "team": "Celta",
       "points": "12",
       "played": "7",
@@ -833,7 +845,7 @@
       "dg": "+4"
     },
     {
-      "rank": "14",
+      "rank": "15",
       "team": "Bolonia",
       "points": "12",
       "played": "7",
@@ -845,7 +857,7 @@
       "dg": "+4"
     },
     {
-      "rank": "15",
+      "rank": "16",
       "team": "Nottingham Forest",
       "points": "11",
       "played": "7",
@@ -857,7 +869,7 @@
       "dg": "+4"
     },
     {
-      "rank": "16",
+      "rank": "17",
       "team": "Viktoria Plzen",
       "points": "11",
       "played": "7",
@@ -869,7 +881,7 @@
       "dg": "+4"
     },
     {
-      "rank": "17",
+      "rank": "18",
       "team": "Fenerbah\u00e7e",
       "points": "11",
       "played": "7",
@@ -881,7 +893,7 @@
       "dg": "+3"
     },
     {
-      "rank": "18",
+      "rank": "19",
       "team": "Panathinaikos",
       "points": "11",
       "played": "7",
@@ -891,18 +903,6 @@
       "gf": "10",
       "ga": "8",
       "dg": "+2"
-    },
-    {
-      "rank": "19",
-      "team": "Genk",
-      "points": "11",
-      "played": "7",
-      "won": "3",
-      "drawn": "2",
-      "lost": "2",
-      "gf": "7",
-      "ga": "6",
-      "dg": "+1"
     },
     {
       "rank": "20",
@@ -1075,14 +1075,14 @@
     {
       "rank": "34",
       "team": "Utrecht",
-      "points": "2",
+      "points": "1",
       "played": "7",
       "won": "0",
-      "drawn": "2",
-      "lost": "5",
+      "drawn": "1",
+      "lost": "6",
       "gf": "3",
-      "ga": "9",
-      "dg": "-6"
+      "ga": "10",
+      "dg": "-7"
     },
     {
       "rank": "35",
