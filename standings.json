@@ -87,14 +87,14 @@
     {
       "rank": "8",
       "team": "Elche",
-      "points": "24",
-      "played": "20",
-      "won": "5",
+      "points": "27",
+      "played": "21",
+      "won": "6",
       "drawn": "9",
       "lost": "6",
-      "gf": "27",
+      "gf": "28",
       "ga": "26",
-      "dg": "+1"
+      "dg": "+2"
     },
     {
       "rank": "9",
@@ -220,13 +220,13 @@
       "rank": "19",
       "team": "Levante",
       "points": "14",
-      "played": "19",
+      "played": "20",
       "won": "3",
       "drawn": "5",
-      "lost": "11",
+      "lost": "12",
       "gf": "21",
-      "ga": "32",
-      "dg": "-11"
+      "ga": "33",
+      "dg": "-12"
     },
     {
       "rank": "20",
