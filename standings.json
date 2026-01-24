@@ -86,18 +86,6 @@
     },
     {
       "rank": "8",
-      "team": "Osasuna",
-      "points": "25",
-      "played": "21",
-      "won": "7",
-      "drawn": "4",
-      "lost": "10",
-      "gf": "22",
-      "ga": "24",
-      "dg": "-2"
-    },
-    {
-      "rank": "9",
       "team": "Elche",
       "points": "24",
       "played": "21",
@@ -109,7 +97,7 @@
       "dg": "0"
     },
     {
-      "rank": "10",
+      "rank": "9",
       "team": "Real Sociedad",
       "points": "24",
       "played": "20",
@@ -121,7 +109,7 @@
       "dg": "-2"
     },
     {
-      "rank": "11",
+      "rank": "10",
       "team": "Athletic",
       "points": "24",
       "played": "20",
@@ -133,7 +121,7 @@
       "dg": "-9"
     },
     {
-      "rank": "12",
+      "rank": "11",
       "team": "Girona FC",
       "points": "24",
       "played": "20",
@@ -145,16 +133,28 @@
       "dg": "-14"
     },
     {
+      "rank": "12",
+      "team": "Osasuna",
+      "points": "23",
+      "played": "21",
+      "won": "6",
+      "drawn": "5",
+      "lost": "10",
+      "gf": "22",
+      "ga": "25",
+      "dg": "-3"
+    },
+    {
       "rank": "13",
       "team": "Rayo Vallecano",
-      "points": "22",
+      "points": "23",
       "played": "21",
       "won": "5",
-      "drawn": "7",
-      "lost": "9",
-      "gf": "16",
+      "drawn": "8",
+      "lost": "8",
+      "gf": "17",
       "ga": "26",
-      "dg": "-10"
+      "dg": "-9"
     },
     {
       "rank": "14",
