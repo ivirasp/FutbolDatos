@@ -51,14 +51,14 @@
     {
       "rank": "5",
       "team": "Espanyol",
-      "points": "35",
+      "points": "34",
       "played": "21",
       "won": "10",
-      "drawn": "5",
-      "lost": "6",
+      "drawn": "4",
+      "lost": "7",
       "gf": "23",
-      "ga": "22",
-      "dg": "+1"
+      "ga": "23",
+      "dg": "0"
     },
     {
       "rank": "6",
@@ -146,6 +146,18 @@
     },
     {
       "rank": "13",
+      "team": "Valencia",
+      "points": "23",
+      "played": "21",
+      "won": "5",
+      "drawn": "8",
+      "lost": "8",
+      "gf": "20",
+      "ga": "31",
+      "dg": "-11"
+    },
+    {
+      "rank": "14",
       "team": "Rayo Vallecano",
       "points": "22",
       "played": "21",
@@ -157,7 +169,7 @@
       "dg": "-11"
     },
     {
-      "rank": "14",
+      "rank": "15",
       "team": "Sevilla",
       "points": "21",
       "played": "20",
@@ -169,7 +181,7 @@
       "dg": "-6"
     },
     {
-      "rank": "15",
+      "rank": "16",
       "team": "Mallorca",
       "points": "21",
       "played": "20",
@@ -181,7 +193,7 @@
       "dg": "-6"
     },
     {
-      "rank": "16",
+      "rank": "17",
       "team": "Getafe",
       "points": "21",
       "played": "20",
@@ -191,18 +203,6 @@
       "gf": "15",
       "ga": "26",
       "dg": "-11"
-    },
-    {
-      "rank": "17",
-      "team": "Valencia",
-      "points": "21",
-      "played": "21",
-      "won": "4",
-      "drawn": "9",
-      "lost": "8",
-      "gf": "19",
-      "ga": "31",
-      "dg": "-12"
     },
     {
       "rank": "18",
