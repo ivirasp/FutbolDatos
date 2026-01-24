@@ -2,6 +2,18 @@
   "LALIGA": [
     {
       "rank": "1",
+      "team": "Real Madrid",
+      "points": "51",
+      "played": "21",
+      "won": "16",
+      "drawn": "3",
+      "lost": "2",
+      "gf": "44",
+      "ga": "17",
+      "dg": "+27"
+    },
+    {
+      "rank": "2",
       "team": "FC Barcelona",
       "points": "49",
       "played": "20",
@@ -13,31 +25,7 @@
       "dg": "+32"
     },
     {
-      "rank": "2",
-      "team": "Real Madrid",
-      "points": "49",
-      "played": "21",
-      "won": "15",
-      "drawn": "4",
-      "lost": "2",
-      "gf": "43",
-      "ga": "17",
-      "dg": "+26"
-    },
-    {
       "rank": "3",
-      "team": "Villarreal",
-      "points": "42",
-      "played": "20",
-      "won": "13",
-      "drawn": "3",
-      "lost": "4",
-      "gf": "37",
-      "ga": "19",
-      "dg": "+18"
-    },
-    {
-      "rank": "4",
       "team": "Atl\u00e9tico de Madrid",
       "points": "41",
       "played": "20",
@@ -47,6 +35,18 @@
       "gf": "35",
       "ga": "17",
       "dg": "+18"
+    },
+    {
+      "rank": "4",
+      "team": "Villarreal",
+      "points": "41",
+      "played": "20",
+      "won": "13",
+      "drawn": "2",
+      "lost": "5",
+      "gf": "37",
+      "ga": "20",
+      "dg": "+17"
     },
     {
       "rank": "5",
