@@ -1,12 +1,5 @@
 [
   {
-    "title": "Levante - Elche",
-    "start_ts": 1769198400.0,
-    "time_str": "21:00",
-    "channel": "Teledeporte",
-    "competition": "LALIGA"
-  },
-  {
     "title": "Rayo Vallecano - Osasuna",
     "start_ts": 1769259600.0,
     "time_str": "14:00",
@@ -326,6 +319,34 @@
     "start_ts": 1769803200.0,
     "time_str": "21:00",
     "channel": "DAZN LaLiga",
+    "competition": "LALIGA"
+  },
+  {
+    "title": "Real Oviedo - Girona",
+    "start_ts": 1769864400.0,
+    "time_str": "14:00",
+    "channel": "DAZN LaLiga",
+    "competition": "LALIGA"
+  },
+  {
+    "title": "Osasuna - Villarreal",
+    "start_ts": 1769872500.0,
+    "time_str": "16:15",
+    "channel": "M+ LaLiga",
+    "competition": "LALIGA"
+  },
+  {
+    "title": "Levante - Atl\u00e9tico de Madrid",
+    "start_ts": 1769880600.0,
+    "time_str": "18:30",
+    "channel": "DAZN LaLiga",
+    "competition": "LALIGA"
+  },
+  {
+    "title": "Elche - Barcelona",
+    "start_ts": 1769889600.0,
+    "time_str": "21:00",
+    "channel": "M+ LaLiga",
     "competition": "LALIGA"
   },
   {
