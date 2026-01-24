@@ -51,10 +51,10 @@
     {
       "rank": "5",
       "team": "Espanyol",
-      "points": "34",
-      "played": "20",
+      "points": "35",
+      "played": "21",
       "won": "10",
-      "drawn": "4",
+      "drawn": "5",
       "lost": "6",
       "gf": "23",
       "ga": "22",
@@ -86,6 +86,18 @@
     },
     {
       "rank": "8",
+      "team": "Osasuna",
+      "points": "25",
+      "played": "21",
+      "won": "7",
+      "drawn": "4",
+      "lost": "10",
+      "gf": "24",
+      "ga": "25",
+      "dg": "-1"
+    },
+    {
+      "rank": "9",
       "team": "Elche",
       "points": "24",
       "played": "21",
@@ -97,7 +109,7 @@
       "dg": "0"
     },
     {
-      "rank": "9",
+      "rank": "10",
       "team": "Real Sociedad",
       "points": "24",
       "played": "20",
@@ -109,7 +121,7 @@
       "dg": "-2"
     },
     {
-      "rank": "10",
+      "rank": "11",
       "team": "Athletic",
       "points": "24",
       "played": "20",
@@ -121,7 +133,7 @@
       "dg": "-9"
     },
     {
-      "rank": "11",
+      "rank": "12",
       "team": "Girona FC",
       "points": "24",
       "played": "20",
@@ -133,28 +145,16 @@
       "dg": "-14"
     },
     {
-      "rank": "12",
-      "team": "Osasuna",
-      "points": "23",
-      "played": "21",
-      "won": "6",
-      "drawn": "5",
-      "lost": "10",
-      "gf": "22",
-      "ga": "25",
-      "dg": "-3"
-    },
-    {
       "rank": "13",
       "team": "Rayo Vallecano",
-      "points": "23",
+      "points": "22",
       "played": "21",
       "won": "5",
-      "drawn": "8",
-      "lost": "8",
+      "drawn": "7",
+      "lost": "9",
       "gf": "17",
-      "ga": "26",
-      "dg": "-9"
+      "ga": "28",
+      "dg": "-11"
     },
     {
       "rank": "14",
@@ -195,10 +195,10 @@
     {
       "rank": "17",
       "team": "Valencia",
-      "points": "20",
-      "played": "20",
+      "points": "21",
+      "played": "21",
       "won": "4",
-      "drawn": "8",
+      "drawn": "9",
       "lost": "8",
       "gf": "19",
       "ga": "31",
