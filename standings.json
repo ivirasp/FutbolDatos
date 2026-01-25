@@ -64,13 +64,13 @@
       "rank": "6",
       "team": "Real Betis",
       "points": "32",
-      "played": "20",
+      "played": "21",
       "won": "8",
       "drawn": "8",
-      "lost": "4",
+      "lost": "5",
       "gf": "33",
-      "ga": "25",
-      "dg": "+8"
+      "ga": "26",
+      "dg": "+7"
     },
     {
       "rank": "7",
@@ -170,6 +170,18 @@
     },
     {
       "rank": "15",
+      "team": "Deportivo Alav\u00e9s",
+      "points": "22",
+      "played": "21",
+      "won": "6",
+      "drawn": "4",
+      "lost": "11",
+      "gf": "17",
+      "ga": "25",
+      "dg": "-8"
+    },
+    {
+      "rank": "16",
       "team": "Rayo Vallecano",
       "points": "22",
       "played": "21",
@@ -181,7 +193,7 @@
       "dg": "-11"
     },
     {
-      "rank": "16",
+      "rank": "17",
       "team": "Mallorca",
       "points": "21",
       "played": "21",
@@ -193,7 +205,7 @@
       "dg": "-9"
     },
     {
-      "rank": "17",
+      "rank": "18",
       "team": "Getafe",
       "points": "21",
       "played": "20",
@@ -203,18 +215,6 @@
       "gf": "15",
       "ga": "26",
       "dg": "-11"
-    },
-    {
-      "rank": "18",
-      "team": "Deportivo Alav\u00e9s",
-      "points": "19",
-      "played": "20",
-      "won": "5",
-      "drawn": "4",
-      "lost": "11",
-      "gf": "16",
-      "ga": "25",
-      "dg": "-9"
     },
     {
       "rank": "19",
