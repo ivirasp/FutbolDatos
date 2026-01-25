@@ -62,18 +62,6 @@
     },
     {
       "rank": "6",
-      "team": "Celta",
-      "points": "33",
-      "played": "21",
-      "won": "8",
-      "drawn": "9",
-      "lost": "4",
-      "gf": "28",
-      "ga": "20",
-      "dg": "+8"
-    },
-    {
-      "rank": "7",
       "team": "Real Betis",
       "points": "32",
       "played": "20",
@@ -85,7 +73,31 @@
       "dg": "+8"
     },
     {
+      "rank": "7",
+      "team": "Celta",
+      "points": "32",
+      "played": "21",
+      "won": "8",
+      "drawn": "8",
+      "lost": "5",
+      "gf": "28",
+      "ga": "21",
+      "dg": "+7"
+    },
+    {
       "rank": "8",
+      "team": "Real Sociedad",
+      "points": "27",
+      "played": "21",
+      "won": "7",
+      "drawn": "6",
+      "lost": "8",
+      "gf": "27",
+      "ga": "28",
+      "dg": "-1"
+    },
+    {
+      "rank": "9",
       "team": "Osasuna",
       "points": "25",
       "played": "21",
@@ -95,18 +107,6 @@
       "gf": "24",
       "ga": "25",
       "dg": "-1"
-    },
-    {
-      "rank": "9",
-      "team": "Real Sociedad",
-      "points": "25",
-      "played": "21",
-      "won": "6",
-      "drawn": "7",
-      "lost": "8",
-      "gf": "26",
-      "ga": "28",
-      "dg": "-2"
     },
     {
       "rank": "10",
