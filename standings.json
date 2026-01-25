@@ -2,6 +2,18 @@
   "LALIGA": [
     {
       "rank": "1",
+      "team": "FC Barcelona",
+      "points": "52",
+      "played": "21",
+      "won": "17",
+      "drawn": "1",
+      "lost": "3",
+      "gf": "56",
+      "ga": "22",
+      "dg": "+34"
+    },
+    {
+      "rank": "2",
       "team": "Real Madrid",
       "points": "51",
       "played": "21",
@@ -11,18 +23,6 @@
       "gf": "45",
       "ga": "17",
       "dg": "+28"
-    },
-    {
-      "rank": "2",
-      "team": "FC Barcelona",
-      "points": "50",
-      "played": "21",
-      "won": "16",
-      "drawn": "2",
-      "lost": "3",
-      "gf": "54",
-      "ga": "22",
-      "dg": "+32"
     },
     {
       "rank": "3",
@@ -231,14 +231,14 @@
     {
       "rank": "20",
       "team": "Real Oviedo",
-      "points": "14",
+      "points": "13",
       "played": "21",
       "won": "2",
-      "drawn": "8",
-      "lost": "11",
+      "drawn": "7",
+      "lost": "12",
       "gf": "11",
-      "ga": "31",
-      "dg": "-20"
+      "ga": "33",
+      "dg": "-22"
     }
   ],
   "CHAMPIONS": [
