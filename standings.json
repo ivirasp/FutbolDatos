@@ -27,14 +27,14 @@
     {
       "rank": "3",
       "team": "Atl\u00e9tico de Madrid",
-      "points": "41",
-      "played": "20",
-      "won": "12",
+      "points": "44",
+      "played": "21",
+      "won": "13",
       "drawn": "5",
       "lost": "3",
-      "gf": "35",
+      "gf": "36",
       "ga": "17",
-      "dg": "+18"
+      "dg": "+19"
     },
     {
       "rank": "4",
@@ -184,13 +184,13 @@
       "rank": "16",
       "team": "Mallorca",
       "points": "21",
-      "played": "20",
+      "played": "21",
       "won": "5",
       "drawn": "6",
-      "lost": "9",
+      "lost": "10",
       "gf": "24",
-      "ga": "30",
-      "dg": "-6"
+      "ga": "31",
+      "dg": "-7"
     },
     {
       "rank": "17",
