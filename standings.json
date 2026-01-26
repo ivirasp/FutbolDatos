@@ -110,6 +110,18 @@
     },
     {
       "rank": "10",
+      "team": "Girona FC",
+      "points": "25",
+      "played": "21",
+      "won": "6",
+      "drawn": "7",
+      "lost": "8",
+      "gf": "20",
+      "ga": "34",
+      "dg": "-14"
+    },
+    {
+      "rank": "11",
       "team": "Elche",
       "points": "24",
       "played": "21",
@@ -121,7 +133,7 @@
       "dg": "0"
     },
     {
-      "rank": "11",
+      "rank": "12",
       "team": "Sevilla",
       "points": "24",
       "played": "21",
@@ -133,7 +145,7 @@
       "dg": "-5"
     },
     {
-      "rank": "12",
+      "rank": "13",
       "team": "Athletic",
       "points": "24",
       "played": "21",
@@ -143,18 +155,6 @@
       "gf": "20",
       "ga": "30",
       "dg": "-10"
-    },
-    {
-      "rank": "13",
-      "team": "Girona FC",
-      "points": "24",
-      "played": "20",
-      "won": "6",
-      "drawn": "6",
-      "lost": "8",
-      "gf": "20",
-      "ga": "34",
-      "dg": "-14"
     },
     {
       "rank": "14",
@@ -194,6 +194,18 @@
     },
     {
       "rank": "17",
+      "team": "Getafe",
+      "points": "22",
+      "played": "21",
+      "won": "6",
+      "drawn": "4",
+      "lost": "11",
+      "gf": "15",
+      "ga": "26",
+      "dg": "-11"
+    },
+    {
+      "rank": "18",
       "team": "Mallorca",
       "points": "21",
       "played": "21",
@@ -203,18 +215,6 @@
       "gf": "24",
       "ga": "33",
       "dg": "-9"
-    },
-    {
-      "rank": "18",
-      "team": "Getafe",
-      "points": "21",
-      "played": "20",
-      "won": "6",
-      "drawn": "3",
-      "lost": "11",
-      "gf": "15",
-      "ga": "26",
-      "dg": "-11"
     },
     {
       "rank": "19",
