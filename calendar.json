@@ -1,33 +1,5 @@
 [
   {
-    "title": "Atl\u00e9tico de Madrid - Mallorca",
-    "start_ts": 1769346000.0,
-    "time_str": "14:00",
-    "channel": "M+ LaLiga",
-    "competition": "LALIGA"
-  },
-  {
-    "title": "Barcelona - Real Oviedo",
-    "start_ts": 1769354100.0,
-    "time_str": "16:15",
-    "channel": "DAZN LaLiga",
-    "competition": "LALIGA"
-  },
-  {
-    "title": "Real Sociedad - Celta",
-    "start_ts": 1769362200.0,
-    "time_str": "18:30",
-    "channel": "M+ LaLiga",
-    "competition": "LALIGA"
-  },
-  {
-    "title": "Alav\u00e9s - Betis",
-    "start_ts": 1769371200.0,
-    "time_str": "21:00",
-    "channel": "DAZN LaLiga",
-    "competition": "LALIGA"
-  },
-  {
     "title": "Girona - Getafe",
     "start_ts": 1769457600.0,
     "time_str": "21:00",
@@ -347,6 +319,13 @@
     "start_ts": 1769976000.0,
     "time_str": "21:00",
     "channel": "DAZN LaLiga",
+    "competition": "LALIGA"
+  },
+  {
+    "title": "Mallorca - Sevilla",
+    "start_ts": 1770062400.0,
+    "time_str": "21:00",
+    "channel": "Teledeporte",
     "competition": "LALIGA"
   },
   {
