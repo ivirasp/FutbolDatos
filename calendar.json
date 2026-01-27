@@ -1,12 +1,5 @@
 [
   {
-    "title": "Girona - Getafe",
-    "start_ts": 1769457600.0,
-    "time_str": "21:00",
-    "channel": "M+ LaLiga",
-    "competition": "LALIGA"
-  },
-  {
     "title": "Arsenal - F.C. Kairat",
     "start_ts": 1769630400.0,
     "time_str": "21:00",
@@ -355,5 +348,12 @@
     "time_str": "21:00",
     "channel": "M+ LaLiga",
     "competition": "COPA"
+  },
+  {
+    "title": "Celta - Osasuna",
+    "start_ts": 1770408000.0,
+    "time_str": "21:00",
+    "channel": "DAZN LaLiga",
+    "competition": "LALIGA"
   }
 ]
