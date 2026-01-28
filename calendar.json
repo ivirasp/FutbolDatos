@@ -7,13 +7,6 @@
     "competition": "CHAMPIONS"
   },
   {
-    "title": "Bayer Leverkusen - Villarreal",
-    "start_ts": 1769630400.0,
-    "time_str": "21:00",
-    "channel": "M+ Liga de Campeones 5",
-    "competition": "CHAMPIONS"
-  },
-  {
     "title": "PSG - Newcastle",
     "start_ts": 1769630400.0,
     "time_str": "21:00",
@@ -32,13 +25,6 @@
     "start_ts": 1769630400.0,
     "time_str": "21:00",
     "channel": "M+ Liga de Campeones 6",
-    "competition": "CHAMPIONS"
-  },
-  {
-    "title": "Barcelona - K\u00f8benhavn",
-    "start_ts": 1769630400.0,
-    "time_str": "21:00",
-    "channel": "M+ Liga de Campeones 2",
     "competition": "CHAMPIONS"
   },
   {
@@ -123,6 +109,20 @@
     "start_ts": 1769630400.0,
     "time_str": "21:00",
     "channel": "M+ Liga de Campeones 6",
+    "competition": "CHAMPIONS"
+  },
+  {
+    "title": "Bayer Leverkusen - Villarreal",
+    "start_ts": 1769630400.0,
+    "time_str": "21:00",
+    "channel": "M+ Liga de Campeones 5",
+    "competition": "CHAMPIONS"
+  },
+  {
+    "title": "Barcelona - K\u00f8benhavn",
+    "start_ts": 1769630400.0,
+    "time_str": "21:00",
+    "channel": "M+ Liga de Campeones 2",
     "competition": "CHAMPIONS"
   },
   {
