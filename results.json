@@ -3638,7 +3638,7 @@
           "status": "Fin"
         }
       ],
-      "Jornada 8 (Actual)": [
+      "Jornada 8": [
         {
           "date": "28-01-2026",
           "home": "Ajax",
@@ -3767,7 +3767,7 @@
         }
       ]
     },
-    "current": "Jornada 8 (Actual)"
+    "current": "Jornada 8"
   },
   "EUROPA": {
     "rounds": {
