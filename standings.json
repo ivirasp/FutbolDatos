@@ -347,8 +347,8 @@
       "drawn": "0",
       "lost": "3",
       "gf": "21",
-      "ga": "11",
-      "dg": "+10"
+      "ga": "12",
+      "dg": "+9"
     },
     {
       "rank": "10",
@@ -520,6 +520,18 @@
     },
     {
       "rank": "24",
+      "team": "Benfica",
+      "points": "9",
+      "played": "8",
+      "won": "3",
+      "drawn": "0",
+      "lost": "5",
+      "gf": "10",
+      "ga": "12",
+      "dg": "-2"
+    },
+    {
+      "rank": "25",
       "team": "Olympique de Marsella",
       "points": "9",
       "played": "8",
@@ -528,18 +540,6 @@
       "lost": "5",
       "gf": "11",
       "ga": "14",
-      "dg": "-3"
-    },
-    {
-      "rank": "25",
-      "team": "Benfica",
-      "points": "9",
-      "played": "8",
-      "won": "3",
-      "drawn": "0",
-      "lost": "5",
-      "gf": "9",
-      "ga": "12",
       "dg": "-3"
     },
     {
