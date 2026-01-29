@@ -1659,16 +1659,37 @@
       ],
       "Jornada 24": [
         {
-          "date": "15-02-2026",
+          "date": "13-02-2026",
           "home": "Elche",
           "away": "Osasuna",
           "score": "vs",
           "status": ""
         },
         {
-          "date": "15-02-2026",
+          "date": "14-02-2026",
           "home": "Espanyol",
           "away": "Celta de Vigo",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "14-02-2026",
+          "home": "Rayo Vallecano",
+          "away": "Atl\u00e9tico de Madrid",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "14-02-2026",
+          "home": "Real Madrid",
+          "away": "Real Sociedad",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "14-02-2026",
+          "home": "Sevilla",
+          "away": "Alav\u00e9s",
           "score": "vs",
           "status": ""
         },
@@ -1676,13 +1697,6 @@
           "date": "15-02-2026",
           "home": "Getafe",
           "away": "Villarreal",
-          "score": "vs",
-          "status": ""
-        },
-        {
-          "date": "15-02-2026",
-          "home": "Girona",
-          "away": "Barcelona",
           "score": "vs",
           "status": ""
         },
@@ -1702,29 +1716,15 @@
         },
         {
           "date": "15-02-2026",
-          "home": "Rayo Vallecano",
-          "away": "Atl\u00e9tico de Madrid",
-          "score": "vs",
-          "status": ""
-        },
-        {
-          "date": "15-02-2026",
-          "home": "Real Madrid",
-          "away": "Real Sociedad",
-          "score": "vs",
-          "status": ""
-        },
-        {
-          "date": "15-02-2026",
           "home": "Real Oviedo",
           "away": "Athletic Club",
           "score": "vs",
           "status": ""
         },
         {
-          "date": "15-02-2026",
-          "home": "Sevilla",
-          "away": "Alav\u00e9s",
+          "date": "16-02-2026",
+          "home": "Girona",
+          "away": "Barcelona",
           "score": "vs",
           "status": ""
         }
