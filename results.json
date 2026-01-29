@@ -4667,7 +4667,7 @@
           "status": "Fin"
         }
       ],
-      "Jornada 8 (Actual)": [
+      "Jornada 8": [
         {
           "date": "29-01-2026",
           "home": "Aston Villa",
@@ -4796,7 +4796,7 @@
         }
       ]
     },
-    "current": "Jornada 8 (Actual)"
+    "current": "Jornada 8"
   },
   "COPA": {
     "rounds": {
