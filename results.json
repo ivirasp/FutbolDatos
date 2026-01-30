@@ -3769,15 +3769,15 @@
       "Play-offs (ida) (Actual)": [
         {
           "date": "17-02-2026",
-          "home": "Benfica",
-          "away": "Real Madrid",
+          "home": "Galatasaray",
+          "away": "Juventus",
           "score": "vs",
           "status": ""
         },
         {
           "date": "17-02-2026",
-          "home": "Bod\u00f8/Glimt",
-          "away": "Inter",
+          "home": "Benfica",
+          "away": "Real Madrid",
           "score": "vs",
           "status": ""
         },
@@ -3790,48 +3790,41 @@
         },
         {
           "date": "17-02-2026",
-          "home": "Brujas",
-          "away": "Atl\u00e9tico de Madrid",
-          "score": "vs",
-          "status": ""
-        },
-        {
-          "date": "17-02-2026",
-          "home": "Galatasaray",
-          "away": "Juventus",
-          "score": "vs",
-          "status": ""
-        },
-        {
-          "date": "17-02-2026",
           "home": "M\u00f3naco",
           "away": "PSG",
           "score": "vs",
           "status": ""
         },
         {
-          "date": "17-02-2026",
-          "home": "Olympiakos",
-          "away": "Bayer Leverkusen",
+          "date": "18-02-2026",
+          "home": "FK Qarabag",
+          "away": "Newcastle United",
           "score": "vs",
           "status": ""
         },
         {
-          "date": "17-02-2026",
-          "home": "FK Qarabag",
-          "away": "Newcastle United",
+          "date": "18-02-2026",
+          "home": "Bod\u00f8/Glimt",
+          "away": "Inter",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "18-02-2026",
+          "home": "Brujas",
+          "away": "Atl\u00e9tico de Madrid",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "18-02-2026",
+          "home": "Olympiakos",
+          "away": "Bayer Leverkusen",
           "score": "vs",
           "status": ""
         }
       ],
       "Play-offs (vuelta)": [
-        {
-          "date": "24-02-2026",
-          "home": "Atalanta",
-          "away": "Borussia Dortmund",
-          "score": "vs",
-          "status": ""
-        },
         {
           "date": "24-02-2026",
           "home": "Atl\u00e9tico de Madrid",
@@ -3855,27 +3848,34 @@
         },
         {
           "date": "24-02-2026",
-          "home": "Juventus",
-          "away": "Galatasaray",
-          "score": "vs",
-          "status": ""
-        },
-        {
-          "date": "24-02-2026",
           "home": "Newcastle United",
           "away": "FK Qarabag",
           "score": "vs",
           "status": ""
         },
         {
-          "date": "24-02-2026",
+          "date": "25-02-2026",
+          "home": "Atalanta",
+          "away": "Borussia Dortmund",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "25-02-2026",
+          "home": "Juventus",
+          "away": "Galatasaray",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "25-02-2026",
           "home": "PSG",
           "away": "M\u00f3naco",
           "score": "vs",
           "status": ""
         },
         {
-          "date": "24-02-2026",
+          "date": "25-02-2026",
           "home": "Real Madrid",
           "away": "Benfica",
           "score": "vs",
