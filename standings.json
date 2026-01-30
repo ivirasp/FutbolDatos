@@ -51,14 +51,14 @@
     {
       "rank": "5",
       "team": "Espanyol",
-      "points": "35",
+      "points": "34",
       "played": "22",
       "won": "10",
-      "drawn": "5",
-      "lost": "7",
+      "drawn": "4",
+      "lost": "8",
       "gf": "26",
-      "ga": "26",
-      "dg": "0"
+      "ga": "27",
+      "dg": "-1"
     },
     {
       "rank": "6",
@@ -110,6 +110,18 @@
     },
     {
       "rank": "10",
+      "team": "Deportivo Alav\u00e9s",
+      "points": "25",
+      "played": "22",
+      "won": "7",
+      "drawn": "4",
+      "lost": "11",
+      "gf": "20",
+      "ga": "27",
+      "dg": "-7"
+    },
+    {
+      "rank": "11",
       "team": "Girona FC",
       "points": "25",
       "played": "21",
@@ -121,7 +133,7 @@
       "dg": "-14"
     },
     {
-      "rank": "11",
+      "rank": "12",
       "team": "Elche",
       "points": "24",
       "played": "21",
@@ -133,7 +145,7 @@
       "dg": "0"
     },
     {
-      "rank": "12",
+      "rank": "13",
       "team": "Sevilla",
       "points": "24",
       "played": "21",
@@ -145,7 +157,7 @@
       "dg": "-5"
     },
     {
-      "rank": "13",
+      "rank": "14",
       "team": "Athletic",
       "points": "24",
       "played": "21",
@@ -155,18 +167,6 @@
       "gf": "20",
       "ga": "30",
       "dg": "-10"
-    },
-    {
-      "rank": "14",
-      "team": "Deportivo Alav\u00e9s",
-      "points": "23",
-      "played": "22",
-      "won": "6",
-      "drawn": "5",
-      "lost": "11",
-      "gf": "19",
-      "ga": "27",
-      "dg": "-8"
     },
     {
       "rank": "15",
