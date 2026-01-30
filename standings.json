@@ -51,13 +51,13 @@
     {
       "rank": "5",
       "team": "Espanyol",
-      "points": "34",
-      "played": "21",
+      "points": "35",
+      "played": "22",
       "won": "10",
-      "drawn": "4",
+      "drawn": "5",
       "lost": "7",
-      "gf": "25",
-      "ga": "25",
+      "gf": "26",
+      "ga": "26",
       "dg": "0"
     },
     {
@@ -158,6 +158,18 @@
     },
     {
       "rank": "14",
+      "team": "Deportivo Alav\u00e9s",
+      "points": "23",
+      "played": "22",
+      "won": "6",
+      "drawn": "5",
+      "lost": "11",
+      "gf": "19",
+      "ga": "27",
+      "dg": "-8"
+    },
+    {
+      "rank": "15",
       "team": "Valencia",
       "points": "23",
       "played": "21",
@@ -167,18 +179,6 @@
       "gf": "22",
       "ga": "33",
       "dg": "-11"
-    },
-    {
-      "rank": "15",
-      "team": "Deportivo Alav\u00e9s",
-      "points": "22",
-      "played": "21",
-      "won": "6",
-      "drawn": "4",
-      "lost": "11",
-      "gf": "18",
-      "ga": "26",
-      "dg": "-8"
     },
     {
       "rank": "16",
