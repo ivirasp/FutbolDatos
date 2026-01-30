@@ -3765,9 +3765,125 @@
           "score": "1 - 0",
           "status": "Fin"
         }
+      ],
+      "Play-offs (ida) (Actual)": [
+        {
+          "date": "17-02-2026",
+          "home": "Benfica",
+          "away": "Real Madrid",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "17-02-2026",
+          "home": "Bod\u00f8/Glimt",
+          "away": "Inter",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "17-02-2026",
+          "home": "Borussia Dortmund",
+          "away": "Atalanta",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "17-02-2026",
+          "home": "Brujas",
+          "away": "Atl\u00e9tico de Madrid",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "17-02-2026",
+          "home": "Galatasaray",
+          "away": "Juventus",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "17-02-2026",
+          "home": "M\u00f3naco",
+          "away": "PSG",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "17-02-2026",
+          "home": "Olympiakos",
+          "away": "Bayer Leverkusen",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "17-02-2026",
+          "home": "FK Qarabag",
+          "away": "Newcastle United",
+          "score": "vs",
+          "status": ""
+        }
+      ],
+      "Play-offs (vuelta)": [
+        {
+          "date": "24-02-2026",
+          "home": "Atalanta",
+          "away": "Borussia Dortmund",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "24-02-2026",
+          "home": "Atl\u00e9tico de Madrid",
+          "away": "Brujas",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "24-02-2026",
+          "home": "Bayer Leverkusen",
+          "away": "Olympiakos",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "24-02-2026",
+          "home": "Inter",
+          "away": "Bod\u00f8/Glimt",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "24-02-2026",
+          "home": "Juventus",
+          "away": "Galatasaray",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "24-02-2026",
+          "home": "Newcastle United",
+          "away": "FK Qarabag",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "24-02-2026",
+          "home": "PSG",
+          "away": "M\u00f3naco",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "24-02-2026",
+          "home": "Real Madrid",
+          "away": "Benfica",
+          "score": "vs",
+          "status": ""
+        }
       ]
     },
-    "current": "Jornada 8"
+    "current": "Play-offs (ida) (Actual)"
   },
   "EUROPA": {
     "rounds": {
@@ -4794,9 +4910,125 @@
           "score": "3 - 2",
           "status": "Fin"
         }
+      ],
+      "Jornada 9 (Actual)": [
+        {
+          "date": "19-02-2026",
+          "home": "Brann",
+          "away": "Bolonia",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "19-02-2026",
+          "home": "Celtic",
+          "away": "Stuttgart",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "19-02-2026",
+          "home": "Dinamo Zagreb",
+          "away": "KRC Genk",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "19-02-2026",
+          "home": "Fenerbah\u00e7e",
+          "away": "Nottingham Forest",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "19-02-2026",
+          "home": "Lille",
+          "away": "Estrella Roja",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "19-02-2026",
+          "home": "Ludogorets Razgrad",
+          "away": "Ferencv\u00e1rosi TC",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "19-02-2026",
+          "home": "PAOK Salonika",
+          "away": "Celta de Vigo",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "19-02-2026",
+          "home": "Panathinaikos",
+          "away": "Viktoria Plzen",
+          "score": "vs",
+          "status": ""
+        }
+      ],
+      "Jornada 10": [
+        {
+          "date": "26-02-2026",
+          "home": "Bolonia",
+          "away": "Brann",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "26-02-2026",
+          "home": "Celta de Vigo",
+          "away": "PAOK Salonika",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "26-02-2026",
+          "home": "Estrella Roja",
+          "away": "Lille",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "26-02-2026",
+          "home": "Ferencv\u00e1rosi TC",
+          "away": "Ludogorets Razgrad",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "26-02-2026",
+          "home": "KRC Genk",
+          "away": "Dinamo Zagreb",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "26-02-2026",
+          "home": "Nottingham Forest",
+          "away": "Fenerbah\u00e7e",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "26-02-2026",
+          "home": "Stuttgart",
+          "away": "Celtic",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "26-02-2026",
+          "home": "Viktoria Plzen",
+          "away": "Panathinaikos",
+          "score": "vs",
+          "status": ""
+        }
       ]
     },
-    "current": "Jornada 8"
+    "current": "Jornada 9 (Actual)"
   },
   "COPA": {
     "rounds": {
