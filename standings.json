@@ -3,14 +3,14 @@
     {
       "rank": "1",
       "team": "FC Barcelona",
-      "points": "52",
-      "played": "21",
-      "won": "17",
+      "points": "55",
+      "played": "22",
+      "won": "18",
       "drawn": "1",
       "lost": "3",
-      "gf": "57",
+      "gf": "58",
       "ga": "22",
-      "dg": "+35"
+      "dg": "+36"
     },
     {
       "rank": "2",
@@ -136,13 +136,13 @@
       "rank": "12",
       "team": "Elche",
       "points": "24",
-      "played": "21",
+      "played": "22",
       "won": "5",
       "drawn": "9",
-      "lost": "7",
+      "lost": "8",
       "gf": "29",
-      "ga": "29",
-      "dg": "0"
+      "ga": "30",
+      "dg": "-1"
     },
     {
       "rank": "13",
