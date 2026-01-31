@@ -124,13 +124,13 @@
       "rank": "11",
       "team": "Girona FC",
       "points": "25",
-      "played": "21",
+      "played": "22",
       "won": "6",
       "drawn": "7",
-      "lost": "8",
+      "lost": "9",
       "gf": "21",
-      "ga": "35",
-      "dg": "-14"
+      "ga": "36",
+      "dg": "-15"
     },
     {
       "rank": "12",
@@ -231,14 +231,14 @@
     {
       "rank": "20",
       "team": "Real Oviedo",
-      "points": "13",
-      "played": "21",
-      "won": "2",
+      "points": "16",
+      "played": "22",
+      "won": "3",
       "drawn": "7",
       "lost": "12",
-      "gf": "11",
+      "gf": "12",
       "ga": "34",
-      "dg": "-23"
+      "dg": "-22"
     }
   ],
   "CHAMPIONS": [
