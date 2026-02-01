@@ -15,14 +15,14 @@
     {
       "rank": "2",
       "team": "Real Madrid",
-      "points": "54",
+      "points": "52",
       "played": "22",
-      "won": "17",
-      "drawn": "3",
+      "won": "16",
+      "drawn": "4",
       "lost": "2",
       "gf": "46",
-      "ga": "17",
-      "dg": "+29"
+      "ga": "18",
+      "dg": "+28"
     },
     {
       "rank": "3",
@@ -182,6 +182,18 @@
     },
     {
       "rank": "16",
+      "team": "Rayo Vallecano",
+      "points": "23",
+      "played": "22",
+      "won": "5",
+      "drawn": "8",
+      "lost": "9",
+      "gf": "18",
+      "ga": "29",
+      "dg": "-11"
+    },
+    {
+      "rank": "17",
       "team": "Getafe",
       "points": "22",
       "played": "21",
@@ -191,18 +203,6 @@
       "gf": "16",
       "ga": "27",
       "dg": "-11"
-    },
-    {
-      "rank": "17",
-      "team": "Rayo Vallecano",
-      "points": "22",
-      "played": "22",
-      "won": "5",
-      "drawn": "7",
-      "lost": "10",
-      "gf": "17",
-      "ga": "29",
-      "dg": "-12"
     },
     {
       "rank": "18",
