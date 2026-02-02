@@ -1,33 +1,5 @@
 [
   {
-    "title": "Real Madrid - Rayo Vallecano",
-    "start_ts": 1769950800.0,
-    "time_str": "14:00",
-    "channel": "DAZN LaLiga",
-    "competition": "LALIGA"
-  },
-  {
-    "title": "Betis - Valencia",
-    "start_ts": 1769958900.0,
-    "time_str": "16:15",
-    "channel": "M+ LaLiga",
-    "competition": "LALIGA"
-  },
-  {
-    "title": "Getafe - Celta",
-    "start_ts": 1769967000.0,
-    "time_str": "18:30",
-    "channel": "M+ LaLiga",
-    "competition": "LALIGA"
-  },
-  {
-    "title": "Athletic Club - Real Sociedad",
-    "start_ts": 1769976000.0,
-    "time_str": "21:00",
-    "channel": "DAZN LaLiga",
-    "competition": "LALIGA"
-  },
-  {
     "title": "Mallorca - Sevilla",
     "start_ts": 1770062400.0,
     "time_str": "21:00",
@@ -121,6 +93,13 @@
   {
     "title": "Valencia - Real Madrid",
     "start_ts": 1770580800.0,
+    "time_str": "21:00",
+    "channel": "DAZN LaLiga",
+    "competition": "LALIGA"
+  },
+  {
+    "title": "Villarreal - Espanyol",
+    "start_ts": 1770667200.0,
     "time_str": "21:00",
     "channel": "DAZN LaLiga",
     "competition": "LALIGA"
