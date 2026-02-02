@@ -1731,23 +1731,37 @@
       ],
       "Jornada 25": [
         {
-          "date": "22-02-2026",
-          "home": "Alav\u00e9s",
-          "away": "Girona",
-          "score": "vs",
-          "status": ""
-        },
-        {
-          "date": "22-02-2026",
+          "date": "20-02-2026",
           "home": "Athletic Club",
           "away": "Elche",
           "score": "vs",
           "status": ""
         },
         {
-          "date": "22-02-2026",
+          "date": "21-02-2026",
           "home": "Atl\u00e9tico de Madrid",
           "away": "Espanyol",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "21-02-2026",
+          "home": "Osasuna",
+          "away": "Real Madrid",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "21-02-2026",
+          "home": "Real Betis",
+          "away": "Rayo Vallecano",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "21-02-2026",
+          "home": "Real Sociedad",
+          "away": "Real Oviedo",
           "score": "vs",
           "status": ""
         },
@@ -1774,29 +1788,15 @@
         },
         {
           "date": "22-02-2026",
-          "home": "Osasuna",
-          "away": "Real Madrid",
-          "score": "vs",
-          "status": ""
-        },
-        {
-          "date": "22-02-2026",
-          "home": "Real Betis",
-          "away": "Rayo Vallecano",
-          "score": "vs",
-          "status": ""
-        },
-        {
-          "date": "22-02-2026",
-          "home": "Real Sociedad",
-          "away": "Real Oviedo",
-          "score": "vs",
-          "status": ""
-        },
-        {
-          "date": "22-02-2026",
           "home": "Villarreal",
           "away": "Valencia CF",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "23-02-2026",
+          "home": "Alav\u00e9s",
+          "away": "Girona",
           "score": "vs",
           "status": ""
         }
