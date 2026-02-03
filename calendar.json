@@ -1,12 +1,5 @@
 [
   {
-    "title": "Mallorca - Sevilla",
-    "start_ts": 1770062400.0,
-    "time_str": "21:00",
-    "channel": "Teledeporte",
-    "competition": "LALIGA"
-  },
-  {
     "title": "Albacete - Barcelona",
     "start_ts": 1770148800.0,
     "time_str": "21:00",
@@ -100,6 +93,13 @@
   {
     "title": "Villarreal - Espanyol",
     "start_ts": 1770667200.0,
+    "time_str": "21:00",
+    "channel": "DAZN LaLiga",
+    "competition": "LALIGA"
+  },
+  {
+    "title": "Elche - Osasuna",
+    "start_ts": 1771012800.0,
     "time_str": "21:00",
     "channel": "DAZN LaLiga",
     "competition": "LALIGA"
