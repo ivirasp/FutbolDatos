@@ -154,6 +154,62 @@
     "competition": "CHAMPIONS"
   },
   {
+    "title": "Dinamo Zagreb - Genk",
+    "start_ts": 1771523100.0,
+    "time_str": "18:45",
+    "channel": "M+ Liga de Campeones",
+    "competition": "EUROPA"
+  },
+  {
+    "title": "Fenerbah\u00e7e - Nottingham Forest",
+    "start_ts": 1771523100.0,
+    "time_str": "18:45",
+    "channel": "M+ Liga de Campeones",
+    "competition": "EUROPA"
+  },
+  {
+    "title": "SK Brann - Bologna",
+    "start_ts": 1771523100.0,
+    "time_str": "18:45",
+    "channel": "M+ Liga de Campeones",
+    "competition": "EUROPA"
+  },
+  {
+    "title": "PAOK FC - Celta",
+    "start_ts": 1771523100.0,
+    "time_str": "18:45",
+    "channel": "M+ Liga de Campeones",
+    "competition": "EUROPA"
+  },
+  {
+    "title": "Celtic FC - Stuttgart",
+    "start_ts": 1771531200.0,
+    "time_str": "21:00",
+    "channel": "M+ Liga de Campeones",
+    "competition": "EUROPA"
+  },
+  {
+    "title": "PFC Ludogorets - Ferencvaros",
+    "start_ts": 1771531200.0,
+    "time_str": "21:00",
+    "channel": "M+ Liga de Campeones",
+    "competition": "EUROPA"
+  },
+  {
+    "title": "Lille - Crvena Zvezda",
+    "start_ts": 1771531200.0,
+    "time_str": "21:00",
+    "channel": "M+ Liga de Campeones",
+    "competition": "EUROPA"
+  },
+  {
+    "title": "Panathinaikos - Viktoria Plzen",
+    "start_ts": 1771531200.0,
+    "time_str": "21:00",
+    "channel": "M+ Liga de Campeones",
+    "competition": "EUROPA"
+  },
+  {
     "title": "Juventus - Galatasaray",
     "start_ts": 1771963200.0,
     "time_str": "21:00",
@@ -208,5 +264,61 @@
     "time_str": "21:00",
     "channel": "M+ Liga de Campeones",
     "competition": "CHAMPIONS"
+  },
+  {
+    "title": "Stuttgart - Celtic FC",
+    "start_ts": 1772127900.0,
+    "time_str": "18:45",
+    "channel": "M+ Liga de Campeones",
+    "competition": "EUROPA"
+  },
+  {
+    "title": "Viktoria Plzen - Panathinaikos",
+    "start_ts": 1772127900.0,
+    "time_str": "18:45",
+    "channel": "M+ Liga de Campeones",
+    "competition": "EUROPA"
+  },
+  {
+    "title": "Crvena Zvezda - Lille",
+    "start_ts": 1772127900.0,
+    "time_str": "18:45",
+    "channel": "M+ Liga de Campeones",
+    "competition": "EUROPA"
+  },
+  {
+    "title": "Ferencvaros - PFC Ludogorets",
+    "start_ts": 1772127900.0,
+    "time_str": "18:45",
+    "channel": "M+ Liga de Campeones",
+    "competition": "EUROPA"
+  },
+  {
+    "title": "Bologna - SK Brann",
+    "start_ts": 1772136000.0,
+    "time_str": "21:00",
+    "channel": "M+ Liga de Campeones",
+    "competition": "EUROPA"
+  },
+  {
+    "title": "Celta - PAOK FC",
+    "start_ts": 1772136000.0,
+    "time_str": "21:00",
+    "channel": "M+ Liga de Campeones",
+    "competition": "EUROPA"
+  },
+  {
+    "title": "Genk - Dinamo Zagreb",
+    "start_ts": 1772136000.0,
+    "time_str": "21:00",
+    "channel": "M+ Liga de Campeones",
+    "competition": "EUROPA"
+  },
+  {
+    "title": "Nottingham Forest - Fenerbah\u00e7e",
+    "start_ts": 1772136000.0,
+    "time_str": "21:00",
+    "channel": "M+ Liga de Campeones",
+    "competition": "EUROPA"
   }
 ]
