@@ -5796,7 +5796,7 @@
           "status": "Fin"
         }
       ],
-      "Cuartos de final (Actual)": [
+      "Cuartos de final": [
         {
           "date": "03-02-2026",
           "home": "Albacete",
@@ -5827,6 +5827,6 @@
         }
       ]
     },
-    "current": "Cuartos de final (Actual)"
+    "current": "Cuartos de final"
   }
 }
