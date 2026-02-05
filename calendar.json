@@ -1,19 +1,5 @@
 [
   {
-    "title": "Alav\u00e9s - Real Sociedad",
-    "start_ts": 1770235200.0,
-    "time_str": "21:00",
-    "channel": "M+ LaLiga 2",
-    "competition": "COPA"
-  },
-  {
-    "title": "Valencia - Athletic Club",
-    "start_ts": 1770235200.0,
-    "time_str": "21:00",
-    "channel": "M+ LaLiga",
-    "competition": "COPA"
-  },
-  {
     "title": "Betis - Atl\u00e9tico de Madrid",
     "start_ts": 1770321600.0,
     "time_str": "21:00",
