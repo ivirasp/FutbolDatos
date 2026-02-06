@@ -5825,8 +5825,40 @@
           "score": "0 - 5",
           "status": "Fin"
         }
+      ],
+      "Semifinal (ida) (Actual)": [
+        {
+          "date": "11-02-2026",
+          "home": "Athletic Club",
+          "away": "Real Sociedad",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "11-02-2026",
+          "home": "Atl\u00e9tico de Madrid",
+          "away": "Barcelona",
+          "score": "vs",
+          "status": ""
+        }
+      ],
+      "Semifinal (vuelta)": [
+        {
+          "date": "04-03-2026",
+          "home": "Barcelona",
+          "away": "Atl\u00e9tico de Madrid",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "04-03-2026",
+          "home": "Real Sociedad",
+          "away": "Athletic Club",
+          "score": "vs",
+          "status": ""
+        }
       ]
     },
-    "current": "Cuartos de final"
+    "current": "Semifinal (ida) (Actual)"
   }
 }
