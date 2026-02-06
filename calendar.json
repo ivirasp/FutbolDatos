@@ -1,12 +1,5 @@
 [
   {
-    "title": "Betis - Atl\u00e9tico de Madrid",
-    "start_ts": 1770321600.0,
-    "time_str": "21:00",
-    "channel": "M+ LaLiga",
-    "competition": "COPA"
-  },
-  {
     "title": "Celta - Osasuna",
     "start_ts": 1770408000.0,
     "time_str": "21:00",
