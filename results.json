@@ -1604,7 +1604,7 @@
           "date": "07-02-2026",
           "home": "Rayo Vallecano",
           "away": "Real Oviedo",
-          "score": "vs",
+          "score": "0 - 0",
           "status": ""
         },
         {
@@ -1803,9 +1803,37 @@
       ],
       "Jornada 26": [
         {
-          "date": "01-03-2026",
+          "date": "27-02-2026",
+          "home": "Levante",
+          "away": "Alav\u00e9s",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "28-02-2026",
           "home": "Barcelona",
           "away": "Villarreal",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "28-02-2026",
+          "home": "Mallorca",
+          "away": "Real Sociedad",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "28-02-2026",
+          "home": "Rayo Vallecano",
+          "away": "Athletic Club",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "28-02-2026",
+          "home": "Real Oviedo",
+          "away": "Atl\u00e9tico de Madrid",
           "score": "vs",
           "status": ""
         },
@@ -1825,27 +1853,6 @@
         },
         {
           "date": "01-03-2026",
-          "home": "Levante",
-          "away": "Alav\u00e9s",
-          "score": "vs",
-          "status": ""
-        },
-        {
-          "date": "01-03-2026",
-          "home": "Mallorca",
-          "away": "Real Sociedad",
-          "score": "vs",
-          "status": ""
-        },
-        {
-          "date": "01-03-2026",
-          "home": "Rayo Vallecano",
-          "away": "Athletic Club",
-          "score": "vs",
-          "status": ""
-        },
-        {
-          "date": "01-03-2026",
           "home": "Real Betis",
           "away": "Sevilla",
           "score": "vs",
@@ -1853,22 +1860,15 @@
         },
         {
           "date": "01-03-2026",
-          "home": "Real Madrid",
-          "away": "Getafe",
-          "score": "vs",
-          "status": ""
-        },
-        {
-          "date": "01-03-2026",
-          "home": "Real Oviedo",
-          "away": "Atl\u00e9tico de Madrid",
-          "score": "vs",
-          "status": ""
-        },
-        {
-          "date": "01-03-2026",
           "home": "Valencia CF",
           "away": "Osasuna",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "02-03-2026",
+          "home": "Real Madrid",
+          "away": "Getafe",
           "score": "vs",
           "status": ""
         }
