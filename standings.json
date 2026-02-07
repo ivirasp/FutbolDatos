@@ -3,14 +3,14 @@
     {
       "rank": "1",
       "team": "FC Barcelona",
-      "points": "56",
+      "points": "58",
       "played": "23",
-      "won": "18",
-      "drawn": "2",
+      "won": "19",
+      "drawn": "1",
       "lost": "3",
-      "gf": "60",
+      "gf": "61",
       "ga": "23",
-      "dg": "+37"
+      "dg": "+38"
     },
     {
       "rank": "2",
@@ -110,18 +110,6 @@
     },
     {
       "rank": "10",
-      "team": "Mallorca",
-      "points": "25",
-      "played": "23",
-      "won": "6",
-      "drawn": "7",
-      "lost": "10",
-      "gf": "28",
-      "ga": "34",
-      "dg": "-6"
-    },
-    {
-      "rank": "11",
       "team": "Deportivo Alav\u00e9s",
       "points": "25",
       "played": "22",
@@ -133,7 +121,7 @@
       "dg": "-7"
     },
     {
-      "rank": "12",
+      "rank": "11",
       "team": "Athletic",
       "points": "25",
       "played": "22",
@@ -145,7 +133,7 @@
       "dg": "-10"
     },
     {
-      "rank": "13",
+      "rank": "12",
       "team": "Girona FC",
       "points": "25",
       "played": "22",
@@ -157,7 +145,7 @@
       "dg": "-15"
     },
     {
-      "rank": "14",
+      "rank": "13",
       "team": "Elche",
       "points": "24",
       "played": "22",
@@ -167,6 +155,18 @@
       "gf": "30",
       "ga": "32",
       "dg": "-2"
+    },
+    {
+      "rank": "14",
+      "team": "Mallorca",
+      "points": "24",
+      "played": "23",
+      "won": "6",
+      "drawn": "6",
+      "lost": "11",
+      "gf": "28",
+      "ga": "35",
+      "dg": "-7"
     },
     {
       "rank": "15",
