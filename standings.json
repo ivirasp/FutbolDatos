@@ -86,6 +86,18 @@
     },
     {
       "rank": "8",
+      "team": "Real Sociedad",
+      "points": "31",
+      "played": "23",
+      "won": "8",
+      "drawn": "7",
+      "lost": "8",
+      "gf": "31",
+      "ga": "30",
+      "dg": "+1"
+    },
+    {
+      "rank": "9",
       "team": "Osasuna",
       "points": "29",
       "played": "23",
@@ -94,18 +106,6 @@
       "lost": "10",
       "gf": "28",
       "ga": "28",
-      "dg": "0"
-    },
-    {
-      "rank": "9",
-      "team": "Real Sociedad",
-      "points": "28",
-      "played": "22",
-      "won": "7",
-      "drawn": "7",
-      "lost": "8",
-      "gf": "30",
-      "ga": "30",
       "dg": "0"
     },
     {
@@ -148,13 +148,13 @@
       "rank": "13",
       "team": "Elche",
       "points": "24",
-      "played": "22",
+      "played": "23",
       "won": "5",
       "drawn": "9",
-      "lost": "8",
+      "lost": "9",
       "gf": "30",
-      "ga": "32",
-      "dg": "-2"
+      "ga": "33",
+      "dg": "-3"
     },
     {
       "rank": "14",
