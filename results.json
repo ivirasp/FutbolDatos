@@ -1597,8 +1597,8 @@
           "date": "07-02-2026",
           "home": "Barcelona",
           "away": "Mallorca",
-          "score": "vs",
-          "status": ""
+          "score": "3 - 0",
+          "status": "Fin"
         },
         {
           "date": "07-02-2026",
@@ -1612,13 +1612,6 @@
           "home": "Real Sociedad",
           "away": "Elche",
           "score": "vs",
-          "status": ""
-        },
-        {
-          "date": "07-02-2026",
-          "home": "Sevilla",
-          "away": "Girona",
-          "score": "0 - 0",
           "status": ""
         },
         {
@@ -1639,6 +1632,13 @@
           "date": "08-02-2026",
           "home": "Atl\u00e9tico de Madrid",
           "away": "Real Betis",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "08-02-2026",
+          "home": "Sevilla",
+          "away": "Girona",
           "score": "vs",
           "status": ""
         },
