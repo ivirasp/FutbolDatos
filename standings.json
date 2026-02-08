@@ -111,10 +111,10 @@
     {
       "rank": "10",
       "team": "Deportivo Alav\u00e9s",
-      "points": "25",
-      "played": "22",
+      "points": "26",
+      "played": "23",
       "won": "7",
-      "drawn": "4",
+      "drawn": "5",
       "lost": "11",
       "gf": "20",
       "ga": "27",
@@ -182,6 +182,18 @@
     },
     {
       "rank": "16",
+      "team": "Getafe",
+      "points": "24",
+      "played": "23",
+      "won": "6",
+      "drawn": "6",
+      "lost": "11",
+      "gf": "16",
+      "ga": "27",
+      "dg": "-11"
+    },
+    {
+      "rank": "17",
       "team": "Valencia",
       "points": "23",
       "played": "22",
@@ -191,18 +203,6 @@
       "gf": "23",
       "ga": "35",
       "dg": "-12"
-    },
-    {
-      "rank": "17",
-      "team": "Getafe",
-      "points": "23",
-      "played": "22",
-      "won": "6",
-      "drawn": "5",
-      "lost": "11",
-      "gf": "16",
-      "ga": "27",
-      "dg": "-11"
     },
     {
       "rank": "18",
