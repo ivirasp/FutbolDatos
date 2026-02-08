@@ -15,14 +15,14 @@
     {
       "rank": "2",
       "team": "Real Madrid",
-      "points": "55",
+      "points": "57",
       "played": "23",
-      "won": "17",
-      "drawn": "4",
+      "won": "18",
+      "drawn": "3",
       "lost": "2",
-      "gf": "47",
+      "gf": "48",
       "ga": "18",
-      "dg": "+29"
+      "dg": "+30"
     },
     {
       "rank": "3",
@@ -195,14 +195,14 @@
     {
       "rank": "17",
       "team": "Valencia",
-      "points": "24",
+      "points": "23",
       "played": "23",
       "won": "5",
-      "drawn": "9",
-      "lost": "9",
+      "drawn": "8",
+      "lost": "10",
       "gf": "23",
-      "ga": "35",
-      "dg": "-12"
+      "ga": "36",
+      "dg": "-13"
     },
     {
       "rank": "18",
