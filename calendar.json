@@ -14,6 +14,13 @@
     "competition": "LALIGA"
   },
   {
+    "title": "Sevilla - Girona",
+    "start_ts": 1770563700.0,
+    "time_str": "16:15",
+    "channel": "La 2",
+    "competition": "LALIGA"
+  },
+  {
     "title": "Atl\u00e9tico de Madrid - Betis",
     "start_ts": 1770571800.0,
     "time_str": "18:30",
