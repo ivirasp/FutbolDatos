@@ -110,6 +110,18 @@
     },
     {
       "rank": "10",
+      "team": "Athletic",
+      "points": "28",
+      "played": "23",
+      "won": "8",
+      "drawn": "4",
+      "lost": "11",
+      "gf": "23",
+      "ga": "31",
+      "dg": "-8"
+    },
+    {
+      "rank": "11",
       "team": "Girona FC",
       "points": "28",
       "played": "23",
@@ -121,7 +133,7 @@
       "dg": "-14"
     },
     {
-      "rank": "11",
+      "rank": "12",
       "team": "Getafe",
       "points": "26",
       "played": "23",
@@ -131,18 +143,6 @@
       "gf": "18",
       "ga": "27",
       "dg": "-9"
-    },
-    {
-      "rank": "12",
-      "team": "Athletic",
-      "points": "26",
-      "played": "23",
-      "won": "7",
-      "drawn": "5",
-      "lost": "11",
-      "gf": "21",
-      "ga": "31",
-      "dg": "-10"
     },
     {
       "rank": "13",
@@ -219,14 +219,14 @@
     {
       "rank": "19",
       "team": "Levante",
-      "points": "19",
+      "points": "18",
       "played": "22",
       "won": "4",
-      "drawn": "7",
-      "lost": "11",
+      "drawn": "6",
+      "lost": "12",
       "gf": "24",
-      "ga": "34",
-      "dg": "-10"
+      "ga": "36",
+      "dg": "-12"
     },
     {
       "rank": "20",
