@@ -98,16 +98,9 @@
     "competition": "LALIGA"
   },
   {
-    "title": "Club Brugge - Atl\u00e9tico de Madrid",
-    "start_ts": 1771358400.0,
-    "time_str": "21:00",
-    "channel": "M+ Liga de Campeones",
-    "competition": "CHAMPIONS"
-  },
-  {
     "title": "Galatasaray - Juventus",
-    "start_ts": 1771358400.0,
-    "time_str": "21:00",
+    "start_ts": 1771350300.0,
+    "time_str": "18:45",
     "channel": "M+ Liga de Campeones",
     "competition": "CHAMPIONS"
   },
@@ -134,21 +127,28 @@
   },
   {
     "title": "Qarabag FK - Newcastle",
-    "start_ts": 1771358400.0,
+    "start_ts": 1771436700.0,
+    "time_str": "18:45",
+    "channel": "M+ Liga de Campeones",
+    "competition": "CHAMPIONS"
+  },
+  {
+    "title": "Club Brugge - Atl\u00e9tico de Madrid",
+    "start_ts": 1771444800.0,
     "time_str": "21:00",
     "channel": "M+ Liga de Campeones",
     "competition": "CHAMPIONS"
   },
   {
     "title": "Olympiacos - Bayer Leverkusen",
-    "start_ts": 1771358400.0,
+    "start_ts": 1771444800.0,
     "time_str": "21:00",
     "channel": "M+ Liga de Campeones",
     "competition": "CHAMPIONS"
   },
   {
     "title": "Bod\u00f8/Glimt - Inter de Milan",
-    "start_ts": 1771358400.0,
+    "start_ts": 1771444800.0,
     "time_str": "21:00",
     "channel": "M+ Liga de Campeones",
     "competition": "CHAMPIONS"
@@ -210,28 +210,14 @@
     "competition": "EUROPA"
   },
   {
-    "title": "Juventus - Galatasaray",
-    "start_ts": 1771963200.0,
-    "time_str": "21:00",
-    "channel": "M+ Liga de Campeones",
-    "competition": "CHAMPIONS"
-  },
-  {
-    "title": "PSG - M\u00f3naco",
-    "start_ts": 1771963200.0,
-    "time_str": "21:00",
+    "title": "Atl\u00e9tico de Madrid - Club Brugge",
+    "start_ts": 1771955100.0,
+    "time_str": "18:45",
     "channel": "M+ Liga de Campeones",
     "competition": "CHAMPIONS"
   },
   {
     "title": "Inter de Milan - Bod\u00f8/Glimt",
-    "start_ts": 1771963200.0,
-    "time_str": "21:00",
-    "channel": "M+ Liga de Campeones",
-    "competition": "CHAMPIONS"
-  },
-  {
-    "title": "Atl\u00e9tico de Madrid - Club Brugge",
     "start_ts": 1771963200.0,
     "time_str": "21:00",
     "channel": "M+ Liga de Campeones",
@@ -253,14 +239,28 @@
   },
   {
     "title": "Atalanta - Borussia Dortmund",
-    "start_ts": 1771963200.0,
+    "start_ts": 1772041500.0,
+    "time_str": "18:45",
+    "channel": "M+ Liga de Campeones",
+    "competition": "CHAMPIONS"
+  },
+  {
+    "title": "Juventus - Galatasaray",
+    "start_ts": 1772049600.0,
+    "time_str": "21:00",
+    "channel": "M+ Liga de Campeones",
+    "competition": "CHAMPIONS"
+  },
+  {
+    "title": "PSG - M\u00f3naco",
+    "start_ts": 1772049600.0,
     "time_str": "21:00",
     "channel": "M+ Liga de Campeones",
     "competition": "CHAMPIONS"
   },
   {
     "title": "Real Madrid - Benfica",
-    "start_ts": 1771963200.0,
+    "start_ts": 1772049600.0,
     "time_str": "21:00",
     "channel": "M+ Liga de Campeones",
     "competition": "CHAMPIONS"
