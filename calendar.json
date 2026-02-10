@@ -1,12 +1,5 @@
 [
   {
-    "title": "Villarreal - Espanyol",
-    "start_ts": 1770667200.0,
-    "time_str": "21:00",
-    "channel": "DAZN LaLiga",
-    "competition": "LALIGA"
-  },
-  {
     "title": "Athletic Club - Real Sociedad",
     "start_ts": 1770840000.0,
     "time_str": "21:00",
@@ -124,6 +117,13 @@
     "time_str": "18:45",
     "channel": "M+ Liga de Campeones",
     "competition": "CHAMPIONS"
+  },
+  {
+    "title": "Levante - Villarreal",
+    "start_ts": 1771441200.0,
+    "time_str": "20:00",
+    "channel": "M+ LaLiga",
+    "competition": "LALIGA"
   },
   {
     "title": "Club Brugge - Atl\u00e9tico de Madrid",
