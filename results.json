@@ -1875,42 +1875,35 @@
       ],
       "Jornada 27": [
         {
-          "date": "08-03-2026",
-          "home": "Athletic Club",
-          "away": "Barcelona",
+          "date": "06-03-2026",
+          "home": "Osasuna",
+          "away": "Mallorca",
           "score": "vs",
           "status": ""
         },
         {
-          "date": "08-03-2026",
+          "date": "07-03-2026",
           "home": "Atl\u00e9tico de Madrid",
           "away": "Real Sociedad",
           "score": "vs",
           "status": ""
         },
         {
-          "date": "08-03-2026",
+          "date": "07-03-2026",
           "home": "Celta de Vigo",
           "away": "Real Madrid",
           "score": "vs",
           "status": ""
         },
         {
-          "date": "08-03-2026",
-          "home": "Espanyol",
-          "away": "Real Oviedo",
-          "score": "vs",
-          "status": ""
-        },
-        {
-          "date": "08-03-2026",
+          "date": "07-03-2026",
           "home": "Getafe",
           "away": "Real Betis",
           "score": "vs",
           "status": ""
         },
         {
-          "date": "08-03-2026",
+          "date": "07-03-2026",
           "home": "Levante",
           "away": "Girona",
           "score": "vs",
@@ -1918,8 +1911,8 @@
         },
         {
           "date": "08-03-2026",
-          "home": "Osasuna",
-          "away": "Mallorca",
+          "home": "Athletic Club",
+          "away": "Barcelona",
           "score": "vs",
           "status": ""
         },
@@ -1941,6 +1934,13 @@
           "date": "08-03-2026",
           "home": "Villarreal",
           "away": "Elche",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "09-03-2026",
+          "home": "Espanyol",
+          "away": "Real Oviedo",
           "score": "vs",
           "status": ""
         }
