@@ -5826,7 +5826,7 @@
           "status": "Fin"
         }
       ],
-      "Semifinal (ida) (Actual)": [
+      "Semifinal (ida)": [
         {
           "date": "11-02-2026",
           "home": "Athletic Club",
@@ -5842,7 +5842,7 @@
           "status": "Fin"
         }
       ],
-      "Semifinal (vuelta)": [
+      "Semifinal (vuelta) (Actual)": [
         {
           "date": "03-03-2026",
           "home": "Barcelona",
@@ -5868,6 +5868,6 @@
         }
       ]
     },
-    "current": "Semifinal (ida) (Actual)"
+    "current": "Semifinal (vuelta) (Actual)"
   }
 }
