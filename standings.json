@@ -99,10 +99,10 @@
     {
       "rank": "9",
       "team": "Osasuna",
-      "points": "29",
-      "played": "23",
+      "points": "30",
+      "played": "24",
       "won": "8",
-      "drawn": "5",
+      "drawn": "6",
       "lost": "10",
       "gf": "28",
       "ga": "28",
@@ -146,6 +146,18 @@
     },
     {
       "rank": "13",
+      "team": "Elche",
+      "points": "25",
+      "played": "24",
+      "won": "5",
+      "drawn": "10",
+      "lost": "9",
+      "gf": "31",
+      "ga": "35",
+      "dg": "-4"
+    },
+    {
+      "rank": "14",
       "team": "Sevilla",
       "points": "25",
       "played": "23",
@@ -157,7 +169,7 @@
       "dg": "-8"
     },
     {
-      "rank": "14",
+      "rank": "15",
       "team": "Deportivo Alav\u00e9s",
       "points": "25",
       "played": "23",
@@ -167,18 +179,6 @@
       "gf": "20",
       "ga": "29",
       "dg": "-9"
-    },
-    {
-      "rank": "15",
-      "team": "Elche",
-      "points": "24",
-      "played": "23",
-      "won": "5",
-      "drawn": "9",
-      "lost": "9",
-      "gf": "31",
-      "ga": "35",
-      "dg": "-4"
     },
     {
       "rank": "16",
