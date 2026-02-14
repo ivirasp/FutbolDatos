@@ -1,12 +1,5 @@
 [
   {
-    "title": "Elche - Osasuna",
-    "start_ts": 1771012800.0,
-    "time_str": "21:00",
-    "channel": "DAZN LaLiga",
-    "competition": "LALIGA"
-  },
-  {
     "title": "Espanyol - Celta",
     "start_ts": 1771074000.0,
     "time_str": "14:00",
@@ -187,6 +180,13 @@
     "time_str": "21:00",
     "channel": "M+ Liga de Campeones 2",
     "competition": "EUROPA"
+  },
+  {
+    "title": "Athletic Club - Elche",
+    "start_ts": 1771617600.0,
+    "time_str": "21:00",
+    "channel": "Teledeporte",
+    "competition": "LALIGA"
   },
   {
     "title": "Atl\u00e9tico de Madrid - Club Brugge",
