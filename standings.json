@@ -158,6 +158,18 @@
     },
     {
       "rank": "14",
+      "team": "Valencia",
+      "points": "26",
+      "played": "24",
+      "won": "6",
+      "drawn": "8",
+      "lost": "10",
+      "gf": "24",
+      "ga": "37",
+      "dg": "-13"
+    },
+    {
+      "rank": "15",
       "team": "Girona FC",
       "points": "26",
       "played": "23",
@@ -169,7 +181,7 @@
       "dg": "-15"
     },
     {
-      "rank": "15",
+      "rank": "16",
       "team": "Elche",
       "points": "25",
       "played": "24",
@@ -181,7 +193,7 @@
       "dg": "-4"
     },
     {
-      "rank": "16",
+      "rank": "17",
       "team": "Rayo Vallecano",
       "points": "25",
       "played": "23",
@@ -193,7 +205,7 @@
       "dg": "-9"
     },
     {
-      "rank": "17",
+      "rank": "18",
       "team": "Mallorca",
       "points": "24",
       "played": "23",
@@ -205,28 +217,16 @@
       "dg": "-9"
     },
     {
-      "rank": "18",
-      "team": "Valencia",
-      "points": "24",
-      "played": "24",
-      "won": "5",
-      "drawn": "9",
-      "lost": "10",
-      "gf": "23",
-      "ga": "37",
-      "dg": "-14"
-    },
-    {
       "rank": "19",
       "team": "Levante",
-      "points": "19",
+      "points": "18",
       "played": "23",
       "won": "4",
-      "drawn": "7",
-      "lost": "12",
+      "drawn": "6",
+      "lost": "13",
       "gf": "26",
-      "ga": "38",
-      "dg": "-12"
+      "ga": "39",
+      "dg": "-13"
     },
     {
       "rank": "20",
