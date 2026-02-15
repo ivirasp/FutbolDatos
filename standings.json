@@ -51,14 +51,14 @@
     {
       "rank": "5",
       "team": "Real Betis",
-      "points": "38",
-      "played": "23",
-      "won": "10",
+      "points": "41",
+      "played": "24",
+      "won": "11",
       "drawn": "8",
       "lost": "5",
-      "gf": "37",
+      "gf": "38",
       "ga": "28",
-      "dg": "+9"
+      "dg": "+10"
     },
     {
       "rank": "6",
@@ -208,13 +208,13 @@
       "rank": "18",
       "team": "Mallorca",
       "points": "24",
-      "played": "23",
+      "played": "24",
       "won": "6",
       "drawn": "6",
-      "lost": "11",
+      "lost": "12",
       "gf": "28",
-      "ga": "37",
-      "dg": "-9"
+      "ga": "38",
+      "dg": "-10"
     },
     {
       "rank": "19",
