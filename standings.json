@@ -98,6 +98,18 @@
     },
     {
       "rank": "9",
+      "team": "Athletic",
+      "points": "31",
+      "played": "24",
+      "won": "9",
+      "drawn": "4",
+      "lost": "11",
+      "gf": "27",
+      "ga": "34",
+      "dg": "-7"
+    },
+    {
+      "rank": "10",
       "team": "Osasuna",
       "points": "30",
       "played": "24",
@@ -107,18 +119,6 @@
       "gf": "28",
       "ga": "28",
       "dg": "0"
-    },
-    {
-      "rank": "10",
-      "team": "Athletic",
-      "points": "29",
-      "played": "24",
-      "won": "8",
-      "drawn": "5",
-      "lost": "11",
-      "gf": "26",
-      "ga": "34",
-      "dg": "-8"
     },
     {
       "rank": "11",
@@ -231,14 +231,14 @@
     {
       "rank": "20",
       "team": "Real Oviedo",
-      "points": "17",
+      "points": "16",
       "played": "23",
       "won": "3",
-      "drawn": "8",
-      "lost": "12",
+      "drawn": "7",
+      "lost": "13",
       "gf": "13",
-      "ga": "35",
-      "dg": "-22"
+      "ga": "36",
+      "dg": "-23"
     }
   ],
   "CHAMPIONS": [
