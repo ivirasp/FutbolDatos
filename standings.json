@@ -15,10 +15,10 @@
     {
       "rank": "2",
       "team": "FC Barcelona",
-      "points": "58",
-      "played": "23",
+      "points": "59",
+      "played": "24",
       "won": "19",
-      "drawn": "1",
+      "drawn": "2",
       "lost": "3",
       "gf": "63",
       "ga": "23",
@@ -134,6 +134,18 @@
     },
     {
       "rank": "12",
+      "team": "Girona FC",
+      "points": "27",
+      "played": "24",
+      "won": "6",
+      "drawn": "9",
+      "lost": "9",
+      "gf": "22",
+      "ga": "37",
+      "dg": "-15"
+    },
+    {
+      "rank": "13",
       "team": "Sevilla",
       "points": "26",
       "played": "24",
@@ -145,7 +157,7 @@
       "dg": "-8"
     },
     {
-      "rank": "13",
+      "rank": "14",
       "team": "Deportivo Alav\u00e9s",
       "points": "26",
       "played": "24",
@@ -157,7 +169,7 @@
       "dg": "-9"
     },
     {
-      "rank": "14",
+      "rank": "15",
       "team": "Valencia",
       "points": "26",
       "played": "24",
@@ -167,18 +179,6 @@
       "gf": "25",
       "ga": "37",
       "dg": "-12"
-    },
-    {
-      "rank": "15",
-      "team": "Girona FC",
-      "points": "26",
-      "played": "23",
-      "won": "6",
-      "drawn": "8",
-      "lost": "9",
-      "gf": "22",
-      "ga": "37",
-      "dg": "-15"
     },
     {
       "rank": "16",
