@@ -1,33 +1,5 @@
 [
   {
-    "title": "Real Oviedo - Athletic Club",
-    "start_ts": 1771160400.0,
-    "time_str": "14:00",
-    "channel": "M+ LaLiga",
-    "competition": "LALIGA"
-  },
-  {
-    "title": "Rayo Vallecano - Atl\u00e9tico de Madrid",
-    "start_ts": 1771168500.0,
-    "time_str": "16:15",
-    "channel": "DAZN LaLiga",
-    "competition": "LALIGA"
-  },
-  {
-    "title": "Levante - Valencia",
-    "start_ts": 1771176600.0,
-    "time_str": "18:30",
-    "channel": "M+ LaLiga",
-    "competition": "LALIGA"
-  },
-  {
-    "title": "Mallorca - Betis",
-    "start_ts": 1771185600.0,
-    "time_str": "21:00",
-    "channel": "DAZN LaLiga",
-    "competition": "LALIGA"
-  },
-  {
     "title": "Girona - Barcelona",
     "start_ts": 1771272000.0,
     "time_str": "21:00",
@@ -184,6 +156,34 @@
   {
     "title": "Atl\u00e9tico de Madrid - Espanyol",
     "start_ts": 1771704000.0,
+    "time_str": "21:00",
+    "channel": "M+ LaLiga",
+    "competition": "LALIGA"
+  },
+  {
+    "title": "Getafe - Sevilla",
+    "start_ts": 1771765200.0,
+    "time_str": "14:00",
+    "channel": "DAZN LaLiga",
+    "competition": "LALIGA"
+  },
+  {
+    "title": "Barcelona - Levante",
+    "start_ts": 1771773300.0,
+    "time_str": "16:15",
+    "channel": "M+ LaLiga",
+    "competition": "LALIGA"
+  },
+  {
+    "title": "Celta - Mallorca",
+    "start_ts": 1771781400.0,
+    "time_str": "18:30",
+    "channel": "DAZN LaLiga",
+    "competition": "LALIGA"
+  },
+  {
+    "title": "Villarreal - Valencia",
+    "start_ts": 1771790400.0,
     "time_str": "21:00",
     "channel": "M+ LaLiga",
     "competition": "LALIGA"
