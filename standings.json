@@ -15,14 +15,14 @@
     {
       "rank": "2",
       "team": "FC Barcelona",
-      "points": "59",
+      "points": "58",
       "played": "24",
       "won": "19",
-      "drawn": "2",
-      "lost": "3",
-      "gf": "63",
-      "ga": "23",
-      "dg": "+40"
+      "drawn": "1",
+      "lost": "4",
+      "gf": "64",
+      "ga": "25",
+      "dg": "+39"
     },
     {
       "rank": "3",
@@ -135,14 +135,14 @@
     {
       "rank": "12",
       "team": "Girona FC",
-      "points": "27",
+      "points": "29",
       "played": "24",
-      "won": "6",
-      "drawn": "9",
+      "won": "7",
+      "drawn": "8",
       "lost": "9",
-      "gf": "22",
-      "ga": "37",
-      "dg": "-15"
+      "gf": "24",
+      "ga": "38",
+      "dg": "-14"
     },
     {
       "rank": "13",
