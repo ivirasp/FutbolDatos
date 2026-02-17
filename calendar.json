@@ -1,12 +1,5 @@
 [
   {
-    "title": "Girona - Barcelona",
-    "start_ts": 1771272000.0,
-    "time_str": "21:00",
-    "channel": "DAZN LaLiga",
-    "competition": "LALIGA"
-  },
-  {
     "title": "Galatasaray - Juventus",
     "start_ts": 1771350300.0,
     "time_str": "18:45",
@@ -184,6 +177,13 @@
   {
     "title": "Villarreal - Valencia",
     "start_ts": 1771790400.0,
+    "time_str": "21:00",
+    "channel": "M+ LaLiga",
+    "competition": "LALIGA"
+  },
+  {
+    "title": "Alav\u00e9s - Girona",
+    "start_ts": 1771876800.0,
     "time_str": "21:00",
     "channel": "M+ LaLiga",
     "competition": "LALIGA"
