@@ -1,33 +1,5 @@
 [
   {
-    "title": "Galatasaray - Juventus",
-    "start_ts": 1771350300.0,
-    "time_str": "18:45",
-    "channel": "M+ Liga de Campeones 2",
-    "competition": "CHAMPIONS"
-  },
-  {
-    "title": "Benfica - Real Madrid",
-    "start_ts": 1771358400.0,
-    "time_str": "21:00",
-    "channel": "M+ Liga de Campeones",
-    "competition": "CHAMPIONS"
-  },
-  {
-    "title": "M\u00f3naco - PSG",
-    "start_ts": 1771358400.0,
-    "time_str": "21:00",
-    "channel": "M+ Liga de Campeones 2",
-    "competition": "CHAMPIONS"
-  },
-  {
-    "title": "Borussia Dortmund - Atalanta",
-    "start_ts": 1771358400.0,
-    "time_str": "21:00",
-    "channel": "M+ Liga de Campeones 3",
-    "competition": "CHAMPIONS"
-  },
-  {
     "title": "Qarabag FK - Newcastle",
     "start_ts": 1771436700.0,
     "time_str": "18:45",
