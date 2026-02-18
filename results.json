@@ -3800,28 +3800,28 @@
           "home": "FK Qarabag",
           "away": "Newcastle United",
           "score": "1 - 6",
-          "status": "Directo"
+          "status": "Fin"
         },
         {
           "date": "18-02-2026",
           "home": "Bod\u00f8/Glimt",
           "away": "Inter",
-          "score": "0 - 0",
-          "status": ""
+          "score": "1 - 0",
+          "status": "Directo"
         },
         {
           "date": "18-02-2026",
           "home": "Brujas",
           "away": "Atl\u00e9tico de Madrid",
-          "score": "0 - 0",
-          "status": ""
+          "score": "0 - 1",
+          "status": "Directo"
         },
         {
           "date": "18-02-2026",
           "home": "Olympiakos",
           "away": "Bayer Leverkusen",
           "score": "0 - 0",
-          "status": ""
+          "status": "Directo"
         }
       ],
       "Play-offs (vuelta)": [
