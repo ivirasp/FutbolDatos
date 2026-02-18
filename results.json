@@ -1081,7 +1081,7 @@
           "status": "Fin"
         }
       ],
-      "Jornada 16 (Actual)": [
+      "Jornada 16": [
         {
           "date": "12-12-2025",
           "home": "Real Sociedad",
@@ -1585,7 +1585,7 @@
           "status": "Fin"
         }
       ],
-      "Jornada 23": [
+      "Jornada 23 (Actual)": [
         {
           "date": "06-02-2026",
           "home": "Celta de Vigo",
@@ -2738,7 +2738,7 @@
         }
       ]
     },
-    "current": "Jornada 16 (Actual)"
+    "current": "Jornada 23 (Actual)"
   },
   "CHAMPIONS": {
     "rounds": {
@@ -3766,7 +3766,7 @@
           "status": "Fin"
         }
       ],
-      "Play-offs (ida) (Actual)": [
+      "Play-offs (ida)": [
         {
           "date": "17-02-2026",
           "home": "Galatasaray",
@@ -3824,7 +3824,7 @@
           "status": "Fin"
         }
       ],
-      "Play-offs (vuelta)": [
+      "Play-offs (vuelta) (Actual)": [
         {
           "date": "24-02-2026",
           "home": "Atl\u00e9tico de Madrid",
@@ -3883,7 +3883,7 @@
         }
       ]
     },
-    "current": "Play-offs (ida) (Actual)"
+    "current": "Play-offs (vuelta) (Actual)"
   },
   "EUROPA": {
     "rounds": {
