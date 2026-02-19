@@ -4911,7 +4911,7 @@
           "status": "Fin"
         }
       ],
-      "Jornada 9 (Actual)": [
+      "Jornada 9": [
         {
           "date": "19-02-2026",
           "home": "Brann",
@@ -4969,7 +4969,7 @@
           "status": "Fin"
         }
       ],
-      "Jornada 10": [
+      "Jornada 10 (Actual)": [
         {
           "date": "26-02-2026",
           "home": "Bolonia",
@@ -5028,7 +5028,7 @@
         }
       ]
     },
-    "current": "Jornada 9 (Actual)"
+    "current": "Jornada 10 (Actual)"
   },
   "COPA": {
     "rounds": {
