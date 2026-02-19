@@ -1,40 +1,5 @@
 [
   {
-    "title": "Qarabag FK - Newcastle",
-    "start_ts": 1771436700.0,
-    "time_str": "18:45",
-    "channel": "M+ Liga de Campeones 2",
-    "competition": "CHAMPIONS"
-  },
-  {
-    "title": "Levante - Villarreal",
-    "start_ts": 1771441200.0,
-    "time_str": "20:00",
-    "channel": "M+ LaLiga",
-    "competition": "LALIGA"
-  },
-  {
-    "title": "Olympiacos - Bayer Leverkusen",
-    "start_ts": 1771444800.0,
-    "time_str": "21:00",
-    "channel": "M+ Liga de Campeones 2",
-    "competition": "CHAMPIONS"
-  },
-  {
-    "title": "Bod\u00f8/Glimt - Inter de Milan",
-    "start_ts": 1771444800.0,
-    "time_str": "21:00",
-    "channel": "M+ Liga de Campeones 3",
-    "competition": "CHAMPIONS"
-  },
-  {
-    "title": "Club Brugge - Atl\u00e9tico de Madrid",
-    "start_ts": 1771444800.0,
-    "time_str": "21:00",
-    "channel": "M+ Liga de Campeones",
-    "competition": "CHAMPIONS"
-  },
-  {
     "title": "Dinamo Zagreb - Genk",
     "start_ts": 1771523100.0,
     "time_str": "18:45",
@@ -271,6 +236,13 @@
     "time_str": "21:00",
     "channel": "M+ Liga de Campeones",
     "competition": "EUROPA"
+  },
+  {
+    "title": "Levante - Alav\u00e9s",
+    "start_ts": 1772222400.0,
+    "time_str": "21:00",
+    "channel": "DAZN LaLiga",
+    "competition": "LALIGA"
   },
   {
     "title": "Barcelona - Atl\u00e9tico de Madrid",
