@@ -1947,16 +1947,37 @@
       ],
       "Jornada 28": [
         {
-          "date": "15-03-2026",
+          "date": "13-03-2026",
           "home": "Alav\u00e9s",
           "away": "Villarreal",
           "score": "vs",
           "status": ""
         },
         {
-          "date": "15-03-2026",
+          "date": "14-03-2026",
           "home": "Atl\u00e9tico de Madrid",
           "away": "Getafe",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "14-03-2026",
+          "home": "Girona",
+          "away": "Athletic Club",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "14-03-2026",
+          "home": "Real Madrid",
+          "away": "Elche",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "14-03-2026",
+          "home": "Real Oviedo",
+          "away": "Valencia CF",
           "score": "vs",
           "status": ""
         },
@@ -1969,22 +1990,8 @@
         },
         {
           "date": "15-03-2026",
-          "home": "Girona",
-          "away": "Athletic Club",
-          "score": "vs",
-          "status": ""
-        },
-        {
-          "date": "15-03-2026",
           "home": "Mallorca",
           "away": "Espanyol",
-          "score": "vs",
-          "status": ""
-        },
-        {
-          "date": "15-03-2026",
-          "home": "Rayo Vallecano",
-          "away": "Levante",
           "score": "vs",
           "status": ""
         },
@@ -1997,22 +2004,15 @@
         },
         {
           "date": "15-03-2026",
-          "home": "Real Madrid",
-          "away": "Elche",
-          "score": "vs",
-          "status": ""
-        },
-        {
-          "date": "15-03-2026",
-          "home": "Real Oviedo",
-          "away": "Valencia CF",
-          "score": "vs",
-          "status": ""
-        },
-        {
-          "date": "15-03-2026",
           "home": "Real Sociedad",
           "away": "Osasuna",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "16-03-2026",
+          "home": "Rayo Vallecano",
+          "away": "Levante",
           "score": "vs",
           "status": ""
         }
