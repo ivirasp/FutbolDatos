@@ -3,14 +3,14 @@
     {
       "rank": "1",
       "team": "Real Madrid",
-      "points": "61",
+      "points": "60",
       "played": "25",
       "won": "19",
-      "drawn": "4",
-      "lost": "2",
+      "drawn": "3",
+      "lost": "3",
       "gf": "54",
-      "ga": "20",
-      "dg": "+34"
+      "ga": "21",
+      "dg": "+33"
     },
     {
       "rank": "2",
@@ -98,6 +98,18 @@
     },
     {
       "rank": "9",
+      "team": "Osasuna",
+      "points": "33",
+      "played": "25",
+      "won": "9",
+      "drawn": "6",
+      "lost": "10",
+      "gf": "30",
+      "ga": "29",
+      "dg": "+1"
+    },
+    {
+      "rank": "10",
       "team": "Real Sociedad",
       "points": "32",
       "played": "25",
@@ -107,18 +119,6 @@
       "gf": "37",
       "ga": "38",
       "dg": "-1"
-    },
-    {
-      "rank": "10",
-      "team": "Osasuna",
-      "points": "31",
-      "played": "25",
-      "won": "8",
-      "drawn": "7",
-      "lost": "10",
-      "gf": "29",
-      "ga": "29",
-      "dg": "0"
     },
     {
       "rank": "11",
