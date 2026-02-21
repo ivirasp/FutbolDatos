@@ -39,14 +39,14 @@
     {
       "rank": "4",
       "team": "Atl\u00e9tico de Madrid",
-      "points": "46",
+      "points": "48",
       "played": "25",
-      "won": "13",
-      "drawn": "7",
+      "won": "14",
+      "drawn": "6",
       "lost": "5",
-      "gf": "39",
+      "gf": "41",
       "ga": "22",
-      "dg": "+17"
+      "dg": "+19"
     },
     {
       "rank": "5",
@@ -63,14 +63,14 @@
     {
       "rank": "6",
       "team": "Espanyol",
-      "points": "36",
+      "points": "35",
       "played": "25",
       "won": "10",
-      "drawn": "6",
-      "lost": "9",
+      "drawn": "5",
+      "lost": "10",
       "gf": "30",
-      "ga": "34",
-      "dg": "-4"
+      "ga": "36",
+      "dg": "-6"
     },
     {
       "rank": "7",
