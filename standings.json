@@ -99,14 +99,14 @@
     {
       "rank": "9",
       "team": "Real Sociedad",
-      "points": "32",
+      "points": "31",
       "played": "25",
       "won": "8",
-      "drawn": "8",
-      "lost": "9",
-      "gf": "34",
-      "ga": "35",
-      "dg": "-1"
+      "drawn": "7",
+      "lost": "10",
+      "gf": "35",
+      "ga": "37",
+      "dg": "-2"
     },
     {
       "rank": "10",
@@ -218,6 +218,18 @@
     },
     {
       "rank": "19",
+      "team": "Real Oviedo",
+      "points": "19",
+      "played": "24",
+      "won": "4",
+      "drawn": "7",
+      "lost": "13",
+      "gf": "15",
+      "ga": "37",
+      "dg": "-22"
+    },
+    {
+      "rank": "20",
       "team": "Levante",
       "points": "18",
       "played": "24",
@@ -227,18 +239,6 @@
       "gf": "26",
       "ga": "41",
       "dg": "-15"
-    },
-    {
-      "rank": "20",
-      "team": "Real Oviedo",
-      "points": "17",
-      "played": "24",
-      "won": "3",
-      "drawn": "8",
-      "lost": "13",
-      "gf": "13",
-      "ga": "36",
-      "dg": "-23"
     }
   ],
   "CHAMPIONS": [
