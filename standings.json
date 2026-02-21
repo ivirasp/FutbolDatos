@@ -51,10 +51,10 @@
     {
       "rank": "5",
       "team": "Real Betis",
-      "points": "41",
-      "played": "24",
+      "points": "42",
+      "played": "25",
       "won": "11",
-      "drawn": "8",
+      "drawn": "9",
       "lost": "5",
       "gf": "39",
       "ga": "29",
@@ -170,6 +170,18 @@
     },
     {
       "rank": "15",
+      "team": "Rayo Vallecano",
+      "points": "26",
+      "played": "24",
+      "won": "6",
+      "drawn": "8",
+      "lost": "10",
+      "gf": "21",
+      "ga": "30",
+      "dg": "-9"
+    },
+    {
+      "rank": "16",
       "team": "Valencia",
       "points": "26",
       "played": "24",
@@ -181,7 +193,7 @@
       "dg": "-12"
     },
     {
-      "rank": "16",
+      "rank": "17",
       "team": "Elche",
       "points": "25",
       "played": "25",
@@ -191,18 +203,6 @@
       "gf": "32",
       "ga": "37",
       "dg": "-5"
-    },
-    {
-      "rank": "17",
-      "team": "Rayo Vallecano",
-      "points": "25",
-      "played": "23",
-      "won": "6",
-      "drawn": "7",
-      "lost": "10",
-      "gf": "21",
-      "ga": "30",
-      "dg": "-9"
     },
     {
       "rank": "18",
