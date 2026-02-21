@@ -73,7 +73,7 @@
     "title": "Inter de Milan - Bod\u00f8/Glimt",
     "start_ts": 1771963200.0,
     "time_str": "21:00",
-    "channel": "M+ Liga de Campeones",
+    "channel": "M+ Liga de Campeones 3",
     "competition": "CHAMPIONS"
   },
   {
@@ -87,14 +87,14 @@
     "title": "Bayer Leverkusen - Olympiacos",
     "start_ts": 1771963200.0,
     "time_str": "21:00",
-    "channel": "M+ Liga de Campeones",
+    "channel": "M+ Liga de Campeones 2",
     "competition": "CHAMPIONS"
   },
   {
     "title": "Atalanta - Borussia Dortmund",
     "start_ts": 1772041500.0,
     "time_str": "18:45",
-    "channel": "M+ Liga de Campeones",
+    "channel": "M+ Liga de Campeones 3",
     "competition": "CHAMPIONS"
   },
   {
@@ -108,7 +108,7 @@
     "title": "PSG - M\u00f3naco",
     "start_ts": 1772049600.0,
     "time_str": "21:00",
-    "channel": "M+ Liga de Campeones",
+    "channel": "M+ Liga de Campeones 2",
     "competition": "CHAMPIONS"
   },
   {
@@ -122,35 +122,35 @@
     "title": "Stuttgart - Celtic FC",
     "start_ts": 1772127900.0,
     "time_str": "18:45",
-    "channel": "M+ Liga de Campeones",
+    "channel": "M+ Liga de Campeones 2",
     "competition": "EUROPA"
   },
   {
     "title": "Viktoria Plzen - Panathinaikos",
     "start_ts": 1772127900.0,
     "time_str": "18:45",
-    "channel": "M+ Liga de Campeones",
+    "channel": "M+ Liga de Campeones 3",
     "competition": "EUROPA"
   },
   {
     "title": "Crvena Zvezda - Lille",
     "start_ts": 1772127900.0,
     "time_str": "18:45",
-    "channel": "M+ Liga de Campeones",
+    "channel": "M+ Liga de Campeones 3",
     "competition": "EUROPA"
   },
   {
     "title": "Ferencvaros - PFC Ludogorets",
     "start_ts": 1772127900.0,
     "time_str": "18:45",
-    "channel": "M+ Liga de Campeones",
+    "channel": "M+ Liga de Campeones 3",
     "competition": "EUROPA"
   },
   {
     "title": "Bologna - SK Brann",
     "start_ts": 1772136000.0,
     "time_str": "21:00",
-    "channel": "M+ Liga de Campeones",
+    "channel": "M+ Liga de Campeones 13",
     "competition": "EUROPA"
   },
   {
@@ -164,14 +164,14 @@
     "title": "Genk - Dinamo Zagreb",
     "start_ts": 1772136000.0,
     "time_str": "21:00",
-    "channel": "M+ Liga de Campeones",
+    "channel": "M+ Liga de Campeones 3",
     "competition": "EUROPA"
   },
   {
     "title": "Nottingham Forest - Fenerbah\u00e7e",
     "start_ts": 1772136000.0,
     "time_str": "21:00",
-    "channel": "M+ Liga de Campeones",
+    "channel": "M+ Liga de Campeones 12",
     "competition": "EUROPA"
   },
   {
