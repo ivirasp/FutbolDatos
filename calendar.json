@@ -1,12 +1,5 @@
 [
   {
-    "title": "Athletic Club - Elche",
-    "start_ts": 1771617600.0,
-    "time_str": "21:00",
-    "channel": "Teledeporte",
-    "competition": "LALIGA"
-  },
-  {
     "title": "Real Sociedad - Real Oviedo",
     "start_ts": 1771678800.0,
     "time_str": "14:00",
@@ -186,6 +179,34 @@
     "start_ts": 1772222400.0,
     "time_str": "21:00",
     "channel": "DAZN LaLiga",
+    "competition": "LALIGA"
+  },
+  {
+    "title": "Rayo Vallecano - Athletic Club",
+    "start_ts": 1772283600.0,
+    "time_str": "14:00",
+    "channel": "DAZN LaLiga",
+    "competition": "LALIGA"
+  },
+  {
+    "title": "Barcelona - Villarreal",
+    "start_ts": 1772291700.0,
+    "time_str": "16:15",
+    "channel": "M+ LaLiga",
+    "competition": "LALIGA"
+  },
+  {
+    "title": "Mallorca - Real Sociedad",
+    "start_ts": 1772299800.0,
+    "time_str": "18:30",
+    "channel": "DAZN LaLiga",
+    "competition": "LALIGA"
+  },
+  {
+    "title": "Real Oviedo - Atl\u00e9tico de Madrid",
+    "start_ts": 1772308800.0,
+    "time_str": "21:00",
+    "channel": "M+ LaLiga",
     "competition": "LALIGA"
   },
   {
