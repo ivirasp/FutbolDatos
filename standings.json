@@ -26,6 +26,18 @@
     },
     {
       "rank": "3",
+      "team": "Villarreal",
+      "points": "49",
+      "played": "25",
+      "won": "15",
+      "drawn": "4",
+      "lost": "6",
+      "gf": "46",
+      "ga": "27",
+      "dg": "+19"
+    },
+    {
+      "rank": "4",
       "team": "Atl\u00e9tico de Madrid",
       "points": "48",
       "played": "25",
@@ -35,18 +47,6 @@
       "gf": "42",
       "ga": "23",
       "dg": "+19"
-    },
-    {
-      "rank": "4",
-      "team": "Villarreal",
-      "points": "48",
-      "played": "25",
-      "won": "15",
-      "drawn": "3",
-      "lost": "7",
-      "gf": "45",
-      "ga": "27",
-      "dg": "+18"
     },
     {
       "rank": "5",
@@ -146,18 +146,6 @@
     },
     {
       "rank": "13",
-      "team": "Valencia",
-      "points": "29",
-      "played": "25",
-      "won": "7",
-      "drawn": "8",
-      "lost": "10",
-      "gf": "26",
-      "ga": "37",
-      "dg": "-11"
-    },
-    {
-      "rank": "14",
       "team": "Girona FC",
       "points": "29",
       "played": "24",
@@ -167,6 +155,18 @@
       "gf": "24",
       "ga": "38",
       "dg": "-14"
+    },
+    {
+      "rank": "14",
+      "team": "Valencia",
+      "points": "27",
+      "played": "25",
+      "won": "6",
+      "drawn": "9",
+      "lost": "10",
+      "gf": "26",
+      "ga": "38",
+      "dg": "-12"
     },
     {
       "rank": "15",
