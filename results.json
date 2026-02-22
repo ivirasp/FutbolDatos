@@ -1769,7 +1769,7 @@
           "date": "22-02-2026",
           "home": "Barcelona",
           "away": "Levante",
-          "score": "vs",
+          "score": "0 - 0",
           "status": ""
         },
         {
@@ -1783,8 +1783,8 @@
           "date": "22-02-2026",
           "home": "Getafe",
           "away": "Sevilla",
-          "score": "vs",
-          "status": ""
+          "score": "0 - 1",
+          "status": "Fin"
         },
         {
           "date": "22-02-2026",
