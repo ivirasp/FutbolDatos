@@ -2,6 +2,18 @@
   "LALIGA": [
     {
       "rank": "1",
+      "team": "FC Barcelona",
+      "points": "61",
+      "played": "25",
+      "won": "20",
+      "drawn": "1",
+      "lost": "4",
+      "gf": "65",
+      "ga": "25",
+      "dg": "+40"
+    },
+    {
+      "rank": "2",
       "team": "Real Madrid",
       "points": "60",
       "played": "25",
@@ -11,18 +23,6 @@
       "gf": "54",
       "ga": "21",
       "dg": "+33"
-    },
-    {
-      "rank": "2",
-      "team": "FC Barcelona",
-      "points": "58",
-      "played": "24",
-      "won": "19",
-      "drawn": "1",
-      "lost": "4",
-      "gf": "64",
-      "ga": "25",
-      "dg": "+39"
     },
     {
       "rank": "3",
@@ -220,13 +220,13 @@
       "rank": "19",
       "team": "Levante",
       "points": "18",
-      "played": "24",
+      "played": "25",
       "won": "4",
       "drawn": "6",
-      "lost": "14",
+      "lost": "15",
       "gf": "26",
-      "ga": "41",
-      "dg": "-15"
+      "ga": "42",
+      "dg": "-16"
     },
     {
       "rank": "20",
