@@ -122,6 +122,18 @@
     },
     {
       "rank": "11",
+      "team": "Girona FC",
+      "points": "30",
+      "played": "25",
+      "won": "7",
+      "drawn": "9",
+      "lost": "9",
+      "gf": "25",
+      "ga": "39",
+      "dg": "-14"
+    },
+    {
+      "rank": "12",
       "team": "Sevilla",
       "points": "29",
       "played": "25",
@@ -133,7 +145,7 @@
       "dg": "-7"
     },
     {
-      "rank": "12",
+      "rank": "13",
       "team": "Getafe",
       "points": "29",
       "played": "25",
@@ -145,19 +157,19 @@
       "dg": "-9"
     },
     {
-      "rank": "13",
-      "team": "Girona FC",
-      "points": "29",
-      "played": "24",
+      "rank": "14",
+      "team": "Deportivo Alav\u00e9s",
+      "points": "27",
+      "played": "25",
       "won": "7",
-      "drawn": "8",
-      "lost": "9",
-      "gf": "24",
-      "ga": "38",
-      "dg": "-14"
+      "drawn": "6",
+      "lost": "12",
+      "gf": "22",
+      "ga": "31",
+      "dg": "-9"
     },
     {
-      "rank": "14",
+      "rank": "15",
       "team": "Rayo Vallecano",
       "points": "26",
       "played": "24",
@@ -166,18 +178,6 @@
       "lost": "10",
       "gf": "22",
       "ga": "31",
-      "dg": "-9"
-    },
-    {
-      "rank": "15",
-      "team": "Deportivo Alav\u00e9s",
-      "points": "26",
-      "played": "24",
-      "won": "7",
-      "drawn": "5",
-      "lost": "12",
-      "gf": "21",
-      "ga": "30",
       "dg": "-9"
     },
     {
