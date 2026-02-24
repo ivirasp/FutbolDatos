@@ -2019,6 +2019,48 @@
       ],
       "Jornada 29": [
         {
+          "date": "20-03-2026",
+          "home": "Villarreal",
+          "away": "Real Sociedad",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "21-03-2026",
+          "home": "Elche",
+          "away": "Mallorca",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "21-03-2026",
+          "home": "Espanyol",
+          "away": "Getafe",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "21-03-2026",
+          "home": "Levante",
+          "away": "Real Oviedo",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "21-03-2026",
+          "home": "Osasuna",
+          "away": "Girona",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "21-03-2026",
+          "home": "Sevilla",
+          "away": "Valencia CF",
+          "score": "vs",
+          "status": ""
+        },
+        {
           "date": "22-03-2026",
           "home": "Athletic Club",
           "away": "Real Betis",
@@ -2041,50 +2083,8 @@
         },
         {
           "date": "22-03-2026",
-          "home": "Elche",
-          "away": "Mallorca",
-          "score": "vs",
-          "status": ""
-        },
-        {
-          "date": "22-03-2026",
-          "home": "Espanyol",
-          "away": "Getafe",
-          "score": "vs",
-          "status": ""
-        },
-        {
-          "date": "22-03-2026",
-          "home": "Levante",
-          "away": "Real Oviedo",
-          "score": "vs",
-          "status": ""
-        },
-        {
-          "date": "22-03-2026",
-          "home": "Osasuna",
-          "away": "Girona",
-          "score": "vs",
-          "status": ""
-        },
-        {
-          "date": "22-03-2026",
           "home": "Real Madrid",
           "away": "Atl\u00e9tico de Madrid",
-          "score": "vs",
-          "status": ""
-        },
-        {
-          "date": "22-03-2026",
-          "home": "Sevilla",
-          "away": "Valencia CF",
-          "score": "vs",
-          "status": ""
-        },
-        {
-          "date": "22-03-2026",
-          "home": "Villarreal",
-          "away": "Real Sociedad",
           "score": "vs",
           "status": ""
         }
