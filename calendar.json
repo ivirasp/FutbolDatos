@@ -1,12 +1,5 @@
 [
   {
-    "title": "Alav\u00e9s - Girona",
-    "start_ts": 1771876800.0,
-    "time_str": "21:00",
-    "channel": "M+ LaLiga",
-    "competition": "LALIGA"
-  },
-  {
     "title": "Atl\u00e9tico de Madrid - Club Brugge",
     "start_ts": 1771955100.0,
     "time_str": "18:45",
@@ -194,6 +187,13 @@
     "time_str": "21:00",
     "channel": "La 1",
     "competition": "COPA"
+  },
+  {
+    "title": "Rayo Vallecano - Real Oviedo",
+    "start_ts": 1772647200.0,
+    "time_str": "19:00",
+    "channel": "DAZN LaLiga",
+    "competition": "LALIGA"
   },
   {
     "title": "Real Sociedad - Athletic Club",
