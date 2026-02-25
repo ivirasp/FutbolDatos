@@ -3881,6 +3881,66 @@
           "score": "vs",
           "status": ""
         }
+      ],
+      "Octavos de final (ida)": [
+        {
+          "date": "10-03-2026",
+          "home": "Atl\u00e9tico de Madrid",
+          "away": "TBC",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "10-03-2026",
+          "home": "Bayer Leverkusen",
+          "away": "TBC",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "10-03-2026",
+          "home": "Bod\u00f8/Glimt",
+          "away": "TBC",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "10-03-2026",
+          "home": "Newcastle United",
+          "away": "TBC",
+          "score": "vs",
+          "status": ""
+        }
+      ],
+      "Octavos de final (vuelta)": [
+        {
+          "date": "17-03-2026",
+          "home": "TBC",
+          "away": "Atl\u00e9tico de Madrid",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "17-03-2026",
+          "home": "TBC",
+          "away": "Bod\u00f8/Glimt",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "17-03-2026",
+          "home": "TBC",
+          "away": "Bayer Leverkusen",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "17-03-2026",
+          "home": "TBC",
+          "away": "Newcastle United",
+          "score": "vs",
+          "status": ""
+        }
       ]
     },
     "current": "Play-offs (vuelta) (Actual)"
