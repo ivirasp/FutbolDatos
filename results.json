@@ -3864,8 +3864,8 @@
           "date": "25-02-2026",
           "home": "Juventus",
           "away": "Galatasaray",
-          "score": "3 - 0",
-          "status": "Directo"
+          "score": "3 - 2",
+          "status": "Fin"
         },
         {
           "date": "25-02-2026",
@@ -3944,20 +3944,6 @@
         {
           "date": "17-03-2026",
           "home": "TBC",
-          "away": "Bod\u00f8/Glimt",
-          "score": "vs",
-          "status": ""
-        },
-        {
-          "date": "17-03-2026",
-          "home": "TBC",
-          "away": "Real Madrid",
-          "score": "vs",
-          "status": ""
-        },
-        {
-          "date": "17-03-2026",
-          "home": "TBC",
           "away": "PSG",
           "score": "vs",
           "status": ""
@@ -3965,7 +3951,7 @@
         {
           "date": "17-03-2026",
           "home": "TBC",
-          "away": "Newcastle United",
+          "away": "Atl\u00e9tico de Madrid",
           "score": "vs",
           "status": ""
         },
@@ -3979,7 +3965,21 @@
         {
           "date": "17-03-2026",
           "home": "TBC",
-          "away": "Atl\u00e9tico de Madrid",
+          "away": "Real Madrid",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "17-03-2026",
+          "home": "TBC",
+          "away": "Newcastle United",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "17-03-2026",
+          "home": "TBC",
+          "away": "Bod\u00f8/Glimt",
           "score": "vs",
           "status": ""
         }
