@@ -1,33 +1,5 @@
 [
   {
-    "title": "Atalanta - Borussia Dortmund",
-    "start_ts": 1772041500.0,
-    "time_str": "18:45",
-    "channel": "M+ Liga de Campeones 3",
-    "competition": "CHAMPIONS"
-  },
-  {
-    "title": "Juventus - Galatasaray",
-    "start_ts": 1772049600.0,
-    "time_str": "21:00",
-    "channel": "M+ Liga de Campeones",
-    "competition": "CHAMPIONS"
-  },
-  {
-    "title": "PSG - M\u00f3naco",
-    "start_ts": 1772049600.0,
-    "time_str": "21:00",
-    "channel": "M+ Liga de Campeones 2",
-    "competition": "CHAMPIONS"
-  },
-  {
-    "title": "Real Madrid - Benfica",
-    "start_ts": 1772049600.0,
-    "time_str": "21:00",
-    "channel": "M+ Liga de Campeones",
-    "competition": "CHAMPIONS"
-  },
-  {
     "title": "Stuttgart - Celtic FC",
     "start_ts": 1772127900.0,
     "time_str": "18:45",

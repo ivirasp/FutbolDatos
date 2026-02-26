@@ -3913,6 +3913,13 @@
         },
         {
           "date": "10-03-2026",
+          "home": "Galatasaray",
+          "away": "TBC",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "10-03-2026",
           "home": "Newcastle United",
           "away": "TBC",
           "score": "vs",
@@ -3937,14 +3944,7 @@
         {
           "date": "17-03-2026",
           "home": "TBC",
-          "away": "Atalanta",
-          "score": "vs",
-          "status": ""
-        },
-        {
-          "date": "17-03-2026",
-          "home": "TBC",
-          "away": "PSG",
+          "away": "Bod\u00f8/Glimt",
           "score": "vs",
           "status": ""
         },
@@ -3958,14 +3958,7 @@
         {
           "date": "17-03-2026",
           "home": "TBC",
-          "away": "Bayer Leverkusen",
-          "score": "vs",
-          "status": ""
-        },
-        {
-          "date": "17-03-2026",
-          "home": "TBC",
-          "away": "Real Madrid",
+          "away": "PSG",
           "score": "vs",
           "status": ""
         },
@@ -3979,7 +3972,28 @@
         {
           "date": "17-03-2026",
           "home": "TBC",
-          "away": "Bod\u00f8/Glimt",
+          "away": "Real Madrid",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "17-03-2026",
+          "home": "TBC",
+          "away": "Galatasaray",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "17-03-2026",
+          "home": "TBC",
+          "away": "Atalanta",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "17-03-2026",
+          "home": "TBC",
+          "away": "Bayer Leverkusen",
           "score": "vs",
           "status": ""
         }
