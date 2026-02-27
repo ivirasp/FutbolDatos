@@ -1876,8 +1876,15 @@
       "Jornada 27": [
         {
           "date": "06-03-2026",
-          "home": "Osasuna",
-          "away": "Mallorca",
+          "home": "Celta de Vigo",
+          "away": "Real Madrid",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "07-03-2026",
+          "home": "Athletic Club",
+          "away": "Barcelona",
           "score": "vs",
           "status": ""
         },
@@ -1890,29 +1897,22 @@
         },
         {
           "date": "07-03-2026",
-          "home": "Celta de Vigo",
-          "away": "Real Madrid",
-          "score": "vs",
-          "status": ""
-        },
-        {
-          "date": "07-03-2026",
-          "home": "Getafe",
-          "away": "Real Betis",
-          "score": "vs",
-          "status": ""
-        },
-        {
-          "date": "07-03-2026",
           "home": "Levante",
           "away": "Girona",
           "score": "vs",
           "status": ""
         },
         {
+          "date": "07-03-2026",
+          "home": "Osasuna",
+          "away": "Mallorca",
+          "score": "vs",
+          "status": ""
+        },
+        {
           "date": "08-03-2026",
-          "home": "Athletic Club",
-          "away": "Barcelona",
+          "home": "Getafe",
+          "away": "Real Betis",
           "score": "vs",
           "status": ""
         },
