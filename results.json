@@ -3886,56 +3886,56 @@
         {
           "date": "10-03-2026",
           "home": "Atalanta",
-          "away": "TBC",
+          "away": "Bayern M\u00fanich",
           "score": "vs",
           "status": ""
         },
         {
           "date": "10-03-2026",
           "home": "Atl\u00e9tico de Madrid",
-          "away": "TBC",
+          "away": "Tottenham Hotspur",
           "score": "vs",
           "status": ""
         },
         {
           "date": "10-03-2026",
           "home": "Bayer Leverkusen",
-          "away": "TBC",
+          "away": "Arsenal",
           "score": "vs",
           "status": ""
         },
         {
           "date": "10-03-2026",
           "home": "Bod\u00f8/Glimt",
-          "away": "TBC",
+          "away": "Sporting CP",
           "score": "vs",
           "status": ""
         },
         {
           "date": "10-03-2026",
           "home": "Galatasaray",
-          "away": "TBC",
+          "away": "Liverpool",
           "score": "vs",
           "status": ""
         },
         {
           "date": "10-03-2026",
           "home": "Newcastle United",
-          "away": "TBC",
+          "away": "Barcelona",
           "score": "vs",
           "status": ""
         },
         {
           "date": "10-03-2026",
           "home": "PSG",
-          "away": "TBC",
+          "away": "Chelsea",
           "score": "vs",
           "status": ""
         },
         {
           "date": "10-03-2026",
           "home": "Real Madrid",
-          "away": "TBC",
+          "away": "Manchester City",
           "score": "vs",
           "status": ""
         }
@@ -3943,57 +3943,158 @@
       "Octavos de final (vuelta)": [
         {
           "date": "17-03-2026",
-          "home": "TBC",
-          "away": "Real Madrid",
-          "score": "vs",
-          "status": ""
-        },
-        {
-          "date": "17-03-2026",
-          "home": "TBC",
-          "away": "Galatasaray",
-          "score": "vs",
-          "status": ""
-        },
-        {
-          "date": "17-03-2026",
-          "home": "TBC",
-          "away": "Atalanta",
-          "score": "vs",
-          "status": ""
-        },
-        {
-          "date": "17-03-2026",
-          "home": "TBC",
-          "away": "PSG",
-          "score": "vs",
-          "status": ""
-        },
-        {
-          "date": "17-03-2026",
-          "home": "TBC",
-          "away": "Bod\u00f8/Glimt",
-          "score": "vs",
-          "status": ""
-        },
-        {
-          "date": "17-03-2026",
-          "home": "TBC",
+          "home": "Arsenal",
           "away": "Bayer Leverkusen",
           "score": "vs",
           "status": ""
         },
         {
           "date": "17-03-2026",
-          "home": "TBC",
-          "away": "Atl\u00e9tico de Madrid",
+          "home": "Barcelona",
+          "away": "Newcastle United",
           "score": "vs",
           "status": ""
         },
         {
           "date": "17-03-2026",
-          "home": "TBC",
-          "away": "Newcastle United",
+          "home": "Chelsea",
+          "away": "PSG",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "17-03-2026",
+          "home": "Bayern M\u00fanich",
+          "away": "Atalanta",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "17-03-2026",
+          "home": "Liverpool",
+          "away": "Galatasaray",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "17-03-2026",
+          "home": "Manchester City",
+          "away": "Real Madrid",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "17-03-2026",
+          "home": "Sporting CP",
+          "away": "Bod\u00f8/Glimt",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "17-03-2026",
+          "home": "Tottenham Hotspur",
+          "away": "Atl\u00e9tico de Madrid",
+          "score": "vs",
+          "status": ""
+        }
+      ],
+      "Cuartos de final (ida)": [
+        {
+          "date": "07-04-2026",
+          "home": "Ganador octavos 1",
+          "away": "Ganador octavos 2",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "07-04-2026",
+          "home": "Ganador octavos 3",
+          "away": "Ganador octavos 4",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "07-04-2026",
+          "home": "Ganador octavos 5",
+          "away": "Ganador octavos 6",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "07-04-2026",
+          "home": "Ganador octavos 7",
+          "away": "Ganador octavos 8",
+          "score": "vs",
+          "status": ""
+        }
+      ],
+      "Cuartos de final (vuelta)": [
+        {
+          "date": "14-04-2026",
+          "home": "Ganador octavos 2",
+          "away": "Ganador octavos 1",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "14-04-2026",
+          "home": "Ganador octavos 4",
+          "away": "Ganador octavos 3",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "14-04-2026",
+          "home": "Ganador octavos 6",
+          "away": "Ganador octavos 5",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "14-04-2026",
+          "home": "Ganador octavos 8",
+          "away": "Ganador octavos 7",
+          "score": "vs",
+          "status": ""
+        }
+      ],
+      "Semifinal (ida)": [
+        {
+          "date": "28-04-2026",
+          "home": "Ganador cuartos de final 1",
+          "away": "Ganador cuartos de final 2",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "28-04-2026",
+          "home": "Ganador cuartos de final 3",
+          "away": "Ganador cuartos de final 4",
+          "score": "vs",
+          "status": ""
+        }
+      ],
+      "Semifinal (vuelta)": [
+        {
+          "date": "05-05-2026",
+          "home": "Ganador cuartos de final 2",
+          "away": "Ganador cuartos de final 1",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "05-05-2026",
+          "home": "Ganador cuartos de final 4",
+          "away": "Ganador cuartos de final 3",
+          "score": "vs",
+          "status": ""
+        }
+      ],
+      "Final": [
+        {
+          "date": "29-05-2026",
+          "home": "Ganador Semifinal 1",
+          "away": "Ganador Semifinal 2",
           "score": "vs",
           "status": ""
         }
@@ -5104,7 +5205,7 @@
           "date": "26-02-2026",
           "home": "Estrella Roja",
           "away": "Lille",
-          "score": "0 - 2",
+          "score": "0 - 1",
           "status": "Fin"
         },
         {
@@ -5118,7 +5219,7 @@
           "date": "26-02-2026",
           "home": "KRC Genk",
           "away": "Dinamo Zagreb",
-          "score": "3 - 3",
+          "score": "1 - 3",
           "status": "Fin"
         },
         {
@@ -5147,56 +5248,56 @@
         {
           "date": "12-03-2026",
           "home": "Bolonia",
-          "away": "TBC",
+          "away": "Roma",
           "score": "vs",
           "status": ""
         },
         {
           "date": "12-03-2026",
           "home": "Celta de Vigo",
-          "away": "TBC",
+          "away": "Lyon",
           "score": "vs",
           "status": ""
         },
         {
           "date": "12-03-2026",
           "home": "Ferencv\u00e1rosi TC",
-          "away": "TBC",
+          "away": "Sporting Braga",
           "score": "vs",
           "status": ""
         },
         {
           "date": "12-03-2026",
           "home": "KRC Genk",
-          "away": "TBC",
+          "away": "Sport-Club Freiburg",
           "score": "vs",
           "status": ""
         },
         {
           "date": "12-03-2026",
           "home": "Lille",
-          "away": "TBC",
+          "away": "Aston Villa",
           "score": "vs",
           "status": ""
         },
         {
           "date": "12-03-2026",
           "home": "Nottingham Forest",
-          "away": "TBC",
+          "away": "FC Midtjylland",
           "score": "vs",
           "status": ""
         },
         {
           "date": "12-03-2026",
           "home": "Panathinaikos",
-          "away": "TBC",
+          "away": "Real Betis",
           "score": "vs",
           "status": ""
         },
         {
           "date": "12-03-2026",
           "home": "Stuttgart",
-          "away": "TBC",
+          "away": "FC Porto",
           "score": "vs",
           "status": ""
         }
@@ -5204,57 +5305,57 @@
       "Jornada 12": [
         {
           "date": "19-03-2026",
-          "home": "TBC",
-          "away": "KRC Genk",
-          "score": "vs",
-          "status": ""
-        },
-        {
-          "date": "19-03-2026",
-          "home": "TBC",
+          "home": "Aston Villa",
           "away": "Lille",
           "score": "vs",
           "status": ""
         },
         {
           "date": "19-03-2026",
-          "home": "TBC",
-          "away": "Panathinaikos",
-          "score": "vs",
-          "status": ""
-        },
-        {
-          "date": "19-03-2026",
-          "home": "TBC",
-          "away": "Celta de Vigo",
-          "score": "vs",
-          "status": ""
-        },
-        {
-          "date": "19-03-2026",
-          "home": "TBC",
+          "home": "FC Midtjylland",
           "away": "Nottingham Forest",
           "score": "vs",
           "status": ""
         },
         {
           "date": "19-03-2026",
-          "home": "TBC",
+          "home": "FC Porto",
           "away": "Stuttgart",
           "score": "vs",
           "status": ""
         },
         {
           "date": "19-03-2026",
-          "home": "TBC",
-          "away": "Ferencv\u00e1rosi TC",
+          "home": "Lyon",
+          "away": "Celta de Vigo",
           "score": "vs",
           "status": ""
         },
         {
           "date": "19-03-2026",
-          "home": "TBC",
+          "home": "Real Betis",
+          "away": "Panathinaikos",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "19-03-2026",
+          "home": "Roma",
           "away": "Bolonia",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "19-03-2026",
+          "home": "Sport-Club Freiburg",
+          "away": "KRC Genk",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "19-03-2026",
+          "home": "Sporting Braga",
+          "away": "Ferencv\u00e1rosi TC",
           "score": "vs",
           "status": ""
         }
