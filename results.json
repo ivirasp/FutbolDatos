@@ -5142,6 +5142,122 @@
           "score": "1 - 1",
           "status": "Fin"
         }
+      ],
+      "Jornada 11 (Actual)": [
+        {
+          "date": "12-03-2026",
+          "home": "Bolonia",
+          "away": "TBC",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "12-03-2026",
+          "home": "Celta de Vigo",
+          "away": "TBC",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "12-03-2026",
+          "home": "Ferencv\u00e1rosi TC",
+          "away": "TBC",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "12-03-2026",
+          "home": "KRC Genk",
+          "away": "TBC",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "12-03-2026",
+          "home": "Lille",
+          "away": "TBC",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "12-03-2026",
+          "home": "Nottingham Forest",
+          "away": "TBC",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "12-03-2026",
+          "home": "Panathinaikos",
+          "away": "TBC",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "12-03-2026",
+          "home": "Stuttgart",
+          "away": "TBC",
+          "score": "vs",
+          "status": ""
+        }
+      ],
+      "Jornada 12": [
+        {
+          "date": "19-03-2026",
+          "home": "TBC",
+          "away": "Stuttgart",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "19-03-2026",
+          "home": "TBC",
+          "away": "Ferencv\u00e1rosi TC",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "19-03-2026",
+          "home": "TBC",
+          "away": "Celta de Vigo",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "19-03-2026",
+          "home": "TBC",
+          "away": "Bolonia",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "19-03-2026",
+          "home": "TBC",
+          "away": "Lille",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "19-03-2026",
+          "home": "TBC",
+          "away": "KRC Genk",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "19-03-2026",
+          "home": "TBC",
+          "away": "Panathinaikos",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "19-03-2026",
+          "home": "TBC",
+          "away": "Nottingham Forest",
+          "score": "vs",
+          "status": ""
+        }
       ]
     },
     "current": "Jornada 11 (Actual)"
