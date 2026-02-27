@@ -159,14 +159,14 @@
     {
       "rank": "14",
       "team": "Deportivo Alav\u00e9s",
-      "points": "28",
+      "points": "27",
       "played": "26",
       "won": "7",
-      "drawn": "7",
-      "lost": "12",
+      "drawn": "6",
+      "lost": "13",
       "gf": "23",
-      "ga": "32",
-      "dg": "-9"
+      "ga": "34",
+      "dg": "-11"
     },
     {
       "rank": "15",
@@ -219,14 +219,14 @@
     {
       "rank": "19",
       "team": "Levante",
-      "points": "19",
+      "points": "21",
       "played": "26",
-      "won": "4",
-      "drawn": "7",
+      "won": "5",
+      "drawn": "6",
       "lost": "15",
-      "gf": "26",
+      "gf": "28",
       "ga": "44",
-      "dg": "-18"
+      "dg": "-16"
     },
     {
       "rank": "20",
