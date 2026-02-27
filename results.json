@@ -3885,6 +3885,13 @@
       "Octavos de final (ida) (Actual)": [
         {
           "date": "10-03-2026",
+          "home": "Galatasaray",
+          "away": "Liverpool",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "10-03-2026",
           "home": "Atalanta",
           "away": "Bayern M\u00fanich",
           "score": "vs",
@@ -3899,41 +3906,34 @@
         },
         {
           "date": "10-03-2026",
-          "home": "Bayer Leverkusen",
-          "away": "Arsenal",
-          "score": "vs",
-          "status": ""
-        },
-        {
-          "date": "10-03-2026",
-          "home": "Bod\u00f8/Glimt",
-          "away": "Sporting CP",
-          "score": "vs",
-          "status": ""
-        },
-        {
-          "date": "10-03-2026",
-          "home": "Galatasaray",
-          "away": "Liverpool",
-          "score": "vs",
-          "status": ""
-        },
-        {
-          "date": "10-03-2026",
           "home": "Newcastle United",
           "away": "Barcelona",
           "score": "vs",
           "status": ""
         },
         {
-          "date": "10-03-2026",
+          "date": "11-03-2026",
+          "home": "Bayer Leverkusen",
+          "away": "Arsenal",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "11-03-2026",
+          "home": "Bod\u00f8/Glimt",
+          "away": "Sporting CP",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "11-03-2026",
           "home": "PSG",
           "away": "Chelsea",
           "score": "vs",
           "status": ""
         },
         {
-          "date": "10-03-2026",
+          "date": "11-03-2026",
           "home": "Real Madrid",
           "away": "Manchester City",
           "score": "vs",
@@ -3943,15 +3943,15 @@
       "Octavos de final (vuelta)": [
         {
           "date": "17-03-2026",
-          "home": "Arsenal",
-          "away": "Bayer Leverkusen",
+          "home": "Sporting CP",
+          "away": "Bod\u00f8/Glimt",
           "score": "vs",
           "status": ""
         },
         {
           "date": "17-03-2026",
-          "home": "Barcelona",
-          "away": "Newcastle United",
+          "home": "Arsenal",
+          "away": "Bayer Leverkusen",
           "score": "vs",
           "status": ""
         },
@@ -3964,137 +3964,36 @@
         },
         {
           "date": "17-03-2026",
-          "home": "Bayern M\u00fanich",
-          "away": "Atalanta",
-          "score": "vs",
-          "status": ""
-        },
-        {
-          "date": "17-03-2026",
-          "home": "Liverpool",
-          "away": "Galatasaray",
-          "score": "vs",
-          "status": ""
-        },
-        {
-          "date": "17-03-2026",
           "home": "Manchester City",
           "away": "Real Madrid",
           "score": "vs",
           "status": ""
         },
         {
-          "date": "17-03-2026",
-          "home": "Sporting CP",
-          "away": "Bod\u00f8/Glimt",
+          "date": "18-03-2026",
+          "home": "Barcelona",
+          "away": "Newcastle United",
           "score": "vs",
           "status": ""
         },
         {
-          "date": "17-03-2026",
+          "date": "18-03-2026",
+          "home": "Bayern M\u00fanich",
+          "away": "Atalanta",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "18-03-2026",
+          "home": "Liverpool",
+          "away": "Galatasaray",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "18-03-2026",
           "home": "Tottenham Hotspur",
           "away": "Atl\u00e9tico de Madrid",
-          "score": "vs",
-          "status": ""
-        }
-      ],
-      "Cuartos de final (ida)": [
-        {
-          "date": "07-04-2026",
-          "home": "Ganador octavos 1",
-          "away": "Ganador octavos 2",
-          "score": "vs",
-          "status": ""
-        },
-        {
-          "date": "07-04-2026",
-          "home": "Ganador octavos 3",
-          "away": "Ganador octavos 4",
-          "score": "vs",
-          "status": ""
-        },
-        {
-          "date": "07-04-2026",
-          "home": "Ganador octavos 5",
-          "away": "Ganador octavos 6",
-          "score": "vs",
-          "status": ""
-        },
-        {
-          "date": "07-04-2026",
-          "home": "Ganador octavos 7",
-          "away": "Ganador octavos 8",
-          "score": "vs",
-          "status": ""
-        }
-      ],
-      "Cuartos de final (vuelta)": [
-        {
-          "date": "14-04-2026",
-          "home": "Ganador octavos 2",
-          "away": "Ganador octavos 1",
-          "score": "vs",
-          "status": ""
-        },
-        {
-          "date": "14-04-2026",
-          "home": "Ganador octavos 4",
-          "away": "Ganador octavos 3",
-          "score": "vs",
-          "status": ""
-        },
-        {
-          "date": "14-04-2026",
-          "home": "Ganador octavos 6",
-          "away": "Ganador octavos 5",
-          "score": "vs",
-          "status": ""
-        },
-        {
-          "date": "14-04-2026",
-          "home": "Ganador octavos 8",
-          "away": "Ganador octavos 7",
-          "score": "vs",
-          "status": ""
-        }
-      ],
-      "Semifinal (ida)": [
-        {
-          "date": "28-04-2026",
-          "home": "Ganador cuartos de final 1",
-          "away": "Ganador cuartos de final 2",
-          "score": "vs",
-          "status": ""
-        },
-        {
-          "date": "28-04-2026",
-          "home": "Ganador cuartos de final 3",
-          "away": "Ganador cuartos de final 4",
-          "score": "vs",
-          "status": ""
-        }
-      ],
-      "Semifinal (vuelta)": [
-        {
-          "date": "05-05-2026",
-          "home": "Ganador cuartos de final 2",
-          "away": "Ganador cuartos de final 1",
-          "score": "vs",
-          "status": ""
-        },
-        {
-          "date": "05-05-2026",
-          "home": "Ganador cuartos de final 4",
-          "away": "Ganador cuartos de final 3",
-          "score": "vs",
-          "status": ""
-        }
-      ],
-      "Final": [
-        {
-          "date": "29-05-2026",
-          "home": "Ganador Semifinal 1",
-          "away": "Ganador Semifinal 2",
           "score": "vs",
           "status": ""
         }
