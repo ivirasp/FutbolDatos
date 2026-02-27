@@ -5203,6 +5203,13 @@
       ],
       "Jornada 12": [
         {
+          "date": "18-03-2026",
+          "home": "Sporting Braga",
+          "away": "Ferencv\u00e1rosi TC",
+          "score": "vs",
+          "status": ""
+        },
+        {
           "date": "19-03-2026",
           "home": "Aston Villa",
           "away": "Lille",
@@ -5248,13 +5255,6 @@
           "date": "19-03-2026",
           "home": "Sport-Club Freiburg",
           "away": "KRC Genk",
-          "score": "vs",
-          "status": ""
-        },
-        {
-          "date": "19-03-2026",
-          "home": "Sporting Braga",
-          "away": "Ferencv\u00e1rosi TC",
           "score": "vs",
           "status": ""
         }
