@@ -3997,6 +3997,107 @@
           "score": "vs",
           "status": ""
         }
+      ],
+      "Cuartos de final (ida)": [
+        {
+          "date": "07-04-2026",
+          "home": "Ganador octavos 1",
+          "away": "Ganador octavos 2",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "07-04-2026",
+          "home": "Ganador octavos 3",
+          "away": "Ganador octavos 4",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "07-04-2026",
+          "home": "Ganador octavos 5",
+          "away": "Ganador octavos 6",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "07-04-2026",
+          "home": "Ganador octavos 7",
+          "away": "Ganador octavos 8",
+          "score": "vs",
+          "status": ""
+        }
+      ],
+      "Cuartos de final (vuelta)": [
+        {
+          "date": "14-04-2026",
+          "home": "Ganador octavos 2",
+          "away": "Ganador octavos 1",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "14-04-2026",
+          "home": "Ganador octavos 4",
+          "away": "Ganador octavos 3",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "14-04-2026",
+          "home": "Ganador octavos 6",
+          "away": "Ganador octavos 5",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "14-04-2026",
+          "home": "Ganador octavos 8",
+          "away": "Ganador octavos 7",
+          "score": "vs",
+          "status": ""
+        }
+      ],
+      "Semifinal (ida)": [
+        {
+          "date": "28-04-2026",
+          "home": "Ganador cuartos de final 1",
+          "away": "Ganador cuartos de final 2",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "28-04-2026",
+          "home": "Ganador cuartos de final 3",
+          "away": "Ganador cuartos de final 4",
+          "score": "vs",
+          "status": ""
+        }
+      ],
+      "Semifinal (vuelta)": [
+        {
+          "date": "05-05-2026",
+          "home": "Ganador cuartos de final 2",
+          "away": "Ganador cuartos de final 1",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "05-05-2026",
+          "home": "Ganador cuartos de final 4",
+          "away": "Ganador cuartos de final 3",
+          "score": "vs",
+          "status": ""
+        }
+      ],
+      "Final": [
+        {
+          "date": "29-05-2026",
+          "home": "Ganador Semifinal 1",
+          "away": "Ganador Semifinal 2",
+          "score": "vs",
+          "status": ""
+        }
       ]
     },
     "current": "Octavos de final (ida) (Actual)"
@@ -5104,7 +5205,7 @@
           "date": "26-02-2026",
           "home": "Estrella Roja",
           "away": "Lille",
-          "score": "0 - 2",
+          "score": "0 - 1",
           "status": "Fin"
         },
         {
@@ -5118,7 +5219,7 @@
           "date": "26-02-2026",
           "home": "KRC Genk",
           "away": "Dinamo Zagreb",
-          "score": "3 - 3",
+          "score": "1 - 3",
           "status": "Fin"
         },
         {
@@ -5255,107 +5356,6 @@
           "date": "19-03-2026",
           "home": "Sport-Club Freiburg",
           "away": "KRC Genk",
-          "score": "vs",
-          "status": ""
-        }
-      ],
-      "Jornada 13": [
-        {
-          "date": "09-04-2026",
-          "home": "Round of sixteen 1 Winner",
-          "away": "Round of sixteen 2 Winner",
-          "score": "vs",
-          "status": ""
-        },
-        {
-          "date": "09-04-2026",
-          "home": "Round of sixteen 3 Winner",
-          "away": "Round of sixteen 4 Winner",
-          "score": "vs",
-          "status": ""
-        },
-        {
-          "date": "09-04-2026",
-          "home": "Round of sixteen 5 Winner",
-          "away": "Round of sixteen 6 Winner",
-          "score": "vs",
-          "status": ""
-        },
-        {
-          "date": "09-04-2026",
-          "home": "Round of sixteen 7 Winner",
-          "away": "Round of sixteen 8 Winner",
-          "score": "vs",
-          "status": ""
-        }
-      ],
-      "Jornada 14": [
-        {
-          "date": "16-04-2026",
-          "home": "Round of sixteen 2 Winner",
-          "away": "Round of sixteen 1 Winner",
-          "score": "vs",
-          "status": ""
-        },
-        {
-          "date": "16-04-2026",
-          "home": "Round of sixteen 4 Winner",
-          "away": "Round of sixteen 3 Winner",
-          "score": "vs",
-          "status": ""
-        },
-        {
-          "date": "16-04-2026",
-          "home": "Round of sixteen 6 Winner",
-          "away": "Round of sixteen 5 Winner",
-          "score": "vs",
-          "status": ""
-        },
-        {
-          "date": "16-04-2026",
-          "home": "Round of sixteen 8 Winner",
-          "away": "Round of sixteen 7 Winner",
-          "score": "vs",
-          "status": ""
-        }
-      ],
-      "Jornada 15": [
-        {
-          "date": "30-04-2026",
-          "home": "Quarter-Final 1 Winner",
-          "away": "Quarter-Final 2 Winner",
-          "score": "vs",
-          "status": ""
-        },
-        {
-          "date": "30-04-2026",
-          "home": "Quarter-Final 3 Winner",
-          "away": "Quarter-Final 4 Winner",
-          "score": "vs",
-          "status": ""
-        }
-      ],
-      "Jornada 16": [
-        {
-          "date": "07-05-2026",
-          "home": "Quarter-Final 2 Winner",
-          "away": "Quarter-Final 1 Winner",
-          "score": "vs",
-          "status": ""
-        },
-        {
-          "date": "07-05-2026",
-          "home": "Quarter-Final 4 Winner",
-          "away": "Quarter-Final 3 Winner",
-          "score": "vs",
-          "status": ""
-        }
-      ],
-      "Jornada 17": [
-        {
-          "date": "20-05-2026",
-          "home": "Semi-Final 1 Winner",
-          "away": "Semi-Final 2 Winner",
           "score": "vs",
           "status": ""
         }
