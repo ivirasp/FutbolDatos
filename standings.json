@@ -26,6 +26,18 @@
     },
     {
       "rank": "3",
+      "team": "Atl\u00e9tico de Madrid",
+      "points": "51",
+      "played": "26",
+      "won": "15",
+      "drawn": "6",
+      "lost": "5",
+      "gf": "43",
+      "ga": "23",
+      "dg": "+20"
+    },
+    {
+      "rank": "4",
       "team": "Villarreal",
       "points": "51",
       "played": "26",
@@ -35,18 +47,6 @@
       "gf": "48",
       "ga": "31",
       "dg": "+17"
-    },
-    {
-      "rank": "4",
-      "team": "Atl\u00e9tico de Madrid",
-      "points": "49",
-      "played": "26",
-      "won": "14",
-      "drawn": "7",
-      "lost": "5",
-      "gf": "42",
-      "ga": "23",
-      "dg": "+19"
     },
     {
       "rank": "5",
@@ -231,14 +231,14 @@
     {
       "rank": "20",
       "team": "Real Oviedo",
-      "points": "18",
+      "points": "17",
       "played": "25",
       "won": "3",
-      "drawn": "9",
-      "lost": "13",
+      "drawn": "8",
+      "lost": "14",
       "gf": "16",
-      "ga": "39",
-      "dg": "-23"
+      "ga": "40",
+      "dg": "-24"
     }
   ],
   "CHAMPIONS": [
