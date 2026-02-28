@@ -87,14 +87,14 @@
     {
       "rank": "8",
       "team": "Athletic",
-      "points": "35",
+      "points": "34",
       "played": "26",
       "won": "10",
-      "drawn": "5",
-      "lost": "11",
+      "drawn": "4",
+      "lost": "12",
       "gf": "29",
-      "ga": "35",
-      "dg": "-6"
+      "ga": "36",
+      "dg": "-7"
     },
     {
       "rank": "9",
@@ -146,6 +146,18 @@
     },
     {
       "rank": "13",
+      "team": "Rayo Vallecano",
+      "points": "29",
+      "played": "25",
+      "won": "7",
+      "drawn": "8",
+      "lost": "10",
+      "gf": "23",
+      "ga": "31",
+      "dg": "-8"
+    },
+    {
+      "rank": "14",
       "team": "Getafe",
       "points": "29",
       "played": "25",
@@ -154,18 +166,6 @@
       "lost": "12",
       "gf": "20",
       "ga": "29",
-      "dg": "-9"
-    },
-    {
-      "rank": "14",
-      "team": "Rayo Vallecano",
-      "points": "27",
-      "played": "25",
-      "won": "6",
-      "drawn": "9",
-      "lost": "10",
-      "gf": "22",
-      "ga": "31",
       "dg": "-9"
     },
     {
