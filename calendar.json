@@ -1,12 +1,5 @@
 [
   {
-    "title": "Levante - Alav\u00e9s",
-    "start_ts": 1772222400.0,
-    "time_str": "21:00",
-    "channel": "DAZN LaLiga",
-    "competition": "LALIGA"
-  },
-  {
     "title": "Rayo Vallecano - Athletic Club",
     "start_ts": 1772283600.0,
     "time_str": "14:00",
@@ -89,5 +82,12 @@
     "time_str": "21:00",
     "channel": "La 1",
     "competition": "COPA"
+  },
+  {
+    "title": "Osasuna - Mallorca",
+    "start_ts": 1772827200.0,
+    "time_str": "21:00",
+    "channel": "M+ LaLiga",
+    "competition": "LALIGA"
   }
 ]
