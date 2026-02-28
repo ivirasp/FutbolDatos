@@ -74,6 +74,18 @@
     },
     {
       "rank": "7",
+      "team": "Real Sociedad",
+      "points": "35",
+      "played": "26",
+      "won": "9",
+      "drawn": "8",
+      "lost": "9",
+      "gf": "38",
+      "ga": "38",
+      "dg": "0"
+    },
+    {
+      "rank": "8",
       "team": "Espanyol",
       "points": "35",
       "played": "25",
@@ -85,7 +97,7 @@
       "dg": "-6"
     },
     {
-      "rank": "8",
+      "rank": "9",
       "team": "Athletic",
       "points": "35",
       "played": "26",
@@ -97,7 +109,7 @@
       "dg": "-6"
     },
     {
-      "rank": "9",
+      "rank": "10",
       "team": "Osasuna",
       "points": "33",
       "played": "25",
@@ -107,18 +119,6 @@
       "gf": "30",
       "ga": "29",
       "dg": "+1"
-    },
-    {
-      "rank": "10",
-      "team": "Real Sociedad",
-      "points": "33",
-      "played": "26",
-      "won": "8",
-      "drawn": "9",
-      "lost": "9",
-      "gf": "37",
-      "ga": "38",
-      "dg": "-1"
     },
     {
       "rank": "11",
@@ -207,14 +207,14 @@
     {
       "rank": "18",
       "team": "Mallorca",
-      "points": "25",
+      "points": "24",
       "played": "26",
       "won": "6",
-      "drawn": "7",
-      "lost": "13",
+      "drawn": "6",
+      "lost": "14",
       "gf": "29",
-      "ga": "41",
-      "dg": "-12"
+      "ga": "42",
+      "dg": "-13"
     },
     {
       "rank": "19",
