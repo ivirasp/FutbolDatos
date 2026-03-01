@@ -111,14 +111,14 @@
     {
       "rank": "10",
       "team": "Osasuna",
-      "points": "34",
+      "points": "33",
       "played": "26",
       "won": "9",
-      "drawn": "7",
-      "lost": "10",
+      "drawn": "6",
+      "lost": "11",
       "gf": "30",
-      "ga": "29",
-      "dg": "+1"
+      "ga": "30",
+      "dg": "0"
     },
     {
       "rank": "11",
@@ -158,6 +158,18 @@
     },
     {
       "rank": "14",
+      "team": "Valencia",
+      "points": "29",
+      "played": "26",
+      "won": "7",
+      "drawn": "8",
+      "lost": "11",
+      "gf": "27",
+      "ga": "39",
+      "dg": "-12"
+    },
+    {
+      "rank": "15",
       "team": "Rayo Vallecano",
       "points": "27",
       "played": "25",
@@ -169,7 +181,7 @@
       "dg": "-9"
     },
     {
-      "rank": "15",
+      "rank": "16",
       "team": "Deportivo Alav\u00e9s",
       "points": "27",
       "played": "26",
@@ -179,18 +191,6 @@
       "gf": "23",
       "ga": "34",
       "dg": "-11"
-    },
-    {
-      "rank": "16",
-      "team": "Valencia",
-      "points": "27",
-      "played": "26",
-      "won": "6",
-      "drawn": "9",
-      "lost": "11",
-      "gf": "26",
-      "ga": "39",
-      "dg": "-13"
     },
     {
       "rank": "17",
