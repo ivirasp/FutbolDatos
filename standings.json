@@ -63,14 +63,14 @@
     {
       "rank": "6",
       "team": "Celta",
-      "points": "38",
+      "points": "40",
       "played": "26",
-      "won": "9",
-      "drawn": "11",
+      "won": "10",
+      "drawn": "10",
       "lost": "6",
-      "gf": "35",
+      "gf": "36",
       "ga": "28",
-      "dg": "+7"
+      "dg": "+8"
     },
     {
       "rank": "7",
@@ -122,18 +122,6 @@
     },
     {
       "rank": "11",
-      "team": "Girona FC",
-      "points": "31",
-      "played": "26",
-      "won": "7",
-      "drawn": "10",
-      "lost": "9",
-      "gf": "27",
-      "ga": "41",
-      "dg": "-14"
-    },
-    {
-      "rank": "12",
       "team": "Sevilla",
       "points": "30",
       "played": "26",
@@ -143,6 +131,18 @@
       "gf": "34",
       "ga": "41",
       "dg": "-7"
+    },
+    {
+      "rank": "12",
+      "team": "Girona FC",
+      "points": "30",
+      "played": "26",
+      "won": "7",
+      "drawn": "9",
+      "lost": "10",
+      "gf": "27",
+      "ga": "42",
+      "dg": "-15"
     },
     {
       "rank": "13",
