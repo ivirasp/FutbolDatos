@@ -62,6 +62,18 @@
     },
     {
       "rank": "6",
+      "team": "Espanyol",
+      "points": "38",
+      "played": "26",
+      "won": "11",
+      "drawn": "5",
+      "lost": "10",
+      "gf": "33",
+      "ga": "38",
+      "dg": "-5"
+    },
+    {
+      "rank": "7",
       "team": "Celta",
       "points": "37",
       "played": "25",
@@ -71,18 +83,6 @@
       "gf": "34",
       "ga": "27",
       "dg": "+7"
-    },
-    {
-      "rank": "7",
-      "team": "Espanyol",
-      "points": "36",
-      "played": "26",
-      "won": "10",
-      "drawn": "6",
-      "lost": "10",
-      "gf": "32",
-      "ga": "38",
-      "dg": "-6"
     },
     {
       "rank": "8",
@@ -182,18 +182,6 @@
     },
     {
       "rank": "16",
-      "team": "Elche",
-      "points": "26",
-      "played": "26",
-      "won": "5",
-      "drawn": "11",
-      "lost": "10",
-      "gf": "33",
-      "ga": "38",
-      "dg": "-5"
-    },
-    {
-      "rank": "17",
       "team": "Valencia",
       "points": "26",
       "played": "25",
@@ -203,6 +191,18 @@
       "gf": "26",
       "ga": "39",
       "dg": "-13"
+    },
+    {
+      "rank": "17",
+      "team": "Elche",
+      "points": "25",
+      "played": "26",
+      "won": "5",
+      "drawn": "10",
+      "lost": "11",
+      "gf": "33",
+      "ga": "39",
+      "dg": "-6"
     },
     {
       "rank": "18",
