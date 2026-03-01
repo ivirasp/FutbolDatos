@@ -111,10 +111,10 @@
     {
       "rank": "10",
       "team": "Osasuna",
-      "points": "33",
-      "played": "25",
+      "points": "34",
+      "played": "26",
       "won": "9",
-      "drawn": "6",
+      "drawn": "7",
       "lost": "10",
       "gf": "30",
       "ga": "29",
@@ -182,6 +182,18 @@
     },
     {
       "rank": "16",
+      "team": "Valencia",
+      "points": "27",
+      "played": "26",
+      "won": "6",
+      "drawn": "9",
+      "lost": "11",
+      "gf": "26",
+      "ga": "39",
+      "dg": "-13"
+    },
+    {
+      "rank": "17",
       "team": "Elche",
       "points": "26",
       "played": "26",
@@ -191,18 +203,6 @@
       "gf": "34",
       "ga": "39",
       "dg": "-5"
-    },
-    {
-      "rank": "17",
-      "team": "Valencia",
-      "points": "26",
-      "played": "25",
-      "won": "6",
-      "drawn": "8",
-      "lost": "11",
-      "gf": "26",
-      "ga": "39",
-      "dg": "-13"
     },
     {
       "rank": "18",
