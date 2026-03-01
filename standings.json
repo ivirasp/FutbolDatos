@@ -51,14 +51,14 @@
     {
       "rank": "5",
       "team": "Real Betis",
-      "points": "45",
+      "points": "43",
       "played": "26",
-      "won": "12",
-      "drawn": "9",
+      "won": "11",
+      "drawn": "10",
       "lost": "5",
       "gf": "42",
-      "ga": "31",
-      "dg": "+11"
+      "ga": "32",
+      "dg": "+10"
     },
     {
       "rank": "6",
@@ -122,6 +122,18 @@
     },
     {
       "rank": "11",
+      "team": "Sevilla",
+      "points": "30",
+      "played": "26",
+      "won": "8",
+      "drawn": "6",
+      "lost": "12",
+      "gf": "34",
+      "ga": "41",
+      "dg": "-7"
+    },
+    {
+      "rank": "12",
       "team": "Girona FC",
       "points": "30",
       "played": "25",
@@ -133,31 +145,7 @@
       "dg": "-14"
     },
     {
-      "rank": "12",
-      "team": "Sevilla",
-      "points": "29",
-      "played": "26",
-      "won": "8",
-      "drawn": "5",
-      "lost": "13",
-      "gf": "33",
-      "ga": "41",
-      "dg": "-8"
-    },
-    {
       "rank": "13",
-      "team": "Getafe",
-      "points": "29",
-      "played": "25",
-      "won": "8",
-      "drawn": "5",
-      "lost": "12",
-      "gf": "20",
-      "ga": "29",
-      "dg": "-9"
-    },
-    {
-      "rank": "14",
       "team": "Valencia",
       "points": "29",
       "played": "26",
@@ -167,6 +155,18 @@
       "gf": "27",
       "ga": "39",
       "dg": "-12"
+    },
+    {
+      "rank": "14",
+      "team": "Getafe",
+      "points": "29",
+      "played": "25",
+      "won": "8",
+      "drawn": "5",
+      "lost": "12",
+      "gf": "20",
+      "ga": "29",
+      "dg": "-9"
     },
     {
       "rank": "15",
