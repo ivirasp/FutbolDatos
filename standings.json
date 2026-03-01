@@ -51,14 +51,14 @@
     {
       "rank": "5",
       "team": "Real Betis",
-      "points": "42",
-      "played": "25",
-      "won": "11",
+      "points": "45",
+      "played": "26",
+      "won": "12",
       "drawn": "9",
       "lost": "5",
-      "gf": "40",
+      "gf": "41",
       "ga": "30",
-      "dg": "+10"
+      "dg": "+11"
     },
     {
       "rank": "6",
@@ -136,13 +136,13 @@
       "rank": "12",
       "team": "Sevilla",
       "points": "29",
-      "played": "25",
+      "played": "26",
       "won": "8",
       "drawn": "5",
-      "lost": "12",
+      "lost": "13",
       "gf": "32",
-      "ga": "39",
-      "dg": "-7"
+      "ga": "40",
+      "dg": "-8"
     },
     {
       "rank": "13",
