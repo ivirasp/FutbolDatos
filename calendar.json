@@ -1,12 +1,5 @@
 [
   {
-    "title": "Real Madrid - Getafe",
-    "start_ts": 1772481600.0,
-    "time_str": "21:00",
-    "channel": "DAZN LaLiga",
-    "competition": "LALIGA"
-  },
-  {
     "title": "Barcelona - Atl\u00e9tico de Madrid",
     "start_ts": 1772568000.0,
     "time_str": "21:00",
@@ -86,6 +79,13 @@
   {
     "title": "Valencia - Alav\u00e9s",
     "start_ts": 1773000000.0,
+    "time_str": "21:00",
+    "channel": "M+ LaLiga",
+    "competition": "LALIGA"
+  },
+  {
+    "title": "Espanyol - Real Oviedo",
+    "start_ts": 1773086400.0,
     "time_str": "21:00",
     "channel": "M+ LaLiga",
     "competition": "LALIGA"
