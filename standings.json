@@ -146,6 +146,18 @@
     },
     {
       "rank": "13",
+      "team": "Rayo Vallecano",
+      "points": "30",
+      "played": "26",
+      "won": "7",
+      "drawn": "9",
+      "lost": "10",
+      "gf": "25",
+      "ga": "32",
+      "dg": "-7"
+    },
+    {
+      "rank": "14",
       "team": "Girona FC",
       "points": "30",
       "played": "26",
@@ -157,7 +169,7 @@
       "dg": "-15"
     },
     {
-      "rank": "14",
+      "rank": "15",
       "team": "Valencia",
       "points": "29",
       "played": "26",
@@ -167,18 +179,6 @@
       "gf": "27",
       "ga": "39",
       "dg": "-12"
-    },
-    {
-      "rank": "15",
-      "team": "Rayo Vallecano",
-      "points": "28",
-      "played": "26",
-      "won": "6",
-      "drawn": "10",
-      "lost": "10",
-      "gf": "23",
-      "ga": "32",
-      "dg": "-9"
     },
     {
       "rank": "16",
@@ -231,14 +231,14 @@
     {
       "rank": "20",
       "team": "Real Oviedo",
-      "points": "18",
+      "points": "17",
       "played": "26",
       "won": "3",
-      "drawn": "9",
-      "lost": "14",
+      "drawn": "8",
+      "lost": "15",
       "gf": "16",
-      "ga": "40",
-      "dg": "-24"
+      "ga": "42",
+      "dg": "-26"
     }
   ],
   "CHAMPIONS": [
