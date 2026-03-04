@@ -134,6 +134,18 @@
     },
     {
       "rank": "12",
+      "team": "Rayo Vallecano",
+      "points": "30",
+      "played": "26",
+      "won": "7",
+      "drawn": "9",
+      "lost": "10",
+      "gf": "26",
+      "ga": "32",
+      "dg": "-6"
+    },
+    {
+      "rank": "13",
       "team": "Sevilla",
       "points": "30",
       "played": "26",
@@ -142,18 +154,6 @@
       "lost": "12",
       "gf": "34",
       "ga": "41",
-      "dg": "-7"
-    },
-    {
-      "rank": "13",
-      "team": "Rayo Vallecano",
-      "points": "30",
-      "played": "26",
-      "won": "7",
-      "drawn": "9",
-      "lost": "10",
-      "gf": "25",
-      "ga": "32",
       "dg": "-7"
     },
     {
@@ -237,8 +237,8 @@
       "drawn": "8",
       "lost": "15",
       "gf": "16",
-      "ga": "42",
-      "dg": "-26"
+      "ga": "43",
+      "dg": "-27"
     }
   ],
   "CHAMPIONS": [
