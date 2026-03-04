@@ -1585,7 +1585,7 @@
           "status": "Fin"
         }
       ],
-      "Jornada 23 (Actual)": [
+      "Jornada 23": [
         {
           "date": "06-02-2026",
           "home": "Celta de Vigo",
@@ -1873,7 +1873,7 @@
           "status": "Fin"
         }
       ],
-      "Jornada 27": [
+      "Jornada 27 (Actual)": [
         {
           "date": "06-03-2026",
           "home": "Celta de Vigo",
@@ -2738,7 +2738,7 @@
         }
       ]
     },
-    "current": "Jornada 23 (Actual)"
+    "current": "Jornada 27 (Actual)"
   },
   "CHAMPIONS": {
     "rounds": {
@@ -6276,7 +6276,7 @@
           "status": "Fin"
         }
       ],
-      "Semifinal (vuelta) (Actual)": [
+      "Semifinal (vuelta)": [
         {
           "date": "03-03-2026",
           "home": "Barcelona",
@@ -6292,7 +6292,7 @@
           "status": "Fin"
         }
       ],
-      "Final": [
+      "Final (Actual)": [
         {
           "date": "18-04-2026",
           "home": "Atl\u00e9tico de Madrid",
@@ -6302,6 +6302,6 @@
         }
       ]
     },
-    "current": "Semifinal (vuelta) (Actual)"
+    "current": "Final (Actual)"
   }
 }
