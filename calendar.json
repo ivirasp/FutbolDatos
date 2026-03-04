@@ -1,12 +1,5 @@
 [
   {
-    "title": "Barcelona - Atl\u00e9tico de Madrid",
-    "start_ts": 1772568000.0,
-    "time_str": "21:00",
-    "channel": "La 1",
-    "competition": "COPA"
-  },
-  {
     "title": "Rayo Vallecano - Real Oviedo",
     "start_ts": 1772647200.0,
     "time_str": "19:00",
