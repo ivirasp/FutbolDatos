@@ -1,19 +1,5 @@
 [
   {
-    "title": "Rayo Vallecano - Real Oviedo",
-    "start_ts": 1772647200.0,
-    "time_str": "19:00",
-    "channel": "DAZN LaLiga",
-    "competition": "LALIGA"
-  },
-  {
-    "title": "Real Sociedad - Athletic Club",
-    "start_ts": 1772654400.0,
-    "time_str": "21:00",
-    "channel": "La 1",
-    "competition": "COPA"
-  },
-  {
     "title": "Celta - Real Madrid",
     "start_ts": 1772827200.0,
     "time_str": "21:00",
@@ -194,6 +180,13 @@
     "time_str": "21:00",
     "channel": "M+ Liga de Campeones",
     "competition": "EUROPA"
+  },
+  {
+    "title": "Alav\u00e9s - Villarreal",
+    "start_ts": 1773432000.0,
+    "time_str": "21:00",
+    "channel": "DAZN LaLiga",
+    "competition": "LALIGA"
   },
   {
     "title": "Sporting Portugal - Bod\u00f8/Glimt",
