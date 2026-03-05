@@ -299,5 +299,12 @@
     "time_str": "21:00",
     "channel": "M+ Liga de Campeones",
     "competition": "EUROPA"
+  },
+  {
+    "title": "Atl\u00e9tico de Madrid - Real Sociedad",
+    "start_ts": 1776538800.0,
+    "time_str": "21:00",
+    "channel": "La 1",
+    "competition": "COPA"
   }
 ]
