@@ -73,21 +73,21 @@
     "title": "Galatasaray - Liverpool",
     "start_ts": 1773164700.0,
     "time_str": "18:45",
-    "channel": "M+ Liga de Campeones",
+    "channel": "M+ Liga de Campeones 2",
     "competition": "CHAMPIONS"
   },
   {
     "title": "Atalanta - FC Bayern",
     "start_ts": 1773172800.0,
     "time_str": "21:00",
-    "channel": "M+ Liga de Campeones",
+    "channel": "M+ Liga de Campeones 3",
     "competition": "CHAMPIONS"
   },
   {
     "title": "Atl\u00e9tico de Madrid - Tottenham",
     "start_ts": 1773172800.0,
     "time_str": "21:00",
-    "channel": "M+ Liga de Campeones",
+    "channel": "M+ Liga de Campeones 2",
     "competition": "CHAMPIONS"
   },
   {
@@ -101,7 +101,7 @@
     "title": "Bayer Leverkusen - Arsenal",
     "start_ts": 1773251100.0,
     "time_str": "18:45",
-    "channel": "M+ Liga de Campeones",
+    "channel": "M+ Liga de Campeones 2",
     "competition": "CHAMPIONS"
   },
   {
@@ -115,35 +115,35 @@
     "title": "PSG - Chelsea",
     "start_ts": 1773259200.0,
     "time_str": "21:00",
-    "channel": "M+ Liga de Campeones",
+    "channel": "M+ Liga de Campeones 2",
     "competition": "CHAMPIONS"
   },
   {
     "title": "Bod\u00f8/Glimt - Sporting Portugal",
     "start_ts": 1773259200.0,
     "time_str": "21:00",
-    "channel": "M+ Liga de Campeones",
+    "channel": "M+ Liga de Campeones 3",
     "competition": "CHAMPIONS"
   },
   {
     "title": "Stuttgart - Porto",
     "start_ts": 1773337500.0,
     "time_str": "18:45",
-    "channel": "M+ Liga de Campeones",
+    "channel": "M+ Liga de Campeones 3",
     "competition": "EUROPA"
   },
   {
     "title": "Lille - Aston Villa",
     "start_ts": 1773337500.0,
     "time_str": "18:45",
-    "channel": "M+ Liga de Campeones",
+    "channel": "M+ Liga de Campeones 3",
     "competition": "EUROPA"
   },
   {
     "title": "Bologna - Roma",
     "start_ts": 1773337500.0,
     "time_str": "18:45",
-    "channel": "M+ Liga de Campeones",
+    "channel": "M+ Liga de Campeones 3",
     "competition": "EUROPA"
   },
   {
@@ -157,14 +157,14 @@
     "title": "Genk - Friburgo",
     "start_ts": 1773345600.0,
     "time_str": "21:00",
-    "channel": "M+ Liga de Campeones",
+    "channel": "M+ Liga de Campeones 3",
     "competition": "EUROPA"
   },
   {
     "title": "Nottingham Forest - FC Midtjylland",
     "start_ts": 1773345600.0,
     "time_str": "21:00",
-    "channel": "M+ Liga de Campeones",
+    "channel": "M+ Liga de Campeones 2",
     "competition": "EUROPA"
   },
   {
@@ -178,7 +178,7 @@
     "title": "Ferencvaros - Braga",
     "start_ts": 1773345600.0,
     "time_str": "21:00",
-    "channel": "M+ Liga de Campeones",
+    "channel": "M+ Liga de Campeones 3",
     "competition": "EUROPA"
   },
   {
