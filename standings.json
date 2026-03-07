@@ -117,8 +117,8 @@
       "drawn": "6",
       "lost": "12",
       "gf": "30",
-      "ga": "31",
-      "dg": "-1"
+      "ga": "32",
+      "dg": "-2"
     },
     {
       "rank": "11",
@@ -182,6 +182,18 @@
     },
     {
       "rank": "16",
+      "team": "Mallorca",
+      "points": "27",
+      "played": "27",
+      "won": "7",
+      "drawn": "6",
+      "lost": "14",
+      "gf": "31",
+      "ga": "42",
+      "dg": "-11"
+    },
+    {
+      "rank": "17",
       "team": "Deportivo Alav\u00e9s",
       "points": "27",
       "played": "26",
@@ -191,18 +203,6 @@
       "gf": "23",
       "ga": "34",
       "dg": "-11"
-    },
-    {
-      "rank": "17",
-      "team": "Mallorca",
-      "points": "27",
-      "played": "27",
-      "won": "7",
-      "drawn": "6",
-      "lost": "14",
-      "gf": "30",
-      "ga": "42",
-      "dg": "-12"
     },
     {
       "rank": "18",
