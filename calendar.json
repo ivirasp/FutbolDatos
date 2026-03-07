@@ -1,12 +1,5 @@
 [
   {
-    "title": "Celta - Real Madrid",
-    "start_ts": 1772827200.0,
-    "time_str": "21:00",
-    "channel": "M+ LaLiga",
-    "competition": "LALIGA"
-  },
-  {
     "title": "Osasuna - Mallorca",
     "start_ts": 1772888400.0,
     "time_str": "14:00",
@@ -186,6 +179,34 @@
     "start_ts": 1773432000.0,
     "time_str": "21:00",
     "channel": "DAZN LaLiga",
+    "competition": "LALIGA"
+  },
+  {
+    "title": "Girona - Athletic Club",
+    "start_ts": 1773493200.0,
+    "time_str": "14:00",
+    "channel": "Teledeporte",
+    "competition": "LALIGA"
+  },
+  {
+    "title": "Atl\u00e9tico de Madrid - Getafe",
+    "start_ts": 1773501300.0,
+    "time_str": "16:15",
+    "channel": "M+ LaLiga",
+    "competition": "LALIGA"
+  },
+  {
+    "title": "Real Oviedo - Valencia",
+    "start_ts": 1773509400.0,
+    "time_str": "18:30",
+    "channel": "DAZN LaLiga",
+    "competition": "LALIGA"
+  },
+  {
+    "title": "Real Madrid - Elche",
+    "start_ts": 1773518400.0,
+    "time_str": "21:00",
+    "channel": "M+ LaLiga",
     "competition": "LALIGA"
   },
   {
