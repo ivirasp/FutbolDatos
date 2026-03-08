@@ -51,14 +51,14 @@
     {
       "rank": "5",
       "team": "Real Betis",
-      "points": "44",
+      "points": "43",
       "played": "27",
       "won": "11",
-      "drawn": "11",
-      "lost": "5",
+      "drawn": "10",
+      "lost": "6",
       "gf": "42",
-      "ga": "32",
-      "dg": "+10"
+      "ga": "33",
+      "dg": "+9"
     },
     {
       "rank": "6",
@@ -110,6 +110,18 @@
     },
     {
       "rank": "10",
+      "team": "Getafe",
+      "points": "35",
+      "played": "27",
+      "won": "10",
+      "drawn": "5",
+      "lost": "12",
+      "gf": "22",
+      "ga": "29",
+      "dg": "-7"
+    },
+    {
+      "rank": "11",
       "team": "Osasuna",
       "points": "34",
       "played": "27",
@@ -119,18 +131,6 @@
       "gf": "32",
       "ga": "32",
       "dg": "0"
-    },
-    {
-      "rank": "11",
-      "team": "Getafe",
-      "points": "33",
-      "played": "27",
-      "won": "9",
-      "drawn": "6",
-      "lost": "12",
-      "gf": "21",
-      "ga": "29",
-      "dg": "-8"
     },
     {
       "rank": "12",
