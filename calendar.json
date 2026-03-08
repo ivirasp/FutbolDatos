@@ -1,33 +1,5 @@
 [
   {
-    "title": "Osasuna - Mallorca",
-    "start_ts": 1772888400.0,
-    "time_str": "14:00",
-    "channel": "M+ LaLiga",
-    "competition": "LALIGA"
-  },
-  {
-    "title": "Levante - Girona",
-    "start_ts": 1772896500.0,
-    "time_str": "16:15",
-    "channel": "M+ LaLiga",
-    "competition": "LALIGA"
-  },
-  {
-    "title": "Atl\u00e9tico de Madrid - Real Sociedad",
-    "start_ts": 1772904600.0,
-    "time_str": "18:30",
-    "channel": "M+ LaLiga",
-    "competition": "LALIGA"
-  },
-  {
-    "title": "Athletic Club - Barcelona",
-    "start_ts": 1772913600.0,
-    "time_str": "21:00",
-    "channel": "M+ LaLiga",
-    "competition": "LALIGA"
-  },
-  {
     "title": "Villarreal - Elche",
     "start_ts": 1772974800.0,
     "time_str": "14:00",
@@ -207,6 +179,34 @@
     "start_ts": 1773518400.0,
     "time_str": "21:00",
     "channel": "M+ LaLiga",
+    "competition": "LALIGA"
+  },
+  {
+    "title": "Mallorca - Espanyol",
+    "start_ts": 1773579600.0,
+    "time_str": "14:00",
+    "channel": "M+ LaLiga",
+    "competition": "LALIGA"
+  },
+  {
+    "title": "Barcelona - Sevilla",
+    "start_ts": 1773587700.0,
+    "time_str": "16:15",
+    "channel": "DAZN LaLiga",
+    "competition": "LALIGA"
+  },
+  {
+    "title": "Betis - Celta",
+    "start_ts": 1773595800.0,
+    "time_str": "18:30",
+    "channel": "M+ LaLiga",
+    "competition": "LALIGA"
+  },
+  {
+    "title": "Real Sociedad - Osasuna",
+    "start_ts": 1773604800.0,
+    "time_str": "21:00",
+    "channel": "DAZN LaLiga",
     "competition": "LALIGA"
   },
   {
