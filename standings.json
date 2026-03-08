@@ -134,18 +134,30 @@
     },
     {
       "rank": "12",
-      "team": "Sevilla",
-      "points": "33",
+      "team": "Rayo Vallecano",
+      "points": "31",
       "played": "27",
-      "won": "9",
-      "drawn": "6",
-      "lost": "12",
-      "gf": "35",
-      "ga": "41",
+      "won": "7",
+      "drawn": "10",
+      "lost": "10",
+      "gf": "27",
+      "ga": "33",
       "dg": "-6"
     },
     {
       "rank": "13",
+      "team": "Sevilla",
+      "points": "31",
+      "played": "27",
+      "won": "8",
+      "drawn": "7",
+      "lost": "12",
+      "gf": "35",
+      "ga": "42",
+      "dg": "-7"
+    },
+    {
+      "rank": "14",
       "team": "Girona FC",
       "points": "31",
       "played": "27",
@@ -155,18 +167,6 @@
       "gf": "28",
       "ga": "43",
       "dg": "-15"
-    },
-    {
-      "rank": "14",
-      "team": "Rayo Vallecano",
-      "points": "30",
-      "played": "27",
-      "won": "7",
-      "drawn": "9",
-      "lost": "11",
-      "gf": "26",
-      "ga": "33",
-      "dg": "-7"
     },
     {
       "rank": "15",
