@@ -75,14 +75,14 @@
     {
       "rank": "7",
       "team": "Espanyol",
-      "points": "36",
+      "points": "37",
       "played": "27",
       "won": "10",
-      "drawn": "6",
-      "lost": "11",
-      "gf": "33",
+      "drawn": "7",
+      "lost": "10",
+      "gf": "34",
       "ga": "40",
-      "dg": "-7"
+      "dg": "-6"
     },
     {
       "rank": "8",
@@ -231,14 +231,14 @@
     {
       "rank": "20",
       "team": "Real Oviedo",
-      "points": "20",
+      "points": "18",
       "played": "27",
-      "won": "4",
-      "drawn": "8",
+      "won": "3",
+      "drawn": "9",
       "lost": "15",
       "gf": "17",
-      "ga": "43",
-      "dg": "-26"
+      "ga": "44",
+      "dg": "-27"
     }
   ],
   "CHAMPIONS": [
