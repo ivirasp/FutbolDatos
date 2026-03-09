@@ -42,13 +42,6 @@
     "competition": "CHAMPIONS"
   },
   {
-    "title": "Real Madrid - Manchester City",
-    "start_ts": 1773259200.0,
-    "time_str": "21:00",
-    "channel": "M+ Liga de Campeones",
-    "competition": "CHAMPIONS"
-  },
-  {
     "title": "PSG - Chelsea",
     "start_ts": 1773259200.0,
     "time_str": "21:00",
@@ -60,6 +53,13 @@
     "start_ts": 1773259200.0,
     "time_str": "21:00",
     "channel": "M+ Liga de Campeones 3",
+    "competition": "CHAMPIONS"
+  },
+  {
+    "title": "Real Madrid - Manchester City",
+    "start_ts": 1773259200.0,
+    "time_str": "21:00",
+    "channel": "M+ Liga de Campeones",
     "competition": "CHAMPIONS"
   },
   {
