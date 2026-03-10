@@ -1,12 +1,5 @@
 [
   {
-    "title": "Espanyol - Real Oviedo",
-    "start_ts": 1773086400.0,
-    "time_str": "21:00",
-    "channel": "M+ LaLiga",
-    "competition": "LALIGA"
-  },
-  {
     "title": "Galatasaray - Liverpool",
     "start_ts": 1773164700.0,
     "time_str": "18:45",
@@ -299,6 +292,13 @@
     "time_str": "21:00",
     "channel": "M+ Liga de Campeones",
     "competition": "EUROPA"
+  },
+  {
+    "title": "Villarreal - Real Sociedad",
+    "start_ts": 1774036800.0,
+    "time_str": "21:00",
+    "channel": "Teledeporte",
+    "competition": "LALIGA"
   },
   {
     "title": "Atl\u00e9tico de Madrid - Real Sociedad",
