@@ -3882,7 +3882,7 @@
           "status": "Fin"
         }
       ],
-      "Octavos de final (ida) (Actual)": [
+      "Octavos de final (ida)": [
         {
           "date": "10-03-2026",
           "home": "Galatasaray",
@@ -3940,7 +3940,7 @@
           "status": "Fin"
         }
       ],
-      "Octavos de final (vuelta)": [
+      "Octavos de final (vuelta) (Actual)": [
         {
           "date": "17-03-2026",
           "home": "Sporting CP",
@@ -4100,7 +4100,7 @@
         }
       ]
     },
-    "current": "Octavos de final (ida) (Actual)"
+    "current": "Octavos de final (vuelta) (Actual)"
   },
   "EUROPA": {
     "rounds": {
