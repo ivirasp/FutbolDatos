@@ -5244,7 +5244,7 @@
           "status": "Fin"
         }
       ],
-      "Jornada 11 (Actual)": [
+      "Jornada 11": [
         {
           "date": "12-03-2026",
           "home": "Bolonia",
@@ -5302,7 +5302,7 @@
           "status": "Fin"
         }
       ],
-      "Jornada 12": [
+      "Jornada 12 (Actual)": [
         {
           "date": "18-03-2026",
           "home": "Sporting Braga",
@@ -5462,7 +5462,7 @@
         }
       ]
     },
-    "current": "Jornada 11 (Actual)"
+    "current": "Jornada 12 (Actual)"
   },
   "COPA": {
     "rounds": {
