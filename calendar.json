@@ -1,33 +1,5 @@
 [
   {
-    "title": "Bayer Leverkusen - Arsenal",
-    "start_ts": 1773251100.0,
-    "time_str": "18:45",
-    "channel": "M+ Liga de Campeones 2",
-    "competition": "CHAMPIONS"
-  },
-  {
-    "title": "PSG - Chelsea",
-    "start_ts": 1773259200.0,
-    "time_str": "21:00",
-    "channel": "M+ Liga de Campeones 2",
-    "competition": "CHAMPIONS"
-  },
-  {
-    "title": "Bod\u00f8/Glimt - Sporting Portugal",
-    "start_ts": 1773259200.0,
-    "time_str": "21:00",
-    "channel": "M+ Liga de Campeones 3",
-    "competition": "CHAMPIONS"
-  },
-  {
-    "title": "Real Madrid - Manchester City",
-    "start_ts": 1773259200.0,
-    "time_str": "21:00",
-    "channel": "M+ Liga de Campeones",
-    "competition": "CHAMPIONS"
-  },
-  {
     "title": "Stuttgart - Porto",
     "start_ts": 1773337500.0,
     "time_str": "18:45",
