@@ -26,6 +26,18 @@
     },
     {
       "rank": "3",
+      "team": "Atl\u00e9tico de Madrid",
+      "points": "57",
+      "played": "28",
+      "won": "17",
+      "drawn": "6",
+      "lost": "5",
+      "gf": "47",
+      "ga": "25",
+      "dg": "+22"
+    },
+    {
+      "rank": "4",
       "team": "Villarreal",
       "points": "55",
       "played": "28",
@@ -35,18 +47,6 @@
       "gf": "51",
       "ga": "33",
       "dg": "+18"
-    },
-    {
-      "rank": "4",
-      "team": "Atl\u00e9tico de Madrid",
-      "points": "54",
-      "played": "27",
-      "won": "16",
-      "drawn": "6",
-      "lost": "5",
-      "gf": "46",
-      "ga": "25",
-      "dg": "+21"
     },
     {
       "rank": "5",
@@ -100,13 +100,13 @@
       "rank": "9",
       "team": "Getafe",
       "points": "35",
-      "played": "27",
+      "played": "28",
       "won": "10",
       "drawn": "5",
-      "lost": "12",
+      "lost": "13",
       "gf": "23",
-      "ga": "29",
-      "dg": "-6"
+      "ga": "30",
+      "dg": "-7"
     },
     {
       "rank": "10",
@@ -117,8 +117,8 @@
       "drawn": "5",
       "lost": "13",
       "gf": "30",
-      "ga": "39",
-      "dg": "-9"
+      "ga": "40",
+      "dg": "-10"
     },
     {
       "rank": "11",
@@ -140,9 +140,9 @@
       "won": "8",
       "drawn": "10",
       "lost": "10",
-      "gf": "30",
+      "gf": "31",
       "ga": "43",
-      "dg": "-13"
+      "dg": "-12"
     },
     {
       "rank": "13",
