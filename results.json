@@ -1957,15 +1957,15 @@
           "date": "14-03-2026",
           "home": "Atl\u00e9tico de Madrid",
           "away": "Getafe",
-          "score": "vs",
+          "score": "0 - 0",
           "status": ""
         },
         {
           "date": "14-03-2026",
           "home": "Girona",
           "away": "Athletic Club",
-          "score": "vs",
-          "status": ""
+          "score": "3 - 0",
+          "status": "Fin"
         },
         {
           "date": "14-03-2026",
@@ -2091,16 +2091,37 @@
       ],
       "Jornada 30": [
         {
-          "date": "05-04-2026",
+          "date": "03-04-2026",
+          "home": "Rayo Vallecano",
+          "away": "Elche",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "04-04-2026",
           "home": "Alav\u00e9s",
           "away": "Osasuna",
           "score": "vs",
           "status": ""
         },
         {
-          "date": "05-04-2026",
+          "date": "04-04-2026",
           "home": "Atl\u00e9tico de Madrid",
           "away": "Barcelona",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "04-04-2026",
+          "home": "Mallorca",
+          "away": "Real Madrid",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "04-04-2026",
+          "home": "Real Sociedad",
+          "away": "Levante",
           "score": "vs",
           "status": ""
         },
@@ -2108,27 +2129,6 @@
           "date": "05-04-2026",
           "home": "Getafe",
           "away": "Athletic Club",
-          "score": "vs",
-          "status": ""
-        },
-        {
-          "date": "05-04-2026",
-          "home": "Girona",
-          "away": "Villarreal",
-          "score": "vs",
-          "status": ""
-        },
-        {
-          "date": "05-04-2026",
-          "home": "Mallorca",
-          "away": "Real Madrid",
-          "score": "vs",
-          "status": ""
-        },
-        {
-          "date": "05-04-2026",
-          "home": "Rayo Vallecano",
-          "away": "Elche",
           "score": "vs",
           "status": ""
         },
@@ -2148,15 +2148,15 @@
         },
         {
           "date": "05-04-2026",
-          "home": "Real Sociedad",
-          "away": "Levante",
+          "home": "Valencia CF",
+          "away": "Celta de Vigo",
           "score": "vs",
           "status": ""
         },
         {
-          "date": "05-04-2026",
-          "home": "Valencia CF",
-          "away": "Celta de Vigo",
+          "date": "06-04-2026",
+          "home": "Girona",
+          "away": "Villarreal",
           "score": "vs",
           "status": ""
         }
