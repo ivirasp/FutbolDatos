@@ -147,14 +147,14 @@
     {
       "rank": "13",
       "team": "Valencia",
-      "points": "33",
+      "points": "32",
       "played": "28",
       "won": "8",
-      "drawn": "9",
-      "lost": "11",
+      "drawn": "8",
+      "lost": "12",
       "gf": "30",
-      "ga": "41",
-      "dg": "-11"
+      "ga": "42",
+      "dg": "-12"
     },
     {
       "rank": "14",
@@ -231,14 +231,14 @@
     {
       "rank": "20",
       "team": "Real Oviedo",
-      "points": "19",
+      "points": "21",
       "played": "28",
-      "won": "3",
-      "drawn": "10",
+      "won": "4",
+      "drawn": "9",
       "lost": "15",
-      "gf": "17",
+      "gf": "18",
       "ga": "44",
-      "dg": "-27"
+      "dg": "-26"
     }
   ],
   "CHAMPIONS": [
