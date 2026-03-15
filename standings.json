@@ -62,18 +62,6 @@
     },
     {
       "rank": "6",
-      "team": "Espanyol",
-      "points": "40",
-      "played": "28",
-      "won": "11",
-      "drawn": "7",
-      "lost": "10",
-      "gf": "35",
-      "ga": "40",
-      "dg": "-5"
-    },
-    {
-      "rank": "7",
       "team": "Celta",
       "points": "40",
       "played": "27",
@@ -83,6 +71,18 @@
       "gf": "37",
       "ga": "30",
       "dg": "+7"
+    },
+    {
+      "rank": "7",
+      "team": "Espanyol",
+      "points": "38",
+      "played": "28",
+      "won": "10",
+      "drawn": "8",
+      "lost": "10",
+      "gf": "35",
+      "ga": "41",
+      "dg": "-6"
     },
     {
       "rank": "8",
@@ -207,14 +207,14 @@
     {
       "rank": "18",
       "team": "Mallorca",
-      "points": "25",
+      "points": "26",
       "played": "28",
       "won": "6",
-      "drawn": "7",
-      "lost": "15",
-      "gf": "31",
+      "drawn": "8",
+      "lost": "14",
+      "gf": "32",
       "ga": "45",
-      "dg": "-14"
+      "dg": "-13"
     },
     {
       "rank": "19",
