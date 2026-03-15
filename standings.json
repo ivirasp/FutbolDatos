@@ -3,14 +3,14 @@
     {
       "rank": "1",
       "team": "FC Barcelona",
-      "points": "67",
-      "played": "27",
-      "won": "22",
+      "points": "70",
+      "played": "28",
+      "won": "23",
       "drawn": "1",
       "lost": "4",
-      "gf": "72",
+      "gf": "73",
       "ga": "26",
-      "dg": "+46"
+      "dg": "+47"
     },
     {
       "rank": "2",
@@ -160,13 +160,13 @@
       "rank": "14",
       "team": "Sevilla",
       "points": "31",
-      "played": "27",
+      "played": "28",
       "won": "8",
       "drawn": "7",
-      "lost": "12",
+      "lost": "13",
       "gf": "35",
-      "ga": "42",
-      "dg": "-7"
+      "ga": "43",
+      "dg": "-8"
     },
     {
       "rank": "15",
