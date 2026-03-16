@@ -1945,7 +1945,7 @@
           "status": "Fin"
         }
       ],
-      "Jornada 28 (Actual)": [
+      "Jornada 28": [
         {
           "date": "13-03-2026",
           "home": "Alav\u00e9s",
@@ -2017,7 +2017,7 @@
           "status": "Fin"
         }
       ],
-      "Jornada 29": [
+      "Jornada 29 (Actual)": [
         {
           "date": "20-03-2026",
           "home": "Villarreal",
@@ -2738,7 +2738,7 @@
         }
       ]
     },
-    "current": "Jornada 28 (Actual)"
+    "current": "Jornada 29 (Actual)"
   },
   "CHAMPIONS": {
     "rounds": {
