@@ -1,12 +1,5 @@
 [
   {
-    "title": "Rayo Vallecano - Levante",
-    "start_ts": 1773691200.0,
-    "time_str": "21:00",
-    "channel": "M+ LaLiga",
-    "competition": "LALIGA"
-  },
-  {
     "title": "Sporting Portugal - Bod\u00f8/Glimt",
     "start_ts": 1773769500.0,
     "time_str": "18:45",
@@ -193,6 +186,34 @@
     "start_ts": 1775242800.0,
     "time_str": "21:00",
     "channel": "M+ LaLiga",
+    "competition": "LALIGA"
+  },
+  {
+    "title": "Real Sociedad - Levante",
+    "start_ts": 1775304000.0,
+    "time_str": "14:00",
+    "channel": "DAZN LaLiga",
+    "competition": "LALIGA"
+  },
+  {
+    "title": "Mallorca - Real Madrid",
+    "start_ts": 1775312100.0,
+    "time_str": "16:15",
+    "channel": "M+ LaLiga",
+    "competition": "LALIGA"
+  },
+  {
+    "title": "Alav\u00e9s - Osasuna",
+    "start_ts": 1775320200.0,
+    "time_str": "18:30",
+    "channel": "M+ LaLiga",
+    "competition": "LALIGA"
+  },
+  {
+    "title": "Atl\u00e9tico de Madrid - Barcelona",
+    "start_ts": 1775329200.0,
+    "time_str": "21:00",
+    "channel": "DAZN LaLiga",
     "competition": "LALIGA"
   },
   {
