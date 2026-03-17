@@ -3864,7 +3864,7 @@
           "date": "25-02-2026",
           "home": "Juventus",
           "away": "Galatasaray",
-          "score": "3 - 2",
+          "score": "3 - 0",
           "status": "Fin"
         },
         {
@@ -3945,28 +3945,28 @@
           "date": "17-03-2026",
           "home": "Sporting CP",
           "away": "Bod\u00f8/Glimt",
-          "score": "4 - 0",
-          "status": "Directo"
+          "score": "5 - 0",
+          "status": "Fin"
         },
         {
           "date": "17-03-2026",
           "home": "Arsenal",
           "away": "Bayer Leverkusen",
-          "score": "0 - 0",
+          "score": "1 - 0",
           "status": "Directo"
         },
         {
           "date": "17-03-2026",
           "home": "Chelsea",
           "away": "PSG",
-          "score": "0 - 0",
+          "score": "0 - 2",
           "status": "Directo"
         },
         {
           "date": "17-03-2026",
           "home": "Manchester City",
           "away": "Real Madrid",
-          "score": "0 - 0",
+          "score": "1 - 1",
           "status": "Directo"
         },
         {
@@ -4022,7 +4022,7 @@
         },
         {
           "date": "07-04-2026",
-          "home": "Ganador octavos 7",
+          "home": "Sporting CP",
           "away": "Ganador octavos 8",
           "score": "vs",
           "status": ""
@@ -4053,7 +4053,7 @@
         {
           "date": "14-04-2026",
           "home": "Ganador octavos 8",
-          "away": "Ganador octavos 7",
+          "away": "Sporting CP",
           "score": "vs",
           "status": ""
         }
