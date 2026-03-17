@@ -3953,7 +3953,7 @@
           "home": "Arsenal",
           "away": "Bayer Leverkusen",
           "score": "2 - 0",
-          "status": "Directo"
+          "status": "Fin"
         },
         {
           "date": "17-03-2026",
@@ -3966,8 +3966,8 @@
           "date": "17-03-2026",
           "home": "Manchester City",
           "away": "Real Madrid",
-          "score": "1 - 1",
-          "status": "Directo"
+          "score": "1 - 2",
+          "status": "Fin"
         },
         {
           "date": "18-03-2026",
@@ -4001,14 +4001,14 @@
       "Cuartos de final (ida)": [
         {
           "date": "07-04-2026",
-          "home": "Ganador octavos 1",
+          "home": "PSG",
           "away": "Ganador octavos 2",
           "score": "vs",
           "status": ""
         },
         {
           "date": "07-04-2026",
-          "home": "Ganador octavos 3",
+          "home": "Real Madrid",
           "away": "Ganador octavos 4",
           "score": "vs",
           "status": ""
@@ -4023,7 +4023,7 @@
         {
           "date": "07-04-2026",
           "home": "Sporting CP",
-          "away": "Ganador octavos 8",
+          "away": "Arsenal",
           "score": "vs",
           "status": ""
         }
@@ -4031,15 +4031,22 @@
       "Cuartos de final (vuelta)": [
         {
           "date": "14-04-2026",
+          "home": "Arsenal",
+          "away": "Sporting CP",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "14-04-2026",
           "home": "Ganador octavos 2",
-          "away": "Ganador octavos 1",
+          "away": "PSG",
           "score": "vs",
           "status": ""
         },
         {
           "date": "14-04-2026",
           "home": "Ganador octavos 4",
-          "away": "Ganador octavos 3",
+          "away": "Real Madrid",
           "score": "vs",
           "status": ""
         },
@@ -4047,13 +4054,6 @@
           "date": "14-04-2026",
           "home": "Ganador octavos 6",
           "away": "Ganador octavos 5",
-          "score": "vs",
-          "status": ""
-        },
-        {
-          "date": "14-04-2026",
-          "home": "Ganador octavos 8",
-          "away": "Sporting CP",
           "score": "vs",
           "status": ""
         }
