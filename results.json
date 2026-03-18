@@ -3940,7 +3940,7 @@
           "status": "Fin"
         }
       ],
-      "Octavos de final (vuelta) (Actual)": [
+      "Octavos de final (vuelta)": [
         {
           "date": "17-03-2026",
           "home": "Sporting CP",
@@ -3998,7 +3998,7 @@
           "status": "Fin"
         }
       ],
-      "Cuartos de final (ida)": [
+      "Cuartos de final (ida) (Actual)": [
         {
           "date": "07-04-2026",
           "home": "Barcelona",
@@ -4100,7 +4100,7 @@
         }
       ]
     },
-    "current": "Octavos de final (vuelta) (Actual)"
+    "current": "Cuartos de final (ida) (Actual)"
   },
   "EUROPA": {
     "rounds": {
