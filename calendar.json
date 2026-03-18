@@ -1,33 +1,5 @@
 [
   {
-    "title": "Sporting Portugal - Bod\u00f8/Glimt",
-    "start_ts": 1773769500.0,
-    "time_str": "18:45",
-    "channel": "M+ Liga de Campeones 2",
-    "competition": "CHAMPIONS"
-  },
-  {
-    "title": "Arsenal - Bayer Leverkusen",
-    "start_ts": 1773777600.0,
-    "time_str": "21:00",
-    "channel": "M+ Liga de Campeones 2",
-    "competition": "CHAMPIONS"
-  },
-  {
-    "title": "Chelsea - PSG",
-    "start_ts": 1773777600.0,
-    "time_str": "21:00",
-    "channel": "M+ Liga de Campeones 3",
-    "competition": "CHAMPIONS"
-  },
-  {
-    "title": "Manchester City - Real Madrid",
-    "start_ts": 1773777600.0,
-    "time_str": "21:00",
-    "channel": "M+ Liga de Campeones",
-    "competition": "CHAMPIONS"
-  },
-  {
     "title": "Braga - Ferencvaros",
     "start_ts": 1773847800.0,
     "time_str": "16:30",
