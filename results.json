@@ -3973,8 +3973,8 @@
           "date": "18-03-2026",
           "home": "Barcelona",
           "away": "Newcastle United",
-          "score": "0 - 0",
-          "status": ""
+          "score": "2 - 2",
+          "status": "Directo"
         },
         {
           "date": "18-03-2026",
@@ -5307,8 +5307,8 @@
           "date": "18-03-2026",
           "home": "Sporting Braga",
           "away": "Ferencv\u00e1rosi TC",
-          "score": "vs",
-          "status": ""
+          "score": "4 - 0",
+          "status": "Fin"
         },
         {
           "date": "19-03-2026",
@@ -5363,13 +5363,6 @@
       "Jornada 13": [
         {
           "date": "09-04-2026",
-          "home": "Round of sixteen 1 Winner",
-          "away": "Round of sixteen 2 Winner",
-          "score": "vs",
-          "status": ""
-        },
-        {
-          "date": "09-04-2026",
           "home": "Round of sixteen 3 Winner",
           "away": "Round of sixteen 4 Winner",
           "score": "vs",
@@ -5388,13 +5381,20 @@
           "away": "Round of sixteen 8 Winner",
           "score": "vs",
           "status": ""
+        },
+        {
+          "date": "09-04-2026",
+          "home": "Sporting Braga",
+          "away": "Round of sixteen 2 Winner",
+          "score": "vs",
+          "status": ""
         }
       ],
       "Jornada 14": [
         {
           "date": "16-04-2026",
           "home": "Round of sixteen 2 Winner",
-          "away": "Round of sixteen 1 Winner",
+          "away": "Sporting Braga",
           "score": "vs",
           "status": ""
         },
