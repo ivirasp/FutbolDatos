@@ -3981,42 +3981,42 @@
           "home": "Bayern M\u00fanich",
           "away": "Atalanta",
           "score": "4 - 1",
-          "status": "Directo"
+          "status": "Fin"
         },
         {
           "date": "18-03-2026",
           "home": "Liverpool",
           "away": "Galatasaray",
           "score": "4 - 0",
-          "status": "Directo"
+          "status": "Fin"
         },
         {
           "date": "18-03-2026",
           "home": "Tottenham Hotspur",
           "away": "Atl\u00e9tico de Madrid",
           "score": "3 - 2",
-          "status": "Directo"
+          "status": "Fin"
         }
       ],
       "Cuartos de final (ida)": [
         {
           "date": "07-04-2026",
           "home": "Barcelona",
-          "away": "Ganador octavos 6",
+          "away": "Atl\u00e9tico de Madrid",
           "score": "vs",
           "status": ""
         },
         {
           "date": "07-04-2026",
           "home": "PSG",
-          "away": "Ganador octavos 2",
+          "away": "Liverpool",
           "score": "vs",
           "status": ""
         },
         {
           "date": "07-04-2026",
           "home": "Real Madrid",
-          "away": "Ganador octavos 4",
+          "away": "Bayern M\u00fanich",
           "score": "vs",
           "status": ""
         },
@@ -4038,22 +4038,22 @@
         },
         {
           "date": "14-04-2026",
-          "home": "Ganador octavos 2",
-          "away": "PSG",
+          "home": "Atl\u00e9tico de Madrid",
+          "away": "Barcelona",
           "score": "vs",
           "status": ""
         },
         {
           "date": "14-04-2026",
-          "home": "Ganador octavos 4",
+          "home": "Bayern M\u00fanich",
           "away": "Real Madrid",
           "score": "vs",
           "status": ""
         },
         {
           "date": "14-04-2026",
-          "home": "Ganador octavos 6",
-          "away": "Barcelona",
+          "home": "Liverpool",
+          "away": "PSG",
           "score": "vs",
           "status": ""
         }
