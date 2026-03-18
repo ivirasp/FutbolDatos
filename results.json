@@ -3864,7 +3864,7 @@
           "date": "25-02-2026",
           "home": "Juventus",
           "away": "Galatasaray",
-          "score": "3 - 0",
+          "score": "3 - 2",
           "status": "Fin"
         },
         {
@@ -4001,20 +4001,6 @@
       "Cuartos de final (ida) (Actual)": [
         {
           "date": "07-04-2026",
-          "home": "Barcelona",
-          "away": "Atl\u00e9tico de Madrid",
-          "score": "vs",
-          "status": ""
-        },
-        {
-          "date": "07-04-2026",
-          "home": "PSG",
-          "away": "Liverpool",
-          "score": "vs",
-          "status": ""
-        },
-        {
-          "date": "07-04-2026",
           "home": "Real Madrid",
           "away": "Bayern M\u00fanich",
           "score": "vs",
@@ -4026,16 +4012,23 @@
           "away": "Arsenal",
           "score": "vs",
           "status": ""
-        }
-      ],
-      "Cuartos de final (vuelta)": [
+        },
         {
-          "date": "14-04-2026",
-          "home": "Arsenal",
-          "away": "Sporting CP",
+          "date": "08-04-2026",
+          "home": "Barcelona",
+          "away": "Atl\u00e9tico de Madrid",
           "score": "vs",
           "status": ""
         },
+        {
+          "date": "08-04-2026",
+          "home": "PSG",
+          "away": "Liverpool",
+          "score": "vs",
+          "status": ""
+        }
+      ],
+      "Cuartos de final (vuelta)": [
         {
           "date": "14-04-2026",
           "home": "Atl\u00e9tico de Madrid",
@@ -4045,15 +4038,22 @@
         },
         {
           "date": "14-04-2026",
-          "home": "Bayern M\u00fanich",
-          "away": "Real Madrid",
+          "home": "Liverpool",
+          "away": "PSG",
           "score": "vs",
           "status": ""
         },
         {
-          "date": "14-04-2026",
-          "home": "Liverpool",
-          "away": "PSG",
+          "date": "15-04-2026",
+          "home": "Arsenal",
+          "away": "Sporting CP",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "15-04-2026",
+          "home": "Bayern M\u00fanich",
+          "away": "Real Madrid",
           "score": "vs",
           "status": ""
         }
