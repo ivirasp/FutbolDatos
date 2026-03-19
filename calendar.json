@@ -1,40 +1,5 @@
 [
   {
-    "title": "Braga - Ferencvaros",
-    "start_ts": 1773847800.0,
-    "time_str": "16:30",
-    "channel": "M+ Liga de Campeones 2",
-    "competition": "EUROPA"
-  },
-  {
-    "title": "Barcelona - Newcastle",
-    "start_ts": 1773855900.0,
-    "time_str": "18:45",
-    "channel": "M+ Liga de Campeones",
-    "competition": "CHAMPIONS"
-  },
-  {
-    "title": "Tottenham - Atl\u00e9tico de Madrid",
-    "start_ts": 1773864000.0,
-    "time_str": "21:00",
-    "channel": "M+ Liga de Campeones",
-    "competition": "CHAMPIONS"
-  },
-  {
-    "title": "FC Bayern - Atalanta",
-    "start_ts": 1773864000.0,
-    "time_str": "21:00",
-    "channel": "M+ Liga de Campeones 4",
-    "competition": "CHAMPIONS"
-  },
-  {
-    "title": "Liverpool - Galatasaray",
-    "start_ts": 1773864000.0,
-    "time_str": "21:00",
-    "channel": "M+ Liga de Campeones 3",
-    "competition": "CHAMPIONS"
-  },
-  {
     "title": "Friburgo - Genk",
     "start_ts": 1773942300.0,
     "time_str": "18:45",
