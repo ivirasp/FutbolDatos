@@ -5205,7 +5205,7 @@
           "date": "26-02-2026",
           "home": "Estrella Roja",
           "away": "Lille",
-          "score": "0 - 2",
+          "score": "0 - 1",
           "status": "Fin"
         },
         {
@@ -5219,7 +5219,7 @@
           "date": "26-02-2026",
           "home": "KRC Genk",
           "away": "Dinamo Zagreb",
-          "score": "3 - 3",
+          "score": "1 - 3",
           "status": "Fin"
         },
         {
@@ -5302,7 +5302,7 @@
           "status": "Fin"
         }
       ],
-      "Jornada 12 (Actual)": [
+      "Jornada 12": [
         {
           "date": "18-03-2026",
           "home": "Sporting Braga",
@@ -5349,8 +5349,8 @@
           "date": "19-03-2026",
           "home": "Roma",
           "away": "Bolonia",
-          "score": "0 - 0",
-          "status": ""
+          "score": "3 - 3",
+          "status": "Fin"
         },
         {
           "date": "19-03-2026",
@@ -5360,18 +5360,18 @@
           "status": "Fin"
         }
       ],
-      "Jornada 13": [
+      "Jornada 13 (Actual)": [
         {
           "date": "09-04-2026",
-          "home": "FC Porto",
-          "away": "Nottingham Forest",
+          "home": "Bolonia",
+          "away": "Aston Villa",
           "score": "vs",
           "status": ""
         },
         {
           "date": "09-04-2026",
-          "home": "Round of sixteen 7 Winner",
-          "away": "Aston Villa",
+          "home": "FC Porto",
+          "away": "Nottingham Forest",
           "score": "vs",
           "status": ""
         },
@@ -5462,7 +5462,7 @@
         }
       ]
     },
-    "current": "Jornada 12 (Actual)"
+    "current": "Jornada 13 (Actual)"
   },
   "COPA": {
     "rounds": {
