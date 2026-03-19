@@ -5205,7 +5205,7 @@
           "date": "26-02-2026",
           "home": "Estrella Roja",
           "away": "Lille",
-          "score": "0 - 1",
+          "score": "0 - 2",
           "status": "Fin"
         },
         {
@@ -5219,7 +5219,7 @@
           "date": "26-02-2026",
           "home": "KRC Genk",
           "away": "Dinamo Zagreb",
-          "score": "1 - 3",
+          "score": "3 - 3",
           "status": "Fin"
         },
         {
@@ -5314,78 +5314,78 @@
           "date": "19-03-2026",
           "home": "Aston Villa",
           "away": "Lille",
-          "score": "vs",
-          "status": ""
+          "score": "2 - 0",
+          "status": "Fin"
         },
         {
           "date": "19-03-2026",
           "home": "FC Midtjylland",
           "away": "Nottingham Forest",
-          "score": "vs",
-          "status": ""
+          "score": "1 - 2",
+          "status": "Fin"
         },
         {
           "date": "19-03-2026",
           "home": "FC Porto",
           "away": "Stuttgart",
-          "score": "vs",
-          "status": ""
+          "score": "2 - 0",
+          "status": "Fin"
         },
         {
           "date": "19-03-2026",
           "home": "Lyon",
           "away": "Celta de Vigo",
-          "score": "vs",
-          "status": ""
+          "score": "0 - 2",
+          "status": "Fin"
         },
         {
           "date": "19-03-2026",
           "home": "Real Betis",
           "away": "Panathinaikos",
-          "score": "vs",
-          "status": ""
+          "score": "4 - 0",
+          "status": "Fin"
         },
         {
           "date": "19-03-2026",
           "home": "Roma",
           "away": "Bolonia",
-          "score": "vs",
+          "score": "0 - 0",
           "status": ""
         },
         {
           "date": "19-03-2026",
           "home": "Sport-Club Freiburg",
           "away": "KRC Genk",
-          "score": "vs",
-          "status": ""
+          "score": "5 - 1",
+          "status": "Fin"
         }
       ],
       "Jornada 13": [
         {
           "date": "09-04-2026",
-          "home": "Round of sixteen 3 Winner",
-          "away": "Round of sixteen 4 Winner",
-          "score": "vs",
-          "status": ""
-        },
-        {
-          "date": "09-04-2026",
-          "home": "Round of sixteen 5 Winner",
-          "away": "Round of sixteen 6 Winner",
+          "home": "FC Porto",
+          "away": "Nottingham Forest",
           "score": "vs",
           "status": ""
         },
         {
           "date": "09-04-2026",
           "home": "Round of sixteen 7 Winner",
-          "away": "Round of sixteen 8 Winner",
+          "away": "Aston Villa",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "09-04-2026",
+          "home": "Sport-Club Freiburg",
+          "away": "Celta de Vigo",
           "score": "vs",
           "status": ""
         },
         {
           "date": "09-04-2026",
           "home": "Sporting Braga",
-          "away": "Round of sixteen 2 Winner",
+          "away": "Real Betis",
           "score": "vs",
           "status": ""
         }
@@ -5393,29 +5393,29 @@
       "Jornada 14": [
         {
           "date": "16-04-2026",
-          "home": "Round of sixteen 2 Winner",
-          "away": "Sporting Braga",
-          "score": "vs",
-          "status": ""
-        },
-        {
-          "date": "16-04-2026",
-          "home": "Round of sixteen 4 Winner",
-          "away": "Round of sixteen 3 Winner",
-          "score": "vs",
-          "status": ""
-        },
-        {
-          "date": "16-04-2026",
-          "home": "Round of sixteen 6 Winner",
-          "away": "Round of sixteen 5 Winner",
-          "score": "vs",
-          "status": ""
-        },
-        {
-          "date": "16-04-2026",
-          "home": "Round of sixteen 8 Winner",
+          "home": "Aston Villa",
           "away": "Round of sixteen 7 Winner",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "16-04-2026",
+          "home": "Celta de Vigo",
+          "away": "Sport-Club Freiburg",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "16-04-2026",
+          "home": "Nottingham Forest",
+          "away": "FC Porto",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "16-04-2026",
+          "home": "Real Betis",
+          "away": "Sporting Braga",
           "score": "vs",
           "status": ""
         }
