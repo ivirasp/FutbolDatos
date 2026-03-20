@@ -2099,13 +2099,6 @@
         },
         {
           "date": "04-04-2026",
-          "home": "Alav\u00e9s",
-          "away": "Osasuna",
-          "score": "vs",
-          "status": ""
-        },
-        {
-          "date": "04-04-2026",
           "home": "Atl\u00e9tico de Madrid",
           "away": "Barcelona",
           "score": "vs",
@@ -2120,6 +2113,13 @@
         },
         {
           "date": "04-04-2026",
+          "home": "Real Betis",
+          "away": "Espanyol",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "04-04-2026",
           "home": "Real Sociedad",
           "away": "Levante",
           "score": "vs",
@@ -2127,15 +2127,15 @@
         },
         {
           "date": "05-04-2026",
-          "home": "Getafe",
-          "away": "Athletic Club",
+          "home": "Alav\u00e9s",
+          "away": "Osasuna",
           "score": "vs",
           "status": ""
         },
         {
           "date": "05-04-2026",
-          "home": "Real Betis",
-          "away": "Espanyol",
+          "home": "Getafe",
+          "away": "Athletic Club",
           "score": "vs",
           "status": ""
         },
