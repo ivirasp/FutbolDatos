@@ -2163,6 +2163,41 @@
       ],
       "Jornada 31": [
         {
+          "date": "10-04-2026",
+          "home": "Real Madrid",
+          "away": "Girona",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "11-04-2026",
+          "home": "Barcelona",
+          "away": "Espanyol",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "11-04-2026",
+          "home": "Elche",
+          "away": "Valencia CF",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "11-04-2026",
+          "home": "Real Sociedad",
+          "away": "Alav\u00e9s",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "11-04-2026",
+          "home": "Sevilla",
+          "away": "Atl\u00e9tico de Madrid",
+          "score": "vs",
+          "status": ""
+        },
+        {
           "date": "12-04-2026",
           "home": "Athletic Club",
           "away": "Villarreal",
@@ -2171,29 +2206,8 @@
         },
         {
           "date": "12-04-2026",
-          "home": "Barcelona",
-          "away": "Espanyol",
-          "score": "vs",
-          "status": ""
-        },
-        {
-          "date": "12-04-2026",
           "home": "Celta de Vigo",
           "away": "Real Oviedo",
-          "score": "vs",
-          "status": ""
-        },
-        {
-          "date": "12-04-2026",
-          "home": "Elche",
-          "away": "Valencia CF",
-          "score": "vs",
-          "status": ""
-        },
-        {
-          "date": "12-04-2026",
-          "home": "Levante",
-          "away": "Getafe",
           "score": "vs",
           "status": ""
         },
@@ -2212,23 +2226,9 @@
           "status": ""
         },
         {
-          "date": "12-04-2026",
-          "home": "Real Madrid",
-          "away": "Girona",
-          "score": "vs",
-          "status": ""
-        },
-        {
-          "date": "12-04-2026",
-          "home": "Real Sociedad",
-          "away": "Alav\u00e9s",
-          "score": "vs",
-          "status": ""
-        },
-        {
-          "date": "12-04-2026",
-          "home": "Sevilla",
-          "away": "Atl\u00e9tico de Madrid",
+          "date": "13-04-2026",
+          "home": "Levante",
+          "away": "Getafe",
           "score": "vs",
           "status": ""
         }
