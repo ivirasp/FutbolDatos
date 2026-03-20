@@ -5362,6 +5362,13 @@
       ],
       "Jornada 13 (Actual)": [
         {
+          "date": "08-04-2026",
+          "home": "Sporting Braga",
+          "away": "Real Betis",
+          "score": "vs",
+          "status": ""
+        },
+        {
           "date": "09-04-2026",
           "home": "Bolonia",
           "away": "Aston Villa",
@@ -5381,20 +5388,13 @@
           "away": "Celta de Vigo",
           "score": "vs",
           "status": ""
-        },
-        {
-          "date": "09-04-2026",
-          "home": "Sporting Braga",
-          "away": "Real Betis",
-          "score": "vs",
-          "status": ""
         }
       ],
       "Jornada 14": [
         {
           "date": "16-04-2026",
           "home": "Aston Villa",
-          "away": "Round of sixteen 7 Winner",
+          "away": "Bolonia",
           "score": "vs",
           "status": ""
         },
