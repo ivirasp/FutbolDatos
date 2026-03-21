@@ -219,26 +219,26 @@
     {
       "rank": "19",
       "team": "Levante",
-      "points": "26",
+      "points": "24",
       "played": "29",
-      "won": "6",
-      "drawn": "8",
+      "won": "5",
+      "drawn": "9",
       "lost": "15",
-      "gf": "31",
-      "ga": "46",
-      "dg": "-15"
+      "gf": "32",
+      "ga": "48",
+      "dg": "-16"
     },
     {
       "rank": "20",
       "team": "Real Oviedo",
-      "points": "21",
+      "points": "22",
       "played": "29",
       "won": "4",
-      "drawn": "9",
-      "lost": "16",
-      "gf": "18",
-      "ga": "45",
-      "dg": "-27"
+      "drawn": "10",
+      "lost": "15",
+      "gf": "20",
+      "ga": "46",
+      "dg": "-26"
     }
   ],
   "CHAMPIONS": [
