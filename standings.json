@@ -146,6 +146,30 @@
     },
     {
       "rank": "13",
+      "team": "Valencia",
+      "points": "33",
+      "played": "29",
+      "won": "8",
+      "drawn": "9",
+      "lost": "12",
+      "gf": "30",
+      "ga": "42",
+      "dg": "-12"
+    },
+    {
+      "rank": "14",
+      "team": "Sevilla",
+      "points": "32",
+      "played": "29",
+      "won": "8",
+      "drawn": "8",
+      "lost": "13",
+      "gf": "37",
+      "ga": "47",
+      "dg": "-10"
+    },
+    {
+      "rank": "15",
       "team": "Rayo Vallecano",
       "points": "32",
       "played": "28",
@@ -155,30 +179,6 @@
       "gf": "28",
       "ga": "34",
       "dg": "-6"
-    },
-    {
-      "rank": "14",
-      "team": "Valencia",
-      "points": "32",
-      "played": "28",
-      "won": "8",
-      "drawn": "8",
-      "lost": "12",
-      "gf": "30",
-      "ga": "42",
-      "dg": "-12"
-    },
-    {
-      "rank": "15",
-      "team": "Sevilla",
-      "points": "31",
-      "played": "28",
-      "won": "8",
-      "drawn": "7",
-      "lost": "13",
-      "gf": "37",
-      "ga": "47",
-      "dg": "-10"
     },
     {
       "rank": "16",
