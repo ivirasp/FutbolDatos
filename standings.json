@@ -74,6 +74,18 @@
     },
     {
       "rank": "7",
+      "team": "Espanyol",
+      "points": "40",
+      "played": "29",
+      "won": "11",
+      "drawn": "7",
+      "lost": "11",
+      "gf": "36",
+      "ga": "42",
+      "dg": "-6"
+    },
+    {
+      "rank": "8",
       "team": "Real Sociedad",
       "points": "38",
       "played": "29",
@@ -85,28 +97,16 @@
       "dg": "-1"
     },
     {
-      "rank": "8",
-      "team": "Espanyol",
-      "points": "37",
-      "played": "28",
-      "won": "10",
-      "drawn": "7",
-      "lost": "11",
-      "gf": "35",
-      "ga": "42",
-      "dg": "-7"
-    },
-    {
       "rank": "9",
       "team": "Getafe",
       "points": "35",
-      "played": "28",
+      "played": "29",
       "won": "10",
       "drawn": "5",
-      "lost": "13",
+      "lost": "14",
       "gf": "23",
-      "ga": "30",
-      "dg": "-7"
+      "ga": "31",
+      "dg": "-8"
     },
     {
       "rank": "10",
