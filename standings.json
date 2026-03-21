@@ -122,6 +122,18 @@
     },
     {
       "rank": "11",
+      "team": "Valencia",
+      "points": "35",
+      "played": "29",
+      "won": "9",
+      "drawn": "8",
+      "lost": "12",
+      "gf": "32",
+      "ga": "42",
+      "dg": "-10"
+    },
+    {
+      "rank": "12",
       "team": "Athletic",
       "points": "35",
       "played": "28",
@@ -133,7 +145,7 @@
       "dg": "-10"
     },
     {
-      "rank": "12",
+      "rank": "13",
       "team": "Girona FC",
       "points": "34",
       "played": "29",
@@ -145,31 +157,7 @@
       "dg": "-13"
     },
     {
-      "rank": "13",
-      "team": "Valencia",
-      "points": "33",
-      "played": "29",
-      "won": "8",
-      "drawn": "9",
-      "lost": "12",
-      "gf": "30",
-      "ga": "42",
-      "dg": "-12"
-    },
-    {
       "rank": "14",
-      "team": "Sevilla",
-      "points": "32",
-      "played": "29",
-      "won": "8",
-      "drawn": "8",
-      "lost": "13",
-      "gf": "37",
-      "ga": "47",
-      "dg": "-10"
-    },
-    {
-      "rank": "15",
       "team": "Rayo Vallecano",
       "points": "32",
       "played": "28",
@@ -179,6 +167,18 @@
       "gf": "28",
       "ga": "34",
       "dg": "-6"
+    },
+    {
+      "rank": "15",
+      "team": "Sevilla",
+      "points": "31",
+      "played": "29",
+      "won": "8",
+      "drawn": "7",
+      "lost": "14",
+      "gf": "37",
+      "ga": "49",
+      "dg": "-12"
     },
     {
       "rank": "16",
