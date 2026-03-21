@@ -182,15 +182,15 @@
     },
     {
       "rank": "16",
-      "team": "Mallorca",
+      "team": "Elche",
       "points": "29",
       "played": "29",
-      "won": "7",
-      "drawn": "8",
-      "lost": "14",
-      "gf": "34",
+      "won": "6",
+      "drawn": "11",
+      "lost": "12",
+      "gf": "38",
       "ga": "46",
-      "dg": "-12"
+      "dg": "-8"
     },
     {
       "rank": "17",
@@ -206,15 +206,15 @@
     },
     {
       "rank": "18",
-      "team": "Elche",
-      "points": "27",
+      "team": "Mallorca",
+      "points": "28",
       "played": "29",
-      "won": "5",
-      "drawn": "12",
-      "lost": "12",
-      "gf": "37",
-      "ga": "46",
-      "dg": "-9"
+      "won": "7",
+      "drawn": "7",
+      "lost": "15",
+      "gf": "34",
+      "ga": "47",
+      "dg": "-13"
     },
     {
       "rank": "19",
