@@ -1,12 +1,5 @@
 [
   {
-    "title": "Villarreal - Real Sociedad",
-    "start_ts": 1774036800.0,
-    "time_str": "21:00",
-    "channel": "Teledeporte",
-    "competition": "LALIGA"
-  },
-  {
     "title": "Elche - Mallorca",
     "start_ts": 1774098000.0,
     "time_str": "14:00",
@@ -91,7 +84,7 @@
     "competition": "LALIGA"
   },
   {
-    "title": "Alav\u00e9s - Osasuna",
+    "title": "Betis - Espanyol",
     "start_ts": 1775320200.0,
     "time_str": "18:30",
     "channel": "M+ LaLiga",
@@ -102,6 +95,34 @@
     "start_ts": 1775329200.0,
     "time_str": "21:00",
     "channel": "DAZN LaLiga",
+    "competition": "LALIGA"
+  },
+  {
+    "title": "Getafe - Athletic Club",
+    "start_ts": 1775390400.0,
+    "time_str": "14:00",
+    "channel": "M+ LaLiga",
+    "competition": "LALIGA"
+  },
+  {
+    "title": "Valencia - Celta",
+    "start_ts": 1775398500.0,
+    "time_str": "16:15",
+    "channel": "DAZN LaLiga",
+    "competition": "LALIGA"
+  },
+  {
+    "title": "Real Oviedo - Sevilla",
+    "start_ts": 1775406600.0,
+    "time_str": "18:30",
+    "channel": "Teledeporte",
+    "competition": "LALIGA"
+  },
+  {
+    "title": "Alav\u00e9s - Osasuna",
+    "start_ts": 1775415600.0,
+    "time_str": "21:00",
+    "channel": "M+ LaLiga",
     "competition": "LALIGA"
   },
   {
