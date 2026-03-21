@@ -110,6 +110,18 @@
     },
     {
       "rank": "10",
+      "team": "Osasuna",
+      "points": "35",
+      "played": "29",
+      "won": "9",
+      "drawn": "8",
+      "lost": "12",
+      "gf": "33",
+      "ga": "35",
+      "dg": "-2"
+    },
+    {
+      "rank": "11",
       "team": "Athletic",
       "points": "35",
       "played": "28",
@@ -121,24 +133,12 @@
       "dg": "-10"
     },
     {
-      "rank": "11",
-      "team": "Osasuna",
-      "points": "34",
-      "played": "28",
-      "won": "9",
-      "drawn": "7",
-      "lost": "12",
-      "gf": "33",
-      "ga": "35",
-      "dg": "-2"
-    },
-    {
       "rank": "12",
       "team": "Girona FC",
-      "points": "34",
-      "played": "28",
+      "points": "35",
+      "played": "29",
       "won": "8",
-      "drawn": "10",
+      "drawn": "11",
       "lost": "10",
       "gf": "31",
       "ga": "43",
@@ -219,26 +219,26 @@
     {
       "rank": "19",
       "team": "Levante",
-      "points": "23",
-      "played": "28",
-      "won": "5",
+      "points": "26",
+      "played": "29",
+      "won": "6",
       "drawn": "8",
       "lost": "15",
-      "gf": "30",
+      "gf": "31",
       "ga": "46",
-      "dg": "-16"
+      "dg": "-15"
     },
     {
       "rank": "20",
       "team": "Real Oviedo",
       "points": "21",
-      "played": "28",
+      "played": "29",
       "won": "4",
       "drawn": "9",
-      "lost": "15",
+      "lost": "16",
       "gf": "18",
-      "ga": "44",
-      "dg": "-26"
+      "ga": "45",
+      "dg": "-27"
     }
   ],
   "CHAMPIONS": [
