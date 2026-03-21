@@ -126,6 +126,118 @@
     "competition": "LALIGA"
   },
   {
+    "title": "Real Madrid - FC Bayern",
+    "start_ts": 1775588400.0,
+    "time_str": "21:00",
+    "channel": "M+ Liga de Campeones",
+    "competition": "CHAMPIONS"
+  },
+  {
+    "title": "Sporting Portugal - Arsenal",
+    "start_ts": 1775588400.0,
+    "time_str": "21:00",
+    "channel": "M+ Liga de Campeones 2",
+    "competition": "CHAMPIONS"
+  },
+  {
+    "title": "Braga - Betis",
+    "start_ts": 1775666700.0,
+    "time_str": "18:45",
+    "channel": "TBD",
+    "competition": "EUROPA"
+  },
+  {
+    "title": "Barcelona - Atl\u00e9tico de Madrid",
+    "start_ts": 1775674800.0,
+    "time_str": "21:00",
+    "channel": "M+ Liga de Campeones",
+    "competition": "CHAMPIONS"
+  },
+  {
+    "title": "PSG - Liverpool",
+    "start_ts": 1775674800.0,
+    "time_str": "21:00",
+    "channel": "M+ Liga de Campeones 2",
+    "competition": "CHAMPIONS"
+  },
+  {
+    "title": "Porto - Nottingham Forest",
+    "start_ts": 1775761200.0,
+    "time_str": "21:00",
+    "channel": "M+ Liga de Campeones",
+    "competition": "EUROPA"
+  },
+  {
+    "title": "Friburgo - Celta",
+    "start_ts": 1775761200.0,
+    "time_str": "21:00",
+    "channel": "M+ Liga de Campeones",
+    "competition": "EUROPA"
+  },
+  {
+    "title": "Bologna - Aston Villa",
+    "start_ts": 1775761200.0,
+    "time_str": "21:00",
+    "channel": "M+ Liga de Campeones",
+    "competition": "EUROPA"
+  },
+  {
+    "title": "Atl\u00e9tico de Madrid - Barcelona",
+    "start_ts": 1776193200.0,
+    "time_str": "21:00",
+    "channel": "M+ Liga de Campeones",
+    "competition": "CHAMPIONS"
+  },
+  {
+    "title": "Liverpool - PSG",
+    "start_ts": 1776193200.0,
+    "time_str": "21:00",
+    "channel": "M+ Liga de Campeones 2",
+    "competition": "CHAMPIONS"
+  },
+  {
+    "title": "Arsenal - Sporting Portugal",
+    "start_ts": 1776279600.0,
+    "time_str": "21:00",
+    "channel": "M+ Liga de Campeones 2",
+    "competition": "CHAMPIONS"
+  },
+  {
+    "title": "FC Bayern - Real Madrid",
+    "start_ts": 1776279600.0,
+    "time_str": "21:00",
+    "channel": "M+ Liga de Campeones",
+    "competition": "CHAMPIONS"
+  },
+  {
+    "title": "Celta - Friburgo",
+    "start_ts": 1776357900.0,
+    "time_str": "18:45",
+    "channel": "M+ Liga de Campeones",
+    "competition": "EUROPA"
+  },
+  {
+    "title": "Aston Villa - Bologna",
+    "start_ts": 1776366000.0,
+    "time_str": "21:00",
+    "channel": "M+ Liga de Campeones",
+    "competition": "EUROPA"
+  },
+  {
+    "title": "Nottingham Forest - Porto",
+    "start_ts": 1776366000.0,
+    "time_str": "21:00",
+    "channel": "M+ Liga de Campeones",
+    "competition": "EUROPA"
+  },
+  {
+    "title": "Betis - Braga",
+    "start_ts": 1776366000.0,
+    "time_str": "21:00",
+    "channel": "M+ Liga de Campeones",
+    "competition": "EUROPA"
+  },
+  {
     "title": "Atl\u00e9tico de Madrid - Real Sociedad",
     "start_ts": 1776538800.0,
     "time_str": "21:00",
