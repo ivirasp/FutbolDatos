@@ -51,10 +51,10 @@
     {
       "rank": "5",
       "team": "Real Betis",
-      "points": "44",
-      "played": "28",
+      "points": "45",
+      "played": "29",
       "won": "11",
-      "drawn": "11",
+      "drawn": "12",
       "lost": "6",
       "gf": "43",
       "ga": "35",
@@ -122,6 +122,18 @@
     },
     {
       "rank": "11",
+      "team": "Athletic",
+      "points": "36",
+      "played": "29",
+      "won": "10",
+      "drawn": "6",
+      "lost": "13",
+      "gf": "30",
+      "ga": "40",
+      "dg": "-10"
+    },
+    {
+      "rank": "12",
       "team": "Valencia",
       "points": "35",
       "played": "29",
@@ -130,18 +142,6 @@
       "lost": "12",
       "gf": "32",
       "ga": "42",
-      "dg": "-10"
-    },
-    {
-      "rank": "12",
-      "team": "Athletic",
-      "points": "35",
-      "played": "28",
-      "won": "10",
-      "drawn": "5",
-      "lost": "13",
-      "gf": "30",
-      "ga": "40",
       "dg": "-10"
     },
     {
