@@ -15,10 +15,10 @@
     {
       "rank": "2",
       "team": "Real Madrid",
-      "points": "66",
-      "played": "28",
+      "points": "67",
+      "played": "29",
       "won": "21",
-      "drawn": "3",
+      "drawn": "4",
       "lost": "4",
       "gf": "60",
       "ga": "24",
@@ -26,6 +26,18 @@
     },
     {
       "rank": "3",
+      "team": "Atl\u00e9tico de Madrid",
+      "points": "58",
+      "played": "29",
+      "won": "17",
+      "drawn": "7",
+      "lost": "5",
+      "gf": "47",
+      "ga": "25",
+      "dg": "+22"
+    },
+    {
+      "rank": "4",
       "team": "Villarreal",
       "points": "58",
       "played": "29",
@@ -35,18 +47,6 @@
       "gf": "54",
       "ga": "34",
       "dg": "+20"
-    },
-    {
-      "rank": "4",
-      "team": "Atl\u00e9tico de Madrid",
-      "points": "57",
-      "played": "28",
-      "won": "17",
-      "drawn": "6",
-      "lost": "5",
-      "gf": "47",
-      "ga": "25",
-      "dg": "+22"
     },
     {
       "rank": "5",
