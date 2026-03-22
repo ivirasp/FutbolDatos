@@ -2017,7 +2017,7 @@
           "status": "Fin"
         }
       ],
-      "Jornada 29 (Actual)": [
+      "Jornada 29": [
         {
           "date": "20-03-2026",
           "home": "Villarreal",
@@ -2089,7 +2089,7 @@
           "status": "Fin"
         }
       ],
-      "Jornada 30": [
+      "Jornada 30 (Actual)": [
         {
           "date": "03-04-2026",
           "home": "Rayo Vallecano",
@@ -2738,7 +2738,7 @@
         }
       ]
     },
-    "current": "Jornada 29 (Actual)"
+    "current": "Jornada 30 (Actual)"
   },
   "CHAMPIONS": {
     "rounds": {
