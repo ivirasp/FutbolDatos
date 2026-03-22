@@ -63,14 +63,14 @@
     {
       "rank": "6",
       "team": "Celta",
-      "points": "41",
-      "played": "28",
-      "won": "10",
+      "points": "44",
+      "played": "29",
+      "won": "11",
       "drawn": "11",
       "lost": "7",
-      "gf": "38",
+      "gf": "39",
       "ga": "31",
-      "dg": "+7"
+      "dg": "+8"
     },
     {
       "rank": "7",
@@ -194,18 +194,6 @@
     },
     {
       "rank": "17",
-      "team": "Deportivo Alav\u00e9s",
-      "points": "28",
-      "played": "28",
-      "won": "7",
-      "drawn": "7",
-      "lost": "14",
-      "gf": "26",
-      "ga": "38",
-      "dg": "-12"
-    },
-    {
-      "rank": "18",
       "team": "Mallorca",
       "points": "28",
       "played": "29",
@@ -214,6 +202,18 @@
       "lost": "15",
       "gf": "34",
       "ga": "47",
+      "dg": "-13"
+    },
+    {
+      "rank": "18",
+      "team": "Deportivo Alav\u00e9s",
+      "points": "28",
+      "played": "29",
+      "won": "7",
+      "drawn": "7",
+      "lost": "15",
+      "gf": "26",
+      "ga": "39",
       "dg": "-13"
     },
     {
