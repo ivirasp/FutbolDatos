@@ -1,40 +1,5 @@
 [
   {
-    "title": "Elche - Mallorca",
-    "start_ts": 1774098000.0,
-    "time_str": "14:00",
-    "channel": "DAZN LaLiga",
-    "competition": "LALIGA"
-  },
-  {
-    "title": "Espanyol - Getafe",
-    "start_ts": 1774106100.0,
-    "time_str": "16:15",
-    "channel": "DAZN LaLiga 2",
-    "competition": "LALIGA"
-  },
-  {
-    "title": "Levante - Real Oviedo",
-    "start_ts": 1774114200.0,
-    "time_str": "18:30",
-    "channel": "DAZN LaLiga",
-    "competition": "LALIGA"
-  },
-  {
-    "title": "Osasuna - Girona",
-    "start_ts": 1774114200.0,
-    "time_str": "18:30",
-    "channel": "M+ LaLiga",
-    "competition": "LALIGA"
-  },
-  {
-    "title": "Sevilla - Valencia",
-    "start_ts": 1774123200.0,
-    "time_str": "21:00",
-    "channel": "M+ LaLiga",
-    "competition": "LALIGA"
-  },
-  {
     "title": "Barcelona - Rayo Vallecano",
     "start_ts": 1774184400.0,
     "time_str": "14:00",
@@ -123,6 +88,13 @@
     "start_ts": 1775415600.0,
     "time_str": "21:00",
     "channel": "M+ LaLiga",
+    "competition": "LALIGA"
+  },
+  {
+    "title": "Girona - Villarreal",
+    "start_ts": 1775502000.0,
+    "time_str": "21:00",
+    "channel": "DAZN LaLiga",
     "competition": "LALIGA"
   },
   {
