@@ -1,33 +1,5 @@
 [
   {
-    "title": "Barcelona - Rayo Vallecano",
-    "start_ts": 1774184400.0,
-    "time_str": "14:00",
-    "channel": "DAZN LaLiga",
-    "competition": "LALIGA"
-  },
-  {
-    "title": "Celta - Alav\u00e9s",
-    "start_ts": 1774192500.0,
-    "time_str": "16:15",
-    "channel": "M+ LaLiga",
-    "competition": "LALIGA"
-  },
-  {
-    "title": "Athletic Club - Betis",
-    "start_ts": 1774200600.0,
-    "time_str": "18:30",
-    "channel": "DAZN LaLiga",
-    "competition": "LALIGA"
-  },
-  {
-    "title": "Real Madrid - Atl\u00e9tico de Madrid",
-    "start_ts": 1774209600.0,
-    "time_str": "21:00",
-    "channel": "M+ LaLiga",
-    "competition": "LALIGA"
-  },
-  {
     "title": "Rayo Vallecano - Elche",
     "start_ts": 1775242800.0,
     "time_str": "21:00",
@@ -152,6 +124,13 @@
     "time_str": "21:00",
     "channel": "M+ Liga de Campeones",
     "competition": "EUROPA"
+  },
+  {
+    "title": "Real Madrid - Girona",
+    "start_ts": 1775847600.0,
+    "time_str": "21:00",
+    "channel": "M+ LaLiga",
+    "competition": "LALIGA"
   },
   {
     "title": "Atl\u00e9tico de Madrid - Barcelona",
