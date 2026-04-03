@@ -87,7 +87,7 @@
     "title": "Braga - Betis",
     "start_ts": 1775666700.0,
     "time_str": "18:45",
-    "channel": "TBD",
+    "channel": "M+ Liga de Campeones 2",
     "competition": "EUROPA"
   },
   {
@@ -108,7 +108,7 @@
     "title": "Porto - Nottingham Forest",
     "start_ts": 1775761200.0,
     "time_str": "21:00",
-    "channel": "M+ Liga de Campeones",
+    "channel": "M+ Liga de Campeones 2",
     "competition": "EUROPA"
   },
   {
@@ -122,7 +122,7 @@
     "title": "Bologna - Aston Villa",
     "start_ts": 1775761200.0,
     "time_str": "21:00",
-    "channel": "M+ Liga de Campeones",
+    "channel": "M+ Liga de Campeones 3",
     "competition": "EUROPA"
   },
   {
