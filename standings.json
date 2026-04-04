@@ -15,10 +15,10 @@
     {
       "rank": "2",
       "team": "Real Madrid",
-      "points": "69",
-      "played": "29",
+      "points": "70",
+      "played": "30",
       "won": "22",
-      "drawn": "3",
+      "drawn": "4",
       "lost": "4",
       "gf": "63",
       "ga": "26",
@@ -194,6 +194,18 @@
     },
     {
       "rank": "17",
+      "team": "Mallorca",
+      "points": "29",
+      "played": "30",
+      "won": "7",
+      "drawn": "8",
+      "lost": "15",
+      "gf": "34",
+      "ga": "47",
+      "dg": "-13"
+    },
+    {
+      "rank": "18",
       "team": "Elche",
       "points": "29",
       "played": "30",
@@ -203,18 +215,6 @@
       "gf": "38",
       "ga": "47",
       "dg": "-9"
-    },
-    {
-      "rank": "18",
-      "team": "Mallorca",
-      "points": "28",
-      "played": "29",
-      "won": "7",
-      "drawn": "7",
-      "lost": "15",
-      "gf": "34",
-      "ga": "47",
-      "dg": "-13"
     },
     {
       "rank": "19",
