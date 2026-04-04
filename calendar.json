@@ -1,12 +1,5 @@
 [
   {
-    "title": "Rayo Vallecano - Elche",
-    "start_ts": 1775242800.0,
-    "time_str": "21:00",
-    "channel": "M+ LaLiga",
-    "competition": "LALIGA"
-  },
-  {
     "title": "Real Sociedad - Levante",
     "start_ts": 1775304000.0,
     "time_str": "14:00",
@@ -128,6 +121,34 @@
   {
     "title": "Real Madrid - Girona",
     "start_ts": 1775847600.0,
+    "time_str": "21:00",
+    "channel": "M+ LaLiga",
+    "competition": "LALIGA"
+  },
+  {
+    "title": "Real Sociedad - Alav\u00e9s",
+    "start_ts": 1775908800.0,
+    "time_str": "14:00",
+    "channel": "M+ LaLiga",
+    "competition": "LALIGA"
+  },
+  {
+    "title": "Elche - Valencia",
+    "start_ts": 1775916900.0,
+    "time_str": "16:15",
+    "channel": "DAZN LaLiga",
+    "competition": "LALIGA"
+  },
+  {
+    "title": "Barcelona - Espanyol",
+    "start_ts": 1775925000.0,
+    "time_str": "18:30",
+    "channel": "DAZN LaLiga",
+    "competition": "LALIGA"
+  },
+  {
+    "title": "Sevilla - Atl\u00e9tico de Madrid",
+    "start_ts": 1775934000.0,
     "time_str": "21:00",
     "channel": "M+ LaLiga",
     "competition": "LALIGA"
