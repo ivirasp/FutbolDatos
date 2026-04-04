@@ -3,14 +3,14 @@
     {
       "rank": "1",
       "team": "FC Barcelona",
-      "points": "74",
+      "points": "76",
       "played": "30",
-      "won": "24",
-      "drawn": "2",
+      "won": "25",
+      "drawn": "1",
       "lost": "4",
-      "gf": "79",
+      "gf": "80",
       "ga": "29",
-      "dg": "+50"
+      "dg": "+51"
     },
     {
       "rank": "2",
@@ -26,18 +26,6 @@
     },
     {
       "rank": "3",
-      "team": "Atl\u00e9tico de Madrid",
-      "points": "58",
-      "played": "30",
-      "won": "17",
-      "drawn": "7",
-      "lost": "6",
-      "gf": "50",
-      "ga": "29",
-      "dg": "+21"
-    },
-    {
-      "rank": "4",
       "team": "Villarreal",
       "points": "58",
       "played": "29",
@@ -46,6 +34,18 @@
       "lost": "7",
       "gf": "54",
       "ga": "34",
+      "dg": "+20"
+    },
+    {
+      "rank": "4",
+      "team": "Atl\u00e9tico de Madrid",
+      "points": "57",
+      "played": "30",
+      "won": "17",
+      "drawn": "6",
+      "lost": "7",
+      "gf": "50",
+      "ga": "30",
       "dg": "+20"
     },
     {
