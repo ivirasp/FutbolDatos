@@ -99,14 +99,14 @@
     {
       "rank": "9",
       "team": "Osasuna",
-      "points": "38",
+      "points": "40",
       "played": "30",
-      "won": "10",
-      "drawn": "8",
+      "won": "11",
+      "drawn": "7",
       "lost": "12",
-      "gf": "34",
+      "gf": "35",
       "ga": "35",
-      "dg": "-1"
+      "dg": "0"
     },
     {
       "rank": "10",
@@ -170,18 +170,6 @@
     },
     {
       "rank": "15",
-      "team": "Deportivo Alav\u00e9s",
-      "points": "32",
-      "played": "30",
-      "won": "8",
-      "drawn": "8",
-      "lost": "14",
-      "gf": "30",
-      "ga": "41",
-      "dg": "-11"
-    },
-    {
-      "rank": "16",
       "team": "Mallorca",
       "points": "31",
       "played": "30",
@@ -190,6 +178,18 @@
       "lost": "15",
       "gf": "36",
       "ga": "48",
+      "dg": "-12"
+    },
+    {
+      "rank": "16",
+      "team": "Deportivo Alav\u00e9s",
+      "points": "31",
+      "played": "30",
+      "won": "8",
+      "drawn": "7",
+      "lost": "15",
+      "gf": "30",
+      "ga": "42",
       "dg": "-12"
     },
     {
