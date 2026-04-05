@@ -64,13 +64,13 @@
       "rank": "6",
       "team": "Celta",
       "points": "41",
-      "played": "29",
+      "played": "30",
       "won": "10",
       "drawn": "11",
-      "lost": "8",
+      "lost": "9",
       "gf": "41",
-      "ga": "35",
-      "dg": "+6"
+      "ga": "36",
+      "dg": "+5"
     },
     {
       "rank": "7",
@@ -110,6 +110,18 @@
     },
     {
       "rank": "10",
+      "team": "Valencia",
+      "points": "38",
+      "played": "30",
+      "won": "10",
+      "drawn": "8",
+      "lost": "12",
+      "gf": "33",
+      "ga": "42",
+      "dg": "-9"
+    },
+    {
+      "rank": "11",
       "team": "Athletic",
       "points": "38",
       "played": "30",
@@ -121,7 +133,7 @@
       "dg": "-11"
     },
     {
-      "rank": "11",
+      "rank": "12",
       "team": "Osasuna",
       "points": "37",
       "played": "29",
@@ -133,7 +145,7 @@
       "dg": "-1"
     },
     {
-      "rank": "12",
+      "rank": "13",
       "team": "Rayo Vallecano",
       "points": "35",
       "played": "30",
@@ -143,18 +155,6 @@
       "gf": "29",
       "ga": "35",
       "dg": "-6"
-    },
-    {
-      "rank": "13",
-      "team": "Valencia",
-      "points": "35",
-      "played": "29",
-      "won": "9",
-      "drawn": "8",
-      "lost": "12",
-      "gf": "32",
-      "ga": "42",
-      "dg": "-10"
     },
     {
       "rank": "14",
