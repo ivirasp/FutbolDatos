@@ -2089,7 +2089,7 @@
           "status": "Fin"
         }
       ],
-      "Jornada 30 (Actual)": [
+      "Jornada 30": [
         {
           "date": "03-04-2026",
           "home": "Rayo Vallecano",
@@ -2161,7 +2161,7 @@
           "status": "Fin"
         }
       ],
-      "Jornada 31": [
+      "Jornada 31 (Actual)": [
         {
           "date": "10-04-2026",
           "home": "Real Madrid",
@@ -2738,7 +2738,7 @@
         }
       ]
     },
-    "current": "Jornada 30 (Actual)"
+    "current": "Jornada 31 (Actual)"
   },
   "CHAMPIONS": {
     "rounds": {
