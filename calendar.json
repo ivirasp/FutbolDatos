@@ -1,33 +1,5 @@
 [
   {
-    "title": "Getafe - Athletic Club",
-    "start_ts": 1775390400.0,
-    "time_str": "14:00",
-    "channel": "M+ LaLiga",
-    "competition": "LALIGA"
-  },
-  {
-    "title": "Valencia - Celta",
-    "start_ts": 1775398500.0,
-    "time_str": "16:15",
-    "channel": "DAZN LaLiga 2",
-    "competition": "LALIGA"
-  },
-  {
-    "title": "Real Oviedo - Sevilla",
-    "start_ts": 1775406600.0,
-    "time_str": "18:30",
-    "channel": "Teledeporte",
-    "competition": "LALIGA"
-  },
-  {
-    "title": "Alav\u00e9s - Osasuna",
-    "start_ts": 1775415600.0,
-    "time_str": "21:00",
-    "channel": "M+ LaLiga",
-    "competition": "LALIGA"
-  },
-  {
     "title": "Girona - Villarreal",
     "start_ts": 1775502000.0,
     "time_str": "21:00",
@@ -151,6 +123,13 @@
     "start_ts": 1776020400.0,
     "time_str": "21:00",
     "channel": "Teledeporte",
+    "competition": "LALIGA"
+  },
+  {
+    "title": "Levante - Getafe",
+    "start_ts": 1776106800.0,
+    "time_str": "21:00",
+    "channel": "DAZN LaLiga",
     "competition": "LALIGA"
   },
   {
