@@ -1,12 +1,5 @@
 [
   {
-    "title": "Girona - Villarreal",
-    "start_ts": 1775502000.0,
-    "time_str": "21:00",
-    "channel": "DAZN LaLiga",
-    "competition": "LALIGA"
-  },
-  {
     "title": "Real Madrid - FC Bayern",
     "start_ts": 1775588400.0,
     "time_str": "21:00",
@@ -171,21 +164,21 @@
     "title": "Aston Villa - Bologna",
     "start_ts": 1776366000.0,
     "time_str": "21:00",
-    "channel": "M+ Liga de Campeones",
+    "channel": "M+ Liga de Campeones 4",
     "competition": "EUROPA"
   },
   {
     "title": "Nottingham Forest - Porto",
     "start_ts": 1776366000.0,
     "time_str": "21:00",
-    "channel": "M+ Liga de Campeones",
+    "channel": "M+ Liga de Campeones 4",
     "competition": "EUROPA"
   },
   {
     "title": "Betis - Braga",
     "start_ts": 1776366000.0,
     "time_str": "21:00",
-    "channel": "M+ Liga de Campeones",
+    "channel": "M+ Liga de Campeones 2",
     "competition": "EUROPA"
   },
   {
@@ -194,5 +187,33 @@
     "time_str": "21:00",
     "channel": "La 1",
     "competition": "COPA"
+  },
+  {
+    "title": "Mallorca - Valencia",
+    "start_ts": 1776790800.0,
+    "time_str": "19:00",
+    "channel": "M+ LaLiga",
+    "competition": "LALIGA"
+  },
+  {
+    "title": "Athletic Club - Osasuna",
+    "start_ts": 1776790800.0,
+    "time_str": "19:00",
+    "channel": "Teledeporte",
+    "competition": "LALIGA"
+  },
+  {
+    "title": "Girona - Betis",
+    "start_ts": 1776799800.0,
+    "time_str": "21:30",
+    "channel": "M+ LaLiga",
+    "competition": "LALIGA"
+  },
+  {
+    "title": "Real Madrid - Alav\u00e9s",
+    "start_ts": 1776799800.0,
+    "time_str": "21:30",
+    "channel": "DAZN LaLiga",
+    "competition": "LALIGA"
   }
 ]
