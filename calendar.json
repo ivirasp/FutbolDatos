@@ -1,19 +1,5 @@
 [
   {
-    "title": "Real Madrid - FC Bayern",
-    "start_ts": 1775588400.0,
-    "time_str": "21:00",
-    "channel": "M+ Liga de Campeones",
-    "competition": "CHAMPIONS"
-  },
-  {
-    "title": "Sporting Portugal - Arsenal",
-    "start_ts": 1775588400.0,
-    "time_str": "21:00",
-    "channel": "M+ Liga de Campeones 2",
-    "competition": "CHAMPIONS"
-  },
-  {
     "title": "Braga - Betis",
     "start_ts": 1775666700.0,
     "time_str": "18:45",
