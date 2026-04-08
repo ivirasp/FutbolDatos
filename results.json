@@ -3998,7 +3998,7 @@
           "status": "Fin"
         }
       ],
-      "Cuartos de final (ida) (Actual)": [
+      "Cuartos de final (ida)": [
         {
           "date": "07-04-2026",
           "home": "Real Madrid",
@@ -4028,7 +4028,7 @@
           "status": "Fin"
         }
       ],
-      "Cuartos de final (vuelta)": [
+      "Cuartos de final (vuelta) (Actual)": [
         {
           "date": "14-04-2026",
           "home": "Atl\u00e9tico de Madrid",
@@ -4100,7 +4100,7 @@
         }
       ]
     },
-    "current": "Cuartos de final (ida) (Actual)"
+    "current": "Cuartos de final (vuelta) (Actual)"
   },
   "EUROPA": {
     "rounds": {
