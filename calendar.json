@@ -1,12 +1,5 @@
 [
   {
-    "title": "Braga - Betis",
-    "start_ts": 1775666700.0,
-    "time_str": "18:45",
-    "channel": "M+ Liga de Campeones 2",
-    "competition": "EUROPA"
-  },
-  {
     "title": "Porto - Nottingham Forest",
     "start_ts": 1775761200.0,
     "time_str": "21:00",
@@ -45,7 +38,7 @@
     "title": "Elche - Valencia",
     "start_ts": 1775916900.0,
     "time_str": "16:15",
-    "channel": "DAZN LaLiga",
+    "channel": "DAZN LaLiga 2",
     "competition": "LALIGA"
   },
   {
