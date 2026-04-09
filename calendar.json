@@ -7,20 +7,6 @@
     "competition": "EUROPA"
   },
   {
-    "title": "Barcelona - Atl\u00e9tico de Madrid",
-    "start_ts": 1775674800.0,
-    "time_str": "21:00",
-    "channel": "M+ Liga de Campeones",
-    "competition": "CHAMPIONS"
-  },
-  {
-    "title": "PSG - Liverpool",
-    "start_ts": 1775674800.0,
-    "time_str": "21:00",
-    "channel": "M+ Liga de Campeones 2",
-    "competition": "CHAMPIONS"
-  },
-  {
     "title": "Porto - Nottingham Forest",
     "start_ts": 1775761200.0,
     "time_str": "21:00",
