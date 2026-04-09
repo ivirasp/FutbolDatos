@@ -5360,7 +5360,7 @@
           "status": "Fin"
         }
       ],
-      "Jornada 13 (Actual)": [
+      "Jornada 13": [
         {
           "date": "08-04-2026",
           "home": "Sporting Braga",
@@ -5390,7 +5390,7 @@
           "status": "Fin"
         }
       ],
-      "Jornada 14": [
+      "Jornada 14 (Actual)": [
         {
           "date": "16-04-2026",
           "home": "Aston Villa",
@@ -5462,7 +5462,7 @@
         }
       ]
     },
-    "current": "Jornada 13 (Actual)"
+    "current": "Jornada 14 (Actual)"
   },
   "COPA": {
     "rounds": {
