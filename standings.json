@@ -15,14 +15,14 @@
     {
       "rank": "2",
       "team": "Real Madrid",
-      "points": "72",
+      "points": "70",
       "played": "31",
-      "won": "23",
-      "drawn": "3",
+      "won": "22",
+      "drawn": "4",
       "lost": "5",
       "gf": "65",
-      "ga": "28",
-      "dg": "+37"
+      "ga": "29",
+      "dg": "+36"
     },
     {
       "rank": "3",
@@ -135,14 +135,14 @@
     {
       "rank": "12",
       "team": "Girona FC",
-      "points": "37",
+      "points": "38",
       "played": "31",
       "won": "9",
-      "drawn": "10",
-      "lost": "12",
-      "gf": "32",
+      "drawn": "11",
+      "lost": "11",
+      "gf": "33",
       "ga": "45",
-      "dg": "-13"
+      "dg": "-12"
     },
     {
       "rank": "13",
