@@ -1,26 +1,5 @@
 [
   {
-    "title": "Porto - Nottingham Forest",
-    "start_ts": 1775761200.0,
-    "time_str": "21:00",
-    "channel": "M+ Liga de Campeones 2",
-    "competition": "EUROPA"
-  },
-  {
-    "title": "Friburgo - Celta",
-    "start_ts": 1775761200.0,
-    "time_str": "21:00",
-    "channel": "M+ Liga de Campeones",
-    "competition": "EUROPA"
-  },
-  {
-    "title": "Bologna - Aston Villa",
-    "start_ts": 1775761200.0,
-    "time_str": "21:00",
-    "channel": "M+ Liga de Campeones 3",
-    "competition": "EUROPA"
-  },
-  {
     "title": "Real Madrid - Girona",
     "start_ts": 1775847600.0,
     "time_str": "21:00",
