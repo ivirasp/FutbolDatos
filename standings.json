@@ -62,18 +62,6 @@
     },
     {
       "rank": "6",
-      "team": "Real Sociedad",
-      "points": "44",
-      "played": "31",
-      "won": "12",
-      "drawn": "8",
-      "lost": "11",
-      "gf": "49",
-      "ga": "47",
-      "dg": "+2"
-    },
-    {
-      "rank": "7",
       "team": "Celta",
       "points": "44",
       "played": "30",
@@ -83,6 +71,18 @@
       "gf": "44",
       "ga": "37",
       "dg": "+7"
+    },
+    {
+      "rank": "7",
+      "team": "Real Sociedad",
+      "points": "42",
+      "played": "31",
+      "won": "11",
+      "drawn": "9",
+      "lost": "11",
+      "gf": "49",
+      "ga": "48",
+      "dg": "+1"
     },
     {
       "rank": "8",
@@ -146,6 +146,18 @@
     },
     {
       "rank": "13",
+      "team": "Valencia",
+      "points": "36",
+      "played": "31",
+      "won": "9",
+      "drawn": "9",
+      "lost": "13",
+      "gf": "34",
+      "ga": "45",
+      "dg": "-11"
+    },
+    {
+      "rank": "14",
       "team": "Rayo Vallecano",
       "points": "35",
       "played": "30",
@@ -157,28 +169,16 @@
       "dg": "-6"
     },
     {
-      "rank": "14",
-      "team": "Valencia",
-      "points": "35",
-      "played": "30",
-      "won": "9",
-      "drawn": "8",
-      "lost": "13",
-      "gf": "34",
-      "ga": "45",
-      "dg": "-11"
-    },
-    {
       "rank": "15",
       "team": "Deportivo Alav\u00e9s",
-      "points": "32",
+      "points": "33",
       "played": "31",
       "won": "8",
-      "drawn": "8",
-      "lost": "15",
-      "gf": "34",
+      "drawn": "9",
+      "lost": "14",
+      "gf": "35",
       "ga": "46",
-      "dg": "-12"
+      "dg": "-11"
     },
     {
       "rank": "16",
@@ -207,10 +207,10 @@
     {
       "rank": "18",
       "team": "Elche",
-      "points": "29",
-      "played": "30",
+      "points": "30",
+      "played": "31",
       "won": "6",
-      "drawn": "11",
+      "drawn": "12",
       "lost": "13",
       "gf": "38",
       "ga": "47",
