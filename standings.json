@@ -62,6 +62,18 @@
     },
     {
       "rank": "6",
+      "team": "Real Sociedad",
+      "points": "44",
+      "played": "31",
+      "won": "12",
+      "drawn": "8",
+      "lost": "11",
+      "gf": "49",
+      "ga": "47",
+      "dg": "+2"
+    },
+    {
+      "rank": "7",
       "team": "Celta",
       "points": "44",
       "played": "30",
@@ -71,18 +83,6 @@
       "gf": "44",
       "ga": "37",
       "dg": "+7"
-    },
-    {
-      "rank": "7",
-      "team": "Real Sociedad",
-      "points": "42",
-      "played": "31",
-      "won": "11",
-      "drawn": "9",
-      "lost": "11",
-      "gf": "48",
-      "ga": "47",
-      "dg": "+1"
     },
     {
       "rank": "8",
@@ -171,14 +171,14 @@
     {
       "rank": "15",
       "team": "Deportivo Alav\u00e9s",
-      "points": "33",
+      "points": "32",
       "played": "31",
       "won": "8",
-      "drawn": "9",
-      "lost": "14",
+      "drawn": "8",
+      "lost": "15",
       "gf": "34",
-      "ga": "45",
-      "dg": "-11"
+      "ga": "46",
+      "dg": "-12"
     },
     {
       "rank": "16",
