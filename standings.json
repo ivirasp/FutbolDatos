@@ -63,14 +63,14 @@
     {
       "rank": "6",
       "team": "Celta",
-      "points": "45",
+      "points": "44",
       "played": "31",
       "won": "11",
-      "drawn": "12",
-      "lost": "8",
+      "drawn": "11",
+      "lost": "9",
       "gf": "44",
-      "ga": "37",
-      "dg": "+7"
+      "ga": "39",
+      "dg": "+5"
     },
     {
       "rank": "7",
@@ -218,6 +218,18 @@
     },
     {
       "rank": "19",
+      "team": "Real Oviedo",
+      "points": "27",
+      "played": "31",
+      "won": "6",
+      "drawn": "9",
+      "lost": "16",
+      "gf": "23",
+      "ga": "48",
+      "dg": "-25"
+    },
+    {
+      "rank": "20",
       "team": "Levante",
       "points": "26",
       "played": "30",
@@ -227,18 +239,6 @@
       "gf": "34",
       "ga": "50",
       "dg": "-16"
-    },
-    {
-      "rank": "20",
-      "team": "Real Oviedo",
-      "points": "25",
-      "played": "31",
-      "won": "5",
-      "drawn": "10",
-      "lost": "16",
-      "gf": "21",
-      "ga": "48",
-      "dg": "-27"
     }
   ],
   "CHAMPIONS": [
