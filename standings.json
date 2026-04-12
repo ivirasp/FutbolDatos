@@ -27,14 +27,14 @@
     {
       "rank": "3",
       "team": "Villarreal",
-      "points": "59",
+      "points": "61",
       "played": "31",
-      "won": "18",
-      "drawn": "5",
+      "won": "19",
+      "drawn": "4",
       "lost": "8",
-      "gf": "54",
+      "gf": "55",
       "ga": "35",
-      "dg": "+19"
+      "dg": "+20"
     },
     {
       "rank": "4",
@@ -110,14 +110,14 @@
     },
     {
       "rank": "10",
-      "team": "Athletic",
-      "points": "39",
+      "team": "Espanyol",
+      "points": "38",
       "played": "31",
-      "won": "11",
-      "drawn": "6",
-      "lost": "14",
-      "gf": "32",
-      "ga": "43",
+      "won": "10",
+      "drawn": "8",
+      "lost": "13",
+      "gf": "37",
+      "ga": "48",
       "dg": "-11"
     },
     {
@@ -134,15 +134,15 @@
     },
     {
       "rank": "12",
-      "team": "Espanyol",
+      "team": "Athletic",
       "points": "38",
       "played": "31",
-      "won": "10",
-      "drawn": "8",
-      "lost": "13",
-      "gf": "37",
-      "ga": "48",
-      "dg": "-11"
+      "won": "11",
+      "drawn": "5",
+      "lost": "15",
+      "gf": "32",
+      "ga": "44",
+      "dg": "-12"
     },
     {
       "rank": "13",
