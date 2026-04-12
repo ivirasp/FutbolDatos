@@ -148,13 +148,13 @@
       "rank": "13",
       "team": "Rayo Vallecano",
       "points": "35",
-      "played": "30",
+      "played": "31",
       "won": "8",
       "drawn": "11",
-      "lost": "11",
+      "lost": "12",
       "gf": "29",
-      "ga": "35",
-      "dg": "-6"
+      "ga": "38",
+      "dg": "-9"
     },
     {
       "rank": "14",
@@ -170,6 +170,18 @@
     },
     {
       "rank": "15",
+      "team": "Mallorca",
+      "points": "34",
+      "played": "31",
+      "won": "9",
+      "drawn": "7",
+      "lost": "15",
+      "gf": "39",
+      "ga": "48",
+      "dg": "-9"
+    },
+    {
+      "rank": "16",
       "team": "Sevilla",
       "points": "34",
       "played": "31",
@@ -181,7 +193,7 @@
       "dg": "-12"
     },
     {
-      "rank": "16",
+      "rank": "17",
       "team": "Deportivo Alav\u00e9s",
       "points": "33",
       "played": "31",
@@ -193,7 +205,7 @@
       "dg": "-11"
     },
     {
-      "rank": "17",
+      "rank": "18",
       "team": "Elche",
       "points": "32",
       "played": "31",
@@ -203,18 +215,6 @@
       "gf": "39",
       "ga": "47",
       "dg": "-8"
-    },
-    {
-      "rank": "18",
-      "team": "Mallorca",
-      "points": "31",
-      "played": "30",
-      "won": "8",
-      "drawn": "7",
-      "lost": "15",
-      "gf": "36",
-      "ga": "48",
-      "dg": "-12"
     },
     {
       "rank": "19",
