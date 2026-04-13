@@ -1,33 +1,5 @@
 [
   {
-    "title": "Osasuna - Betis",
-    "start_ts": 1775995200.0,
-    "time_str": "14:00",
-    "channel": "DAZN LaLiga",
-    "competition": "LALIGA"
-  },
-  {
-    "title": "Mallorca - Rayo Vallecano",
-    "start_ts": 1776003300.0,
-    "time_str": "16:15",
-    "channel": "M+ LaLiga",
-    "competition": "LALIGA"
-  },
-  {
-    "title": "Celta - Real Oviedo",
-    "start_ts": 1776011400.0,
-    "time_str": "18:30",
-    "channel": "DAZN LaLiga",
-    "competition": "LALIGA"
-  },
-  {
-    "title": "Athletic Club - Villarreal",
-    "start_ts": 1776020400.0,
-    "time_str": "21:00",
-    "channel": "Teledeporte",
-    "competition": "LALIGA"
-  },
-  {
     "title": "Levante - Getafe",
     "start_ts": 1776106800.0,
     "time_str": "21:00",
@@ -164,6 +136,13 @@
     "title": "Real Oviedo - Villarreal",
     "start_ts": 1776972600.0,
     "time_str": "21:30",
+    "channel": "DAZN LaLiga",
+    "competition": "LALIGA"
+  },
+  {
+    "title": "Betis - Real Madrid",
+    "start_ts": 1777057200.0,
+    "time_str": "21:00",
     "channel": "DAZN LaLiga",
     "competition": "LALIGA"
   }
