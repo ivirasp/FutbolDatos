@@ -87,14 +87,14 @@
     {
       "rank": "8",
       "team": "Getafe",
-      "points": "42",
+      "points": "41",
       "played": "31",
       "won": "12",
-      "drawn": "6",
-      "lost": "13",
+      "drawn": "5",
+      "lost": "14",
       "gf": "27",
-      "ga": "31",
-      "dg": "-4"
+      "ga": "32",
+      "dg": "-5"
     },
     {
       "rank": "9",
@@ -219,14 +219,14 @@
     {
       "rank": "19",
       "team": "Levante",
-      "points": "27",
+      "points": "29",
       "played": "31",
-      "won": "6",
-      "drawn": "9",
+      "won": "7",
+      "drawn": "8",
       "lost": "16",
-      "gf": "34",
+      "gf": "35",
       "ga": "50",
-      "dg": "-16"
+      "dg": "-15"
     },
     {
       "rank": "20",
