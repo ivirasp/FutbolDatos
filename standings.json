@@ -87,10 +87,10 @@
     {
       "rank": "8",
       "team": "Getafe",
-      "points": "41",
-      "played": "30",
+      "points": "42",
+      "played": "31",
       "won": "12",
-      "drawn": "5",
+      "drawn": "6",
       "lost": "13",
       "gf": "27",
       "ga": "31",
@@ -218,6 +218,18 @@
     },
     {
       "rank": "19",
+      "team": "Levante",
+      "points": "27",
+      "played": "31",
+      "won": "6",
+      "drawn": "9",
+      "lost": "16",
+      "gf": "34",
+      "ga": "50",
+      "dg": "-16"
+    },
+    {
+      "rank": "20",
       "team": "Real Oviedo",
       "points": "27",
       "played": "31",
@@ -227,18 +239,6 @@
       "gf": "24",
       "ga": "48",
       "dg": "-24"
-    },
-    {
-      "rank": "20",
-      "team": "Levante",
-      "points": "26",
-      "played": "30",
-      "won": "6",
-      "drawn": "8",
-      "lost": "16",
-      "gf": "34",
-      "ga": "50",
-      "dg": "-16"
     }
   ],
   "CHAMPIONS": [
