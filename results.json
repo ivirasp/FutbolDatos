@@ -2161,7 +2161,7 @@
           "status": "Fin"
         }
       ],
-      "Jornada 31 (Actual)": [
+      "Jornada 31": [
         {
           "date": "10-04-2026",
           "home": "Real Madrid",
@@ -2233,7 +2233,7 @@
           "status": "Fin"
         }
       ],
-      "Jornada 32": [
+      "Jornada 32 (Actual)": [
         {
           "date": "24-04-2026",
           "home": "Real Betis",
@@ -2738,7 +2738,7 @@
         }
       ]
     },
-    "current": "Jornada 31 (Actual)"
+    "current": "Jornada 32 (Actual)"
   },
   "CHAMPIONS": {
     "rounds": {
