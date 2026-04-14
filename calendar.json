@@ -1,12 +1,5 @@
 [
   {
-    "title": "Levante - Getafe",
-    "start_ts": 1776106800.0,
-    "time_str": "21:00",
-    "channel": "DAZN LaLiga",
-    "competition": "LALIGA"
-  },
-  {
     "title": "Atl\u00e9tico de Madrid - Barcelona",
     "start_ts": 1776193200.0,
     "time_str": "21:00",
@@ -142,6 +135,34 @@
   {
     "title": "Betis - Real Madrid",
     "start_ts": 1777057200.0,
+    "time_str": "21:00",
+    "channel": "DAZN LaLiga",
+    "competition": "LALIGA"
+  },
+  {
+    "title": "Alav\u00e9s - Mallorca",
+    "start_ts": 1777118400.0,
+    "time_str": "14:00",
+    "channel": "M+ LaLiga",
+    "competition": "LALIGA"
+  },
+  {
+    "title": "Getafe - Barcelona",
+    "start_ts": 1777126500.0,
+    "time_str": "16:15",
+    "channel": "M+ LaLiga",
+    "competition": "LALIGA"
+  },
+  {
+    "title": "Valencia - Girona",
+    "start_ts": 1777134600.0,
+    "time_str": "18:30",
+    "channel": "M+ LaLiga",
+    "competition": "LALIGA"
+  },
+  {
+    "title": "Atl\u00e9tico de Madrid - Athletic Club",
+    "start_ts": 1777143600.0,
     "time_str": "21:00",
     "channel": "DAZN LaLiga",
     "competition": "LALIGA"
