@@ -122,24 +122,24 @@
     },
     {
       "rank": "11",
-      "team": "Athletic",
-      "points": "38",
-      "played": "31",
-      "won": "11",
-      "drawn": "5",
-      "lost": "15",
-      "gf": "33",
-      "ga": "45",
-      "dg": "-12"
-    },
-    {
-      "rank": "12",
       "team": "Girona FC",
       "points": "38",
       "played": "31",
       "won": "9",
       "drawn": "11",
       "lost": "11",
+      "gf": "33",
+      "ga": "45",
+      "dg": "-12"
+    },
+    {
+      "rank": "12",
+      "team": "Athletic",
+      "points": "38",
+      "played": "31",
+      "won": "11",
+      "drawn": "5",
+      "lost": "15",
       "gf": "33",
       "ga": "45",
       "dg": "-12"
