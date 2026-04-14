@@ -4034,14 +4034,14 @@
           "home": "Atl\u00e9tico de Madrid",
           "away": "Barcelona",
           "score": "1 - 2",
-          "status": "Directo"
+          "status": "Fin"
         },
         {
           "date": "14-04-2026",
           "home": "Liverpool",
           "away": "PSG",
-          "score": "0 - 0",
-          "status": "Directo"
+          "score": "0 - 2",
+          "status": "Fin"
         },
         {
           "date": "15-04-2026",
@@ -4061,15 +4061,15 @@
       "Semifinal (ida)": [
         {
           "date": "28-04-2026",
-          "home": "Ganador cuartos de final 1",
-          "away": "Ganador cuartos de final 2",
+          "home": "Atl\u00e9tico de Madrid",
+          "away": "Ganador cuartos de final 4",
           "score": "vs",
           "status": ""
         },
         {
           "date": "28-04-2026",
-          "home": "Ganador cuartos de final 3",
-          "away": "Ganador cuartos de final 4",
+          "home": "PSG",
+          "away": "Ganador cuartos de final 2",
           "score": "vs",
           "status": ""
         }
@@ -4078,14 +4078,14 @@
         {
           "date": "05-05-2026",
           "home": "Ganador cuartos de final 2",
-          "away": "Ganador cuartos de final 1",
+          "away": "PSG",
           "score": "vs",
           "status": ""
         },
         {
           "date": "05-05-2026",
           "home": "Ganador cuartos de final 4",
-          "away": "Ganador cuartos de final 3",
+          "away": "Atl\u00e9tico de Madrid",
           "score": "vs",
           "status": ""
         }
