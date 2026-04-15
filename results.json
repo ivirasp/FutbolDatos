@@ -4028,7 +4028,7 @@
           "status": "Fin"
         }
       ],
-      "Cuartos de final (vuelta) (Actual)": [
+      "Cuartos de final (vuelta)": [
         {
           "date": "14-04-2026",
           "home": "Atl\u00e9tico de Madrid",
@@ -4058,18 +4058,18 @@
           "status": "Fin"
         }
       ],
-      "Semifinal (ida)": [
-        {
-          "date": "28-04-2026",
-          "home": "Atl\u00e9tico de Madrid",
-          "away": "Arsenal",
-          "score": "vs",
-          "status": ""
-        },
+      "Semifinal (ida) (Actual)": [
         {
           "date": "28-04-2026",
           "home": "PSG",
           "away": "Bayern M\u00fanich",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "29-04-2026",
+          "home": "Atl\u00e9tico de Madrid",
+          "away": "Arsenal",
           "score": "vs",
           "status": ""
         }
@@ -4083,7 +4083,7 @@
           "status": ""
         },
         {
-          "date": "05-05-2026",
+          "date": "06-05-2026",
           "home": "Bayern M\u00fanich",
           "away": "PSG",
           "score": "vs",
@@ -4100,7 +4100,7 @@
         }
       ]
     },
-    "current": "Cuartos de final (vuelta) (Actual)"
+    "current": "Semifinal (ida) (Actual)"
   },
   "EUROPA": {
     "rounds": {
