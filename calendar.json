@@ -1,19 +1,5 @@
 [
   {
-    "title": "Atl\u00e9tico de Madrid - Barcelona",
-    "start_ts": 1776193200.0,
-    "time_str": "21:00",
-    "channel": "M+ Liga de Campeones",
-    "competition": "CHAMPIONS"
-  },
-  {
-    "title": "Liverpool - PSG",
-    "start_ts": 1776193200.0,
-    "time_str": "21:00",
-    "channel": "M+ Liga de Campeones 2",
-    "competition": "CHAMPIONS"
-  },
-  {
     "title": "Arsenal - Sporting Portugal",
     "start_ts": 1776279600.0,
     "time_str": "21:00",
