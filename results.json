@@ -4048,28 +4048,28 @@
           "home": "Arsenal",
           "away": "Sporting CP",
           "score": "0 - 0",
-          "status": "Directo"
+          "status": "Fin"
         },
         {
           "date": "15-04-2026",
           "home": "Bayern M\u00fanich",
           "away": "Real Madrid",
-          "score": "2 - 3",
-          "status": "Directo"
+          "score": "4 - 3",
+          "status": "Fin"
         }
       ],
       "Semifinal (ida)": [
         {
           "date": "28-04-2026",
           "home": "Atl\u00e9tico de Madrid",
-          "away": "Ganador cuartos de final 4",
+          "away": "Arsenal",
           "score": "vs",
           "status": ""
         },
         {
           "date": "28-04-2026",
           "home": "PSG",
-          "away": "Ganador cuartos de final 2",
+          "away": "Bayern M\u00fanich",
           "score": "vs",
           "status": ""
         }
@@ -4077,15 +4077,15 @@
       "Semifinal (vuelta)": [
         {
           "date": "05-05-2026",
-          "home": "Ganador cuartos de final 2",
-          "away": "PSG",
+          "home": "Arsenal",
+          "away": "Atl\u00e9tico de Madrid",
           "score": "vs",
           "status": ""
         },
         {
           "date": "05-05-2026",
-          "home": "Ganador cuartos de final 4",
-          "away": "Atl\u00e9tico de Madrid",
+          "home": "Bayern M\u00fanich",
+          "away": "PSG",
           "score": "vs",
           "status": ""
         }
