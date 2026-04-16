@@ -1,19 +1,5 @@
 [
   {
-    "title": "Arsenal - Sporting Portugal",
-    "start_ts": 1776279600.0,
-    "time_str": "21:00",
-    "channel": "M+ Liga de Campeones 2",
-    "competition": "CHAMPIONS"
-  },
-  {
-    "title": "FC Bayern - Real Madrid",
-    "start_ts": 1776279600.0,
-    "time_str": "21:00",
-    "channel": "M+ Liga de Campeones",
-    "competition": "CHAMPIONS"
-  },
-  {
     "title": "Celta - Friburgo",
     "start_ts": 1776357900.0,
     "time_str": "18:45",
@@ -87,7 +73,7 @@
     "title": "Real Sociedad - Getafe",
     "start_ts": 1776880800.0,
     "time_str": "20:00",
-    "channel": "DAZN LaLiga",
+    "channel": "DAZN LaLiga 2",
     "competition": "LALIGA"
   },
   {
@@ -115,7 +101,7 @@
     "title": "Real Oviedo - Villarreal",
     "start_ts": 1776972600.0,
     "time_str": "21:30",
-    "channel": "DAZN LaLiga",
+    "channel": "DAZN LaLiga 2",
     "competition": "LALIGA"
   },
   {
@@ -152,5 +138,33 @@
     "time_str": "21:00",
     "channel": "DAZN LaLiga",
     "competition": "LALIGA"
+  },
+  {
+    "title": "PSG - FC Bayern",
+    "start_ts": 1777402800.0,
+    "time_str": "21:00",
+    "channel": "M+ Liga de Campeones",
+    "competition": "CHAMPIONS"
+  },
+  {
+    "title": "Atl\u00e9tico de Madrid - Arsenal",
+    "start_ts": 1777402800.0,
+    "time_str": "21:00",
+    "channel": "M+ Liga de Campeones",
+    "competition": "CHAMPIONS"
+  },
+  {
+    "title": "Arsenal - Atl\u00e9tico de Madrid",
+    "start_ts": 1778007600.0,
+    "time_str": "21:00",
+    "channel": "M+ Liga de Campeones",
+    "competition": "CHAMPIONS"
+  },
+  {
+    "title": "FC Bayern - PSG",
+    "start_ts": 1778007600.0,
+    "time_str": "21:00",
+    "channel": "M+ Liga de Campeones",
+    "competition": "CHAMPIONS"
   }
 ]
