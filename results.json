@@ -2394,6 +2394,20 @@
         },
         {
           "date": "02-05-2026",
+          "home": "Osasuna",
+          "away": "Barcelona",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "02-05-2026",
+          "home": "Valencia CF",
+          "away": "Atl\u00e9tico de Madrid",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "02-05-2026",
           "home": "Villarreal",
           "away": "Levante",
           "score": "vs",
@@ -2422,22 +2436,8 @@
         },
         {
           "date": "03-05-2026",
-          "home": "Osasuna",
-          "away": "Barcelona",
-          "score": "vs",
-          "status": ""
-        },
-        {
-          "date": "03-05-2026",
           "home": "Real Betis",
           "away": "Real Oviedo",
-          "score": "vs",
-          "status": ""
-        },
-        {
-          "date": "03-05-2026",
-          "home": "Valencia CF",
-          "away": "Atl\u00e9tico de Madrid",
           "score": "vs",
           "status": ""
         },
@@ -3864,7 +3864,7 @@
           "date": "25-02-2026",
           "home": "Juventus",
           "away": "Galatasaray",
-          "score": "3 - 2",
+          "score": "3 - 0",
           "status": "Fin"
         },
         {
@@ -3945,7 +3945,7 @@
           "date": "17-03-2026",
           "home": "Sporting CP",
           "away": "Bod\u00f8/Glimt",
-          "score": "5 - 0",
+          "score": "3 - 0",
           "status": "Fin"
         },
         {
