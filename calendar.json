@@ -1,33 +1,5 @@
 [
   {
-    "title": "Celta - Friburgo",
-    "start_ts": 1776357900.0,
-    "time_str": "18:45",
-    "channel": "M+ Liga de Campeones",
-    "competition": "EUROPA"
-  },
-  {
-    "title": "Aston Villa - Bologna",
-    "start_ts": 1776366000.0,
-    "time_str": "21:00",
-    "channel": "M+ Liga de Campeones 4",
-    "competition": "EUROPA"
-  },
-  {
-    "title": "Nottingham Forest - Porto",
-    "start_ts": 1776366000.0,
-    "time_str": "21:00",
-    "channel": "M+ Liga de Campeones 4",
-    "competition": "EUROPA"
-  },
-  {
-    "title": "Betis - Braga",
-    "start_ts": 1776366000.0,
-    "time_str": "21:00",
-    "channel": "M+ Liga de Campeones 2",
-    "competition": "EUROPA"
-  },
-  {
     "title": "Atl\u00e9tico de Madrid - Real Sociedad",
     "start_ts": 1776538800.0,
     "time_str": "21:00",
