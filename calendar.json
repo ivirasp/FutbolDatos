@@ -1,12 +1,5 @@
 [
   {
-    "title": "Atl\u00e9tico de Madrid - Real Sociedad",
-    "start_ts": 1776538800.0,
-    "time_str": "21:00",
-    "channel": "La 1",
-    "competition": "COPA"
-  },
-  {
     "title": "Mallorca - Valencia",
     "start_ts": 1776790800.0,
     "time_str": "19:00",
@@ -120,7 +113,7 @@
   },
   {
     "title": "Atl\u00e9tico de Madrid - Arsenal",
-    "start_ts": 1777402800.0,
+    "start_ts": 1777489200.0,
     "time_str": "21:00",
     "channel": "M+ Liga de Campeones",
     "competition": "CHAMPIONS"
@@ -134,7 +127,7 @@
   },
   {
     "title": "FC Bayern - PSG",
-    "start_ts": 1778007600.0,
+    "start_ts": 1778094000.0,
     "time_str": "21:00",
     "channel": "M+ Liga de Campeones",
     "competition": "CHAMPIONS"
