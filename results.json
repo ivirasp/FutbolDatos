@@ -2451,16 +2451,44 @@
       ],
       "Jornada 35": [
         {
-          "date": "10-05-2026",
-          "home": "Athletic Club",
-          "away": "Valencia CF",
+          "date": "08-05-2026",
+          "home": "Levante",
+          "away": "Osasuna",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "09-05-2026",
+          "home": "Atl\u00e9tico de Madrid",
+          "away": "Celta de Vigo",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "09-05-2026",
+          "home": "Elche",
+          "away": "Alav\u00e9s",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "09-05-2026",
+          "home": "Real Sociedad",
+          "away": "Real Betis",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "09-05-2026",
+          "home": "Sevilla",
+          "away": "Espanyol",
           "score": "vs",
           "status": ""
         },
         {
           "date": "10-05-2026",
-          "home": "Atl\u00e9tico de Madrid",
-          "away": "Celta de Vigo",
+          "home": "Athletic Club",
+          "away": "Valencia CF",
           "score": "vs",
           "status": ""
         },
@@ -2473,29 +2501,8 @@
         },
         {
           "date": "10-05-2026",
-          "home": "Elche",
-          "away": "Alav\u00e9s",
-          "score": "vs",
-          "status": ""
-        },
-        {
-          "date": "10-05-2026",
-          "home": "Levante",
-          "away": "Osasuna",
-          "score": "vs",
-          "status": ""
-        },
-        {
-          "date": "10-05-2026",
           "home": "Mallorca",
           "away": "Villarreal",
-          "score": "vs",
-          "status": ""
-        },
-        {
-          "date": "10-05-2026",
-          "home": "Rayo Vallecano",
-          "away": "Girona",
           "score": "vs",
           "status": ""
         },
@@ -2507,32 +2514,39 @@
           "status": ""
         },
         {
-          "date": "10-05-2026",
-          "home": "Real Sociedad",
-          "away": "Real Betis",
-          "score": "vs",
-          "status": ""
-        },
-        {
-          "date": "10-05-2026",
-          "home": "Sevilla",
-          "away": "Espanyol",
+          "date": "11-05-2026",
+          "home": "Rayo Vallecano",
+          "away": "Girona",
           "score": "vs",
           "status": ""
         }
       ],
       "Jornada 36": [
         {
-          "date": "13-05-2026",
-          "home": "Alav\u00e9s",
-          "away": "Barcelona",
+          "date": "12-05-2026",
+          "home": "Celta de Vigo",
+          "away": "Levante",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "12-05-2026",
+          "home": "Osasuna",
+          "away": "Atl\u00e9tico de Madrid",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "12-05-2026",
+          "home": "Real Betis",
+          "away": "Elche",
           "score": "vs",
           "status": ""
         },
         {
           "date": "13-05-2026",
-          "home": "Celta de Vigo",
-          "away": "Levante",
+          "home": "Alav\u00e9s",
+          "away": "Barcelona",
           "score": "vs",
           "status": ""
         },
@@ -2552,43 +2566,29 @@
         },
         {
           "date": "13-05-2026",
+          "home": "Villarreal",
+          "away": "Sevilla",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "14-05-2026",
           "home": "Girona",
           "away": "Real Sociedad",
           "score": "vs",
           "status": ""
         },
         {
-          "date": "13-05-2026",
-          "home": "Osasuna",
-          "away": "Atl\u00e9tico de Madrid",
-          "score": "vs",
-          "status": ""
-        },
-        {
-          "date": "13-05-2026",
-          "home": "Real Betis",
-          "away": "Elche",
-          "score": "vs",
-          "status": ""
-        },
-        {
-          "date": "13-05-2026",
+          "date": "14-05-2026",
           "home": "Real Madrid",
           "away": "Real Oviedo",
           "score": "vs",
           "status": ""
         },
         {
-          "date": "13-05-2026",
+          "date": "14-05-2026",
           "home": "Valencia CF",
           "away": "Rayo Vallecano",
-          "score": "vs",
-          "status": ""
-        },
-        {
-          "date": "13-05-2026",
-          "home": "Villarreal",
-          "away": "Sevilla",
           "score": "vs",
           "status": ""
         }
