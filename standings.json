@@ -15,14 +15,14 @@
     {
       "rank": "2",
       "team": "Real Madrid",
-      "points": "70",
-      "played": "31",
-      "won": "22",
+      "points": "73",
+      "played": "32",
+      "won": "23",
       "drawn": "4",
       "lost": "5",
-      "gf": "65",
+      "gf": "67",
       "ga": "29",
-      "dg": "+36"
+      "dg": "+38"
     },
     {
       "rank": "3",
@@ -51,14 +51,14 @@
     {
       "rank": "5",
       "team": "Real Betis",
-      "points": "46",
-      "played": "31",
-      "won": "11",
+      "points": "49",
+      "played": "32",
+      "won": "12",
       "drawn": "13",
       "lost": "7",
-      "gf": "45",
-      "ga": "38",
-      "dg": "+7"
+      "gf": "47",
+      "ga": "39",
+      "dg": "+8"
     },
     {
       "rank": "6",
@@ -124,13 +124,13 @@
       "rank": "11",
       "team": "Girona FC",
       "points": "38",
-      "played": "31",
+      "played": "32",
       "won": "9",
       "drawn": "11",
-      "lost": "11",
-      "gf": "33",
-      "ga": "45",
-      "dg": "-12"
+      "lost": "12",
+      "gf": "34",
+      "ga": "47",
+      "dg": "-13"
     },
     {
       "rank": "12",
@@ -196,13 +196,13 @@
       "rank": "17",
       "team": "Deportivo Alav\u00e9s",
       "points": "33",
-      "played": "31",
+      "played": "32",
       "won": "8",
       "drawn": "9",
-      "lost": "14",
+      "lost": "15",
       "gf": "35",
-      "ga": "46",
-      "dg": "-11"
+      "ga": "48",
+      "dg": "-13"
     },
     {
       "rank": "18",
