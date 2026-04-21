@@ -98,27 +98,27 @@
     },
     {
       "rank": "9",
-      "team": "Osasuna",
-      "points": "39",
-      "played": "31",
-      "won": "10",
-      "drawn": "9",
-      "lost": "12",
-      "gf": "37",
-      "ga": "38",
-      "dg": "-1"
+      "team": "Athletic",
+      "points": "41",
+      "played": "32",
+      "won": "12",
+      "drawn": "5",
+      "lost": "15",
+      "gf": "34",
+      "ga": "45",
+      "dg": "-11"
     },
     {
       "rank": "10",
-      "team": "Espanyol",
-      "points": "38",
-      "played": "31",
+      "team": "Osasuna",
+      "points": "39",
+      "played": "32",
       "won": "10",
-      "drawn": "8",
+      "drawn": "9",
       "lost": "13",
       "gf": "37",
-      "ga": "48",
-      "dg": "-11"
+      "ga": "39",
+      "dg": "-2"
     },
     {
       "rank": "11",
@@ -134,18 +134,42 @@
     },
     {
       "rank": "12",
-      "team": "Athletic",
+      "team": "Espanyol",
       "points": "38",
       "played": "31",
-      "won": "11",
-      "drawn": "5",
-      "lost": "15",
-      "gf": "33",
-      "ga": "45",
-      "dg": "-12"
+      "won": "10",
+      "drawn": "8",
+      "lost": "13",
+      "gf": "37",
+      "ga": "48",
+      "dg": "-11"
     },
     {
       "rank": "13",
+      "team": "Valencia",
+      "points": "36",
+      "played": "32",
+      "won": "9",
+      "drawn": "9",
+      "lost": "14",
+      "gf": "34",
+      "ga": "46",
+      "dg": "-12"
+    },
+    {
+      "rank": "14",
+      "team": "Mallorca",
+      "points": "35",
+      "played": "32",
+      "won": "9",
+      "drawn": "8",
+      "lost": "15",
+      "gf": "39",
+      "ga": "48",
+      "dg": "-9"
+    },
+    {
+      "rank": "15",
       "team": "Rayo Vallecano",
       "points": "35",
       "played": "31",
@@ -154,30 +178,6 @@
       "lost": "12",
       "gf": "29",
       "ga": "38",
-      "dg": "-9"
-    },
-    {
-      "rank": "14",
-      "team": "Valencia",
-      "points": "35",
-      "played": "31",
-      "won": "9",
-      "drawn": "8",
-      "lost": "14",
-      "gf": "34",
-      "ga": "46",
-      "dg": "-12"
-    },
-    {
-      "rank": "15",
-      "team": "Mallorca",
-      "points": "34",
-      "played": "31",
-      "won": "9",
-      "drawn": "7",
-      "lost": "15",
-      "gf": "39",
-      "ga": "48",
       "dg": "-9"
     },
     {
