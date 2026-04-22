@@ -3,14 +3,14 @@
     {
       "rank": "1",
       "team": "FC Barcelona",
-      "points": "80",
+      "points": "82",
       "played": "32",
-      "won": "26",
-      "drawn": "2",
+      "won": "27",
+      "drawn": "1",
       "lost": "4",
-      "gf": "84",
+      "gf": "85",
       "ga": "30",
-      "dg": "+54"
+      "dg": "+55"
     },
     {
       "rank": "2",
@@ -62,18 +62,6 @@
     },
     {
       "rank": "6",
-      "team": "Celta",
-      "points": "45",
-      "played": "32",
-      "won": "11",
-      "drawn": "12",
-      "lost": "9",
-      "gf": "44",
-      "ga": "40",
-      "dg": "+4"
-    },
-    {
-      "rank": "7",
       "team": "Getafe",
       "points": "44",
       "played": "32",
@@ -83,6 +71,18 @@
       "gf": "28",
       "ga": "32",
       "dg": "-4"
+    },
+    {
+      "rank": "7",
+      "team": "Celta",
+      "points": "44",
+      "played": "32",
+      "won": "11",
+      "drawn": "11",
+      "lost": "10",
+      "gf": "44",
+      "ga": "41",
+      "dg": "+3"
     },
     {
       "rank": "8",
