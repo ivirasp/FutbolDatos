@@ -40,13 +40,13 @@
       "rank": "4",
       "team": "Atl\u00e9tico de Madrid",
       "points": "57",
-      "played": "31",
+      "played": "32",
       "won": "17",
       "drawn": "6",
-      "lost": "8",
-      "gf": "51",
-      "ga": "32",
-      "dg": "+19"
+      "lost": "9",
+      "gf": "52",
+      "ga": "34",
+      "dg": "+18"
     },
     {
       "rank": "5",
@@ -170,6 +170,18 @@
     },
     {
       "rank": "15",
+      "team": "Elche",
+      "points": "35",
+      "played": "32",
+      "won": "8",
+      "drawn": "11",
+      "lost": "13",
+      "gf": "41",
+      "ga": "48",
+      "dg": "-7"
+    },
+    {
+      "rank": "16",
       "team": "Rayo Vallecano",
       "points": "35",
       "played": "31",
@@ -181,7 +193,7 @@
       "dg": "-9"
     },
     {
-      "rank": "16",
+      "rank": "17",
       "team": "Sevilla",
       "points": "34",
       "played": "31",
@@ -193,7 +205,7 @@
       "dg": "-12"
     },
     {
-      "rank": "17",
+      "rank": "18",
       "team": "Deportivo Alav\u00e9s",
       "points": "33",
       "played": "32",
@@ -203,18 +215,6 @@
       "gf": "36",
       "ga": "48",
       "dg": "-12"
-    },
-    {
-      "rank": "18",
-      "team": "Elche",
-      "points": "32",
-      "played": "31",
-      "won": "7",
-      "drawn": "11",
-      "lost": "13",
-      "gf": "39",
-      "ga": "47",
-      "dg": "-8"
     },
     {
       "rank": "19",
