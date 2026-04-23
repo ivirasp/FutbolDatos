@@ -27,14 +27,14 @@
     {
       "rank": "3",
       "team": "Villarreal",
-      "points": "61",
-      "played": "31",
-      "won": "19",
+      "points": "64",
+      "played": "32",
+      "won": "20",
       "drawn": "4",
       "lost": "8",
-      "gf": "56",
+      "gf": "57",
       "ga": "36",
-      "dg": "+20"
+      "dg": "+21"
     },
     {
       "rank": "4",
@@ -122,18 +122,30 @@
     },
     {
       "rank": "11",
-      "team": "Espanyol",
-      "points": "39",
+      "team": "Rayo Vallecano",
+      "points": "38",
       "played": "32",
-      "won": "10",
-      "drawn": "9",
-      "lost": "13",
-      "gf": "37",
-      "ga": "48",
-      "dg": "-11"
+      "won": "9",
+      "drawn": "11",
+      "lost": "12",
+      "gf": "30",
+      "ga": "38",
+      "dg": "-8"
     },
     {
       "rank": "12",
+      "team": "Espanyol",
+      "points": "38",
+      "played": "32",
+      "won": "10",
+      "drawn": "8",
+      "lost": "14",
+      "gf": "37",
+      "ga": "49",
+      "dg": "-12"
+    },
+    {
+      "rank": "13",
       "team": "Girona FC",
       "points": "38",
       "played": "32",
@@ -143,18 +155,6 @@
       "gf": "35",
       "ga": "48",
       "dg": "-13"
-    },
-    {
-      "rank": "13",
-      "team": "Rayo Vallecano",
-      "points": "36",
-      "played": "32",
-      "won": "8",
-      "drawn": "12",
-      "lost": "12",
-      "gf": "29",
-      "ga": "38",
-      "dg": "-9"
     },
     {
       "rank": "14",
@@ -201,8 +201,8 @@
       "drawn": "7",
       "lost": "16",
       "gf": "39",
-      "ga": "52",
-      "dg": "-13"
+      "ga": "53",
+      "dg": "-14"
     },
     {
       "rank": "18",
@@ -224,21 +224,21 @@
       "won": "8",
       "drawn": "8",
       "lost": "16",
-      "gf": "36",
+      "gf": "37",
       "ga": "50",
-      "dg": "-14"
+      "dg": "-13"
     },
     {
       "rank": "20",
       "team": "Real Oviedo",
       "points": "27",
-      "played": "31",
+      "played": "32",
       "won": "6",
       "drawn": "9",
-      "lost": "16",
+      "lost": "17",
       "gf": "24",
-      "ga": "48",
-      "dg": "-24"
+      "ga": "49",
+      "dg": "-25"
     }
   ],
   "CHAMPIONS": [
