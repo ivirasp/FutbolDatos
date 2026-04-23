@@ -1,26 +1,5 @@
 [
   {
-    "title": "Elche - Atl\u00e9tico de Madrid",
-    "start_ts": 1776877200.0,
-    "time_str": "19:00",
-    "channel": "DAZN LaLiga",
-    "competition": "LALIGA"
-  },
-  {
-    "title": "Real Sociedad - Getafe",
-    "start_ts": 1776880800.0,
-    "time_str": "20:00",
-    "channel": "DAZN LaLiga 2",
-    "competition": "LALIGA"
-  },
-  {
-    "title": "Barcelona - Celta",
-    "start_ts": 1776886200.0,
-    "time_str": "21:30",
-    "channel": "M+ LaLiga",
-    "competition": "LALIGA"
-  },
-  {
     "title": "Levante - Sevilla",
     "start_ts": 1776963600.0,
     "time_str": "19:00",
@@ -100,6 +79,13 @@
   {
     "title": "Villarreal - Celta",
     "start_ts": 1777230000.0,
+    "time_str": "21:00",
+    "channel": "M+ LaLiga",
+    "competition": "LALIGA"
+  },
+  {
+    "title": "Espanyol - Levante",
+    "start_ts": 1777316400.0,
     "time_str": "21:00",
     "channel": "M+ LaLiga",
     "competition": "LALIGA"
