@@ -122,6 +122,18 @@
     },
     {
       "rank": "11",
+      "team": "Espanyol",
+      "points": "39",
+      "played": "32",
+      "won": "10",
+      "drawn": "9",
+      "lost": "13",
+      "gf": "37",
+      "ga": "48",
+      "dg": "-11"
+    },
+    {
+      "rank": "12",
       "team": "Girona FC",
       "points": "38",
       "played": "32",
@@ -133,19 +145,19 @@
       "dg": "-13"
     },
     {
-      "rank": "12",
-      "team": "Espanyol",
-      "points": "38",
-      "played": "31",
-      "won": "10",
-      "drawn": "8",
-      "lost": "13",
-      "gf": "37",
-      "ga": "48",
-      "dg": "-11"
+      "rank": "13",
+      "team": "Rayo Vallecano",
+      "points": "36",
+      "played": "32",
+      "won": "8",
+      "drawn": "12",
+      "lost": "12",
+      "gf": "29",
+      "ga": "38",
+      "dg": "-9"
     },
     {
-      "rank": "13",
+      "rank": "14",
       "team": "Valencia",
       "points": "36",
       "played": "32",
@@ -157,7 +169,7 @@
       "dg": "-12"
     },
     {
-      "rank": "14",
+      "rank": "15",
       "team": "Mallorca",
       "points": "35",
       "played": "32",
@@ -169,7 +181,7 @@
       "dg": "-9"
     },
     {
-      "rank": "15",
+      "rank": "16",
       "team": "Elche",
       "points": "35",
       "played": "32",
@@ -181,28 +193,16 @@
       "dg": "-7"
     },
     {
-      "rank": "16",
-      "team": "Rayo Vallecano",
-      "points": "35",
-      "played": "31",
-      "won": "8",
-      "drawn": "11",
-      "lost": "12",
-      "gf": "29",
-      "ga": "38",
-      "dg": "-9"
-    },
-    {
       "rank": "17",
       "team": "Sevilla",
-      "points": "35",
+      "points": "34",
       "played": "32",
       "won": "9",
-      "drawn": "8",
-      "lost": "15",
+      "drawn": "7",
+      "lost": "16",
       "gf": "39",
-      "ga": "51",
-      "dg": "-12"
+      "ga": "52",
+      "dg": "-13"
     },
     {
       "rank": "18",
@@ -219,14 +219,14 @@
     {
       "rank": "19",
       "team": "Levante",
-      "points": "30",
+      "points": "32",
       "played": "32",
-      "won": "7",
-      "drawn": "9",
+      "won": "8",
+      "drawn": "8",
       "lost": "16",
-      "gf": "35",
+      "gf": "36",
       "ga": "50",
-      "dg": "-15"
+      "dg": "-14"
     },
     {
       "rank": "20",
