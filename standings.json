@@ -15,14 +15,14 @@
     {
       "rank": "2",
       "team": "Real Madrid",
-      "points": "76",
+      "points": "74",
       "played": "33",
-      "won": "24",
-      "drawn": "4",
+      "won": "23",
+      "drawn": "5",
       "lost": "5",
       "gf": "68",
-      "ga": "30",
-      "dg": "+38"
+      "ga": "31",
+      "dg": "+37"
     },
     {
       "rank": "3",
@@ -51,14 +51,14 @@
     {
       "rank": "5",
       "team": "Real Betis",
-      "points": "49",
+      "points": "50",
       "played": "33",
       "won": "12",
-      "drawn": "13",
-      "lost": "8",
-      "gf": "48",
+      "drawn": "14",
+      "lost": "7",
+      "gf": "49",
       "ga": "41",
-      "dg": "+7"
+      "dg": "+8"
     },
     {
       "rank": "6",
