@@ -1,26 +1,5 @@
 [
   {
-    "title": "Levante - Sevilla",
-    "start_ts": 1776963600.0,
-    "time_str": "19:00",
-    "channel": "DAZN LaLiga",
-    "competition": "LALIGA"
-  },
-  {
-    "title": "Rayo Vallecano - Espanyol",
-    "start_ts": 1776967200.0,
-    "time_str": "20:00",
-    "channel": "M+ LaLiga",
-    "competition": "LALIGA"
-  },
-  {
-    "title": "Real Oviedo - Villarreal",
-    "start_ts": 1776972600.0,
-    "time_str": "21:30",
-    "channel": "DAZN LaLiga 2",
-    "competition": "LALIGA"
-  },
-  {
     "title": "Betis - Real Madrid",
     "start_ts": 1777057200.0,
     "time_str": "21:00",
@@ -105,6 +84,27 @@
     "competition": "CHAMPIONS"
   },
   {
+    "title": "Braga - Friburgo",
+    "start_ts": 1777575600.0,
+    "time_str": "21:00",
+    "channel": "M+ Liga de Campeones 3",
+    "competition": "EUROPA"
+  },
+  {
+    "title": "Nottingham Forest - Aston Villa",
+    "start_ts": 1777575600.0,
+    "time_str": "21:00",
+    "channel": "M+ Liga de Campeones 2",
+    "competition": "EUROPA"
+  },
+  {
+    "title": "Girona - Mallorca",
+    "start_ts": 1777662000.0,
+    "time_str": "21:00",
+    "channel": "M+ LaLiga",
+    "competition": "LALIGA"
+  },
+  {
     "title": "Arsenal - Atl\u00e9tico de Madrid",
     "start_ts": 1778007600.0,
     "time_str": "21:00",
@@ -117,5 +117,19 @@
     "time_str": "21:00",
     "channel": "M+ Liga de Campeones",
     "competition": "CHAMPIONS"
+  },
+  {
+    "title": "Friburgo - Braga",
+    "start_ts": 1778180400.0,
+    "time_str": "21:00",
+    "channel": "M+ Liga de Campeones",
+    "competition": "EUROPA"
+  },
+  {
+    "title": "Aston Villa - Nottingham Forest",
+    "start_ts": 1778180400.0,
+    "time_str": "21:00",
+    "channel": "M+ Liga de Campeones",
+    "competition": "EUROPA"
   }
 ]
