@@ -3,14 +3,14 @@
     {
       "rank": "1",
       "team": "FC Barcelona",
-      "points": "83",
+      "points": "85",
       "played": "33",
-      "won": "27",
-      "drawn": "2",
+      "won": "28",
+      "drawn": "1",
       "lost": "4",
-      "gf": "85",
+      "gf": "86",
       "ga": "30",
-      "dg": "+55"
+      "dg": "+56"
     },
     {
       "rank": "2",
@@ -63,14 +63,14 @@
     {
       "rank": "6",
       "team": "Getafe",
-      "points": "45",
+      "points": "44",
       "played": "33",
       "won": "13",
-      "drawn": "6",
-      "lost": "14",
+      "drawn": "5",
+      "lost": "15",
       "gf": "28",
-      "ga": "32",
-      "dg": "-4"
+      "ga": "33",
+      "dg": "-5"
     },
     {
       "rank": "7",
