@@ -27,14 +27,14 @@
     {
       "rank": "3",
       "team": "Villarreal",
-      "points": "62",
-      "played": "32",
-      "won": "19",
+      "points": "65",
+      "played": "33",
+      "won": "20",
       "drawn": "5",
       "lost": "8",
-      "gf": "57",
+      "gf": "59",
       "ga": "37",
-      "dg": "+20"
+      "dg": "+22"
     },
     {
       "rank": "4",
@@ -76,13 +76,13 @@
       "rank": "7",
       "team": "Celta",
       "points": "44",
-      "played": "32",
+      "played": "33",
       "won": "11",
       "drawn": "11",
-      "lost": "10",
+      "lost": "11",
       "gf": "44",
-      "ga": "41",
-      "dg": "+3"
+      "ga": "43",
+      "dg": "+1"
     },
     {
       "rank": "8",
