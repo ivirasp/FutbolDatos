@@ -98,6 +98,18 @@
     },
     {
       "rank": "9",
+      "team": "Osasuna",
+      "points": "42",
+      "played": "33",
+      "won": "11",
+      "drawn": "9",
+      "lost": "13",
+      "gf": "39",
+      "ga": "40",
+      "dg": "-1"
+    },
+    {
+      "rank": "10",
       "team": "Athletic",
       "points": "41",
       "played": "33",
@@ -107,18 +119,6 @@
       "gf": "36",
       "ga": "48",
       "dg": "-12"
-    },
-    {
-      "rank": "10",
-      "team": "Osasuna",
-      "points": "40",
-      "played": "33",
-      "won": "10",
-      "drawn": "10",
-      "lost": "13",
-      "gf": "37",
-      "ga": "39",
-      "dg": "-2"
     },
     {
       "rank": "11",
@@ -207,14 +207,14 @@
     {
       "rank": "18",
       "team": "Sevilla",
-      "points": "35",
+      "points": "34",
       "played": "33",
       "won": "9",
-      "drawn": "8",
-      "lost": "16",
-      "gf": "39",
-      "ga": "53",
-      "dg": "-14"
+      "drawn": "7",
+      "lost": "17",
+      "gf": "40",
+      "ga": "55",
+      "dg": "-15"
     },
     {
       "rank": "19",
