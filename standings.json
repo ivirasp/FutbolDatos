@@ -146,6 +146,18 @@
     },
     {
       "rank": "13",
+      "team": "Espanyol",
+      "points": "39",
+      "played": "33",
+      "won": "10",
+      "drawn": "9",
+      "lost": "14",
+      "gf": "37",
+      "ga": "49",
+      "dg": "-12"
+    },
+    {
+      "rank": "14",
       "team": "Elche",
       "points": "38",
       "played": "33",
@@ -155,18 +167,6 @@
       "gf": "44",
       "ga": "50",
       "dg": "-6"
-    },
-    {
-      "rank": "14",
-      "team": "Espanyol",
-      "points": "38",
-      "played": "32",
-      "won": "10",
-      "drawn": "8",
-      "lost": "14",
-      "gf": "37",
-      "ga": "49",
-      "dg": "-12"
     },
     {
       "rank": "15",
@@ -219,10 +219,10 @@
     {
       "rank": "19",
       "team": "Levante",
-      "points": "32",
-      "played": "32",
+      "points": "33",
+      "played": "33",
       "won": "8",
-      "drawn": "8",
+      "drawn": "9",
       "lost": "16",
       "gf": "37",
       "ga": "50",
