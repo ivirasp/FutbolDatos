@@ -1,12 +1,5 @@
 [
   {
-    "title": "Espanyol - Levante",
-    "start_ts": 1777316400.0,
-    "time_str": "21:00",
-    "channel": "M+ LaLiga",
-    "competition": "LALIGA"
-  },
-  {
     "title": "PSG - FC Bayern",
     "start_ts": 1777402800.0,
     "time_str": "21:00",
@@ -131,5 +124,12 @@
     "time_str": "21:00",
     "channel": "M+ Liga de Campeones",
     "competition": "EUROPA"
+  },
+  {
+    "title": "Levante - Osasuna",
+    "start_ts": 1778266800.0,
+    "time_str": "21:00",
+    "channel": "DAZN LaLiga",
+    "competition": "LALIGA"
   }
 ]
