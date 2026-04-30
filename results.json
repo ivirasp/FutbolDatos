@@ -5420,7 +5420,7 @@
           "status": "Fin"
         }
       ],
-      "Jornada 15 (Actual)": [
+      "Jornada 15": [
         {
           "date": "30-04-2026",
           "home": "Nottingham Forest",
@@ -5436,7 +5436,7 @@
           "status": "Fin"
         }
       ],
-      "Jornada 16": [
+      "Jornada 16 (Actual)": [
         {
           "date": "07-05-2026",
           "home": "Aston Villa",
@@ -5462,7 +5462,7 @@
         }
       ]
     },
-    "current": "Jornada 15 (Actual)"
+    "current": "Jornada 16 (Actual)"
   },
   "COPA": {
     "rounds": {
