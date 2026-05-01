@@ -1,19 +1,5 @@
 [
   {
-    "title": "Braga - Friburgo",
-    "start_ts": 1777575600.0,
-    "time_str": "21:00",
-    "channel": "M+ Liga de Campeones 3",
-    "competition": "EUROPA"
-  },
-  {
-    "title": "Nottingham Forest - Aston Villa",
-    "start_ts": 1777575600.0,
-    "time_str": "21:00",
-    "channel": "M+ Liga de Campeones 2",
-    "competition": "EUROPA"
-  },
-  {
     "title": "Girona - Mallorca",
     "start_ts": 1777662000.0,
     "time_str": "21:00",
