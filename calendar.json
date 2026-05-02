@@ -1,12 +1,5 @@
 [
   {
-    "title": "Girona - Mallorca",
-    "start_ts": 1777662000.0,
-    "time_str": "21:00",
-    "channel": "M+ LaLiga",
-    "competition": "LALIGA"
-  },
-  {
     "title": "Villarreal - Levante",
     "start_ts": 1777723200.0,
     "time_str": "14:00",
@@ -102,6 +95,34 @@
     "start_ts": 1778266800.0,
     "time_str": "21:00",
     "channel": "DAZN LaLiga",
+    "competition": "LALIGA"
+  },
+  {
+    "title": "Elche - Alav\u00e9s",
+    "start_ts": 1778328000.0,
+    "time_str": "14:00",
+    "channel": "DAZN LaLiga",
+    "competition": "LALIGA"
+  },
+  {
+    "title": "Sevilla - Espanyol",
+    "start_ts": 1778336100.0,
+    "time_str": "16:15",
+    "channel": "M+ LaLiga",
+    "competition": "LALIGA"
+  },
+  {
+    "title": "Atl\u00e9tico de Madrid - Celta",
+    "start_ts": 1778344200.0,
+    "time_str": "18:30",
+    "channel": "DAZN LaLiga",
+    "competition": "LALIGA"
+  },
+  {
+    "title": "Real Sociedad - Betis",
+    "start_ts": 1778353200.0,
+    "time_str": "21:00",
+    "channel": "Teledeporte",
     "competition": "LALIGA"
   }
 ]
