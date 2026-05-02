@@ -27,14 +27,14 @@
     {
       "rank": "3",
       "team": "Villarreal",
-      "points": "65",
-      "played": "33",
-      "won": "20",
+      "points": "68",
+      "played": "34",
+      "won": "21",
       "drawn": "5",
       "lost": "8",
-      "gf": "59",
+      "gf": "60",
       "ga": "38",
-      "dg": "+21"
+      "dg": "+22"
     },
     {
       "rank": "4",
@@ -220,13 +220,13 @@
       "rank": "19",
       "team": "Levante",
       "points": "33",
-      "played": "33",
+      "played": "34",
       "won": "8",
       "drawn": "9",
-      "lost": "16",
+      "lost": "17",
       "gf": "37",
-      "ga": "50",
-      "dg": "-13"
+      "ga": "51",
+      "dg": "-14"
     },
     {
       "rank": "20",
