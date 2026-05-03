@@ -15,10 +15,10 @@
     {
       "rank": "2",
       "team": "Real Madrid",
-      "points": "74",
-      "played": "33",
+      "points": "75",
+      "played": "34",
       "won": "23",
-      "drawn": "5",
+      "drawn": "6",
       "lost": "5",
       "gf": "68",
       "ga": "31",
@@ -56,9 +56,9 @@
       "won": "13",
       "drawn": "14",
       "lost": "7",
-      "gf": "51",
+      "gf": "52",
       "ga": "41",
-      "dg": "+10"
+      "dg": "+11"
     },
     {
       "rank": "6",
@@ -134,6 +134,18 @@
     },
     {
       "rank": "12",
+      "team": "Espanyol",
+      "points": "40",
+      "played": "34",
+      "won": "10",
+      "drawn": "10",
+      "lost": "14",
+      "gf": "37",
+      "ga": "49",
+      "dg": "-12"
+    },
+    {
+      "rank": "13",
       "team": "Valencia",
       "points": "39",
       "played": "34",
@@ -143,18 +155,6 @@
       "gf": "37",
       "ga": "50",
       "dg": "-13"
-    },
-    {
-      "rank": "13",
-      "team": "Espanyol",
-      "points": "39",
-      "played": "33",
-      "won": "10",
-      "drawn": "9",
-      "lost": "14",
-      "gf": "37",
-      "ga": "49",
-      "dg": "-12"
     },
     {
       "rank": "14",
@@ -237,8 +237,8 @@
       "drawn": "10",
       "lost": "18",
       "gf": "26",
-      "ga": "53",
-      "dg": "-27"
+      "ga": "54",
+      "dg": "-28"
     }
   ],
   "CHAMPIONS": [
