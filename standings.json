@@ -75,14 +75,14 @@
     {
       "rank": "7",
       "team": "Getafe",
-      "points": "45",
+      "points": "44",
       "played": "34",
       "won": "13",
-      "drawn": "6",
-      "lost": "15",
+      "drawn": "5",
+      "lost": "16",
       "gf": "28",
-      "ga": "34",
-      "dg": "-6"
+      "ga": "35",
+      "dg": "-7"
     },
     {
       "rank": "8",
@@ -123,14 +123,14 @@
     {
       "rank": "11",
       "team": "Rayo Vallecano",
-      "points": "40",
+      "points": "42",
       "played": "34",
-      "won": "9",
-      "drawn": "13",
+      "won": "10",
+      "drawn": "12",
       "lost": "12",
-      "gf": "33",
+      "gf": "34",
       "ga": "41",
-      "dg": "-8"
+      "dg": "-7"
     },
     {
       "rank": "12",
