@@ -86,6 +86,18 @@
     },
     {
       "rank": "8",
+      "team": "Real Sociedad",
+      "points": "44",
+      "played": "34",
+      "won": "11",
+      "drawn": "11",
+      "lost": "12",
+      "gf": "52",
+      "ga": "52",
+      "dg": "0"
+    },
+    {
+      "rank": "9",
       "team": "Athletic",
       "points": "44",
       "played": "34",
@@ -95,18 +107,6 @@
       "gf": "40",
       "ga": "50",
       "dg": "-10"
-    },
-    {
-      "rank": "9",
-      "team": "Real Sociedad",
-      "points": "43",
-      "played": "33",
-      "won": "11",
-      "drawn": "10",
-      "lost": "12",
-      "gf": "52",
-      "ga": "52",
-      "dg": "0"
     },
     {
       "rank": "10",
@@ -207,10 +207,10 @@
     {
       "rank": "18",
       "team": "Sevilla",
-      "points": "34",
-      "played": "33",
+      "points": "35",
+      "played": "34",
       "won": "9",
-      "drawn": "7",
+      "drawn": "8",
       "lost": "17",
       "gf": "40",
       "ga": "55",
