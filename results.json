@@ -2377,7 +2377,7 @@
           "status": "Fin"
         }
       ],
-      "Jornada 34 (Actual)": [
+      "Jornada 34": [
         {
           "date": "01-05-2026",
           "home": "Girona",
@@ -2449,7 +2449,7 @@
           "status": "Fin"
         }
       ],
-      "Jornada 35": [
+      "Jornada 35 (Actual)": [
         {
           "date": "08-05-2026",
           "home": "Levante",
@@ -2738,7 +2738,7 @@
         }
       ]
     },
-    "current": "Jornada 34 (Actual)"
+    "current": "Jornada 35 (Actual)"
   },
   "CHAMPIONS": {
     "rounds": {
