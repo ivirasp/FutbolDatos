@@ -4080,7 +4080,7 @@
           "home": "Arsenal",
           "away": "Atl\u00e9tico de Madrid",
           "score": "1 - 0",
-          "status": "Directo"
+          "status": "Fin"
         },
         {
           "date": "06-05-2026",
@@ -4094,7 +4094,7 @@
         {
           "date": "30-05-2026",
           "home": "Ganador Semifinal 1",
-          "away": "Ganador Semifinal 2",
+          "away": "Arsenal",
           "score": "vs",
           "status": ""
         }
