@@ -1,12 +1,5 @@
 [
   {
-    "title": "Sevilla - Real Sociedad",
-    "start_ts": 1777921200.0,
-    "time_str": "21:00",
-    "channel": "Teledeporte",
-    "competition": "LALIGA"
-  },
-  {
     "title": "Arsenal - Atl\u00e9tico de Madrid",
     "start_ts": 1778007600.0,
     "time_str": "21:00",
@@ -101,6 +94,27 @@
     "title": "Rayo Vallecano - Girona",
     "start_ts": 1778526000.0,
     "time_str": "21:00",
+    "channel": "M+ LaLiga",
+    "competition": "LALIGA"
+  },
+  {
+    "title": "Celta - Levante",
+    "start_ts": 1778605200.0,
+    "time_str": "19:00",
+    "channel": "M+ LaLiga",
+    "competition": "LALIGA"
+  },
+  {
+    "title": "Betis - Elche",
+    "start_ts": 1778608800.0,
+    "time_str": "20:00",
+    "channel": "DAZN LaLiga",
+    "competition": "LALIGA"
+  },
+  {
+    "title": "Osasuna - Atl\u00e9tico de Madrid",
+    "start_ts": 1778614200.0,
+    "time_str": "21:30",
     "channel": "M+ LaLiga",
     "competition": "LALIGA"
   }
