@@ -4074,7 +4074,7 @@
           "status": "Fin"
         }
       ],
-      "Semifinal (vuelta) (Actual)": [
+      "Semifinal (vuelta)": [
         {
           "date": "05-05-2026",
           "home": "Arsenal",
@@ -4090,7 +4090,7 @@
           "status": "Fin"
         }
       ],
-      "Final": [
+      "Final (Actual)": [
         {
           "date": "30-05-2026",
           "home": "PSG",
@@ -4100,7 +4100,7 @@
         }
       ]
     },
-    "current": "Semifinal (vuelta) (Actual)"
+    "current": "Final (Actual)"
   },
   "EUROPA": {
     "rounds": {
