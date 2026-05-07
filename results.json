@@ -5436,7 +5436,7 @@
           "status": "Fin"
         }
       ],
-      "Jornada 16 (Actual)": [
+      "Jornada 16": [
         {
           "date": "07-05-2026",
           "home": "Aston Villa",
@@ -5452,7 +5452,7 @@
           "status": "Fin"
         }
       ],
-      "Jornada 17": [
+      "Jornada 17 (Actual)": [
         {
           "date": "20-05-2026",
           "home": "Sport-Club Freiburg",
@@ -5462,7 +5462,7 @@
         }
       ]
     },
-    "current": "Jornada 16 (Actual)"
+    "current": "Jornada 17 (Actual)"
   },
   "COPA": {
     "rounds": {
