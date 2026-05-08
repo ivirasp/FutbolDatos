@@ -111,14 +111,14 @@
     {
       "rank": "10",
       "team": "Osasuna",
-      "points": "43",
+      "points": "42",
       "played": "35",
       "won": "11",
-      "drawn": "10",
-      "lost": "14",
+      "drawn": "9",
+      "lost": "15",
       "gf": "42",
-      "ga": "44",
-      "dg": "-2"
+      "ga": "45",
+      "dg": "-3"
     },
     {
       "rank": "11",
@@ -206,6 +206,18 @@
     },
     {
       "rank": "18",
+      "team": "Levante",
+      "points": "36",
+      "played": "35",
+      "won": "9",
+      "drawn": "9",
+      "lost": "17",
+      "gf": "41",
+      "ga": "57",
+      "dg": "-16"
+    },
+    {
+      "rank": "19",
       "team": "Deportivo Alav\u00e9s",
       "points": "36",
       "played": "34",
@@ -215,18 +227,6 @@
       "gf": "40",
       "ga": "53",
       "dg": "-13"
-    },
-    {
-      "rank": "19",
-      "team": "Levante",
-      "points": "34",
-      "played": "35",
-      "won": "8",
-      "drawn": "10",
-      "lost": "17",
-      "gf": "40",
-      "ga": "57",
-      "dg": "-17"
     },
     {
       "rank": "20",
