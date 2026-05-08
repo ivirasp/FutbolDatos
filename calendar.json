@@ -1,19 +1,5 @@
 [
   {
-    "title": "Friburgo - Braga",
-    "start_ts": 1778180400.0,
-    "time_str": "21:00",
-    "channel": "M+ Liga de Campeones 3",
-    "competition": "EUROPA"
-  },
-  {
-    "title": "Aston Villa - Nottingham Forest",
-    "start_ts": 1778180400.0,
-    "time_str": "21:00",
-    "channel": "M+ Liga de Campeones 2",
-    "competition": "EUROPA"
-  },
-  {
     "title": "Levante - Osasuna",
     "start_ts": 1778266800.0,
     "time_str": "21:00",
