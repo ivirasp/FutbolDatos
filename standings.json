@@ -40,37 +40,37 @@
       "rank": "4",
       "team": "Atl\u00e9tico de Madrid",
       "points": "63",
-      "played": "34",
+      "played": "35",
       "won": "19",
       "drawn": "6",
-      "lost": "9",
+      "lost": "10",
       "gf": "58",
-      "ga": "37",
-      "dg": "+21"
+      "ga": "38",
+      "dg": "+20"
     },
     {
       "rank": "5",
       "team": "Real Betis",
-      "points": "53",
-      "played": "34",
-      "won": "13",
+      "points": "56",
+      "played": "35",
+      "won": "14",
       "drawn": "14",
       "lost": "7",
-      "gf": "52",
-      "ga": "41",
-      "dg": "+11"
+      "gf": "54",
+      "ga": "42",
+      "dg": "+12"
     },
     {
       "rank": "6",
       "team": "Celta",
-      "points": "47",
-      "played": "34",
-      "won": "12",
+      "points": "50",
+      "played": "35",
+      "won": "13",
       "drawn": "11",
       "lost": "11",
-      "gf": "48",
+      "gf": "49",
       "ga": "44",
-      "dg": "+4"
+      "dg": "+5"
     },
     {
       "rank": "7",
@@ -100,25 +100,25 @@
       "rank": "9",
       "team": "Real Sociedad",
       "points": "43",
-      "played": "34",
+      "played": "35",
       "won": "11",
       "drawn": "10",
-      "lost": "13",
-      "gf": "52",
-      "ga": "53",
-      "dg": "-1"
+      "lost": "14",
+      "gf": "53",
+      "ga": "55",
+      "dg": "-2"
     },
     {
       "rank": "10",
       "team": "Osasuna",
       "points": "42",
-      "played": "34",
+      "played": "35",
       "won": "11",
       "drawn": "9",
-      "lost": "14",
-      "gf": "40",
-      "ga": "42",
-      "dg": "-2"
+      "lost": "15",
+      "gf": "42",
+      "ga": "45",
+      "dg": "-3"
     },
     {
       "rank": "11",
@@ -134,6 +134,30 @@
     },
     {
       "rank": "12",
+      "team": "Sevilla",
+      "points": "40",
+      "played": "35",
+      "won": "11",
+      "drawn": "7",
+      "lost": "17",
+      "gf": "43",
+      "ga": "56",
+      "dg": "-13"
+    },
+    {
+      "rank": "13",
+      "team": "Elche",
+      "points": "39",
+      "played": "35",
+      "won": "9",
+      "drawn": "12",
+      "lost": "14",
+      "gf": "46",
+      "ga": "54",
+      "dg": "-8"
+    },
+    {
+      "rank": "14",
       "team": "Valencia",
       "points": "39",
       "played": "34",
@@ -145,31 +169,19 @@
       "dg": "-13"
     },
     {
-      "rank": "13",
+      "rank": "15",
       "team": "Espanyol",
       "points": "39",
-      "played": "34",
+      "played": "35",
       "won": "10",
       "drawn": "9",
-      "lost": "15",
-      "gf": "37",
-      "ga": "51",
-      "dg": "-14"
-    },
-    {
-      "rank": "14",
-      "team": "Elche",
-      "points": "38",
-      "played": "34",
-      "won": "9",
-      "drawn": "11",
-      "lost": "14",
-      "gf": "45",
+      "lost": "16",
+      "gf": "38",
       "ga": "53",
-      "dg": "-8"
+      "dg": "-15"
     },
     {
-      "rank": "15",
+      "rank": "16",
       "team": "Mallorca",
       "points": "38",
       "played": "34",
@@ -181,7 +193,7 @@
       "dg": "-9"
     },
     {
-      "rank": "16",
+      "rank": "17",
       "team": "Girona FC",
       "points": "38",
       "played": "34",
@@ -193,40 +205,28 @@
       "dg": "-15"
     },
     {
-      "rank": "17",
-      "team": "Sevilla",
-      "points": "37",
-      "played": "34",
-      "won": "10",
-      "drawn": "7",
-      "lost": "17",
-      "gf": "41",
-      "ga": "55",
-      "dg": "-14"
-    },
-    {
       "rank": "18",
       "team": "Deportivo Alav\u00e9s",
-      "points": "36",
-      "played": "34",
+      "points": "37",
+      "played": "35",
       "won": "9",
-      "drawn": "9",
+      "drawn": "10",
       "lost": "16",
-      "gf": "40",
-      "ga": "53",
+      "gf": "41",
+      "ga": "54",
       "dg": "-13"
     },
     {
       "rank": "19",
       "team": "Levante",
-      "points": "33",
-      "played": "34",
-      "won": "8",
+      "points": "36",
+      "played": "35",
+      "won": "9",
       "drawn": "9",
       "lost": "17",
-      "gf": "38",
-      "ga": "55",
-      "dg": "-17"
+      "gf": "41",
+      "ga": "57",
+      "dg": "-16"
     },
     {
       "rank": "20",
