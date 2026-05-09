@@ -110,5 +110,12 @@
     "time_str": "21:30",
     "channel": "M+ LaLiga",
     "competition": "LALIGA"
+  },
+  {
+    "title": "Friburgo - Aston Villa",
+    "start_ts": 1779303600.0,
+    "time_str": "21:00",
+    "channel": "M+ Liga de Campeones",
+    "competition": "EUROPA"
   }
 ]
