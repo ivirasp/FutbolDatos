@@ -134,15 +134,15 @@
     },
     {
       "rank": "12",
-      "team": "Espanyol",
+      "team": "Sevilla",
       "points": "40",
       "played": "35",
-      "won": "10",
-      "drawn": "10",
-      "lost": "15",
-      "gf": "37",
-      "ga": "51",
-      "dg": "-14"
+      "won": "11",
+      "drawn": "7",
+      "lost": "17",
+      "gf": "43",
+      "ga": "56",
+      "dg": "-13"
     },
     {
       "rank": "13",
@@ -170,6 +170,18 @@
     },
     {
       "rank": "15",
+      "team": "Espanyol",
+      "points": "39",
+      "played": "35",
+      "won": "10",
+      "drawn": "9",
+      "lost": "16",
+      "gf": "38",
+      "ga": "53",
+      "dg": "-15"
+    },
+    {
+      "rank": "16",
       "team": "Mallorca",
       "points": "38",
       "played": "34",
@@ -181,7 +193,7 @@
       "dg": "-9"
     },
     {
-      "rank": "16",
+      "rank": "17",
       "team": "Girona FC",
       "points": "38",
       "played": "34",
@@ -191,18 +203,6 @@
       "gf": "36",
       "ga": "51",
       "dg": "-15"
-    },
-    {
-      "rank": "17",
-      "team": "Sevilla",
-      "points": "38",
-      "played": "35",
-      "won": "10",
-      "drawn": "8",
-      "lost": "17",
-      "gf": "41",
-      "ga": "55",
-      "dg": "-14"
     },
     {
       "rank": "18",
