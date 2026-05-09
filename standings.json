@@ -146,6 +146,18 @@
     },
     {
       "rank": "13",
+      "team": "Deportivo Alav\u00e9s",
+      "points": "39",
+      "played": "35",
+      "won": "10",
+      "drawn": "9",
+      "lost": "16",
+      "gf": "41",
+      "ga": "53",
+      "dg": "-12"
+    },
+    {
+      "rank": "14",
       "team": "Espanyol",
       "points": "39",
       "played": "34",
@@ -157,19 +169,19 @@
       "dg": "-14"
     },
     {
-      "rank": "14",
+      "rank": "15",
       "team": "Elche",
       "points": "38",
-      "played": "34",
+      "played": "35",
       "won": "9",
       "drawn": "11",
-      "lost": "14",
+      "lost": "15",
       "gf": "45",
-      "ga": "53",
-      "dg": "-8"
+      "ga": "54",
+      "dg": "-9"
     },
     {
-      "rank": "15",
+      "rank": "16",
       "team": "Mallorca",
       "points": "38",
       "played": "34",
@@ -181,7 +193,7 @@
       "dg": "-9"
     },
     {
-      "rank": "16",
+      "rank": "17",
       "team": "Girona FC",
       "points": "38",
       "played": "34",
@@ -193,7 +205,7 @@
       "dg": "-15"
     },
     {
-      "rank": "17",
+      "rank": "18",
       "team": "Sevilla",
       "points": "37",
       "played": "34",
@@ -205,7 +217,7 @@
       "dg": "-14"
     },
     {
-      "rank": "18",
+      "rank": "19",
       "team": "Levante",
       "points": "36",
       "played": "35",
@@ -215,18 +227,6 @@
       "gf": "41",
       "ga": "57",
       "dg": "-16"
-    },
-    {
-      "rank": "19",
-      "team": "Deportivo Alav\u00e9s",
-      "points": "36",
-      "played": "34",
-      "won": "9",
-      "drawn": "9",
-      "lost": "16",
-      "gf": "40",
-      "ga": "53",
-      "dg": "-13"
     },
     {
       "rank": "20",
