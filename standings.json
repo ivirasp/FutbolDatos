@@ -27,13 +27,13 @@
     {
       "rank": "3",
       "team": "Villarreal",
-      "points": "68",
-      "played": "34",
+      "points": "69",
+      "played": "35",
       "won": "21",
-      "drawn": "5",
+      "drawn": "6",
       "lost": "8",
-      "gf": "64",
-      "ga": "39",
+      "gf": "65",
+      "ga": "40",
       "dg": "+25"
     },
     {
@@ -146,30 +146,18 @@
     },
     {
       "rank": "13",
-      "team": "Elche",
+      "team": "Mallorca",
       "points": "39",
       "played": "35",
-      "won": "9",
-      "drawn": "12",
-      "lost": "14",
-      "gf": "46",
-      "ga": "54",
-      "dg": "-8"
+      "won": "10",
+      "drawn": "9",
+      "lost": "16",
+      "gf": "43",
+      "ga": "52",
+      "dg": "-9"
     },
     {
       "rank": "14",
-      "team": "Valencia",
-      "points": "39",
-      "played": "34",
-      "won": "10",
-      "drawn": "9",
-      "lost": "15",
-      "gf": "37",
-      "ga": "50",
-      "dg": "-13"
-    },
-    {
-      "rank": "15",
       "team": "Espanyol",
       "points": "39",
       "played": "35",
@@ -181,16 +169,28 @@
       "dg": "-15"
     },
     {
+      "rank": "15",
+      "team": "Elche",
+      "points": "39",
+      "played": "35",
+      "won": "9",
+      "drawn": "12",
+      "lost": "14",
+      "gf": "46",
+      "ga": "54",
+      "dg": "-8"
+    },
+    {
       "rank": "16",
-      "team": "Mallorca",
-      "points": "38",
+      "team": "Valencia",
+      "points": "39",
       "played": "34",
       "won": "10",
-      "drawn": "8",
-      "lost": "16",
-      "gf": "42",
-      "ga": "51",
-      "dg": "-9"
+      "drawn": "9",
+      "lost": "15",
+      "gf": "37",
+      "ga": "50",
+      "dg": "-13"
     },
     {
       "rank": "17",
