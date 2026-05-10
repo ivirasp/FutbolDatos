@@ -74,15 +74,15 @@
     },
     {
       "rank": "7",
-      "team": "Getafe",
-      "points": "44",
-      "played": "34",
+      "team": "Athletic",
+      "points": "45",
+      "played": "35",
       "won": "13",
-      "drawn": "5",
+      "drawn": "6",
       "lost": "16",
-      "gf": "28",
-      "ga": "36",
-      "dg": "-8"
+      "gf": "40",
+      "ga": "50",
+      "dg": "-10"
     },
     {
       "rank": "8",
@@ -98,15 +98,15 @@
     },
     {
       "rank": "9",
-      "team": "Athletic",
+      "team": "Getafe",
       "points": "44",
       "played": "34",
       "won": "13",
       "drawn": "5",
       "lost": "16",
-      "gf": "40",
-      "ga": "50",
-      "dg": "-10"
+      "gf": "28",
+      "ga": "36",
+      "dg": "-8"
     },
     {
       "rank": "10",
@@ -134,6 +134,18 @@
     },
     {
       "rank": "12",
+      "team": "Valencia",
+      "points": "40",
+      "played": "35",
+      "won": "10",
+      "drawn": "10",
+      "lost": "15",
+      "gf": "37",
+      "ga": "50",
+      "dg": "-13"
+    },
+    {
+      "rank": "13",
       "team": "Sevilla",
       "points": "40",
       "played": "35",
@@ -143,18 +155,6 @@
       "gf": "43",
       "ga": "56",
       "dg": "-13"
-    },
-    {
-      "rank": "13",
-      "team": "Mallorca",
-      "points": "39",
-      "played": "35",
-      "won": "10",
-      "drawn": "9",
-      "lost": "16",
-      "gf": "43",
-      "ga": "52",
-      "dg": "-9"
     },
     {
       "rank": "14",
@@ -170,6 +170,18 @@
     },
     {
       "rank": "15",
+      "team": "Mallorca",
+      "points": "39",
+      "played": "35",
+      "won": "10",
+      "drawn": "9",
+      "lost": "16",
+      "gf": "43",
+      "ga": "52",
+      "dg": "-9"
+    },
+    {
+      "rank": "16",
       "team": "Elche",
       "points": "39",
       "played": "35",
@@ -179,18 +191,6 @@
       "gf": "46",
       "ga": "54",
       "dg": "-8"
-    },
-    {
-      "rank": "16",
-      "team": "Valencia",
-      "points": "39",
-      "played": "34",
-      "won": "10",
-      "drawn": "9",
-      "lost": "15",
-      "gf": "37",
-      "ga": "50",
-      "dg": "-13"
     },
     {
       "rank": "17",
