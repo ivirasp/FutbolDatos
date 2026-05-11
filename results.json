@@ -2449,7 +2449,7 @@
           "status": "Fin"
         }
       ],
-      "Jornada 35 (Actual)": [
+      "Jornada 35": [
         {
           "date": "08-05-2026",
           "home": "Levante",
@@ -2521,7 +2521,7 @@
           "status": "Fin"
         }
       ],
-      "Jornada 36": [
+      "Jornada 36 (Actual)": [
         {
           "date": "12-05-2026",
           "home": "Celta de Vigo",
@@ -2738,7 +2738,7 @@
         }
       ]
     },
-    "current": "Jornada 35 (Actual)"
+    "current": "Jornada 36 (Actual)"
   },
   "CHAMPIONS": {
     "rounds": {
