@@ -73,70 +73,70 @@
     "title": "Rayo Vallecano - Villarreal",
     "start_ts": 1779037200.0,
     "time_str": "19:00",
-    "channel": "TBD",
+    "channel": "DAZN LaLiga",
     "competition": "LALIGA"
   },
   {
     "title": "Elche - Getafe",
     "start_ts": 1779037200.0,
     "time_str": "19:00",
-    "channel": "TBD",
+    "channel": "DAZN LaLiga",
     "competition": "LALIGA"
   },
   {
     "title": "Sevilla - Real Madrid",
     "start_ts": 1779037200.0,
     "time_str": "19:00",
-    "channel": "TBD",
+    "channel": "DAZN LaLiga",
     "competition": "LALIGA"
   },
   {
     "title": "Real Oviedo - Alav\u00e9s",
     "start_ts": 1779037200.0,
     "time_str": "19:00",
-    "channel": "TBD",
+    "channel": "DAZN LaLiga",
     "competition": "LALIGA"
   },
   {
     "title": "Barcelona - Betis",
     "start_ts": 1779037200.0,
     "time_str": "19:00",
-    "channel": "TBD",
+    "channel": "M+ LaLiga",
     "competition": "LALIGA"
   },
   {
     "title": "Atl\u00e9tico de Madrid - Girona",
     "start_ts": 1779037200.0,
     "time_str": "19:00",
-    "channel": "TBD",
+    "channel": "DAZN LaLiga",
     "competition": "LALIGA"
   },
   {
     "title": "Levante - Mallorca",
     "start_ts": 1779037200.0,
     "time_str": "19:00",
-    "channel": "TBD",
+    "channel": "M+ LaLiga",
     "competition": "LALIGA"
   },
   {
     "title": "Osasuna - Espanyol",
     "start_ts": 1779037200.0,
     "time_str": "19:00",
-    "channel": "TBD",
+    "channel": "M+ LaLiga",
     "competition": "LALIGA"
   },
   {
     "title": "Athletic Club - Celta",
     "start_ts": 1779037200.0,
     "time_str": "19:00",
-    "channel": "TBD",
+    "channel": "Teledeporte",
     "competition": "LALIGA"
   },
   {
     "title": "Real Sociedad - Valencia",
     "start_ts": 1779037200.0,
     "time_str": "19:00",
-    "channel": "TBD",
+    "channel": "M+ LaLiga",
     "competition": "LALIGA"
   },
   {
@@ -148,71 +148,64 @@
   },
   {
     "title": "Celta - Sevilla",
-    "start_ts": 1779638400.0,
-    "time_str": "18:00",
+    "start_ts": 1779562800.0,
+    "time_str": "21:00",
     "channel": "TBD",
     "competition": "LALIGA"
   },
   {
     "title": "Valencia - Barcelona",
-    "start_ts": 1779638400.0,
-    "time_str": "18:00",
+    "start_ts": 1779562800.0,
+    "time_str": "21:00",
     "channel": "TBD",
     "competition": "LALIGA"
   },
   {
     "title": "Mallorca - Real Oviedo",
-    "start_ts": 1779638400.0,
-    "time_str": "18:00",
+    "start_ts": 1779562800.0,
+    "time_str": "21:00",
     "channel": "TBD",
     "competition": "LALIGA"
   },
   {
     "title": "Girona - Elche",
-    "start_ts": 1779638400.0,
-    "time_str": "18:00",
+    "start_ts": 1779562800.0,
+    "time_str": "21:00",
     "channel": "TBD",
     "competition": "LALIGA"
   },
   {
     "title": "Espanyol - Real Sociedad",
-    "start_ts": 1779638400.0,
-    "time_str": "18:00",
+    "start_ts": 1779562800.0,
+    "time_str": "21:00",
     "channel": "TBD",
     "competition": "LALIGA"
   },
   {
     "title": "Betis - Levante",
-    "start_ts": 1779638400.0,
-    "time_str": "18:00",
+    "start_ts": 1779562800.0,
+    "time_str": "21:00",
     "channel": "TBD",
     "competition": "LALIGA"
   },
   {
     "title": "Real Madrid - Athletic Club",
-    "start_ts": 1779638400.0,
-    "time_str": "18:00",
-    "channel": "TBD",
-    "competition": "LALIGA"
-  },
-  {
-    "title": "Villarreal - Atl\u00e9tico de Madrid",
-    "start_ts": 1779638400.0,
-    "time_str": "18:00",
+    "start_ts": 1779562800.0,
+    "time_str": "21:00",
     "channel": "TBD",
     "competition": "LALIGA"
   },
   {
     "title": "Alav\u00e9s - Rayo Vallecano",
-    "start_ts": 1779638400.0,
-    "time_str": "18:00",
+    "start_ts": 1779562800.0,
+    "time_str": "21:00",
     "channel": "TBD",
     "competition": "LALIGA"
   },
   {
     "title": "Getafe - Osasuna",
-    "start_ts": 1779638400.0,
-    "time_str": "18:00",
+    "start_ts": 1779562800.0,
+    "time_str": "21:00",
     "channel": "TBD",
     "competition": "LALIGA"
   },
