@@ -39,26 +39,26 @@
     {
       "rank": "4",
       "team": "Atl\u00e9tico de Madrid",
-      "points": "63",
-      "played": "35",
-      "won": "19",
+      "points": "66",
+      "played": "36",
+      "won": "20",
       "drawn": "6",
       "lost": "10",
-      "gf": "58",
+      "gf": "59",
       "ga": "38",
-      "dg": "+20"
+      "dg": "+21"
     },
     {
       "rank": "5",
       "team": "Real Betis",
-      "points": "55",
+      "points": "57",
       "played": "36",
-      "won": "13",
-      "drawn": "16",
+      "won": "14",
+      "drawn": "15",
       "lost": "7",
-      "gf": "55",
+      "gf": "56",
       "ga": "44",
-      "dg": "+11"
+      "dg": "+12"
     },
     {
       "rank": "6",
@@ -124,13 +124,13 @@
       "rank": "11",
       "team": "Osasuna",
       "points": "42",
-      "played": "35",
+      "played": "36",
       "won": "11",
       "drawn": "9",
-      "lost": "15",
+      "lost": "16",
       "gf": "42",
-      "ga": "45",
-      "dg": "-3"
+      "ga": "46",
+      "dg": "-4"
     },
     {
       "rank": "12",
@@ -146,18 +146,6 @@
     },
     {
       "rank": "13",
-      "team": "Elche",
-      "points": "40",
-      "played": "36",
-      "won": "9",
-      "drawn": "13",
-      "lost": "14",
-      "gf": "47",
-      "ga": "55",
-      "dg": "-8"
-    },
-    {
-      "rank": "14",
       "team": "Sevilla",
       "points": "40",
       "played": "35",
@@ -167,6 +155,18 @@
       "gf": "43",
       "ga": "56",
       "dg": "-13"
+    },
+    {
+      "rank": "14",
+      "team": "Elche",
+      "points": "39",
+      "played": "36",
+      "won": "9",
+      "drawn": "12",
+      "lost": "15",
+      "gf": "47",
+      "ga": "56",
+      "dg": "-9"
     },
     {
       "rank": "15",
