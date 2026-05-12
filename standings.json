@@ -51,26 +51,26 @@
     {
       "rank": "5",
       "team": "Real Betis",
-      "points": "54",
-      "played": "35",
+      "points": "55",
+      "played": "36",
       "won": "13",
-      "drawn": "15",
+      "drawn": "16",
       "lost": "7",
-      "gf": "54",
-      "ga": "43",
+      "gf": "55",
+      "ga": "44",
       "dg": "+11"
     },
     {
       "rank": "6",
       "team": "Celta",
       "points": "50",
-      "played": "35",
+      "played": "36",
       "won": "13",
       "drawn": "11",
-      "lost": "11",
-      "gf": "49",
-      "ga": "44",
-      "dg": "+5"
+      "lost": "12",
+      "gf": "51",
+      "ga": "47",
+      "dg": "+4"
     },
     {
       "rank": "7",
@@ -146,6 +146,18 @@
     },
     {
       "rank": "13",
+      "team": "Elche",
+      "points": "40",
+      "played": "36",
+      "won": "9",
+      "drawn": "13",
+      "lost": "14",
+      "gf": "47",
+      "ga": "55",
+      "dg": "-8"
+    },
+    {
+      "rank": "14",
       "team": "Sevilla",
       "points": "40",
       "played": "35",
@@ -155,18 +167,6 @@
       "gf": "43",
       "ga": "56",
       "dg": "-13"
-    },
-    {
-      "rank": "14",
-      "team": "Elche",
-      "points": "39",
-      "played": "35",
-      "won": "9",
-      "drawn": "12",
-      "lost": "14",
-      "gf": "46",
-      "ga": "54",
-      "dg": "-8"
     },
     {
       "rank": "15",
@@ -182,6 +182,18 @@
     },
     {
       "rank": "16",
+      "team": "Levante",
+      "points": "39",
+      "played": "36",
+      "won": "10",
+      "drawn": "9",
+      "lost": "17",
+      "gf": "44",
+      "ga": "59",
+      "dg": "-15"
+    },
+    {
+      "rank": "17",
       "team": "Espanyol",
       "points": "39",
       "played": "35",
@@ -193,7 +205,7 @@
       "dg": "-15"
     },
     {
-      "rank": "17",
+      "rank": "18",
       "team": "Girona FC",
       "points": "39",
       "played": "35",
@@ -205,7 +217,7 @@
       "dg": "-15"
     },
     {
-      "rank": "18",
+      "rank": "19",
       "team": "Deportivo Alav\u00e9s",
       "points": "37",
       "played": "35",
@@ -215,18 +227,6 @@
       "gf": "41",
       "ga": "54",
       "dg": "-13"
-    },
-    {
-      "rank": "19",
-      "team": "Levante",
-      "points": "36",
-      "played": "35",
-      "won": "9",
-      "drawn": "9",
-      "lost": "17",
-      "gf": "41",
-      "ga": "57",
-      "dg": "-16"
     },
     {
       "rank": "20",
