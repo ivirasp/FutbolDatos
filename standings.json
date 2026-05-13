@@ -28,13 +28,13 @@
       "rank": "3",
       "team": "Villarreal",
       "points": "69",
-      "played": "35",
+      "played": "36",
       "won": "21",
       "drawn": "6",
-      "lost": "8",
-      "gf": "65",
-      "ga": "40",
-      "dg": "+25"
+      "lost": "9",
+      "gf": "67",
+      "ga": "43",
+      "dg": "+24"
     },
     {
       "rank": "4",
@@ -100,16 +100,28 @@
       "rank": "9",
       "team": "Athletic",
       "points": "44",
-      "played": "35",
+      "played": "36",
       "won": "13",
       "drawn": "5",
-      "lost": "17",
+      "lost": "18",
       "gf": "40",
-      "ga": "51",
-      "dg": "-11"
+      "ga": "53",
+      "dg": "-13"
     },
     {
       "rank": "10",
+      "team": "Sevilla",
+      "points": "43",
+      "played": "36",
+      "won": "12",
+      "drawn": "7",
+      "lost": "17",
+      "gf": "46",
+      "ga": "58",
+      "dg": "-12"
+    },
+    {
+      "rank": "11",
       "team": "Rayo Vallecano",
       "points": "43",
       "played": "35",
@@ -121,7 +133,7 @@
       "dg": "-6"
     },
     {
-      "rank": "11",
+      "rank": "12",
       "team": "Osasuna",
       "points": "42",
       "played": "36",
@@ -133,7 +145,7 @@
       "dg": "-4"
     },
     {
-      "rank": "12",
+      "rank": "13",
       "team": "Valencia",
       "points": "42",
       "played": "35",
@@ -145,19 +157,19 @@
       "dg": "-12"
     },
     {
-      "rank": "13",
-      "team": "Sevilla",
-      "points": "40",
-      "played": "35",
+      "rank": "14",
+      "team": "Espanyol",
+      "points": "42",
+      "played": "36",
       "won": "11",
-      "drawn": "7",
-      "lost": "17",
-      "gf": "43",
-      "ga": "56",
+      "drawn": "9",
+      "lost": "16",
+      "gf": "40",
+      "ga": "53",
       "dg": "-13"
     },
     {
-      "rank": "14",
+      "rank": "15",
       "team": "Elche",
       "points": "39",
       "played": "36",
@@ -169,7 +181,7 @@
       "dg": "-9"
     },
     {
-      "rank": "15",
+      "rank": "16",
       "team": "Mallorca",
       "points": "39",
       "played": "35",
@@ -181,7 +193,7 @@
       "dg": "-9"
     },
     {
-      "rank": "16",
+      "rank": "17",
       "team": "Levante",
       "points": "39",
       "played": "36",
@@ -190,18 +202,6 @@
       "lost": "17",
       "gf": "44",
       "ga": "59",
-      "dg": "-15"
-    },
-    {
-      "rank": "17",
-      "team": "Espanyol",
-      "points": "39",
-      "played": "35",
-      "won": "10",
-      "drawn": "9",
-      "lost": "16",
-      "gf": "38",
-      "ga": "53",
       "dg": "-15"
     },
     {
