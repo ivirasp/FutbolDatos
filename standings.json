@@ -4,13 +4,13 @@
       "rank": "1",
       "team": "FC Barcelona",
       "points": "91",
-      "played": "35",
+      "played": "36",
       "won": "30",
       "drawn": "1",
-      "lost": "4",
+      "lost": "5",
       "gf": "91",
-      "ga": "31",
-      "dg": "+60"
+      "ga": "32",
+      "dg": "+59"
     },
     {
       "rank": "2",
@@ -75,14 +75,14 @@
     {
       "rank": "7",
       "team": "Getafe",
-      "points": "45",
-      "played": "35",
-      "won": "13",
+      "points": "48",
+      "played": "36",
+      "won": "14",
       "drawn": "6",
       "lost": "16",
-      "gf": "28",
+      "gf": "30",
       "ga": "36",
-      "dg": "-8"
+      "dg": "-6"
     },
     {
       "rank": "8",
@@ -170,6 +170,18 @@
     },
     {
       "rank": "15",
+      "team": "Deportivo Alav\u00e9s",
+      "points": "40",
+      "played": "36",
+      "won": "10",
+      "drawn": "10",
+      "lost": "16",
+      "gf": "42",
+      "ga": "54",
+      "dg": "-12"
+    },
+    {
+      "rank": "16",
       "team": "Elche",
       "points": "39",
       "played": "36",
@@ -181,19 +193,19 @@
       "dg": "-9"
     },
     {
-      "rank": "16",
+      "rank": "17",
       "team": "Mallorca",
       "points": "39",
-      "played": "35",
+      "played": "36",
       "won": "10",
       "drawn": "9",
-      "lost": "16",
+      "lost": "17",
       "gf": "43",
-      "ga": "52",
-      "dg": "-9"
+      "ga": "54",
+      "dg": "-11"
     },
     {
-      "rank": "17",
+      "rank": "18",
       "team": "Levante",
       "points": "39",
       "played": "36",
@@ -205,7 +217,7 @@
       "dg": "-15"
     },
     {
-      "rank": "18",
+      "rank": "19",
       "team": "Girona FC",
       "points": "39",
       "played": "35",
@@ -215,18 +227,6 @@
       "gf": "37",
       "ga": "52",
       "dg": "-15"
-    },
-    {
-      "rank": "19",
-      "team": "Deportivo Alav\u00e9s",
-      "points": "37",
-      "played": "35",
-      "won": "9",
-      "drawn": "10",
-      "lost": "16",
-      "gf": "41",
-      "ga": "54",
-      "dg": "-13"
     },
     {
       "rank": "20",
