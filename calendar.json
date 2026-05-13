@@ -1,26 +1,5 @@
 [
   {
-    "title": "Celta - Levante",
-    "start_ts": 1778605200.0,
-    "time_str": "19:00",
-    "channel": "M+ LaLiga",
-    "competition": "LALIGA"
-  },
-  {
-    "title": "Betis - Elche",
-    "start_ts": 1778608800.0,
-    "time_str": "20:00",
-    "channel": "DAZN LaLiga",
-    "competition": "LALIGA"
-  },
-  {
-    "title": "Osasuna - Atl\u00e9tico de Madrid",
-    "start_ts": 1778614200.0,
-    "time_str": "21:30",
-    "channel": "M+ LaLiga",
-    "competition": "LALIGA"
-  },
-  {
     "title": "Villarreal - Sevilla",
     "start_ts": 1778691600.0,
     "time_str": "19:00",
@@ -205,6 +184,13 @@
   {
     "title": "Getafe - Osasuna",
     "start_ts": 1779562800.0,
+    "time_str": "21:00",
+    "channel": "TBD",
+    "competition": "LALIGA"
+  },
+  {
+    "title": "Villarreal - Atl\u00e9tico de Madrid",
+    "start_ts": 1779649200.0,
     "time_str": "21:00",
     "channel": "TBD",
     "competition": "LALIGA"
