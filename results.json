@@ -2521,7 +2521,7 @@
           "status": "Fin"
         }
       ],
-      "Jornada 36 (Actual)": [
+      "Jornada 36": [
         {
           "date": "12-05-2026",
           "home": "Celta de Vigo",
@@ -2593,7 +2593,7 @@
           "status": "Fin"
         }
       ],
-      "Jornada 37": [
+      "Jornada 37 (Actual)": [
         {
           "date": "17-05-2026",
           "home": "Athletic Club",
@@ -2738,7 +2738,7 @@
         }
       ]
     },
-    "current": "Jornada 36 (Actual)"
+    "current": "Jornada 37 (Actual)"
   },
   "CHAMPIONS": {
     "rounds": {
