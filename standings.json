@@ -15,14 +15,14 @@
     {
       "rank": "2",
       "team": "Real Madrid",
-      "points": "78",
+      "points": "80",
       "played": "36",
-      "won": "24",
-      "drawn": "6",
+      "won": "25",
+      "drawn": "5",
       "lost": "6",
-      "gf": "70",
+      "gf": "72",
       "ga": "33",
-      "dg": "+37"
+      "dg": "+39"
     },
     {
       "rank": "3",
@@ -231,14 +231,14 @@
     {
       "rank": "20",
       "team": "Real Oviedo",
-      "points": "30",
+      "points": "29",
       "played": "36",
       "won": "6",
-      "drawn": "12",
-      "lost": "18",
+      "drawn": "11",
+      "lost": "19",
       "gf": "26",
-      "ga": "54",
-      "dg": "-28"
+      "ga": "56",
+      "dg": "-30"
     }
   ],
   "CHAMPIONS": [
