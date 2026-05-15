@@ -3,14 +3,14 @@
     "title": "Rayo Vallecano - Villarreal",
     "start_ts": 1779037200.0,
     "time_str": "19:00",
-    "channel": "DAZN LaLiga",
+    "channel": "DAZN LaLiga 4",
     "competition": "LALIGA"
   },
   {
     "title": "Elche - Getafe",
     "start_ts": 1779037200.0,
     "time_str": "19:00",
-    "channel": "DAZN LaLiga",
+    "channel": "M+ LaLiga 5",
     "competition": "LALIGA"
   },
   {
@@ -24,14 +24,14 @@
     "title": "Real Oviedo - Alav\u00e9s",
     "start_ts": 1779037200.0,
     "time_str": "19:00",
-    "channel": "DAZN LaLiga",
+    "channel": "DAZN LaLiga 3",
     "competition": "LALIGA"
   },
   {
     "title": "Atl\u00e9tico de Madrid - Girona",
     "start_ts": 1779037200.0,
     "time_str": "19:00",
-    "channel": "DAZN LaLiga",
+    "channel": "DAZN LaLiga 2",
     "competition": "LALIGA"
   },
   {
@@ -45,7 +45,7 @@
     "title": "Osasuna - Espanyol",
     "start_ts": 1779037200.0,
     "time_str": "19:00",
-    "channel": "M+ LaLiga",
+    "channel": "LaLiga TV Multi 4",
     "competition": "LALIGA"
   },
   {
@@ -59,7 +59,7 @@
     "title": "Real Sociedad - Valencia",
     "start_ts": 1779037200.0,
     "time_str": "19:00",
-    "channel": "M+ LaLiga",
+    "channel": "M+ LaLiga 2",
     "competition": "LALIGA"
   },
   {
