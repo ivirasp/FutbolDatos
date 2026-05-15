@@ -1,26 +1,5 @@
 [
   {
-    "title": "Valencia - Rayo Vallecano",
-    "start_ts": 1778778000.0,
-    "time_str": "19:00",
-    "channel": "DAZN LaLiga 2",
-    "competition": "LALIGA"
-  },
-  {
-    "title": "Girona - Real Sociedad",
-    "start_ts": 1778781600.0,
-    "time_str": "20:00",
-    "channel": "M+ LaLiga",
-    "competition": "LALIGA"
-  },
-  {
-    "title": "Real Madrid - Real Oviedo",
-    "start_ts": 1778787000.0,
-    "time_str": "21:30",
-    "channel": "DAZN LaLiga",
-    "competition": "LALIGA"
-  },
-  {
     "title": "Rayo Vallecano - Villarreal",
     "start_ts": 1779037200.0,
     "time_str": "19:00",
