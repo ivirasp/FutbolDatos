@@ -3,10 +3,10 @@
     {
       "rank": "1",
       "team": "FC Barcelona",
-      "points": "91",
-      "played": "36",
+      "points": "92",
+      "played": "37",
       "won": "30",
-      "drawn": "1",
+      "drawn": "2",
       "lost": "5",
       "gf": "91",
       "ga": "32",
@@ -51,10 +51,10 @@
     {
       "rank": "5",
       "team": "Real Betis",
-      "points": "57",
-      "played": "36",
+      "points": "58",
+      "played": "37",
       "won": "14",
-      "drawn": "15",
+      "drawn": "16",
       "lost": "7",
       "gf": "56",
       "ga": "44",
@@ -74,18 +74,6 @@
     },
     {
       "rank": "7",
-      "team": "Real Sociedad",
-      "points": "48",
-      "played": "37",
-      "won": "12",
-      "drawn": "12",
-      "lost": "13",
-      "gf": "58",
-      "ga": "58",
-      "dg": "0"
-    },
-    {
-      "rank": "8",
       "team": "Getafe",
       "points": "48",
       "played": "37",
@@ -97,7 +85,7 @@
       "dg": "-7"
     },
     {
-      "rank": "9",
+      "rank": "8",
       "team": "Rayo Vallecano",
       "points": "47",
       "played": "37",
@@ -109,7 +97,31 @@
       "dg": "-4"
     },
     {
+      "rank": "9",
+      "team": "Valencia",
+      "points": "46",
+      "played": "37",
+      "won": "12",
+      "drawn": "10",
+      "lost": "15",
+      "gf": "43",
+      "ga": "54",
+      "dg": "-11"
+    },
+    {
       "rank": "10",
+      "team": "Real Sociedad",
+      "points": "45",
+      "played": "37",
+      "won": "11",
+      "drawn": "12",
+      "lost": "14",
+      "gf": "58",
+      "ga": "60",
+      "dg": "-2"
+    },
+    {
+      "rank": "11",
       "team": "Espanyol",
       "points": "45",
       "played": "37",
@@ -121,25 +133,13 @@
       "dg": "-12"
     },
     {
-      "rank": "11",
+      "rank": "12",
       "team": "Athletic",
       "points": "45",
       "played": "37",
       "won": "13",
       "drawn": "6",
       "lost": "18",
-      "gf": "41",
-      "ga": "54",
-      "dg": "-13"
-    },
-    {
-      "rank": "12",
-      "team": "Valencia",
-      "points": "43",
-      "played": "37",
-      "won": "11",
-      "drawn": "10",
-      "lost": "16",
       "gf": "41",
       "ga": "54",
       "dg": "-13"
@@ -176,9 +176,9 @@
       "won": "11",
       "drawn": "9",
       "lost": "17",
-      "gf": "45",
+      "gf": "46",
       "ga": "59",
-      "dg": "-14"
+      "dg": "-13"
     },
     {
       "rank": "16",
@@ -225,8 +225,8 @@
       "drawn": "9",
       "lost": "18",
       "gf": "44",
-      "ga": "56",
-      "dg": "-12"
+      "ga": "57",
+      "dg": "-13"
     },
     {
       "rank": "20",
