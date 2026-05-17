@@ -3,14 +3,14 @@
     {
       "rank": "1",
       "team": "FC Barcelona",
-      "points": "92",
+      "points": "94",
       "played": "37",
-      "won": "30",
-      "drawn": "2",
+      "won": "31",
+      "drawn": "1",
       "lost": "5",
-      "gf": "91",
-      "ga": "32",
-      "dg": "+59"
+      "gf": "94",
+      "ga": "33",
+      "dg": "+61"
     },
     {
       "rank": "2",
@@ -51,14 +51,14 @@
     {
       "rank": "5",
       "team": "Real Betis",
-      "points": "58",
+      "points": "57",
       "played": "37",
       "won": "14",
-      "drawn": "16",
-      "lost": "7",
-      "gf": "56",
-      "ga": "44",
-      "dg": "+12"
+      "drawn": "15",
+      "lost": "8",
+      "gf": "57",
+      "ga": "47",
+      "dg": "+10"
     },
     {
       "rank": "6",

@@ -2593,79 +2593,79 @@
           "status": "Fin"
         }
       ],
-      "Jornada 37 (Actual)": [
+      "Jornada 37": [
         {
           "date": "17-05-2026",
           "home": "Athletic Club",
           "away": "Celta de Vigo",
-          "score": "vs",
-          "status": ""
+          "score": "1 - 1",
+          "status": "Fin"
         },
         {
           "date": "17-05-2026",
           "home": "Atl\u00e9tico de Madrid",
           "away": "Girona",
-          "score": "vs",
-          "status": ""
+          "score": "1 - 0",
+          "status": "Fin"
         },
         {
           "date": "17-05-2026",
           "home": "Barcelona",
           "away": "Real Betis",
-          "score": "vs",
-          "status": ""
+          "score": "3 - 1",
+          "status": "Fin"
         },
         {
           "date": "17-05-2026",
           "home": "Elche",
           "away": "Getafe",
-          "score": "vs",
-          "status": ""
+          "score": "1 - 0",
+          "status": "Fin"
         },
         {
           "date": "17-05-2026",
           "home": "Levante",
           "away": "Mallorca",
-          "score": "vs",
-          "status": ""
+          "score": "2 - 0",
+          "status": "Fin"
         },
         {
           "date": "17-05-2026",
           "home": "Osasuna",
           "away": "Espanyol",
-          "score": "vs",
-          "status": ""
+          "score": "1 - 2",
+          "status": "Fin"
         },
         {
           "date": "17-05-2026",
           "home": "Rayo Vallecano",
           "away": "Villarreal",
-          "score": "vs",
-          "status": ""
+          "score": "2 - 0",
+          "status": "Fin"
         },
         {
           "date": "17-05-2026",
           "home": "Real Oviedo",
           "away": "Alav\u00e9s",
-          "score": "vs",
-          "status": ""
+          "score": "0 - 1",
+          "status": "Fin"
         },
         {
           "date": "17-05-2026",
           "home": "Real Sociedad",
           "away": "Valencia CF",
-          "score": "vs",
-          "status": ""
+          "score": "3 - 4",
+          "status": "Fin"
         },
         {
           "date": "17-05-2026",
           "home": "Sevilla",
           "away": "Real Madrid",
-          "score": "vs",
-          "status": ""
+          "score": "0 - 1",
+          "status": "Fin"
         }
       ],
-      "Jornada 38": [
+      "Jornada 38 (Actual)": [
         {
           "date": "23-05-2026",
           "home": "Alav\u00e9s",
@@ -2738,7 +2738,7 @@
         }
       ]
     },
-    "current": "Jornada 37 (Actual)"
+    "current": "Jornada 38 (Actual)"
   },
   "CHAMPIONS": {
     "rounds": {
