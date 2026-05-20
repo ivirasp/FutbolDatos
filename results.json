@@ -5452,17 +5452,17 @@
           "status": "Fin"
         }
       ],
-      "Jornada 17 (Actual)": [
+      "Jornada 17": [
         {
           "date": "20-05-2026",
           "home": "Sport-Club Freiburg",
           "away": "Aston Villa",
-          "score": "vs",
-          "status": ""
+          "score": "0 - 3",
+          "status": "Fin"
         }
       ]
     },
-    "current": "Jornada 17 (Actual)"
+    "current": "Jornada 17"
   },
   "COPA": {
     "rounds": {
