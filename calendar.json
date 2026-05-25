@@ -1,12 +1,5 @@
 [
   {
-    "title": "Villarreal - Atl\u00e9tico de Madrid",
-    "start_ts": 1779649200.0,
-    "time_str": "21:00",
-    "channel": "M+ LaLiga",
-    "competition": "LALIGA"
-  },
-  {
     "title": "PSG - Arsenal",
     "start_ts": 1780156800.0,
     "time_str": "18:00",
