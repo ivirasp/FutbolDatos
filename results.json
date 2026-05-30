@@ -4090,7 +4090,7 @@
           "status": "Fin"
         }
       ],
-      "Final (Actual)": [
+      "Final": [
         {
           "date": "30-05-2026",
           "home": "PSG",
@@ -4100,7 +4100,7 @@
         }
       ]
     },
-    "current": "Final (Actual)"
+    "current": "Final"
   },
   "EUROPA": {
     "rounds": {
