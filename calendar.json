@@ -1,212 +1,58 @@
 [
   {
-    "title": "Celta - Osasuna",
-    "start_ts": 1786892400.0,
-    "time_str": "17:00",
-    "channel": "TBD",
+    "title": "Alav\u00e9s - Getafe",
+    "start_ts": 1786815000.0,
+    "time_str": "19:30",
+    "channel": "DAZN LaLiga",
     "competition": "LALIGA"
   },
   {
-    "title": "Espanyol - Levante",
-    "start_ts": 1786892400.0,
-    "time_str": "17:00",
-    "channel": "TBD",
-    "competition": "LALIGA"
-  },
-  {
-    "title": "Deportivo - Elche",
-    "start_ts": 1786892400.0,
-    "time_str": "17:00",
-    "channel": "TBD",
-    "competition": "LALIGA"
-  },
-  {
-    "title": "Atl\u00e9tico de Madrid - M\u00e1laga",
-    "start_ts": 1786892400.0,
-    "time_str": "17:00",
-    "channel": "TBD",
-    "competition": "LALIGA"
-  },
-  {
-    "title": "Valencia - Betis",
-    "start_ts": 1786892400.0,
-    "time_str": "17:00",
-    "channel": "TBD",
-    "competition": "LALIGA"
-  },
-  {
-    "title": "Real Madrid - Real Sociedad",
-    "start_ts": 1786892400.0,
-    "time_str": "17:00",
-    "channel": "TBD",
+    "title": "Sevilla - Rayo Vallecano",
+    "start_ts": 1786822200.0,
+    "time_str": "21:30",
+    "channel": "M+ LaLiga",
     "competition": "LALIGA"
   },
   {
     "title": "Racing de Santander - Villarreal",
     "start_ts": 1786892400.0,
     "time_str": "17:00",
-    "channel": "TBD",
+    "channel": "DAZN LaLiga",
     "competition": "LALIGA"
   },
   {
-    "title": "Barcelona - Athletic Club",
-    "start_ts": 1786892400.0,
-    "time_str": "17:00",
-    "channel": "TBD",
+    "title": "Espanyol - Levante",
+    "start_ts": 1786899600.0,
+    "time_str": "19:00",
+    "channel": "M+ LaLiga",
     "competition": "LALIGA"
   },
   {
-    "title": "Alav\u00e9s - Getafe",
-    "start_ts": 1786892400.0,
-    "time_str": "17:00",
-    "channel": "TBD",
+    "title": "Celta - Osasuna",
+    "start_ts": 1786908600.0,
+    "time_str": "21:30",
+    "channel": "M+ LaLiga",
     "competition": "LALIGA"
   },
   {
-    "title": "Sevilla - Rayo Vallecano",
-    "start_ts": 1786892400.0,
-    "time_str": "17:00",
-    "channel": "TBD",
+    "title": "Deportivo - Elche",
+    "start_ts": 1786993200.0,
+    "time_str": "21:00",
+    "channel": "DAZN LaLiga",
     "competition": "LALIGA"
   },
   {
-    "title": "Espanyol - Real Madrid",
-    "start_ts": 1787497200.0,
-    "time_str": "17:00",
-    "channel": "TBD",
+    "title": "Atl\u00e9tico de Madrid - M\u00e1laga",
+    "start_ts": 1787166000.0,
+    "time_str": "21:00",
+    "channel": "M+ LaLiga",
     "competition": "LALIGA"
   },
   {
     "title": "Rayo Vallecano - Alav\u00e9s",
-    "start_ts": 1787497200.0,
-    "time_str": "17:00",
-    "channel": "TBD",
-    "competition": "LALIGA"
-  },
-  {
-    "title": "Betis - Real Sociedad",
-    "start_ts": 1787497200.0,
-    "time_str": "17:00",
-    "channel": "TBD",
-    "competition": "LALIGA"
-  },
-  {
-    "title": "M\u00e1laga - Deportivo",
-    "start_ts": 1787497200.0,
-    "time_str": "17:00",
-    "channel": "TBD",
-    "competition": "LALIGA"
-  },
-  {
-    "title": "Getafe - Racing de Santander",
-    "start_ts": 1787497200.0,
-    "time_str": "17:00",
-    "channel": "TBD",
-    "competition": "LALIGA"
-  },
-  {
-    "title": "Atl\u00e9tico de Madrid - Villarreal",
-    "start_ts": 1787497200.0,
-    "time_str": "17:00",
-    "channel": "TBD",
-    "competition": "LALIGA"
-  },
-  {
-    "title": "Osasuna - Levante",
-    "start_ts": 1787497200.0,
-    "time_str": "17:00",
-    "channel": "TBD",
-    "competition": "LALIGA"
-  },
-  {
-    "title": "Athletic Club - Sevilla",
-    "start_ts": 1787497200.0,
-    "time_str": "17:00",
-    "channel": "TBD",
-    "competition": "LALIGA"
-  },
-  {
-    "title": "Valencia - Celta",
-    "start_ts": 1787497200.0,
-    "time_str": "17:00",
-    "channel": "TBD",
-    "competition": "LALIGA"
-  },
-  {
-    "title": "Elche - Barcelona",
-    "start_ts": 1787497200.0,
-    "time_str": "17:00",
-    "channel": "TBD",
-    "competition": "LALIGA"
-  },
-  {
-    "title": "Levante - Betis",
-    "start_ts": 1788102000.0,
-    "time_str": "17:00",
-    "channel": "TBD",
-    "competition": "LALIGA"
-  },
-  {
-    "title": "Celta - Athletic Club",
-    "start_ts": 1788102000.0,
-    "time_str": "17:00",
-    "channel": "TBD",
-    "competition": "LALIGA"
-  },
-  {
-    "title": "Sevilla - Atl\u00e9tico de Madrid",
-    "start_ts": 1788102000.0,
-    "time_str": "17:00",
-    "channel": "TBD",
-    "competition": "LALIGA"
-  },
-  {
-    "title": "Barcelona - Rayo Vallecano",
-    "start_ts": 1788102000.0,
-    "time_str": "17:00",
-    "channel": "TBD",
-    "competition": "LALIGA"
-  },
-  {
-    "title": "Deportivo - Valencia",
-    "start_ts": 1788102000.0,
-    "time_str": "17:00",
-    "channel": "TBD",
-    "competition": "LALIGA"
-  },
-  {
-    "title": "Alav\u00e9s - Villarreal",
-    "start_ts": 1788102000.0,
-    "time_str": "17:00",
-    "channel": "TBD",
-    "competition": "LALIGA"
-  },
-  {
-    "title": "Real Sociedad - Espanyol",
-    "start_ts": 1788102000.0,
-    "time_str": "17:00",
-    "channel": "TBD",
-    "competition": "LALIGA"
-  },
-  {
-    "title": "Osasuna - Getafe",
-    "start_ts": 1788102000.0,
-    "time_str": "17:00",
-    "channel": "TBD",
-    "competition": "LALIGA"
-  },
-  {
-    "title": "Racing de Santander - Elche",
-    "start_ts": 1788102000.0,
-    "time_str": "17:00",
-    "channel": "TBD",
-    "competition": "LALIGA"
-  },
-  {
-    "title": "Real Madrid - M\u00e1laga",
-    "start_ts": 1788102000.0,
-    "time_str": "17:00",
-    "channel": "TBD",
+    "start_ts": 1787252400.0,
+    "time_str": "21:00",
+    "channel": "DAZN LaLiga",
     "competition": "LALIGA"
   }
 ]
