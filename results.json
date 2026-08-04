@@ -219,14 +219,28 @@
       ],
       "Jornada 4": [
         {
-          "date": "06-09-2026",
-          "home": "M\u00e1laga",
-          "away": "Levante",
+          "date": "04-09-2026",
+          "home": "Real Betis",
+          "away": "Real Madrid",
           "score": "vs",
           "status": ""
         },
         {
-          "date": "06-09-2026",
+          "date": "05-09-2026",
+          "home": "Athletic Club",
+          "away": "Atl\u00e9tico de Madrid",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "05-09-2026",
+          "home": "Rayo Vallecano",
+          "away": "Racing de Santander",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "05-09-2026",
           "home": "Villarreal",
           "away": "Deportivo de La Coru\u00f1a",
           "score": "vs",
@@ -241,29 +255,15 @@
         },
         {
           "date": "06-09-2026",
-          "home": "Real Betis",
-          "away": "Real Madrid",
+          "home": "Alav\u00e9s",
+          "away": "Osasuna",
           "score": "vs",
           "status": ""
         },
         {
           "date": "06-09-2026",
-          "home": "Rayo Vallecano",
-          "away": "Racing de Santander",
-          "score": "vs",
-          "status": ""
-        },
-        {
-          "date": "06-09-2026",
-          "home": "Elche",
-          "away": "Real Sociedad",
-          "score": "vs",
-          "status": ""
-        },
-        {
-          "date": "06-09-2026",
-          "home": "Getafe",
-          "away": "Celta de Vigo",
+          "home": "M\u00e1laga",
+          "away": "Levante",
           "score": "vs",
           "status": ""
         },
@@ -275,16 +275,16 @@
           "status": ""
         },
         {
-          "date": "06-09-2026",
-          "home": "Athletic Club",
-          "away": "Atl\u00e9tico de Madrid",
+          "date": "07-09-2026",
+          "home": "Getafe",
+          "away": "Celta de Vigo",
           "score": "vs",
           "status": ""
         },
         {
-          "date": "06-09-2026",
-          "home": "Alav\u00e9s",
-          "away": "Osasuna",
+          "date": "07-09-2026",
+          "home": "Elche",
+          "away": "Real Sociedad",
           "score": "vs",
           "status": ""
         }
