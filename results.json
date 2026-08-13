@@ -31,13 +31,6 @@
           "status": ""
         },
         {
-          "date": "16-08-2026",
-          "home": "Celta de Vigo",
-          "away": "Osasuna",
-          "score": "vs",
-          "status": ""
-        },
-        {
           "date": "17-08-2026",
           "home": "Deportivo de La Coru\u00f1a",
           "away": "Elche",
@@ -62,6 +55,13 @@
           "date": "26-08-2026",
           "home": "Real Madrid",
           "away": "Real Sociedad",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "27-08-2026",
+          "home": "Celta de Vigo",
+          "away": "Osasuna",
           "score": "vs",
           "status": ""
         },
