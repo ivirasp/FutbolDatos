@@ -14,6 +14,18 @@
     },
     {
       "rank": "2",
+      "team": "Espanyol",
+      "points": "3",
+      "played": "1",
+      "won": "1",
+      "drawn": "0",
+      "lost": "0",
+      "gf": "2",
+      "ga": "0",
+      "dg": "+2"
+    },
+    {
+      "rank": "3",
       "team": "Sevilla",
       "points": "3",
       "played": "1",
@@ -22,18 +34,6 @@
       "lost": "0",
       "gf": "2",
       "ga": "1",
-      "dg": "+1"
-    },
-    {
-      "rank": "3",
-      "team": "Espanyol",
-      "points": "3",
-      "played": "1",
-      "won": "1",
-      "drawn": "0",
-      "lost": "0",
-      "gf": "1",
-      "ga": "0",
       "dg": "+1"
     },
     {
@@ -225,8 +225,8 @@
       "drawn": "0",
       "lost": "1",
       "gf": "0",
-      "ga": "1",
-      "dg": "-1"
+      "ga": "2",
+      "dg": "-2"
     },
     {
       "rank": "20",
