@@ -20,9 +20,9 @@
       "won": "1",
       "drawn": "0",
       "lost": "0",
-      "gf": "2",
+      "gf": "3",
       "ga": "0",
-      "dg": "+2"
+      "dg": "+3"
     },
     {
       "rank": "3",
@@ -218,19 +218,19 @@
     },
     {
       "rank": "19",
-      "team": "Levante",
+      "team": "Getafe",
       "points": "0",
       "played": "1",
       "won": "0",
       "drawn": "0",
       "lost": "1",
       "gf": "0",
-      "ga": "2",
-      "dg": "-2"
+      "ga": "3",
+      "dg": "-3"
     },
     {
       "rank": "20",
-      "team": "Getafe",
+      "team": "Levante",
       "points": "0",
       "played": "1",
       "won": "0",
