@@ -2,7 +2,7 @@
   "LALIGA": [
     {
       "rank": "1",
-      "team": "Deportivo Alav\u00e9s",
+      "team": "Espanyol",
       "points": "3",
       "played": "1",
       "won": "1",
@@ -14,7 +14,7 @@
     },
     {
       "rank": "2",
-      "team": "Espanyol",
+      "team": "Deportivo Alav\u00e9s",
       "points": "3",
       "played": "1",
       "won": "1",
@@ -74,7 +74,7 @@
     },
     {
       "rank": "7",
-      "team": "Elche",
+      "team": "RC Deportivo",
       "points": "1",
       "played": "1",
       "won": "0",
@@ -86,7 +86,7 @@
     },
     {
       "rank": "8",
-      "team": "RC Deportivo",
+      "team": "Elche",
       "points": "1",
       "played": "1",
       "won": "0",
