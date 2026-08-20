@@ -2,18 +2,6 @@
   "LALIGA": [
     {
       "rank": "1",
-      "team": "Deportivo Alav\u00e9s",
-      "points": "4",
-      "played": "2",
-      "won": "1",
-      "drawn": "1",
-      "lost": "0",
-      "gf": "3",
-      "ga": "0",
-      "dg": "+3"
-    },
-    {
-      "rank": "2",
       "team": "Espanyol",
       "points": "3",
       "played": "1",
@@ -23,6 +11,18 @@
       "gf": "3",
       "ga": "0",
       "dg": "+3"
+    },
+    {
+      "rank": "2",
+      "team": "Deportivo Alav\u00e9s",
+      "points": "3",
+      "played": "2",
+      "won": "1",
+      "drawn": "0",
+      "lost": "1",
+      "gf": "3",
+      "ga": "1",
+      "dg": "+2"
     },
     {
       "rank": "3",
@@ -50,6 +50,18 @@
     },
     {
       "rank": "5",
+      "team": "Rayo Vallecano",
+      "points": "3",
+      "played": "2",
+      "won": "1",
+      "drawn": "0",
+      "lost": "1",
+      "gf": "2",
+      "ga": "2",
+      "dg": "0"
+    },
+    {
+      "rank": "6",
       "team": "Racing",
       "points": "1",
       "played": "1",
@@ -61,7 +73,7 @@
       "dg": "0"
     },
     {
-      "rank": "6",
+      "rank": "7",
       "team": "Villarreal",
       "points": "1",
       "played": "1",
@@ -73,7 +85,7 @@
       "dg": "0"
     },
     {
-      "rank": "7",
+      "rank": "8",
       "team": "Elche",
       "points": "1",
       "played": "1",
@@ -85,7 +97,7 @@
       "dg": "0"
     },
     {
-      "rank": "8",
+      "rank": "9",
       "team": "RC Deportivo",
       "points": "1",
       "played": "1",
@@ -95,18 +107,6 @@
       "gf": "1",
       "ga": "1",
       "dg": "0"
-    },
-    {
-      "rank": "9",
-      "team": "Rayo Vallecano",
-      "points": "1",
-      "played": "2",
-      "won": "0",
-      "drawn": "1",
-      "lost": "1",
-      "gf": "1",
-      "ga": "2",
-      "dg": "-1"
     },
     {
       "rank": "10",
