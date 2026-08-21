@@ -98,6 +98,30 @@
     },
     {
       "rank": "9",
+      "team": "Real Betis",
+      "points": "1",
+      "played": "1",
+      "won": "0",
+      "drawn": "1",
+      "lost": "0",
+      "gf": "0",
+      "ga": "0",
+      "dg": "0"
+    },
+    {
+      "rank": "10",
+      "team": "Real Sociedad",
+      "points": "1",
+      "played": "1",
+      "won": "0",
+      "drawn": "1",
+      "lost": "0",
+      "gf": "0",
+      "ga": "0",
+      "dg": "0"
+    },
+    {
+      "rank": "11",
       "team": "Rayo Vallecano",
       "points": "1",
       "played": "2",
@@ -109,7 +133,7 @@
       "dg": "-1"
     },
     {
-      "rank": "10",
+      "rank": "12",
       "team": "Athletic Club",
       "points": "0",
       "played": "0",
@@ -121,7 +145,7 @@
       "dg": "0"
     },
     {
-      "rank": "11",
+      "rank": "13",
       "team": "Celta",
       "points": "0",
       "played": "0",
@@ -133,7 +157,7 @@
       "dg": "0"
     },
     {
-      "rank": "12",
+      "rank": "14",
       "team": "FC Barcelona",
       "points": "0",
       "played": "0",
@@ -145,7 +169,7 @@
       "dg": "0"
     },
     {
-      "rank": "13",
+      "rank": "15",
       "team": "Osasuna",
       "points": "0",
       "played": "0",
@@ -157,32 +181,8 @@
       "dg": "0"
     },
     {
-      "rank": "14",
-      "team": "Real Betis",
-      "points": "0",
-      "played": "0",
-      "won": "0",
-      "drawn": "0",
-      "lost": "0",
-      "gf": "0",
-      "ga": "0",
-      "dg": "0"
-    },
-    {
-      "rank": "15",
-      "team": "Real Madrid",
-      "points": "0",
-      "played": "0",
-      "won": "0",
-      "drawn": "0",
-      "lost": "0",
-      "gf": "0",
-      "ga": "0",
-      "dg": "0"
-    },
-    {
       "rank": "16",
-      "team": "Real Sociedad",
+      "team": "Real Madrid",
       "points": "0",
       "played": "0",
       "won": "0",
