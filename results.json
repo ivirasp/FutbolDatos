@@ -4107,13 +4107,6 @@
       "Jornada 1 (Actual)": [
         {
           "date": "24-09-2026",
-          "home": "FC Midtjylland",
-          "away": "Sturm Graz",
-          "score": "2 - 0",
-          "status": "Fin"
-        },
-        {
-          "date": "24-09-2026",
           "home": "PAOK Salonika",
           "away": "Maccabi Tel Aviv",
           "score": "0 - 0",
@@ -4121,9 +4114,23 @@
         },
         {
           "date": "24-09-2026",
+          "home": "FC Midtjylland",
+          "away": "Sturm Graz",
+          "score": "2 - 0",
+          "status": "Fin"
+        },
+        {
+          "date": "24-09-2026",
           "home": "Estrella Roja",
           "away": "Celtic",
           "score": "1 - 1",
+          "status": "Fin"
+        },
+        {
+          "date": "24-09-2026",
+          "home": "Sport-Club Freiburg",
+          "away": "Basel",
+          "score": "2 - 1",
           "status": "Fin"
         },
         {
@@ -4149,13 +4156,6 @@
         },
         {
           "date": "24-09-2026",
-          "home": "Sport-Club Freiburg",
-          "away": "Basel",
-          "score": "2 - 1",
-          "status": "Fin"
-        },
-        {
-          "date": "24-09-2026",
           "home": "Sporting Braga",
           "away": "Feyenoord",
           "score": "1 - 0",
@@ -4170,13 +4170,6 @@
         },
         {
           "date": "25-09-2026",
-          "home": "Lille",
-          "away": "Brann",
-          "score": "2 - 1",
-          "status": "Fin"
-        },
-        {
-          "date": "25-09-2026",
           "home": "Go Ahead Eagles",
           "away": "FCSB",
           "score": "0 - 1",
@@ -4184,9 +4177,9 @@
         },
         {
           "date": "25-09-2026",
-          "home": "Young Boys",
-          "away": "Panathinaikos",
-          "score": "1 - 4",
+          "home": "Lille",
+          "away": "Brann",
+          "score": "2 - 1",
           "status": "Fin"
         },
         {
@@ -4198,9 +4191,9 @@
         },
         {
           "date": "25-09-2026",
-          "home": "Rangers",
-          "away": "KRC Genk",
-          "score": "0 - 1",
+          "home": "Young Boys",
+          "away": "Panathinaikos",
+          "score": "1 - 4",
           "status": "Fin"
         },
         {
@@ -4212,16 +4205,23 @@
         },
         {
           "date": "25-09-2026",
-          "home": "Ferencv\u00e1rosi TC",
-          "away": "Viktoria Plzen",
-          "score": "1 - 1",
+          "home": "RB Salzburgo",
+          "away": "FC Porto",
+          "score": "0 - 1",
           "status": "Fin"
         },
         {
           "date": "25-09-2026",
-          "home": "RB Salzburgo",
-          "away": "FC Porto",
+          "home": "Rangers",
+          "away": "KRC Genk",
           "score": "0 - 1",
+          "status": "Fin"
+        },
+        {
+          "date": "25-09-2026",
+          "home": "Ferencv\u00e1rosi TC",
+          "away": "Viktoria Plzen",
+          "score": "1 - 1",
           "status": "Fin"
         },
         {
@@ -4235,9 +4235,16 @@
       "Jornada 2": [
         {
           "date": "02-10-2026",
-          "home": "Fenerbah\u00e7e",
-          "away": "Nice",
-          "score": "2 - 1",
+          "home": "Bolonia",
+          "away": "Sport-Club Freiburg",
+          "score": "1 - 1",
+          "status": "Fin"
+        },
+        {
+          "date": "02-10-2026",
+          "home": "Brann",
+          "away": "FC Utrecht",
+          "score": "1 - 0",
           "status": "Fin"
         },
         {
@@ -4245,6 +4252,27 @@
           "home": "Viktoria Plzen",
           "away": "Malm\u00f6 FF",
           "score": "3 - 0",
+          "status": "Fin"
+        },
+        {
+          "date": "02-10-2026",
+          "home": "Celtic",
+          "away": "Sporting Braga",
+          "score": "0 - 2",
+          "status": "Fin"
+        },
+        {
+          "date": "02-10-2026",
+          "home": "FCSB",
+          "away": "Young Boys",
+          "score": "0 - 2",
+          "status": "Fin"
+        },
+        {
+          "date": "02-10-2026",
+          "home": "Fenerbah\u00e7e",
+          "away": "Nice",
+          "score": "2 - 1",
           "status": "Fin"
         },
         {
@@ -4270,30 +4298,9 @@
         },
         {
           "date": "02-10-2026",
-          "home": "FCSB",
-          "away": "Young Boys",
-          "score": "0 - 2",
-          "status": "Fin"
-        },
-        {
-          "date": "02-10-2026",
-          "home": "Celtic",
-          "away": "Sporting Braga",
-          "score": "0 - 2",
-          "status": "Fin"
-        },
-        {
-          "date": "02-10-2026",
-          "home": "Brann",
-          "away": "FC Utrecht",
-          "score": "1 - 0",
-          "status": "Fin"
-        },
-        {
-          "date": "02-10-2026",
-          "home": "Bolonia",
-          "away": "Sport-Club Freiburg",
-          "score": "1 - 1",
+          "home": "Nottingham Forest",
+          "away": "FC Midtjylland",
+          "score": "2 - 3",
           "status": "Fin"
         },
         {
@@ -4305,23 +4312,9 @@
         },
         {
           "date": "02-10-2026",
-          "home": "Feyenoord",
-          "away": "Aston Villa",
-          "score": "0 - 2",
-          "status": "Fin"
-        },
-        {
-          "date": "02-10-2026",
-          "home": "KRC Genk",
-          "away": "Ferencv\u00e1rosi TC",
-          "score": "0 - 1",
-          "status": "Fin"
-        },
-        {
-          "date": "02-10-2026",
-          "home": "Lyon",
-          "away": "RB Salzburgo",
-          "score": "2 - 0",
+          "home": "FC Porto",
+          "away": "Estrella Roja",
+          "score": "2 - 1",
           "status": "Fin"
         },
         {
@@ -4333,9 +4326,16 @@
         },
         {
           "date": "02-10-2026",
-          "home": "Nottingham Forest",
-          "away": "FC Midtjylland",
-          "score": "2 - 3",
+          "home": "KRC Genk",
+          "away": "Ferencv\u00e1rosi TC",
+          "score": "0 - 1",
+          "status": "Fin"
+        },
+        {
+          "date": "02-10-2026",
+          "home": "Feyenoord",
+          "away": "Aston Villa",
+          "score": "0 - 2",
           "status": "Fin"
         },
         {
@@ -4347,15 +4347,15 @@
         },
         {
           "date": "02-10-2026",
-          "home": "FC Porto",
-          "away": "Estrella Roja",
-          "score": "2 - 1",
+          "home": "Basel",
+          "away": "Stuttgart",
+          "score": "2 - 0",
           "status": "Fin"
         },
         {
           "date": "02-10-2026",
-          "home": "Basel",
-          "away": "Stuttgart",
+          "home": "Lyon",
+          "away": "RB Salzburgo",
           "score": "2 - 0",
           "status": "Fin"
         }
@@ -4363,43 +4363,8 @@
       "Jornada 3": [
         {
           "date": "23-10-2026",
-          "home": "FCSB",
-          "away": "Bolonia",
-          "score": "1 - 2",
-          "status": "Fin"
-        },
-        {
-          "date": "23-10-2026",
           "home": "Sporting Braga",
           "away": "Estrella Roja",
-          "score": "2 - 0",
-          "status": "Fin"
-        },
-        {
-          "date": "23-10-2026",
-          "home": "Fenerbah\u00e7e",
-          "away": "Stuttgart",
-          "score": "1 - 0",
-          "status": "Fin"
-        },
-        {
-          "date": "23-10-2026",
-          "home": "Brann",
-          "away": "Rangers",
-          "score": "3 - 0",
-          "status": "Fin"
-        },
-        {
-          "date": "23-10-2026",
-          "home": "RB Salzburgo",
-          "away": "Ferencv\u00e1rosi TC",
-          "score": "2 - 3",
-          "status": "Fin"
-        },
-        {
-          "date": "23-10-2026",
-          "home": "Lyon",
-          "away": "Basel",
           "score": "2 - 0",
           "status": "Fin"
         },
@@ -4419,6 +4384,41 @@
         },
         {
           "date": "23-10-2026",
+          "home": "RB Salzburgo",
+          "away": "Ferencv\u00e1rosi TC",
+          "score": "2 - 3",
+          "status": "Fin"
+        },
+        {
+          "date": "23-10-2026",
+          "home": "Lyon",
+          "away": "Basel",
+          "score": "2 - 0",
+          "status": "Fin"
+        },
+        {
+          "date": "23-10-2026",
+          "home": "Fenerbah\u00e7e",
+          "away": "Stuttgart",
+          "score": "1 - 0",
+          "status": "Fin"
+        },
+        {
+          "date": "23-10-2026",
+          "home": "FCSB",
+          "away": "Bolonia",
+          "score": "1 - 2",
+          "status": "Fin"
+        },
+        {
+          "date": "23-10-2026",
+          "home": "Brann",
+          "away": "Rangers",
+          "score": "3 - 0",
+          "status": "Fin"
+        },
+        {
+          "date": "23-10-2026",
           "home": "Nottingham Forest",
           "away": "FC Porto",
           "score": "2 - 0",
@@ -4426,9 +4426,9 @@
         },
         {
           "date": "23-10-2026",
-          "home": "Sport-Club Freiburg",
-          "away": "FC Utrecht",
-          "score": "2 - 0",
+          "home": "Roma",
+          "away": "Viktoria Plzen",
+          "score": "1 - 2",
           "status": "Fin"
         },
         {
@@ -4436,13 +4436,6 @@
           "home": "Young Boys",
           "away": "Ludogorets Razgrad",
           "score": "3 - 2",
-          "status": "Fin"
-        },
-        {
-          "date": "23-10-2026",
-          "home": "Roma",
-          "away": "Viktoria Plzen",
-          "score": "1 - 2",
           "status": "Fin"
         },
         {
@@ -4464,6 +4457,13 @@
           "home": "Lille",
           "away": "PAOK Salonika",
           "score": "3 - 4",
+          "status": "Fin"
+        },
+        {
+          "date": "23-10-2026",
+          "home": "Sport-Club Freiburg",
+          "away": "FC Utrecht",
+          "score": "2 - 0",
           "status": "Fin"
         },
         {
@@ -4491,6 +4491,20 @@
       "Jornada 4": [
         {
           "date": "06-11-2026",
+          "home": "Malm\u00f6 FF",
+          "away": "Panathinaikos",
+          "score": "0 - 1",
+          "status": "Fin"
+        },
+        {
+          "date": "06-11-2026",
+          "home": "Sturm Graz",
+          "away": "Nottingham Forest",
+          "score": "0 - 0",
+          "status": "Fin"
+        },
+        {
+          "date": "06-11-2026",
           "home": "RB Salzburgo",
           "away": "Go Ahead Eagles",
           "score": "2 - 0",
@@ -4505,9 +4519,9 @@
         },
         {
           "date": "06-11-2026",
-          "home": "Malm\u00f6 FF",
-          "away": "Panathinaikos",
-          "score": "0 - 1",
+          "home": "FC Midtjylland",
+          "away": "Celtic",
+          "score": "3 - 1",
           "status": "Fin"
         },
         {
@@ -4515,20 +4529,6 @@
           "home": "FC Utrecht",
           "away": "FC Porto",
           "score": "1 - 1",
-          "status": "Fin"
-        },
-        {
-          "date": "06-11-2026",
-          "home": "Estrella Roja",
-          "away": "Lille",
-          "score": "1 - 0",
-          "status": "Fin"
-        },
-        {
-          "date": "06-11-2026",
-          "home": "FC Midtjylland",
-          "away": "Celtic",
-          "score": "3 - 1",
           "status": "Fin"
         },
         {
@@ -4547,44 +4547,9 @@
         },
         {
           "date": "06-11-2026",
-          "home": "Sturm Graz",
-          "away": "Nottingham Forest",
-          "score": "0 - 0",
-          "status": "Fin"
-        },
-        {
-          "date": "06-11-2026",
-          "home": "Real Betis",
-          "away": "Lyon",
-          "score": "2 - 0",
-          "status": "Fin"
-        },
-        {
-          "date": "06-11-2026",
-          "home": "Sporting Braga",
-          "away": "KRC Genk",
-          "score": "3 - 4",
-          "status": "Fin"
-        },
-        {
-          "date": "06-11-2026",
-          "home": "Viktoria Plzen",
-          "away": "Fenerbah\u00e7e",
-          "score": "0 - 0",
-          "status": "Fin"
-        },
-        {
-          "date": "06-11-2026",
-          "home": "Stuttgart",
-          "away": "Feyenoord",
-          "score": "2 - 0",
-          "status": "Fin"
-        },
-        {
-          "date": "06-11-2026",
-          "home": "Rangers",
-          "away": "Roma",
-          "score": "0 - 2",
+          "home": "Estrella Roja",
+          "away": "Lille",
+          "score": "1 - 0",
           "status": "Fin"
         },
         {
@@ -4596,9 +4561,16 @@
         },
         {
           "date": "06-11-2026",
-          "home": "Ferencv\u00e1rosi TC",
-          "away": "Ludogorets Razgrad",
-          "score": "3 - 1",
+          "home": "Rangers",
+          "away": "Roma",
+          "score": "0 - 2",
+          "status": "Fin"
+        },
+        {
+          "date": "06-11-2026",
+          "home": "Real Betis",
+          "away": "Lyon",
+          "score": "2 - 0",
           "status": "Fin"
         },
         {
@@ -4610,13 +4582,48 @@
         },
         {
           "date": "06-11-2026",
+          "home": "Sporting Braga",
+          "away": "KRC Genk",
+          "score": "3 - 4",
+          "status": "Fin"
+        },
+        {
+          "date": "06-11-2026",
+          "home": "Stuttgart",
+          "away": "Feyenoord",
+          "score": "2 - 0",
+          "status": "Fin"
+        },
+        {
+          "date": "06-11-2026",
+          "home": "Viktoria Plzen",
+          "away": "Fenerbah\u00e7e",
+          "score": "0 - 0",
+          "status": "Fin"
+        },
+        {
+          "date": "06-11-2026",
           "home": "Aston Villa",
           "away": "Maccabi Tel Aviv",
           "score": "2 - 0",
           "status": "Fin"
+        },
+        {
+          "date": "06-11-2026",
+          "home": "Ferencv\u00e1rosi TC",
+          "away": "Ludogorets Razgrad",
+          "score": "3 - 1",
+          "status": "Fin"
         }
       ],
       "Jornada 5": [
+        {
+          "date": "27-11-2026",
+          "home": "Lille",
+          "away": "Dinamo Zagreb",
+          "score": "4 - 0",
+          "status": "Fin"
+        },
         {
           "date": "27-11-2026",
           "home": "Viktoria Plzen",
@@ -4647,16 +4654,9 @@
         },
         {
           "date": "27-11-2026",
-          "home": "Lille",
-          "away": "Dinamo Zagreb",
-          "score": "4 - 0",
-          "status": "Fin"
-        },
-        {
-          "date": "27-11-2026",
-          "home": "Aston Villa",
-          "away": "Young Boys",
-          "score": "2 - 1",
+          "home": "Fenerbah\u00e7e",
+          "away": "Ferencv\u00e1rosi TC",
+          "score": "1 - 1",
           "status": "Fin"
         },
         {
@@ -4668,13 +4668,6 @@
         },
         {
           "date": "27-11-2026",
-          "home": "Fenerbah\u00e7e",
-          "away": "Ferencv\u00e1rosi TC",
-          "score": "1 - 1",
-          "status": "Fin"
-        },
-        {
-          "date": "27-11-2026",
           "home": "FC Porto",
           "away": "Nice",
           "score": "3 - 0",
@@ -4682,9 +4675,23 @@
         },
         {
           "date": "27-11-2026",
+          "home": "Aston Villa",
+          "away": "Young Boys",
+          "score": "2 - 1",
+          "status": "Fin"
+        },
+        {
+          "date": "27-11-2026",
           "home": "KRC Genk",
           "away": "Basel",
           "score": "2 - 1",
+          "status": "Fin"
+        },
+        {
+          "date": "27-11-2026",
+          "home": "Go Ahead Eagles",
+          "away": "Stuttgart",
+          "score": "0 - 4",
           "status": "Fin"
         },
         {
@@ -4735,30 +4742,9 @@
           "away": "RB Salzburgo",
           "score": "4 - 1",
           "status": "Fin"
-        },
-        {
-          "date": "27-11-2026",
-          "home": "Go Ahead Eagles",
-          "away": "Stuttgart",
-          "score": "0 - 4",
-          "status": "Fin"
         }
       ],
       "Jornada 6": [
-        {
-          "date": "11-12-2026",
-          "home": "Nice",
-          "away": "Sporting Braga",
-          "score": "0 - 1",
-          "status": "Fin"
-        },
-        {
-          "date": "11-12-2026",
-          "home": "Ferencv\u00e1rosi TC",
-          "away": "Rangers",
-          "score": "2 - 1",
-          "status": "Fin"
-        },
         {
           "date": "11-12-2026",
           "home": "Sturm Graz",
@@ -4768,16 +4754,9 @@
         },
         {
           "date": "11-12-2026",
-          "home": "Stuttgart",
-          "away": "Maccabi Tel Aviv",
-          "score": "4 - 1",
-          "status": "Fin"
-        },
-        {
-          "date": "11-12-2026",
-          "home": "Young Boys",
-          "away": "Lille",
-          "score": "1 - 0",
+          "home": "Nice",
+          "away": "Sporting Braga",
+          "score": "0 - 1",
           "status": "Fin"
         },
         {
@@ -4789,9 +4768,9 @@
         },
         {
           "date": "11-12-2026",
-          "home": "Dinamo Zagreb",
-          "away": "Real Betis",
-          "score": "1 - 3",
+          "home": "Stuttgart",
+          "away": "Maccabi Tel Aviv",
+          "score": "4 - 1",
           "status": "Fin"
         },
         {
@@ -4803,6 +4782,13 @@
         },
         {
           "date": "11-12-2026",
+          "home": "Young Boys",
+          "away": "Lille",
+          "score": "1 - 0",
+          "status": "Fin"
+        },
+        {
+          "date": "11-12-2026",
           "home": "FC Midtjylland",
           "away": "KRC Genk",
           "score": "1 - 0",
@@ -4810,9 +4796,23 @@
         },
         {
           "date": "11-12-2026",
-          "home": "FC Porto",
-          "away": "Malm\u00f6 FF",
+          "home": "Dinamo Zagreb",
+          "away": "Real Betis",
+          "score": "1 - 3",
+          "status": "Fin"
+        },
+        {
+          "date": "11-12-2026",
+          "home": "Ferencv\u00e1rosi TC",
+          "away": "Rangers",
           "score": "2 - 1",
+          "status": "Fin"
+        },
+        {
+          "date": "11-12-2026",
+          "home": "Sport-Club Freiburg",
+          "away": "RB Salzburgo",
+          "score": "1 - 0",
           "status": "Fin"
         },
         {
@@ -4824,9 +4824,16 @@
         },
         {
           "date": "11-12-2026",
-          "home": "Celtic",
-          "away": "Roma",
-          "score": "0 - 3",
+          "home": "FCSB",
+          "away": "Feyenoord",
+          "score": "4 - 3",
+          "status": "Fin"
+        },
+        {
+          "date": "11-12-2026",
+          "home": "FC Porto",
+          "away": "Malm\u00f6 FF",
+          "score": "2 - 1",
           "status": "Fin"
         },
         {
@@ -4838,9 +4845,9 @@
         },
         {
           "date": "11-12-2026",
-          "home": "Sport-Club Freiburg",
-          "away": "RB Salzburgo",
-          "score": "1 - 0",
+          "home": "Celtic",
+          "away": "Roma",
+          "score": "0 - 3",
           "status": "Fin"
         },
         {
@@ -4863,56 +4870,14 @@
           "away": "Aston Villa",
           "score": "1 - 2",
           "status": "Fin"
-        },
-        {
-          "date": "11-12-2026",
-          "home": "FCSB",
-          "away": "Feyenoord",
-          "score": "4 - 3",
-          "status": "Fin"
         }
       ],
       "Jornada 7": [
         {
           "date": "22-01-2027",
-          "home": "Fenerbah\u00e7e",
-          "away": "Aston Villa",
-          "score": "0 - 1",
-          "status": "Fin"
-        },
-        {
-          "date": "22-01-2027",
-          "home": "Malm\u00f6 FF",
-          "away": "Estrella Roja",
-          "score": "0 - 1",
-          "status": "Fin"
-        },
-        {
-          "date": "22-01-2027",
           "home": "Feyenoord",
           "away": "Sturm Graz",
           "score": "3 - 0",
-          "status": "Fin"
-        },
-        {
-          "date": "22-01-2027",
-          "home": "Sport-Club Freiburg",
-          "away": "Maccabi Tel Aviv",
-          "score": "1 - 0",
-          "status": "Fin"
-        },
-        {
-          "date": "22-01-2027",
-          "home": "Bolonia",
-          "away": "Celtic",
-          "score": "2 - 2",
-          "status": "Fin"
-        },
-        {
-          "date": "22-01-2027",
-          "home": "Viktoria Plzen",
-          "away": "FC Porto",
-          "score": "1 - 1",
           "status": "Fin"
         },
         {
@@ -4924,9 +4889,9 @@
         },
         {
           "date": "22-01-2027",
-          "home": "Brann",
-          "away": "FC Midtjylland",
-          "score": "3 - 3",
+          "home": "Viktoria Plzen",
+          "away": "FC Porto",
+          "score": "1 - 1",
           "status": "Fin"
         },
         {
@@ -4938,16 +4903,37 @@
         },
         {
           "date": "22-01-2027",
-          "home": "Sporting Braga",
-          "away": "Nottingham Forest",
+          "home": "Sport-Club Freiburg",
+          "away": "Maccabi Tel Aviv",
           "score": "1 - 0",
           "status": "Fin"
         },
         {
           "date": "22-01-2027",
-          "home": "Roma",
-          "away": "Stuttgart",
-          "score": "2 - 0",
+          "home": "Malm\u00f6 FF",
+          "away": "Estrella Roja",
+          "score": "0 - 1",
+          "status": "Fin"
+        },
+        {
+          "date": "22-01-2027",
+          "home": "Bolonia",
+          "away": "Celtic",
+          "score": "2 - 2",
+          "status": "Fin"
+        },
+        {
+          "date": "22-01-2027",
+          "home": "Brann",
+          "away": "FC Midtjylland",
+          "score": "3 - 3",
+          "status": "Fin"
+        },
+        {
+          "date": "22-01-2027",
+          "home": "Fenerbah\u00e7e",
+          "away": "Aston Villa",
+          "score": "0 - 1",
           "status": "Fin"
         },
         {
@@ -4959,23 +4945,37 @@
         },
         {
           "date": "22-01-2027",
-          "home": "Rangers",
-          "away": "Ludogorets Razgrad",
+          "home": "RB Salzburgo",
+          "away": "Basel",
+          "score": "3 - 1",
+          "status": "Fin"
+        },
+        {
+          "date": "22-01-2027",
+          "home": "Sporting Braga",
+          "away": "Nottingham Forest",
           "score": "1 - 0",
           "status": "Fin"
         },
         {
           "date": "22-01-2027",
-          "home": "Nice",
-          "away": "Go Ahead Eagles",
-          "score": "3 - 1",
+          "home": "Celta de Vigo",
+          "away": "Lille",
+          "score": "2 - 1",
           "status": "Fin"
         },
         {
           "date": "22-01-2027",
-          "home": "RB Salzburgo",
-          "away": "Basel",
-          "score": "3 - 1",
+          "home": "Roma",
+          "away": "Stuttgart",
+          "score": "2 - 0",
+          "status": "Fin"
+        },
+        {
+          "date": "22-01-2027",
+          "home": "Rangers",
+          "away": "Ludogorets Razgrad",
+          "score": "1 - 0",
           "status": "Fin"
         },
         {
@@ -4987,9 +4987,9 @@
         },
         {
           "date": "22-01-2027",
-          "home": "Celta de Vigo",
-          "away": "Lille",
-          "score": "2 - 1",
+          "home": "Nice",
+          "away": "Go Ahead Eagles",
+          "score": "3 - 1",
           "status": "Fin"
         },
         {
@@ -5003,8 +5003,8 @@
       "Jornada 8": [
         {
           "date": "29-01-2027",
-          "home": "Lille",
-          "away": "Sport-Club Freiburg",
+          "home": "Ludogorets Razgrad",
+          "away": "Nice",
           "score": "1 - 0",
           "status": "Fin"
         },
@@ -5038,6 +5038,13 @@
         },
         {
           "date": "29-01-2027",
+          "home": "FC Midtjylland",
+          "away": "Dinamo Zagreb",
+          "score": "2 - 0",
+          "status": "Fin"
+        },
+        {
+          "date": "29-01-2027",
           "home": "Maccabi Tel Aviv",
           "away": "Bolonia",
           "score": "0 - 3",
@@ -5052,13 +5059,6 @@
         },
         {
           "date": "29-01-2027",
-          "home": "Ludogorets Razgrad",
-          "away": "Nice",
-          "score": "1 - 0",
-          "status": "Fin"
-        },
-        {
-          "date": "29-01-2027",
           "home": "Stuttgart",
           "away": "Young Boys",
           "score": "3 - 2",
@@ -5066,9 +5066,16 @@
         },
         {
           "date": "29-01-2027",
-          "home": "Go Ahead Eagles",
-          "away": "Sporting Braga",
-          "score": "0 - 0",
+          "home": "Lille",
+          "away": "Sport-Club Freiburg",
+          "score": "1 - 0",
+          "status": "Fin"
+        },
+        {
+          "date": "29-01-2027",
+          "home": "KRC Genk",
+          "away": "Malm\u00f6 FF",
+          "score": "2 - 1",
           "status": "Fin"
         },
         {
@@ -5083,13 +5090,6 @@
           "home": "FC Porto",
           "away": "Rangers",
           "score": "3 - 1",
-          "status": "Fin"
-        },
-        {
-          "date": "29-01-2027",
-          "home": "FC Midtjylland",
-          "away": "Dinamo Zagreb",
-          "score": "2 - 0",
           "status": "Fin"
         },
         {
@@ -5122,9 +5122,9 @@
         },
         {
           "date": "29-01-2027",
-          "home": "KRC Genk",
-          "away": "Malm\u00f6 FF",
-          "score": "2 - 1",
+          "home": "Go Ahead Eagles",
+          "away": "Sporting Braga",
+          "score": "0 - 0",
           "status": "Fin"
         }
       ],
@@ -5312,9 +5312,9 @@
         },
         {
           "date": "19-03-2027",
-          "home": "FC Midtjylland",
-          "away": "Nottingham Forest",
-          "score": "1 - 2",
+          "home": "Sport-Club Freiburg",
+          "away": "KRC Genk",
+          "score": "5 - 1",
           "status": "Fin"
         },
         {
@@ -5326,9 +5326,9 @@
         },
         {
           "date": "19-03-2027",
-          "home": "Sport-Club Freiburg",
-          "away": "KRC Genk",
-          "score": "5 - 1",
+          "home": "FC Midtjylland",
+          "away": "Nottingham Forest",
+          "score": "1 - 2",
           "status": "Fin"
         },
         {
