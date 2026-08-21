@@ -50,6 +50,18 @@
     },
     {
       "rank": "5",
+      "team": "Real Betis",
+      "points": "3",
+      "played": "1",
+      "won": "1",
+      "drawn": "0",
+      "lost": "0",
+      "gf": "1",
+      "ga": "0",
+      "dg": "+1"
+    },
+    {
+      "rank": "6",
       "team": "Racing",
       "points": "1",
       "played": "1",
@@ -61,7 +73,7 @@
       "dg": "0"
     },
     {
-      "rank": "6",
+      "rank": "7",
       "team": "Villarreal",
       "points": "1",
       "played": "1",
@@ -73,7 +85,7 @@
       "dg": "0"
     },
     {
-      "rank": "7",
+      "rank": "8",
       "team": "Elche",
       "points": "1",
       "played": "1",
@@ -85,7 +97,7 @@
       "dg": "0"
     },
     {
-      "rank": "8",
+      "rank": "9",
       "team": "RC Deportivo",
       "points": "1",
       "played": "1",
@@ -97,31 +109,7 @@
       "dg": "0"
     },
     {
-      "rank": "9",
-      "team": "Real Betis",
-      "points": "1",
-      "played": "1",
-      "won": "0",
-      "drawn": "1",
-      "lost": "0",
-      "gf": "0",
-      "ga": "0",
-      "dg": "0"
-    },
-    {
       "rank": "10",
-      "team": "Real Sociedad",
-      "points": "1",
-      "played": "1",
-      "won": "0",
-      "drawn": "1",
-      "lost": "0",
-      "gf": "0",
-      "ga": "0",
-      "dg": "0"
-    },
-    {
-      "rank": "11",
       "team": "Rayo Vallecano",
       "points": "1",
       "played": "2",
@@ -133,7 +121,7 @@
       "dg": "-1"
     },
     {
-      "rank": "12",
+      "rank": "11",
       "team": "Athletic Club",
       "points": "0",
       "played": "0",
@@ -145,7 +133,7 @@
       "dg": "0"
     },
     {
-      "rank": "13",
+      "rank": "12",
       "team": "Celta",
       "points": "0",
       "played": "0",
@@ -157,7 +145,7 @@
       "dg": "0"
     },
     {
-      "rank": "14",
+      "rank": "13",
       "team": "FC Barcelona",
       "points": "0",
       "played": "0",
@@ -169,7 +157,7 @@
       "dg": "0"
     },
     {
-      "rank": "15",
+      "rank": "14",
       "team": "Osasuna",
       "points": "0",
       "played": "0",
@@ -181,7 +169,7 @@
       "dg": "0"
     },
     {
-      "rank": "16",
+      "rank": "15",
       "team": "Real Madrid",
       "points": "0",
       "played": "0",
@@ -193,7 +181,7 @@
       "dg": "0"
     },
     {
-      "rank": "17",
+      "rank": "16",
       "team": "Valencia",
       "points": "0",
       "played": "0",
@@ -203,6 +191,18 @@
       "gf": "0",
       "ga": "0",
       "dg": "0"
+    },
+    {
+      "rank": "17",
+      "team": "Real Sociedad",
+      "points": "0",
+      "played": "1",
+      "won": "0",
+      "drawn": "0",
+      "lost": "1",
+      "gf": "0",
+      "ga": "1",
+      "dg": "-1"
     },
     {
       "rank": "18",
