@@ -27,14 +27,14 @@
     {
       "rank": "3",
       "team": "Espanyol",
-      "points": "3",
+      "points": "4",
       "played": "2",
       "won": "1",
-      "drawn": "0",
-      "lost": "1",
-      "gf": "3",
+      "drawn": "1",
+      "lost": "0",
+      "gf": "4",
       "ga": "1",
-      "dg": "+2"
+      "dg": "+3"
     },
     {
       "rank": "4",
@@ -62,18 +62,6 @@
     },
     {
       "rank": "6",
-      "team": "Real Madrid",
-      "points": "3",
-      "played": "1",
-      "won": "1",
-      "drawn": "0",
-      "lost": "0",
-      "gf": "1",
-      "ga": "0",
-      "dg": "+1"
-    },
-    {
-      "rank": "7",
       "team": "Racing",
       "points": "1",
       "played": "1",
@@ -85,7 +73,7 @@
       "dg": "0"
     },
     {
-      "rank": "8",
+      "rank": "7",
       "team": "Villarreal",
       "points": "1",
       "played": "1",
@@ -97,7 +85,7 @@
       "dg": "0"
     },
     {
-      "rank": "9",
+      "rank": "8",
       "team": "Elche",
       "points": "1",
       "played": "1",
@@ -109,8 +97,20 @@
       "dg": "0"
     },
     {
-      "rank": "10",
+      "rank": "9",
       "team": "RC Deportivo",
+      "points": "1",
+      "played": "1",
+      "won": "0",
+      "drawn": "1",
+      "lost": "0",
+      "gf": "1",
+      "ga": "1",
+      "dg": "0"
+    },
+    {
+      "rank": "10",
+      "team": "Real Madrid",
       "points": "1",
       "played": "1",
       "won": "0",
