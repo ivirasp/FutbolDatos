@@ -110,6 +110,30 @@
     },
     {
       "rank": "10",
+      "team": "Celta",
+      "points": "1",
+      "played": "1",
+      "won": "0",
+      "drawn": "1",
+      "lost": "0",
+      "gf": "0",
+      "ga": "0",
+      "dg": "0"
+    },
+    {
+      "rank": "11",
+      "team": "Valencia",
+      "points": "1",
+      "played": "1",
+      "won": "0",
+      "drawn": "1",
+      "lost": "0",
+      "gf": "0",
+      "ga": "0",
+      "dg": "0"
+    },
+    {
+      "rank": "12",
       "team": "Rayo Vallecano",
       "points": "1",
       "played": "2",
@@ -121,19 +145,7 @@
       "dg": "-1"
     },
     {
-      "rank": "11",
-      "team": "Celta",
-      "points": "0",
-      "played": "0",
-      "won": "0",
-      "drawn": "0",
-      "lost": "0",
-      "gf": "0",
-      "ga": "0",
-      "dg": "0"
-    },
-    {
-      "rank": "12",
+      "rank": "13",
       "team": "FC Barcelona",
       "points": "0",
       "played": "0",
@@ -145,7 +157,7 @@
       "dg": "0"
     },
     {
-      "rank": "13",
+      "rank": "14",
       "team": "Osasuna",
       "points": "0",
       "played": "0",
@@ -157,20 +169,8 @@
       "dg": "0"
     },
     {
-      "rank": "14",
-      "team": "Real Madrid",
-      "points": "0",
-      "played": "0",
-      "won": "0",
-      "drawn": "0",
-      "lost": "0",
-      "gf": "0",
-      "ga": "0",
-      "dg": "0"
-    },
-    {
       "rank": "15",
-      "team": "Valencia",
+      "team": "Real Madrid",
       "points": "0",
       "played": "0",
       "won": "0",
