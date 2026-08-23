@@ -38,6 +38,18 @@
     },
     {
       "rank": "4",
+      "team": "FC Barcelona",
+      "points": "3",
+      "played": "1",
+      "won": "1",
+      "drawn": "0",
+      "lost": "0",
+      "gf": "5",
+      "ga": "0",
+      "dg": "+5"
+    },
+    {
+      "rank": "5",
       "team": "Espanyol",
       "points": "3",
       "played": "2",
@@ -46,18 +58,6 @@
       "lost": "1",
       "gf": "4",
       "ga": "2",
-      "dg": "+2"
-    },
-    {
-      "rank": "5",
-      "team": "FC Barcelona",
-      "points": "3",
-      "played": "1",
-      "won": "1",
-      "drawn": "0",
-      "lost": "0",
-      "gf": "2",
-      "ga": "0",
       "dg": "+2"
     },
     {
@@ -177,8 +177,8 @@
       "drawn": "1",
       "lost": "1",
       "gf": "1",
-      "ga": "3",
-      "dg": "-2"
+      "ga": "6",
+      "dg": "-5"
     },
     {
       "rank": "16",
