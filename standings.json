@@ -26,6 +26,18 @@
     },
     {
       "rank": "3",
+      "team": "Atl\u00e9tico de Madrid",
+      "points": "4",
+      "played": "2",
+      "won": "1",
+      "drawn": "1",
+      "lost": "0",
+      "gf": "2",
+      "ga": "0",
+      "dg": "+2"
+    },
+    {
+      "rank": "4",
       "team": "Espanyol",
       "points": "3",
       "played": "2",
@@ -34,18 +46,6 @@
       "lost": "1",
       "gf": "4",
       "ga": "2",
-      "dg": "+2"
-    },
-    {
-      "rank": "4",
-      "team": "Atl\u00e9tico de Madrid",
-      "points": "3",
-      "played": "1",
-      "won": "1",
-      "drawn": "0",
-      "lost": "0",
-      "gf": "2",
-      "ga": "0",
       "dg": "+2"
     },
     {
@@ -74,11 +74,11 @@
     },
     {
       "rank": "7",
-      "team": "Racing",
-      "points": "1",
-      "played": "1",
+      "team": "Villarreal",
+      "points": "2",
+      "played": "2",
       "won": "0",
-      "drawn": "1",
+      "drawn": "2",
       "lost": "0",
       "gf": "2",
       "ga": "2",
@@ -86,7 +86,7 @@
     },
     {
       "rank": "8",
-      "team": "Villarreal",
+      "team": "Racing",
       "points": "1",
       "played": "1",
       "won": "0",
