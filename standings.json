@@ -134,7 +134,7 @@
     },
     {
       "rank": "12",
-      "team": "Valencia",
+      "team": "Osasuna",
       "points": "1",
       "played": "1",
       "won": "0",
@@ -146,6 +146,18 @@
     },
     {
       "rank": "13",
+      "team": "Valencia",
+      "points": "1",
+      "played": "1",
+      "won": "0",
+      "drawn": "1",
+      "lost": "0",
+      "gf": "0",
+      "ga": "0",
+      "dg": "0"
+    },
+    {
+      "rank": "14",
       "team": "Racing",
       "points": "1",
       "played": "2",
@@ -157,7 +169,7 @@
       "dg": "-1"
     },
     {
-      "rank": "14",
+      "rank": "15",
       "team": "Rayo Vallecano",
       "points": "1",
       "played": "2",
@@ -169,7 +181,19 @@
       "dg": "-1"
     },
     {
-      "rank": "15",
+      "rank": "16",
+      "team": "Levante",
+      "points": "1",
+      "played": "2",
+      "won": "0",
+      "drawn": "1",
+      "lost": "1",
+      "gf": "0",
+      "ga": "3",
+      "dg": "-3"
+    },
+    {
+      "rank": "17",
       "team": "Elche",
       "points": "1",
       "played": "2",
@@ -181,19 +205,7 @@
       "dg": "-5"
     },
     {
-      "rank": "16",
-      "team": "Osasuna",
-      "points": "0",
-      "played": "0",
-      "won": "0",
-      "drawn": "0",
-      "lost": "0",
-      "gf": "0",
-      "ga": "0",
-      "dg": "0"
-    },
-    {
-      "rank": "17",
+      "rank": "18",
       "team": "Real Sociedad",
       "points": "0",
       "played": "1",
@@ -205,7 +217,7 @@
       "dg": "-1"
     },
     {
-      "rank": "18",
+      "rank": "19",
       "team": "Athletic Club",
       "points": "0",
       "played": "1",
@@ -217,7 +229,7 @@
       "dg": "-2"
     },
     {
-      "rank": "19",
+      "rank": "20",
       "team": "M\u00e1laga",
       "points": "0",
       "played": "1",
@@ -227,18 +239,6 @@
       "gf": "0",
       "ga": "2",
       "dg": "-2"
-    },
-    {
-      "rank": "20",
-      "team": "Levante",
-      "points": "0",
-      "played": "1",
-      "won": "0",
-      "drawn": "0",
-      "lost": "1",
-      "gf": "0",
-      "ga": "3",
-      "dg": "-3"
     }
   ],
   "CHAMPIONS": [
