@@ -38,6 +38,18 @@
     },
     {
       "rank": "4",
+      "team": "RC Deportivo",
+      "points": "4",
+      "played": "2",
+      "won": "1",
+      "drawn": "1",
+      "lost": "0",
+      "gf": "2",
+      "ga": "1",
+      "dg": "+1"
+    },
+    {
+      "rank": "5",
       "team": "FC Barcelona",
       "points": "3",
       "played": "1",
@@ -49,7 +61,7 @@
       "dg": "+5"
     },
     {
-      "rank": "5",
+      "rank": "6",
       "team": "Espanyol",
       "points": "3",
       "played": "2",
@@ -61,7 +73,7 @@
       "dg": "+2"
     },
     {
-      "rank": "6",
+      "rank": "7",
       "team": "Real Madrid",
       "points": "3",
       "played": "1",
@@ -73,7 +85,7 @@
       "dg": "+1"
     },
     {
-      "rank": "7",
+      "rank": "8",
       "team": "Real Betis",
       "points": "3",
       "played": "1",
@@ -85,7 +97,7 @@
       "dg": "+1"
     },
     {
-      "rank": "8",
+      "rank": "9",
       "team": "Getafe",
       "points": "3",
       "played": "2",
@@ -97,7 +109,7 @@
       "dg": "-2"
     },
     {
-      "rank": "9",
+      "rank": "10",
       "team": "Villarreal",
       "points": "2",
       "played": "2",
@@ -106,18 +118,6 @@
       "lost": "0",
       "gf": "4",
       "ga": "4",
-      "dg": "0"
-    },
-    {
-      "rank": "10",
-      "team": "RC Deportivo",
-      "points": "1",
-      "played": "1",
-      "won": "0",
-      "drawn": "1",
-      "lost": "0",
-      "gf": "1",
-      "ga": "1",
       "dg": "0"
     },
     {
@@ -232,13 +232,13 @@
       "rank": "20",
       "team": "M\u00e1laga",
       "points": "0",
-      "played": "1",
+      "played": "2",
       "won": "0",
       "drawn": "0",
-      "lost": "1",
+      "lost": "2",
       "gf": "0",
-      "ga": "2",
-      "dg": "-2"
+      "ga": "3",
+      "dg": "-3"
     }
   ],
   "CHAMPIONS": [
