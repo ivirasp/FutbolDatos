@@ -14,6 +14,18 @@
     },
     {
       "rank": "2",
+      "team": "Real Madrid",
+      "points": "6",
+      "played": "2",
+      "won": "2",
+      "drawn": "0",
+      "lost": "0",
+      "gf": "4",
+      "ga": "2",
+      "dg": "+2"
+    },
+    {
+      "rank": "3",
       "team": "Real Betis",
       "points": "6",
       "played": "2",
@@ -25,7 +37,7 @@
       "dg": "+2"
     },
     {
-      "rank": "3",
+      "rank": "4",
       "team": "Deportivo Alav\u00e9s",
       "points": "4",
       "played": "2",
@@ -37,7 +49,7 @@
       "dg": "+3"
     },
     {
-      "rank": "4",
+      "rank": "5",
       "team": "Atl\u00e9tico de Madrid",
       "points": "4",
       "played": "2",
@@ -49,7 +61,7 @@
       "dg": "+2"
     },
     {
-      "rank": "5",
+      "rank": "6",
       "team": "FC Barcelona",
       "points": "3",
       "played": "1",
@@ -61,7 +73,7 @@
       "dg": "+5"
     },
     {
-      "rank": "6",
+      "rank": "7",
       "team": "Espanyol",
       "points": "3",
       "played": "2",
@@ -71,18 +83,6 @@
       "gf": "4",
       "ga": "2",
       "dg": "+2"
-    },
-    {
-      "rank": "7",
-      "team": "Real Madrid",
-      "points": "3",
-      "played": "1",
-      "won": "1",
-      "drawn": "0",
-      "lost": "0",
-      "gf": "2",
-      "ga": "1",
-      "dg": "+1"
     },
     {
       "rank": "8",
@@ -218,24 +218,24 @@
     },
     {
       "rank": "19",
-      "team": "Real Sociedad",
-      "points": "0",
-      "played": "1",
-      "won": "0",
-      "drawn": "0",
-      "lost": "1",
-      "gf": "0",
-      "ga": "1",
-      "dg": "-1"
-    },
-    {
-      "rank": "20",
       "team": "Athletic Club",
       "points": "0",
       "played": "1",
       "won": "0",
       "drawn": "0",
       "lost": "1",
+      "gf": "1",
+      "ga": "3",
+      "dg": "-2"
+    },
+    {
+      "rank": "20",
+      "team": "Real Sociedad",
+      "points": "0",
+      "played": "2",
+      "won": "0",
+      "drawn": "0",
+      "lost": "2",
       "gf": "1",
       "ga": "3",
       "dg": "-2"
