@@ -1,7 +1,7 @@
 {
   "LALIGA": {
     "rounds": {
-      "Jornada 1 (Actual)": [
+      "Jornada 1": [
         {
           "date": "15-08-2026",
           "home": "Alav\u00e9s",
@@ -62,15 +62,15 @@
           "date": "27-08-2026",
           "home": "Celta de Vigo",
           "away": "Osasuna",
-          "score": "vs",
-          "status": ""
+          "score": "1 - 2",
+          "status": "Fin"
         },
         {
           "date": "27-08-2026",
           "home": "FC Barcelona",
           "away": "Athletic Club",
-          "score": "vs",
-          "status": ""
+          "score": "2 - 0",
+          "status": "Fin"
         }
       ],
       "Jornada 2": [
@@ -145,7 +145,7 @@
           "status": "Fin"
         }
       ],
-      "Jornada 3": [
+      "Jornada 3 (Actual)": [
         {
           "date": "28-08-2026",
           "home": "Racing de Santander",
@@ -2738,7 +2738,7 @@
         }
       ]
     },
-    "current": "Jornada 1 (Actual)"
+    "current": "Jornada 3 (Actual)"
   },
   "CHAMPIONS": {
     "rounds": {
