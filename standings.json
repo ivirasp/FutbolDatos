@@ -14,6 +14,18 @@
     },
     {
       "rank": "2",
+      "team": "Real Betis",
+      "points": "7",
+      "played": "3",
+      "won": "2",
+      "drawn": "1",
+      "lost": "0",
+      "gf": "4",
+      "ga": "2",
+      "dg": "+2"
+    },
+    {
+      "rank": "3",
       "team": "FC Barcelona",
       "points": "6",
       "played": "2",
@@ -25,7 +37,7 @@
       "dg": "+7"
     },
     {
-      "rank": "3",
+      "rank": "4",
       "team": "Real Madrid",
       "points": "6",
       "played": "2",
@@ -37,7 +49,7 @@
       "dg": "+4"
     },
     {
-      "rank": "4",
+      "rank": "5",
       "team": "Sevilla",
       "points": "6",
       "played": "2",
@@ -47,18 +59,6 @@
       "gf": "5",
       "ga": "2",
       "dg": "+3"
-    },
-    {
-      "rank": "5",
-      "team": "Real Betis",
-      "points": "6",
-      "played": "2",
-      "won": "2",
-      "drawn": "0",
-      "lost": "0",
-      "gf": "2",
-      "ga": "0",
-      "dg": "+2"
     },
     {
       "rank": "6",
@@ -146,6 +146,18 @@
     },
     {
       "rank": "13",
+      "team": "Levante",
+      "points": "2",
+      "played": "3",
+      "won": "0",
+      "drawn": "2",
+      "lost": "1",
+      "gf": "2",
+      "ga": "5",
+      "dg": "-3"
+    },
+    {
+      "rank": "14",
       "team": "Rayo Vallecano",
       "points": "1",
       "played": "2",
@@ -157,7 +169,7 @@
       "dg": "-1"
     },
     {
-      "rank": "14",
+      "rank": "15",
       "team": "Celta",
       "points": "1",
       "played": "2",
@@ -169,7 +181,7 @@
       "dg": "-1"
     },
     {
-      "rank": "15",
+      "rank": "16",
       "team": "Valencia",
       "points": "1",
       "played": "2",
@@ -181,7 +193,7 @@
       "dg": "-1"
     },
     {
-      "rank": "16",
+      "rank": "17",
       "team": "M\u00e1laga",
       "points": "1",
       "played": "2",
@@ -191,18 +203,6 @@
       "gf": "1",
       "ga": "3",
       "dg": "-2"
-    },
-    {
-      "rank": "17",
-      "team": "Levante",
-      "points": "1",
-      "played": "2",
-      "won": "0",
-      "drawn": "1",
-      "lost": "1",
-      "gf": "0",
-      "ga": "3",
-      "dg": "-3"
     },
     {
       "rank": "18",
