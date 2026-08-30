@@ -134,6 +134,18 @@
     },
     {
       "rank": "12",
+      "team": "Athletic Club",
+      "points": "3",
+      "played": "3",
+      "won": "1",
+      "drawn": "0",
+      "lost": "2",
+      "gf": "3",
+      "ga": "5",
+      "dg": "-2"
+    },
+    {
+      "rank": "13",
       "team": "Getafe",
       "points": "3",
       "played": "2",
@@ -145,7 +157,7 @@
       "dg": "-2"
     },
     {
-      "rank": "13",
+      "rank": "14",
       "team": "Real Sociedad",
       "points": "3",
       "played": "3",
@@ -157,7 +169,7 @@
       "dg": "-3"
     },
     {
-      "rank": "14",
+      "rank": "15",
       "team": "Villarreal",
       "points": "2",
       "played": "3",
@@ -169,7 +181,7 @@
       "dg": "-1"
     },
     {
-      "rank": "15",
+      "rank": "16",
       "team": "Rayo Vallecano",
       "points": "1",
       "played": "2",
@@ -181,20 +193,8 @@
       "dg": "-1"
     },
     {
-      "rank": "16",
-      "team": "Celta",
-      "points": "1",
-      "played": "2",
-      "won": "0",
-      "drawn": "1",
-      "lost": "1",
-      "gf": "1",
-      "ga": "2",
-      "dg": "-1"
-    },
-    {
       "rank": "17",
-      "team": "Valencia",
+      "team": "Celta",
       "points": "1",
       "played": "3",
       "won": "0",
@@ -206,6 +206,18 @@
     },
     {
       "rank": "18",
+      "team": "Valencia",
+      "points": "1",
+      "played": "3",
+      "won": "0",
+      "drawn": "1",
+      "lost": "2",
+      "gf": "1",
+      "ga": "4",
+      "dg": "-3"
+    },
+    {
+      "rank": "19",
       "team": "Elche",
       "points": "1",
       "played": "3",
@@ -217,7 +229,7 @@
       "dg": "-6"
     },
     {
-      "rank": "19",
+      "rank": "20",
       "team": "M\u00e1laga",
       "points": "1",
       "played": "3",
@@ -227,18 +239,6 @@
       "gf": "1",
       "ga": "7",
       "dg": "-6"
-    },
-    {
-      "rank": "20",
-      "team": "Athletic Club",
-      "points": "0",
-      "played": "2",
-      "won": "0",
-      "drawn": "0",
-      "lost": "2",
-      "gf": "1",
-      "ga": "5",
-      "dg": "-4"
     }
   ],
   "CHAMPIONS": [
