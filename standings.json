@@ -8,9 +8,9 @@
       "won": "3",
       "drawn": "0",
       "lost": "0",
-      "gf": "9",
+      "gf": "10",
       "ga": "2",
-      "dg": "+7"
+      "dg": "+8"
     },
     {
       "rank": "2",
@@ -74,6 +74,18 @@
     },
     {
       "rank": "7",
+      "team": "RC Deportivo",
+      "points": "5",
+      "played": "3",
+      "won": "1",
+      "drawn": "2",
+      "lost": "0",
+      "gf": "5",
+      "ga": "3",
+      "dg": "+2"
+    },
+    {
+      "rank": "8",
       "team": "Osasuna",
       "points": "4",
       "played": "2",
@@ -85,7 +97,7 @@
       "dg": "+1"
     },
     {
-      "rank": "8",
+      "rank": "9",
       "team": "Levante",
       "points": "4",
       "played": "3",
@@ -97,7 +109,7 @@
       "dg": "0"
     },
     {
-      "rank": "9",
+      "rank": "10",
       "team": "Racing",
       "points": "4",
       "played": "3",
@@ -109,7 +121,7 @@
       "dg": "0"
     },
     {
-      "rank": "10",
+      "rank": "11",
       "team": "Espanyol",
       "points": "3",
       "played": "3",
@@ -121,7 +133,7 @@
       "dg": "+1"
     },
     {
-      "rank": "11",
+      "rank": "12",
       "team": "Getafe",
       "points": "3",
       "played": "2",
@@ -133,7 +145,7 @@
       "dg": "-2"
     },
     {
-      "rank": "12",
+      "rank": "13",
       "team": "Real Sociedad",
       "points": "3",
       "played": "3",
@@ -143,18 +155,6 @@
       "gf": "3",
       "ga": "6",
       "dg": "-3"
-    },
-    {
-      "rank": "13",
-      "team": "RC Deportivo",
-      "points": "2",
-      "played": "2",
-      "won": "0",
-      "drawn": "2",
-      "lost": "0",
-      "gf": "2",
-      "ga": "2",
-      "dg": "0"
     },
     {
       "rank": "14",
@@ -196,28 +196,16 @@
       "rank": "17",
       "team": "Valencia",
       "points": "1",
-      "played": "2",
-      "won": "0",
-      "drawn": "1",
-      "lost": "1",
-      "gf": "0",
-      "ga": "1",
-      "dg": "-1"
-    },
-    {
-      "rank": "18",
-      "team": "M\u00e1laga",
-      "points": "1",
       "played": "3",
       "won": "0",
       "drawn": "1",
       "lost": "2",
       "gf": "1",
-      "ga": "6",
-      "dg": "-5"
+      "ga": "4",
+      "dg": "-3"
     },
     {
-      "rank": "19",
+      "rank": "18",
       "team": "Elche",
       "points": "1",
       "played": "3",
@@ -226,6 +214,18 @@
       "lost": "2",
       "gf": "3",
       "ga": "9",
+      "dg": "-6"
+    },
+    {
+      "rank": "19",
+      "team": "M\u00e1laga",
+      "points": "1",
+      "played": "3",
+      "won": "0",
+      "drawn": "1",
+      "lost": "2",
+      "gf": "1",
+      "ga": "7",
       "dg": "-6"
     },
     {
