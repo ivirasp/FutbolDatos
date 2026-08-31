@@ -145,7 +145,7 @@
           "status": "Fin"
         }
       ],
-      "Jornada 3 (Actual)": [
+      "Jornada 3": [
         {
           "date": "28-08-2026",
           "home": "Racing de Santander",
@@ -206,18 +206,18 @@
           "date": "31-08-2026",
           "home": "Osasuna",
           "away": "Getafe",
-          "score": "vs",
-          "status": ""
+          "score": "1 - 0",
+          "status": "Fin"
         },
         {
           "date": "31-08-2026",
           "home": "FC Barcelona",
           "away": "Rayo Vallecano",
-          "score": "vs",
-          "status": ""
+          "score": "5 - 2",
+          "status": "Fin"
         }
       ],
-      "Jornada 4": [
+      "Jornada 4 (Actual)": [
         {
           "date": "04-09-2026",
           "home": "Real Betis",
@@ -2738,7 +2738,7 @@
         }
       ]
     },
-    "current": "Jornada 3 (Actual)"
+    "current": "Jornada 4 (Actual)"
   },
   "CHAMPIONS": {
     "rounds": {

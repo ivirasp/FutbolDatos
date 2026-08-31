@@ -2,6 +2,18 @@
   "LALIGA": [
     {
       "rank": "1",
+      "team": "FC Barcelona",
+      "points": "9",
+      "played": "3",
+      "won": "3",
+      "drawn": "0",
+      "lost": "0",
+      "gf": "12",
+      "ga": "2",
+      "dg": "+10"
+    },
+    {
+      "rank": "2",
       "team": "Real Madrid",
       "points": "9",
       "played": "3",
@@ -13,7 +25,7 @@
       "dg": "+8"
     },
     {
-      "rank": "2",
+      "rank": "3",
       "team": "Atl\u00e9tico de Madrid",
       "points": "7",
       "played": "3",
@@ -25,7 +37,7 @@
       "dg": "+4"
     },
     {
-      "rank": "3",
+      "rank": "4",
       "team": "Deportivo Alav\u00e9s",
       "points": "7",
       "played": "3",
@@ -37,7 +49,7 @@
       "dg": "+4"
     },
     {
-      "rank": "4",
+      "rank": "5",
       "team": "Osasuna",
       "points": "7",
       "played": "3",
@@ -47,18 +59,6 @@
       "gf": "3",
       "ga": "1",
       "dg": "+2"
-    },
-    {
-      "rank": "5",
-      "team": "FC Barcelona",
-      "points": "6",
-      "played": "2",
-      "won": "2",
-      "drawn": "0",
-      "lost": "0",
-      "gf": "7",
-      "ga": "0",
-      "dg": "+7"
     },
     {
       "rank": "6",
@@ -182,18 +182,6 @@
     },
     {
       "rank": "16",
-      "team": "Rayo Vallecano",
-      "points": "1",
-      "played": "2",
-      "won": "0",
-      "drawn": "1",
-      "lost": "1",
-      "gf": "2",
-      "ga": "3",
-      "dg": "-1"
-    },
-    {
-      "rank": "17",
       "team": "Celta",
       "points": "1",
       "played": "3",
@@ -205,7 +193,7 @@
       "dg": "-3"
     },
     {
-      "rank": "18",
+      "rank": "17",
       "team": "Valencia",
       "points": "1",
       "played": "3",
@@ -215,6 +203,18 @@
       "gf": "1",
       "ga": "4",
       "dg": "-3"
+    },
+    {
+      "rank": "18",
+      "team": "Rayo Vallecano",
+      "points": "1",
+      "played": "3",
+      "won": "0",
+      "drawn": "1",
+      "lost": "2",
+      "gf": "4",
+      "ga": "8",
+      "dg": "-4"
     },
     {
       "rank": "19",
