@@ -38,6 +38,18 @@
     },
     {
       "rank": "4",
+      "team": "Osasuna",
+      "points": "7",
+      "played": "3",
+      "won": "2",
+      "drawn": "1",
+      "lost": "0",
+      "gf": "3",
+      "ga": "1",
+      "dg": "+2"
+    },
+    {
+      "rank": "5",
       "team": "FC Barcelona",
       "points": "6",
       "played": "2",
@@ -49,7 +61,7 @@
       "dg": "+7"
     },
     {
-      "rank": "5",
+      "rank": "6",
       "team": "Sevilla",
       "points": "6",
       "played": "3",
@@ -61,7 +73,7 @@
       "dg": "+1"
     },
     {
-      "rank": "6",
+      "rank": "7",
       "team": "Real Betis",
       "points": "6",
       "played": "3",
@@ -73,7 +85,7 @@
       "dg": "-1"
     },
     {
-      "rank": "7",
+      "rank": "8",
       "team": "RC Deportivo",
       "points": "5",
       "played": "3",
@@ -83,18 +95,6 @@
       "gf": "5",
       "ga": "3",
       "dg": "+2"
-    },
-    {
-      "rank": "8",
-      "team": "Osasuna",
-      "points": "4",
-      "played": "2",
-      "won": "1",
-      "drawn": "1",
-      "lost": "0",
-      "gf": "2",
-      "ga": "1",
-      "dg": "+1"
     },
     {
       "rank": "9",
@@ -146,18 +146,6 @@
     },
     {
       "rank": "13",
-      "team": "Getafe",
-      "points": "3",
-      "played": "2",
-      "won": "1",
-      "drawn": "0",
-      "lost": "1",
-      "gf": "1",
-      "ga": "3",
-      "dg": "-2"
-    },
-    {
-      "rank": "14",
       "team": "Real Sociedad",
       "points": "3",
       "played": "3",
@@ -166,6 +154,18 @@
       "lost": "2",
       "gf": "3",
       "ga": "6",
+      "dg": "-3"
+    },
+    {
+      "rank": "14",
+      "team": "Getafe",
+      "points": "3",
+      "played": "3",
+      "won": "1",
+      "drawn": "0",
+      "lost": "2",
+      "gf": "1",
+      "ga": "4",
       "dg": "-3"
     },
     {
