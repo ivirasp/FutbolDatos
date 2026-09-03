@@ -122,6 +122,18 @@
     },
     {
       "rank": "11",
+      "team": "Real Sociedad",
+      "points": "4",
+      "played": "4",
+      "won": "1",
+      "drawn": "1",
+      "lost": "2",
+      "gf": "3",
+      "ga": "6",
+      "dg": "-3"
+    },
+    {
+      "rank": "12",
       "team": "Espanyol",
       "points": "3",
       "played": "3",
@@ -133,7 +145,7 @@
       "dg": "+1"
     },
     {
-      "rank": "12",
+      "rank": "13",
       "team": "Athletic Club",
       "points": "3",
       "played": "3",
@@ -143,18 +155,6 @@
       "gf": "3",
       "ga": "5",
       "dg": "-2"
-    },
-    {
-      "rank": "13",
-      "team": "Real Sociedad",
-      "points": "3",
-      "played": "3",
-      "won": "1",
-      "drawn": "0",
-      "lost": "2",
-      "gf": "3",
-      "ga": "6",
-      "dg": "-3"
     },
     {
       "rank": "14",
@@ -183,10 +183,10 @@
     {
       "rank": "16",
       "team": "Celta",
-      "points": "1",
-      "played": "3",
+      "points": "2",
+      "played": "4",
       "won": "0",
-      "drawn": "1",
+      "drawn": "2",
       "lost": "2",
       "gf": "1",
       "ga": "4",
