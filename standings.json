@@ -74,18 +74,6 @@
     },
     {
       "rank": "7",
-      "team": "Racing",
-      "points": "7",
-      "played": "4",
-      "won": "2",
-      "drawn": "1",
-      "lost": "1",
-      "gf": "7",
-      "ga": "6",
-      "dg": "+1"
-    },
-    {
-      "rank": "8",
       "team": "Sevilla",
       "points": "6",
       "played": "3",
@@ -97,7 +85,7 @@
       "dg": "+1"
     },
     {
-      "rank": "9",
+      "rank": "8",
       "team": "Athletic Club",
       "points": "6",
       "played": "4",
@@ -109,7 +97,7 @@
       "dg": "+1"
     },
     {
-      "rank": "10",
+      "rank": "9",
       "team": "RC Deportivo",
       "points": "5",
       "played": "3",
@@ -121,7 +109,7 @@
       "dg": "+2"
     },
     {
-      "rank": "11",
+      "rank": "10",
       "team": "Levante",
       "points": "4",
       "played": "3",
@@ -133,7 +121,31 @@
       "dg": "0"
     },
     {
+      "rank": "11",
+      "team": "Racing",
+      "points": "4",
+      "played": "4",
+      "won": "1",
+      "drawn": "1",
+      "lost": "2",
+      "gf": "7",
+      "ga": "8",
+      "dg": "-1"
+    },
+    {
       "rank": "12",
+      "team": "Rayo Vallecano",
+      "points": "4",
+      "played": "4",
+      "won": "1",
+      "drawn": "1",
+      "lost": "2",
+      "gf": "7",
+      "ga": "10",
+      "dg": "-3"
+    },
+    {
+      "rank": "13",
       "team": "Real Sociedad",
       "points": "4",
       "played": "4",
@@ -145,7 +157,7 @@
       "dg": "-3"
     },
     {
-      "rank": "13",
+      "rank": "14",
       "team": "Espanyol",
       "points": "3",
       "played": "3",
@@ -157,7 +169,7 @@
       "dg": "+1"
     },
     {
-      "rank": "14",
+      "rank": "15",
       "team": "Getafe",
       "points": "3",
       "played": "3",
@@ -169,7 +181,7 @@
       "dg": "-3"
     },
     {
-      "rank": "15",
+      "rank": "16",
       "team": "Villarreal",
       "points": "2",
       "played": "3",
@@ -181,7 +193,7 @@
       "dg": "-1"
     },
     {
-      "rank": "16",
+      "rank": "17",
       "team": "Celta",
       "points": "2",
       "played": "4",
@@ -193,7 +205,7 @@
       "dg": "-3"
     },
     {
-      "rank": "17",
+      "rank": "18",
       "team": "Valencia",
       "points": "1",
       "played": "3",
@@ -203,18 +215,6 @@
       "gf": "1",
       "ga": "4",
       "dg": "-3"
-    },
-    {
-      "rank": "18",
-      "team": "Rayo Vallecano",
-      "points": "1",
-      "played": "4",
-      "won": "0",
-      "drawn": "1",
-      "lost": "3",
-      "gf": "5",
-      "ga": "10",
-      "dg": "-5"
     },
     {
       "rank": "19",
