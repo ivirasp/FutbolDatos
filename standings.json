@@ -20,9 +20,9 @@
       "won": "3",
       "drawn": "1",
       "lost": "0",
-      "gf": "7",
-      "ga": "1",
-      "dg": "+6"
+      "gf": "10",
+      "ga": "3",
+      "dg": "+7"
     },
     {
       "rank": "3",
@@ -74,27 +74,27 @@
     },
     {
       "rank": "7",
+      "team": "Sevilla",
+      "points": "7",
+      "played": "4",
+      "won": "2",
+      "drawn": "1",
+      "lost": "1",
+      "gf": "6",
+      "ga": "5",
+      "dg": "+1"
+    },
+    {
+      "rank": "8",
       "team": "Osasuna",
       "points": "7",
       "played": "4",
       "won": "2",
       "drawn": "1",
       "lost": "1",
-      "gf": "3",
-      "ga": "3",
-      "dg": "0"
-    },
-    {
-      "rank": "8",
-      "team": "Sevilla",
-      "points": "6",
-      "played": "3",
-      "won": "2",
-      "drawn": "0",
-      "lost": "1",
-      "gf": "6",
-      "ga": "5",
-      "dg": "+1"
+      "gf": "5",
+      "ga": "6",
+      "dg": "-1"
     },
     {
       "rank": "9",
@@ -122,6 +122,18 @@
     },
     {
       "rank": "11",
+      "team": "Espanyol",
+      "points": "4",
+      "played": "4",
+      "won": "1",
+      "drawn": "1",
+      "lost": "2",
+      "gf": "5",
+      "ga": "4",
+      "dg": "+1"
+    },
+    {
+      "rank": "12",
       "team": "Racing",
       "points": "4",
       "played": "4",
@@ -133,7 +145,7 @@
       "dg": "-1"
     },
     {
-      "rank": "12",
+      "rank": "13",
       "team": "Rayo Vallecano",
       "points": "4",
       "played": "4",
@@ -145,7 +157,7 @@
       "dg": "-3"
     },
     {
-      "rank": "13",
+      "rank": "14",
       "team": "Real Sociedad",
       "points": "4",
       "played": "4",
@@ -155,18 +167,6 @@
       "gf": "3",
       "ga": "6",
       "dg": "-3"
-    },
-    {
-      "rank": "14",
-      "team": "Espanyol",
-      "points": "3",
-      "played": "3",
-      "won": "1",
-      "drawn": "0",
-      "lost": "2",
-      "gf": "5",
-      "ga": "4",
-      "dg": "+1"
     },
     {
       "rank": "15",
