@@ -3,14 +3,14 @@
     {
       "rank": "1",
       "team": "FC Barcelona",
-      "points": "9",
-      "played": "3",
-      "won": "3",
+      "points": "12",
+      "played": "4",
+      "won": "4",
       "drawn": "0",
       "lost": "0",
-      "gf": "12",
+      "gf": "14",
       "ga": "2",
-      "dg": "+10"
+      "dg": "+12"
     },
     {
       "rank": "2",
@@ -208,13 +208,13 @@
       "rank": "18",
       "team": "Valencia",
       "points": "1",
-      "played": "3",
+      "played": "4",
       "won": "0",
       "drawn": "1",
-      "lost": "2",
+      "lost": "3",
       "gf": "1",
-      "ga": "4",
-      "dg": "-3"
+      "ga": "6",
+      "dg": "-5"
     },
     {
       "rank": "19",
