@@ -110,6 +110,18 @@
     },
     {
       "rank": "10",
+      "team": "Getafe",
+      "points": "6",
+      "played": "4",
+      "won": "2",
+      "drawn": "0",
+      "lost": "2",
+      "gf": "2",
+      "ga": "4",
+      "dg": "-2"
+    },
+    {
+      "rank": "11",
       "team": "Levante",
       "points": "5",
       "played": "4",
@@ -121,7 +133,7 @@
       "dg": "0"
     },
     {
-      "rank": "11",
+      "rank": "12",
       "team": "Espanyol",
       "points": "4",
       "played": "4",
@@ -133,7 +145,7 @@
       "dg": "+1"
     },
     {
-      "rank": "12",
+      "rank": "13",
       "team": "Racing",
       "points": "4",
       "played": "4",
@@ -145,7 +157,7 @@
       "dg": "-1"
     },
     {
-      "rank": "13",
+      "rank": "14",
       "team": "Rayo Vallecano",
       "points": "4",
       "played": "4",
@@ -157,7 +169,7 @@
       "dg": "-3"
     },
     {
-      "rank": "14",
+      "rank": "15",
       "team": "Real Sociedad",
       "points": "4",
       "played": "4",
@@ -166,18 +178,6 @@
       "lost": "2",
       "gf": "3",
       "ga": "6",
-      "dg": "-3"
-    },
-    {
-      "rank": "15",
-      "team": "Getafe",
-      "points": "3",
-      "played": "3",
-      "won": "1",
-      "drawn": "0",
-      "lost": "2",
-      "gf": "1",
-      "ga": "4",
       "dg": "-3"
     },
     {
@@ -196,13 +196,13 @@
       "rank": "17",
       "team": "Celta",
       "points": "2",
-      "played": "4",
+      "played": "5",
       "won": "0",
       "drawn": "2",
-      "lost": "2",
+      "lost": "3",
       "gf": "1",
-      "ga": "4",
-      "dg": "-3"
+      "ga": "5",
+      "dg": "-4"
     },
     {
       "rank": "18",
