@@ -217,7 +217,7 @@
           "status": "Fin"
         }
       ],
-      "Jornada 4 (Actual)": [
+      "Jornada 4": [
         {
           "date": "04-09-2026",
           "home": "Real Betis",
@@ -285,11 +285,11 @@
           "date": "07-09-2026",
           "home": "Elche",
           "away": "Real Sociedad",
-          "score": "vs",
-          "status": ""
+          "score": "2 - 3",
+          "status": "Fin"
         }
       ],
-      "Jornada 5": [
+      "Jornada 5 (Actual)": [
         {
           "date": "11-09-2026",
           "home": "Sevilla",
@@ -2738,7 +2738,7 @@
         }
       ]
     },
-    "current": "Jornada 4 (Actual)"
+    "current": "Jornada 5 (Actual)"
   },
   "CHAMPIONS": {
     "rounds": {
