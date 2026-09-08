@@ -244,6 +244,18 @@
   "CHAMPIONS": [
     {
       "rank": "1",
+      "team": "Manchester City",
+      "points": "3",
+      "played": "1",
+      "won": "1",
+      "drawn": "0",
+      "lost": "0",
+      "gf": "2",
+      "ga": "0",
+      "dg": "+2"
+    },
+    {
+      "rank": "2",
       "team": "Aston Villa",
       "points": "3",
       "played": "1",
@@ -255,7 +267,43 @@
       "dg": "+1"
     },
     {
-      "rank": "2",
+      "rank": "3",
+      "team": "Real Betis",
+      "points": "3",
+      "played": "1",
+      "won": "1",
+      "drawn": "0",
+      "lost": "0",
+      "gf": "3",
+      "ga": "2",
+      "dg": "+1"
+    },
+    {
+      "rank": "4",
+      "team": "Borussia Dortmund",
+      "points": "3",
+      "played": "1",
+      "won": "1",
+      "drawn": "0",
+      "lost": "0",
+      "gf": "3",
+      "ga": "2",
+      "dg": "+1"
+    },
+    {
+      "rank": "5",
+      "team": "Real Madrid",
+      "points": "3",
+      "played": "1",
+      "won": "1",
+      "drawn": "0",
+      "lost": "0",
+      "gf": "2",
+      "ga": "1",
+      "dg": "+1"
+    },
+    {
+      "rank": "6",
       "team": "AEK Athens",
       "points": "3",
       "played": "1",
@@ -267,79 +315,7 @@
       "dg": "+1"
     },
     {
-      "rank": "3",
-      "team": "Lille",
-      "points": "3",
-      "played": "1",
-      "won": "1",
-      "drawn": "0",
-      "lost": "0",
-      "gf": "1",
-      "ga": "0",
-      "dg": "+1"
-    },
-    {
-      "rank": "4",
-      "team": "Real Madrid",
-      "points": "3",
-      "played": "1",
-      "won": "1",
-      "drawn": "0",
-      "lost": "0",
-      "gf": "1",
-      "ga": "0",
-      "dg": "+1"
-    },
-    {
-      "rank": "5",
-      "team": "Borussia Dortmund",
-      "points": "1",
-      "played": "1",
-      "won": "0",
-      "drawn": "1",
-      "lost": "0",
-      "gf": "0",
-      "ga": "0",
-      "dg": "0"
-    },
-    {
-      "rank": "6",
-      "team": "Manchester City",
-      "points": "1",
-      "played": "1",
-      "won": "0",
-      "drawn": "1",
-      "lost": "0",
-      "gf": "0",
-      "ga": "0",
-      "dg": "0"
-    },
-    {
       "rank": "7",
-      "team": "Oporto",
-      "points": "1",
-      "played": "1",
-      "won": "0",
-      "drawn": "1",
-      "lost": "0",
-      "gf": "0",
-      "ga": "0",
-      "dg": "0"
-    },
-    {
-      "rank": "8",
-      "team": "Villarreal",
-      "points": "1",
-      "played": "1",
-      "won": "0",
-      "drawn": "1",
-      "lost": "0",
-      "gf": "0",
-      "ga": "0",
-      "dg": "0"
-    },
-    {
-      "rank": "9",
       "team": "Arsenal",
       "points": "0",
       "played": "0",
@@ -351,7 +327,7 @@
       "dg": "0"
     },
     {
-      "rank": "10",
+      "rank": "8",
       "team": "Atl\u00e9tico de Madrid",
       "points": "0",
       "played": "0",
@@ -363,7 +339,7 @@
       "dg": "0"
     },
     {
-      "rank": "11",
+      "rank": "9",
       "team": "Bayern de Munich",
       "points": "0",
       "played": "0",
@@ -375,7 +351,7 @@
       "dg": "0"
     },
     {
-      "rank": "12",
+      "rank": "10",
       "team": "Como",
       "points": "0",
       "played": "0",
@@ -387,7 +363,7 @@
       "dg": "0"
     },
     {
-      "rank": "13",
+      "rank": "11",
       "team": "FC Barcelona",
       "points": "0",
       "played": "0",
@@ -399,7 +375,7 @@
       "dg": "0"
     },
     {
-      "rank": "14",
+      "rank": "12",
       "team": "Fenerbah\u00e7e",
       "points": "0",
       "played": "0",
@@ -411,7 +387,7 @@
       "dg": "0"
     },
     {
-      "rank": "15",
+      "rank": "13",
       "team": "Feyenoord",
       "points": "0",
       "played": "0",
@@ -423,7 +399,7 @@
       "dg": "0"
     },
     {
-      "rank": "16",
+      "rank": "14",
       "team": "Bodo Glimt",
       "points": "0",
       "played": "0",
@@ -435,7 +411,7 @@
       "dg": "0"
     },
     {
-      "rank": "17",
+      "rank": "15",
       "team": "Galatasaray",
       "points": "0",
       "played": "0",
@@ -447,7 +423,7 @@
       "dg": "0"
     },
     {
-      "rank": "18",
+      "rank": "16",
       "team": "Lens",
       "points": "0",
       "played": "0",
@@ -459,7 +435,7 @@
       "dg": "0"
     },
     {
-      "rank": "19",
+      "rank": "17",
       "team": "Liverpool",
       "points": "0",
       "played": "0",
@@ -471,7 +447,7 @@
       "dg": "0"
     },
     {
-      "rank": "20",
+      "rank": "18",
       "team": "Manchester United",
       "points": "0",
       "played": "0",
@@ -483,7 +459,7 @@
       "dg": "0"
     },
     {
-      "rank": "21",
+      "rank": "19",
       "team": "N\u00e1poles",
       "points": "0",
       "played": "0",
@@ -495,7 +471,7 @@
       "dg": "0"
     },
     {
-      "rank": "22",
+      "rank": "20",
       "team": "PSG",
       "points": "0",
       "played": "0",
@@ -507,7 +483,7 @@
       "dg": "0"
     },
     {
-      "rank": "23",
+      "rank": "21",
       "team": "PSV",
       "points": "0",
       "played": "0",
@@ -519,7 +495,7 @@
       "dg": "0"
     },
     {
-      "rank": "24",
+      "rank": "22",
       "team": "Leipzig",
       "points": "0",
       "played": "0",
@@ -531,7 +507,7 @@
       "dg": "0"
     },
     {
-      "rank": "25",
+      "rank": "23",
       "team": "Roma",
       "points": "0",
       "played": "0",
@@ -543,7 +519,7 @@
       "dg": "0"
     },
     {
-      "rank": "26",
+      "rank": "24",
       "team": "Sabah",
       "points": "0",
       "played": "0",
@@ -555,7 +531,7 @@
       "dg": "0"
     },
     {
-      "rank": "27",
+      "rank": "25",
       "team": "Shakhtar Donetsk",
       "points": "0",
       "played": "0",
@@ -567,7 +543,7 @@
       "dg": "0"
     },
     {
-      "rank": "28",
+      "rank": "26",
       "team": "Slavia de Praga",
       "points": "0",
       "played": "0",
@@ -579,7 +555,7 @@
       "dg": "0"
     },
     {
-      "rank": "29",
+      "rank": "27",
       "team": "Slovan Bratislava",
       "points": "0",
       "played": "0",
@@ -591,7 +567,7 @@
       "dg": "0"
     },
     {
-      "rank": "30",
+      "rank": "28",
       "team": "Sporting de Portugal",
       "points": "0",
       "played": "0",
@@ -603,7 +579,7 @@
       "dg": "0"
     },
     {
-      "rank": "31",
+      "rank": "29",
       "team": "Stuttgart",
       "points": "0",
       "played": "0",
@@ -615,7 +591,7 @@
       "dg": "0"
     },
     {
-      "rank": "32",
+      "rank": "30",
       "team": "Viking Stavanger",
       "points": "0",
       "played": "0",
@@ -627,8 +603,32 @@
       "dg": "0"
     },
     {
-      "rank": "33",
+      "rank": "31",
+      "team": "Villarreal",
+      "points": "0",
+      "played": "1",
+      "won": "0",
+      "drawn": "0",
+      "lost": "1",
+      "gf": "2",
+      "ga": "3",
+      "dg": "-1"
+    },
+    {
+      "rank": "32",
       "team": "Brujas",
+      "points": "0",
+      "played": "1",
+      "won": "0",
+      "drawn": "0",
+      "lost": "1",
+      "gf": "2",
+      "ga": "3",
+      "dg": "-1"
+    },
+    {
+      "rank": "33",
+      "team": "Lille",
       "points": "0",
       "played": "1",
       "won": "0",
@@ -646,8 +646,8 @@
       "won": "0",
       "drawn": "0",
       "lost": "1",
-      "gf": "0",
-      "ga": "1",
+      "gf": "1",
+      "ga": "2",
       "dg": "-1"
     },
     {
@@ -664,15 +664,15 @@
     },
     {
       "rank": "36",
-      "team": "Real Betis",
+      "team": "Oporto",
       "points": "0",
       "played": "1",
       "won": "0",
       "drawn": "0",
       "lost": "1",
       "gf": "0",
-      "ga": "1",
-      "dg": "-1"
+      "ga": "2",
+      "dg": "-2"
     }
   ],
   "EUROPA": [
