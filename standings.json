@@ -388,6 +388,54 @@
     },
     {
       "rank": "13",
+      "team": "Roma",
+      "points": "1",
+      "played": "1",
+      "won": "0",
+      "drawn": "1",
+      "lost": "0",
+      "gf": "1",
+      "ga": "1",
+      "dg": "0"
+    },
+    {
+      "rank": "14",
+      "team": "Shakhtar Donetsk",
+      "points": "1",
+      "played": "1",
+      "won": "0",
+      "drawn": "1",
+      "lost": "0",
+      "gf": "1",
+      "ga": "1",
+      "dg": "0"
+    },
+    {
+      "rank": "15",
+      "team": "Fenerbah\u00e7e",
+      "points": "1",
+      "played": "1",
+      "won": "0",
+      "drawn": "1",
+      "lost": "0",
+      "gf": "1",
+      "ga": "1",
+      "dg": "0"
+    },
+    {
+      "rank": "16",
+      "team": "PSV",
+      "points": "1",
+      "played": "1",
+      "won": "0",
+      "drawn": "1",
+      "lost": "0",
+      "gf": "1",
+      "ga": "1",
+      "dg": "0"
+    },
+    {
+      "rank": "17",
       "team": "Bayern de Munich",
       "points": "0",
       "played": "0",
@@ -399,7 +447,7 @@
       "dg": "0"
     },
     {
-      "rank": "14",
+      "rank": "18",
       "team": "Como",
       "points": "0",
       "played": "0",
@@ -411,19 +459,7 @@
       "dg": "0"
     },
     {
-      "rank": "15",
-      "team": "Fenerbah\u00e7e",
-      "points": "0",
-      "played": "0",
-      "won": "0",
-      "drawn": "0",
-      "lost": "0",
-      "gf": "0",
-      "ga": "0",
-      "dg": "0"
-    },
-    {
-      "rank": "16",
+      "rank": "19",
       "team": "Bodo Glimt",
       "points": "0",
       "played": "0",
@@ -435,7 +471,7 @@
       "dg": "0"
     },
     {
-      "rank": "17",
+      "rank": "20",
       "team": "Lens",
       "points": "0",
       "played": "0",
@@ -447,7 +483,7 @@
       "dg": "0"
     },
     {
-      "rank": "18",
+      "rank": "21",
       "team": "Manchester United",
       "points": "0",
       "played": "0",
@@ -459,19 +495,7 @@
       "dg": "0"
     },
     {
-      "rank": "19",
-      "team": "PSV",
-      "points": "0",
-      "played": "0",
-      "won": "0",
-      "drawn": "0",
-      "lost": "0",
-      "gf": "0",
-      "ga": "0",
-      "dg": "0"
-    },
-    {
-      "rank": "20",
+      "rank": "22",
       "team": "Leipzig",
       "points": "0",
       "played": "0",
@@ -483,32 +507,8 @@
       "dg": "0"
     },
     {
-      "rank": "21",
-      "team": "Roma",
-      "points": "0",
-      "played": "0",
-      "won": "0",
-      "drawn": "0",
-      "lost": "0",
-      "gf": "0",
-      "ga": "0",
-      "dg": "0"
-    },
-    {
-      "rank": "22",
-      "team": "Sabah",
-      "points": "0",
-      "played": "0",
-      "won": "0",
-      "drawn": "0",
-      "lost": "0",
-      "gf": "0",
-      "ga": "0",
-      "dg": "0"
-    },
-    {
       "rank": "23",
-      "team": "Shakhtar Donetsk",
+      "team": "Sabah",
       "points": "0",
       "played": "0",
       "won": "0",
