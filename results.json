@@ -2742,7 +2742,7 @@
   },
   "CHAMPIONS": {
     "rounds": {
-      "Jornada 1 (Actual)": [
+      "Jornada 1": [
         {
           "date": "08-09-2026",
           "home": "AEK Athens",
@@ -2870,7 +2870,7 @@
           "status": "Fin"
         }
       ],
-      "Jornada 2": [
+      "Jornada 2 (Actual)": [
         {
           "date": "13-10-2026",
           "home": "Sabah",
@@ -3767,7 +3767,7 @@
         }
       ]
     },
-    "current": "Jornada 1 (Actual)"
+    "current": "Jornada 2 (Actual)"
   },
   "EUROPA": {
     "rounds": {
