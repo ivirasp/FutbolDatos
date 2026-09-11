@@ -26,6 +26,18 @@
     },
     {
       "rank": "3",
+      "team": "Sevilla",
+      "points": "10",
+      "played": "5",
+      "won": "3",
+      "drawn": "1",
+      "lost": "1",
+      "gf": "8",
+      "ga": "6",
+      "dg": "+2"
+    },
+    {
+      "rank": "4",
       "team": "Real Madrid",
       "points": "9",
       "played": "4",
@@ -37,7 +49,7 @@
       "dg": "+7"
     },
     {
-      "rank": "4",
+      "rank": "5",
       "team": "Real Betis",
       "points": "9",
       "played": "4",
@@ -49,7 +61,7 @@
       "dg": "0"
     },
     {
-      "rank": "5",
+      "rank": "6",
       "team": "RC Deportivo",
       "points": "8",
       "played": "4",
@@ -61,20 +73,8 @@
       "dg": "+3"
     },
     {
-      "rank": "6",
-      "team": "Atl\u00e9tico de Madrid",
-      "points": "7",
-      "played": "4",
-      "won": "2",
-      "drawn": "1",
-      "lost": "1",
-      "gf": "7",
-      "ga": "6",
-      "dg": "+1"
-    },
-    {
       "rank": "7",
-      "team": "Sevilla",
+      "team": "Atl\u00e9tico de Madrid",
       "points": "7",
       "played": "4",
       "won": "2",
@@ -232,13 +232,13 @@
       "rank": "20",
       "team": "Valencia",
       "points": "1",
-      "played": "4",
+      "played": "5",
       "won": "0",
       "drawn": "1",
-      "lost": "3",
+      "lost": "4",
       "gf": "1",
-      "ga": "9",
-      "dg": "-8"
+      "ga": "10",
+      "dg": "-9"
     }
   ],
   "CHAMPIONS": [
