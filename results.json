@@ -289,7 +289,7 @@
           "status": "Fin"
         }
       ],
-      "Jornada 5 (Actual)": [
+      "Jornada 5": [
         {
           "date": "11-09-2026",
           "home": "Sevilla",
@@ -361,7 +361,7 @@
           "status": "Fin"
         }
       ],
-      "Jornada 6": [
+      "Jornada 6 (Actual)": [
         {
           "date": "03-09-2026",
           "home": "Real Sociedad",
@@ -2738,7 +2738,7 @@
         }
       ]
     },
-    "current": "Jornada 5 (Actual)"
+    "current": "Jornada 6 (Actual)"
   },
   "CHAMPIONS": {
     "rounds": {
