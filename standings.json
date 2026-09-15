@@ -15,14 +15,14 @@
     {
       "rank": "2",
       "team": "Real Madrid",
-      "points": "13",
+      "points": "15",
       "played": "6",
-      "won": "4",
-      "drawn": "1",
+      "won": "5",
+      "drawn": "0",
       "lost": "1",
-      "gf": "14",
-      "ga": "4",
-      "dg": "+10"
+      "gf": "17",
+      "ga": "6",
+      "dg": "+11"
     },
     {
       "rank": "3",
@@ -39,14 +39,14 @@
     {
       "rank": "4",
       "team": "Deportivo Alav\u00e9s",
-      "points": "11",
+      "points": "10",
       "played": "6",
       "won": "3",
-      "drawn": "2",
-      "lost": "1",
+      "drawn": "1",
+      "lost": "2",
       "gf": "11",
-      "ga": "5",
-      "dg": "+6"
+      "ga": "6",
+      "dg": "+5"
     },
     {
       "rank": "5",
@@ -194,6 +194,18 @@
     },
     {
       "rank": "17",
+      "team": "Valencia",
+      "points": "4",
+      "played": "6",
+      "won": "1",
+      "drawn": "1",
+      "lost": "4",
+      "gf": "2",
+      "ga": "10",
+      "dg": "-8"
+    },
+    {
+      "rank": "18",
       "team": "M\u00e1laga",
       "points": "3",
       "played": "5",
@@ -203,18 +215,6 @@
       "gf": "2",
       "ga": "8",
       "dg": "-6"
-    },
-    {
-      "rank": "18",
-      "team": "Elche",
-      "points": "3",
-      "played": "6",
-      "won": "0",
-      "drawn": "3",
-      "lost": "3",
-      "gf": "6",
-      "ga": "13",
-      "dg": "-7"
     },
     {
       "rank": "19",
@@ -230,15 +230,15 @@
     },
     {
       "rank": "20",
-      "team": "Valencia",
+      "team": "Elche",
       "points": "2",
       "played": "6",
       "won": "0",
       "drawn": "2",
       "lost": "4",
-      "gf": "1",
-      "ga": "10",
-      "dg": "-9"
+      "gf": "8",
+      "ga": "16",
+      "dg": "-8"
     }
   ],
   "CHAMPIONS": [
