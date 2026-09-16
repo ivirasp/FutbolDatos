@@ -3,14 +3,14 @@
     {
       "rank": "1",
       "team": "FC Barcelona",
-      "points": "15",
-      "played": "5",
-      "won": "5",
+      "points": "18",
+      "played": "6",
+      "won": "6",
       "drawn": "0",
       "lost": "0",
-      "gf": "21",
-      "ga": "4",
-      "dg": "+17"
+      "gf": "28",
+      "ga": "6",
+      "dg": "+22"
     },
     {
       "rank": "2",
@@ -112,13 +112,13 @@
       "rank": "10",
       "team": "Racing",
       "points": "7",
-      "played": "5",
+      "played": "6",
       "won": "2",
       "drawn": "1",
-      "lost": "2",
-      "gf": "9",
-      "ga": "9",
-      "dg": "0"
+      "lost": "3",
+      "gf": "11",
+      "ga": "16",
+      "dg": "-5"
     },
     {
       "rank": "11",
@@ -690,18 +690,54 @@
     },
     {
       "rank": "2",
+      "team": "Benfica",
+      "points": "3",
+      "played": "1",
+      "won": "1",
+      "drawn": "0",
+      "lost": "0",
+      "gf": "2",
+      "ga": "0",
+      "dg": "+2"
+    },
+    {
+      "rank": "3",
+      "team": "Bayer Leverkusen",
+      "points": "3",
+      "played": "1",
+      "won": "1",
+      "drawn": "0",
+      "lost": "0",
+      "gf": "2",
+      "ga": "0",
+      "dg": "+2"
+    },
+    {
+      "rank": "4",
       "team": "Olympique de Lyon",
       "points": "3",
       "played": "1",
       "won": "1",
       "drawn": "0",
       "lost": "0",
-      "gf": "1",
-      "ga": "0",
+      "gf": "2",
+      "ga": "1",
       "dg": "+1"
     },
     {
-      "rank": "3",
+      "rank": "5",
+      "team": "Olympiacos",
+      "points": "3",
+      "played": "1",
+      "won": "1",
+      "drawn": "0",
+      "lost": "0",
+      "gf": "2",
+      "ga": "1",
+      "dg": "+1"
+    },
+    {
+      "rank": "6",
       "team": "Omonia Nicosia",
       "points": "3",
       "played": "1",
@@ -713,52 +749,16 @@
       "dg": "+1"
     },
     {
-      "rank": "4",
-      "team": "AZ Alkmaar",
-      "points": "1",
-      "played": "1",
-      "won": "0",
-      "drawn": "1",
-      "lost": "0",
-      "gf": "0",
-      "ga": "0",
-      "dg": "0"
-    },
-    {
-      "rank": "5",
-      "team": "Bayer Leverkusen",
-      "points": "1",
-      "played": "1",
-      "won": "0",
-      "drawn": "1",
-      "lost": "0",
-      "gf": "0",
-      "ga": "0",
-      "dg": "0"
-    },
-    {
-      "rank": "6",
-      "team": "Benfica",
-      "points": "1",
-      "played": "1",
-      "won": "0",
-      "drawn": "1",
-      "lost": "0",
-      "gf": "0",
-      "ga": "0",
-      "dg": "0"
-    },
-    {
       "rank": "7",
-      "team": "Celje",
-      "points": "1",
+      "team": "Sunderland",
+      "points": "3",
       "played": "1",
-      "won": "0",
-      "drawn": "1",
+      "won": "1",
+      "drawn": "0",
       "lost": "0",
-      "gf": "0",
+      "gf": "1",
       "ga": "0",
-      "dg": "0"
+      "dg": "+1"
     },
     {
       "rank": "8",
@@ -786,42 +786,6 @@
     },
     {
       "rank": "10",
-      "team": "Jagiellonia Bialystok",
-      "points": "1",
-      "played": "1",
-      "won": "0",
-      "drawn": "1",
-      "lost": "0",
-      "gf": "0",
-      "ga": "0",
-      "dg": "0"
-    },
-    {
-      "rank": "11",
-      "team": "Milan",
-      "points": "1",
-      "played": "1",
-      "won": "0",
-      "drawn": "1",
-      "lost": "0",
-      "gf": "0",
-      "ga": "0",
-      "dg": "0"
-    },
-    {
-      "rank": "12",
-      "team": "Olympiacos",
-      "points": "1",
-      "played": "1",
-      "won": "0",
-      "drawn": "1",
-      "lost": "0",
-      "gf": "0",
-      "ga": "0",
-      "dg": "0"
-    },
-    {
-      "rank": "13",
       "team": "Rennes",
       "points": "1",
       "played": "1",
@@ -833,7 +797,7 @@
       "dg": "0"
     },
     {
-      "rank": "14",
+      "rank": "11",
       "team": "Sturm Graz",
       "points": "1",
       "played": "1",
@@ -845,19 +809,7 @@
       "dg": "0"
     },
     {
-      "rank": "15",
-      "team": "Sunderland",
-      "points": "1",
-      "played": "1",
-      "won": "0",
-      "drawn": "1",
-      "lost": "0",
-      "gf": "0",
-      "ga": "0",
-      "dg": "0"
-    },
-    {
-      "rank": "16",
+      "rank": "12",
       "team": "AFC Bournemouth",
       "points": "0",
       "played": "0",
@@ -869,7 +821,7 @@
       "dg": "0"
     },
     {
-      "rank": "17",
+      "rank": "13",
       "team": "Besiktas",
       "points": "0",
       "played": "0",
@@ -881,7 +833,7 @@
       "dg": "0"
     },
     {
-      "rank": "18",
+      "rank": "14",
       "team": "Celtic",
       "points": "0",
       "played": "0",
@@ -893,7 +845,7 @@
       "dg": "0"
     },
     {
-      "rank": "19",
+      "rank": "15",
       "team": "Crystal Palace",
       "points": "0",
       "played": "0",
@@ -905,7 +857,7 @@
       "dg": "0"
     },
     {
-      "rank": "20",
+      "rank": "16",
       "team": "Ferencv\u00e1ros",
       "points": "0",
       "played": "0",
@@ -917,7 +869,7 @@
       "dg": "0"
     },
     {
-      "rank": "21",
+      "rank": "17",
       "team": "Hoffenheim",
       "points": "0",
       "played": "0",
@@ -929,7 +881,7 @@
       "dg": "0"
     },
     {
-      "rank": "22",
+      "rank": "18",
       "team": "Juventus",
       "points": "0",
       "played": "0",
@@ -941,7 +893,7 @@
       "dg": "0"
     },
     {
-      "rank": "23",
+      "rank": "19",
       "team": "Lech Pozna\u0144",
       "points": "0",
       "played": "0",
@@ -953,7 +905,7 @@
       "dg": "0"
     },
     {
-      "rank": "24",
+      "rank": "20",
       "team": "Levski Sofia",
       "points": "0",
       "played": "0",
@@ -965,7 +917,7 @@
       "dg": "0"
     },
     {
-      "rank": "25",
+      "rank": "21",
       "team": "Lillestrom SK",
       "points": "0",
       "played": "0",
@@ -977,7 +929,7 @@
       "dg": "0"
     },
     {
-      "rank": "26",
+      "rank": "22",
       "team": "NEC Nijmegen",
       "points": "0",
       "played": "0",
@@ -989,7 +941,7 @@
       "dg": "0"
     },
     {
-      "rank": "27",
+      "rank": "23",
       "team": "OFI",
       "points": "0",
       "played": "0",
@@ -1001,7 +953,7 @@
       "dg": "0"
     },
     {
-      "rank": "28",
+      "rank": "24",
       "team": "Olympique de Marsella",
       "points": "0",
       "played": "0",
@@ -1013,7 +965,7 @@
       "dg": "0"
     },
     {
-      "rank": "29",
+      "rank": "25",
       "team": "Real Sociedad",
       "points": "0",
       "played": "0",
@@ -1025,7 +977,7 @@
       "dg": "0"
     },
     {
-      "rank": "30",
+      "rank": "26",
       "team": "Salzburgo",
       "points": "0",
       "played": "0",
@@ -1037,7 +989,7 @@
       "dg": "0"
     },
     {
-      "rank": "31",
+      "rank": "27",
       "team": "Torreense",
       "points": "0",
       "played": "0",
@@ -1049,7 +1001,7 @@
       "dg": "0"
     },
     {
-      "rank": "32",
+      "rank": "28",
       "team": "Uni\u00f3n Saint-Gilloise",
       "points": "0",
       "played": "0",
@@ -1061,7 +1013,7 @@
       "dg": "0"
     },
     {
-      "rank": "33",
+      "rank": "29",
       "team": "Viktoria Plzen",
       "points": "0",
       "played": "0",
@@ -1073,8 +1025,32 @@
       "dg": "0"
     },
     {
-      "rank": "34",
+      "rank": "30",
+      "team": "Jagiellonia Bialystok",
+      "points": "0",
+      "played": "1",
+      "won": "0",
+      "drawn": "0",
+      "lost": "1",
+      "gf": "1",
+      "ga": "2",
+      "dg": "-1"
+    },
+    {
+      "rank": "31",
       "team": "Anderlecht",
+      "points": "0",
+      "played": "1",
+      "won": "0",
+      "drawn": "0",
+      "lost": "1",
+      "gf": "1",
+      "ga": "2",
+      "dg": "-1"
+    },
+    {
+      "rank": "32",
+      "team": "AZ Alkmaar",
       "points": "0",
       "played": "1",
       "won": "0",
@@ -1085,7 +1061,7 @@
       "dg": "-1"
     },
     {
-      "rank": "35",
+      "rank": "33",
       "team": "Celta",
       "points": "0",
       "played": "1",
@@ -1095,6 +1071,30 @@
       "gf": "0",
       "ga": "1",
       "dg": "-1"
+    },
+    {
+      "rank": "34",
+      "team": "Celje",
+      "points": "0",
+      "played": "1",
+      "won": "0",
+      "drawn": "0",
+      "lost": "1",
+      "gf": "0",
+      "ga": "2",
+      "dg": "-2"
+    },
+    {
+      "rank": "35",
+      "team": "Milan",
+      "points": "0",
+      "played": "1",
+      "won": "0",
+      "drawn": "0",
+      "lost": "1",
+      "gf": "0",
+      "ga": "2",
+      "dg": "-2"
     },
     {
       "rank": "36",
