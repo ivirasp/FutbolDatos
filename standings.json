@@ -26,6 +26,18 @@
     },
     {
       "rank": "3",
+      "team": "Real Betis",
+      "points": "15",
+      "played": "6",
+      "won": "5",
+      "drawn": "0",
+      "lost": "1",
+      "gf": "8",
+      "ga": "6",
+      "dg": "+2"
+    },
+    {
+      "rank": "4",
       "team": "Atl\u00e9tico de Madrid",
       "points": "13",
       "played": "6",
@@ -37,7 +49,7 @@
       "dg": "+8"
     },
     {
-      "rank": "4",
+      "rank": "5",
       "team": "Sevilla",
       "points": "13",
       "played": "6",
@@ -47,18 +59,6 @@
       "gf": "9",
       "ga": "6",
       "dg": "+3"
-    },
-    {
-      "rank": "5",
-      "team": "Real Betis",
-      "points": "12",
-      "played": "5",
-      "won": "4",
-      "drawn": "0",
-      "lost": "1",
-      "gf": "7",
-      "ga": "6",
-      "dg": "+1"
     },
     {
       "rank": "6",
@@ -158,6 +158,18 @@
     },
     {
       "rank": "14",
+      "team": "M\u00e1laga",
+      "points": "6",
+      "played": "6",
+      "won": "1",
+      "drawn": "3",
+      "lost": "2",
+      "gf": "3",
+      "ga": "8",
+      "dg": "-5"
+    },
+    {
+      "rank": "15",
       "team": "Levante",
       "points": "5",
       "played": "5",
@@ -169,19 +181,19 @@
       "dg": "-2"
     },
     {
-      "rank": "15",
+      "rank": "16",
       "team": "Getafe",
       "points": "5",
-      "played": "5",
+      "played": "6",
       "won": "1",
       "drawn": "2",
-      "lost": "2",
+      "lost": "3",
       "gf": "3",
-      "ga": "6",
-      "dg": "-3"
+      "ga": "7",
+      "dg": "-4"
     },
     {
-      "rank": "16",
+      "rank": "17",
       "team": "Celta",
       "points": "4",
       "played": "6",
@@ -193,7 +205,7 @@
       "dg": "-3"
     },
     {
-      "rank": "17",
+      "rank": "18",
       "team": "Valencia",
       "points": "4",
       "played": "6",
@@ -205,28 +217,16 @@
       "dg": "-8"
     },
     {
-      "rank": "18",
-      "team": "M\u00e1laga",
-      "points": "3",
-      "played": "5",
-      "won": "0",
-      "drawn": "3",
-      "lost": "2",
-      "gf": "2",
-      "ga": "8",
-      "dg": "-6"
-    },
-    {
       "rank": "19",
       "team": "Villarreal",
       "points": "2",
-      "played": "5",
+      "played": "6",
       "won": "0",
       "drawn": "2",
-      "lost": "3",
+      "lost": "4",
       "gf": "7",
-      "ga": "10",
-      "dg": "-3"
+      "ga": "11",
+      "dg": "-4"
     },
     {
       "rank": "20",
@@ -690,7 +690,7 @@
     },
     {
       "rank": "2",
-      "team": "Benfica",
+      "team": "AFC Bournemouth",
       "points": "3",
       "played": "1",
       "won": "1",
@@ -702,7 +702,7 @@
     },
     {
       "rank": "3",
-      "team": "Bayer Leverkusen",
+      "team": "Benfica",
       "points": "3",
       "played": "1",
       "won": "1",
@@ -714,6 +714,54 @@
     },
     {
       "rank": "4",
+      "team": "Bayer Leverkusen",
+      "points": "3",
+      "played": "1",
+      "won": "1",
+      "drawn": "0",
+      "lost": "0",
+      "gf": "2",
+      "ga": "0",
+      "dg": "+2"
+    },
+    {
+      "rank": "5",
+      "team": "Crystal Palace",
+      "points": "3",
+      "played": "1",
+      "won": "1",
+      "drawn": "0",
+      "lost": "0",
+      "gf": "2",
+      "ga": "0",
+      "dg": "+2"
+    },
+    {
+      "rank": "6",
+      "team": "Juventus",
+      "points": "3",
+      "played": "1",
+      "won": "1",
+      "drawn": "0",
+      "lost": "0",
+      "gf": "2",
+      "ga": "0",
+      "dg": "+2"
+    },
+    {
+      "rank": "7",
+      "team": "OFI",
+      "points": "3",
+      "played": "1",
+      "won": "1",
+      "drawn": "0",
+      "lost": "0",
+      "gf": "2",
+      "ga": "0",
+      "dg": "+2"
+    },
+    {
+      "rank": "8",
       "team": "Olympique de Lyon",
       "points": "3",
       "played": "1",
@@ -725,7 +773,7 @@
       "dg": "+1"
     },
     {
-      "rank": "5",
+      "rank": "9",
       "team": "Olympiacos",
       "points": "3",
       "played": "1",
@@ -737,7 +785,55 @@
       "dg": "+1"
     },
     {
-      "rank": "6",
+      "rank": "10",
+      "team": "Ferencv\u00e1ros",
+      "points": "3",
+      "played": "1",
+      "won": "1",
+      "drawn": "0",
+      "lost": "0",
+      "gf": "1",
+      "ga": "0",
+      "dg": "+1"
+    },
+    {
+      "rank": "11",
+      "team": "Salzburgo",
+      "points": "3",
+      "played": "1",
+      "won": "1",
+      "drawn": "0",
+      "lost": "0",
+      "gf": "1",
+      "ga": "0",
+      "dg": "+1"
+    },
+    {
+      "rank": "12",
+      "team": "Torreense",
+      "points": "3",
+      "played": "1",
+      "won": "1",
+      "drawn": "0",
+      "lost": "0",
+      "gf": "1",
+      "ga": "0",
+      "dg": "+1"
+    },
+    {
+      "rank": "13",
+      "team": "Uni\u00f3n Saint-Gilloise",
+      "points": "3",
+      "played": "1",
+      "won": "1",
+      "drawn": "0",
+      "lost": "0",
+      "gf": "1",
+      "ga": "0",
+      "dg": "+1"
+    },
+    {
+      "rank": "14",
       "team": "Omonia Nicosia",
       "points": "3",
       "played": "1",
@@ -749,7 +845,7 @@
       "dg": "+1"
     },
     {
-      "rank": "7",
+      "rank": "15",
       "team": "Sunderland",
       "points": "3",
       "played": "1",
@@ -761,7 +857,31 @@
       "dg": "+1"
     },
     {
-      "rank": "8",
+      "rank": "16",
+      "team": "Olympique de Marsella",
+      "points": "1",
+      "played": "1",
+      "won": "0",
+      "drawn": "1",
+      "lost": "0",
+      "gf": "1",
+      "ga": "1",
+      "dg": "0"
+    },
+    {
+      "rank": "17",
+      "team": "Besiktas",
+      "points": "1",
+      "played": "1",
+      "won": "0",
+      "drawn": "1",
+      "lost": "0",
+      "gf": "1",
+      "ga": "1",
+      "dg": "0"
+    },
+    {
+      "rank": "18",
       "team": "Dinamo Zagreb",
       "points": "1",
       "played": "1",
@@ -773,7 +893,7 @@
       "dg": "0"
     },
     {
-      "rank": "9",
+      "rank": "19",
       "team": "Hapoel Beer Sheva",
       "points": "1",
       "played": "1",
@@ -785,7 +905,7 @@
       "dg": "0"
     },
     {
-      "rank": "10",
+      "rank": "20",
       "team": "Rennes",
       "points": "1",
       "played": "1",
@@ -797,7 +917,7 @@
       "dg": "0"
     },
     {
-      "rank": "11",
+      "rank": "21",
       "team": "Sturm Graz",
       "points": "1",
       "played": "1",
@@ -809,223 +929,7 @@
       "dg": "0"
     },
     {
-      "rank": "12",
-      "team": "AFC Bournemouth",
-      "points": "0",
-      "played": "0",
-      "won": "0",
-      "drawn": "0",
-      "lost": "0",
-      "gf": "0",
-      "ga": "0",
-      "dg": "0"
-    },
-    {
-      "rank": "13",
-      "team": "Besiktas",
-      "points": "0",
-      "played": "0",
-      "won": "0",
-      "drawn": "0",
-      "lost": "0",
-      "gf": "0",
-      "ga": "0",
-      "dg": "0"
-    },
-    {
-      "rank": "14",
-      "team": "Celtic",
-      "points": "0",
-      "played": "0",
-      "won": "0",
-      "drawn": "0",
-      "lost": "0",
-      "gf": "0",
-      "ga": "0",
-      "dg": "0"
-    },
-    {
-      "rank": "15",
-      "team": "Crystal Palace",
-      "points": "0",
-      "played": "0",
-      "won": "0",
-      "drawn": "0",
-      "lost": "0",
-      "gf": "0",
-      "ga": "0",
-      "dg": "0"
-    },
-    {
-      "rank": "16",
-      "team": "Ferencv\u00e1ros",
-      "points": "0",
-      "played": "0",
-      "won": "0",
-      "drawn": "0",
-      "lost": "0",
-      "gf": "0",
-      "ga": "0",
-      "dg": "0"
-    },
-    {
-      "rank": "17",
-      "team": "Hoffenheim",
-      "points": "0",
-      "played": "0",
-      "won": "0",
-      "drawn": "0",
-      "lost": "0",
-      "gf": "0",
-      "ga": "0",
-      "dg": "0"
-    },
-    {
-      "rank": "18",
-      "team": "Juventus",
-      "points": "0",
-      "played": "0",
-      "won": "0",
-      "drawn": "0",
-      "lost": "0",
-      "gf": "0",
-      "ga": "0",
-      "dg": "0"
-    },
-    {
-      "rank": "19",
-      "team": "Lech Pozna\u0144",
-      "points": "0",
-      "played": "0",
-      "won": "0",
-      "drawn": "0",
-      "lost": "0",
-      "gf": "0",
-      "ga": "0",
-      "dg": "0"
-    },
-    {
-      "rank": "20",
-      "team": "Levski Sofia",
-      "points": "0",
-      "played": "0",
-      "won": "0",
-      "drawn": "0",
-      "lost": "0",
-      "gf": "0",
-      "ga": "0",
-      "dg": "0"
-    },
-    {
-      "rank": "21",
-      "team": "Lillestrom SK",
-      "points": "0",
-      "played": "0",
-      "won": "0",
-      "drawn": "0",
-      "lost": "0",
-      "gf": "0",
-      "ga": "0",
-      "dg": "0"
-    },
-    {
       "rank": "22",
-      "team": "NEC Nijmegen",
-      "points": "0",
-      "played": "0",
-      "won": "0",
-      "drawn": "0",
-      "lost": "0",
-      "gf": "0",
-      "ga": "0",
-      "dg": "0"
-    },
-    {
-      "rank": "23",
-      "team": "OFI",
-      "points": "0",
-      "played": "0",
-      "won": "0",
-      "drawn": "0",
-      "lost": "0",
-      "gf": "0",
-      "ga": "0",
-      "dg": "0"
-    },
-    {
-      "rank": "24",
-      "team": "Olympique de Marsella",
-      "points": "0",
-      "played": "0",
-      "won": "0",
-      "drawn": "0",
-      "lost": "0",
-      "gf": "0",
-      "ga": "0",
-      "dg": "0"
-    },
-    {
-      "rank": "25",
-      "team": "Real Sociedad",
-      "points": "0",
-      "played": "0",
-      "won": "0",
-      "drawn": "0",
-      "lost": "0",
-      "gf": "0",
-      "ga": "0",
-      "dg": "0"
-    },
-    {
-      "rank": "26",
-      "team": "Salzburgo",
-      "points": "0",
-      "played": "0",
-      "won": "0",
-      "drawn": "0",
-      "lost": "0",
-      "gf": "0",
-      "ga": "0",
-      "dg": "0"
-    },
-    {
-      "rank": "27",
-      "team": "Torreense",
-      "points": "0",
-      "played": "0",
-      "won": "0",
-      "drawn": "0",
-      "lost": "0",
-      "gf": "0",
-      "ga": "0",
-      "dg": "0"
-    },
-    {
-      "rank": "28",
-      "team": "Uni\u00f3n Saint-Gilloise",
-      "points": "0",
-      "played": "0",
-      "won": "0",
-      "drawn": "0",
-      "lost": "0",
-      "gf": "0",
-      "ga": "0",
-      "dg": "0"
-    },
-    {
-      "rank": "29",
-      "team": "Viktoria Plzen",
-      "points": "0",
-      "played": "0",
-      "won": "0",
-      "drawn": "0",
-      "lost": "0",
-      "gf": "0",
-      "ga": "0",
-      "dg": "0"
-    },
-    {
-      "rank": "30",
       "team": "Jagiellonia Bialystok",
       "points": "0",
       "played": "1",
@@ -1037,7 +941,7 @@
       "dg": "-1"
     },
     {
-      "rank": "31",
+      "rank": "23",
       "team": "Anderlecht",
       "points": "0",
       "played": "1",
@@ -1049,7 +953,7 @@
       "dg": "-1"
     },
     {
-      "rank": "32",
+      "rank": "24",
       "team": "AZ Alkmaar",
       "points": "0",
       "played": "1",
@@ -1061,7 +965,7 @@
       "dg": "-1"
     },
     {
-      "rank": "33",
+      "rank": "25",
       "team": "Celta",
       "points": "0",
       "played": "1",
@@ -1073,7 +977,55 @@
       "dg": "-1"
     },
     {
-      "rank": "34",
+      "rank": "26",
+      "team": "Celtic",
+      "points": "0",
+      "played": "1",
+      "won": "0",
+      "drawn": "0",
+      "lost": "1",
+      "gf": "0",
+      "ga": "1",
+      "dg": "-1"
+    },
+    {
+      "rank": "27",
+      "team": "Levski Sofia",
+      "points": "0",
+      "played": "1",
+      "won": "0",
+      "drawn": "0",
+      "lost": "1",
+      "gf": "0",
+      "ga": "1",
+      "dg": "-1"
+    },
+    {
+      "rank": "28",
+      "team": "Lillestrom SK",
+      "points": "0",
+      "played": "1",
+      "won": "0",
+      "drawn": "0",
+      "lost": "1",
+      "gf": "0",
+      "ga": "1",
+      "dg": "-1"
+    },
+    {
+      "rank": "29",
+      "team": "Viktoria Plzen",
+      "points": "0",
+      "played": "1",
+      "won": "0",
+      "drawn": "0",
+      "lost": "1",
+      "gf": "0",
+      "ga": "1",
+      "dg": "-1"
+    },
+    {
+      "rank": "30",
       "team": "Celje",
       "points": "0",
       "played": "1",
@@ -1085,8 +1037,56 @@
       "dg": "-2"
     },
     {
-      "rank": "35",
+      "rank": "31",
+      "team": "Hoffenheim",
+      "points": "0",
+      "played": "1",
+      "won": "0",
+      "drawn": "0",
+      "lost": "1",
+      "gf": "0",
+      "ga": "2",
+      "dg": "-2"
+    },
+    {
+      "rank": "32",
+      "team": "Lech Pozna\u0144",
+      "points": "0",
+      "played": "1",
+      "won": "0",
+      "drawn": "0",
+      "lost": "1",
+      "gf": "0",
+      "ga": "2",
+      "dg": "-2"
+    },
+    {
+      "rank": "33",
       "team": "Milan",
+      "points": "0",
+      "played": "1",
+      "won": "0",
+      "drawn": "0",
+      "lost": "1",
+      "gf": "0",
+      "ga": "2",
+      "dg": "-2"
+    },
+    {
+      "rank": "34",
+      "team": "NEC Nijmegen",
+      "points": "0",
+      "played": "1",
+      "won": "0",
+      "drawn": "0",
+      "lost": "1",
+      "gf": "0",
+      "ga": "2",
+      "dg": "-2"
+    },
+    {
+      "rank": "35",
+      "team": "Real Sociedad",
       "points": "0",
       "played": "1",
       "won": "0",
