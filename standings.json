@@ -3,14 +3,14 @@
     {
       "rank": "1",
       "team": "FC Barcelona",
-      "points": "18",
-      "played": "6",
-      "won": "6",
+      "points": "21",
+      "played": "7",
+      "won": "7",
       "drawn": "0",
       "lost": "0",
-      "gf": "28",
-      "ga": "6",
-      "dg": "+22"
+      "gf": "31",
+      "ga": "7",
+      "dg": "+24"
     },
     {
       "rank": "2",
@@ -52,13 +52,13 @@
       "rank": "5",
       "team": "Sevilla",
       "points": "13",
-      "played": "6",
+      "played": "7",
       "won": "4",
       "drawn": "1",
-      "lost": "1",
-      "gf": "9",
-      "ga": "6",
-      "dg": "+3"
+      "lost": "2",
+      "gf": "10",
+      "ga": "9",
+      "dg": "+1"
     },
     {
       "rank": "6",
@@ -122,6 +122,18 @@
     },
     {
       "rank": "11",
+      "team": "Celta",
+      "points": "7",
+      "played": "7",
+      "won": "1",
+      "drawn": "4",
+      "lost": "2",
+      "gf": "8",
+      "ga": "6",
+      "dg": "+2"
+    },
+    {
+      "rank": "12",
       "team": "Espanyol",
       "points": "7",
       "played": "7",
@@ -130,18 +142,6 @@
       "lost": "4",
       "gf": "10",
       "ga": "10",
-      "dg": "0"
-    },
-    {
-      "rank": "12",
-      "team": "Celta",
-      "points": "7",
-      "played": "7",
-      "won": "1",
-      "drawn": "4",
-      "lost": "2",
-      "gf": "6",
-      "ga": "6",
       "dg": "0"
     },
     {
@@ -165,8 +165,8 @@
       "drawn": "1",
       "lost": "4",
       "gf": "11",
-      "ga": "19",
-      "dg": "-8"
+      "ga": "21",
+      "dg": "-10"
     },
     {
       "rank": "15",
