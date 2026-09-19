@@ -63,10 +63,10 @@
     {
       "rank": "6",
       "team": "Deportivo Alav\u00e9s",
-      "points": "10",
-      "played": "6",
+      "points": "11",
+      "played": "7",
       "won": "3",
-      "drawn": "1",
+      "drawn": "2",
       "lost": "2",
       "gf": "11",
       "ga": "6",
@@ -86,6 +86,18 @@
     },
     {
       "rank": "8",
+      "team": "Athletic Club",
+      "points": "8",
+      "played": "6",
+      "won": "2",
+      "drawn": "2",
+      "lost": "2",
+      "gf": "7",
+      "ga": "6",
+      "dg": "+1"
+    },
+    {
+      "rank": "9",
       "team": "Rayo Vallecano",
       "points": "8",
       "played": "7",
@@ -97,7 +109,7 @@
       "dg": "-5"
     },
     {
-      "rank": "9",
+      "rank": "10",
       "team": "Osasuna",
       "points": "8",
       "played": "7",
@@ -107,18 +119,6 @@
       "gf": "6",
       "ga": "13",
       "dg": "-7"
-    },
-    {
-      "rank": "10",
-      "team": "Athletic Club",
-      "points": "7",
-      "played": "5",
-      "won": "2",
-      "drawn": "1",
-      "lost": "2",
-      "gf": "7",
-      "ga": "6",
-      "dg": "+1"
     },
     {
       "rank": "11",
