@@ -170,6 +170,18 @@
     },
     {
       "rank": "15",
+      "team": "Getafe",
+      "points": "6",
+      "played": "7",
+      "won": "1",
+      "drawn": "3",
+      "lost": "3",
+      "gf": "3",
+      "ga": "7",
+      "dg": "-4"
+    },
+    {
+      "rank": "16",
       "team": "Villarreal",
       "points": "5",
       "played": "6",
@@ -181,7 +193,7 @@
       "dg": "-1"
     },
     {
-      "rank": "16",
+      "rank": "17",
       "team": "Levante",
       "points": "5",
       "played": "5",
@@ -191,18 +203,6 @@
       "gf": "7",
       "ga": "9",
       "dg": "-2"
-    },
-    {
-      "rank": "17",
-      "team": "Getafe",
-      "points": "5",
-      "played": "6",
-      "won": "1",
-      "drawn": "2",
-      "lost": "3",
-      "gf": "3",
-      "ga": "7",
-      "dg": "-4"
     },
     {
       "rank": "18",
@@ -218,6 +218,18 @@
     },
     {
       "rank": "19",
+      "team": "M\u00e1laga",
+      "points": "4",
+      "played": "7",
+      "won": "0",
+      "drawn": "4",
+      "lost": "3",
+      "gf": "3",
+      "ga": "11",
+      "dg": "-8"
+    },
+    {
+      "rank": "20",
       "team": "Valencia",
       "points": "4",
       "played": "6",
@@ -226,18 +238,6 @@
       "lost": "4",
       "gf": "2",
       "ga": "10",
-      "dg": "-8"
-    },
-    {
-      "rank": "20",
-      "team": "M\u00e1laga",
-      "points": "3",
-      "played": "6",
-      "won": "0",
-      "drawn": "3",
-      "lost": "3",
-      "gf": "3",
-      "ga": "11",
       "dg": "-8"
     }
   ],
