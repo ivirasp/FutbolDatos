@@ -2,13 +2,11 @@
 import requests
 from bs4 import BeautifulSoup
 import json
-import os
 import re
 import time
 import random
 from datetime import datetime, date
 import pytz
-import traceback
 
 # --- 1. CONFIGURACIÓN ---
 TZ_MADRID = pytz.timezone('Europe/Madrid')
@@ -42,12 +40,19 @@ MONTH_MAP = {
     "septiembre": 9, "octubre": 10, "noviembre": 11, "diciembre": 12
 }
 
-# --- 2. FUNCIONES AUXILIARES ---
+# --- HEADERS MEJORADOS (Para evitar bloqueos anti-bot) ---
+HEADERS = {
+    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+    'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+    'Accept-Language': 'es-ES,es;q=0.9,en;q=0.8',
+    'Connection': 'keep-alive',
+    'Upgrade-Insecure-Requests': '1'
+}
 
+# --- 2. FUNCIONES AUXILIARES ---
 def calculate_season_year(target_month, today_date):
     curr_year = today_date.year
     curr_month = today_date.month
-
     if curr_month <= 7:
         if target_month >= 8: return curr_year - 1 
         return curr_year
@@ -70,26 +75,23 @@ def parse_header_text(text, today_date):
     return None
 
 # --- 3. SCRAPERS ---
-
 def scrape_agenda():
-    print("🌍 Extrayendo Agenda...")
+    print("🌍 Extrayendo Agenda...", flush=True)
     agenda = []
     seen = set()
-    headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'}
     UTC = pytz.utc
 
     for url, comp_label in TARGET_URLS_AGENDA.items():
         try:
-            time.sleep(random.uniform(2, 5))
-            r = requests.get(url, headers=headers, timeout=15)
-            if r.status_code != 200: continue
+            time.sleep(random.uniform(2, 4))
+            r = requests.get(url, headers=HEADERS, timeout=15)
+            if r.status_code != 200:
+                print(f"  ❌ Error HTTP {r.status_code} en la agenda: {url}", flush=True)
+                continue
             
             soup = BeautifulSoup(r.content, 'html.parser')
             articles = soup.find_all("article", class_="match")
             
-            if not articles:
-                print(f"⚠️ No se encontraron 'article.match' en {url}. ¿Cambió el HTML?")
-                
             for art in articles:
                 name_tag = art.find("meta", itemprop="name")
                 date_tag = art.find("meta", itemprop="startDate")
@@ -110,28 +112,34 @@ def scrape_agenda():
                 if match_id not in seen:
                     seen.add(match_id)
                     agenda.append({
-                        "title": title, 
-                        "start_ts": ts, 
-                        "time_str": time_formatted,
-                        "channel": channel, 
+                        "title": title, "start_ts": ts, 
+                        "time_str": time_formatted, "channel": channel, 
                         "competition": comp_label
                     })
         except Exception as e:
-            traceback.print_exc()
+            print(f"  ❌ Error en Agenda ({url}): {e}", flush=True)
             continue
     return sorted(agenda, key=lambda x: x['start_ts'])
 
 def scrape_standings():
-    print("📊 Extrayendo Clasificaciones...")
+    print("\n📊 Extrayendo Clasificaciones...", flush=True)
     data_map = {}
-    headers = {'User-Agent': 'Mozilla/5.0'}
     for name, url in URLS_STANDINGS.items():
         try:
-            time.sleep(random.uniform(2, 5))
-            r = requests.get(url, headers=headers, timeout=15)
+            print(f"  -> Conectando a {name}...", flush=True)
+            time.sleep(random.uniform(2, 4))
+            r = requests.get(url, headers=HEADERS, timeout=15)
+            
+            if r.status_code != 200:
+                print(f"  ❌ BLOQUEO HTTP {r.status_code}: La Vanguardia nos rechaza.", flush=True)
+                continue
+                
             soup = BeautifulSoup(r.content, 'html.parser')
             tables = soup.find_all('table')
-            if not tables: continue
+            if not tables: 
+                print(f"  ⚠️ No hay tablas de clasificación en {url}", flush=True)
+                continue
+                
             main_table = max(tables, key=lambda t: len(t.find_all('tr')))
             rows = main_table.find_all('tr')[1:]
             league_data = []
@@ -151,22 +159,30 @@ def scrape_standings():
                 try: dg_val = f"+{int(gf)-int(gc)}" if int(gf)-int(gc) > 0 else str(int(gf)-int(gc))
                 except: dg_val = "0"
                 league_data.append({"rank": rank, "team": team, "points": pts, "played": pj, "won": pg, "drawn": pe, "lost": pp, "gf": gf, "ga": gc, "dg": dg_val})
-            if league_data: data_map[name] = league_data
-        except: continue
+            if league_data: 
+                data_map[name] = league_data
+                print(f"  ✅ Extraídos {len(league_data)} equipos.", flush=True)
+        except Exception as e:
+            print(f"  ❌ Error de código: {e}", flush=True)
+            continue
     return data_map
 
 def scrape_results():
-    print("⚽ Extrayendo Resultados...")
+    print("\n⚽ Extrayendo Resultados...", flush=True)
     results_map = {}
     today = datetime.now(TZ_MADRID).date()
-    headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'}
 
     for name, url in URLS_RESULTS:
         try:
-            time.sleep(random.uniform(2, 5))
-            r = requests.get(url, headers=headers, timeout=15)
-            if r.status_code != 200: continue
+            print(f"  -> Conectando a {name}...", flush=True)
+            time.sleep(random.uniform(2, 4))
+            r = requests.get(url, headers=HEADERS, timeout=15)
             
+            if r.status_code != 200:
+                print(f"  ❌ BLOQUEO HTTP {r.status_code}: Sport.es nos ha bloqueado.", flush=True)
+                continue
+            
+            print(f"  ✅ Conexión exitosa a {name}. Parseando HTML...", flush=True)
             soup = BeautifulSoup(r.content, 'html.parser')
             temp_rounds = []
             current_round_key = ""
@@ -174,13 +190,12 @@ def scrape_results():
 
             tables = soup.find_all('table')
             if not tables:
-                print(f"⚠️ ¡Ojo! No hay etiquetas <table> en {url}. Han cambiado el diseño por completo.")
+                print(f"  ⚠️ ¡Ojo! No hay etiquetas <table>. Han cambiado el diseño.", flush=True)
                 continue
 
             for table in tables:
                 current_header_date = None
                 round_match_dates = []
-                
                 cap = table.find("caption")
                 orig_title = "Jornada"
                 if cap and cap.find("h2"):
@@ -192,8 +207,8 @@ def scrape_results():
                 if any(kw in orig_title.upper() for kw in ["FIFA", "WOMEN"]): continue
                 final_title = orig_title
                 matches = []
-                
                 rows = table.find_all('tr')
+                
                 for row in rows:
                     th_date = row.find("th", class_="textoizda")
                     if th_date:
@@ -268,16 +283,8 @@ def scrape_results():
                             "status": status_val
                         })
 
-                # --- DOCUMENTACIÓN DE CÓDIGO: DEEP DEBUGGING ---
-                # Si hemos iterado por toda la tabla, hay filas (len > 1), pero no logramos extraer partidos, 
-                # imprimimos el código fuente para investigarlo.
                 if not matches and len(rows) > 1:
-                    print(f"\n⚠️ ALERTA DEBUG: Tabla '{final_title}' procesada pero con 0 partidos.")
-                    print("Aquí tienes el HTML de la primera fila de datos para adaptar los selectores:")
-                    # Imprimimos los primeros 500 caracteres de la fila 1 (la 0 suele ser cabecera) para no saturar la consola
-                    print(rows[1].prettify()[:500])
-                    print("-" * 50)
-                # ------------------------------------------------
+                    print(f"  ⚠️ ALERTA DEBUG: Tabla '{final_title}' procesada pero con 0 partidos.", flush=True)
 
                 if not current_found and round_match_dates:
                     max_d = max(round_match_dates)
@@ -290,6 +297,7 @@ def scrape_results():
                     temp_rounds.append({"key": final_title, "matches": matches})
 
             if temp_rounds:
+                print(f"  🏆 Extraídas {len(temp_rounds)} jornadas con éxito.", flush=True)
                 def_current = current_round_key if current_round_key else temp_rounds[-1]["key"]
                 results_map[name] = {
                     "rounds": {r["key"]: r["matches"] for r in temp_rounds},
@@ -297,12 +305,13 @@ def scrape_results():
                 }
 
         except Exception as e:
-            traceback.print_exc()
+            print(f"  ❌ Error crítico en {url}: {e}", flush=True)
             continue
     return results_map
 
 if __name__ == "__main__":
+    print("Iniciando Actualización...", flush=True)
     with open(CALENDAR_FILE, 'w', encoding='utf-8') as f: json.dump(scrape_agenda(), f, indent=2, ensure_ascii=False)
     with open(STANDINGS_FILE, 'w', encoding='utf-8') as f: json.dump(scrape_standings(), f, indent=2, ensure_ascii=False)
     with open(RESULTS_FILE, 'w', encoding='utf-8') as f: json.dump(scrape_results(), f, indent=2, ensure_ascii=False)
-    print("🎉 Datos generados.")
+    print("\n🎉 Datos generados correctamente.", flush=True)
