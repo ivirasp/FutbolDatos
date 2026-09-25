@@ -8,7 +8,7 @@ import time
 import random
 from datetime import datetime, date
 import pytz
-import traceback  # <--- NUEVO: Para ver exactamente dónde falla el código
+import traceback
 
 # --- 1. CONFIGURACIÓN ---
 TZ_MADRID = pytz.timezone('Europe/Madrid')
@@ -49,10 +49,10 @@ def calculate_season_year(target_month, today_date):
     curr_month = today_date.month
 
     if curr_month <= 7:
-        if target_month >= 8: return curr_year - 1
+        if target_month >= 8: return curr_year - 1 
         return curr_year
     else:
-        if target_month <= 7: return curr_year + 1
+        if target_month <= 7: return curr_year + 1 
         return curr_year
 
 def parse_header_text(text, today_date):
@@ -66,8 +66,7 @@ def parse_header_text(text, today_date):
             if month > 0:
                 year = calculate_season_year(month, today_date)
                 return date(year, month, day)
-    except Exception as e:
-        print(f"Error parseando fecha '{text}': {e}")
+    except: pass
     return None
 
 # --- 3. SCRAPERS ---
@@ -83,12 +82,8 @@ def scrape_agenda():
         try:
             time.sleep(random.uniform(2, 5))
             r = requests.get(url, headers=headers, timeout=15)
+            if r.status_code != 200: continue
             
-            # Comprobar si la web nos ha bloqueado (Error 403, 404, 429...)
-            if r.status_code != 200:
-                print(f"⚠️ ¡Atención! {url} devolvió código de error: {r.status_code}")
-                continue
-
             soup = BeautifulSoup(r.content, 'html.parser')
             articles = soup.find_all("article", class_="match")
             
@@ -101,16 +96,16 @@ def scrape_agenda():
                 if not name_tag or not date_tag: continue
                 title = name_tag.get("content", "").strip()
                 date_str = date_tag.get("content", "").split('+')[0]
-
+                
                 dt_naive = datetime.strptime(date_str, "%Y-%m-%dT%H:%M:%S")
                 dt_utc = UTC.localize(dt_naive)
                 dt_madrid = dt_utc.astimezone(TZ_MADRID)
                 ts = dt_madrid.timestamp()
                 time_formatted = dt_madrid.strftime("%H:%M")
-
+                
                 chan_span = art.find("span", itemprop="name")
                 channel = chan_span.get_text(strip=True) if chan_span else "TBD"
-
+                
                 match_id = f"{title}_{ts}"
                 if match_id not in seen:
                     seen.add(match_id)
@@ -122,7 +117,6 @@ def scrape_agenda():
                         "competition": comp_label
                     })
         except Exception as e:
-            print(f"❌ Error crítico en Agenda ({url}):")
             traceback.print_exc()
             continue
     return sorted(agenda, key=lambda x: x['start_ts'])
@@ -130,21 +124,14 @@ def scrape_agenda():
 def scrape_standings():
     print("📊 Extrayendo Clasificaciones...")
     data_map = {}
-    headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64)'}
+    headers = {'User-Agent': 'Mozilla/5.0'}
     for name, url in URLS_STANDINGS.items():
         try:
             time.sleep(random.uniform(2, 5))
             r = requests.get(url, headers=headers, timeout=15)
-            if r.status_code != 200:
-                print(f"⚠️ ¡Atención! {url} devolvió error: {r.status_code}")
-                continue
-                
             soup = BeautifulSoup(r.content, 'html.parser')
             tables = soup.find_all('table')
-            if not tables: 
-                print(f"⚠️ No se encontraron tablas de clasificación en {url}.")
-                continue
-                
+            if not tables: continue
             main_table = max(tables, key=lambda t: len(t.find_all('tr')))
             rows = main_table.find_all('tr')[1:]
             league_data = []
@@ -165,10 +152,7 @@ def scrape_standings():
                 except: dg_val = "0"
                 league_data.append({"rank": rank, "team": team, "points": pts, "played": pj, "won": pg, "drawn": pe, "lost": pp, "gf": gf, "ga": gc, "dg": dg_val})
             if league_data: data_map[name] = league_data
-        except Exception as e:
-            print(f"❌ Error crítico en Clasificación ({url}):")
-            traceback.print_exc()
-            continue
+        except: continue
     return data_map
 
 def scrape_results():
@@ -181,10 +165,8 @@ def scrape_results():
         try:
             time.sleep(random.uniform(2, 5))
             r = requests.get(url, headers=headers, timeout=15)
-            if r.status_code != 200:
-                print(f"⚠️ ¡Atención! {url} devolvió error: {r.status_code}")
-                continue
-                
+            if r.status_code != 200: continue
+            
             soup = BeautifulSoup(r.content, 'html.parser')
             temp_rounds = []
             current_round_key = ""
@@ -192,12 +174,13 @@ def scrape_results():
 
             tables = soup.find_all('table')
             if not tables:
-                print(f"⚠️ No se encontraron tablas de resultados en {url}.")
+                print(f"⚠️ ¡Ojo! No hay etiquetas <table> en {url}. Han cambiado el diseño por completo.")
                 continue
 
             for table in tables:
                 current_header_date = None
                 round_match_dates = []
+                
                 cap = table.find("caption")
                 orig_title = "Jornada"
                 if cap and cap.find("h2"):
@@ -210,7 +193,8 @@ def scrape_results():
                 final_title = orig_title
                 matches = []
                 
-                for row in table.find_all('tr'):
+                rows = table.find_all('tr')
+                for row in rows:
                     th_date = row.find("th", class_="textoizda")
                     if th_date:
                         parsed_date = parse_header_text(th_date.get_text(strip=True), today)
@@ -284,6 +268,17 @@ def scrape_results():
                             "status": status_val
                         })
 
+                # --- DOCUMENTACIÓN DE CÓDIGO: DEEP DEBUGGING ---
+                # Si hemos iterado por toda la tabla, hay filas (len > 1), pero no logramos extraer partidos, 
+                # imprimimos el código fuente para investigarlo.
+                if not matches and len(rows) > 1:
+                    print(f"\n⚠️ ALERTA DEBUG: Tabla '{final_title}' procesada pero con 0 partidos.")
+                    print("Aquí tienes el HTML de la primera fila de datos para adaptar los selectores:")
+                    # Imprimimos los primeros 500 caracteres de la fila 1 (la 0 suele ser cabecera) para no saturar la consola
+                    print(rows[1].prettify()[:500])
+                    print("-" * 50)
+                # ------------------------------------------------
+
                 if not current_found and round_match_dates:
                     max_d = max(round_match_dates)
                     if max_d >= today:
@@ -302,7 +297,6 @@ def scrape_results():
                 }
 
         except Exception as e:
-            print(f"❌ Error crítico en Resultados ({url}):")
             traceback.print_exc()
             continue
     return results_map
