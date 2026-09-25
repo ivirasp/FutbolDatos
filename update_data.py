@@ -99,20 +99,38 @@ def scrape_agenda():
                 
             count = 0 # Contador para ver cuántos partidos extraemos
             for art in articles:
-                name_tag = art.find("meta", itemprop="name")
-                date_tag = art.find("meta", itemprop="startDate")
-                if not name_tag or not date_tag: continue
-                title = name_tag.get("content", "").strip()
-                date_str = date_tag.get("content", "").split('+')[0]
+                # --- NUEVOS SELECTORES BASADOS EN EL NUEVO HTML ---
                 
-                dt_naive = datetime.strptime(date_str, "%Y-%m-%dT%H:%M:%S")
-                dt_utc = UTC.localize(dt_naive)
-                dt_madrid = dt_utc.astimezone(TZ_MADRID)
-                ts = dt_madrid.timestamp()
-                time_formatted = dt_madrid.strftime("%H:%M")
+                # 1. Equipos (Buscamos los dos span con la clase match_teamName)
+                teams = art.find_all("span", class_="match_teamName")
+                if len(teams) < 2: continue
+                title = f"{teams[0].get_text(strip=True)} vs {teams[1].get_text(strip=True)}"
                 
-                chan_span = art.find("span", itemprop="name")
-                channel = chan_span.get_text(strip=True) if chan_span else "TBD"
+                # 2. Fecha y hora (Buscamos la etiqueta <time>)
+                time_tag = art.find("time")
+                if not time_tag: continue
+                
+                # El datetime viene como "2026-10-11T12:00:00Z", quitamos la 'Z' para parsear fácil
+                date_str = time_tag.get("datetime", "").replace('Z', '')
+                
+                try:
+                    dt_naive = datetime.strptime(date_str, "%Y-%m-%dT%H:%M:%S")
+                    dt_utc = UTC.localize(dt_naive)
+                    dt_madrid = dt_utc.astimezone(TZ_MADRID)
+                    ts = dt_madrid.timestamp()
+                    time_formatted = dt_madrid.strftime("%H:%M")
+                except Exception as e:
+                    print(f"  ❌ Error procesando fecha {date_str}: {e}")
+                    continue
+                
+                # 3. Canales (Buscamos los botones con clase match_channel)
+                # Usamos lambda para que acepte variaciones como "match_channel match_channel--paid"
+                channel_buttons = art.find_all("button", class_=lambda c: c and "match_channel" in c)
+                if channel_buttons:
+                    # Si hay varios canales (ej: DAZN y DAZN LaLiga), los unimos con una barra
+                    channel = " / ".join([btn.get_text(strip=True) for btn in channel_buttons])
+                else:
+                    channel = "TBD"
                 
                 match_id = f"{title}_{ts}"
                 if match_id not in seen:
@@ -131,6 +149,7 @@ def scrape_agenda():
             print(f"  ❌ Error en Agenda ({url}): {e}", flush=True)
             continue
             
+    return sorted(agenda, key=lambda x: x['start_ts'])
     return sorted(agenda, key=lambda x: x['start_ts'])
 
 def scrape_standings():
