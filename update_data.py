@@ -8,6 +8,7 @@ import time
 import random
 from datetime import datetime, date
 import pytz
+import traceback  # <--- NUEVO: Para ver exactamente dónde falla el código
 
 # --- 1. CONFIGURACIÓN ---
 TZ_MADRID = pytz.timezone('Europe/Madrid')
@@ -44,30 +45,19 @@ MONTH_MAP = {
 # --- 2. FUNCIONES AUXILIARES ---
 
 def calculate_season_year(target_month, today_date):
-    """
-    Calcula el año de la fecha leída basándose en la temporada actual.
-    Ejemplo: Si estamos en Enero 2026 y leemos 'Septiembre', debe ser 2025.
-    """
     curr_year = today_date.year
     curr_month = today_date.month
 
-    # Estamos en 2ª mitad de temporada (Ene-Jul)
     if curr_month <= 7:
-        if target_month >= 8: return curr_year - 1 # Septiembre es del año pasado
-        return curr_year # Febrero es de este año
-
-    # Estamos en 1ª mitad de temporada (Ago-Dic)
+        if target_month >= 8: return curr_year - 1
+        return curr_year
     else:
-        if target_month <= 7: return curr_year + 1 # Febrero es del año que viene
-        return curr_year # Septiembre es de este año
+        if target_month <= 7: return curr_year + 1
+        return curr_year
 
 def parse_header_text(text, today_date):
-    """
-    Extrae fecha de: 'Viernes, 18 de Septiembre' -> date(2025, 9, 18)
-    """
     try:
         text = text.lower()
-        # Buscamos patrón: "18 de septiembre"
         match = re.search(r"(\d+)\s+de\s+(\w+)", text)
         if match:
             day = int(match.group(1))
@@ -76,7 +66,8 @@ def parse_header_text(text, today_date):
             if month > 0:
                 year = calculate_season_year(month, today_date)
                 return date(year, month, day)
-    except: pass
+    except Exception as e:
+        print(f"Error parseando fecha '{text}': {e}")
     return None
 
 # --- 3. SCRAPERS ---
@@ -86,16 +77,24 @@ def scrape_agenda():
     agenda = []
     seen = set()
     headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'}
-
-    # Definimos UTC explícitamente para evitar confusiones
     UTC = pytz.utc
 
     for url, comp_label in TARGET_URLS_AGENDA.items():
         try:
             time.sleep(random.uniform(2, 5))
             r = requests.get(url, headers=headers, timeout=15)
+            
+            # Comprobar si la web nos ha bloqueado (Error 403, 404, 429...)
+            if r.status_code != 200:
+                print(f"⚠️ ¡Atención! {url} devolvió código de error: {r.status_code}")
+                continue
+
             soup = BeautifulSoup(r.content, 'html.parser')
             articles = soup.find_all("article", class_="match")
+            
+            if not articles:
+                print(f"⚠️ No se encontraron 'article.match' en {url}. ¿Cambió el HTML?")
+                
             for art in articles:
                 name_tag = art.find("meta", itemprop="name")
                 date_tag = art.find("meta", itemprop="startDate")
@@ -103,19 +102,10 @@ def scrape_agenda():
                 title = name_tag.get("content", "").strip()
                 date_str = date_tag.get("content", "").split('+')[0]
 
-                # 1. Parseamos la fecha tal cual viene (ej: 19:00)
                 dt_naive = datetime.strptime(date_str, "%Y-%m-%dT%H:%M:%S")
-
-                # 2. Le decimos a Python: "Oye, esta fecha bruta es UTC"
                 dt_utc = UTC.localize(dt_naive)
-
-                # 3. Ahora CONVIERTE esa hora UTC a hora de Madrid (+1 o +2 según toque)
                 dt_madrid = dt_utc.astimezone(TZ_MADRID)
-
-                # Guardamos el timestamp correcto
                 ts = dt_madrid.timestamp()
-
-                # Formateamos la hora YA convertida (ej: saldrá 20:00 en vez de 19:00)
                 time_formatted = dt_madrid.strftime("%H:%M")
 
                 chan_span = art.find("span", itemprop="name")
@@ -127,24 +117,34 @@ def scrape_agenda():
                     agenda.append({
                         "title": title, 
                         "start_ts": ts, 
-                        "time_str": time_formatted, # Ahora sí llevará la hora correcta
+                        "time_str": time_formatted,
                         "channel": channel, 
                         "competition": comp_label
                     })
-        except: continue
+        except Exception as e:
+            print(f"❌ Error crítico en Agenda ({url}):")
+            traceback.print_exc()
+            continue
     return sorted(agenda, key=lambda x: x['start_ts'])
 
 def scrape_standings():
     print("📊 Extrayendo Clasificaciones...")
     data_map = {}
-    headers = {'User-Agent': 'Mozilla/5.0'}
+    headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64)'}
     for name, url in URLS_STANDINGS.items():
         try:
             time.sleep(random.uniform(2, 5))
             r = requests.get(url, headers=headers, timeout=15)
+            if r.status_code != 200:
+                print(f"⚠️ ¡Atención! {url} devolvió error: {r.status_code}")
+                continue
+                
             soup = BeautifulSoup(r.content, 'html.parser')
             tables = soup.find_all('table')
-            if not tables: continue
+            if not tables: 
+                print(f"⚠️ No se encontraron tablas de clasificación en {url}.")
+                continue
+                
             main_table = max(tables, key=lambda t: len(t.find_all('tr')))
             rows = main_table.find_all('tr')[1:]
             league_data = []
@@ -165,29 +165,39 @@ def scrape_standings():
                 except: dg_val = "0"
                 league_data.append({"rank": rank, "team": team, "points": pts, "played": pj, "won": pg, "drawn": pe, "lost": pp, "gf": gf, "ga": gc, "dg": dg_val})
             if league_data: data_map[name] = league_data
-        except: continue
+        except Exception as e:
+            print(f"❌ Error crítico en Clasificación ({url}):")
+            traceback.print_exc()
+            continue
     return data_map
 
 def scrape_results():
-    print("⚽ Extrayendo Resultados (Corregido: Prioridad Headers TH)...")
+    print("⚽ Extrayendo Resultados...")
     results_map = {}
     today = datetime.now(TZ_MADRID).date()
+    headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'}
 
     for name, url in URLS_RESULTS:
         try:
             time.sleep(random.uniform(2, 5))
-            r = requests.get(url, headers={'User-Agent': 'Mozilla/5.0'}, timeout=15)
+            r = requests.get(url, headers=headers, timeout=15)
+            if r.status_code != 200:
+                print(f"⚠️ ¡Atención! {url} devolvió error: {r.status_code}")
+                continue
+                
             soup = BeautifulSoup(r.content, 'html.parser')
             temp_rounds = []
             current_round_key = ""
             current_found = False
 
-            # Recorrer cada tabla (Jornada)
-            for table in soup.find_all('table'):
-                current_header_date = None # Fecha activa para los partidos de este grupo
-                round_match_dates = [] # Para calcular la jornada actual
+            tables = soup.find_all('table')
+            if not tables:
+                print(f"⚠️ No se encontraron tablas de resultados en {url}.")
+                continue
 
-                # 1. Título Jornada
+            for table in tables:
+                current_header_date = None
+                round_match_dates = []
                 cap = table.find("caption")
                 orig_title = "Jornada"
                 if cap and cap.find("h2"):
@@ -198,50 +208,31 @@ def scrape_results():
 
                 if any(kw in orig_title.upper() for kw in ["FIFA", "WOMEN"]): continue
                 final_title = orig_title
-
-                # 2. Iterar filas buscando cabeceras TH y partidos
                 matches = []
+                
                 for row in table.find_all('tr'):
-
-                    # --- A. DETECTAR CABECERA DE FECHA (Lo que el usuario pidió) ---
-                    # <th class="textoizda">Viernes, 18 de Septiembre</th>
                     th_date = row.find("th", class_="textoizda")
                     if th_date:
                         parsed_date = parse_header_text(th_date.get_text(strip=True), today)
                         if parsed_date:
                             current_header_date = parsed_date
-                        continue # Pasamos a la siguiente fila, esta era solo header
+                        continue
 
-                    # --- B. DETECTAR PARTIDO ---
                     tds = row.find_all('td')
                     if len(tds) < 3: continue
 
-                    # 1. STATUS / HORA
                     status_val = ""
                     time_tag = row.find('time')
                     if time_tag:
-                        # Extraemos texto visual (21:00)
                         status_text = time_tag.get_text(strip=True)
                         if ":" not in status_text and status_text: 
-                            status_val = status_text # Es un estado tipo "Fin"
+                            status_val = status_text
 
-                        # IMPORTANTE: NO usamos time['datetime'] para la FECHA si es 1970
-                        # Solo confiamos en time tag si no tenemos cabecera y el año es razonable
-                        pass 
-
-                    # Fallback status (última columna)
                     if not status_val and len(tds) >= 4:
                         last = tds[-1].get_text(strip=True)
                         if "Fin" in last or "Desc" in last: status_val = last
 
-                    # 2. FECHA DEL PARTIDO
-                    match_date = None
-
-                    # Opción A: Heredar de la cabecera TH (Prioridad Máxima en Champions/Copa)
-                    if current_header_date:
-                        match_date = current_header_date
-
-                    # Opción B: Fecha explícita en columna 0 (típico LaLiga: "18/09")
+                    match_date = current_header_date
                     if not match_date:
                         txt_c0 = tds[0].get_text(strip=True)
                         m_d = re.search(r'(\d{2})/(\d{2})', txt_c0)
@@ -250,28 +241,24 @@ def scrape_results():
                             y = calculate_season_year(m, today)
                             match_date = date(y, m, d)
 
-                    # Si conseguimos fecha válida, la guardamos
                     date_str = ""
                     if match_date:
                         round_match_dates.append(match_date)
                         date_str = match_date.strftime("%d-%m-%Y")
 
-                    # 3. EQUIPOS
                     home, away = "", ""
-                    # Home
                     home_td = row.find("td", class_="textodcha")
                     if home_td:
                         a = home_td.find("a", class_="geca_enlace_equipo")
                         home = a["title"] if a and a.has_attr("title") else home_td.get_text(strip=True)
                     elif len(tds) > 1: home = tds[1].get_text(strip=True)
-                    # Away
+                    
                     away_td = row.find("td", class_="textoizda")
                     if away_td:
                         a = away_td.find("a", class_="geca_enlace_equipo")
                         away = a["title"] if a and a.has_attr("title") else away_td.get_text(strip=True)
                     elif len(tds) > 3: away = tds[3].get_text(strip=True)
 
-                    # 4. RESULTADO
                     final_score = "vs"
                     candidates = []
                     score_a = row.find('a', class_='geca_enlace_partido')
@@ -297,8 +284,6 @@ def scrape_results():
                             "status": status_val
                         })
 
-                # --- CÁLCULO JORNADA ACTUAL ---
-                # Si esta jornada tiene fechas y la última fecha es >= HOY -> Es la actual
                 if not current_found and round_match_dates:
                     max_d = max(round_match_dates)
                     if max_d >= today:
@@ -316,11 +301,14 @@ def scrape_results():
                     "current": def_current
                 }
 
-        except: continue
+        except Exception as e:
+            print(f"❌ Error crítico en Resultados ({url}):")
+            traceback.print_exc()
+            continue
     return results_map
 
 if __name__ == "__main__":
-    with open(CALENDAR_FILE, 'w') as f: json.dump(scrape_agenda(), f, indent=2)
-    with open(STANDINGS_FILE, 'w') as f: json.dump(scrape_standings(), f, indent=2)
-    with open(RESULTS_FILE, 'w') as f: json.dump(scrape_results(), f, indent=2)
+    with open(CALENDAR_FILE, 'w', encoding='utf-8') as f: json.dump(scrape_agenda(), f, indent=2, ensure_ascii=False)
+    with open(STANDINGS_FILE, 'w', encoding='utf-8') as f: json.dump(scrape_standings(), f, indent=2, ensure_ascii=False)
+    with open(RESULTS_FILE, 'w', encoding='utf-8') as f: json.dump(scrape_results(), f, indent=2, ensure_ascii=False)
     print("🎉 Datos generados.")
