@@ -83,6 +83,7 @@ def scrape_agenda():
 
     for url, comp_label in TARGET_URLS_AGENDA.items():
         try:
+            print(f"  -> Conectando a Agenda {comp_label}...", flush=True)
             time.sleep(random.uniform(2, 4))
             r = requests.get(url, headers=HEADERS, timeout=15)
             if r.status_code != 200:
@@ -92,6 +93,11 @@ def scrape_agenda():
             soup = BeautifulSoup(r.content, 'html.parser')
             articles = soup.find_all("article", class_="match")
             
+            if not articles:
+                print(f"  ⚠️ No se encontraron partidos en {url}. ¿La web está vacía hoy?", flush=True)
+                continue
+                
+            count = 0 # Contador para ver cuántos partidos extraemos
             for art in articles:
                 name_tag = art.find("meta", itemprop="name")
                 date_tag = art.find("meta", itemprop="startDate")
@@ -116,9 +122,15 @@ def scrape_agenda():
                         "time_str": time_formatted, "channel": channel, 
                         "competition": comp_label
                     })
+                    count += 1
+            
+            # Imprimimos la cantidad de partidos encontrados con éxito
+            print(f"  ✅ Extraídos {count} partidos de {comp_label}.", flush=True)
+            
         except Exception as e:
             print(f"  ❌ Error en Agenda ({url}): {e}", flush=True)
             continue
+            
     return sorted(agenda, key=lambda x: x['start_ts'])
 
 def scrape_standings():
