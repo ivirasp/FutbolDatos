@@ -723,37 +723,37 @@
       ],
       "Jornada 11": [
         {
-          "date": "01-11-2026",
-          "home": "Racing de Santander",
-          "away": "Real Madrid",
-          "score": "vs",
-          "status": ""
-        },
-        {
-          "date": "01-11-2026",
+          "date": "30-10-2026",
           "home": "Villarreal",
           "away": "Espanyol",
           "score": "vs",
           "status": ""
         },
         {
-          "date": "01-11-2026",
-          "home": "Real Betis",
-          "away": "Málaga",
+          "date": "31-10-2026",
+          "home": "Levante",
+          "away": "Atlético de Madrid",
           "score": "vs",
           "status": ""
         },
         {
-          "date": "01-11-2026",
+          "date": "31-10-2026",
           "home": "Rayo Vallecano",
           "away": "Celta de Vigo",
           "score": "vs",
           "status": ""
         },
         {
-          "date": "01-11-2026",
-          "home": "Levante",
-          "away": "Atlético de Madrid",
+          "date": "31-10-2026",
+          "home": "Real Betis",
+          "away": "Málaga",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "31-10-2026",
+          "home": "FC Barcelona",
+          "away": "Alavés",
           "score": "vs",
           "status": ""
         },
@@ -766,6 +766,13 @@
         },
         {
           "date": "01-11-2026",
+          "home": "Racing de Santander",
+          "away": "Real Madrid",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "01-11-2026",
           "home": "Elche",
           "away": "Valencia CF",
           "score": "vs",
@@ -773,22 +780,15 @@
         },
         {
           "date": "01-11-2026",
-          "home": "Deportivo de A Coruña",
-          "away": "Osasuna",
-          "score": "vs",
-          "status": ""
-        },
-        {
-          "date": "01-11-2026",
-          "home": "FC Barcelona",
-          "away": "Alavés",
-          "score": "vs",
-          "status": ""
-        },
-        {
-          "date": "01-11-2026",
           "home": "Athletic Club",
           "away": "Real Sociedad",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "02-11-2026",
+          "home": "Deportivo de A Coruña",
+          "away": "Osasuna",
           "score": "vs",
           "status": ""
         }
