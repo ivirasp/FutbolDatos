@@ -122,6 +122,18 @@
     },
     {
       "rank": "11",
+      "team": "Espanyol",
+      "points": "8",
+      "played": "8",
+      "won": "2",
+      "drawn": "2",
+      "lost": "4",
+      "gf": "11",
+      "ga": "11",
+      "dg": "0"
+    },
+    {
+      "rank": "12",
       "team": "Getafe",
       "points": "8",
       "played": "7",
@@ -133,7 +145,7 @@
       "dg": "-3"
     },
     {
-      "rank": "12",
+      "rank": "13",
       "team": "Rayo Vallecano",
       "points": "8",
       "played": "7",
@@ -145,7 +157,7 @@
       "dg": "-5"
     },
     {
-      "rank": "13",
+      "rank": "14",
       "team": "Osasuna",
       "points": "8",
       "played": "7",
@@ -157,7 +169,7 @@
       "dg": "-7"
     },
     {
-      "rank": "14",
+      "rank": "15",
       "team": "Celta",
       "points": "7",
       "played": "7",
@@ -167,18 +179,6 @@
       "gf": "8",
       "ga": "6",
       "dg": "+2"
-    },
-    {
-      "rank": "15",
-      "team": "Espanyol",
-      "points": "7",
-      "played": "7",
-      "won": "2",
-      "drawn": "1",
-      "lost": "4",
-      "gf": "10",
-      "ga": "10",
-      "dg": "0"
     },
     {
       "rank": "16",
@@ -231,13 +231,13 @@
     {
       "rank": "20",
       "team": "Málaga",
-      "points": "3",
-      "played": "7",
+      "points": "4",
+      "played": "8",
       "won": "0",
-      "drawn": "3",
+      "drawn": "4",
       "lost": "4",
-      "gf": "3",
-      "ga": "12",
+      "gf": "4",
+      "ga": "13",
       "dg": "-9"
     }
   ],
