@@ -517,29 +517,29 @@
           "date": "10-10-2026",
           "home": "Rayo Vallecano",
           "away": "Athletic Club",
-          "score": "0 - 0",
+          "score": "vs",
           "status": ""
         },
         {
           "date": "10-10-2026",
           "home": "Alavés",
           "away": "Atlético de Madrid",
-          "score": "0 - 0",
-          "status": ""
+          "score": "1 - 2",
+          "status": "Fin"
         },
         {
           "date": "10-10-2026",
           "home": "FC Barcelona",
           "away": "Getafe",
-          "score": "vs",
-          "status": ""
+          "score": "3 - 0",
+          "status": "Fin"
         },
         {
           "date": "10-10-2026",
           "home": "Real Madrid",
           "away": "Villarreal",
-          "score": "vs",
-          "status": ""
+          "score": "1 - 0",
+          "status": "Fin"
         },
         {
           "date": "11-10-2026",
