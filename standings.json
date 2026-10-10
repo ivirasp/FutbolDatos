@@ -3,26 +3,26 @@
     {
       "rank": "1",
       "team": "FC Barcelona",
-      "points": "21",
-      "played": "7",
-      "won": "7",
+      "points": "24",
+      "played": "8",
+      "won": "8",
       "drawn": "0",
       "lost": "0",
-      "gf": "31",
+      "gf": "32",
       "ga": "7",
-      "dg": "+24"
+      "dg": "+25"
     },
     {
       "rank": "2",
       "team": "Atlético de Madrid",
-      "points": "16",
-      "played": "7",
-      "won": "5",
+      "points": "19",
+      "played": "8",
+      "won": "6",
       "drawn": "1",
       "lost": "1",
-      "gf": "16",
-      "ga": "7",
-      "dg": "+9"
+      "gf": "18",
+      "ga": "8",
+      "dg": "+10"
     },
     {
       "rank": "3",
@@ -64,13 +64,13 @@
       "rank": "6",
       "team": "Deportivo Alavés",
       "points": "11",
-      "played": "7",
+      "played": "8",
       "won": "3",
       "drawn": "2",
-      "lost": "2",
-      "gf": "11",
-      "ga": "6",
-      "dg": "+5"
+      "lost": "3",
+      "gf": "12",
+      "ga": "8",
+      "dg": "+4"
     },
     {
       "rank": "7",
@@ -136,13 +136,13 @@
       "rank": "12",
       "team": "Getafe",
       "points": "8",
-      "played": "7",
+      "played": "8",
       "won": "2",
       "drawn": "2",
-      "lost": "3",
+      "lost": "4",
       "gf": "4",
-      "ga": "7",
-      "dg": "-3"
+      "ga": "8",
+      "dg": "-4"
     },
     {
       "rank": "13",
