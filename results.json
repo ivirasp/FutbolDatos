@@ -517,7 +517,7 @@
           "date": "10-10-2026",
           "home": "Rayo Vallecano",
           "away": "Athletic Club",
-          "score": "vs",
+          "score": "0 - 0",
           "status": ""
         },
         {
@@ -546,28 +546,28 @@
           "home": "Elche",
           "away": "Celta de Vigo",
           "score": "0 - 0",
-          "status": ""
+          "status": "Fin"
         },
         {
           "date": "11-10-2026",
           "home": "Real Sociedad",
           "away": "Deportivo de A Coruña",
-          "score": "vs",
-          "status": ""
+          "score": "3 - 2",
+          "status": "Fin"
         },
         {
           "date": "11-10-2026",
           "home": "Real Betis",
           "away": "Osasuna",
-          "score": "vs",
-          "status": ""
+          "score": "5 - 2",
+          "status": "Fin"
         },
         {
           "date": "11-10-2026",
           "home": "Racing de Santander",
           "away": "Valencia CF",
-          "score": "vs",
-          "status": ""
+          "score": "2 - 2",
+          "status": "Fin"
         },
         {
           "date": "12-10-2026",
