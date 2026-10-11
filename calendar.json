@@ -1,33 +1,5 @@
 [
   {
-    "title": "Rayo Vallecano vs Athletic Club",
-    "start_ts": 1791633600.0,
-    "time_str": "14:00",
-    "channel": "DAZN LaLiga / DAZN",
-    "competition": "LALIGA"
-  },
-  {
-    "title": "Alavés vs Atlético de Madrid",
-    "start_ts": 1791641700.0,
-    "time_str": "16:15",
-    "channel": "M+ LaLiga",
-    "competition": "LALIGA"
-  },
-  {
-    "title": "Barcelona vs Getafe",
-    "start_ts": 1791649800.0,
-    "time_str": "18:30",
-    "channel": "DAZN LaLiga / DAZN",
-    "competition": "LALIGA"
-  },
-  {
-    "title": "Real Madrid vs Villarreal",
-    "start_ts": 1791658800.0,
-    "time_str": "21:00",
-    "channel": "M+ LaLiga / Movistar Plus+ / Orange Fútbol 1",
-    "competition": "LALIGA"
-  },
-  {
     "title": "Elche vs Celta",
     "start_ts": 1791720000.0,
     "time_str": "14:00",
@@ -235,6 +207,34 @@
     "start_ts": 1792263600.0,
     "time_str": "21:00",
     "channel": "M+ LaLiga / Movistar Plus+ / Orange Fútbol 1",
+    "competition": "LALIGA"
+  },
+  {
+    "title": "Osasuna vs Racing de Santander",
+    "start_ts": 1792324800.0,
+    "time_str": "14:00",
+    "channel": "M+ LaLiga",
+    "competition": "LALIGA"
+  },
+  {
+    "title": "Celta vs Alavés",
+    "start_ts": 1792332900.0,
+    "time_str": "16:15",
+    "channel": "DAZN LaLiga / DAZN",
+    "competition": "LALIGA"
+  },
+  {
+    "title": "Málaga vs Real Sociedad",
+    "start_ts": 1792341000.0,
+    "time_str": "18:30",
+    "channel": "M+ LaLiga",
+    "competition": "LALIGA"
+  },
+  {
+    "title": "Real Madrid vs Sevilla",
+    "start_ts": 1792350000.0,
+    "time_str": "21:00",
+    "channel": "M+ LaLiga",
     "competition": "LALIGA"
   },
   {
