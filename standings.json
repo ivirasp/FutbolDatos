@@ -51,14 +51,14 @@
     {
       "rank": "5",
       "team": "Sevilla",
-      "points": "13",
-      "played": "7",
-      "won": "4",
+      "points": "16",
+      "played": "8",
+      "won": "5",
       "drawn": "1",
       "lost": "2",
-      "gf": "10",
-      "ga": "9",
-      "dg": "+1"
+      "gf": "13",
+      "ga": "11",
+      "dg": "+2"
     },
     {
       "rank": "6",
@@ -208,13 +208,13 @@
       "rank": "18",
       "team": "Levante",
       "points": "5",
-      "played": "6",
+      "played": "7",
       "won": "1",
       "drawn": "2",
-      "lost": "3",
-      "gf": "8",
-      "ga": "12",
-      "dg": "-4"
+      "lost": "4",
+      "gf": "10",
+      "ga": "15",
+      "dg": "-5"
     },
     {
       "rank": "19",
