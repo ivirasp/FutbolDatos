@@ -1,33 +1,5 @@
 [
   {
-    "title": "Elche vs Celta",
-    "start_ts": 1791720000.0,
-    "time_str": "14:00",
-    "channel": "M+ LaLiga",
-    "competition": "LALIGA"
-  },
-  {
-    "title": "Real Sociedad vs Deportivo",
-    "start_ts": 1791728100.0,
-    "time_str": "16:15",
-    "channel": "DAZN LaLiga / DAZN",
-    "competition": "LALIGA"
-  },
-  {
-    "title": "Betis vs Osasuna",
-    "start_ts": 1791736200.0,
-    "time_str": "18:30",
-    "channel": "M+ LaLiga",
-    "competition": "LALIGA"
-  },
-  {
-    "title": "Racing de Santander vs Valencia",
-    "start_ts": 1791745200.0,
-    "time_str": "21:00",
-    "channel": "DAZN LaLiga / DAZN",
-    "competition": "LALIGA"
-  },
-  {
     "title": "Levante vs Sevilla",
     "start_ts": 1791831600.0,
     "time_str": "21:00",
@@ -235,6 +207,13 @@
     "start_ts": 1792350000.0,
     "time_str": "21:00",
     "channel": "M+ LaLiga",
+    "competition": "LALIGA"
+  },
+  {
+    "title": "Getafe vs Rayo Vallecano",
+    "start_ts": 1792436400.0,
+    "time_str": "21:00",
+    "channel": "DAZN LaLiga / DAZN",
     "competition": "LALIGA"
   },
   {
