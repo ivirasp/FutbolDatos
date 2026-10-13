@@ -1,12 +1,5 @@
 [
   {
-    "title": "Levante vs Sevilla",
-    "start_ts": 1791831600.0,
-    "time_str": "21:00",
-    "channel": "M+ LaLiga",
-    "competition": "LALIGA"
-  },
-  {
     "title": "Sabah FK vs Slavia Praha",
     "start_ts": 1791909900.0,
     "time_str": "18:45",
@@ -292,6 +285,13 @@
     "time_str": "18:45",
     "channel": "TBD",
     "competition": "CHAMPIONS"
+  },
+  {
+    "title": "Levante vs Athletic Club",
+    "start_ts": 1792605600.0,
+    "time_str": "20:00",
+    "channel": "M+ LaLiga",
+    "competition": "LALIGA"
   },
   {
     "title": "Inter de Milan vs Shaktar Donetsk",
