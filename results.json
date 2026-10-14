@@ -2870,7 +2870,7 @@
           "status": "Fin"
         }
       ],
-      "Jornada 2 (Actual)": [
+      "Jornada 2": [
         {
           "date": "13-10-2026",
           "home": "Sabah",
@@ -2952,53 +2952,53 @@
           "date": "14-10-2026",
           "home": "Roma",
           "away": "Real Madrid",
-          "score": "3 - 1",
-          "status": "Directo"
+          "score": "3 - 4",
+          "status": "Fin"
         },
         {
           "date": "14-10-2026",
           "home": "Shakhtar",
           "away": "AEK Athens",
-          "score": "1 - 1",
-          "status": "Directo"
+          "score": "3 - 1",
+          "status": "Fin"
         },
         {
           "date": "14-10-2026",
           "home": "Aston Villa",
           "away": "Fenerbahçe",
-          "score": "5 - 0",
-          "status": "Directo"
+          "score": "6 - 0",
+          "status": "Fin"
         },
         {
           "date": "14-10-2026",
           "home": "Real Betis",
           "away": "FC Porto",
-          "score": "1 - 2",
-          "status": "Directo"
+          "score": "3 - 2",
+          "status": "Fin"
         },
         {
           "date": "14-10-2026",
           "home": "Manchester City",
           "away": "PSG",
-          "score": "1 - 4",
-          "status": "Directo"
+          "score": "2 - 4",
+          "status": "Fin"
         },
         {
           "date": "14-10-2026",
           "home": "Bodø/Glimt",
           "away": "Borussia Dortmund",
           "score": "1 - 0",
-          "status": "Directo"
+          "status": "Fin"
         },
         {
           "date": "14-10-2026",
           "home": "Slovan Bratislava",
           "away": "Stuttgart",
-          "score": "0 - 2",
-          "status": "Directo"
+          "score": "0 - 3",
+          "status": "Fin"
         }
       ],
-      "Jornada 3": [
+      "Jornada 3 (Actual)": [
         {
           "date": "20-10-2026",
           "home": "Sabah",
@@ -3767,7 +3767,7 @@
         }
       ]
     },
-    "current": "Jornada 2 (Actual)"
+    "current": "Jornada 3 (Actual)"
   },
   "EUROPA": {
     "rounds": {
