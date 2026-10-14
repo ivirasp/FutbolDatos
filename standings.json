@@ -292,6 +292,18 @@
     },
     {
       "rank": "5",
+      "team": "Liverpool",
+      "points": "4",
+      "played": "2",
+      "won": "1",
+      "drawn": "1",
+      "lost": "0",
+      "gf": "2",
+      "ga": "1",
+      "dg": "+1"
+    },
+    {
+      "rank": "6",
       "team": "PSG",
       "points": "3",
       "played": "1",
@@ -303,7 +315,7 @@
       "dg": "+5"
     },
     {
-      "rank": "6",
+      "rank": "7",
       "team": "Como",
       "points": "3",
       "played": "1",
@@ -315,7 +327,7 @@
       "dg": "+3"
     },
     {
-      "rank": "7",
+      "rank": "8",
       "team": "Manchester United",
       "points": "3",
       "played": "2",
@@ -327,7 +339,7 @@
       "dg": "+2"
     },
     {
-      "rank": "8",
+      "rank": "9",
       "team": "Stuttgart",
       "points": "3",
       "played": "1",
@@ -339,7 +351,7 @@
       "dg": "+2"
     },
     {
-      "rank": "9",
+      "rank": "10",
       "team": "Manchester City",
       "points": "3",
       "played": "1",
@@ -351,7 +363,7 @@
       "dg": "+2"
     },
     {
-      "rank": "10",
+      "rank": "11",
       "team": "Villarreal",
       "points": "3",
       "played": "2",
@@ -363,7 +375,7 @@
       "dg": "+1"
     },
     {
-      "rank": "11",
+      "rank": "12",
       "team": "Aston Villa",
       "points": "3",
       "played": "1",
@@ -375,7 +387,7 @@
       "dg": "+1"
     },
     {
-      "rank": "12",
+      "rank": "13",
       "team": "Real Betis",
       "points": "3",
       "played": "1",
@@ -387,7 +399,7 @@
       "dg": "+1"
     },
     {
-      "rank": "13",
+      "rank": "14",
       "team": "Atlético de Madrid",
       "points": "3",
       "played": "2",
@@ -399,7 +411,7 @@
       "dg": "+1"
     },
     {
-      "rank": "14",
+      "rank": "15",
       "team": "Borussia Dortmund",
       "points": "3",
       "played": "1",
@@ -408,18 +420,6 @@
       "lost": "0",
       "gf": "3",
       "ga": "2",
-      "dg": "+1"
-    },
-    {
-      "rank": "15",
-      "team": "Liverpool",
-      "points": "3",
-      "played": "1",
-      "won": "1",
-      "drawn": "0",
-      "lost": "0",
-      "gf": "2",
-      "ga": "1",
       "dg": "+1"
     },
     {
@@ -544,6 +544,18 @@
     },
     {
       "rank": "26",
+      "team": "LASK",
+      "points": "1",
+      "played": "2",
+      "won": "0",
+      "drawn": "1",
+      "lost": "1",
+      "gf": "0",
+      "ga": "1",
+      "dg": "-1"
+    },
+    {
+      "rank": "27",
       "team": "Viking Stavanger",
       "points": "1",
       "played": "2",
@@ -553,18 +565,6 @@
       "gf": "4",
       "ga": "6",
       "dg": "-2"
-    },
-    {
-      "rank": "27",
-      "team": "LASK",
-      "points": "0",
-      "played": "1",
-      "won": "0",
-      "drawn": "0",
-      "lost": "1",
-      "gf": "0",
-      "ga": "1",
-      "dg": "-1"
     },
     {
       "rank": "28",
