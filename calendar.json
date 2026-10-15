@@ -1,68 +1,5 @@
 [
   {
-    "title": "Feyenoord vs Como 1907",
-    "start_ts": 1791996300.0,
-    "time_str": "18:45",
-    "channel": "M+ Liga de Campeones 3",
-    "competition": "CHAMPIONS"
-  },
-  {
-    "title": "LASK Linz vs Liverpool",
-    "start_ts": 1791996300.0,
-    "time_str": "18:45",
-    "channel": "M+ Liga de Campeones 2",
-    "competition": "CHAMPIONS"
-  },
-  {
-    "title": "Betis vs Porto",
-    "start_ts": 1792004400.0,
-    "time_str": "21:00",
-    "channel": "M+ Liga de Campeones 2 / M+ Liga de Campeones 4",
-    "competition": "CHAMPIONS"
-  },
-  {
-    "title": "Aston Villa vs Fenerbahçe",
-    "start_ts": 1792004400.0,
-    "time_str": "21:00",
-    "channel": "M+ Liga de Campeones 4 / M+ Liga de Campeones 5",
-    "competition": "CHAMPIONS"
-  },
-  {
-    "title": "Roma vs Real Madrid",
-    "start_ts": 1792004400.0,
-    "time_str": "21:00",
-    "channel": "M+ Liga de Campeones / M+ Liga de Campeones 4",
-    "competition": "CHAMPIONS"
-  },
-  {
-    "title": "Bodø/Glimt vs Borussia Dortmund",
-    "start_ts": 1792004400.0,
-    "time_str": "21:00",
-    "channel": "M+ Liga de Campeones 4 / M+ Liga de Campeones 7",
-    "competition": "CHAMPIONS"
-  },
-  {
-    "title": "Manchester City vs PSG",
-    "start_ts": 1792004400.0,
-    "time_str": "21:00",
-    "channel": "M+ Liga de Campeones 3 / M+ Liga de Campeones 4",
-    "competition": "CHAMPIONS"
-  },
-  {
-    "title": "Slovan Bratislava vs Stuttgart",
-    "start_ts": 1792004400.0,
-    "time_str": "21:00",
-    "channel": "M+ Liga de Campeones 4 / M+ Liga de Campeones 8",
-    "competition": "CHAMPIONS"
-  },
-  {
-    "title": "Shaktar Donetsk vs AEK F.C.",
-    "start_ts": 1792004400.0,
-    "time_str": "21:00",
-    "channel": "M+ Liga de Campeones 4 / M+ Liga de Campeones 6",
-    "competition": "CHAMPIONS"
-  },
-  {
     "title": "Union Saint-Gilloise vs Real Sociedad",
     "start_ts": 1792082700.0,
     "time_str": "18:45",
@@ -544,6 +481,69 @@
     "time_str": "21:00",
     "channel": "TBD",
     "competition": "EUROPA"
+  },
+  {
+    "title": "Bodø/Glimt vs LASK Linz",
+    "start_ts": 1795542300.0,
+    "time_str": "18:45",
+    "channel": "TBD",
+    "competition": "CHAMPIONS"
+  },
+  {
+    "title": "Galatasaray vs Aston Villa",
+    "start_ts": 1795542300.0,
+    "time_str": "18:45",
+    "channel": "TBD",
+    "competition": "CHAMPIONS"
+  },
+  {
+    "title": "Arsenal vs Borussia Dortmund",
+    "start_ts": 1795550400.0,
+    "time_str": "21:00",
+    "channel": "TBD",
+    "competition": "CHAMPIONS"
+  },
+  {
+    "title": "Feyenoord vs Porto",
+    "start_ts": 1795550400.0,
+    "time_str": "21:00",
+    "channel": "TBD",
+    "competition": "CHAMPIONS"
+  },
+  {
+    "title": "Manchester City vs Nápoles",
+    "start_ts": 1795550400.0,
+    "time_str": "21:00",
+    "channel": "TBD",
+    "competition": "CHAMPIONS"
+  },
+  {
+    "title": "Real Madrid vs PSV Eindhoven",
+    "start_ts": 1795550400.0,
+    "time_str": "21:00",
+    "channel": "TBD",
+    "competition": "CHAMPIONS"
+  },
+  {
+    "title": "Slovan Bratislava vs Betis",
+    "start_ts": 1795550400.0,
+    "time_str": "21:00",
+    "channel": "TBD",
+    "competition": "CHAMPIONS"
+  },
+  {
+    "title": "RB Leipzig vs Lens",
+    "start_ts": 1795550400.0,
+    "time_str": "21:00",
+    "channel": "TBD",
+    "competition": "CHAMPIONS"
+  },
+  {
+    "title": "Como 1907 vs AEK F.C.",
+    "start_ts": 1795550400.0,
+    "time_str": "21:00",
+    "channel": "TBD",
+    "competition": "CHAMPIONS"
   },
   {
     "title": "Celta vs Bournemouth",
