@@ -3899,135 +3899,135 @@
           "status": "Fin"
         }
       ],
-      "Jornada 2 (Actual)": [
+      "Jornada 2": [
         {
           "date": "15-10-2026",
           "home": "Lyon",
           "away": "Crystal Palace",
-          "score": "vs",
-          "status": ""
+          "score": "3 - 2",
+          "status": "Fin"
         },
         {
           "date": "15-10-2026",
           "home": "AZ",
           "away": "Hapoel Beer Sheva",
-          "score": "vs",
-          "status": ""
+          "score": "2 - 1",
+          "status": "Fin"
         },
         {
           "date": "15-10-2026",
           "home": "Union Saint-Gilloise",
           "away": "Real Sociedad",
-          "score": "vs",
-          "status": ""
+          "score": "1 - 1",
+          "status": "Fin"
         },
         {
           "date": "15-10-2026",
           "home": "Celje",
           "away": "Omonia Nicosia",
-          "score": "vs",
-          "status": ""
+          "score": "0 - 3",
+          "status": "Fin"
         },
         {
           "date": "15-10-2026",
           "home": "Torreense",
           "away": "Sunderland",
-          "score": "vs",
-          "status": ""
+          "score": "1 - 2",
+          "status": "Fin"
         },
         {
           "date": "15-10-2026",
           "home": "Sparta Praga",
           "away": "Lillestrøm",
-          "score": "vs",
-          "status": ""
+          "score": "1 - 1",
+          "status": "Fin"
         },
         {
           "date": "15-10-2026",
           "home": "RB Salzburgo",
           "away": "Milan",
-          "score": "vs",
-          "status": ""
+          "score": "0 - 4",
+          "status": "Fin"
         },
         {
           "date": "15-10-2026",
           "home": "Lech Poznan",
           "away": "Bayer Leverkusen",
-          "score": "vs",
-          "status": ""
+          "score": "0 - 4",
+          "status": "Fin"
         },
         {
           "date": "15-10-2026",
           "home": "Rennes",
           "away": "OFI",
-          "score": "vs",
-          "status": ""
+          "score": "2 - 1",
+          "status": "Fin"
         },
         {
           "date": "15-10-2026",
           "home": "NEC",
           "away": "Levski Sofia",
-          "score": "vs",
-          "status": ""
+          "score": "1 - 1",
+          "status": "Fin"
         },
         {
           "date": "15-10-2026",
           "home": "Dinamo Zagreb",
           "away": "RSC Anderlecht",
-          "score": "vs",
-          "status": ""
+          "score": "1 - 0",
+          "status": "Fin"
         },
         {
           "date": "15-10-2026",
           "home": "Marseille",
           "away": "Olympiakos",
-          "score": "vs",
-          "status": ""
+          "score": "0 - 1",
+          "status": "Fin"
         },
         {
           "date": "15-10-2026",
           "home": "TSG 1899 Hoffenheim",
           "away": "Besiktas",
-          "score": "vs",
-          "status": ""
+          "score": "2 - 3",
+          "status": "Fin"
         },
         {
           "date": "15-10-2026",
           "home": "Ferencvárosi TC",
           "away": "Viktoria Plzen",
-          "score": "vs",
-          "status": ""
+          "score": "2 - 1",
+          "status": "Fin"
         },
         {
           "date": "15-10-2026",
           "home": "Celta de Vigo",
           "away": "Juventus",
-          "score": "vs",
-          "status": ""
+          "score": "1 - 2",
+          "status": "Fin"
         },
         {
           "date": "15-10-2026",
           "home": "Bournemouth",
           "away": "Sturm Graz",
-          "score": "vs",
-          "status": ""
+          "score": "3 - 0",
+          "status": "Fin"
         },
         {
           "date": "15-10-2026",
           "home": "Benfica",
           "away": "Celtic",
-          "score": "vs",
-          "status": ""
+          "score": "4 - 1",
+          "status": "Fin"
         },
         {
           "date": "15-10-2026",
           "home": "Jagiellonia Bialystok",
           "away": "Ararat-Armenia",
-          "score": "vs",
-          "status": ""
+          "score": "3 - 1",
+          "status": "Fin"
         }
       ],
-      "Jornada 3": [
+      "Jornada 3 (Actual)": [
         {
           "date": "22-10-2026",
           "home": "Dinamo Zagreb",
@@ -4796,7 +4796,7 @@
         }
       ]
     },
-    "current": "Jornada 2 (Actual)"
+    "current": "Jornada 3 (Actual)"
   },
   "COPA": {
     "rounds": {
