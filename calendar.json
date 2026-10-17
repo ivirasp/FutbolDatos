@@ -1,12 +1,5 @@
 [
   {
-    "title": "Deportivo vs Levante",
-    "start_ts": 1792177200.0,
-    "time_str": "21:00",
-    "channel": "M+ LaLiga / DAZN",
-    "competition": "LALIGA"
-  },
-  {
     "title": "Espanyol vs Atlético de Madrid",
     "start_ts": 1792238400.0,
     "time_str": "14:00",
@@ -73,148 +66,267 @@
     "title": "Sabah FK vs Borussia Dortmund",
     "start_ts": 1792514700.0,
     "time_str": "18:45",
-    "channel": "TBD",
+    "channel": "M+ Liga de Campeones 3",
     "competition": "CHAMPIONS"
   },
   {
     "title": "Fenerbahçe vs Slavia Praha",
     "start_ts": 1792514700.0,
     "time_str": "18:45",
-    "channel": "TBD",
+    "channel": "M+ Liga de Campeones 2",
     "competition": "CHAMPIONS"
   },
   {
     "title": "PSG vs Barcelona",
     "start_ts": 1792522800.0,
     "time_str": "21:00",
-    "channel": "TBD",
+    "channel": "M+ Liga de Campeones / M+ Liga de Campeones 4",
     "competition": "CHAMPIONS"
   },
   {
     "title": "Nápoles vs Bodø/Glimt",
     "start_ts": 1792522800.0,
     "time_str": "21:00",
-    "channel": "TBD",
+    "channel": "M+ Liga de Campeones 4 / M+ Liga de Campeones 8",
     "competition": "CHAMPIONS"
   },
   {
     "title": "Manchester City vs AEK F.C.",
     "start_ts": 1792522800.0,
     "time_str": "21:00",
-    "channel": "TBD",
+    "channel": "M+ Liga de Campeones 4 / M+ Liga de Campeones 7",
     "competition": "CHAMPIONS"
   },
   {
     "title": "Stuttgart vs Atlético de Madrid",
     "start_ts": 1792522800.0,
     "time_str": "21:00",
-    "channel": "TBD",
+    "channel": "M+ Liga de Campeones 2 / M+ Liga de Campeones 4",
     "competition": "CHAMPIONS"
   },
   {
     "title": "Porto vs PSV Eindhoven",
     "start_ts": 1792522800.0,
     "time_str": "21:00",
-    "channel": "TBD",
+    "channel": "M+ Liga de Campeones 4 / M+ Liga de Campeones 6",
     "competition": "CHAMPIONS"
   },
   {
     "title": "Roma vs Slovan Bratislava",
     "start_ts": 1792522800.0,
     "time_str": "21:00",
-    "channel": "TBD",
+    "channel": "M+ Liga de Campeones 4 / M+ Liga de Campeones 5",
     "competition": "CHAMPIONS"
   },
   {
     "title": "Liverpool vs Villarreal",
     "start_ts": 1792522800.0,
     "time_str": "21:00",
-    "channel": "TBD",
+    "channel": "M+ Liga de Campeones 3 / M+ Liga de Campeones 4",
     "competition": "CHAMPIONS"
   },
   {
     "title": "Lille vs Galatasaray",
     "start_ts": 1792601100.0,
     "time_str": "18:45",
-    "channel": "TBD",
+    "channel": "M+ Liga de Campeones 3",
     "competition": "CHAMPIONS"
   },
   {
     "title": "Como 1907 vs Manchester United",
     "start_ts": 1792601100.0,
     "time_str": "18:45",
-    "channel": "TBD",
+    "channel": "M+ Liga de Campeones 2",
     "competition": "CHAMPIONS"
   },
   {
     "title": "Levante vs Athletic Club",
     "start_ts": 1792605600.0,
     "time_str": "20:00",
-    "channel": "M+ LaLiga",
+    "channel": "M+ LaLiga / LaLiga TV Multi 2",
     "competition": "LALIGA"
   },
   {
     "title": "Inter de Milan vs Shaktar Donetsk",
     "start_ts": 1792609200.0,
     "time_str": "21:00",
-    "channel": "TBD",
+    "channel": "M+ Liga de Campeones 4 / M+ Liga de Campeones 7",
     "competition": "CHAMPIONS"
   },
   {
     "title": "Betis vs Feyenoord",
     "start_ts": 1792609200.0,
     "time_str": "21:00",
-    "channel": "TBD",
+    "channel": "M+ Liga de Campeones 2 / M+ Liga de Campeones 4",
     "competition": "CHAMPIONS"
   },
   {
     "title": "Real Madrid vs RB Leipzig",
     "start_ts": 1792609200.0,
     "time_str": "21:00",
-    "channel": "M+ Liga de Campeones / Movistar Plus+ / Orange Fútbol 1",
+    "channel": "M+ Liga de Campeones / M+ Liga de Campeones 4 / Movistar Plus+ / Orange Fútbol 1",
     "competition": "CHAMPIONS"
   },
   {
     "title": "Sporting Portugal vs LASK Linz",
     "start_ts": 1792609200.0,
     "time_str": "21:00",
-    "channel": "TBD",
+    "channel": "M+ Liga de Campeones 4 / M+ Liga de Campeones 8",
     "competition": "CHAMPIONS"
   },
   {
     "title": "Aston Villa vs Viking FK",
     "start_ts": 1792609200.0,
     "time_str": "21:00",
-    "channel": "TBD",
+    "channel": "M+ Liga de Campeones 4 / M+ Liga de Campeones 5",
     "competition": "CHAMPIONS"
   },
   {
     "title": "FC Bayern vs Arsenal",
     "start_ts": 1792609200.0,
     "time_str": "21:00",
-    "channel": "TBD",
+    "channel": "M+ Liga de Campeones 3 / M+ Liga de Campeones 4",
     "competition": "CHAMPIONS"
   },
   {
     "title": "Club Brugge vs Lens",
     "start_ts": 1792609200.0,
     "time_str": "21:00",
-    "channel": "TBD",
+    "channel": "M+ Liga de Campeones 4 / M+ Liga de Campeones 6",
     "competition": "CHAMPIONS"
+  },
+  {
+    "title": "Dinamo Zagreb vs NEC Nijmegen",
+    "start_ts": 1792687500.0,
+    "time_str": "18:45",
+    "channel": "M+ Liga de Campeones 3 / M+ Liga de Campeones 8",
+    "competition": "EUROPA"
+  },
+  {
+    "title": "Juventus vs Stade Rennais",
+    "start_ts": 1792687500.0,
+    "time_str": "18:45",
+    "channel": "M+ Liga de Campeones 3 / M+ Liga de Campeones 4",
+    "competition": "EUROPA"
+  },
+  {
+    "title": "Sturm Graz vs O. Marsella",
+    "start_ts": 1792687500.0,
+    "time_str": "18:45",
+    "channel": "M+ Liga de Campeones 3 / M+ Liga de Campeones 6",
+    "competition": "EUROPA"
+  },
+  {
+    "title": "Ferencvaros vs SCU Torreense",
+    "start_ts": 1792687500.0,
+    "time_str": "18:45",
+    "channel": "M+ Liga de Campeones 3 / M+ Liga de Campeones 7",
+    "competition": "EUROPA"
+  },
+  {
+    "title": "Ararat-Armenia vs AZ Alkmaar",
+    "start_ts": 1792687500.0,
+    "time_str": "18:45",
+    "channel": "M+ Liga de Campeones 13 / M+ Liga de Campeones 3",
+    "competition": "EUROPA"
+  },
+  {
+    "title": "Union Saint-Gilloise vs Hapoel Beer Sheva",
+    "start_ts": 1792687500.0,
+    "time_str": "18:45",
+    "channel": "M+ Liga de Campeones 10 / M+ Liga de Campeones 3",
+    "competition": "EUROPA"
+  },
+  {
+    "title": "OFI Creta vs Bayer Leverkusen",
+    "start_ts": 1792687500.0,
+    "time_str": "18:45",
+    "channel": "M+ Liga de Campeones 3 / M+ Liga de Campeones 5",
+    "competition": "EUROPA"
+  },
+  {
+    "title": "Lech Poznan vs Sunderland",
+    "start_ts": 1792687500.0,
+    "time_str": "18:45",
+    "channel": "M+ Liga de Campeones 3 / M+ Liga de Campeones 9",
+    "competition": "EUROPA"
   },
   {
     "title": "Celtic FC vs Celta",
     "start_ts": 1792695600.0,
     "time_str": "21:00",
-    "channel": "M+ Liga de Campeones / Movistar Plus+",
+    "channel": "M+ Liga de Campeones / M+ Liga de Campeones 3 / Movistar Plus+",
     "competition": "EUROPA"
   },
   {
     "title": "Lillestrøm SK vs Real Sociedad",
     "start_ts": 1792695600.0,
     "time_str": "21:00",
-    "channel": "TBD",
+    "channel": "M+ Liga de Campeones 2 / M+ Liga de Campeones 3",
     "competition": "EUROPA"
+  },
+  {
+    "title": "Hoffenheim vs Olympique Lyon",
+    "start_ts": 1792695600.0,
+    "time_str": "21:00",
+    "channel": "M+ Liga de Campeones 10 / M+ Liga de Campeones 3",
+    "competition": "EUROPA"
+  },
+  {
+    "title": "Olympiacos vs Sparta Praga",
+    "start_ts": 1792695600.0,
+    "time_str": "21:00",
+    "channel": "M+ Liga de Campeones 3 / M+ Liga de Campeones 6",
+    "competition": "EUROPA"
+  },
+  {
+    "title": "NK Celje vs Red Bull Salzburg",
+    "start_ts": 1792695600.0,
+    "time_str": "21:00",
+    "channel": "M+ Liga de Campeones 3 / M+ Liga de Campeones 8",
+    "competition": "EUROPA"
+  },
+  {
+    "title": "Jagiellonia Bialystok vs Anderlecht",
+    "start_ts": 1792695600.0,
+    "time_str": "21:00",
+    "channel": "M+ Liga de Campeones 3 / M+ Liga de Campeones 9",
+    "competition": "EUROPA"
+  },
+  {
+    "title": "AC Omonia vs Benfica",
+    "start_ts": 1792695600.0,
+    "time_str": "21:00",
+    "channel": "M+ Liga de Campeones 3 / M+ Liga de Campeones 7",
+    "competition": "EUROPA"
+  },
+  {
+    "title": "Besiktas vs Crystal Palace",
+    "start_ts": 1792695600.0,
+    "time_str": "21:00",
+    "channel": "M+ Liga de Campeones 3 / M+ Liga de Campeones 5",
+    "competition": "EUROPA"
+  },
+  {
+    "title": "Bournemouth vs A.C. Milan",
+    "start_ts": 1792695600.0,
+    "time_str": "21:00",
+    "channel": "M+ Liga de Campeones 3 / M+ Liga de Campeones 4",
+    "competition": "EUROPA"
+  },
+  {
+    "title": "Viktoria Plzen vs Levski Sofia",
+    "start_ts": 1792695600.0,
+    "time_str": "21:00",
+    "channel": "M+ Liga de Campeones 3",
+    "competition": "EUROPA"
+  },
+  {
+    "title": "Alavés vs Málaga",
+    "start_ts": 1792782000.0,
+    "time_str": "21:00",
+    "channel": "DAZN LaLiga / DAZN",
+    "competition": "LALIGA"
   },
   {
     "title": "Shaktar Donetsk vs Sporting Portugal",
