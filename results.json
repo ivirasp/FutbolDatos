@@ -517,7 +517,7 @@
           "date": "10-10-2026",
           "home": "Rayo Vallecano",
           "away": "Athletic Club",
-          "score": "0 - 0",
+          "score": "vs",
           "status": ""
         },
         {
@@ -617,15 +617,15 @@
           "date": "18-10-2026",
           "home": "Osasuna",
           "away": "Racing de Santander",
-          "score": "vs",
-          "status": ""
+          "score": "2 - 0",
+          "status": "Fin"
         },
         {
           "date": "18-10-2026",
           "home": "Celta de Vigo",
           "away": "Alavés",
-          "score": "vs",
-          "status": ""
+          "score": "2 - 1",
+          "status": "Fin"
         },
         {
           "date": "18-10-2026",
