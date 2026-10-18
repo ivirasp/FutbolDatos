@@ -1,33 +1,5 @@
 [
   {
-    "title": "Espanyol vs Atlético de Madrid",
-    "start_ts": 1792238400.0,
-    "time_str": "14:00",
-    "channel": "DAZN LaLiga / DAZN",
-    "competition": "LALIGA"
-  },
-  {
-    "title": "Villarreal vs Elche",
-    "start_ts": 1792246500.0,
-    "time_str": "16:15",
-    "channel": "DAZN LaLiga / DAZN",
-    "competition": "LALIGA"
-  },
-  {
-    "title": "Betis vs Barcelona",
-    "start_ts": 1792254600.0,
-    "time_str": "18:30",
-    "channel": "DAZN LaLiga / DAZN",
-    "competition": "LALIGA"
-  },
-  {
-    "title": "Valencia vs Athletic Club",
-    "start_ts": 1792263600.0,
-    "time_str": "21:00",
-    "channel": "M+ LaLiga / Movistar Plus+ / Orange Fútbol 1",
-    "competition": "LALIGA"
-  },
-  {
     "title": "Osasuna vs Racing de Santander",
     "start_ts": 1792324800.0,
     "time_str": "14:00",
@@ -326,6 +298,34 @@
     "start_ts": 1792782000.0,
     "time_str": "21:00",
     "channel": "DAZN LaLiga / DAZN",
+    "competition": "LALIGA"
+  },
+  {
+    "title": "Rayo Vallecano vs Elche",
+    "start_ts": 1792843200.0,
+    "time_str": "14:00",
+    "channel": "M+ LaLiga",
+    "competition": "LALIGA"
+  },
+  {
+    "title": "Racing de Santander vs Espanyol",
+    "start_ts": 1792851300.0,
+    "time_str": "16:15",
+    "channel": "DAZN LaLiga / DAZN",
+    "competition": "LALIGA"
+  },
+  {
+    "title": "Valencia vs Villarreal",
+    "start_ts": 1792859400.0,
+    "time_str": "18:30",
+    "channel": "M+ LaLiga",
+    "competition": "LALIGA"
+  },
+  {
+    "title": "Atlético de Madrid vs Deportivo",
+    "start_ts": 1792868400.0,
+    "time_str": "21:00",
+    "channel": "M+ LaLiga / Movistar Plus+ / Orange Fútbol 1",
     "competition": "LALIGA"
   },
   {
