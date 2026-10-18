@@ -517,7 +517,7 @@
           "date": "10-10-2026",
           "home": "Rayo Vallecano",
           "away": "Athletic Club",
-          "score": "vs",
+          "score": "0 - 0",
           "status": ""
         },
         {
@@ -631,15 +631,15 @@
           "date": "18-10-2026",
           "home": "Málaga",
           "away": "Real Sociedad",
-          "score": "vs",
-          "status": ""
+          "score": "2 - 5",
+          "status": "Fin"
         },
         {
           "date": "18-10-2026",
           "home": "Real Madrid",
           "away": "Sevilla",
-          "score": "vs",
-          "status": ""
+          "score": "4 - 1",
+          "status": "Fin"
         },
         {
           "date": "19-10-2026",
