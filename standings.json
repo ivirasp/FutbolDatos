@@ -98,6 +98,18 @@
     },
     {
       "rank": "9",
+      "team": "Osasuna",
+      "points": "11",
+      "played": "9",
+      "won": "3",
+      "drawn": "2",
+      "lost": "4",
+      "gf": "9",
+      "ga": "18",
+      "dg": "-9"
+    },
+    {
+      "rank": "10",
       "team": "Athletic Club",
       "points": "9",
       "played": "7",
@@ -109,7 +121,7 @@
       "dg": "+1"
     },
     {
-      "rank": "10",
+      "rank": "11",
       "team": "Villarreal",
       "points": "9",
       "played": "9",
@@ -121,7 +133,7 @@
       "dg": "0"
     },
     {
-      "rank": "11",
+      "rank": "12",
       "team": "Celta",
       "points": "8",
       "played": "8",
@@ -133,7 +145,7 @@
       "dg": "+2"
     },
     {
-      "rank": "12",
+      "rank": "13",
       "team": "Espanyol",
       "points": "8",
       "played": "9",
@@ -145,7 +157,7 @@
       "dg": "-1"
     },
     {
-      "rank": "13",
+      "rank": "14",
       "team": "Rayo Vallecano",
       "points": "8",
       "played": "7",
@@ -157,7 +169,7 @@
       "dg": "-5"
     },
     {
-      "rank": "14",
+      "rank": "15",
       "team": "Getafe",
       "points": "8",
       "played": "8",
@@ -169,28 +181,16 @@
       "dg": "-6"
     },
     {
-      "rank": "15",
+      "rank": "16",
       "team": "Racing",
       "points": "8",
-      "played": "8",
+      "played": "9",
       "won": "2",
       "drawn": "2",
-      "lost": "4",
+      "lost": "5",
       "gf": "13",
-      "ga": "23",
-      "dg": "-10"
-    },
-    {
-      "rank": "16",
-      "team": "Osasuna",
-      "points": "8",
-      "played": "8",
-      "won": "2",
-      "drawn": "2",
-      "lost": "4",
-      "gf": "8",
-      "ga": "18",
-      "dg": "-10"
+      "ga": "24",
+      "dg": "-11"
     },
     {
       "rank": "17",
