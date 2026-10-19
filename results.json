@@ -517,7 +517,7 @@
           "date": "10-10-2026",
           "home": "Rayo Vallecano",
           "away": "Athletic Club",
-          "score": "0 - 0",
+          "score": "vs",
           "status": ""
         },
         {
@@ -645,8 +645,8 @@
           "date": "19-10-2026",
           "home": "Getafe",
           "away": "Rayo Vallecano",
-          "score": "vs",
-          "status": ""
+          "score": "1 - 1",
+          "status": "Fin"
         }
       ],
       "Jornada 10": [

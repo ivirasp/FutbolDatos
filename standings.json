@@ -146,6 +146,30 @@
     },
     {
       "rank": "13",
+      "team": "Rayo Vallecano",
+      "points": "9",
+      "played": "8",
+      "won": "2",
+      "drawn": "3",
+      "lost": "3",
+      "gf": "12",
+      "ga": "17",
+      "dg": "-5"
+    },
+    {
+      "rank": "14",
+      "team": "Getafe",
+      "points": "9",
+      "played": "9",
+      "won": "2",
+      "drawn": "3",
+      "lost": "4",
+      "gf": "5",
+      "ga": "11",
+      "dg": "-6"
+    },
+    {
+      "rank": "15",
       "team": "Espanyol",
       "points": "8",
       "played": "9",
@@ -155,30 +179,6 @@
       "gf": "11",
       "ga": "12",
       "dg": "-1"
-    },
-    {
-      "rank": "14",
-      "team": "Rayo Vallecano",
-      "points": "8",
-      "played": "7",
-      "won": "2",
-      "drawn": "2",
-      "lost": "3",
-      "gf": "11",
-      "ga": "16",
-      "dg": "-5"
-    },
-    {
-      "rank": "15",
-      "team": "Getafe",
-      "points": "8",
-      "played": "8",
-      "won": "2",
-      "drawn": "2",
-      "lost": "4",
-      "gf": "4",
-      "ga": "10",
-      "dg": "-6"
     },
     {
       "rank": "16",
