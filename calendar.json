@@ -1,12 +1,5 @@
 [
   {
-    "title": "Getafe vs Rayo Vallecano",
-    "start_ts": 1792436400.0,
-    "time_str": "21:00",
-    "channel": "DAZN LaLiga / DAZN",
-    "competition": "LALIGA"
-  },
-  {
     "title": "Sabah FK vs Borussia Dortmund",
     "start_ts": 1792514700.0,
     "time_str": "18:45",
@@ -327,6 +320,20 @@
     "time_str": "21:00",
     "channel": "DAZN LaLiga / DAZN",
     "competition": "LALIGA"
+  },
+  {
+    "title": "Sevilla vs Osasuna",
+    "start_ts": 1793044800.0,
+    "time_str": "21:00",
+    "channel": "M+ LaLiga",
+    "competition": "LALIGA"
+  },
+  {
+    "title": "Navalcarnero vs Betis",
+    "start_ts": 1793217600.0,
+    "time_str": "21:00",
+    "channel": "Movistar Plus+",
+    "competition": "COPA"
   },
   {
     "title": "Shaktar Donetsk vs Sporting Portugal",
