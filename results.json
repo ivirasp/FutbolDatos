@@ -361,7 +361,7 @@
           "status": "Fin"
         }
       ],
-      "Jornada 6 (Actual)": [
+      "Jornada 6": [
         {
           "date": "03-09-2026",
           "home": "Real Sociedad",
@@ -649,7 +649,7 @@
           "status": "Fin"
         }
       ],
-      "Jornada 10": [
+      "Jornada 10 (Actual)": [
         {
           "date": "23-10-2026",
           "home": "Alavés",
@@ -2738,7 +2738,7 @@
         }
       ]
     },
-    "current": "Jornada 6 (Actual)"
+    "current": "Jornada 10 (Actual)"
   },
   "CHAMPIONS": {
     "rounds": {
@@ -2998,7 +2998,7 @@
           "status": "Fin"
         }
       ],
-      "Jornada 3 (Actual)": [
+      "Jornada 3": [
         {
           "date": "20-10-2026",
           "home": "Sabah",
@@ -3080,53 +3080,53 @@
           "date": "21-10-2026",
           "home": "Real Madrid",
           "away": "RB Leipzig",
-          "score": "2 - 0",
-          "status": "Directo"
+          "score": "4 - 1",
+          "status": "Fin"
         },
         {
           "date": "21-10-2026",
           "home": "Real Betis",
           "away": "Feyenoord",
           "score": "1 - 0",
-          "status": "Directo"
+          "status": "Fin"
         },
         {
           "date": "21-10-2026",
           "home": "Aston Villa",
           "away": "Viking",
-          "score": "3 - 0",
-          "status": "Directo"
+          "score": "3 - 1",
+          "status": "Fin"
         },
         {
           "date": "21-10-2026",
           "home": "Inter",
           "away": "Shakhtar",
-          "score": "0 - 0",
-          "status": "Directo"
+          "score": "1 - 0",
+          "status": "Fin"
         },
         {
           "date": "21-10-2026",
           "home": "Brujas",
           "away": "Lens",
-          "score": "2 - 0",
-          "status": "Directo"
+          "score": "3 - 0",
+          "status": "Fin"
         },
         {
           "date": "21-10-2026",
           "home": "Bayern Múnich",
           "away": "Arsenal",
-          "score": "2 - 1",
-          "status": "Directo"
+          "score": "2 - 2",
+          "status": "Fin"
         },
         {
           "date": "21-10-2026",
           "home": "Sporting CP",
           "away": "LASK",
-          "score": "1 - 3",
-          "status": "Directo"
+          "score": "2 - 3",
+          "status": "Fin"
         }
       ],
-      "Jornada 4": [
+      "Jornada 4 (Actual)": [
         {
           "date": "03-11-2026",
           "home": "Galatasaray",
@@ -3767,7 +3767,7 @@
         }
       ]
     },
-    "current": "Jornada 3 (Actual)"
+    "current": "Jornada 4 (Actual)"
   },
   "EUROPA": {
     "rounds": {
