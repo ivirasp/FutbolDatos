@@ -867,58 +867,37 @@
       ],
       "Jornada 13": [
         {
-          "date": "22-11-2026",
-          "home": "Racing de Santander",
-          "away": "Real Sociedad",
+          "date": "20-11-2026",
+          "home": "Athletic Club",
+          "away": "Espanyol",
           "score": "vs",
           "status": ""
         },
         {
-          "date": "22-11-2026",
-          "home": "Sevilla",
-          "away": "Real Betis",
-          "score": "vs",
-          "status": ""
-        },
-        {
-          "date": "22-11-2026",
-          "home": "Real Madrid",
-          "away": "Celta de Vigo",
-          "score": "vs",
-          "status": ""
-        },
-        {
-          "date": "22-11-2026",
-          "home": "Rayo Vallecano",
-          "away": "Valencia CF",
-          "score": "vs",
-          "status": ""
-        },
-        {
-          "date": "22-11-2026",
+          "date": "21-11-2026",
           "home": "Alavés",
           "away": "Deportivo de A Coruña",
           "score": "vs",
           "status": ""
         },
         {
-          "date": "22-11-2026",
-          "home": "Osasuna",
-          "away": "Málaga",
+          "date": "21-11-2026",
+          "home": "Rayo Vallecano",
+          "away": "Valencia CF",
           "score": "vs",
           "status": ""
         },
         {
-          "date": "22-11-2026",
-          "home": "Levante",
-          "away": "Elche",
+          "date": "21-11-2026",
+          "home": "Sevilla",
+          "away": "Real Betis",
           "score": "vs",
           "status": ""
         },
         {
-          "date": "22-11-2026",
-          "home": "Getafe",
-          "away": "Atlético de Madrid",
+          "date": "21-11-2026",
+          "home": "Real Madrid",
+          "away": "Celta de Vigo",
           "score": "vs",
           "status": ""
         },
@@ -931,13 +910,41 @@
         },
         {
           "date": "22-11-2026",
-          "home": "Athletic Club",
-          "away": "Espanyol",
+          "home": "Racing de Santander",
+          "away": "Real Sociedad",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "22-11-2026",
+          "home": "Osasuna",
+          "away": "Málaga",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "22-11-2026",
+          "home": "Getafe",
+          "away": "Atlético de Madrid",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "23-11-2026",
+          "home": "Levante",
+          "away": "Elche",
           "score": "vs",
           "status": ""
         }
       ],
       "Jornada 14": [
+        {
+          "date": "29-11-2026",
+          "home": "Real Betis",
+          "away": "Rayo Vallecano",
+          "score": "vs",
+          "status": ""
+        },
         {
           "date": "29-11-2026",
           "home": "Valencia CF",
@@ -961,15 +968,8 @@
         },
         {
           "date": "29-11-2026",
-          "home": "Real Betis",
-          "away": "Rayo Vallecano",
-          "score": "vs",
-          "status": ""
-        },
-        {
-          "date": "29-11-2026",
-          "home": "Levante",
-          "away": "Racing de Santander",
+          "home": "Elche",
+          "away": "Atlético de Madrid",
           "score": "vs",
           "status": ""
         },
@@ -982,15 +982,15 @@
         },
         {
           "date": "29-11-2026",
-          "home": "Espanyol",
-          "away": "Getafe",
+          "home": "Levante",
+          "away": "Racing de Santander",
           "score": "vs",
           "status": ""
         },
         {
           "date": "29-11-2026",
-          "home": "Elche",
-          "away": "Atlético de Madrid",
+          "home": "Espanyol",
+          "away": "Getafe",
           "score": "vs",
           "status": ""
         },
@@ -3066,15 +3066,15 @@
           "date": "21-10-2026",
           "home": "Lille",
           "away": "Galatasaray",
-          "score": "vs",
-          "status": ""
+          "score": "1 - 1",
+          "status": "Directo"
         },
         {
           "date": "21-10-2026",
           "home": "Como",
           "away": "Manchester United",
-          "score": "vs",
-          "status": ""
+          "score": "1 - 0",
+          "status": "Directo"
         },
         {
           "date": "21-10-2026",
