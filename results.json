@@ -429,8 +429,8 @@
           "date": "21-10-2026",
           "home": "Levante",
           "away": "Athletic Club",
-          "score": "vs",
-          "status": ""
+          "score": "3 - 1",
+          "status": "Fin"
         }
       ],
       "Jornada 7": [
@@ -517,7 +517,7 @@
           "date": "10-10-2026",
           "home": "Rayo Vallecano",
           "away": "Athletic Club",
-          "score": "0 - 0",
+          "score": "vs",
           "status": ""
         },
         {
@@ -3066,64 +3066,64 @@
           "date": "21-10-2026",
           "home": "Lille",
           "away": "Galatasaray",
-          "score": "1 - 1",
-          "status": "Directo"
+          "score": "2 - 4",
+          "status": "Fin"
         },
         {
           "date": "21-10-2026",
           "home": "Como",
           "away": "Manchester United",
-          "score": "1 - 0",
-          "status": "Directo"
+          "score": "4 - 1",
+          "status": "Fin"
         },
         {
           "date": "21-10-2026",
           "home": "Real Madrid",
           "away": "RB Leipzig",
-          "score": "vs",
-          "status": ""
+          "score": "2 - 0",
+          "status": "Directo"
         },
         {
           "date": "21-10-2026",
           "home": "Real Betis",
           "away": "Feyenoord",
-          "score": "vs",
-          "status": ""
+          "score": "1 - 0",
+          "status": "Directo"
         },
         {
           "date": "21-10-2026",
           "home": "Aston Villa",
           "away": "Viking",
-          "score": "vs",
-          "status": ""
+          "score": "3 - 0",
+          "status": "Directo"
         },
         {
           "date": "21-10-2026",
           "home": "Inter",
           "away": "Shakhtar",
-          "score": "vs",
-          "status": ""
+          "score": "0 - 0",
+          "status": "Directo"
         },
         {
           "date": "21-10-2026",
           "home": "Brujas",
           "away": "Lens",
-          "score": "vs",
-          "status": ""
+          "score": "2 - 0",
+          "status": "Directo"
         },
         {
           "date": "21-10-2026",
           "home": "Bayern Múnich",
           "away": "Arsenal",
-          "score": "vs",
-          "status": ""
+          "score": "2 - 1",
+          "status": "Directo"
         },
         {
           "date": "21-10-2026",
           "home": "Sporting CP",
           "away": "LASK",
-          "score": "vs",
-          "status": ""
+          "score": "1 - 3",
+          "status": "Directo"
         }
       ],
       "Jornada 4": [
