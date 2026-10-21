@@ -220,7 +220,7 @@
     "title": "Valencia vs Villarreal",
     "start_ts": 1792859400.0,
     "time_str": "18:30",
-    "channel": "M+ LaLiga",
+    "channel": "M+ LaLiga / M+ LaLiga 2",
     "competition": "LALIGA"
   },
   {
@@ -266,10 +266,213 @@
     "competition": "LALIGA"
   },
   {
+    "title": "C.D. Cuarte vs Girona",
+    "start_ts": 1793122200.0,
+    "time_str": "18:30",
+    "channel": "Aragón Play",
+    "competition": "COPA"
+  },
+  {
+    "title": "Calamocha CF vs C.E. Europa",
+    "start_ts": 1793124000.0,
+    "time_str": "19:00",
+    "channel": "Aragón Play / Betevé (Bcn)",
+    "competition": "COPA"
+  },
+  {
+    "title": "Sestao River vs Espanyol",
+    "start_ts": 1793124000.0,
+    "time_str": "19:00",
+    "channel": "Movistar+",
+    "competition": "COPA"
+  },
+  {
+    "title": "UD Pinatar vs Elche",
+    "start_ts": 1793124000.0,
+    "time_str": "19:00",
+    "channel": "Movistar+",
+    "competition": "COPA"
+  },
+  {
+    "title": "C.E. Manresa vs Sant Andreu",
+    "start_ts": 1793125800.0,
+    "time_str": "19:30",
+    "channel": "Esport 3",
+    "competition": "COPA"
+  },
+  {
+    "title": "RSD Alcalá vs Las Palmas",
+    "start_ts": 1793127600.0,
+    "time_str": "20:00",
+    "channel": "TV Canaria",
+    "competition": "COPA"
+  },
+  {
+    "title": "Recreativo Huelva vs Rayo Vallecano",
+    "start_ts": 1793131200.0,
+    "time_str": "21:00",
+    "channel": "Movistar+",
+    "competition": "COPA"
+  },
+  {
+    "title": "Tudelano vs Real Zaragoza",
+    "start_ts": 1793131200.0,
+    "time_str": "21:00",
+    "channel": "Aragón TV / Aragón Play",
+    "competition": "COPA"
+  },
+  {
+    "title": "C.D. Manacor vs Villarreal",
+    "start_ts": 1793131200.0,
+    "time_str": "21:00",
+    "channel": "Movistar+",
+    "competition": "COPA"
+  },
+  {
+    "title": "C.D. Atlético Paso vs Córdoba",
+    "start_ts": 1793131200.0,
+    "time_str": "21:00",
+    "channel": "TV Canaria",
+    "competition": "COPA"
+  },
+  {
+    "title": "Sporting de Alcázar vs Málaga",
+    "start_ts": 1793131200.0,
+    "time_str": "21:00",
+    "channel": "Movistar+",
+    "competition": "COPA"
+  },
+  {
+    "title": "Peña Sport vs Huesca",
+    "start_ts": 1793210400.0,
+    "time_str": "19:00",
+    "channel": "Aragón TV / Aragón Play",
+    "competition": "COPA"
+  },
+  {
+    "title": "Utebo C.F. vs Sabadell",
+    "start_ts": 1793210400.0,
+    "time_str": "19:00",
+    "channel": "Aragón Play",
+    "competition": "COPA"
+  },
+  {
+    "title": "Anaitasuna C.D. vs Alavés",
+    "start_ts": 1793210400.0,
+    "time_str": "19:00",
+    "channel": "Movistar+",
+    "competition": "COPA"
+  },
+  {
+    "title": "Tarancón vs Levante",
+    "start_ts": 1793210400.0,
+    "time_str": "19:00",
+    "channel": "Movistar+",
+    "competition": "COPA"
+  },
+  {
+    "title": "Numancia vs Real Oviedo",
+    "start_ts": 1793214000.0,
+    "time_str": "20:00",
+    "channel": "TPA7",
+    "competition": "COPA"
+  },
+  {
+    "title": "Alcoyano vs Mallorca",
+    "start_ts": 1793214000.0,
+    "time_str": "20:00",
+    "channel": "IB3 / À Punt (València)",
+    "competition": "COPA"
+  },
+  {
+    "title": "Badajoz vs Tenerife",
+    "start_ts": 1793214000.0,
+    "time_str": "20:00",
+    "channel": "TV Canaria",
+    "competition": "COPA"
+  },
+  {
+    "title": "Calvo Sotelo Puertollano vs Albacete",
+    "start_ts": 1793214000.0,
+    "time_str": "20:00",
+    "channel": "CMM (Castilla-LM)",
+    "competition": "COPA"
+  },
+  {
     "title": "Navalcarnero vs Betis",
     "start_ts": 1793217600.0,
     "time_str": "21:00",
     "channel": "Movistar Plus+",
+    "competition": "COPA"
+  },
+  {
+    "title": "Xerez vs Cádiz",
+    "start_ts": 1793217600.0,
+    "time_str": "21:00",
+    "channel": "FanPlay TV",
+    "competition": "COPA"
+  },
+  {
+    "title": "Salamanca UDS vs Celta",
+    "start_ts": 1793217600.0,
+    "time_str": "21:00",
+    "channel": "Movistar+",
+    "competition": "COPA"
+  },
+  {
+    "title": "UE Tavernes vs Valencia",
+    "start_ts": 1793217600.0,
+    "time_str": "21:00",
+    "channel": "Movistar+",
+    "competition": "COPA"
+  },
+  {
+    "title": "Lebrijana vs Getafe",
+    "start_ts": 1793296800.0,
+    "time_str": "19:00",
+    "channel": "Movistar+",
+    "competition": "COPA"
+  },
+  {
+    "title": "Atlético Calatayud vs Osasuna",
+    "start_ts": 1793296800.0,
+    "time_str": "19:00",
+    "channel": "Movistar+",
+    "competition": "COPA"
+  },
+  {
+    "title": "Guijuelo vs Sporting de Gijón",
+    "start_ts": 1793300400.0,
+    "time_str": "20:00",
+    "channel": "TPA7",
+    "competition": "COPA"
+  },
+  {
+    "title": "Sporting Hortaleza vs Sevilla",
+    "start_ts": 1793304000.0,
+    "time_str": "21:00",
+    "channel": "Movistar+",
+    "competition": "COPA"
+  },
+  {
+    "title": "Ribadesella CF vs Racing de Santander",
+    "start_ts": 1793304000.0,
+    "time_str": "21:00",
+    "channel": "Movistar+",
+    "competition": "COPA"
+  },
+  {
+    "title": "Auriense Cented Academy vs Deportivo",
+    "start_ts": 1793304000.0,
+    "time_str": "21:00",
+    "channel": "Movistar+",
+    "competition": "COPA"
+  },
+  {
+    "title": "A.E. Prat vs Athletic Club",
+    "start_ts": 1793304000.0,
+    "time_str": "21:00",
+    "channel": "Teledeporte / rtve Play",
     "competition": "COPA"
   },
   {
@@ -304,7 +507,7 @@
     "title": "Atlético de Madrid vs FC Bayern",
     "start_ts": 1793736000.0,
     "time_str": "21:00",
-    "channel": "TBD",
+    "channel": "M+ Liga de Campeones / Movistar Plus+ / Orange Fútbol 1",
     "competition": "CHAMPIONS"
   },
   {
@@ -402,7 +605,7 @@
     "title": "Real Sociedad vs Olympique Lyon",
     "start_ts": 1793900700.0,
     "time_str": "18:45",
-    "channel": "TBD",
+    "channel": "M+ Liga de Campeones / Movistar Plus+",
     "competition": "EUROPA"
   },
   {
@@ -451,7 +654,7 @@
     "title": "Real Madrid vs PSV Eindhoven",
     "start_ts": 1795550400.0,
     "time_str": "21:00",
-    "channel": "TBD",
+    "channel": "M+ Liga de Campeones / Movistar Plus+ / Orange Fútbol 1",
     "competition": "CHAMPIONS"
   },
   {
