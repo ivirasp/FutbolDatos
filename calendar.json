@@ -171,7 +171,7 @@
     "title": "Celta vs Betis",
     "start_ts": 1792941300.0,
     "time_str": "16:15",
-    "channel": "DAZN LaLiga / DAZN",
+    "channel": "DAZN LaLiga 2 / DAZN",
     "competition": "LALIGA"
   },
   {
@@ -404,6 +404,13 @@
     "time_str": "21:00",
     "channel": "Teledeporte / rtve Play",
     "competition": "COPA"
+  },
+  {
+    "title": "Villarreal vs Espanyol",
+    "start_ts": 1793390400.0,
+    "time_str": "21:00",
+    "channel": "M+ LaLiga",
+    "competition": "LALIGA"
   },
   {
     "title": "Shaktar Donetsk vs Sporting Portugal",
