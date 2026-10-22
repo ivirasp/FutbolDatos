@@ -1,75 +1,5 @@
 [
   {
-    "title": "Lille vs Galatasaray",
-    "start_ts": 1792601100.0,
-    "time_str": "18:45",
-    "channel": "M+ Liga de Campeones 3",
-    "competition": "CHAMPIONS"
-  },
-  {
-    "title": "Como 1907 vs Manchester United",
-    "start_ts": 1792601100.0,
-    "time_str": "18:45",
-    "channel": "M+ Liga de Campeones 2",
-    "competition": "CHAMPIONS"
-  },
-  {
-    "title": "Levante vs Athletic Club",
-    "start_ts": 1792605600.0,
-    "time_str": "20:00",
-    "channel": "M+ LaLiga / LaLiga TV Multi 2",
-    "competition": "LALIGA"
-  },
-  {
-    "title": "Inter de Milan vs Shaktar Donetsk",
-    "start_ts": 1792609200.0,
-    "time_str": "21:00",
-    "channel": "M+ Liga de Campeones 4 / M+ Liga de Campeones 7",
-    "competition": "CHAMPIONS"
-  },
-  {
-    "title": "Betis vs Feyenoord",
-    "start_ts": 1792609200.0,
-    "time_str": "21:00",
-    "channel": "M+ Liga de Campeones 2 / M+ Liga de Campeones 4",
-    "competition": "CHAMPIONS"
-  },
-  {
-    "title": "Real Madrid vs RB Leipzig",
-    "start_ts": 1792609200.0,
-    "time_str": "21:00",
-    "channel": "M+ Liga de Campeones / M+ Liga de Campeones 4 / Movistar Plus+ / Orange Fútbol 1",
-    "competition": "CHAMPIONS"
-  },
-  {
-    "title": "Sporting Portugal vs LASK Linz",
-    "start_ts": 1792609200.0,
-    "time_str": "21:00",
-    "channel": "M+ Liga de Campeones 4 / M+ Liga de Campeones 8",
-    "competition": "CHAMPIONS"
-  },
-  {
-    "title": "Aston Villa vs Viking FK",
-    "start_ts": 1792609200.0,
-    "time_str": "21:00",
-    "channel": "M+ Liga de Campeones 4 / M+ Liga de Campeones 5",
-    "competition": "CHAMPIONS"
-  },
-  {
-    "title": "FC Bayern vs Arsenal",
-    "start_ts": 1792609200.0,
-    "time_str": "21:00",
-    "channel": "M+ Liga de Campeones 3 / M+ Liga de Campeones 4",
-    "competition": "CHAMPIONS"
-  },
-  {
-    "title": "Club Brugge vs Lens",
-    "start_ts": 1792609200.0,
-    "time_str": "21:00",
-    "channel": "M+ Liga de Campeones 4 / M+ Liga de Campeones 6",
-    "competition": "CHAMPIONS"
-  },
-  {
     "title": "Dinamo Zagreb vs NEC Nijmegen",
     "start_ts": 1792687500.0,
     "time_str": "18:45",
@@ -754,6 +684,69 @@
     "time_str": "21:00",
     "channel": "TBD",
     "competition": "EUROPA"
+  },
+  {
+    "title": "Villarreal vs Sabah FK",
+    "start_ts": 1796751900.0,
+    "time_str": "18:45",
+    "channel": "TBD",
+    "competition": "CHAMPIONS"
+  },
+  {
+    "title": "Viking FK vs Feyenoord",
+    "start_ts": 1796751900.0,
+    "time_str": "18:45",
+    "channel": "TBD",
+    "competition": "CHAMPIONS"
+  },
+  {
+    "title": "Roma vs Sporting Portugal",
+    "start_ts": 1796760000.0,
+    "time_str": "21:00",
+    "channel": "TBD",
+    "competition": "CHAMPIONS"
+  },
+  {
+    "title": "Aston Villa vs PSG",
+    "start_ts": 1796760000.0,
+    "time_str": "21:00",
+    "channel": "TBD",
+    "competition": "CHAMPIONS"
+  },
+  {
+    "title": "Manchester United vs RB Leipzig",
+    "start_ts": 1796760000.0,
+    "time_str": "21:00",
+    "channel": "TBD",
+    "competition": "CHAMPIONS"
+  },
+  {
+    "title": "FC Bayern vs Slavia Praha",
+    "start_ts": 1796760000.0,
+    "time_str": "21:00",
+    "channel": "TBD",
+    "competition": "CHAMPIONS"
+  },
+  {
+    "title": "AEK F.C. vs Galatasaray",
+    "start_ts": 1796760000.0,
+    "time_str": "21:00",
+    "channel": "TBD",
+    "competition": "CHAMPIONS"
+  },
+  {
+    "title": "Barcelona vs Manchester City",
+    "start_ts": 1796760000.0,
+    "time_str": "21:00",
+    "channel": "TBD",
+    "competition": "CHAMPIONS"
+  },
+  {
+    "title": "Nápoles vs Club Brugge",
+    "start_ts": 1796760000.0,
+    "time_str": "21:00",
+    "channel": "TBD",
+    "competition": "CHAMPIONS"
   },
   {
     "title": "O. Marsella vs Celta",
