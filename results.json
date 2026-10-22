@@ -4027,135 +4027,135 @@
           "status": "Fin"
         }
       ],
-      "Jornada 3 (Actual)": [
+      "Jornada 3": [
         {
           "date": "22-10-2026",
           "home": "Ararat-Armenia",
           "away": "AZ",
-          "score": "vs",
-          "status": ""
+          "score": "0 - 4",
+          "status": "Fin"
         },
         {
           "date": "22-10-2026",
           "home": "Dinamo Zagreb",
           "away": "NEC",
-          "score": "vs",
-          "status": ""
+          "score": "2 - 4",
+          "status": "Fin"
         },
         {
           "date": "22-10-2026",
           "home": "Ferencvárosi TC",
           "away": "Torreense",
-          "score": "vs",
-          "status": ""
+          "score": "4 - 1",
+          "status": "Fin"
         },
         {
           "date": "22-10-2026",
           "home": "Juventus",
           "away": "Rennes",
-          "score": "vs",
-          "status": ""
+          "score": "2 - 2",
+          "status": "Fin"
         },
         {
           "date": "22-10-2026",
           "home": "Lech Poznan",
           "away": "Sunderland",
-          "score": "vs",
-          "status": ""
+          "score": "1 - 1",
+          "status": "Fin"
         },
         {
           "date": "22-10-2026",
           "home": "OFI",
           "away": "Bayer Leverkusen",
-          "score": "vs",
-          "status": ""
+          "score": "0 - 2",
+          "status": "Fin"
         },
         {
           "date": "22-10-2026",
           "home": "Sturm Graz",
           "away": "Marseille",
-          "score": "vs",
-          "status": ""
+          "score": "1 - 0",
+          "status": "Fin"
         },
         {
           "date": "22-10-2026",
           "home": "Union Saint-Gilloise",
           "away": "Hapoel Beer Sheva",
-          "score": "vs",
-          "status": ""
+          "score": "4 - 0",
+          "status": "Fin"
         },
         {
           "date": "22-10-2026",
           "home": "Besiktas",
           "away": "Crystal Palace",
-          "score": "vs",
-          "status": ""
+          "score": "2 - 2",
+          "status": "Fin"
         },
         {
           "date": "22-10-2026",
           "home": "Bournemouth",
           "away": "Milan",
-          "score": "vs",
-          "status": ""
+          "score": "3 - 0",
+          "status": "Fin"
         },
         {
           "date": "22-10-2026",
           "home": "Celje",
           "away": "RB Salzburgo",
-          "score": "vs",
-          "status": ""
+          "score": "2 - 2",
+          "status": "Fin"
         },
         {
           "date": "22-10-2026",
           "home": "Celtic",
           "away": "Celta de Vigo",
-          "score": "vs",
-          "status": ""
+          "score": "1 - 2",
+          "status": "Fin"
         },
         {
           "date": "22-10-2026",
           "home": "TSG 1899 Hoffenheim",
           "away": "Lyon",
-          "score": "vs",
-          "status": ""
+          "score": "3 - 0",
+          "status": "Fin"
         },
         {
           "date": "22-10-2026",
           "home": "Jagiellonia Bialystok",
           "away": "RSC Anderlecht",
-          "score": "vs",
-          "status": ""
+          "score": "0 - 3",
+          "status": "Fin"
         },
         {
           "date": "22-10-2026",
           "home": "Lillestrøm",
           "away": "Real Sociedad",
-          "score": "vs",
-          "status": ""
+          "score": "0 - 6",
+          "status": "Fin"
         },
         {
           "date": "22-10-2026",
           "home": "Olympiakos",
           "away": "Sparta Praga",
-          "score": "vs",
-          "status": ""
+          "score": "1 - 0",
+          "status": "Fin"
         },
         {
           "date": "22-10-2026",
           "home": "Omonia Nicosia",
           "away": "Benfica",
-          "score": "vs",
-          "status": ""
+          "score": "1 - 4",
+          "status": "Fin"
         },
         {
           "date": "22-10-2026",
           "home": "Viktoria Plzen",
           "away": "Levski Sofia",
-          "score": "vs",
-          "status": ""
+          "score": "1 - 2",
+          "status": "Fin"
         }
       ],
-      "Jornada 4": [
+      "Jornada 4 (Actual)": [
         {
           "date": "05-11-2026",
           "home": "RSC Anderlecht",
@@ -4796,7 +4796,7 @@
         }
       ]
     },
-    "current": "Jornada 3 (Actual)"
+    "current": "Jornada 4 (Actual)"
   },
   "COPA": {
     "rounds": {
