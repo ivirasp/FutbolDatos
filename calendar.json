@@ -1,131 +1,5 @@
 [
   {
-    "title": "Dinamo Zagreb vs NEC Nijmegen",
-    "start_ts": 1792687500.0,
-    "time_str": "18:45",
-    "channel": "M+ Liga de Campeones 3 / M+ Liga de Campeones 8",
-    "competition": "EUROPA"
-  },
-  {
-    "title": "Juventus vs Stade Rennais",
-    "start_ts": 1792687500.0,
-    "time_str": "18:45",
-    "channel": "M+ Liga de Campeones 3 / M+ Liga de Campeones 4",
-    "competition": "EUROPA"
-  },
-  {
-    "title": "Sturm Graz vs O. Marsella",
-    "start_ts": 1792687500.0,
-    "time_str": "18:45",
-    "channel": "M+ Liga de Campeones 3 / M+ Liga de Campeones 6",
-    "competition": "EUROPA"
-  },
-  {
-    "title": "Ferencvaros vs SCU Torreense",
-    "start_ts": 1792687500.0,
-    "time_str": "18:45",
-    "channel": "M+ Liga de Campeones 3 / M+ Liga de Campeones 7",
-    "competition": "EUROPA"
-  },
-  {
-    "title": "Ararat-Armenia vs AZ Alkmaar",
-    "start_ts": 1792687500.0,
-    "time_str": "18:45",
-    "channel": "M+ Liga de Campeones 13 / M+ Liga de Campeones 3",
-    "competition": "EUROPA"
-  },
-  {
-    "title": "Union Saint-Gilloise vs Hapoel Beer Sheva",
-    "start_ts": 1792687500.0,
-    "time_str": "18:45",
-    "channel": "M+ Liga de Campeones 10 / M+ Liga de Campeones 3",
-    "competition": "EUROPA"
-  },
-  {
-    "title": "OFI Creta vs Bayer Leverkusen",
-    "start_ts": 1792687500.0,
-    "time_str": "18:45",
-    "channel": "M+ Liga de Campeones 3 / M+ Liga de Campeones 5",
-    "competition": "EUROPA"
-  },
-  {
-    "title": "Lech Poznan vs Sunderland",
-    "start_ts": 1792687500.0,
-    "time_str": "18:45",
-    "channel": "M+ Liga de Campeones 3 / M+ Liga de Campeones 9",
-    "competition": "EUROPA"
-  },
-  {
-    "title": "Celtic FC vs Celta",
-    "start_ts": 1792695600.0,
-    "time_str": "21:00",
-    "channel": "M+ Liga de Campeones / M+ Liga de Campeones 3 / Movistar Plus+",
-    "competition": "EUROPA"
-  },
-  {
-    "title": "Lillestrøm SK vs Real Sociedad",
-    "start_ts": 1792695600.0,
-    "time_str": "21:00",
-    "channel": "M+ Liga de Campeones 2 / M+ Liga de Campeones 3",
-    "competition": "EUROPA"
-  },
-  {
-    "title": "Hoffenheim vs Olympique Lyon",
-    "start_ts": 1792695600.0,
-    "time_str": "21:00",
-    "channel": "M+ Liga de Campeones 10 / M+ Liga de Campeones 3",
-    "competition": "EUROPA"
-  },
-  {
-    "title": "Olympiacos vs Sparta Praga",
-    "start_ts": 1792695600.0,
-    "time_str": "21:00",
-    "channel": "M+ Liga de Campeones 3 / M+ Liga de Campeones 6",
-    "competition": "EUROPA"
-  },
-  {
-    "title": "NK Celje vs Red Bull Salzburg",
-    "start_ts": 1792695600.0,
-    "time_str": "21:00",
-    "channel": "M+ Liga de Campeones 3 / M+ Liga de Campeones 8",
-    "competition": "EUROPA"
-  },
-  {
-    "title": "Jagiellonia Bialystok vs Anderlecht",
-    "start_ts": 1792695600.0,
-    "time_str": "21:00",
-    "channel": "M+ Liga de Campeones 3 / M+ Liga de Campeones 9",
-    "competition": "EUROPA"
-  },
-  {
-    "title": "AC Omonia vs Benfica",
-    "start_ts": 1792695600.0,
-    "time_str": "21:00",
-    "channel": "M+ Liga de Campeones 3 / M+ Liga de Campeones 7",
-    "competition": "EUROPA"
-  },
-  {
-    "title": "Besiktas vs Crystal Palace",
-    "start_ts": 1792695600.0,
-    "time_str": "21:00",
-    "channel": "M+ Liga de Campeones 3 / M+ Liga de Campeones 5",
-    "competition": "EUROPA"
-  },
-  {
-    "title": "Bournemouth vs A.C. Milan",
-    "start_ts": 1792695600.0,
-    "time_str": "21:00",
-    "channel": "M+ Liga de Campeones 3 / M+ Liga de Campeones 4",
-    "competition": "EUROPA"
-  },
-  {
-    "title": "Viktoria Plzen vs Levski Sofia",
-    "start_ts": 1792695600.0,
-    "time_str": "21:00",
-    "channel": "M+ Liga de Campeones 3",
-    "competition": "EUROPA"
-  },
-  {
     "title": "Alavés vs Málaga",
     "start_ts": 1792782000.0,
     "time_str": "21:00",
@@ -779,6 +653,20 @@
   {
     "title": "Hapoel Beer Sheva vs Celta",
     "start_ts": 1800561600.0,
+    "time_str": "21:00",
+    "channel": "TBD",
+    "competition": "EUROPA"
+  },
+  {
+    "title": "Juventus vs Real Sociedad",
+    "start_ts": 1801166400.0,
+    "time_str": "21:00",
+    "channel": "TBD",
+    "competition": "EUROPA"
+  },
+  {
+    "title": "Celta vs Lillestrøm SK",
+    "start_ts": 1801166400.0,
     "time_str": "21:00",
     "channel": "TBD",
     "competition": "EUROPA"
