@@ -15,14 +15,14 @@
     {
       "rank": "2",
       "team": "Atlético de Madrid",
-      "points": "22",
-      "played": "9",
-      "won": "7",
+      "points": "25",
+      "played": "10",
+      "won": "8",
       "drawn": "1",
       "lost": "1",
-      "gf": "19",
+      "gf": "20",
       "ga": "8",
-      "dg": "+11"
+      "dg": "+12"
     },
     {
       "rank": "3",
@@ -86,6 +86,18 @@
     },
     {
       "rank": "8",
+      "team": "Villarreal",
+      "points": "12",
+      "played": "10",
+      "won": "3",
+      "drawn": "3",
+      "lost": "4",
+      "gf": "15",
+      "ga": "14",
+      "dg": "+1"
+    },
+    {
+      "rank": "9",
       "team": "Celta",
       "points": "11",
       "played": "9",
@@ -97,19 +109,19 @@
       "dg": "+3"
     },
     {
-      "rank": "9",
+      "rank": "10",
       "team": "RC Deportivo",
       "points": "11",
-      "played": "9",
+      "played": "10",
       "won": "2",
       "drawn": "5",
-      "lost": "2",
+      "lost": "3",
       "gf": "13",
-      "ga": "12",
-      "dg": "+1"
+      "ga": "13",
+      "dg": "0"
     },
     {
-      "rank": "10",
+      "rank": "11",
       "team": "Osasuna",
       "points": "11",
       "played": "9",
@@ -121,7 +133,7 @@
       "dg": "-8"
     },
     {
-      "rank": "11",
+      "rank": "12",
       "team": "Racing",
       "points": "11",
       "played": "10",
@@ -131,18 +143,6 @@
       "gf": "15",
       "ga": "26",
       "dg": "-11"
-    },
-    {
-      "rank": "12",
-      "team": "Villarreal",
-      "points": "10",
-      "played": "10",
-      "won": "2",
-      "drawn": "4",
-      "lost": "4",
-      "gf": "14",
-      "ga": "14",
-      "dg": "0"
     },
     {
       "rank": "13",
@@ -219,14 +219,14 @@
     {
       "rank": "19",
       "team": "Valencia",
-      "points": "7",
+      "points": "6",
       "played": "10",
       "won": "1",
-      "drawn": "4",
-      "lost": "5",
+      "drawn": "3",
+      "lost": "6",
       "gf": "7",
-      "ga": "16",
-      "dg": "-9"
+      "ga": "17",
+      "dg": "-10"
     },
     {
       "rank": "20",
