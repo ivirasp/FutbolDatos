@@ -1,12 +1,5 @@
 [
   {
-    "title": "Alavés vs Málaga",
-    "start_ts": 1792782000.0,
-    "time_str": "21:00",
-    "channel": "DAZN LaLiga / DAZN",
-    "competition": "LALIGA"
-  },
-  {
     "title": "Rayo Vallecano vs Elche",
     "start_ts": 1792843200.0,
     "time_str": "14:00",
@@ -284,6 +277,34 @@
     "start_ts": 1793390400.0,
     "time_str": "21:00",
     "channel": "M+ LaLiga",
+    "competition": "LALIGA"
+  },
+  {
+    "title": "Levante vs Atlético de Madrid",
+    "start_ts": 1793451600.0,
+    "time_str": "14:00",
+    "channel": "M+ LaLiga",
+    "competition": "LALIGA"
+  },
+  {
+    "title": "Rayo Vallecano vs Celta",
+    "start_ts": 1793459700.0,
+    "time_str": "16:15",
+    "channel": "DAZN LaLiga / DAZN",
+    "competition": "LALIGA"
+  },
+  {
+    "title": "Betis vs Málaga",
+    "start_ts": 1793467800.0,
+    "time_str": "18:30",
+    "channel": "DAZN LaLiga / DAZN",
+    "competition": "LALIGA"
+  },
+  {
+    "title": "Barcelona vs Alavés",
+    "start_ts": 1793476800.0,
+    "time_str": "21:00",
+    "channel": "M+ LaLiga / Movistar Plus+ / Orange Fútbol 1",
     "competition": "LALIGA"
   },
   {
