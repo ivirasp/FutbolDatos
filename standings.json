@@ -39,10 +39,10 @@
     {
       "rank": "4",
       "team": "Real Betis",
-      "points": "19",
-      "played": "9",
+      "points": "20",
+      "played": "10",
       "won": "6",
-      "drawn": "1",
+      "drawn": "2",
       "lost": "2",
       "gf": "16",
       "ga": "14",
@@ -86,6 +86,30 @@
     },
     {
       "rank": "8",
+      "team": "Athletic Club",
+      "points": "12",
+      "played": "9",
+      "won": "3",
+      "drawn": "3",
+      "lost": "3",
+      "gf": "12",
+      "ga": "9",
+      "dg": "+3"
+    },
+    {
+      "rank": "9",
+      "team": "Celta",
+      "points": "12",
+      "played": "10",
+      "won": "2",
+      "drawn": "6",
+      "lost": "2",
+      "gf": "10",
+      "ga": "7",
+      "dg": "+3"
+    },
+    {
+      "rank": "10",
       "team": "Villarreal",
       "points": "12",
       "played": "10",
@@ -95,30 +119,6 @@
       "gf": "15",
       "ga": "14",
       "dg": "+1"
-    },
-    {
-      "rank": "9",
-      "team": "Athletic Club",
-      "points": "12",
-      "played": "9",
-      "won": "3",
-      "drawn": "3",
-      "lost": "3",
-      "gf": "10",
-      "ga": "9",
-      "dg": "+1"
-    },
-    {
-      "rank": "10",
-      "team": "Celta",
-      "points": "11",
-      "played": "9",
-      "won": "2",
-      "drawn": "5",
-      "lost": "2",
-      "gf": "10",
-      "ga": "7",
-      "dg": "+3"
     },
     {
       "rank": "11",
@@ -201,8 +201,8 @@
       "drawn": "3",
       "lost": "5",
       "gf": "5",
-      "ga": "13",
-      "dg": "-8"
+      "ga": "15",
+      "dg": "-10"
     },
     {
       "rank": "18",
