@@ -1,33 +1,5 @@
 [
   {
-    "title": "Rayo Vallecano vs Elche",
-    "start_ts": 1792843200.0,
-    "time_str": "14:00",
-    "channel": "M+ LaLiga",
-    "competition": "LALIGA"
-  },
-  {
-    "title": "Racing de Santander vs Espanyol",
-    "start_ts": 1792851300.0,
-    "time_str": "16:15",
-    "channel": "DAZN LaLiga / DAZN",
-    "competition": "LALIGA"
-  },
-  {
-    "title": "Valencia vs Villarreal",
-    "start_ts": 1792859400.0,
-    "time_str": "18:30",
-    "channel": "M+ LaLiga / M+ LaLiga 2",
-    "competition": "LALIGA"
-  },
-  {
-    "title": "Atlético de Madrid vs Deportivo",
-    "start_ts": 1792868400.0,
-    "time_str": "21:00",
-    "channel": "M+ LaLiga / Movistar Plus+ / Orange Fútbol 1",
-    "competition": "LALIGA"
-  },
-  {
     "title": "Athletic Club vs Getafe",
     "start_ts": 1792933200.0,
     "time_str": "14:00",
@@ -305,6 +277,34 @@
     "start_ts": 1793476800.0,
     "time_str": "21:00",
     "channel": "M+ LaLiga / Movistar Plus+ / Orange Fútbol 1",
+    "competition": "LALIGA"
+  },
+  {
+    "title": "Getafe vs Sevilla",
+    "start_ts": 1793538000.0,
+    "time_str": "14:00",
+    "channel": "DAZN LaLiga / DAZN",
+    "competition": "LALIGA"
+  },
+  {
+    "title": "Racing de Santander vs Real Madrid",
+    "start_ts": 1793546100.0,
+    "time_str": "16:15",
+    "channel": "DAZN LaLiga / DAZN",
+    "competition": "LALIGA"
+  },
+  {
+    "title": "Elche vs Valencia",
+    "start_ts": 1793554200.0,
+    "time_str": "18:30",
+    "channel": "M+ LaLiga",
+    "competition": "LALIGA"
+  },
+  {
+    "title": "Athletic Club vs Real Sociedad",
+    "start_ts": 1793563200.0,
+    "time_str": "21:00",
+    "channel": "DAZN LaLiga / DAZN",
     "competition": "LALIGA"
   },
   {
