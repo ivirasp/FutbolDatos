@@ -4,13 +4,13 @@
       "rank": "1",
       "team": "FC Barcelona",
       "points": "27",
-      "played": "9",
+      "played": "10",
       "won": "9",
       "drawn": "0",
-      "lost": "0",
+      "lost": "1",
       "gf": "39",
-      "ga": "9",
-      "dg": "+30"
+      "ga": "10",
+      "dg": "+29"
     },
     {
       "rank": "2",
@@ -27,14 +27,14 @@
     {
       "rank": "3",
       "team": "Real Madrid",
-      "points": "21",
-      "played": "9",
-      "won": "7",
+      "points": "24",
+      "played": "10",
+      "won": "8",
       "drawn": "0",
       "lost": "2",
-      "gf": "23",
+      "gf": "24",
       "ga": "9",
-      "dg": "+14"
+      "dg": "+15"
     },
     {
       "rank": "4",
