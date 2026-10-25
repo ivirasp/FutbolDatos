@@ -51,14 +51,14 @@
     {
       "rank": "5",
       "team": "Real Sociedad",
-      "points": "16",
-      "played": "9",
-      "won": "5",
+      "points": "19",
+      "played": "10",
+      "won": "6",
       "drawn": "1",
       "lost": "3",
-      "gf": "17",
-      "ga": "17",
-      "dg": "0"
+      "gf": "19",
+      "ga": "18",
+      "dg": "+1"
     },
     {
       "rank": "6",
@@ -160,13 +160,13 @@
       "rank": "14",
       "team": "Levante",
       "points": "10",
-      "played": "9",
+      "played": "10",
       "won": "2",
       "drawn": "4",
-      "lost": "3",
-      "gf": "15",
-      "ga": "17",
-      "dg": "-2"
+      "lost": "4",
+      "gf": "16",
+      "ga": "19",
+      "dg": "-3"
     },
     {
       "rank": "15",
