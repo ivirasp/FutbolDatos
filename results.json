@@ -2740,6 +2740,1035 @@
     },
     "current": "Jornada 10 (Actual)"
   },
+  "CHAMPIONS": {
+    "rounds": {
+      "Jornada 1": [
+        {
+          "date": "08-09-2026",
+          "home": "AEK Athens",
+          "away": "LASK",
+          "score": "1 - 0",
+          "status": "Fin"
+        },
+        {
+          "date": "08-09-2026",
+          "home": "Brujas",
+          "away": "Aston Villa",
+          "score": "2 - 3",
+          "status": "Fin"
+        },
+        {
+          "date": "08-09-2026",
+          "home": "Borussia Dortmund",
+          "away": "Villarreal",
+          "score": "3 - 2",
+          "status": "Fin"
+        },
+        {
+          "date": "08-09-2026",
+          "home": "FC Porto",
+          "away": "Manchester City",
+          "score": "0 - 2",
+          "status": "Fin"
+        },
+        {
+          "date": "08-09-2026",
+          "home": "Lille",
+          "away": "Real Betis",
+          "score": "2 - 3",
+          "status": "Fin"
+        },
+        {
+          "date": "08-09-2026",
+          "home": "Real Madrid",
+          "away": "Inter",
+          "score": "2 - 1",
+          "status": "Fin"
+        },
+        {
+          "date": "09-09-2026",
+          "home": "FC Barcelona",
+          "away": "Feyenoord",
+          "score": "5 - 1",
+          "status": "Fin"
+        },
+        {
+          "date": "09-09-2026",
+          "home": "Stuttgart",
+          "away": "Viking",
+          "score": "3 - 1",
+          "status": "Fin"
+        },
+        {
+          "date": "09-09-2026",
+          "home": "Liverpool",
+          "away": "Atlético de Madrid",
+          "score": "2 - 1",
+          "status": "Fin"
+        },
+        {
+          "date": "09-09-2026",
+          "home": "Napoli",
+          "away": "Arsenal",
+          "score": "0 - 1",
+          "status": "Fin"
+        },
+        {
+          "date": "09-09-2026",
+          "home": "PSG",
+          "away": "Slovan Bratislava",
+          "score": "6 - 1",
+          "status": "Fin"
+        },
+        {
+          "date": "09-09-2026",
+          "home": "Sporting CP",
+          "away": "Galatasaray",
+          "score": "3 - 1",
+          "status": "Fin"
+        },
+        {
+          "date": "10-09-2026",
+          "home": "Fenerbahçe",
+          "away": "Roma",
+          "score": "1 - 1",
+          "status": "Fin"
+        },
+        {
+          "date": "10-09-2026",
+          "home": "PSV",
+          "away": "Shakhtar",
+          "score": "1 - 1",
+          "status": "Fin"
+        },
+        {
+          "date": "10-09-2026",
+          "home": "Bayern Múnich",
+          "away": "Bodø/Glimt",
+          "score": "5 - 0",
+          "status": "Fin"
+        },
+        {
+          "date": "10-09-2026",
+          "home": "Como",
+          "away": "RB Leipzig",
+          "score": "4 - 1",
+          "status": "Fin"
+        },
+        {
+          "date": "10-09-2026",
+          "home": "Manchester United",
+          "away": "Sabah",
+          "score": "4 - 0",
+          "status": "Fin"
+        },
+        {
+          "date": "10-09-2026",
+          "home": "Slavia Prague",
+          "away": "Lens",
+          "score": "2 - 3",
+          "status": "Fin"
+        }
+      ],
+      "Jornada 2": [
+        {
+          "date": "13-10-2026",
+          "home": "Lens",
+          "away": "Sporting CP",
+          "score": "0 - 2",
+          "status": "Fin"
+        },
+        {
+          "date": "13-10-2026",
+          "home": "Sabah",
+          "away": "Slavia Prague",
+          "score": "2 - 0",
+          "status": "Fin"
+        },
+        {
+          "date": "13-10-2026",
+          "home": "Arsenal",
+          "away": "Lille",
+          "score": "3 - 0",
+          "status": "Fin"
+        },
+        {
+          "date": "13-10-2026",
+          "home": "Atlético de Madrid",
+          "away": "Manchester United",
+          "score": "2 - 0",
+          "status": "Fin"
+        },
+        {
+          "date": "13-10-2026",
+          "home": "Galatasaray",
+          "away": "FC Barcelona",
+          "score": "1 - 4",
+          "status": "Fin"
+        },
+        {
+          "date": "13-10-2026",
+          "home": "Inter",
+          "away": "Brujas",
+          "score": "3 - 4",
+          "status": "Fin"
+        },
+        {
+          "date": "13-10-2026",
+          "home": "RB Leipzig",
+          "away": "PSV",
+          "score": "1 - 0",
+          "status": "Fin"
+        },
+        {
+          "date": "13-10-2026",
+          "home": "Viking",
+          "away": "Bayern Múnich",
+          "score": "3 - 3",
+          "status": "Fin"
+        },
+        {
+          "date": "13-10-2026",
+          "home": "Villarreal",
+          "away": "Napoli",
+          "score": "3 - 1",
+          "status": "Fin"
+        },
+        {
+          "date": "14-10-2026",
+          "home": "Feyenoord",
+          "away": "Como",
+          "score": "3 - 2",
+          "status": "Fin"
+        },
+        {
+          "date": "14-10-2026",
+          "home": "LASK",
+          "away": "Liverpool",
+          "score": "3 - 6",
+          "status": "Fin"
+        },
+        {
+          "date": "14-10-2026",
+          "home": "Aston Villa",
+          "away": "Fenerbahçe",
+          "score": "6 - 0",
+          "status": "Fin"
+        },
+        {
+          "date": "14-10-2026",
+          "home": "Bodø/Glimt",
+          "away": "Borussia Dortmund",
+          "score": "1 - 0",
+          "status": "Fin"
+        },
+        {
+          "date": "14-10-2026",
+          "home": "Manchester City",
+          "away": "PSG",
+          "score": "2 - 4",
+          "status": "Fin"
+        },
+        {
+          "date": "14-10-2026",
+          "home": "Real Betis",
+          "away": "FC Porto",
+          "score": "3 - 2",
+          "status": "Fin"
+        },
+        {
+          "date": "14-10-2026",
+          "home": "Roma",
+          "away": "Real Madrid",
+          "score": "3 - 4",
+          "status": "Fin"
+        },
+        {
+          "date": "14-10-2026",
+          "home": "Shakhtar",
+          "away": "AEK Athens",
+          "score": "3 - 1",
+          "status": "Fin"
+        },
+        {
+          "date": "14-10-2026",
+          "home": "Slovan Bratislava",
+          "away": "Stuttgart",
+          "score": "0 - 3",
+          "status": "Fin"
+        }
+      ],
+      "Jornada 3": [
+        {
+          "date": "20-10-2026",
+          "home": "Fenerbahçe",
+          "away": "Slavia Prague",
+          "score": "2 - 2",
+          "status": "Fin"
+        },
+        {
+          "date": "20-10-2026",
+          "home": "Sabah",
+          "away": "Borussia Dortmund",
+          "score": "1 - 2",
+          "status": "Fin"
+        },
+        {
+          "date": "20-10-2026",
+          "home": "FC Porto",
+          "away": "PSV",
+          "score": "0 - 1",
+          "status": "Fin"
+        },
+        {
+          "date": "20-10-2026",
+          "home": "Liverpool",
+          "away": "Villarreal",
+          "score": "4 - 3",
+          "status": "Fin"
+        },
+        {
+          "date": "20-10-2026",
+          "home": "Manchester City",
+          "away": "AEK Athens",
+          "score": "5 - 1",
+          "status": "Fin"
+        },
+        {
+          "date": "20-10-2026",
+          "home": "Napoli",
+          "away": "Bodø/Glimt",
+          "score": "4 - 3",
+          "status": "Fin"
+        },
+        {
+          "date": "20-10-2026",
+          "home": "PSG",
+          "away": "FC Barcelona",
+          "score": "4 - 2",
+          "status": "Fin"
+        },
+        {
+          "date": "20-10-2026",
+          "home": "Roma",
+          "away": "Slovan Bratislava",
+          "score": "4 - 0",
+          "status": "Fin"
+        },
+        {
+          "date": "20-10-2026",
+          "home": "Stuttgart",
+          "away": "Atlético de Madrid",
+          "score": "1 - 1",
+          "status": "Fin"
+        },
+        {
+          "date": "21-10-2026",
+          "home": "Como",
+          "away": "Manchester United",
+          "score": "4 - 1",
+          "status": "Fin"
+        },
+        {
+          "date": "21-10-2026",
+          "home": "Lille",
+          "away": "Galatasaray",
+          "score": "2 - 4",
+          "status": "Fin"
+        },
+        {
+          "date": "21-10-2026",
+          "home": "Aston Villa",
+          "away": "Viking",
+          "score": "3 - 1",
+          "status": "Fin"
+        },
+        {
+          "date": "21-10-2026",
+          "home": "Bayern Múnich",
+          "away": "Arsenal",
+          "score": "2 - 2",
+          "status": "Fin"
+        },
+        {
+          "date": "21-10-2026",
+          "home": "Brujas",
+          "away": "Lens",
+          "score": "3 - 0",
+          "status": "Fin"
+        },
+        {
+          "date": "21-10-2026",
+          "home": "Inter",
+          "away": "Shakhtar",
+          "score": "1 - 0",
+          "status": "Fin"
+        },
+        {
+          "date": "21-10-2026",
+          "home": "Real Betis",
+          "away": "Feyenoord",
+          "score": "1 - 0",
+          "status": "Fin"
+        },
+        {
+          "date": "21-10-2026",
+          "home": "Real Madrid",
+          "away": "RB Leipzig",
+          "score": "4 - 1",
+          "status": "Fin"
+        },
+        {
+          "date": "21-10-2026",
+          "home": "Sporting CP",
+          "away": "LASK",
+          "score": "2 - 3",
+          "status": "Fin"
+        }
+      ],
+      "Jornada 4 (Actual)": [
+        {
+          "date": "03-11-2026",
+          "home": "Galatasaray",
+          "away": "Stuttgart",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "03-11-2026",
+          "home": "Shakhtar",
+          "away": "Sporting CP",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "03-11-2026",
+          "home": "Atlético de Madrid",
+          "away": "Bayern Múnich",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "03-11-2026",
+          "home": "FC Barcelona",
+          "away": "Aston Villa",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "03-11-2026",
+          "home": "Bodø/Glimt",
+          "away": "Lille",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "03-11-2026",
+          "home": "Feyenoord",
+          "away": "Inter",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "03-11-2026",
+          "home": "LASK",
+          "away": "Slovan Bratislava",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "03-11-2026",
+          "home": "Manchester United",
+          "away": "Roma",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "03-11-2026",
+          "home": "Villarreal",
+          "away": "PSG",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "04-11-2026",
+          "home": "AEK Athens",
+          "away": "Real Madrid",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "04-11-2026",
+          "home": "Fenerbahçe",
+          "away": "Liverpool",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "04-11-2026",
+          "home": "Borussia Dortmund",
+          "away": "Real Betis",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "04-11-2026",
+          "home": "FC Porto",
+          "away": "Napoli",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "04-11-2026",
+          "home": "Lens",
+          "away": "Como",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "04-11-2026",
+          "home": "PSV",
+          "away": "Brujas",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "04-11-2026",
+          "home": "RB Leipzig",
+          "away": "Manchester City",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "04-11-2026",
+          "home": "Slavia Prague",
+          "away": "Arsenal",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "04-11-2026",
+          "home": "Viking",
+          "away": "Sabah",
+          "score": "vs",
+          "status": ""
+        }
+      ],
+      "Jornada 5": [
+        {
+          "date": "24-11-2026",
+          "home": "Bodø/Glimt",
+          "away": "LASK",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "24-11-2026",
+          "home": "Galatasaray",
+          "away": "Aston Villa",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "24-11-2026",
+          "home": "Arsenal",
+          "away": "Borussia Dortmund",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "24-11-2026",
+          "home": "Como",
+          "away": "AEK Athens",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "24-11-2026",
+          "home": "Feyenoord",
+          "away": "FC Porto",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "24-11-2026",
+          "home": "Manchester City",
+          "away": "Napoli",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "24-11-2026",
+          "home": "RB Leipzig",
+          "away": "Lens",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "24-11-2026",
+          "home": "Real Madrid",
+          "away": "PSV",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "24-11-2026",
+          "home": "Slovan Bratislava",
+          "away": "Real Betis",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "25-11-2026",
+          "home": "Sabah",
+          "away": "FC Barcelona",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "25-11-2026",
+          "home": "Slavia Prague",
+          "away": "Villarreal",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "25-11-2026",
+          "home": "Atlético de Madrid",
+          "away": "Viking",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "25-11-2026",
+          "home": "Brujas",
+          "away": "Liverpool",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "25-11-2026",
+          "home": "Inter",
+          "away": "Stuttgart",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "25-11-2026",
+          "home": "Lille",
+          "away": "Bayern Múnich",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "25-11-2026",
+          "home": "PSG",
+          "away": "Roma",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "25-11-2026",
+          "home": "Shakhtar",
+          "away": "Fenerbahçe",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "25-11-2026",
+          "home": "Sporting CP",
+          "away": "Manchester United",
+          "score": "vs",
+          "status": ""
+        }
+      ],
+      "Jornada 6": [
+        {
+          "date": "08-12-2026",
+          "home": "Viking",
+          "away": "Feyenoord",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "08-12-2026",
+          "home": "Villarreal",
+          "away": "Sabah",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "08-12-2026",
+          "home": "AEK Athens",
+          "away": "Galatasaray",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "08-12-2026",
+          "home": "Aston Villa",
+          "away": "PSG",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "08-12-2026",
+          "home": "FC Barcelona",
+          "away": "Manchester City",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "08-12-2026",
+          "home": "Bayern Múnich",
+          "away": "Slavia Prague",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "08-12-2026",
+          "home": "Manchester United",
+          "away": "RB Leipzig",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "08-12-2026",
+          "home": "Napoli",
+          "away": "Brujas",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "08-12-2026",
+          "home": "Roma",
+          "away": "Sporting CP",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "09-12-2026",
+          "home": "Real Betis",
+          "away": "Como",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "09-12-2026",
+          "home": "Slovan Bratislava",
+          "away": "Shakhtar",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "09-12-2026",
+          "home": "Arsenal",
+          "away": "Real Madrid",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "09-12-2026",
+          "home": "Borussia Dortmund",
+          "away": "Inter",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "09-12-2026",
+          "home": "LASK",
+          "away": "Fenerbahçe",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "09-12-2026",
+          "home": "Lens",
+          "away": "Bodø/Glimt",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "09-12-2026",
+          "home": "Liverpool",
+          "away": "FC Porto",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "09-12-2026",
+          "home": "PSV",
+          "away": "Atlético de Madrid",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "09-12-2026",
+          "home": "Stuttgart",
+          "away": "Lille",
+          "score": "vs",
+          "status": ""
+        }
+      ],
+      "Jornada 7": [
+        {
+          "date": "19-01-2027",
+          "home": "Bodø/Glimt",
+          "away": "Atlético de Madrid",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "19-01-2027",
+          "home": "Galatasaray",
+          "away": "Feyenoord",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "19-01-2027",
+          "home": "AEK Athens",
+          "away": "Roma",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "19-01-2027",
+          "home": "Aston Villa",
+          "away": "Borussia Dortmund",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "19-01-2027",
+          "home": "FC Porto",
+          "away": "Slavia Prague",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "19-01-2027",
+          "home": "Inter",
+          "away": "Liverpool",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "19-01-2027",
+          "home": "Lille",
+          "away": "Slovan Bratislava",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "19-01-2027",
+          "home": "Real Madrid",
+          "away": "LASK",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "19-01-2027",
+          "home": "Stuttgart",
+          "away": "Brujas",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "20-01-2027",
+          "home": "Fenerbahçe",
+          "away": "Villarreal",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "20-01-2027",
+          "home": "Sabah",
+          "away": "Napoli",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "20-01-2027",
+          "home": "Como",
+          "away": "PSG",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "20-01-2027",
+          "home": "Lens",
+          "away": "Manchester City",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "20-01-2027",
+          "home": "Manchester United",
+          "away": "Bayern Múnich",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "20-01-2027",
+          "home": "RB Leipzig",
+          "away": "Shakhtar",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "20-01-2027",
+          "home": "Real Betis",
+          "away": "Arsenal",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "20-01-2027",
+          "home": "Sporting CP",
+          "away": "FC Barcelona",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "20-01-2027",
+          "home": "Viking",
+          "away": "PSV",
+          "score": "vs",
+          "status": ""
+        }
+      ],
+      "Jornada 8": [
+        {
+          "date": "27-01-2027",
+          "home": "Arsenal",
+          "away": "Sabah",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "27-01-2027",
+          "home": "Atlético de Madrid",
+          "away": "Fenerbahçe",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "27-01-2027",
+          "home": "FC Barcelona",
+          "away": "Como",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "27-01-2027",
+          "home": "Bayern Múnich",
+          "away": "Real Betis",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "27-01-2027",
+          "home": "Borussia Dortmund",
+          "away": "AEK Athens",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "27-01-2027",
+          "home": "Brujas",
+          "away": "Bodø/Glimt",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "27-01-2027",
+          "home": "Feyenoord",
+          "away": "RB Leipzig",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "27-01-2027",
+          "home": "LASK",
+          "away": "FC Porto",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "27-01-2027",
+          "home": "Liverpool",
+          "away": "Lens",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "27-01-2027",
+          "home": "Manchester City",
+          "away": "Sporting CP",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "27-01-2027",
+          "home": "Napoli",
+          "away": "Viking",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "27-01-2027",
+          "home": "PSV",
+          "away": "Stuttgart",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "27-01-2027",
+          "home": "PSG",
+          "away": "Galatasaray",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "27-01-2027",
+          "home": "Roma",
+          "away": "Lille",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "27-01-2027",
+          "home": "Shakhtar",
+          "away": "Real Madrid",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "27-01-2027",
+          "home": "Slavia Prague",
+          "away": "Aston Villa",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "27-01-2027",
+          "home": "Slovan Bratislava",
+          "away": "Inter",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "27-01-2027",
+          "home": "Villarreal",
+          "away": "Manchester United",
+          "score": "vs",
+          "status": ""
+        }
+      ]
+    },
+    "current": "Jornada 4 (Actual)"
+  },
   "EUROPA": {
     "rounds": {
       "Jornada 1": [
