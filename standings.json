@@ -63,14 +63,14 @@
     {
       "rank": "6",
       "team": "Sevilla",
-      "points": "14",
-      "played": "9",
-      "won": "4",
+      "points": "17",
+      "played": "10",
+      "won": "5",
       "drawn": "2",
       "lost": "3",
-      "gf": "14",
+      "gf": "16",
       "ga": "16",
-      "dg": "-2"
+      "dg": "0"
     },
     {
       "rank": "7",
@@ -136,13 +136,13 @@
       "rank": "12",
       "team": "Osasuna",
       "points": "11",
-      "played": "9",
+      "played": "10",
       "won": "3",
       "drawn": "2",
-      "lost": "4",
+      "lost": "5",
       "gf": "10",
-      "ga": "18",
-      "dg": "-8"
+      "ga": "20",
+      "dg": "-10"
     },
     {
       "rank": "13",
