@@ -1,33 +1,5 @@
 [
   {
-    "title": "Athletic Club vs Getafe",
-    "start_ts": 1792933200.0,
-    "time_str": "14:00",
-    "channel": "DAZN LaLiga / DAZN",
-    "competition": "LALIGA"
-  },
-  {
-    "title": "Celta vs Betis",
-    "start_ts": 1792941300.0,
-    "time_str": "16:15",
-    "channel": "DAZN LaLiga 2 / DAZN",
-    "competition": "LALIGA"
-  },
-  {
-    "title": "Real Sociedad vs Levante",
-    "start_ts": 1792949400.0,
-    "time_str": "18:30",
-    "channel": "M+ LaLiga",
-    "competition": "LALIGA"
-  },
-  {
-    "title": "Barcelona vs Real Madrid",
-    "start_ts": 1792958400.0,
-    "time_str": "21:00",
-    "channel": "DAZN LaLiga / DAZN",
-    "competition": "LALIGA"
-  },
-  {
     "title": "Sevilla vs Osasuna",
     "start_ts": 1793044800.0,
     "time_str": "21:00",
@@ -305,6 +277,13 @@
     "start_ts": 1793563200.0,
     "time_str": "21:00",
     "channel": "DAZN LaLiga / DAZN",
+    "competition": "LALIGA"
+  },
+  {
+    "title": "Deportivo vs Osasuna",
+    "start_ts": 1793649600.0,
+    "time_str": "21:00",
+    "channel": "M+ LaLiga / DAZN",
     "competition": "LALIGA"
   },
   {
