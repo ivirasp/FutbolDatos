@@ -649,7 +649,7 @@
           "status": "Fin"
         }
       ],
-      "Jornada 10 (Actual)": [
+      "Jornada 10": [
         {
           "date": "23-10-2026",
           "home": "Alavés",
@@ -721,7 +721,7 @@
           "status": "Fin"
         }
       ],
-      "Jornada 11": [
+      "Jornada 11 (Actual)": [
         {
           "date": "30-10-2026",
           "home": "Villarreal",
@@ -2738,7 +2738,7 @@
         }
       ]
     },
-    "current": "Jornada 10 (Actual)"
+    "current": "Jornada 11 (Actual)"
   },
   "CHAMPIONS": {
     "rounds": {
