@@ -1,16 +1,9 @@
 [
   {
-    "title": "Sevilla vs Osasuna",
-    "start_ts": 1793044800.0,
-    "time_str": "21:00",
-    "channel": "M+ LaLiga",
-    "competition": "LALIGA"
-  },
-  {
     "title": "C.D. Cuarte vs Girona",
     "start_ts": 1793122200.0,
     "time_str": "18:30",
-    "channel": "Aragón Play",
+    "channel": "Aragón TV / Aragón Play",
     "competition": "COPA"
   },
   {
@@ -52,7 +45,7 @@
     "title": "Recreativo Huelva vs Rayo Vallecano",
     "start_ts": 1793131200.0,
     "time_str": "21:00",
-    "channel": "M+ LaLiga / LaLiga TV Multi 2",
+    "channel": "M+ LaLiga / M+ Liga de Campeones / LaLiga TV Multi 2",
     "competition": "COPA"
   },
   {
@@ -143,7 +136,7 @@
     "title": "Navalcarnero vs Betis",
     "start_ts": 1793217600.0,
     "time_str": "21:00",
-    "channel": "Movistar Plus+",
+    "channel": "M+ Liga de Campeones / Movistar Plus+",
     "competition": "COPA"
   },
   {
@@ -199,21 +192,21 @@
     "title": "Ribadesella CF vs Racing de Santander",
     "start_ts": 1793304000.0,
     "time_str": "21:00",
-    "channel": "M+ LaLiga 3 / LaLiga TV Multi 3",
+    "channel": "M+ Liga de Campeones / M+ LaLiga 3 / LaLiga TV Multi 3",
     "competition": "COPA"
   },
   {
-    "title": "Auriense Cented Academy vs Deportivo",
+    "title": "Auriense CA vs Deportivo",
     "start_ts": 1793304000.0,
     "time_str": "21:00",
-    "channel": "Movistar+",
+    "channel": "M+ LaLiga 2 / M+ LaLiga 4 / LaLiga TV Multi 2",
     "competition": "COPA"
   },
   {
     "title": "A.E. Prat vs Athletic Club",
     "start_ts": 1793304000.0,
     "time_str": "21:00",
-    "channel": "Teledeporte / rtve Play",
+    "channel": "Esport 3 / Teledeporte / rtve Play",
     "competition": "COPA"
   },
   {
@@ -425,6 +418,13 @@
     "time_str": "21:00",
     "channel": "TBD",
     "competition": "EUROPA"
+  },
+  {
+    "title": "Sevilla vs Alavés",
+    "start_ts": 1793995200.0,
+    "time_str": "21:00",
+    "channel": "DAZN LaLiga / DAZN",
+    "competition": "LALIGA"
   },
   {
     "title": "Bodø/Glimt vs LASK Linz",
