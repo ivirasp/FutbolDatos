@@ -4797,5 +4797,404 @@
       ]
     },
     "current": "Jornada 4 (Actual)"
+  },
+  "COPA": {
+    "rounds": {
+      "Primera fase (Actual)": [
+        {
+          "date": "27-10-2026",
+          "home": "Cuarte",
+          "away": "Girona",
+          "score": "0 - 2",
+          "status": "Fin"
+        },
+        {
+          "date": "27-10-2026",
+          "home": "Calamocha",
+          "away": "CE Europa de Barcelona",
+          "score": "0 - 1",
+          "status": "Fin"
+        },
+        {
+          "date": "27-10-2026",
+          "home": "Sestao River",
+          "away": "Espanyol",
+          "score": "4 - 3",
+          "status": "Fin"
+        },
+        {
+          "date": "27-10-2026",
+          "home": "UD Pinatar",
+          "away": "Elche",
+          "score": "1 - 3",
+          "status": "Fin"
+        },
+        {
+          "date": "27-10-2026",
+          "home": "Castellonense",
+          "away": "Almería",
+          "score": "1 - 2",
+          "status": "Fin"
+        },
+        {
+          "date": "27-10-2026",
+          "home": "Alcalá",
+          "away": "Las Palmas",
+          "score": "1 - 1",
+          "status": "Fin"
+        },
+        {
+          "date": "27-10-2026",
+          "home": "Atlético Tordesillas",
+          "away": "Mirandés",
+          "score": "3 - 3",
+          "status": "Fin"
+        },
+        {
+          "date": "27-10-2026",
+          "home": "Ciudad de Lucena",
+          "away": "Rayo Majadahonda",
+          "score": "0 - 1",
+          "status": "Fin"
+        },
+        {
+          "date": "27-10-2026",
+          "home": "Gimnástica Segoviana",
+          "away": "Cultural Leonesa",
+          "score": "0 - 1",
+          "status": "Fin"
+        },
+        {
+          "date": "27-10-2026",
+          "home": "Llanera",
+          "away": "Ponferradina",
+          "score": "1 - 1",
+          "status": "Fin"
+        },
+        {
+          "date": "27-10-2026",
+          "home": "Don Benito",
+          "away": "CD Extremadura",
+          "score": "2 - 4",
+          "status": "Fin"
+        },
+        {
+          "date": "27-10-2026",
+          "home": "Manresa",
+          "away": "Sant Andreu",
+          "score": "2 - 2",
+          "status": "Fin"
+        },
+        {
+          "date": "27-10-2026",
+          "home": "Arosa",
+          "away": "Pontevedra CF",
+          "score": "2 - 0",
+          "status": "Fin"
+        },
+        {
+          "date": "27-10-2026",
+          "home": "Atlético Paso",
+          "away": "Córdoba",
+          "score": "3 - 1",
+          "status": "Fin"
+        },
+        {
+          "date": "27-10-2026",
+          "home": "Manacor",
+          "away": "Villarreal",
+          "score": "0 - 5",
+          "status": "Fin"
+        },
+        {
+          "date": "27-10-2026",
+          "home": "Recreativo",
+          "away": "Rayo Vallecano",
+          "score": "2 - 3",
+          "status": "Fin"
+        },
+        {
+          "date": "27-10-2026",
+          "home": "Sporting Alcázar",
+          "away": "Málaga",
+          "score": "0 - 3",
+          "status": "Fin"
+        },
+        {
+          "date": "27-10-2026",
+          "home": "Tudelano",
+          "away": "Real Zaragoza",
+          "score": "0 - 4",
+          "status": "Fin"
+        },
+        {
+          "date": "29-10-2026",
+          "home": "Numancia",
+          "away": "Real Oviedo",
+          "score": "1 - 0",
+          "status": "Directo"
+        },
+        {
+          "date": "29-10-2026",
+          "home": "Peña Sport",
+          "away": "Huesca",
+          "score": "0 - 0",
+          "status": "Directo"
+        },
+        {
+          "date": "29-10-2026",
+          "home": "Atlético Baleares",
+          "away": "Eldense",
+          "score": "0 - 0",
+          "status": "Directo"
+        },
+        {
+          "date": "29-10-2026",
+          "home": "Atlético Calatayud",
+          "away": "Osasuna",
+          "score": "0 - 1",
+          "status": "Directo"
+        },
+        {
+          "date": "29-10-2026",
+          "home": "Coruxo",
+          "away": "Zamora",
+          "score": "0 - 0",
+          "status": "Directo"
+        },
+        {
+          "date": "29-10-2026",
+          "home": "Lebrijana",
+          "away": "Getafe",
+          "score": "1 - 0",
+          "status": "Directo"
+        },
+        {
+          "date": "29-10-2026",
+          "home": "Poblense",
+          "away": "AD Ceuta FC",
+          "score": "0 - 0",
+          "status": "Directo"
+        },
+        {
+          "date": "29-10-2026",
+          "home": "San Sebastián de los Reyes",
+          "away": "Coria",
+          "score": "0 - 0",
+          "status": "Directo"
+        },
+        {
+          "date": "29-10-2026",
+          "home": "Cieza",
+          "away": "Granada CF",
+          "score": "0 - 0",
+          "status": ""
+        },
+        {
+          "date": "29-10-2026",
+          "home": "Antequera",
+          "away": "Águilas",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "29-10-2026",
+          "home": "Conquense",
+          "away": "Castellón",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "29-10-2026",
+          "home": "Covadonga",
+          "away": "Real Valladolid",
+          "score": "0 - 0",
+          "status": ""
+        },
+        {
+          "date": "29-10-2026",
+          "home": "Guijuelo",
+          "away": "Sporting de Gijón",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "29-10-2026",
+          "home": "Laredo",
+          "away": "Burgos CF",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "29-10-2026",
+          "home": "Mijas Las Lagunas",
+          "away": "Real Jaén",
+          "score": "0 - 0",
+          "status": "Aplazado"
+        },
+        {
+          "date": "29-10-2026",
+          "home": "Real Ávila",
+          "away": "Unionistas",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "29-10-2026",
+          "home": "Varea",
+          "away": "FC Andorra",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "29-10-2026",
+          "home": "Gimnástica Torrelavega",
+          "away": "UD Ourense",
+          "score": "0 - 0",
+          "status": ""
+        },
+        {
+          "date": "29-10-2026",
+          "home": "Auriense CA",
+          "away": "Deportivo de A Coruña",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "29-10-2026",
+          "home": "Prat",
+          "away": "Athletic Club",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "29-10-2026",
+          "home": "Ribadesella",
+          "away": "Racing de Santander",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "29-10-2026",
+          "home": "Sporting Hortaleza",
+          "away": "Sevilla",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "29-10-2026",
+          "home": "Xerez",
+          "away": "Cádiz",
+          "score": "0 - 0",
+          "status": ""
+        },
+        {
+          "date": "03-11-2026",
+          "home": "Anaitasuna",
+          "away": "Alavés",
+          "score": "0 - 0",
+          "status": ""
+        },
+        {
+          "date": "03-11-2026",
+          "home": "Pamplona",
+          "away": "Eibar",
+          "score": "0 - 0",
+          "status": ""
+        },
+        {
+          "date": "04-11-2026",
+          "home": "Portugalete",
+          "away": "Real Unión",
+          "score": "0 - 0",
+          "status": ""
+        },
+        {
+          "date": "04-11-2026",
+          "home": "Amorebieta",
+          "away": "UD Logroñés",
+          "score": "0 - 0",
+          "status": ""
+        },
+        {
+          "date": "04-11-2026",
+          "home": "Deportiva Minera",
+          "away": "FC Cartagena",
+          "score": "0 - 0",
+          "status": ""
+        },
+        {
+          "date": "04-11-2026",
+          "home": "Reus Reddis",
+          "away": "Barakaldo",
+          "score": "0 - 0",
+          "status": ""
+        },
+        {
+          "date": "04-11-2026",
+          "home": "Utebo",
+          "away": "Sabadell",
+          "score": "0 - 0",
+          "status": ""
+        },
+        {
+          "date": "04-11-2026",
+          "home": "Calvo Sotelo",
+          "away": "Albacete",
+          "score": "0 - 0",
+          "status": ""
+        },
+        {
+          "date": "04-11-2026",
+          "home": "CD Badajoz",
+          "away": "Tenerife",
+          "score": "0 - 0",
+          "status": ""
+        },
+        {
+          "date": "05-11-2026",
+          "home": "Tarancón",
+          "away": "Levante",
+          "score": "0 - 0",
+          "status": ""
+        },
+        {
+          "date": "05-11-2026",
+          "home": "Alcoyano",
+          "away": "Mallorca",
+          "score": "0 - 0",
+          "status": ""
+        },
+        {
+          "date": "10-11-2026",
+          "home": "Trival Valderas",
+          "away": "Leganés",
+          "score": "0 - 0",
+          "status": ""
+        },
+        {
+          "date": "10-11-2026",
+          "home": "Tavernes",
+          "away": "Valencia CF",
+          "score": "0 - 0",
+          "status": ""
+        },
+        {
+          "date": "12-11-2026",
+          "home": "Navalcarnero",
+          "away": "Real Betis",
+          "score": "0 - 0",
+          "status": ""
+        },
+        {
+          "date": "13-11-2026",
+          "home": "Salamanca UDS",
+          "away": "Celta de Vigo",
+          "score": "0 - 0",
+          "status": ""
+        }
+      ]
+    },
+    "current": "Primera fase (Actual)"
   }
 }
