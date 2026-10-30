@@ -1,54 +1,5 @@
 [
   {
-    "title": "Lebrijana vs Getafe",
-    "start_ts": 1793296800.0,
-    "time_str": "19:00",
-    "channel": "M+ LaLiga 3 / LaLiga TV Multi 2",
-    "competition": "COPA"
-  },
-  {
-    "title": "Atlético Calatayud vs Osasuna",
-    "start_ts": 1793296800.0,
-    "time_str": "19:00",
-    "channel": "M+ LaLiga 2",
-    "competition": "COPA"
-  },
-  {
-    "title": "Guijuelo vs Sporting de Gijón",
-    "start_ts": 1793300400.0,
-    "time_str": "20:00",
-    "channel": "TPA7",
-    "competition": "COPA"
-  },
-  {
-    "title": "Sporting Hortaleza vs Sevilla",
-    "start_ts": 1793304000.0,
-    "time_str": "21:00",
-    "channel": "M+ LaLiga",
-    "competition": "COPA"
-  },
-  {
-    "title": "Ribadesella CF vs Racing de Santander",
-    "start_ts": 1793304000.0,
-    "time_str": "21:00",
-    "channel": "M+ Liga de Campeones / M+ LaLiga 3 / LaLiga TV Multi 3",
-    "competition": "COPA"
-  },
-  {
-    "title": "Auriense CA vs Deportivo",
-    "start_ts": 1793304000.0,
-    "time_str": "21:00",
-    "channel": "M+ LaLiga 2 / M+ LaLiga 4 / LaLiga TV Multi 2",
-    "competition": "COPA"
-  },
-  {
-    "title": "A.E. Prat vs Athletic Club",
-    "start_ts": 1793304000.0,
-    "time_str": "21:00",
-    "channel": "Esport 3 / Teledeporte / rtve Play",
-    "competition": "COPA"
-  },
-  {
     "title": "Villarreal vs Espanyol",
     "start_ts": 1793390400.0,
     "time_str": "21:00",
