@@ -505,20 +505,13 @@
           "status": "Fin"
         }
       ],
-      "Jornada 8": [
+      "Jornada 8 (Actual)": [
         {
           "date": "09-10-2026",
           "home": "Málaga",
           "away": "Espanyol",
           "score": "1 - 1",
           "status": "Fin"
-        },
-        {
-          "date": "10-10-2026",
-          "home": "Rayo Vallecano",
-          "away": "Athletic Club",
-          "score": "0 - 0",
-          "status": ""
         },
         {
           "date": "10-10-2026",
@@ -575,6 +568,13 @@
           "away": "Sevilla",
           "score": "3 - 3",
           "status": "Fin"
+        },
+        {
+          "date": "09-12-2026",
+          "home": "Rayo Vallecano",
+          "away": "Athletic Club",
+          "score": "0 - 0",
+          "status": ""
         }
       ],
       "Jornada 9": [
@@ -721,7 +721,7 @@
           "status": "Fin"
         }
       ],
-      "Jornada 11 (Actual)": [
+      "Jornada 11": [
         {
           "date": "30-10-2026",
           "home": "Villarreal",
@@ -2738,7 +2738,7 @@
         }
       ]
     },
-    "current": "Jornada 11 (Actual)"
+    "current": "Jornada 8 (Actual)"
   },
   "CHAMPIONS": {
     "rounds": {
