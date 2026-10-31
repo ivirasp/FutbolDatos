@@ -1,12 +1,5 @@
 [
   {
-    "title": "Villarreal vs Espanyol",
-    "start_ts": 1793390400.0,
-    "time_str": "21:00",
-    "channel": "M+ LaLiga",
-    "competition": "LALIGA"
-  },
-  {
     "title": "Levante vs Atlético de Madrid",
     "start_ts": 1793451600.0,
     "time_str": "14:00",
@@ -212,6 +205,34 @@
   {
     "title": "Sevilla vs Alavés",
     "start_ts": 1793995200.0,
+    "time_str": "21:00",
+    "channel": "DAZN LaLiga / DAZN",
+    "competition": "LALIGA"
+  },
+  {
+    "title": "Málaga vs Racing de Santander",
+    "start_ts": 1794056400.0,
+    "time_str": "14:00",
+    "channel": "M+ LaLiga",
+    "competition": "LALIGA"
+  },
+  {
+    "title": "Espanyol vs Deportivo",
+    "start_ts": 1794064500.0,
+    "time_str": "16:15",
+    "channel": "DAZN LaLiga / DAZN",
+    "competition": "LALIGA"
+  },
+  {
+    "title": "Osasuna vs Athletic Club",
+    "start_ts": 1794072600.0,
+    "time_str": "18:30",
+    "channel": "M+ LaLiga / Movistar Plus+ / Orange Fútbol 1",
+    "competition": "LALIGA"
+  },
+  {
+    "title": "Valencia vs Real Madrid",
+    "start_ts": 1794081600.0,
     "time_str": "21:00",
     "channel": "DAZN LaLiga / DAZN",
     "competition": "LALIGA"
