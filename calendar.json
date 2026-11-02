@@ -1,33 +1,5 @@
 [
   {
-    "title": "Getafe vs Sevilla",
-    "start_ts": 1793538000.0,
-    "time_str": "14:00",
-    "channel": "DAZN LaLiga 2 / DAZN",
-    "competition": "LALIGA"
-  },
-  {
-    "title": "Racing de Santander vs Real Madrid",
-    "start_ts": 1793546100.0,
-    "time_str": "16:15",
-    "channel": "DAZN LaLiga / DAZN",
-    "competition": "LALIGA"
-  },
-  {
-    "title": "Elche vs Valencia",
-    "start_ts": 1793554200.0,
-    "time_str": "18:30",
-    "channel": "M+ LaLiga",
-    "competition": "LALIGA"
-  },
-  {
-    "title": "Athletic Club vs Real Sociedad",
-    "start_ts": 1793563200.0,
-    "time_str": "21:00",
-    "channel": "DAZN LaLiga / DAZN",
-    "competition": "LALIGA"
-  },
-  {
     "title": "Deportivo vs Osasuna",
     "start_ts": 1793649600.0,
     "time_str": "21:00",
@@ -108,56 +80,56 @@
     "title": "Fenerbahçe vs Liverpool",
     "start_ts": 1793814300.0,
     "time_str": "18:45",
-    "channel": "TBD",
+    "channel": "M+ Liga de Campeones 3",
     "competition": "CHAMPIONS"
   },
   {
     "title": "PSV Eindhoven vs Club Brugge",
     "start_ts": 1793822400.0,
     "time_str": "21:00",
-    "channel": "TBD",
+    "channel": "M+ Liga de Campeones 6",
     "competition": "CHAMPIONS"
   },
   {
     "title": "Porto vs Nápoles",
     "start_ts": 1793822400.0,
     "time_str": "21:00",
-    "channel": "TBD",
+    "channel": "M+ Liga de Campeones 3",
     "competition": "CHAMPIONS"
   },
   {
     "title": "Borussia Dortmund vs Betis",
     "start_ts": 1793822400.0,
     "time_str": "21:00",
-    "channel": "TBD",
+    "channel": "M+ Liga de Campeones 2",
     "competition": "CHAMPIONS"
   },
   {
     "title": "RB Leipzig vs Manchester City",
     "start_ts": 1793822400.0,
     "time_str": "21:00",
-    "channel": "TBD",
+    "channel": "M+ Liga de Campeones 5",
     "competition": "CHAMPIONS"
   },
   {
     "title": "Lens vs Como 1907",
     "start_ts": 1793822400.0,
     "time_str": "21:00",
-    "channel": "TBD",
+    "channel": "M+ Liga de Campeones 7",
     "competition": "CHAMPIONS"
   },
   {
     "title": "Slavia Praha vs Arsenal",
     "start_ts": 1793822400.0,
     "time_str": "21:00",
-    "channel": "TBD",
+    "channel": "M+ Liga de Campeones 8",
     "competition": "CHAMPIONS"
   },
   {
     "title": "Viking FK vs Sabah FK",
     "start_ts": 1793822400.0,
     "time_str": "21:00",
-    "channel": "TBD",
+    "channel": "M+ Liga de Campeones 9",
     "competition": "CHAMPIONS"
   },
   {
@@ -242,6 +214,13 @@
     "start_ts": 1794168000.0,
     "time_str": "21:00",
     "channel": "M+ LaLiga",
+    "competition": "LALIGA"
+  },
+  {
+    "title": "Athletic Club vs Espanyol",
+    "start_ts": 1795204800.0,
+    "time_str": "21:00",
+    "channel": "M+ LaLiga / DAZN",
     "competition": "LALIGA"
   },
   {
