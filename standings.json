@@ -86,15 +86,15 @@
     },
     {
       "rank": "8",
-      "team": "Osasuna",
+      "team": "RC Deportivo",
       "points": "14",
       "played": "11",
-      "won": "4",
-      "drawn": "2",
-      "lost": "5",
-      "gf": "11",
-      "ga": "20",
-      "dg": "-9"
+      "won": "3",
+      "drawn": "5",
+      "lost": "3",
+      "gf": "15",
+      "ga": "14",
+      "dg": "+1"
     },
     {
       "rank": "9",
@@ -170,15 +170,15 @@
     },
     {
       "rank": "15",
-      "team": "RC Deportivo",
+      "team": "Osasuna",
       "points": "11",
       "played": "11",
-      "won": "2",
-      "drawn": "5",
-      "lost": "4",
-      "gf": "13",
-      "ga": "14",
-      "dg": "-1"
+      "won": "3",
+      "drawn": "2",
+      "lost": "6",
+      "gf": "11",
+      "ga": "22",
+      "dg": "-11"
     },
     {
       "rank": "16",
