@@ -3131,63 +3131,63 @@
           "date": "03-11-2026",
           "home": "Galatasaray",
           "away": "Stuttgart",
-          "score": "vs",
-          "status": ""
+          "score": "2 - 0",
+          "status": "Directo"
         },
         {
           "date": "03-11-2026",
           "home": "Shakhtar",
           "away": "Sporting CP",
-          "score": "vs",
-          "status": ""
+          "score": "0 - 1",
+          "status": "Directo"
         },
         {
           "date": "03-11-2026",
           "home": "Atlético de Madrid",
           "away": "Bayern Múnich",
-          "score": "vs",
+          "score": "0 - 0",
           "status": ""
         },
         {
           "date": "03-11-2026",
           "home": "FC Barcelona",
           "away": "Aston Villa",
-          "score": "vs",
+          "score": "0 - 0",
           "status": ""
         },
         {
           "date": "03-11-2026",
           "home": "Bodø/Glimt",
           "away": "Lille",
-          "score": "vs",
+          "score": "0 - 0",
           "status": ""
         },
         {
           "date": "03-11-2026",
           "home": "Feyenoord",
           "away": "Inter",
-          "score": "vs",
+          "score": "0 - 0",
           "status": ""
         },
         {
           "date": "03-11-2026",
           "home": "LASK",
           "away": "Slovan Bratislava",
-          "score": "vs",
+          "score": "0 - 0",
           "status": ""
         },
         {
           "date": "03-11-2026",
           "home": "Manchester United",
           "away": "Roma",
-          "score": "vs",
+          "score": "0 - 0",
           "status": ""
         },
         {
           "date": "03-11-2026",
           "home": "Villarreal",
           "away": "PSG",
-          "score": "vs",
+          "score": "0 - 0",
           "status": ""
         },
         {
@@ -5027,13 +5027,6 @@
         },
         {
           "date": "29-10-2026",
-          "home": "Mijas Las Lagunas",
-          "away": "Real Jaén",
-          "score": "0 - 0",
-          "status": "Aplazado"
-        },
-        {
-          "date": "29-10-2026",
           "home": "Real Ávila",
           "away": "Unionistas",
           "score": "1 - 0",
@@ -5107,61 +5100,68 @@
           "home": "Portugalete",
           "away": "Real Unión",
           "score": "0 - 0",
-          "status": ""
+          "status": "Aplazado"
         },
         {
           "date": "04-11-2026",
           "home": "Amorebieta",
           "away": "UD Logroñés",
           "score": "0 - 0",
-          "status": ""
+          "status": "Aplazado"
         },
         {
           "date": "04-11-2026",
           "home": "Deportiva Minera",
           "away": "FC Cartagena",
           "score": "0 - 0",
-          "status": ""
+          "status": "Aplazado"
         },
         {
           "date": "04-11-2026",
           "home": "Reus Reddis",
           "away": "Barakaldo",
           "score": "0 - 0",
-          "status": ""
+          "status": "Aplazado"
         },
         {
           "date": "04-11-2026",
           "home": "Utebo",
           "away": "Sabadell",
           "score": "0 - 0",
-          "status": ""
+          "status": "Aplazado"
         },
         {
           "date": "04-11-2026",
           "home": "Calvo Sotelo",
           "away": "Albacete",
           "score": "0 - 0",
-          "status": ""
-        },
-        {
-          "date": "04-11-2026",
-          "home": "CD Badajoz",
-          "away": "Tenerife",
-          "score": "0 - 0",
-          "status": ""
+          "status": "Aplazado"
         },
         {
           "date": "05-11-2026",
           "home": "Tarancón",
           "away": "Levante",
           "score": "0 - 0",
-          "status": ""
+          "status": "Aplazado"
         },
         {
           "date": "05-11-2026",
           "home": "Alcoyano",
           "away": "Mallorca",
+          "score": "0 - 0",
+          "status": "Aplazado"
+        },
+        {
+          "date": "10-11-2026",
+          "home": "CD Badajoz",
+          "away": "Tenerife",
+          "score": "0 - 0",
+          "status": ""
+        },
+        {
+          "date": "10-11-2026",
+          "home": "Mijas Las Lagunas",
+          "away": "Real Jaén",
           "score": "0 - 0",
           "status": ""
         },
