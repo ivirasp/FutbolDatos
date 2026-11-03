@@ -1,12 +1,5 @@
 [
   {
-    "title": "Deportivo vs Osasuna",
-    "start_ts": 1793649600.0,
-    "time_str": "21:00",
-    "channel": "M+ LaLiga / DAZN",
-    "competition": "LALIGA"
-  },
-  {
     "title": "Shaktar Donetsk vs Sporting Portugal",
     "start_ts": 1793727900.0,
     "time_str": "18:45",
@@ -140,10 +133,122 @@
     "competition": "EUROPA"
   },
   {
+    "title": "NEC Nijmegen vs AC Omonia",
+    "start_ts": 1793900700.0,
+    "time_str": "18:45",
+    "channel": "M+ Liga de Campeones 7",
+    "competition": "EUROPA"
+  },
+  {
+    "title": "Lillestrøm SK vs Viktoria Plzen",
+    "start_ts": 1793900700.0,
+    "time_str": "18:45",
+    "channel": "M+ Liga de Campeones 6",
+    "competition": "EUROPA"
+  },
+  {
+    "title": "Stade Rennais vs Olympiacos",
+    "start_ts": 1793900700.0,
+    "time_str": "18:45",
+    "channel": "M+ Liga de Campeones 2",
+    "competition": "EUROPA"
+  },
+  {
+    "title": "A.C. Milan vs Ferencvaros",
+    "start_ts": 1793900700.0,
+    "time_str": "18:45",
+    "channel": "M+ Liga de Campeones 2",
+    "competition": "EUROPA"
+  },
+  {
+    "title": "Levski Sofia vs Jagiellonia Bialystok",
+    "start_ts": 1793900700.0,
+    "time_str": "18:45",
+    "channel": "M+ Liga de Campeones 8",
+    "competition": "EUROPA"
+  },
+  {
+    "title": "Anderlecht vs Red Bull Salzburg",
+    "start_ts": 1793900700.0,
+    "time_str": "18:45",
+    "channel": "M+ Liga de Campeones 9",
+    "competition": "EUROPA"
+  },
+  {
+    "title": "Sparta Praga vs Bournemouth",
+    "start_ts": 1793900700.0,
+    "time_str": "18:45",
+    "channel": "M+ Liga de Campeones 4",
+    "competition": "EUROPA"
+  },
+  {
+    "title": "Crystal Palace vs Hoffenheim",
+    "start_ts": 1793900700.0,
+    "time_str": "18:45",
+    "channel": "M+ Liga de Campeones 5",
+    "competition": "EUROPA"
+  },
+  {
     "title": "Celta vs Union Saint-Gilloise",
     "start_ts": 1793908800.0,
     "time_str": "21:00",
     "channel": "TBD",
+    "competition": "EUROPA"
+  },
+  {
+    "title": "Bayer Leverkusen vs O. Marsella",
+    "start_ts": 1793908800.0,
+    "time_str": "21:00",
+    "channel": "M+ Liga de Campeones 5",
+    "competition": "EUROPA"
+  },
+  {
+    "title": "AZ Alkmaar vs Juventus",
+    "start_ts": 1793908800.0,
+    "time_str": "21:00",
+    "channel": "M+ Liga de Campeones 4",
+    "competition": "EUROPA"
+  },
+  {
+    "title": "SCU Torreense vs Ararat-Armenia",
+    "start_ts": 1793908800.0,
+    "time_str": "21:00",
+    "channel": "M+ Liga de Campeones 8",
+    "competition": "EUROPA"
+  },
+  {
+    "title": "Sturm Graz vs NK Celje",
+    "start_ts": 1793908800.0,
+    "time_str": "21:00",
+    "channel": "M+ Liga de Campeones 9",
+    "competition": "EUROPA"
+  },
+  {
+    "title": "Benfica vs Lech Poznan",
+    "start_ts": 1793908800.0,
+    "time_str": "21:00",
+    "channel": "M+ Liga de Campeones 10",
+    "competition": "EUROPA"
+  },
+  {
+    "title": "Sunderland vs Dinamo Zagreb",
+    "start_ts": 1793908800.0,
+    "time_str": "21:00",
+    "channel": "M+ Liga de Campeones 11",
+    "competition": "EUROPA"
+  },
+  {
+    "title": "Celtic FC vs Besiktas",
+    "start_ts": 1793908800.0,
+    "time_str": "21:00",
+    "channel": "M+ Liga de Campeones 6",
+    "competition": "EUROPA"
+  },
+  {
+    "title": "Hapoel Beer Sheva vs OFI Creta",
+    "start_ts": 1793908800.0,
+    "time_str": "21:00",
+    "channel": "M+ Liga de Campeones 7",
     "competition": "EUROPA"
   },
   {
@@ -221,6 +326,34 @@
     "start_ts": 1795204800.0,
     "time_str": "21:00",
     "channel": "M+ LaLiga / DAZN",
+    "competition": "LALIGA"
+  },
+  {
+    "title": "Alavés vs Deportivo",
+    "start_ts": 1795266000.0,
+    "time_str": "14:00",
+    "channel": "M+ LaLiga",
+    "competition": "LALIGA"
+  },
+  {
+    "title": "Rayo Vallecano vs Valencia",
+    "start_ts": 1795274100.0,
+    "time_str": "16:15",
+    "channel": "DAZN LaLiga / DAZN",
+    "competition": "LALIGA"
+  },
+  {
+    "title": "Sevilla vs Betis",
+    "start_ts": 1795282200.0,
+    "time_str": "18:30",
+    "channel": "DAZN LaLiga / DAZN",
+    "competition": "LALIGA"
+  },
+  {
+    "title": "Real Madrid vs Celta",
+    "start_ts": 1795291200.0,
+    "time_str": "21:00",
+    "channel": "M+ LaLiga / Movistar Plus+ / Orange Fútbol 1",
     "competition": "LALIGA"
   },
   {
