@@ -3126,7 +3126,7 @@
           "status": "Fin"
         }
       ],
-      "Jornada 4 (Actual)": [
+      "Jornada 4": [
         {
           "date": "03-11-2026",
           "home": "Galatasaray",
@@ -3194,67 +3194,67 @@
           "date": "04-11-2026",
           "home": "AEK Athens",
           "away": "Real Madrid",
-          "score": "2 - 2",
-          "status": "Directo"
+          "score": "2 - 3",
+          "status": "Fin"
         },
         {
           "date": "04-11-2026",
           "home": "Fenerbahçe",
           "away": "Liverpool",
           "score": "3 - 2",
-          "status": "Directo"
+          "status": "Fin"
         },
         {
           "date": "04-11-2026",
           "home": "Borussia Dortmund",
           "away": "Real Betis",
-          "score": "0 - 0",
-          "status": ""
+          "score": "2 - 1",
+          "status": "Fin"
         },
         {
           "date": "04-11-2026",
           "home": "FC Porto",
           "away": "Napoli",
-          "score": "0 - 0",
-          "status": ""
+          "score": "4 - 1",
+          "status": "Fin"
         },
         {
           "date": "04-11-2026",
           "home": "Lens",
           "away": "Como",
-          "score": "0 - 0",
-          "status": ""
+          "score": "1 - 9",
+          "status": "Fin"
         },
         {
           "date": "04-11-2026",
           "home": "PSV",
           "away": "Brujas",
-          "score": "0 - 0",
-          "status": ""
+          "score": "1 - 2",
+          "status": "Fin"
         },
         {
           "date": "04-11-2026",
           "home": "RB Leipzig",
           "away": "Manchester City",
-          "score": "0 - 0",
-          "status": ""
+          "score": "2 - 3",
+          "status": "Fin"
         },
         {
           "date": "04-11-2026",
           "home": "Slavia Prague",
           "away": "Arsenal",
-          "score": "0 - 0",
-          "status": ""
+          "score": "1 - 2",
+          "status": "Fin"
         },
         {
           "date": "04-11-2026",
           "home": "Viking",
           "away": "Sabah",
-          "score": "0 - 0",
-          "status": ""
+          "score": "4 - 1",
+          "status": "Fin"
         }
       ],
-      "Jornada 5": [
+      "Jornada 5 (Actual)": [
         {
           "date": "24-11-2026",
           "home": "Bodø/Glimt",
@@ -3767,7 +3767,7 @@
         }
       ]
     },
-    "current": "Jornada 4 (Actual)"
+    "current": "Jornada 5 (Actual)"
   },
   "EUROPA": {
     "rounds": {
