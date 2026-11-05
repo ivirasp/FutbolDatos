@@ -573,7 +573,7 @@
           "date": "09-12-2026",
           "home": "Rayo Vallecano",
           "away": "Athletic Club",
-          "score": "0 - 0",
+          "score": "vs",
           "status": ""
         }
       ],
@@ -5156,7 +5156,7 @@
           "home": "CD Badajoz",
           "away": "Tenerife",
           "score": "0 - 0",
-          "status": ""
+          "status": "Aplazado"
         },
         {
           "date": "10-11-2026",

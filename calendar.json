@@ -1,75 +1,5 @@
 [
   {
-    "title": "Stade Rennais vs Olympiacos",
-    "start_ts": 1793806200.0,
-    "time_str": "16:30",
-    "channel": "M+ Liga de Campeones 2",
-    "competition": "EUROPA"
-  },
-  {
-    "title": "AEK F.C. vs Real Madrid",
-    "start_ts": 1793814300.0,
-    "time_str": "18:45",
-    "channel": "M+ Liga de Campeones",
-    "competition": "CHAMPIONS"
-  },
-  {
-    "title": "Fenerbahçe vs Liverpool",
-    "start_ts": 1793814300.0,
-    "time_str": "18:45",
-    "channel": "M+ Liga de Campeones 3",
-    "competition": "CHAMPIONS"
-  },
-  {
-    "title": "PSV Eindhoven vs Club Brugge",
-    "start_ts": 1793822400.0,
-    "time_str": "21:00",
-    "channel": "M+ Liga de Campeones 4 / M+ Liga de Campeones 6",
-    "competition": "CHAMPIONS"
-  },
-  {
-    "title": "Porto vs Nápoles",
-    "start_ts": 1793822400.0,
-    "time_str": "21:00",
-    "channel": "M+ Liga de Campeones 3 / M+ Liga de Campeones 4",
-    "competition": "CHAMPIONS"
-  },
-  {
-    "title": "Borussia Dortmund vs Betis",
-    "start_ts": 1793822400.0,
-    "time_str": "21:00",
-    "channel": "M+ Liga de Campeones 2 / M+ Liga de Campeones 4",
-    "competition": "CHAMPIONS"
-  },
-  {
-    "title": "RB Leipzig vs Manchester City",
-    "start_ts": 1793822400.0,
-    "time_str": "21:00",
-    "channel": "M+ Liga de Campeones 4 / M+ Liga de Campeones 5",
-    "competition": "CHAMPIONS"
-  },
-  {
-    "title": "Lens vs Como 1907",
-    "start_ts": 1793822400.0,
-    "time_str": "21:00",
-    "channel": "M+ Liga de Campeones 4 / M+ Liga de Campeones 7",
-    "competition": "CHAMPIONS"
-  },
-  {
-    "title": "Slavia Praha vs Arsenal",
-    "start_ts": 1793822400.0,
-    "time_str": "21:00",
-    "channel": "M+ Liga de Campeones 4 / M+ Liga de Campeones 8",
-    "competition": "CHAMPIONS"
-  },
-  {
-    "title": "Viking FK vs Sabah FK",
-    "start_ts": 1793822400.0,
-    "time_str": "21:00",
-    "channel": "M+ Liga de Campeones 4 / M+ Liga de Campeones 9",
-    "competition": "CHAMPIONS"
-  },
-  {
     "title": "Real Sociedad vs Olympique Lyon",
     "start_ts": 1793900700.0,
     "time_str": "18:45",
@@ -574,6 +504,69 @@
     "competition": "EUROPA"
   },
   {
+    "title": "Galatasaray vs Feyenoord",
+    "start_ts": 1800380700.0,
+    "time_str": "18:45",
+    "channel": "TBD",
+    "competition": "CHAMPIONS"
+  },
+  {
+    "title": "Bodø/Glimt vs Atlético de Madrid",
+    "start_ts": 1800380700.0,
+    "time_str": "18:45",
+    "channel": "TBD",
+    "competition": "CHAMPIONS"
+  },
+  {
+    "title": "Aston Villa vs Borussia Dortmund",
+    "start_ts": 1800388800.0,
+    "time_str": "21:00",
+    "channel": "TBD",
+    "competition": "CHAMPIONS"
+  },
+  {
+    "title": "Real Madrid vs LASK Linz",
+    "start_ts": 1800388800.0,
+    "time_str": "21:00",
+    "channel": "TBD",
+    "competition": "CHAMPIONS"
+  },
+  {
+    "title": "Inter de Milan vs Liverpool",
+    "start_ts": 1800388800.0,
+    "time_str": "21:00",
+    "channel": "TBD",
+    "competition": "CHAMPIONS"
+  },
+  {
+    "title": "Stuttgart vs Club Brugge",
+    "start_ts": 1800388800.0,
+    "time_str": "21:00",
+    "channel": "TBD",
+    "competition": "CHAMPIONS"
+  },
+  {
+    "title": "AEK F.C. vs Roma",
+    "start_ts": 1800388800.0,
+    "time_str": "21:00",
+    "channel": "TBD",
+    "competition": "CHAMPIONS"
+  },
+  {
+    "title": "Porto vs Slavia Praha",
+    "start_ts": 1800388800.0,
+    "time_str": "21:00",
+    "channel": "TBD",
+    "competition": "CHAMPIONS"
+  },
+  {
+    "title": "Lille vs Slovan Bratislava",
+    "start_ts": 1800388800.0,
+    "time_str": "21:00",
+    "channel": "TBD",
+    "competition": "CHAMPIONS"
+  },
+  {
     "title": "Real Sociedad vs Viktoria Plzen",
     "start_ts": 1800553500.0,
     "time_str": "18:45",
@@ -583,6 +576,20 @@
   {
     "title": "Hapoel Beer Sheva vs Celta",
     "start_ts": 1800561600.0,
+    "time_str": "21:00",
+    "channel": "TBD",
+    "competition": "EUROPA"
+  },
+  {
+    "title": "Juventus vs Real Sociedad",
+    "start_ts": 1801166400.0,
+    "time_str": "21:00",
+    "channel": "TBD",
+    "competition": "EUROPA"
+  },
+  {
+    "title": "Celta vs Lillestrøm SK",
+    "start_ts": 1801166400.0,
     "time_str": "21:00",
     "channel": "TBD",
     "competition": "EUROPA"
