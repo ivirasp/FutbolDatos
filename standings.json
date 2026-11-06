@@ -63,10 +63,10 @@
     {
       "rank": "6",
       "team": "Sevilla",
-      "points": "17",
-      "played": "11",
+      "points": "18",
+      "played": "12",
       "won": "5",
-      "drawn": "2",
+      "drawn": "3",
       "lost": "4",
       "gf": "17",
       "ga": "19",
@@ -98,6 +98,18 @@
     },
     {
       "rank": "9",
+      "team": "Deportivo Alavés",
+      "points": "13",
+      "played": "12",
+      "won": "3",
+      "drawn": "4",
+      "lost": "5",
+      "gf": "15",
+      "ga": "17",
+      "dg": "-2"
+    },
+    {
+      "rank": "10",
       "team": "Villarreal",
       "points": "12",
       "played": "11",
@@ -109,7 +121,7 @@
       "dg": "0"
     },
     {
-      "rank": "10",
+      "rank": "11",
       "team": "Celta",
       "points": "12",
       "played": "11",
@@ -119,18 +131,6 @@
       "gf": "10",
       "ga": "10",
       "dg": "0"
-    },
-    {
-      "rank": "11",
-      "team": "Deportivo Alavés",
-      "points": "12",
-      "played": "11",
-      "won": "3",
-      "drawn": "3",
-      "lost": "5",
-      "gf": "15",
-      "ga": "17",
-      "dg": "-2"
     },
     {
       "rank": "12",
