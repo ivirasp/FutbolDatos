@@ -939,9 +939,44 @@
       ],
       "Jornada 14": [
         {
+          "date": "27-11-2026",
+          "home": "Levante",
+          "away": "Racing de Santander",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "28-11-2026",
+          "home": "Real Betis",
+          "away": "Rayo Vallecano",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "28-11-2026",
+          "home": "Málaga",
+          "away": "Athletic Club",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "28-11-2026",
+          "home": "Elche",
+          "away": "Atlético de Madrid",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "28-11-2026",
+          "home": "Real Madrid",
+          "away": "Alavés",
+          "score": "vs",
+          "status": ""
+        },
+        {
           "date": "29-11-2026",
-          "home": "Celta de Vigo",
-          "away": "Villarreal",
+          "home": "Valencia CF",
+          "away": "Osasuna",
           "score": "vs",
           "status": ""
         },
@@ -954,43 +989,8 @@
         },
         {
           "date": "29-11-2026",
-          "home": "Elche",
-          "away": "Atlético de Madrid",
-          "score": "vs",
-          "status": ""
-        },
-        {
-          "date": "29-11-2026",
-          "home": "Espanyol",
-          "away": "Getafe",
-          "score": "vs",
-          "status": ""
-        },
-        {
-          "date": "29-11-2026",
-          "home": "Levante",
-          "away": "Racing de Santander",
-          "score": "vs",
-          "status": ""
-        },
-        {
-          "date": "29-11-2026",
-          "home": "Málaga",
-          "away": "Athletic Club",
-          "score": "vs",
-          "status": ""
-        },
-        {
-          "date": "29-11-2026",
-          "home": "Real Betis",
-          "away": "Rayo Vallecano",
-          "score": "vs",
-          "status": ""
-        },
-        {
-          "date": "29-11-2026",
-          "home": "Real Madrid",
-          "away": "Alavés",
+          "home": "Celta de Vigo",
+          "away": "Villarreal",
           "score": "vs",
           "status": ""
         },
@@ -1002,9 +1002,9 @@
           "status": ""
         },
         {
-          "date": "29-11-2026",
-          "home": "Valencia CF",
-          "away": "Osasuna",
+          "date": "30-11-2026",
+          "home": "Espanyol",
+          "away": "Getafe",
           "score": "vs",
           "status": ""
         }
@@ -1587,6 +1587,20 @@
       ],
       "Jornada 23": [
         {
+          "date": "02-12-2026",
+          "home": "Real Sociedad",
+          "away": "Real Madrid",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "02-12-2026",
+          "home": "FC Barcelona",
+          "away": "Atlético de Madrid",
+          "score": "vs",
+          "status": ""
+        },
+        {
           "date": "07-02-2027",
           "home": "Alavés",
           "away": "Celta de Vigo",
@@ -1597,13 +1611,6 @@
           "date": "07-02-2027",
           "home": "Athletic Club",
           "away": "Osasuna",
-          "score": "vs",
-          "status": ""
-        },
-        {
-          "date": "07-02-2027",
-          "home": "FC Barcelona",
-          "away": "Atlético de Madrid",
           "score": "vs",
           "status": ""
         },
@@ -1639,13 +1646,6 @@
           "date": "07-02-2027",
           "home": "Real Betis",
           "away": "Sevilla",
-          "score": "vs",
-          "status": ""
-        },
-        {
-          "date": "07-02-2027",
-          "home": "Real Sociedad",
-          "away": "Real Madrid",
           "score": "vs",
           "status": ""
         },
@@ -4435,6 +4435,13 @@
         },
         {
           "date": "10-12-2026",
+          "home": "Celje",
+          "away": "Olympiakos",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "10-12-2026",
           "home": "Hapoel Beer Sheva",
           "away": "Juventus",
           "score": "vs",
@@ -4486,13 +4493,6 @@
           "date": "10-12-2026",
           "home": "Bournemouth",
           "away": "Viktoria Plzen",
-          "score": "vs",
-          "status": ""
-        },
-        {
-          "date": "10-12-2026",
-          "home": "Celje",
-          "away": "Olympiakos",
           "score": "vs",
           "status": ""
         },
