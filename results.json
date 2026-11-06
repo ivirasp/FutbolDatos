@@ -4155,7 +4155,7 @@
           "status": "Fin"
         }
       ],
-      "Jornada 4 (Actual)": [
+      "Jornada 4": [
         {
           "date": "04-11-2026",
           "home": "Rennes",
@@ -4167,123 +4167,123 @@
           "date": "05-11-2026",
           "home": "RSC Anderlecht",
           "away": "RB Salzburgo",
-          "score": "vs",
-          "status": ""
+          "score": "2 - 0",
+          "status": "Fin"
         },
         {
           "date": "05-11-2026",
           "home": "Crystal Palace",
           "away": "TSG 1899 Hoffenheim",
-          "score": "vs",
-          "status": ""
+          "score": "1 - 1",
+          "status": "Fin"
         },
         {
           "date": "05-11-2026",
           "home": "Levski Sofia",
           "away": "Jagiellonia Bialystok",
-          "score": "vs",
-          "status": ""
+          "score": "1 - 0",
+          "status": "Fin"
         },
         {
           "date": "05-11-2026",
           "home": "Lillestrøm",
           "away": "Viktoria Plzen",
-          "score": "vs",
-          "status": ""
+          "score": "0 - 1",
+          "status": "Fin"
         },
         {
           "date": "05-11-2026",
           "home": "Milan",
           "away": "Ferencvárosi TC",
-          "score": "vs",
-          "status": ""
+          "score": "0 - 2",
+          "status": "Fin"
         },
         {
           "date": "05-11-2026",
           "home": "NEC",
           "away": "Omonia Nicosia",
-          "score": "vs",
-          "status": ""
+          "score": "3 - 1",
+          "status": "Fin"
         },
         {
           "date": "05-11-2026",
           "home": "Real Sociedad",
           "away": "Lyon",
-          "score": "vs",
-          "status": ""
+          "score": "1 - 1",
+          "status": "Fin"
         },
         {
           "date": "05-11-2026",
           "home": "Sparta Praga",
           "away": "Bournemouth",
-          "score": "vs",
-          "status": ""
+          "score": "1 - 3",
+          "status": "Fin"
         },
         {
           "date": "05-11-2026",
           "home": "AZ",
           "away": "Juventus",
-          "score": "vs",
-          "status": ""
+          "score": "1 - 2",
+          "status": "Fin"
         },
         {
           "date": "05-11-2026",
           "home": "Bayer Leverkusen",
           "away": "Marseille",
-          "score": "vs",
-          "status": ""
+          "score": "0 - 1",
+          "status": "Fin"
         },
         {
           "date": "05-11-2026",
           "home": "Benfica",
           "away": "Lech Poznan",
-          "score": "vs",
-          "status": ""
+          "score": "3 - 1",
+          "status": "Fin"
         },
         {
           "date": "05-11-2026",
           "home": "Celta de Vigo",
           "away": "Union Saint-Gilloise",
-          "score": "vs",
-          "status": ""
+          "score": "1 - 2",
+          "status": "Fin"
         },
         {
           "date": "05-11-2026",
           "home": "Celtic",
           "away": "Besiktas",
-          "score": "vs",
-          "status": ""
+          "score": "3 - 2",
+          "status": "Fin"
         },
         {
           "date": "05-11-2026",
           "home": "Hapoel Beer Sheva",
           "away": "OFI",
-          "score": "vs",
-          "status": ""
+          "score": "0 - 2",
+          "status": "Fin"
         },
         {
           "date": "05-11-2026",
           "home": "Sturm Graz",
           "away": "Celje",
-          "score": "vs",
-          "status": ""
+          "score": "2 - 3",
+          "status": "Fin"
         },
         {
           "date": "05-11-2026",
           "home": "Sunderland",
           "away": "Dinamo Zagreb",
-          "score": "vs",
-          "status": ""
+          "score": "0 - 2",
+          "status": "Fin"
         },
         {
           "date": "05-11-2026",
           "home": "Torreense",
           "away": "Ararat-Armenia",
-          "score": "vs",
-          "status": ""
+          "score": "3 - 2",
+          "status": "Fin"
         }
       ],
-      "Jornada 5": [
+      "Jornada 5 (Actual)": [
         {
           "date": "26-11-2026",
           "home": "Besiktas",
@@ -4796,7 +4796,7 @@
         }
       ]
     },
-    "current": "Jornada 4 (Actual)"
+    "current": "Jornada 5 (Actual)"
   },
   "COPA": {
     "rounds": {
@@ -5082,81 +5082,25 @@
           "status": "Fin"
         },
         {
-          "date": "03-11-2026",
+          "date": "10-11-2026",
           "home": "Anaitasuna",
           "away": "Alavés",
           "score": "0 - 0",
-          "status": "Aplazado"
-        },
-        {
-          "date": "03-11-2026",
-          "home": "Pamplona",
-          "away": "Eibar",
-          "score": "0 - 0",
-          "status": "Aplazado"
-        },
-        {
-          "date": "04-11-2026",
-          "home": "Portugalete",
-          "away": "Real Unión",
-          "score": "0 - 0",
-          "status": "Aplazado"
-        },
-        {
-          "date": "04-11-2026",
-          "home": "Amorebieta",
-          "away": "UD Logroñés",
-          "score": "0 - 0",
-          "status": "Aplazado"
-        },
-        {
-          "date": "04-11-2026",
-          "home": "Deportiva Minera",
-          "away": "FC Cartagena",
-          "score": "0 - 0",
-          "status": "Aplazado"
-        },
-        {
-          "date": "04-11-2026",
-          "home": "Reus Reddis",
-          "away": "Barakaldo",
-          "score": "0 - 0",
-          "status": "Aplazado"
-        },
-        {
-          "date": "04-11-2026",
-          "home": "Utebo",
-          "away": "Sabadell",
-          "score": "0 - 0",
-          "status": "Aplazado"
-        },
-        {
-          "date": "04-11-2026",
-          "home": "Calvo Sotelo",
-          "away": "Albacete",
-          "score": "0 - 0",
-          "status": "Aplazado"
-        },
-        {
-          "date": "05-11-2026",
-          "home": "Tarancón",
-          "away": "Levante",
-          "score": "0 - 0",
-          "status": "Aplazado"
-        },
-        {
-          "date": "05-11-2026",
-          "home": "Alcoyano",
-          "away": "Mallorca",
-          "score": "0 - 0",
-          "status": "Aplazado"
+          "status": ""
         },
         {
           "date": "10-11-2026",
-          "home": "CD Badajoz",
-          "away": "Tenerife",
+          "home": "Pamplona",
+          "away": "Eibar",
           "score": "0 - 0",
-          "status": "Aplazado"
+          "status": ""
+        },
+        {
+          "date": "10-11-2026",
+          "home": "Amorebieta",
+          "away": "UD Logroñés",
+          "score": "0 - 0",
+          "status": ""
         },
         {
           "date": "10-11-2026",
@@ -5181,8 +5125,22 @@
         },
         {
           "date": "12-11-2026",
+          "home": "Calvo Sotelo",
+          "away": "Albacete",
+          "score": "0 - 0",
+          "status": ""
+        },
+        {
+          "date": "12-11-2026",
           "home": "Navalcarnero",
           "away": "Real Betis",
+          "score": "0 - 0",
+          "status": ""
+        },
+        {
+          "date": "12-11-2026",
+          "home": "Tarancón",
+          "away": "Levante",
           "score": "0 - 0",
           "status": ""
         },
@@ -5190,6 +5148,48 @@
           "date": "13-11-2026",
           "home": "Salamanca UDS",
           "away": "Celta de Vigo",
+          "score": "0 - 0",
+          "status": ""
+        },
+        {
+          "date": "18-11-2026",
+          "home": "Portugalete",
+          "away": "Real Unión",
+          "score": "0 - 0",
+          "status": ""
+        },
+        {
+          "date": "18-11-2026",
+          "home": "Utebo",
+          "away": "Sabadell",
+          "score": "0 - 0",
+          "status": ""
+        },
+        {
+          "date": "18-11-2026",
+          "home": "Alcoyano",
+          "away": "Mallorca",
+          "score": "0 - 0",
+          "status": ""
+        },
+        {
+          "date": "18-11-2026",
+          "home": "CD Badajoz",
+          "away": "Tenerife",
+          "score": "0 - 0",
+          "status": ""
+        },
+        {
+          "date": "18-11-2026",
+          "home": "Deportiva Minera",
+          "away": "FC Cartagena",
+          "score": "0 - 0",
+          "status": ""
+        },
+        {
+          "date": "18-11-2026",
+          "home": "Reus Reddis",
+          "away": "Barakaldo",
           "score": "0 - 0",
           "status": ""
         }
