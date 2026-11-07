@@ -87,10 +87,10 @@
     {
       "rank": "8",
       "team": "RC Deportivo",
-      "points": "14",
-      "played": "11",
+      "points": "15",
+      "played": "12",
       "won": "3",
-      "drawn": "5",
+      "drawn": "6",
       "lost": "3",
       "gf": "15",
       "ga": "14",
@@ -98,6 +98,18 @@
     },
     {
       "rank": "9",
+      "team": "Racing",
+      "points": "14",
+      "played": "12",
+      "won": "4",
+      "drawn": "2",
+      "lost": "6",
+      "gf": "17",
+      "ga": "30",
+      "dg": "-13"
+    },
+    {
+      "rank": "10",
       "team": "Deportivo Alavés",
       "points": "13",
       "played": "12",
@@ -109,7 +121,7 @@
       "dg": "-2"
     },
     {
-      "rank": "10",
+      "rank": "11",
       "team": "Villarreal",
       "points": "12",
       "played": "11",
@@ -121,7 +133,7 @@
       "dg": "0"
     },
     {
-      "rank": "11",
+      "rank": "12",
       "team": "Celta",
       "points": "12",
       "played": "11",
@@ -133,7 +145,19 @@
       "dg": "0"
     },
     {
-      "rank": "12",
+      "rank": "13",
+      "team": "Espanyol",
+      "points": "12",
+      "played": "12",
+      "won": "3",
+      "drawn": "3",
+      "lost": "6",
+      "gf": "13",
+      "ga": "14",
+      "dg": "-1"
+    },
+    {
+      "rank": "14",
       "team": "Rayo Vallecano",
       "points": "12",
       "played": "10",
@@ -145,7 +169,7 @@
       "dg": "-5"
     },
     {
-      "rank": "13",
+      "rank": "15",
       "team": "Getafe",
       "points": "12",
       "played": "11",
@@ -157,19 +181,7 @@
       "dg": "-8"
     },
     {
-      "rank": "14",
-      "team": "Espanyol",
-      "points": "11",
-      "played": "11",
-      "won": "3",
-      "drawn": "2",
-      "lost": "6",
-      "gf": "13",
-      "ga": "14",
-      "dg": "-1"
-    },
-    {
-      "rank": "15",
+      "rank": "16",
       "team": "Osasuna",
       "points": "11",
       "played": "11",
@@ -179,18 +191,6 @@
       "gf": "11",
       "ga": "22",
       "dg": "-11"
-    },
-    {
-      "rank": "16",
-      "team": "Racing",
-      "points": "11",
-      "played": "11",
-      "won": "3",
-      "drawn": "2",
-      "lost": "6",
-      "gf": "15",
-      "ga": "29",
-      "dg": "-14"
     },
     {
       "rank": "17",
@@ -232,13 +232,13 @@
       "rank": "20",
       "team": "Málaga",
       "points": "5",
-      "played": "11",
+      "played": "12",
       "won": "0",
       "drawn": "5",
-      "lost": "6",
-      "gf": "8",
-      "ga": "21",
-      "dg": "-13"
+      "lost": "7",
+      "gf": "9",
+      "ga": "23",
+      "dg": "-14"
     }
   ],
   "CHAMPIONS": [
