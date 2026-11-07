@@ -1,12 +1,5 @@
 [
   {
-    "title": "Sevilla vs Alavés",
-    "start_ts": 1793995200.0,
-    "time_str": "21:00",
-    "channel": "DAZN LaLiga / DAZN",
-    "competition": "LALIGA"
-  },
-  {
     "title": "Málaga vs Racing de Santander",
     "start_ts": 1794056400.0,
     "time_str": "14:00",
@@ -70,10 +63,66 @@
     "competition": "LALIGA"
   },
   {
+    "title": "Anaitasuna C.D. vs Alavés",
+    "start_ts": 1794333600.0,
+    "time_str": "19:00",
+    "channel": "M+ LaLiga",
+    "competition": "COPA"
+  },
+  {
+    "title": "UE Tavernes vs Valencia",
+    "start_ts": 1794340800.0,
+    "time_str": "21:00",
+    "channel": "M+ LaLiga",
+    "competition": "COPA"
+  },
+  {
+    "title": "Calvo Sotelo Puertollano vs Albacete",
+    "start_ts": 1794504600.0,
+    "time_str": "18:30",
+    "channel": "CMM (Castilla-LM)",
+    "competition": "COPA"
+  },
+  {
     "title": "Navalcarnero vs Betis",
     "start_ts": 1794506400.0,
     "time_str": "19:00",
-    "channel": "TBD",
+    "channel": "M+ LaLiga",
+    "competition": "COPA"
+  },
+  {
+    "title": "Tarancón vs Levante",
+    "start_ts": 1794506400.0,
+    "time_str": "19:00",
+    "channel": "M+ LaLiga 2",
+    "competition": "COPA"
+  },
+  {
+    "title": "Salamanca UDS vs Celta",
+    "start_ts": 1794600000.0,
+    "time_str": "21:00",
+    "channel": "M+ LaLiga",
+    "competition": "COPA"
+  },
+  {
+    "title": "Utebo C.F. vs Sabadell",
+    "start_ts": 1795024800.0,
+    "time_str": "19:00",
+    "channel": "Aragón TV / Aragón Play",
+    "competition": "COPA"
+  },
+  {
+    "title": "Alcoyano vs Mallorca",
+    "start_ts": 1795028400.0,
+    "time_str": "20:00",
+    "channel": "IB3 / À Punt (València)",
+    "competition": "COPA"
+  },
+  {
+    "title": "Badajoz vs Tenerife",
+    "start_ts": 1795028400.0,
+    "time_str": "20:00",
+    "channel": "TV Canaria",
     "competition": "COPA"
   },
   {
@@ -109,6 +158,34 @@
     "start_ts": 1795291200.0,
     "time_str": "21:00",
     "channel": "M+ LaLiga / Movistar Plus+ / Orange Fútbol 1",
+    "competition": "LALIGA"
+  },
+  {
+    "title": "Barcelona vs Villarreal",
+    "start_ts": 1795352400.0,
+    "time_str": "14:00",
+    "channel": "DAZN LaLiga / DAZN",
+    "competition": "LALIGA"
+  },
+  {
+    "title": "Racing de Santander vs Real Sociedad",
+    "start_ts": 1795360500.0,
+    "time_str": "16:15",
+    "channel": "M+ LaLiga",
+    "competition": "LALIGA"
+  },
+  {
+    "title": "Osasuna vs Málaga",
+    "start_ts": 1795368600.0,
+    "time_str": "18:30",
+    "channel": "DAZN LaLiga / DAZN",
+    "competition": "LALIGA"
+  },
+  {
+    "title": "Getafe vs Atlético de Madrid",
+    "start_ts": 1795377600.0,
+    "time_str": "21:00",
+    "channel": "M+ LaLiga",
     "competition": "LALIGA"
   },
   {
