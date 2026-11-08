@@ -1,33 +1,5 @@
 [
   {
-    "title": "Málaga vs Racing de Santander",
-    "start_ts": 1794056400.0,
-    "time_str": "14:00",
-    "channel": "M+ LaLiga",
-    "competition": "LALIGA"
-  },
-  {
-    "title": "Espanyol vs Deportivo",
-    "start_ts": 1794064500.0,
-    "time_str": "16:15",
-    "channel": "DAZN LaLiga / DAZN",
-    "competition": "LALIGA"
-  },
-  {
-    "title": "Osasuna vs Athletic Club",
-    "start_ts": 1794072600.0,
-    "time_str": "18:30",
-    "channel": "M+ LaLiga / Movistar Plus+ / Orange Fútbol 1",
-    "competition": "LALIGA"
-  },
-  {
-    "title": "Valencia vs Real Madrid",
-    "start_ts": 1794081600.0,
-    "time_str": "21:00",
-    "channel": "DAZN LaLiga / DAZN",
-    "competition": "LALIGA"
-  },
-  {
     "title": "Elche vs Betis",
     "start_ts": 1794142800.0,
     "time_str": "14:00",
@@ -186,6 +158,13 @@
     "start_ts": 1795377600.0,
     "time_str": "21:00",
     "channel": "M+ LaLiga",
+    "competition": "LALIGA"
+  },
+  {
+    "title": "Levante vs Elche",
+    "start_ts": 1795464000.0,
+    "time_str": "21:00",
+    "channel": "DAZN LaLiga / DAZN",
     "competition": "LALIGA"
   },
   {
