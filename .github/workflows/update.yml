@@ -33,7 +33,7 @@ jobs:
           cache: 'pip'
 
       - name: Instalar librerías
-        run: pip install requests beautifulsoup4 pytz
+        run: pip install -r requirements.txt
 
       - name: Ejecutar Script
         run: python update_data.py
