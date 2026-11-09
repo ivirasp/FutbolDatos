@@ -498,6 +498,10 @@ def scrape_results(only=None):
                         center = tds[2].get_text(strip=True)
                         if re.search(r'\d+\s*-\s*\d+', center): final_score = center
 
+                    # Partido sin empezar: la web muestra "0 - 0" y, en lugar del estado, la hora de inicio
+                    if time_tag and ":" in time_tag.get_text(strip=True):
+                        final_score = "vs"
+
                     if home and away:
                         matches.append({
                             "date": date_str,
