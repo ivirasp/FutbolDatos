@@ -12,13 +12,18 @@ Escribe live.json solo si algo cambia (menos commits).
 """
 import json
 import os
+import re
 import sys
 from datetime import datetime
 
 import pytz
 import requests
 
-from update_data import TZ_MADRID, CALENDAR_FILE, RESULTS_FILE, build_name_map, load_previous, save_json
+from update_data import (TZ_MADRID, CALENDAR_FILE, RESULTS_FILE, STANDINGS_FILE,
+                         build_name_map, load_previous, save_json)
+
+# Rondas que no cuentan para la clasificación (eliminatorias, previas...)
+KNOCKOUT = re.compile(r"play-?off|round of|quarter|semi|final|knockout|preliminary|qualif", re.I)
 
 LIVE_FILE = "live.json"
 API_BASE = "https://v3.football.api-sports.io"
@@ -103,12 +108,17 @@ def build_matches(fixtures, prev_matches, now_ts):
         if comp:
             by_comp.setdefault(comp, []).append(x)
 
+    standings = load_previous(STANDINGS_FILE, {})
     out = []
     for comp, items in by_comp.items():
         old = [m for rd in results.get(comp, {}).get("rounds", {}).values() for m in rd]
         teams = {t["id"]: {"id": t["id"], "name": t["name"]}
                  for x in items for t in (x["teams"]["home"], x["teams"]["away"])}
         names = build_name_map(list(teams.values()), [m["home"] for m in old] + [m["away"] for m in old])
+        # Nombres según standings.json (vocabulario distinto al de results.json) y partidos jugados de cada equipo
+        st_rows = standings.get(comp, [])
+        st_names = build_name_map(list(teams.values()), [r["team"] for r in st_rows]) if st_rows else {}
+        played = {r["team"]: int(r["played"]) for r in st_rows}
         for x in items:
             fx, goals = x["fixture"], x["goals"]
             st = fx["status"]["short"]
@@ -119,7 +129,15 @@ def build_matches(fixtures, prev_matches, now_ts):
                 if t["id"] not in names:
                     print(f"  ⚠️ {comp}: sin equivalencia para '{t['name']}', se usa el nombre de la API", flush=True)
             has_score = goals["home"] is not None and goals["away"] is not None
+            h_st, a_st = st_names.get(home["id"]), st_names.get(away["id"])
+            # Partidos jugados de cada equipo según la clasificación base ANTES de que empiece su partido:
+            # se refresca mientras no ha empezado y se congela después (para no contar el partido dos veces)
+            if before.get("base") and st not in ("NS", "TBD"):
+                base = before["base"]
+            else:
+                base = {"home": played.get(h_st), "away": played.get(a_st)}
             out.append({
+                "home_st": h_st, "away_st": a_st, "base": base,
                 "id": fx["id"], "competition": comp, "round": x["league"].get("round"),
                 "date": datetime.fromtimestamp(fx["timestamp"], TZ_MADRID).strftime("%d-%m-%Y"),
                 "kickoff_ts": fx["timestamp"],
@@ -129,6 +147,56 @@ def build_matches(fixtures, prev_matches, now_ts):
                 "status": st, "minute": fx["status"].get("elapsed"), "ht_since": ht_since,
             })
     return sorted(out, key=lambda m: (m["kickoff_ts"], m["id"]))
+
+
+def compute_standings(matches, standings):
+    """Clasificación provisional: standings.json + partidos en juego (o recién terminados y aún no
+    reflejados en la clasificación base). Solo competiciones con algún partido aplicado."""
+    out = {}
+    for comp in LEAGUES.values():
+        base = standings.get(comp)
+        if not base:
+            continue
+        rows = {r["team"]: dict(r) for r in base}
+        base_played = {r["team"]: int(r["played"]) for r in base}
+        touched = set()
+        for m in matches:
+            if m["competition"] != comp or m["status"] not in LIVE_STATUS | {"HT", "FT"}:
+                continue
+            if KNOCKOUT.search(m.get("round") or ""):
+                continue
+            h, a = m.get("home_st"), m.get("away_st")
+            if h not in rows or a not in rows or h in touched or a in touched:
+                continue
+            try:
+                gh, ga = (int(x) for x in m["score"].split(" - "))
+            except (ValueError, AttributeError):
+                continue
+            b = m.get("base") or {}
+            if (b.get("home") is not None and base_played[h] > b["home"]) or \
+               (b.get("away") is not None and base_played[a] > b["away"]):
+                continue  # la clasificación base ya incluye este partido
+            for team, gf, gc in ((h, gh, ga), (a, ga, gh)):
+                r = rows[team]
+                pts = 3 if gf > gc else 1 if gf == gc else 0
+                r["points"] = str(int(r["points"]) + pts)
+                r["played"] = str(int(r["played"]) + 1)
+                r["won"] = str(int(r["won"]) + (gf > gc))
+                r["drawn"] = str(int(r["drawn"]) + (gf == gc))
+                r["lost"] = str(int(r["lost"]) + (gf < gc))
+                r["gf"] = str(int(r["gf"]) + gf)
+                r["ga"] = str(int(r["ga"]) + gc)
+                d = int(r["gf"]) - int(r["ga"])
+                r["dg"] = f"+{d}" if d > 0 else str(d)
+                touched.add(team)
+        if not touched:
+            continue
+        # Orden provisional: puntos, diferencia de goles, goles a favor (desempates oficiales más complejos)
+        order = sorted(rows.values(), key=lambda r: (-int(r["points"]), -(int(r["gf"]) - int(r["ga"])),
+                                                    -int(r["gf"]), int(r["rank"])))
+        out[comp] = [{**r, "base_rank": int(r["rank"]), "rank": str(i), "live": r["team"] in touched}
+                     for i, r in enumerate(order, 1)]
+    return out
 
 
 def main():
@@ -145,12 +213,20 @@ def main():
     if call and prev.get("date") == today and remaining is not None and remaining < LOW_BUDGET:
         if int(now_ts // 300) % 3 != 0:
             call, why = False, f"quedan solo {remaining} llamadas: se espacian"
+    standings_base = load_previous(STANDINGS_FILE, {})
     if not call:
         print(f"⏸️ Sin llamada: {why}", flush=True)
         if prev.get("date") != today:  # al empezar el día se limpia el marcador de ayer
             save_json(LIVE_FILE, {"date": today, "fetched": False, "updated": iso, "updated_ts": now_ts,
-                                  "requests_remaining": remaining, "matches": []})
+                                  "requests_remaining": remaining, "matches": [], "standings": {}})
             print("  🧹 live.json reiniciado para hoy", flush=True)
+            return
+        # Sin llamada, pero la clasificación base puede haberse actualizado (ya incluye el partido):
+        # se recalcula la provisional para que no cuente dos veces
+        overlay = compute_standings(prev.get("matches", []), standings_base)
+        if overlay != prev.get("standings", {}):
+            save_json(LIVE_FILE, {**prev, "standings": overlay, "updated": iso, "updated_ts": now_ts})
+            print(f"📊 Clasificación provisional actualizada ({', '.join(overlay) or 'ninguna'})", flush=True)
         return
 
     key = api_key()
@@ -163,9 +239,10 @@ def main():
         return
     same_day = prev.get("date") == today
     matches = build_matches(fixtures, prev.get("matches", []) if same_day else [], now_ts)
+    overlay = compute_standings(matches, standings_base)
     out = {"date": today, "fetched": True, "updated": iso, "updated_ts": now_ts,
-           "requests_remaining": remaining_now, "matches": matches}
-    if same_day and prev.get("fetched") and prev.get("matches") == matches:
+           "requests_remaining": remaining_now, "matches": matches, "standings": overlay}
+    if same_day and prev.get("fetched") and prev.get("matches") == matches and prev.get("standings", {}) == overlay:
         print(f"✅ Sin cambios ({len(matches)} partidos). Llamadas restantes: {remaining_now}", flush=True)
         return
     save_json(LIVE_FILE, out)
