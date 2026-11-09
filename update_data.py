@@ -1,8 +1,10 @@
 # -*- coding: utf-8 -*-
 import requests
 from bs4 import BeautifulSoup
+import difflib
 import json
 import os
+import unicodedata
 import re
 import time
 import random
@@ -100,6 +102,161 @@ def save_json(path, data):
         json.dump(data, f, indent=2, ensure_ascii=False)
     os.replace(tmp, path)
 
+# --- 2b. FOOTBALL-DATA.ORG (LaLiga y Champions) ---
+FD_BASE = "https://api.football-data.org/v4"
+FD_COMPS = {"LALIGA": "PD", "CHAMPIONS": "CL"}
+FD_LEAGUE_STAGES = {"REGULAR_SEASON", "LEAGUE_STAGE"}
+FD_STAGE_TITLES = {
+    "PLAYOFFS": "Play-offs", "LAST_16": "Octavos de final", "QUARTER_FINALS": "Cuartos de final",
+    "SEMI_FINALS": "Semifinales", "FINAL": "Final", "THIRD_PLACE": "Tercer puesto",
+}
+# Nombre normalizado de la API -> nombres posibles en nuestros JSON (el que exista se usa).
+# Solo hacen falta los casos que el emparejamiento automático no resuelve.
+FD_ALIASES = {
+    "santander": ["Racing", "Racing de Santander"], "racing santander": ["Racing", "Racing de Santander"],
+    "alaves": ["Deportivo Alavés", "Alavés"], "celta": ["Celta", "Celta de Vigo"],
+    "deportivo": ["RC Deportivo", "Deportivo de A Coruña"], "deportivo coruna": ["RC Deportivo", "Deportivo de A Coruña"],
+    "valencia": ["Valencia", "Valencia CF"],
+    "club brugge": ["Brujas"], "brugge": ["Brujas"], "napoli": ["Nápoles"], "inter": ["Inter de Milán"],
+    "viking": ["Viking Stavanger"], "lens": ["Lens"], "como 1907": ["Como"], "pae aek": ["AEK Athens"],
+    "aek athens": ["AEK Athens"], "bayern": ["Bayern de Munich", "Bayern Múnich"],
+    "bayern munchen": ["Bayern de Munich", "Bayern Múnich"], "bodo glimt": ["Bodo Glimt", "Bodø/Glimt"],
+    "porto": ["Oporto", "FC Porto"], "leipzig": ["Leipzig", "RB Leipzig"], "shakhtar": ["Shakhtar Donetsk", "Shakhtar"],
+    "slavia": ["Slavia de Praga", "Slavia Prague"], "sporting": ["Sporting de Portugal", "Sporting CP"],
+    "sporting cp": ["Sporting de Portugal", "Sporting CP"],
+}
+
+def _norm(s):
+    s = unicodedata.normalize("NFKD", s or "").encode("ascii", "ignore").decode().lower()
+    s = re.sub(r"\b(fc|cf|cd|ud|sc|sk|fk|club|de|del|la|el|rcd|rc|ca|afc|as|ac|sl|bk|ssc|ogc|sv|vfl|vfb|fsv|rb|real club)\b", " ", s)
+    return re.sub(r"[^a-z0-9]+", " ", s).strip()
+
+def build_name_map(api_teams, existing_names):
+    """{id_equipo_api: nombre}, usando el vocabulario de 'existing_names' (el JSON anterior)."""
+    existing = list(dict.fromkeys(n for n in existing_names if n))
+    ex_norm = {n: _norm(n) for n in existing}
+    scored = []
+    for t in api_teams:
+        cands = [_norm(t.get("shortName")), _norm(t.get("name"))]
+        aliases = [a for c in cands for a in FD_ALIASES.get(c, [])]
+        for n in existing:
+            if n in aliases:
+                s = 1.5
+            else:
+                s = 0
+                for c in cands:
+                    if not c: continue
+                    e = ex_norm[n]
+                    r = 1.0 if c == e else difflib.SequenceMatcher(None, c, e).ratio()
+                    if e.startswith(c + " ") or c.startswith(e + " "): r = max(r, 0.9)
+                    s = max(s, r)
+            scored.append((s, t["id"], n))
+    scored.sort(key=lambda x: -x[0])
+    out, used = {}, set()
+    for s, tid, n in scored:
+        if s < 0.75: break
+        if tid in out or n in used: continue
+        out[tid] = n; used.add(n)
+    return out
+
+def fd_token():
+    tok = os.environ.get("FOOTBALL_DATA_TOKEN", "").strip()
+    if not tok:
+        try:
+            with open(os.path.expanduser("~/.football-data-token"), encoding="utf-8") as f: tok = f.read().strip()
+        except OSError:
+            pass
+    return tok
+
+def fd_get(path):
+    tok = fd_token()
+    if not tok:
+        print("  ⚠️ Sin FOOTBALL_DATA_TOKEN: se usará el scraping.", flush=True)
+        return None
+    for _ in range(2):
+        try:
+            r = requests.get(FD_BASE + path, headers={"X-Auth-Token": tok}, timeout=15)
+            if r.status_code == 429:
+                time.sleep(15); continue
+            if r.status_code != 200:
+                print(f"  ❌ football-data HTTP {r.status_code} en {path}", flush=True)
+                return None
+            return r.json()
+        except Exception as e:
+            print(f"  ❌ football-data error en {path}: {type(e).__name__}", flush=True)
+            return None
+    return None
+
+def _name_for(team, names, label):
+    if team["id"] in names: return names[team["id"]]
+    fallback = team.get("shortName") or team.get("name")
+    print(f"  ⚠️ {label}: sin equivalencia para '{fallback}', se usa el nombre de la API", flush=True)
+    return fallback
+
+def fetch_standings_fd():
+    print("\n📊 Clasificaciones (football-data.org)...", flush=True)
+    out = {}
+    prev = load_previous(STANDINGS_FILE, {})
+    for label, code in FD_COMPS.items():
+        d = fd_get(f"/competitions/{code}/standings"); time.sleep(1)
+        tables = [s for s in (d or {}).get("standings", []) if s.get("type") == "TOTAL" and s.get("table")]
+        if not tables:
+            print(f"  ⚠️ {label}: sin tabla en la API", flush=True); continue
+        table = tables[0]["table"]
+        names = build_name_map([r["team"] for r in table], [r["team"] for r in prev.get(label, [])])
+        rows = []
+        for i, r in enumerate(table, 1):
+            gd = r.get("goalDifference", 0)
+            # Posición correlativa (la API repite el puesto en los empates)
+            rows.append({"rank": str(i), "team": _name_for(r["team"], names, label),
+                         "points": str(r["points"]), "played": str(r["playedGames"]), "won": str(r["won"]),
+                         "drawn": str(r["draw"]), "lost": str(r["lost"]), "gf": str(r["goalsFor"]),
+                         "ga": str(r["goalsAgainst"]), "dg": f"+{gd}" if gd > 0 else str(gd)})
+        out[label] = rows
+        print(f"  ✅ {label}: {len(rows)} equipos", flush=True)
+    return out
+
+def fetch_results_fd():
+    print("\n⚽ Resultados (football-data.org)...", flush=True)
+    out = {}
+    prev = load_previous(RESULTS_FILE, {})
+    today = datetime.now(TZ_MADRID).date()
+    for label, code in FD_COMPS.items():
+        d = fd_get(f"/competitions/{code}/matches"); time.sleep(1)
+        matches = [m for m in (d or {}).get("matches", []) if m["homeTeam"].get("id") and m["awayTeam"].get("id")]
+        if not matches:
+            print(f"  ⚠️ {label}: sin partidos en la API", flush=True); continue
+        old = [m for rd in prev.get(label, {}).get("rounds", {}).values() for m in rd]
+        names = build_name_map({m[s]["id"]: m[s] for m in matches for s in ("homeTeam", "awayTeam")}.values(),
+                               [m["home"] for m in old] + [m["away"] for m in old])
+        cur_md = matches[0].get("season", {}).get("currentMatchday") or 0
+        rounds, upcoming = {}, []
+        for m in sorted(matches, key=lambda x: x["utcDate"]):
+            local = datetime.strptime(m["utcDate"], "%Y-%m-%dT%H:%M:%SZ").replace(tzinfo=pytz.utc).astimezone(TZ_MADRID)
+            league = m.get("stage") in FD_LEAGUE_STAGES
+            key = f"Jornada {m['matchday']}" if league and m.get("matchday") else \
+                  FD_STAGE_TITLES.get(m.get("stage"), (m.get("stage") or "Jornada").replace("_", " ").title())
+            ft = (m.get("score") or {}).get("fullTime") or {}
+            played = m["status"] in ("FINISHED", "AWARDED", "IN_PLAY", "PAUSED") and ft.get("home") is not None
+            rounds.setdefault(key, []).append({
+                "date": local.strftime("%d-%m-%Y"),
+                "home": _name_for(m["homeTeam"], names, label), "away": _name_for(m["awayTeam"], names, label),
+                "score": f"{ft['home']} - {ft['away']}" if played else "vs",
+                "status": "Fin" if m["status"] in ("FINISHED", "AWARDED") else ""})
+            if local.date() >= today and m["status"] not in ("CANCELLED", "POSTPONED") and (not league or (m.get("matchday") or 0) >= cur_md):
+                upcoming.append(key)
+        # Orden: jornadas por número; el resto de fases (eliminatorias) después, por fecha de aparición
+        def round_order(item):
+            idx, key = item
+            mm = re.fullmatch(r"Jornada (\d+)", key)
+            return (0, int(mm.group(1))) if mm else (1, idx)
+        ordered = [k for _, k in sorted(enumerate(rounds), key=round_order)]
+        current = upcoming[0] if upcoming else ordered[-1]
+        renamed = {(f"{k} (Actual)" if k == current else k): rounds[k] for k in ordered}
+        out[label] = {"rounds": renamed, "current": f"{current} (Actual)"}
+        print(f"  ✅ {label}: {len(renamed)} rondas, actual = {current}", flush=True)
+    return out
+
 # --- 3. SCRAPERS ---
 def scrape_agenda():
     print("🌍 Extrayendo Agenda...", flush=True)
@@ -186,10 +343,11 @@ def scrape_agenda():
 
     return sorted(agenda, key=lambda x: x['start_ts'])
 
-def scrape_standings():
-    print("\n📊 Extrayendo Clasificaciones...", flush=True)
+def scrape_standings(only=None):
+    print("\n📊 Extrayendo Clasificaciones (scraping)...", flush=True)
     data_map = {}
     for name, url in URLS_STANDINGS.items():
+        if only is not None and name not in only: continue
         try:
             print(f"  -> Conectando a {name}...", flush=True)
             time.sleep(random.uniform(2, 4))
@@ -232,12 +390,13 @@ def scrape_standings():
             continue
     return data_map
 
-def scrape_results():
-    print("\n⚽ Extrayendo Resultados...", flush=True)
+def scrape_results(only=None):
+    print("\n⚽ Extrayendo Resultados (scraping)...", flush=True)
     results_map = {}
     today = datetime.now(TZ_MADRID).date()
 
     for name, url in URLS_RESULTS:
+        if only is not None and name not in only: continue
         try:
             print(f"  -> Conectando a {name}...", flush=True)
             time.sleep(random.uniform(2, 4))
@@ -377,6 +536,12 @@ def scrape_results():
 if __name__ == "__main__":
     print("Iniciando Actualización...", flush=True)
     save_json(CALENDAR_FILE, scrape_agenda())
-    save_json(STANDINGS_FILE, merge_with_previous(scrape_standings(), STANDINGS_FILE))
-    save_json(RESULTS_FILE, merge_with_previous(scrape_results(), RESULTS_FILE))
+    # LaLiga y Champions: API. Si la API falla para alguna, se recurre al scraping.
+    # Europa League y Copa: siempre scraping.
+    fd_st = fetch_standings_fd()
+    sc_st = scrape_standings([k for k in URLS_STANDINGS if k not in fd_st])
+    save_json(STANDINGS_FILE, merge_with_previous({**sc_st, **fd_st}, STANDINGS_FILE))
+    fd_res = fetch_results_fd()
+    sc_res = scrape_results([n for n, _ in URLS_RESULTS if n not in fd_res])
+    save_json(RESULTS_FILE, merge_with_previous({**sc_res, **fd_res}, RESULTS_FILE))
     print("\n🎉 Datos generados correctamente.", flush=True)
