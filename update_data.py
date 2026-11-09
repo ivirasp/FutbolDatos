@@ -124,7 +124,11 @@ FD_ALIASES = {
     "porto": ["Oporto", "FC Porto"], "leipzig": ["Leipzig", "RB Leipzig"], "shakhtar": ["Shakhtar Donetsk", "Shakhtar"],
     "slavia": ["Slavia de Praga", "Slavia Prague"], "sporting": ["Sporting de Portugal", "Sporting CP"],
     "sporting cp": ["Sporting de Portugal", "Sporting CP"],
+    "lyon": ["Olympique de Lyon"], "marseille": ["Olympique de Marsella"],
 }
+
+# --- 2c. ESPN (clasificación de Europa League; API pública no oficial, sin clave) ---
+ESPN_STANDINGS = {"EUROPA": "uefa.europa"}
 
 def _norm(s):
     s = unicodedata.normalize("NFKD", s or "").encode("ascii", "ignore").decode().lower()
@@ -214,6 +218,41 @@ def fetch_standings_fd():
                          "ga": str(r["goalsAgainst"]), "dg": f"+{gd}" if gd > 0 else str(gd)})
         out[label] = rows
         print(f"  ✅ {label}: {len(rows)} equipos", flush=True)
+    return out
+
+def fetch_standings_espn():
+    print("\n📊 Clasificaciones (ESPN)...", flush=True)
+    out = {}
+    prev = load_previous(STANDINGS_FILE, {})
+    for label, slug in ESPN_STANDINGS.items():
+        try:
+            r = requests.get(f"https://site.api.espn.com/apis/v2/sports/soccer/{slug}/standings", headers=HEADERS, timeout=15)
+            if r.status_code != 200:
+                print(f"  ❌ ESPN HTTP {r.status_code} en {slug}", flush=True); continue
+            entries = r.json()["children"][0]["standings"]["entries"]
+            rows_in = []
+            need = ("rank", "points", "gamesPlayed", "wins", "ties", "losses", "pointsFor", "pointsAgainst")
+            for e in entries:
+                st = {x["name"]: x for x in e["stats"]}
+                vals = {k: int(float(st[k].get("value", st[k].get("displayValue", 0)) or 0)) for k in need}
+                rows_in.append((vals["rank"], e["team"], vals))
+            rows_in.sort(key=lambda x: x[0])
+            if len(rows_in) < 10:
+                print(f"  ⚠️ {label}: ESPN devolvió solo {len(rows_in)} equipos, se ignora", flush=True); continue
+            teams = [{"id": t["id"], "name": t["displayName"], "shortName": t.get("shortDisplayName")} for _, t, _ in rows_in]
+            names = build_name_map(teams, [x["team"] for x in prev.get(label, [])])
+            rows = []
+            for i, (_, t, v) in enumerate(rows_in, 1):
+                gf, ga = v["pointsFor"], v["pointsAgainst"]
+                tm = {"id": t["id"], "name": t["displayName"], "shortName": t.get("shortDisplayName")}
+                rows.append({"rank": str(i), "team": _name_for(tm, names, label), "points": str(v["points"]),
+                             "played": str(v["gamesPlayed"]), "won": str(v["wins"]), "drawn": str(v["ties"]),
+                             "lost": str(v["losses"]), "gf": str(gf), "ga": str(ga),
+                             "dg": f"+{gf - ga}" if gf - ga > 0 else str(gf - ga)})
+            out[label] = rows
+            print(f"  ✅ {label}: {len(rows)} equipos", flush=True)
+        except Exception as e:
+            print(f"  ❌ ESPN error en {slug}: {type(e).__name__}", flush=True)
     return out
 
 def fetch_results_fd():
@@ -542,7 +581,7 @@ if __name__ == "__main__":
     save_json(CALENDAR_FILE, scrape_agenda())
     # LaLiga y Champions: API. Si la API falla para alguna, se recurre al scraping.
     # Europa League y Copa: siempre scraping.
-    fd_st = fetch_standings_fd()
+    fd_st = {**fetch_standings_fd(), **fetch_standings_espn()}  # football-data (LaLiga, Champions) + ESPN (Europa)
     sc_st = scrape_standings([k for k in URLS_STANDINGS if k not in fd_st])
     save_json(STANDINGS_FILE, merge_with_previous({**sc_st, **fd_st}, STANDINGS_FILE))
     fd_res = fetch_results_fd()
