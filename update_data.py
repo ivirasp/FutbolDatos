@@ -2,6 +2,7 @@
 import requests
 from bs4 import BeautifulSoup
 import json
+import os
 import re
 import time
 import random
@@ -74,11 +75,37 @@ def parse_header_text(text, today_date):
     except: pass
     return None
 
+def load_previous(path, default):
+    """Lee el JSON de la ejecución anterior (o 'default' si no existe o está roto)."""
+    try:
+        with open(path, 'r', encoding='utf-8') as f:
+            return json.load(f)
+    except Exception:
+        return default
+
+def merge_with_previous(new_data, path):
+    """Para dicts por competición: si una competición no se pudo extraer, se mantiene la anterior."""
+    merged = dict(load_previous(path, {}))
+    for key, value in new_data.items():
+        if value:
+            merged[key] = value
+    for key in merged.keys() - new_data.keys():
+        print(f"  ♻️ {path}: se conserva {key} de la ejecución anterior", flush=True)
+    return merged
+
+def save_json(path, data):
+    """Escritura atómica: nunca deja un fichero a medias."""
+    tmp = path + ".tmp"
+    with open(tmp, 'w', encoding='utf-8') as f:
+        json.dump(data, f, indent=2, ensure_ascii=False)
+    os.replace(tmp, path)
+
 # --- 3. SCRAPERS ---
 def scrape_agenda():
     print("🌍 Extrayendo Agenda...", flush=True)
     agenda = []
     seen = set()
+    ok_comps = set()  # competiciones extraídas con éxito en esta ejecución
     UTC = pytz.utc
 
     for url, comp_label in TARGET_URLS_AGENDA.items():
@@ -96,7 +123,8 @@ def scrape_agenda():
             if not articles:
                 print(f"  ⚠️ No se encontraron partidos en {url}. ¿La web está vacía hoy?", flush=True)
                 continue
-                
+
+            ok_comps.add(comp_label)
             count = 0 # Contador para ver cuántos partidos extraemos
             for art in articles:
                 # --- NUEVOS SELECTORES BASADOS EN EL NUEVO HTML ---
@@ -149,7 +177,13 @@ def scrape_agenda():
             print(f"  ❌ Error en Agenda ({url}): {e}", flush=True)
             continue
             
-    return sorted(agenda, key=lambda x: x['start_ts'])
+    # Si una competición falló, conservamos sus partidos futuros de la ejecución anterior
+    now_ts = time.time()
+    for m in load_previous(CALENDAR_FILE, []):
+        if m.get("competition") not in ok_comps and m.get("start_ts", 0) >= now_ts:
+            agenda.append(m)
+            print(f"  ♻️ Conservado de la anterior ({m.get('competition')}): {m.get('title')}", flush=True)
+
     return sorted(agenda, key=lambda x: x['start_ts'])
 
 def scrape_standings():
@@ -342,7 +376,7 @@ def scrape_results():
 
 if __name__ == "__main__":
     print("Iniciando Actualización...", flush=True)
-    with open(CALENDAR_FILE, 'w', encoding='utf-8') as f: json.dump(scrape_agenda(), f, indent=2, ensure_ascii=False)
-    with open(STANDINGS_FILE, 'w', encoding='utf-8') as f: json.dump(scrape_standings(), f, indent=2, ensure_ascii=False)
-    with open(RESULTS_FILE, 'w', encoding='utf-8') as f: json.dump(scrape_results(), f, indent=2, ensure_ascii=False)
+    save_json(CALENDAR_FILE, scrape_agenda())
+    save_json(STANDINGS_FILE, merge_with_previous(scrape_standings(), STANDINGS_FILE))
+    save_json(RESULTS_FILE, merge_with_previous(scrape_results(), RESULTS_FILE))
     print("\n🎉 Datos generados correctamente.", flush=True)

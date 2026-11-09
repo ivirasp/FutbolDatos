@@ -14,16 +14,23 @@ on:
 permissions:
   contents: write  # Esto arregla el error 403 (Permiso denegado)
 
+# Evita que dos ejecuciones se pisen al hacer push
+concurrency:
+  group: actualizador-datos
+  cancel-in-progress: false
+
 jobs:
   build:
     runs-on: ubuntu-latest
+    timeout-minutes: 10
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
 
       - name: Configurar Python
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@v5
         with:
-          python-version: '3.10'
+          python-version: '3.12'
+          cache: 'pip'
 
       - name: Instalar librerías
         run: pip install requests beautifulsoup4 pytz
@@ -38,4 +45,5 @@ jobs:
           # El asterisco evita el error de "pathspec" si los archivos ya existen
           git add *.json
           git commit -m "Auto-update: $(date)" || exit 0
+          git pull --rebase
           git push
