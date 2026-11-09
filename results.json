@@ -392,16 +392,16 @@
         },
         {
           "date": "16-09-2026",
-          "home": "Atlético de Madrid",
-          "away": "Osasuna",
-          "score": "4 - 0",
+          "home": "Deportivo de A Coruña",
+          "away": "Sevilla",
+          "score": "0 - 1",
           "status": "Fin"
         },
         {
           "date": "16-09-2026",
-          "home": "Deportivo de A Coruña",
-          "away": "Sevilla",
-          "score": "0 - 1",
+          "home": "Atlético de Madrid",
+          "away": "Osasuna",
+          "score": "4 - 0",
           "status": "Fin"
         },
         {
@@ -505,7 +505,7 @@
           "status": "Fin"
         }
       ],
-      "Jornada 8 (Actual)": [
+      "Jornada 8": [
         {
           "date": "09-10-2026",
           "home": "Málaga",
@@ -573,7 +573,7 @@
           "date": "09-12-2026",
           "home": "Rayo Vallecano",
           "away": "Athletic Club",
-          "score": "0 - 0",
+          "score": "vs",
           "status": ""
         }
       ],
@@ -865,7 +865,7 @@
           "status": "Fin"
         }
       ],
-      "Jornada 13": [
+      "Jornada 13 (Actual)": [
         {
           "date": "20-11-2026",
           "home": "Athletic Club",
@@ -1012,6 +1012,20 @@
       "Jornada 15": [
         {
           "date": "06-12-2026",
+          "home": "Osasuna",
+          "away": "Elche",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "06-12-2026",
+          "home": "Sevilla",
+          "away": "Málaga",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "06-12-2026",
           "home": "Alavés",
           "away": "Espanyol",
           "score": "vs",
@@ -1019,36 +1033,8 @@
         },
         {
           "date": "06-12-2026",
-          "home": "Athletic Club",
-          "away": "Real Madrid",
-          "score": "vs",
-          "status": ""
-        },
-        {
-          "date": "06-12-2026",
           "home": "Atlético de Madrid",
           "away": "Real Betis",
-          "score": "vs",
-          "status": ""
-        },
-        {
-          "date": "06-12-2026",
-          "home": "FC Barcelona",
-          "away": "Celta de Vigo",
-          "score": "vs",
-          "status": ""
-        },
-        {
-          "date": "06-12-2026",
-          "home": "Getafe",
-          "away": "Valencia CF",
-          "score": "vs",
-          "status": ""
-        },
-        {
-          "date": "06-12-2026",
-          "home": "Osasuna",
-          "away": "Elche",
           "score": "vs",
           "status": ""
         },
@@ -1061,15 +1047,22 @@
         },
         {
           "date": "06-12-2026",
-          "home": "Rayo Vallecano",
-          "away": "Levante",
+          "home": "FC Barcelona",
+          "away": "Celta de Vigo",
           "score": "vs",
           "status": ""
         },
         {
           "date": "06-12-2026",
-          "home": "Sevilla",
-          "away": "Málaga",
+          "home": "Getafe",
+          "away": "Valencia CF",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "06-12-2026",
+          "home": "Athletic Club",
+          "away": "Real Madrid",
           "score": "vs",
           "status": ""
         },
@@ -1079,41 +1072,20 @@
           "away": "Real Sociedad",
           "score": "vs",
           "status": ""
+        },
+        {
+          "date": "06-12-2026",
+          "home": "Rayo Vallecano",
+          "away": "Levante",
+          "score": "vs",
+          "status": ""
         }
       ],
       "Jornada 16": [
         {
           "date": "13-12-2026",
-          "home": "Atlético de Madrid",
-          "away": "Valencia CF",
-          "score": "vs",
-          "status": ""
-        },
-        {
-          "date": "13-12-2026",
-          "home": "Deportivo de A Coruña",
-          "away": "Athletic Club",
-          "score": "vs",
-          "status": ""
-        },
-        {
-          "date": "13-12-2026",
-          "home": "Elche",
-          "away": "Sevilla",
-          "score": "vs",
-          "status": ""
-        },
-        {
-          "date": "13-12-2026",
           "home": "Espanyol",
           "away": "Celta de Vigo",
-          "score": "vs",
-          "status": ""
-        },
-        {
-          "date": "13-12-2026",
-          "home": "Levante",
-          "away": "Alavés",
           "score": "vs",
           "status": ""
         },
@@ -1126,15 +1098,43 @@
         },
         {
           "date": "13-12-2026",
-          "home": "Real Betis",
-          "away": "Racing de Santander",
+          "home": "Real Madrid",
+          "away": "Osasuna",
           "score": "vs",
           "status": ""
         },
         {
           "date": "13-12-2026",
-          "home": "Real Madrid",
-          "away": "Osasuna",
+          "home": "Deportivo de A Coruña",
+          "away": "Athletic Club",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "13-12-2026",
+          "home": "Levante",
+          "away": "Alavés",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "13-12-2026",
+          "home": "Elche",
+          "away": "Sevilla",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "13-12-2026",
+          "home": "Villarreal",
+          "away": "Rayo Vallecano",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "13-12-2026",
+          "home": "Real Betis",
+          "away": "Racing de Santander",
           "score": "vs",
           "status": ""
         },
@@ -1147,8 +1147,8 @@
         },
         {
           "date": "13-12-2026",
-          "home": "Villarreal",
-          "away": "Rayo Vallecano",
+          "home": "Atlético de Madrid",
+          "away": "Valencia CF",
           "score": "vs",
           "status": ""
         }
@@ -1156,36 +1156,8 @@
       "Jornada 17": [
         {
           "date": "20-12-2026",
-          "home": "Alavés",
-          "away": "Elche",
-          "score": "vs",
-          "status": ""
-        },
-        {
-          "date": "20-12-2026",
           "home": "Athletic Club",
           "away": "Real Betis",
-          "score": "vs",
-          "status": ""
-        },
-        {
-          "date": "20-12-2026",
-          "home": "FC Barcelona",
-          "away": "Real Sociedad",
-          "score": "vs",
-          "status": ""
-        },
-        {
-          "date": "20-12-2026",
-          "home": "Celta de Vigo",
-          "away": "Atlético de Madrid",
-          "score": "vs",
-          "status": ""
-        },
-        {
-          "date": "20-12-2026",
-          "home": "Deportivo de A Coruña",
-          "away": "Real Madrid",
           "score": "vs",
           "status": ""
         },
@@ -1198,22 +1170,8 @@
         },
         {
           "date": "20-12-2026",
-          "home": "Osasuna",
-          "away": "Villarreal",
-          "score": "vs",
-          "status": ""
-        },
-        {
-          "date": "20-12-2026",
-          "home": "Rayo Vallecano",
-          "away": "Málaga",
-          "score": "vs",
-          "status": ""
-        },
-        {
-          "date": "20-12-2026",
-          "home": "Sevilla",
-          "away": "Racing de Santander",
+          "home": "Alavés",
+          "away": "Elche",
           "score": "vs",
           "status": ""
         },
@@ -1223,58 +1181,51 @@
           "away": "Espanyol",
           "score": "vs",
           "status": ""
-        }
-      ],
-      "Jornada 18": [
+        },
         {
-          "date": "03-01-2027",
+          "date": "20-12-2026",
+          "home": "Osasuna",
+          "away": "Villarreal",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "20-12-2026",
+          "home": "FC Barcelona",
+          "away": "Real Sociedad",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "20-12-2026",
           "home": "Celta de Vigo",
-          "away": "Deportivo de A Coruña",
-          "score": "vs",
-          "status": ""
-        },
-        {
-          "date": "03-01-2027",
-          "home": "Espanyol",
-          "away": "FC Barcelona",
-          "score": "vs",
-          "status": ""
-        },
-        {
-          "date": "03-01-2027",
-          "home": "Levante",
-          "away": "Valencia CF",
-          "score": "vs",
-          "status": ""
-        },
-        {
-          "date": "03-01-2027",
-          "home": "Málaga",
-          "away": "Elche",
-          "score": "vs",
-          "status": ""
-        },
-        {
-          "date": "03-01-2027",
-          "home": "Racing de Santander",
-          "away": "Athletic Club",
-          "score": "vs",
-          "status": ""
-        },
-        {
-          "date": "03-01-2027",
-          "home": "Rayo Vallecano",
           "away": "Atlético de Madrid",
           "score": "vs",
           "status": ""
         },
         {
-          "date": "03-01-2027",
-          "home": "Real Betis",
-          "away": "Alavés",
+          "date": "20-12-2026",
+          "home": "Rayo Vallecano",
+          "away": "Málaga",
           "score": "vs",
           "status": ""
         },
+        {
+          "date": "20-12-2026",
+          "home": "Deportivo de A Coruña",
+          "away": "Real Madrid",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "20-12-2026",
+          "home": "Sevilla",
+          "away": "Racing de Santander",
+          "score": "vs",
+          "status": ""
+        }
+      ],
+      "Jornada 18": [
         {
           "date": "03-01-2027",
           "home": "Real Madrid",
@@ -1291,8 +1242,57 @@
         },
         {
           "date": "03-01-2027",
+          "home": "Levante",
+          "away": "Valencia CF",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "03-01-2027",
+          "home": "Racing de Santander",
+          "away": "Athletic Club",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "03-01-2027",
+          "home": "Málaga",
+          "away": "Elche",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "03-01-2027",
+          "home": "Real Betis",
+          "away": "Alavés",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "03-01-2027",
+          "home": "Celta de Vigo",
+          "away": "Deportivo de A Coruña",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "03-01-2027",
+          "home": "Espanyol",
+          "away": "FC Barcelona",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "03-01-2027",
           "home": "Villarreal",
           "away": "Sevilla",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "03-01-2027",
+          "home": "Rayo Vallecano",
+          "away": "Atlético de Madrid",
           "score": "vs",
           "status": ""
         }
@@ -1300,29 +1300,8 @@
       "Jornada 19": [
         {
           "date": "10-01-2027",
-          "home": "Alavés",
-          "away": "Real Sociedad",
-          "score": "vs",
-          "status": ""
-        },
-        {
-          "date": "10-01-2027",
           "home": "Athletic Club",
           "away": "Villarreal",
-          "score": "vs",
-          "status": ""
-        },
-        {
-          "date": "10-01-2027",
-          "home": "Atlético de Madrid",
-          "away": "Racing de Santander",
-          "score": "vs",
-          "status": ""
-        },
-        {
-          "date": "10-01-2027",
-          "home": "Deportivo de A Coruña",
-          "away": "Rayo Vallecano",
           "score": "vs",
           "status": ""
         },
@@ -1335,8 +1314,8 @@
         },
         {
           "date": "10-01-2027",
-          "home": "Espanyol",
-          "away": "Real Betis",
+          "home": "Real Madrid",
+          "away": "Levante",
           "score": "vs",
           "status": ""
         },
@@ -1349,8 +1328,22 @@
         },
         {
           "date": "10-01-2027",
-          "home": "Real Madrid",
-          "away": "Levante",
+          "home": "Deportivo de A Coruña",
+          "away": "Rayo Vallecano",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "10-01-2027",
+          "home": "Atlético de Madrid",
+          "away": "Racing de Santander",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "10-01-2027",
+          "home": "Alavés",
+          "away": "Real Sociedad",
           "score": "vs",
           "status": ""
         },
@@ -1358,6 +1351,13 @@
           "date": "10-01-2027",
           "home": "Sevilla",
           "away": "Celta de Vigo",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "10-01-2027",
+          "home": "Espanyol",
+          "away": "Real Betis",
           "score": "vs",
           "status": ""
         },
@@ -1372,8 +1372,8 @@
       "Jornada 20": [
         {
           "date": "17-01-2027",
-          "home": "Atlético de Madrid",
-          "away": "Real Sociedad",
+          "home": "Málaga",
+          "away": "Real Madrid",
           "score": "vs",
           "status": ""
         },
@@ -1381,6 +1381,27 @@
           "date": "17-01-2027",
           "home": "FC Barcelona",
           "away": "Elche",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "17-01-2027",
+          "home": "Villarreal",
+          "away": "Alavés",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "17-01-2027",
+          "home": "Racing de Santander",
+          "away": "Osasuna",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "17-01-2027",
+          "home": "Levante",
+          "away": "Espanyol",
           "score": "vs",
           "status": ""
         },
@@ -1400,27 +1421,6 @@
         },
         {
           "date": "17-01-2027",
-          "home": "Levante",
-          "away": "Espanyol",
-          "score": "vs",
-          "status": ""
-        },
-        {
-          "date": "17-01-2027",
-          "home": "Málaga",
-          "away": "Real Madrid",
-          "score": "vs",
-          "status": ""
-        },
-        {
-          "date": "17-01-2027",
-          "home": "Racing de Santander",
-          "away": "Osasuna",
-          "score": "vs",
-          "status": ""
-        },
-        {
-          "date": "17-01-2027",
           "home": "Rayo Vallecano",
           "away": "Sevilla",
           "score": "vs",
@@ -1435,8 +1435,8 @@
         },
         {
           "date": "17-01-2027",
-          "home": "Villarreal",
-          "away": "Alavés",
+          "home": "Atlético de Madrid",
+          "away": "Real Sociedad",
           "score": "vs",
           "status": ""
         }
@@ -1444,22 +1444,22 @@
       "Jornada 21": [
         {
           "date": "24-01-2027",
-          "home": "Alavés",
-          "away": "FC Barcelona",
+          "home": "Real Madrid",
+          "away": "Real Betis",
           "score": "vs",
           "status": ""
         },
         {
           "date": "24-01-2027",
-          "home": "Athletic Club",
-          "away": "Levante",
+          "home": "Getafe",
+          "away": "Osasuna",
           "score": "vs",
           "status": ""
         },
         {
           "date": "24-01-2027",
-          "home": "Deportivo de A Coruña",
-          "away": "Atlético de Madrid",
+          "home": "Valencia CF",
+          "away": "Sevilla",
           "score": "vs",
           "status": ""
         },
@@ -1472,29 +1472,8 @@
         },
         {
           "date": "24-01-2027",
-          "home": "Espanyol",
-          "away": "Villarreal",
-          "score": "vs",
-          "status": ""
-        },
-        {
-          "date": "24-01-2027",
-          "home": "Getafe",
-          "away": "Osasuna",
-          "score": "vs",
-          "status": ""
-        },
-        {
-          "date": "24-01-2027",
-          "home": "Racing de Santander",
-          "away": "Celta de Vigo",
-          "score": "vs",
-          "status": ""
-        },
-        {
-          "date": "24-01-2027",
-          "home": "Real Madrid",
-          "away": "Real Betis",
+          "home": "Alavés",
+          "away": "FC Barcelona",
           "score": "vs",
           "status": ""
         },
@@ -1507,8 +1486,29 @@
         },
         {
           "date": "24-01-2027",
-          "home": "Valencia CF",
-          "away": "Sevilla",
+          "home": "Racing de Santander",
+          "away": "Celta de Vigo",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "24-01-2027",
+          "home": "Athletic Club",
+          "away": "Levante",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "24-01-2027",
+          "home": "Espanyol",
+          "away": "Villarreal",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "24-01-2027",
+          "home": "Deportivo de A Coruña",
+          "away": "Atlético de Madrid",
           "score": "vs",
           "status": ""
         }
@@ -1516,43 +1516,8 @@
       "Jornada 22": [
         {
           "date": "31-01-2027",
-          "home": "Atlético de Madrid",
-          "away": "Espanyol",
-          "score": "vs",
-          "status": ""
-        },
-        {
-          "date": "31-01-2027",
-          "home": "FC Barcelona",
-          "away": "Valencia CF",
-          "score": "vs",
-          "status": ""
-        },
-        {
-          "date": "31-01-2027",
-          "home": "Celta de Vigo",
-          "away": "Getafe",
-          "score": "vs",
-          "status": ""
-        },
-        {
-          "date": "31-01-2027",
-          "home": "Levante",
-          "away": "Real Sociedad",
-          "score": "vs",
-          "status": ""
-        },
-        {
-          "date": "31-01-2027",
-          "home": "Málaga",
-          "away": "Alavés",
-          "score": "vs",
-          "status": ""
-        },
-        {
-          "date": "31-01-2027",
-          "home": "Osasuna",
-          "away": "Deportivo de A Coruña",
+          "home": "Real Betis",
+          "away": "Elche",
           "score": "vs",
           "status": ""
         },
@@ -1565,8 +1530,36 @@
         },
         {
           "date": "31-01-2027",
-          "home": "Real Betis",
-          "away": "Elche",
+          "home": "Atlético de Madrid",
+          "away": "Espanyol",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "31-01-2027",
+          "home": "Celta de Vigo",
+          "away": "Getafe",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "31-01-2027",
+          "home": "Villarreal",
+          "away": "Racing de Santander",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "31-01-2027",
+          "home": "Levante",
+          "away": "Real Sociedad",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "31-01-2027",
+          "home": "FC Barcelona",
+          "away": "Valencia CF",
           "score": "vs",
           "status": ""
         },
@@ -1579,8 +1572,15 @@
         },
         {
           "date": "31-01-2027",
-          "home": "Villarreal",
-          "away": "Racing de Santander",
+          "home": "Osasuna",
+          "away": "Deportivo de A Coruña",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "31-01-2027",
+          "home": "Málaga",
+          "away": "Alavés",
           "score": "vs",
           "status": ""
         }
@@ -1602,13 +1602,6 @@
         },
         {
           "date": "07-02-2027",
-          "home": "Alavés",
-          "away": "Celta de Vigo",
-          "score": "vs",
-          "status": ""
-        },
-        {
-          "date": "07-02-2027",
           "home": "Athletic Club",
           "away": "Osasuna",
           "score": "vs",
@@ -1616,8 +1609,15 @@
         },
         {
           "date": "07-02-2027",
-          "home": "Deportivo de A Coruña",
-          "away": "Málaga",
+          "home": "Alavés",
+          "away": "Celta de Vigo",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "07-02-2027",
+          "home": "Real Betis",
+          "away": "Sevilla",
           "score": "vs",
           "status": ""
         },
@@ -1644,8 +1644,8 @@
         },
         {
           "date": "07-02-2027",
-          "home": "Real Betis",
-          "away": "Sevilla",
+          "home": "Deportivo de A Coruña",
+          "away": "Málaga",
           "score": "vs",
           "status": ""
         },
@@ -1660,8 +1660,36 @@
       "Jornada 24": [
         {
           "date": "14-02-2027",
+          "home": "Sevilla",
+          "away": "Espanyol",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "14-02-2027",
+          "home": "Osasuna",
+          "away": "Atlético de Madrid",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "14-02-2027",
           "home": "Celta de Vigo",
           "away": "Rayo Vallecano",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "14-02-2027",
+          "home": "Villarreal",
+          "away": "FC Barcelona",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "14-02-2027",
+          "home": "Real Sociedad",
+          "away": "Real Betis",
           "score": "vs",
           "status": ""
         },
@@ -1674,15 +1702,15 @@
         },
         {
           "date": "14-02-2027",
-          "home": "Levante",
-          "away": "Málaga",
+          "home": "Valencia CF",
+          "away": "Alavés",
           "score": "vs",
           "status": ""
         },
         {
           "date": "14-02-2027",
-          "home": "Osasuna",
-          "away": "Atlético de Madrid",
+          "home": "Levante",
+          "away": "Málaga",
           "score": "vs",
           "status": ""
         },
@@ -1697,34 +1725,6 @@
           "date": "14-02-2027",
           "home": "Real Madrid",
           "away": "Athletic Club",
-          "score": "vs",
-          "status": ""
-        },
-        {
-          "date": "14-02-2027",
-          "home": "Real Sociedad",
-          "away": "Real Betis",
-          "score": "vs",
-          "status": ""
-        },
-        {
-          "date": "14-02-2027",
-          "home": "Sevilla",
-          "away": "Espanyol",
-          "score": "vs",
-          "status": ""
-        },
-        {
-          "date": "14-02-2027",
-          "home": "Valencia CF",
-          "away": "Alavés",
-          "score": "vs",
-          "status": ""
-        },
-        {
-          "date": "14-02-2027",
-          "home": "Villarreal",
-          "away": "FC Barcelona",
           "score": "vs",
           "status": ""
         }
@@ -1739,15 +1739,15 @@
         },
         {
           "date": "21-02-2027",
-          "home": "Athletic Club",
-          "away": "Celta de Vigo",
+          "home": "Málaga",
+          "away": "Real Betis",
           "score": "vs",
           "status": ""
         },
         {
           "date": "21-02-2027",
-          "home": "Atlético de Madrid",
-          "away": "Elche",
+          "home": "Villarreal",
+          "away": "Valencia CF",
           "score": "vs",
           "status": ""
         },
@@ -1760,8 +1760,8 @@
         },
         {
           "date": "21-02-2027",
-          "home": "Deportivo de A Coruña",
-          "away": "Real Sociedad",
+          "home": "Athletic Club",
+          "away": "Celta de Vigo",
           "score": "vs",
           "status": ""
         },
@@ -1774,8 +1774,22 @@
         },
         {
           "date": "21-02-2027",
-          "home": "Málaga",
-          "away": "Real Betis",
+          "home": "Sevilla",
+          "away": "Real Madrid",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "21-02-2027",
+          "home": "Atlético de Madrid",
+          "away": "Elche",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "21-02-2027",
+          "home": "Deportivo de A Coruña",
+          "away": "Real Sociedad",
           "score": "vs",
           "status": ""
         },
@@ -1785,41 +1799,13 @@
           "away": "Getafe",
           "score": "vs",
           "status": ""
-        },
-        {
-          "date": "21-02-2027",
-          "home": "Sevilla",
-          "away": "Real Madrid",
-          "score": "vs",
-          "status": ""
-        },
-        {
-          "date": "21-02-2027",
-          "home": "Villarreal",
-          "away": "Valencia CF",
-          "score": "vs",
-          "status": ""
         }
       ],
       "Jornada 26": [
         {
           "date": "28-02-2027",
-          "home": "Athletic Club",
-          "away": "FC Barcelona",
-          "score": "vs",
-          "status": ""
-        },
-        {
-          "date": "28-02-2027",
           "home": "Celta de Vigo",
           "away": "Espanyol",
-          "score": "vs",
-          "status": ""
-        },
-        {
-          "date": "28-02-2027",
-          "home": "Getafe",
-          "away": "Alavés",
           "score": "vs",
           "status": ""
         },
@@ -1846,6 +1832,27 @@
         },
         {
           "date": "28-02-2027",
+          "home": "Real Madrid",
+          "away": "Valencia CF",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "28-02-2027",
+          "home": "Getafe",
+          "away": "Alavés",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "28-02-2027",
+          "home": "Athletic Club",
+          "away": "FC Barcelona",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "28-02-2027",
           "home": "Racing de Santander",
           "away": "Rayo Vallecano",
           "score": "vs",
@@ -1855,13 +1862,6 @@
           "date": "28-02-2027",
           "home": "Real Betis",
           "away": "Villarreal",
-          "score": "vs",
-          "status": ""
-        },
-        {
-          "date": "28-02-2027",
-          "home": "Real Madrid",
-          "away": "Valencia CF",
           "score": "vs",
           "status": ""
         },
@@ -1876,29 +1876,8 @@
       "Jornada 27": [
         {
           "date": "07-03-2027",
-          "home": "Alavés",
-          "away": "Athletic Club",
-          "score": "vs",
-          "status": ""
-        },
-        {
-          "date": "07-03-2027",
-          "home": "Atlético de Madrid",
-          "away": "Celta de Vigo",
-          "score": "vs",
-          "status": ""
-        },
-        {
-          "date": "07-03-2027",
           "home": "FC Barcelona",
           "away": "Real Betis",
-          "score": "vs",
-          "status": ""
-        },
-        {
-          "date": "07-03-2027",
-          "home": "Deportivo de A Coruña",
-          "away": "Getafe",
           "score": "vs",
           "status": ""
         },
@@ -1911,8 +1890,8 @@
         },
         {
           "date": "07-03-2027",
-          "home": "Espanyol",
-          "away": "Racing de Santander",
+          "home": "Alavés",
+          "away": "Athletic Club",
           "score": "vs",
           "status": ""
         },
@@ -1932,8 +1911,8 @@
         },
         {
           "date": "07-03-2027",
-          "home": "Valencia CF",
-          "away": "Levante",
+          "home": "Atlético de Madrid",
+          "away": "Celta de Vigo",
           "score": "vs",
           "status": ""
         },
@@ -1943,9 +1922,44 @@
           "away": "Real Madrid",
           "score": "vs",
           "status": ""
+        },
+        {
+          "date": "07-03-2027",
+          "home": "Valencia CF",
+          "away": "Levante",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "07-03-2027",
+          "home": "Deportivo de A Coruña",
+          "away": "Getafe",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "07-03-2027",
+          "home": "Espanyol",
+          "away": "Racing de Santander",
+          "score": "vs",
+          "status": ""
         }
       ],
       "Jornada 28": [
+        {
+          "date": "14-03-2027",
+          "home": "Osasuna",
+          "away": "Celta de Vigo",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "14-03-2027",
+          "home": "Elche",
+          "away": "Villarreal",
+          "score": "vs",
+          "status": ""
+        },
         {
           "date": "14-03-2027",
           "home": "Alavés",
@@ -1962,36 +1976,8 @@
         },
         {
           "date": "14-03-2027",
-          "home": "FC Barcelona",
-          "away": "Deportivo de A Coruña",
-          "score": "vs",
-          "status": ""
-        },
-        {
-          "date": "14-03-2027",
-          "home": "Elche",
-          "away": "Villarreal",
-          "score": "vs",
-          "status": ""
-        },
-        {
-          "date": "14-03-2027",
-          "home": "Getafe",
-          "away": "Real Sociedad",
-          "score": "vs",
-          "status": ""
-        },
-        {
-          "date": "14-03-2027",
-          "home": "Málaga",
-          "away": "Rayo Vallecano",
-          "score": "vs",
-          "status": ""
-        },
-        {
-          "date": "14-03-2027",
-          "home": "Osasuna",
-          "away": "Celta de Vigo",
+          "home": "Real Betis",
+          "away": "Levante",
           "score": "vs",
           "status": ""
         },
@@ -2004,8 +1990,22 @@
         },
         {
           "date": "14-03-2027",
-          "home": "Real Betis",
-          "away": "Levante",
+          "home": "Málaga",
+          "away": "Rayo Vallecano",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "14-03-2027",
+          "home": "Getafe",
+          "away": "Real Sociedad",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "14-03-2027",
+          "home": "FC Barcelona",
+          "away": "Deportivo de A Coruña",
           "score": "vs",
           "status": ""
         },
@@ -2020,22 +2020,15 @@
       "Jornada 29": [
         {
           "date": "21-03-2027",
-          "home": "Atlético de Madrid",
-          "away": "Getafe",
+          "home": "Villarreal",
+          "away": "Málaga",
           "score": "vs",
           "status": ""
         },
         {
           "date": "21-03-2027",
-          "home": "Celta de Vigo",
-          "away": "Real Madrid",
-          "score": "vs",
-          "status": ""
-        },
-        {
-          "date": "21-03-2027",
-          "home": "Espanyol",
-          "away": "Athletic Club",
+          "home": "Sevilla",
+          "away": "Elche",
           "score": "vs",
           "status": ""
         },
@@ -2048,8 +2041,8 @@
         },
         {
           "date": "21-03-2027",
-          "home": "Racing de Santander",
-          "away": "Real Betis",
+          "home": "Celta de Vigo",
+          "away": "Real Madrid",
           "score": "vs",
           "status": ""
         },
@@ -2069,8 +2062,15 @@
         },
         {
           "date": "21-03-2027",
-          "home": "Sevilla",
-          "away": "Elche",
+          "home": "Espanyol",
+          "away": "Athletic Club",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "21-03-2027",
+          "home": "Racing de Santander",
+          "away": "Real Betis",
           "score": "vs",
           "status": ""
         },
@@ -2083,8 +2083,8 @@
         },
         {
           "date": "21-03-2027",
-          "home": "Villarreal",
-          "away": "Málaga",
+          "home": "Atlético de Madrid",
+          "away": "Getafe",
           "score": "vs",
           "status": ""
         }
@@ -2092,8 +2092,8 @@
       "Jornada 30": [
         {
           "date": "04-04-2027",
-          "home": "Athletic Club",
-          "away": "Racing de Santander",
+          "home": "Levante",
+          "away": "Rayo Vallecano",
           "score": "vs",
           "status": ""
         },
@@ -2106,8 +2106,29 @@
         },
         {
           "date": "04-04-2027",
+          "home": "Málaga",
+          "away": "Osasuna",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "04-04-2027",
+          "home": "Athletic Club",
+          "away": "Racing de Santander",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "04-04-2027",
           "home": "Deportivo de A Coruña",
           "away": "Villarreal",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "04-04-2027",
+          "home": "Real Sociedad",
+          "away": "Valencia CF",
           "score": "vs",
           "status": ""
         },
@@ -2120,34 +2141,6 @@
         },
         {
           "date": "04-04-2027",
-          "home": "Getafe",
-          "away": "Espanyol",
-          "score": "vs",
-          "status": ""
-        },
-        {
-          "date": "04-04-2027",
-          "home": "Levante",
-          "away": "Rayo Vallecano",
-          "score": "vs",
-          "status": ""
-        },
-        {
-          "date": "04-04-2027",
-          "home": "Málaga",
-          "away": "Osasuna",
-          "score": "vs",
-          "status": ""
-        },
-        {
-          "date": "04-04-2027",
-          "home": "Real Betis",
-          "away": "Celta de Vigo",
-          "score": "vs",
-          "status": ""
-        },
-        {
-          "date": "04-04-2027",
           "home": "Real Madrid",
           "away": "Atlético de Madrid",
           "score": "vs",
@@ -2155,8 +2148,15 @@
         },
         {
           "date": "04-04-2027",
-          "home": "Real Sociedad",
-          "away": "Valencia CF",
+          "home": "Getafe",
+          "away": "Espanyol",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "04-04-2027",
+          "home": "Real Betis",
+          "away": "Celta de Vigo",
           "score": "vs",
           "status": ""
         }
@@ -2164,22 +2164,8 @@
       "Jornada 31": [
         {
           "date": "11-04-2027",
-          "home": "Alavés",
-          "away": "Real Betis",
-          "score": "vs",
-          "status": ""
-        },
-        {
-          "date": "11-04-2027",
-          "home": "Atlético de Madrid",
-          "away": "Levante",
-          "score": "vs",
-          "status": ""
-        },
-        {
-          "date": "11-04-2027",
-          "home": "Celta de Vigo",
-          "away": "Elche",
+          "home": "Rayo Vallecano",
+          "away": "Real Sociedad",
           "score": "vs",
           "status": ""
         },
@@ -2192,29 +2178,15 @@
         },
         {
           "date": "11-04-2027",
-          "home": "Osasuna",
-          "away": "Real Madrid",
+          "home": "Villarreal",
+          "away": "Athletic Club",
           "score": "vs",
           "status": ""
         },
         {
           "date": "11-04-2027",
-          "home": "Racing de Santander",
-          "away": "FC Barcelona",
-          "score": "vs",
-          "status": ""
-        },
-        {
-          "date": "11-04-2027",
-          "home": "Rayo Vallecano",
-          "away": "Real Sociedad",
-          "score": "vs",
-          "status": ""
-        },
-        {
-          "date": "11-04-2027",
-          "home": "Sevilla",
-          "away": "Deportivo de A Coruña",
+          "home": "Alavés",
+          "away": "Real Betis",
           "score": "vs",
           "status": ""
         },
@@ -2227,20 +2199,41 @@
         },
         {
           "date": "11-04-2027",
-          "home": "Villarreal",
-          "away": "Athletic Club",
+          "home": "Sevilla",
+          "away": "Deportivo de A Coruña",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "11-04-2027",
+          "home": "Celta de Vigo",
+          "away": "Elche",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "11-04-2027",
+          "home": "Racing de Santander",
+          "away": "FC Barcelona",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "11-04-2027",
+          "home": "Osasuna",
+          "away": "Real Madrid",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "11-04-2027",
+          "home": "Atlético de Madrid",
+          "away": "Levante",
           "score": "vs",
           "status": ""
         }
       ],
       "Jornada 32": [
-        {
-          "date": "18-04-2027",
-          "home": "Alavés",
-          "away": "Rayo Vallecano",
-          "score": "vs",
-          "status": ""
-        },
         {
           "date": "18-04-2027",
           "home": "Atlético de Madrid",
@@ -2252,6 +2245,27 @@
           "date": "18-04-2027",
           "home": "FC Barcelona",
           "away": "Espanyol",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "18-04-2027",
+          "home": "Levante",
+          "away": "Villarreal",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "18-04-2027",
+          "home": "Real Sociedad",
+          "away": "Racing de Santander",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "18-04-2027",
+          "home": "Málaga",
+          "away": "Valencia CF",
           "score": "vs",
           "status": ""
         },
@@ -2271,22 +2285,8 @@
         },
         {
           "date": "18-04-2027",
-          "home": "Getafe",
-          "away": "Real Madrid",
-          "score": "vs",
-          "status": ""
-        },
-        {
-          "date": "18-04-2027",
-          "home": "Levante",
-          "away": "Villarreal",
-          "score": "vs",
-          "status": ""
-        },
-        {
-          "date": "18-04-2027",
-          "home": "Málaga",
-          "away": "Valencia CF",
+          "home": "Alavés",
+          "away": "Rayo Vallecano",
           "score": "vs",
           "status": ""
         },
@@ -2299,8 +2299,8 @@
         },
         {
           "date": "18-04-2027",
-          "home": "Real Sociedad",
-          "away": "Racing de Santander",
+          "home": "Getafe",
+          "away": "Real Madrid",
           "score": "vs",
           "status": ""
         }
@@ -2308,57 +2308,8 @@
       "Jornada 33": [
         {
           "date": "21-04-2027",
-          "home": "Athletic Club",
-          "away": "Deportivo de A Coruña",
-          "score": "vs",
-          "status": ""
-        },
-        {
-          "date": "21-04-2027",
-          "home": "Celta de Vigo",
-          "away": "FC Barcelona",
-          "score": "vs",
-          "status": ""
-        },
-        {
-          "date": "21-04-2027",
-          "home": "Espanyol",
-          "away": "Real Sociedad",
-          "score": "vs",
-          "status": ""
-        },
-        {
-          "date": "21-04-2027",
           "home": "Getafe",
           "away": "Real Betis",
-          "score": "vs",
-          "status": ""
-        },
-        {
-          "date": "21-04-2027",
-          "home": "Osasuna",
-          "away": "Alavés",
-          "score": "vs",
-          "status": ""
-        },
-        {
-          "date": "21-04-2027",
-          "home": "Racing de Santander",
-          "away": "Málaga",
-          "score": "vs",
-          "status": ""
-        },
-        {
-          "date": "21-04-2027",
-          "home": "Real Madrid",
-          "away": "Elche",
-          "score": "vs",
-          "status": ""
-        },
-        {
-          "date": "21-04-2027",
-          "home": "Sevilla",
-          "away": "Levante",
           "score": "vs",
           "status": ""
         },
@@ -2371,8 +2322,57 @@
         },
         {
           "date": "21-04-2027",
+          "home": "Celta de Vigo",
+          "away": "FC Barcelona",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "21-04-2027",
+          "home": "Osasuna",
+          "away": "Alavés",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "21-04-2027",
+          "home": "Real Madrid",
+          "away": "Elche",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "21-04-2027",
+          "home": "Athletic Club",
+          "away": "Deportivo de A Coruña",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "21-04-2027",
+          "home": "Racing de Santander",
+          "away": "Málaga",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "21-04-2027",
           "home": "Villarreal",
           "away": "Atlético de Madrid",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "21-04-2027",
+          "home": "Sevilla",
+          "away": "Levante",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "21-04-2027",
+          "home": "Espanyol",
+          "away": "Real Sociedad",
           "score": "vs",
           "status": ""
         }
@@ -2380,15 +2380,8 @@
       "Jornada 34": [
         {
           "date": "02-05-2027",
-          "home": "Atlético de Madrid",
-          "away": "Alavés",
-          "score": "vs",
-          "status": ""
-        },
-        {
-          "date": "02-05-2027",
-          "home": "FC Barcelona",
-          "away": "Osasuna",
+          "home": "Deportivo de A Coruña",
+          "away": "Racing de Santander",
           "score": "vs",
           "status": ""
         },
@@ -2401,8 +2394,36 @@
         },
         {
           "date": "02-05-2027",
-          "home": "Deportivo de A Coruña",
-          "away": "Racing de Santander",
+          "home": "Real Sociedad",
+          "away": "Athletic Club",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "02-05-2027",
+          "home": "FC Barcelona",
+          "away": "Osasuna",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "02-05-2027",
+          "home": "Rayo Vallecano",
+          "away": "Villarreal",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "02-05-2027",
+          "home": "Málaga",
+          "away": "Getafe",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "02-05-2027",
+          "home": "Real Betis",
+          "away": "Valencia CF",
           "score": "vs",
           "status": ""
         },
@@ -2422,34 +2443,27 @@
         },
         {
           "date": "02-05-2027",
-          "home": "Málaga",
-          "away": "Getafe",
-          "score": "vs",
-          "status": ""
-        },
-        {
-          "date": "02-05-2027",
-          "home": "Rayo Vallecano",
-          "away": "Villarreal",
-          "score": "vs",
-          "status": ""
-        },
-        {
-          "date": "02-05-2027",
-          "home": "Real Betis",
-          "away": "Valencia CF",
-          "score": "vs",
-          "status": ""
-        },
-        {
-          "date": "02-05-2027",
-          "home": "Real Sociedad",
-          "away": "Athletic Club",
+          "home": "Atlético de Madrid",
+          "away": "Alavés",
           "score": "vs",
           "status": ""
         }
       ],
       "Jornada 35": [
+        {
+          "date": "09-05-2027",
+          "home": "Valencia CF",
+          "away": "Atlético de Madrid",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "09-05-2027",
+          "home": "Osasuna",
+          "away": "Real Sociedad",
+          "score": "vs",
+          "status": ""
+        },
         {
           "date": "09-05-2027",
           "home": "Alavés",
@@ -2461,20 +2475,6 @@
           "date": "09-05-2027",
           "home": "Athletic Club",
           "away": "Málaga",
-          "score": "vs",
-          "status": ""
-        },
-        {
-          "date": "09-05-2027",
-          "home": "Getafe",
-          "away": "Elche",
-          "score": "vs",
-          "status": ""
-        },
-        {
-          "date": "09-05-2027",
-          "home": "Osasuna",
-          "away": "Real Sociedad",
           "score": "vs",
           "status": ""
         },
@@ -2508,8 +2508,8 @@
         },
         {
           "date": "09-05-2027",
-          "home": "Valencia CF",
-          "away": "Atlético de Madrid",
+          "home": "Getafe",
+          "away": "Elche",
           "score": "vs",
           "status": ""
         },
@@ -2531,50 +2531,8 @@
         },
         {
           "date": "16-05-2027",
-          "home": "Deportivo de A Coruña",
-          "away": "Alavés",
-          "score": "vs",
-          "status": ""
-        },
-        {
-          "date": "16-05-2027",
-          "home": "Elche",
-          "away": "Athletic Club",
-          "score": "vs",
-          "status": ""
-        },
-        {
-          "date": "16-05-2027",
-          "home": "Espanyol",
-          "away": "Valencia CF",
-          "score": "vs",
-          "status": ""
-        },
-        {
-          "date": "16-05-2027",
-          "home": "Levante",
-          "away": "Getafe",
-          "score": "vs",
-          "status": ""
-        },
-        {
-          "date": "16-05-2027",
-          "home": "Málaga",
-          "away": "Celta de Vigo",
-          "score": "vs",
-          "status": ""
-        },
-        {
-          "date": "16-05-2027",
-          "home": "Osasuna",
-          "away": "Real Betis",
-          "score": "vs",
-          "status": ""
-        },
-        {
-          "date": "16-05-2027",
-          "home": "Real Madrid",
-          "away": "Racing de Santander",
+          "home": "Sevilla",
+          "away": "Villarreal",
           "score": "vs",
           "status": ""
         },
@@ -2587,20 +2545,55 @@
         },
         {
           "date": "16-05-2027",
-          "home": "Sevilla",
-          "away": "Villarreal",
+          "home": "Elche",
+          "away": "Athletic Club",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "16-05-2027",
+          "home": "Málaga",
+          "away": "Celta de Vigo",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "16-05-2027",
+          "home": "Deportivo de A Coruña",
+          "away": "Alavés",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "16-05-2027",
+          "home": "Levante",
+          "away": "Getafe",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "16-05-2027",
+          "home": "Espanyol",
+          "away": "Valencia CF",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "16-05-2027",
+          "home": "Real Madrid",
+          "away": "Racing de Santander",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "16-05-2027",
+          "home": "Osasuna",
+          "away": "Real Betis",
           "score": "vs",
           "status": ""
         }
       ],
       "Jornada 37": [
-        {
-          "date": "23-05-2027",
-          "home": "Alavés",
-          "away": "Real Madrid",
-          "score": "vs",
-          "status": ""
-        },
         {
           "date": "23-05-2027",
           "home": "Atlético de Madrid",
@@ -2610,36 +2603,8 @@
         },
         {
           "date": "23-05-2027",
-          "home": "FC Barcelona",
-          "away": "Málaga",
-          "score": "vs",
-          "status": ""
-        },
-        {
-          "date": "23-05-2027",
-          "home": "Celta de Vigo",
-          "away": "Real Sociedad",
-          "score": "vs",
-          "status": ""
-        },
-        {
-          "date": "23-05-2027",
-          "home": "Deportivo de A Coruña",
-          "away": "Espanyol",
-          "score": "vs",
-          "status": ""
-        },
-        {
-          "date": "23-05-2027",
-          "home": "Racing de Santander",
-          "away": "Levante",
-          "score": "vs",
-          "status": ""
-        },
-        {
-          "date": "23-05-2027",
-          "home": "Rayo Vallecano",
-          "away": "Real Betis",
+          "home": "Alavés",
+          "away": "Real Madrid",
           "score": "vs",
           "status": ""
         },
@@ -2652,6 +2617,41 @@
         },
         {
           "date": "23-05-2027",
+          "home": "Villarreal",
+          "away": "Osasuna",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "23-05-2027",
+          "home": "Racing de Santander",
+          "away": "Levante",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "23-05-2027",
+          "home": "Deportivo de A Coruña",
+          "away": "Espanyol",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "23-05-2027",
+          "home": "Rayo Vallecano",
+          "away": "Real Betis",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "23-05-2027",
+          "home": "FC Barcelona",
+          "away": "Málaga",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "23-05-2027",
           "home": "Valencia CF",
           "away": "Elche",
           "score": "vs",
@@ -2659,8 +2659,8 @@
         },
         {
           "date": "23-05-2027",
-          "home": "Villarreal",
-          "away": "Osasuna",
+          "home": "Celta de Vigo",
+          "away": "Real Sociedad",
           "score": "vs",
           "status": ""
         }
@@ -2668,8 +2668,36 @@
       "Jornada 38": [
         {
           "date": "30-05-2027",
-          "home": "Athletic Club",
-          "away": "Rayo Vallecano",
+          "home": "Levante",
+          "away": "Celta de Vigo",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "30-05-2027",
+          "home": "Real Madrid",
+          "away": "Deportivo de A Coruña",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "30-05-2027",
+          "home": "Real Betis",
+          "away": "Atlético de Madrid",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "30-05-2027",
+          "home": "Real Sociedad",
+          "away": "Villarreal",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "30-05-2027",
+          "home": "Málaga",
+          "away": "Sevilla",
           "score": "vs",
           "status": ""
         },
@@ -2677,6 +2705,13 @@
           "date": "30-05-2027",
           "home": "Elche",
           "away": "Racing de Santander",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "30-05-2027",
+          "home": "Athletic Club",
+          "away": "Rayo Vallecano",
           "score": "vs",
           "status": ""
         },
@@ -2696,60 +2731,18 @@
         },
         {
           "date": "30-05-2027",
-          "home": "Levante",
-          "away": "Celta de Vigo",
-          "score": "vs",
-          "status": ""
-        },
-        {
-          "date": "30-05-2027",
-          "home": "Málaga",
-          "away": "Sevilla",
-          "score": "vs",
-          "status": ""
-        },
-        {
-          "date": "30-05-2027",
           "home": "Osasuna",
           "away": "Valencia CF",
-          "score": "vs",
-          "status": ""
-        },
-        {
-          "date": "30-05-2027",
-          "home": "Real Betis",
-          "away": "Atlético de Madrid",
-          "score": "vs",
-          "status": ""
-        },
-        {
-          "date": "30-05-2027",
-          "home": "Real Madrid",
-          "away": "Deportivo de A Coruña",
-          "score": "vs",
-          "status": ""
-        },
-        {
-          "date": "30-05-2027",
-          "home": "Real Sociedad",
-          "away": "Villarreal",
           "score": "vs",
           "status": ""
         }
       ]
     },
-    "current": "Jornada 8 (Actual)"
+    "current": "Jornada 13 (Actual)"
   },
   "CHAMPIONS": {
     "rounds": {
       "Jornada 1": [
-        {
-          "date": "08-09-2026",
-          "home": "AEK Athens",
-          "away": "LASK",
-          "score": "1 - 0",
-          "status": "Fin"
-        },
         {
           "date": "08-09-2026",
           "home": "Brujas",
@@ -2759,9 +2752,16 @@
         },
         {
           "date": "08-09-2026",
-          "home": "Borussia Dortmund",
-          "away": "Villarreal",
-          "score": "3 - 2",
+          "home": "AEK Athens",
+          "away": "LASK",
+          "score": "1 - 0",
+          "status": "Fin"
+        },
+        {
+          "date": "08-09-2026",
+          "home": "Real Madrid",
+          "away": "Inter",
+          "score": "2 - 1",
           "status": "Fin"
         },
         {
@@ -2773,16 +2773,16 @@
         },
         {
           "date": "08-09-2026",
-          "home": "Lille",
-          "away": "Real Betis",
-          "score": "2 - 3",
+          "home": "Borussia Dortmund",
+          "away": "Villarreal",
+          "score": "3 - 2",
           "status": "Fin"
         },
         {
           "date": "08-09-2026",
-          "home": "Real Madrid",
-          "away": "Inter",
-          "score": "2 - 1",
+          "home": "Lille",
+          "away": "Real Betis",
+          "score": "2 - 3",
           "status": "Fin"
         },
         {
@@ -2808,16 +2808,16 @@
         },
         {
           "date": "09-09-2026",
-          "home": "Napoli",
-          "away": "Arsenal",
-          "score": "0 - 1",
+          "home": "PSG",
+          "away": "Slovan Bratislava",
+          "score": "6 - 1",
           "status": "Fin"
         },
         {
           "date": "09-09-2026",
-          "home": "PSG",
-          "away": "Slovan Bratislava",
-          "score": "6 - 1",
+          "home": "Napoli",
+          "away": "Arsenal",
+          "score": "0 - 1",
           "status": "Fin"
         },
         {
@@ -2850,16 +2850,16 @@
         },
         {
           "date": "10-09-2026",
-          "home": "Como",
-          "away": "RB Leipzig",
-          "score": "4 - 1",
+          "home": "Manchester United",
+          "away": "Sabah",
+          "score": "4 - 0",
           "status": "Fin"
         },
         {
           "date": "10-09-2026",
-          "home": "Manchester United",
-          "away": "Sabah",
-          "score": "4 - 0",
+          "home": "Como",
+          "away": "RB Leipzig",
+          "score": "4 - 1",
           "status": "Fin"
         },
         {
@@ -2887,16 +2887,9 @@
         },
         {
           "date": "13-10-2026",
-          "home": "Arsenal",
-          "away": "Lille",
-          "score": "3 - 0",
-          "status": "Fin"
-        },
-        {
-          "date": "13-10-2026",
-          "home": "Atlético de Madrid",
-          "away": "Manchester United",
-          "score": "2 - 0",
+          "home": "Inter",
+          "away": "Brujas",
+          "score": "3 - 4",
           "status": "Fin"
         },
         {
@@ -2908,16 +2901,16 @@
         },
         {
           "date": "13-10-2026",
-          "home": "Inter",
-          "away": "Brujas",
-          "score": "3 - 4",
+          "home": "Atlético de Madrid",
+          "away": "Manchester United",
+          "score": "2 - 0",
           "status": "Fin"
         },
         {
           "date": "13-10-2026",
-          "home": "RB Leipzig",
-          "away": "PSV",
-          "score": "1 - 0",
+          "home": "Arsenal",
+          "away": "Lille",
+          "score": "3 - 0",
           "status": "Fin"
         },
         {
@@ -2929,16 +2922,16 @@
         },
         {
           "date": "13-10-2026",
-          "home": "Villarreal",
-          "away": "Napoli",
-          "score": "3 - 1",
+          "home": "RB Leipzig",
+          "away": "PSV",
+          "score": "1 - 0",
           "status": "Fin"
         },
         {
-          "date": "14-10-2026",
-          "home": "Feyenoord",
-          "away": "Como",
-          "score": "3 - 2",
+          "date": "13-10-2026",
+          "home": "Villarreal",
+          "away": "Napoli",
+          "score": "3 - 1",
           "status": "Fin"
         },
         {
@@ -2950,16 +2943,16 @@
         },
         {
           "date": "14-10-2026",
-          "home": "Aston Villa",
-          "away": "Fenerbahçe",
-          "score": "6 - 0",
+          "home": "Feyenoord",
+          "away": "Como",
+          "score": "3 - 2",
           "status": "Fin"
         },
         {
           "date": "14-10-2026",
-          "home": "Bodø/Glimt",
-          "away": "Borussia Dortmund",
-          "score": "1 - 0",
+          "home": "Roma",
+          "away": "Real Madrid",
+          "score": "3 - 4",
           "status": "Fin"
         },
         {
@@ -2971,16 +2964,23 @@
         },
         {
           "date": "14-10-2026",
-          "home": "Real Betis",
-          "away": "FC Porto",
-          "score": "3 - 2",
+          "home": "Bodø/Glimt",
+          "away": "Borussia Dortmund",
+          "score": "1 - 0",
           "status": "Fin"
         },
         {
           "date": "14-10-2026",
-          "home": "Roma",
-          "away": "Real Madrid",
-          "score": "3 - 4",
+          "home": "Aston Villa",
+          "away": "Fenerbahçe",
+          "score": "6 - 0",
+          "status": "Fin"
+        },
+        {
+          "date": "14-10-2026",
+          "home": "Real Betis",
+          "away": "FC Porto",
+          "score": "3 - 2",
           "status": "Fin"
         },
         {
@@ -3001,13 +3001,6 @@
       "Jornada 3": [
         {
           "date": "20-10-2026",
-          "home": "Fenerbahçe",
-          "away": "Slavia Prague",
-          "score": "2 - 2",
-          "status": "Fin"
-        },
-        {
-          "date": "20-10-2026",
           "home": "Sabah",
           "away": "Borussia Dortmund",
           "score": "1 - 2",
@@ -3015,9 +3008,23 @@
         },
         {
           "date": "20-10-2026",
-          "home": "FC Porto",
-          "away": "PSV",
-          "score": "0 - 1",
+          "home": "Fenerbahçe",
+          "away": "Slavia Prague",
+          "score": "2 - 2",
+          "status": "Fin"
+        },
+        {
+          "date": "20-10-2026",
+          "home": "Manchester City",
+          "away": "AEK Athens",
+          "score": "5 - 1",
+          "status": "Fin"
+        },
+        {
+          "date": "20-10-2026",
+          "home": "Stuttgart",
+          "away": "Atlético de Madrid",
+          "score": "1 - 1",
           "status": "Fin"
         },
         {
@@ -3029,9 +3036,16 @@
         },
         {
           "date": "20-10-2026",
-          "home": "Manchester City",
-          "away": "AEK Athens",
-          "score": "5 - 1",
+          "home": "Roma",
+          "away": "Slovan Bratislava",
+          "score": "4 - 0",
+          "status": "Fin"
+        },
+        {
+          "date": "20-10-2026",
+          "home": "FC Porto",
+          "away": "PSV",
+          "score": "0 - 1",
           "status": "Fin"
         },
         {
@@ -3046,20 +3060,6 @@
           "home": "PSG",
           "away": "FC Barcelona",
           "score": "4 - 2",
-          "status": "Fin"
-        },
-        {
-          "date": "20-10-2026",
-          "home": "Roma",
-          "away": "Slovan Bratislava",
-          "score": "4 - 0",
-          "status": "Fin"
-        },
-        {
-          "date": "20-10-2026",
-          "home": "Stuttgart",
-          "away": "Atlético de Madrid",
-          "score": "1 - 1",
           "status": "Fin"
         },
         {
@@ -3078,9 +3078,16 @@
         },
         {
           "date": "21-10-2026",
-          "home": "Aston Villa",
-          "away": "Viking",
-          "score": "3 - 1",
+          "home": "Real Madrid",
+          "away": "RB Leipzig",
+          "score": "4 - 1",
+          "status": "Fin"
+        },
+        {
+          "date": "21-10-2026",
+          "home": "Inter",
+          "away": "Shakhtar",
+          "score": "1 - 0",
           "status": "Fin"
         },
         {
@@ -3099,23 +3106,9 @@
         },
         {
           "date": "21-10-2026",
-          "home": "Inter",
-          "away": "Shakhtar",
-          "score": "1 - 0",
-          "status": "Fin"
-        },
-        {
-          "date": "21-10-2026",
-          "home": "Real Betis",
-          "away": "Feyenoord",
-          "score": "1 - 0",
-          "status": "Fin"
-        },
-        {
-          "date": "21-10-2026",
-          "home": "Real Madrid",
-          "away": "RB Leipzig",
-          "score": "4 - 1",
+          "home": "Aston Villa",
+          "away": "Viking",
+          "score": "3 - 1",
           "status": "Fin"
         },
         {
@@ -3124,16 +3117,16 @@
           "away": "LASK",
           "score": "2 - 3",
           "status": "Fin"
+        },
+        {
+          "date": "21-10-2026",
+          "home": "Real Betis",
+          "away": "Feyenoord",
+          "score": "1 - 0",
+          "status": "Fin"
         }
       ],
       "Jornada 4": [
-        {
-          "date": "03-11-2026",
-          "home": "Galatasaray",
-          "away": "Stuttgart",
-          "score": "2 - 0",
-          "status": "Fin"
-        },
         {
           "date": "03-11-2026",
           "home": "Shakhtar",
@@ -3143,23 +3136,9 @@
         },
         {
           "date": "03-11-2026",
-          "home": "Atlético de Madrid",
-          "away": "Bayern Múnich",
-          "score": "0 - 2",
-          "status": "Fin"
-        },
-        {
-          "date": "03-11-2026",
-          "home": "FC Barcelona",
-          "away": "Aston Villa",
-          "score": "3 - 0",
-          "status": "Fin"
-        },
-        {
-          "date": "03-11-2026",
-          "home": "Bodø/Glimt",
-          "away": "Lille",
-          "score": "0 - 0",
+          "home": "Galatasaray",
+          "away": "Stuttgart",
+          "score": "2 - 0",
           "status": "Fin"
         },
         {
@@ -3171,9 +3150,23 @@
         },
         {
           "date": "03-11-2026",
-          "home": "LASK",
-          "away": "Slovan Bratislava",
-          "score": "4 - 0",
+          "home": "FC Barcelona",
+          "away": "Aston Villa",
+          "score": "3 - 0",
+          "status": "Fin"
+        },
+        {
+          "date": "03-11-2026",
+          "home": "Atlético de Madrid",
+          "away": "Bayern Múnich",
+          "score": "0 - 2",
+          "status": "Fin"
+        },
+        {
+          "date": "03-11-2026",
+          "home": "Villarreal",
+          "away": "PSG",
+          "score": "0 - 6",
           "status": "Fin"
         },
         {
@@ -3185,9 +3178,16 @@
         },
         {
           "date": "03-11-2026",
-          "home": "Villarreal",
-          "away": "PSG",
-          "score": "0 - 6",
+          "home": "Bodø/Glimt",
+          "away": "Lille",
+          "score": "0 - 0",
+          "status": "Fin"
+        },
+        {
+          "date": "03-11-2026",
+          "home": "LASK",
+          "away": "Slovan Bratislava",
+          "score": "4 - 0",
           "status": "Fin"
         },
         {
@@ -3202,6 +3202,27 @@
           "home": "Fenerbahçe",
           "away": "Liverpool",
           "score": "3 - 2",
+          "status": "Fin"
+        },
+        {
+          "date": "04-11-2026",
+          "home": "RB Leipzig",
+          "away": "Manchester City",
+          "score": "2 - 3",
+          "status": "Fin"
+        },
+        {
+          "date": "04-11-2026",
+          "home": "Slavia Prague",
+          "away": "Arsenal",
+          "score": "1 - 2",
+          "status": "Fin"
+        },
+        {
+          "date": "04-11-2026",
+          "home": "PSV",
+          "away": "Brujas",
+          "score": "1 - 2",
           "status": "Fin"
         },
         {
@@ -3227,27 +3248,6 @@
         },
         {
           "date": "04-11-2026",
-          "home": "PSV",
-          "away": "Brujas",
-          "score": "1 - 2",
-          "status": "Fin"
-        },
-        {
-          "date": "04-11-2026",
-          "home": "RB Leipzig",
-          "away": "Manchester City",
-          "score": "2 - 3",
-          "status": "Fin"
-        },
-        {
-          "date": "04-11-2026",
-          "home": "Slavia Prague",
-          "away": "Arsenal",
-          "score": "1 - 2",
-          "status": "Fin"
-        },
-        {
-          "date": "04-11-2026",
           "home": "Viking",
           "away": "Sabah",
           "score": "4 - 1",
@@ -3257,13 +3257,6 @@
       "Jornada 5 (Actual)": [
         {
           "date": "24-11-2026",
-          "home": "Bodø/Glimt",
-          "away": "LASK",
-          "score": "vs",
-          "status": ""
-        },
-        {
-          "date": "24-11-2026",
           "home": "Galatasaray",
           "away": "Aston Villa",
           "score": "vs",
@@ -3271,36 +3264,8 @@
         },
         {
           "date": "24-11-2026",
-          "home": "Arsenal",
-          "away": "Borussia Dortmund",
-          "score": "vs",
-          "status": ""
-        },
-        {
-          "date": "24-11-2026",
-          "home": "Como",
-          "away": "AEK Athens",
-          "score": "vs",
-          "status": ""
-        },
-        {
-          "date": "24-11-2026",
-          "home": "Feyenoord",
-          "away": "FC Porto",
-          "score": "vs",
-          "status": ""
-        },
-        {
-          "date": "24-11-2026",
-          "home": "Manchester City",
-          "away": "Napoli",
-          "score": "vs",
-          "status": ""
-        },
-        {
-          "date": "24-11-2026",
-          "home": "RB Leipzig",
-          "away": "Lens",
+          "home": "Bodø/Glimt",
+          "away": "LASK",
           "score": "vs",
           "status": ""
         },
@@ -3313,8 +3278,43 @@
         },
         {
           "date": "24-11-2026",
+          "home": "Manchester City",
+          "away": "Napoli",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "24-11-2026",
+          "home": "Arsenal",
+          "away": "Borussia Dortmund",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "24-11-2026",
+          "home": "Feyenoord",
+          "away": "FC Porto",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "24-11-2026",
           "home": "Slovan Bratislava",
           "away": "Real Betis",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "24-11-2026",
+          "home": "RB Leipzig",
+          "away": "Lens",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "24-11-2026",
+          "home": "Como",
+          "away": "AEK Athens",
           "score": "vs",
           "status": ""
         },
@@ -3334,20 +3334,6 @@
         },
         {
           "date": "25-11-2026",
-          "home": "Atlético de Madrid",
-          "away": "Viking",
-          "score": "vs",
-          "status": ""
-        },
-        {
-          "date": "25-11-2026",
-          "home": "Brujas",
-          "away": "Liverpool",
-          "score": "vs",
-          "status": ""
-        },
-        {
-          "date": "25-11-2026",
           "home": "Inter",
           "away": "Stuttgart",
           "score": "vs",
@@ -3355,8 +3341,8 @@
         },
         {
           "date": "25-11-2026",
-          "home": "Lille",
-          "away": "Bayern Múnich",
+          "home": "Atlético de Madrid",
+          "away": "Viking",
           "score": "vs",
           "status": ""
         },
@@ -3369,8 +3355,15 @@
         },
         {
           "date": "25-11-2026",
-          "home": "Shakhtar",
-          "away": "Fenerbahçe",
+          "home": "Brujas",
+          "away": "Liverpool",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "25-11-2026",
+          "home": "Lille",
+          "away": "Bayern Múnich",
           "score": "vs",
           "status": ""
         },
@@ -3380,16 +3373,16 @@
           "away": "Manchester United",
           "score": "vs",
           "status": ""
+        },
+        {
+          "date": "25-11-2026",
+          "home": "Shakhtar",
+          "away": "Fenerbahçe",
+          "score": "vs",
+          "status": ""
         }
       ],
       "Jornada 6": [
-        {
-          "date": "08-12-2026",
-          "home": "Viking",
-          "away": "Feyenoord",
-          "score": "vs",
-          "status": ""
-        },
         {
           "date": "08-12-2026",
           "home": "Villarreal",
@@ -3399,15 +3392,8 @@
         },
         {
           "date": "08-12-2026",
-          "home": "AEK Athens",
-          "away": "Galatasaray",
-          "score": "vs",
-          "status": ""
-        },
-        {
-          "date": "08-12-2026",
-          "home": "Aston Villa",
-          "away": "PSG",
+          "home": "Viking",
+          "away": "Feyenoord",
           "score": "vs",
           "status": ""
         },
@@ -3420,15 +3406,15 @@
         },
         {
           "date": "08-12-2026",
-          "home": "Bayern Múnich",
-          "away": "Slavia Prague",
+          "home": "Aston Villa",
+          "away": "PSG",
           "score": "vs",
           "status": ""
         },
         {
           "date": "08-12-2026",
-          "home": "Manchester United",
-          "away": "RB Leipzig",
+          "home": "Bayern Múnich",
+          "away": "Slavia Prague",
           "score": "vs",
           "status": ""
         },
@@ -3443,6 +3429,20 @@
           "date": "08-12-2026",
           "home": "Roma",
           "away": "Sporting CP",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "08-12-2026",
+          "home": "Manchester United",
+          "away": "RB Leipzig",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "08-12-2026",
+          "home": "AEK Athens",
+          "away": "Galatasaray",
           "score": "vs",
           "status": ""
         },
@@ -3476,15 +3476,8 @@
         },
         {
           "date": "09-12-2026",
-          "home": "LASK",
-          "away": "Fenerbahçe",
-          "score": "vs",
-          "status": ""
-        },
-        {
-          "date": "09-12-2026",
-          "home": "Lens",
-          "away": "Bodø/Glimt",
+          "home": "PSV",
+          "away": "Atlético de Madrid",
           "score": "vs",
           "status": ""
         },
@@ -3497,8 +3490,15 @@
         },
         {
           "date": "09-12-2026",
-          "home": "PSV",
-          "away": "Atlético de Madrid",
+          "home": "Lens",
+          "away": "Bodø/Glimt",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "09-12-2026",
+          "home": "LASK",
+          "away": "Fenerbahçe",
           "score": "vs",
           "status": ""
         },
@@ -3527,22 +3527,8 @@
         },
         {
           "date": "19-01-2027",
-          "home": "AEK Athens",
-          "away": "Roma",
-          "score": "vs",
-          "status": ""
-        },
-        {
-          "date": "19-01-2027",
-          "home": "Aston Villa",
-          "away": "Borussia Dortmund",
-          "score": "vs",
-          "status": ""
-        },
-        {
-          "date": "19-01-2027",
-          "home": "FC Porto",
-          "away": "Slavia Prague",
+          "home": "Real Madrid",
+          "away": "LASK",
           "score": "vs",
           "status": ""
         },
@@ -3555,22 +3541,36 @@
         },
         {
           "date": "19-01-2027",
-          "home": "Lille",
-          "away": "Slovan Bratislava",
-          "score": "vs",
-          "status": ""
-        },
-        {
-          "date": "19-01-2027",
-          "home": "Real Madrid",
-          "away": "LASK",
-          "score": "vs",
-          "status": ""
-        },
-        {
-          "date": "19-01-2027",
           "home": "Stuttgart",
           "away": "Brujas",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "19-01-2027",
+          "home": "Aston Villa",
+          "away": "Borussia Dortmund",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "19-01-2027",
+          "home": "AEK Athens",
+          "away": "Roma",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "19-01-2027",
+          "home": "FC Porto",
+          "away": "Slavia Prague",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "19-01-2027",
+          "home": "Lille",
+          "away": "Slovan Bratislava",
           "score": "vs",
           "status": ""
         },
@@ -3590,36 +3590,8 @@
         },
         {
           "date": "20-01-2027",
-          "home": "Como",
-          "away": "PSG",
-          "score": "vs",
-          "status": ""
-        },
-        {
-          "date": "20-01-2027",
           "home": "Lens",
           "away": "Manchester City",
-          "score": "vs",
-          "status": ""
-        },
-        {
-          "date": "20-01-2027",
-          "home": "Manchester United",
-          "away": "Bayern Múnich",
-          "score": "vs",
-          "status": ""
-        },
-        {
-          "date": "20-01-2027",
-          "home": "RB Leipzig",
-          "away": "Shakhtar",
-          "score": "vs",
-          "status": ""
-        },
-        {
-          "date": "20-01-2027",
-          "home": "Real Betis",
-          "away": "Arsenal",
           "score": "vs",
           "status": ""
         },
@@ -3632,8 +3604,36 @@
         },
         {
           "date": "20-01-2027",
+          "home": "Como",
+          "away": "PSG",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "20-01-2027",
+          "home": "Real Betis",
+          "away": "Arsenal",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "20-01-2027",
+          "home": "Manchester United",
+          "away": "Bayern Múnich",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "20-01-2027",
           "home": "Viking",
           "away": "PSV",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "20-01-2027",
+          "home": "RB Leipzig",
+          "away": "Shakhtar",
           "score": "vs",
           "status": ""
         }
@@ -3641,64 +3641,8 @@
       "Jornada 8": [
         {
           "date": "27-01-2027",
-          "home": "Arsenal",
-          "away": "Sabah",
-          "score": "vs",
-          "status": ""
-        },
-        {
-          "date": "27-01-2027",
-          "home": "Atlético de Madrid",
-          "away": "Fenerbahçe",
-          "score": "vs",
-          "status": ""
-        },
-        {
-          "date": "27-01-2027",
-          "home": "FC Barcelona",
-          "away": "Como",
-          "score": "vs",
-          "status": ""
-        },
-        {
-          "date": "27-01-2027",
-          "home": "Bayern Múnich",
-          "away": "Real Betis",
-          "score": "vs",
-          "status": ""
-        },
-        {
-          "date": "27-01-2027",
-          "home": "Borussia Dortmund",
-          "away": "AEK Athens",
-          "score": "vs",
-          "status": ""
-        },
-        {
-          "date": "27-01-2027",
-          "home": "Brujas",
-          "away": "Bodø/Glimt",
-          "score": "vs",
-          "status": ""
-        },
-        {
-          "date": "27-01-2027",
-          "home": "Feyenoord",
-          "away": "RB Leipzig",
-          "score": "vs",
-          "status": ""
-        },
-        {
-          "date": "27-01-2027",
-          "home": "LASK",
-          "away": "FC Porto",
-          "score": "vs",
-          "status": ""
-        },
-        {
-          "date": "27-01-2027",
-          "home": "Liverpool",
-          "away": "Lens",
+          "home": "Shakhtar",
+          "away": "Real Madrid",
           "score": "vs",
           "status": ""
         },
@@ -3711,15 +3655,22 @@
         },
         {
           "date": "27-01-2027",
-          "home": "Napoli",
-          "away": "Viking",
+          "home": "Slovan Bratislava",
+          "away": "Inter",
           "score": "vs",
           "status": ""
         },
         {
           "date": "27-01-2027",
-          "home": "PSV",
-          "away": "Stuttgart",
+          "home": "FC Barcelona",
+          "away": "Como",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "27-01-2027",
+          "home": "Atlético de Madrid",
+          "away": "Fenerbahçe",
           "score": "vs",
           "status": ""
         },
@@ -3732,15 +3683,36 @@
         },
         {
           "date": "27-01-2027",
-          "home": "Roma",
-          "away": "Lille",
+          "home": "Liverpool",
+          "away": "Lens",
           "score": "vs",
           "status": ""
         },
         {
           "date": "27-01-2027",
-          "home": "Shakhtar",
-          "away": "Real Madrid",
+          "home": "Arsenal",
+          "away": "Sabah",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "27-01-2027",
+          "home": "Bayern Múnich",
+          "away": "Real Betis",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "27-01-2027",
+          "home": "Brujas",
+          "away": "Bodø/Glimt",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "27-01-2027",
+          "home": "Borussia Dortmund",
+          "away": "AEK Athens",
           "score": "vs",
           "status": ""
         },
@@ -3753,8 +3725,15 @@
         },
         {
           "date": "27-01-2027",
-          "home": "Slovan Bratislava",
-          "away": "Inter",
+          "home": "Roma",
+          "away": "Lille",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "27-01-2027",
+          "home": "LASK",
+          "away": "FC Porto",
           "score": "vs",
           "status": ""
         },
@@ -3762,6 +3741,27 @@
           "date": "27-01-2027",
           "home": "Villarreal",
           "away": "Manchester United",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "27-01-2027",
+          "home": "PSV",
+          "away": "Stuttgart",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "27-01-2027",
+          "home": "Feyenoord",
+          "away": "RB Leipzig",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "27-01-2027",
+          "home": "Napoli",
+          "away": "Viking",
           "score": "vs",
           "status": ""
         }
