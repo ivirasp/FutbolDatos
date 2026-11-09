@@ -1,0 +1,49 @@
+name: Marcador en vivo
+on:
+  schedule:
+    # Cada 5 min entre las 09:00 y las 22:59 UTC. El script decide si hay algo que seguir
+    # y, si no, termina sin llamar a la API (plan gratuito: 100 llamadas/día).
+    - cron: '*/5 9-22 * * *'
+
+  workflow_dispatch: # Botón manual
+
+permissions:
+  contents: write
+
+# No mezclar con el actualizador de datos y evitar solapes entre ejecuciones del marcador
+concurrency:
+  group: marcador-en-vivo
+  cancel-in-progress: false
+
+jobs:
+  live:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Configurar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: 'pip'
+
+      - name: Instalar librerías
+        run: pip install -r requirements.txt
+
+      - name: Actualizar marcador
+        run: python update_live.py
+        env:
+          API_SPORTS_KEY: ${{ secrets.API_SPORTS_KEY }}
+
+      - name: Guardar cambios
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add live.json
+          git commit -m "Marcador: $(date -u +%H:%M) UTC" || exit 0
+          for i in 1 2 3; do
+            git pull --rebase && git push && exit 0
+            sleep 5
+          done
+          exit 1
