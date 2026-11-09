@@ -1,2 +1,4 @@
 __pycache__/
 *.tmp
+.football-data-token
+.env
