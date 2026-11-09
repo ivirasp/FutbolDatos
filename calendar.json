@@ -1,40 +1,5 @@
 [
   {
-    "title": "Elche vs Betis",
-    "start_ts": 1794142800.0,
-    "time_str": "14:00",
-    "channel": "DAZN LaLiga / DAZN",
-    "competition": "LALIGA"
-  },
-  {
-    "title": "Real Sociedad vs Rayo Vallecano",
-    "start_ts": 1794150900.0,
-    "time_str": "16:15",
-    "channel": "M+ LaLiga",
-    "competition": "LALIGA"
-  },
-  {
-    "title": "Celta vs Levante",
-    "start_ts": 1794159000.0,
-    "time_str": "18:30",
-    "channel": "M+ LaLiga / M+ LaLiga 2 / LaLiga TV Multi 2",
-    "competition": "LALIGA"
-  },
-  {
-    "title": "Villarreal vs Getafe",
-    "start_ts": 1794159000.0,
-    "time_str": "18:30",
-    "channel": "DAZN LaLiga / DAZN",
-    "competition": "LALIGA"
-  },
-  {
-    "title": "Atlético de Madrid vs Barcelona",
-    "start_ts": 1794168000.0,
-    "time_str": "21:00",
-    "channel": "M+ LaLiga",
-    "competition": "LALIGA"
-  },
-  {
     "title": "Anaitasuna C.D. vs Alavés",
     "start_ts": 1794333600.0,
     "time_str": "19:00",
@@ -59,7 +24,7 @@
     "title": "Navalcarnero vs Betis",
     "start_ts": 1794506400.0,
     "time_str": "19:00",
-    "channel": "M+ LaLiga",
+    "channel": "M+ LaLiga / Movistar Plus+",
     "competition": "COPA"
   },
   {
@@ -73,7 +38,7 @@
     "title": "Salamanca UDS vs Celta",
     "start_ts": 1794600000.0,
     "time_str": "21:00",
-    "channel": "M+ LaLiga",
+    "channel": "M+ LaLiga / LaLiga TV Multi 2",
     "competition": "COPA"
   },
   {
@@ -306,6 +271,13 @@
     "time_str": "21:00",
     "channel": "M+ Liga de Campeones / Movistar Plus+",
     "competition": "EUROPA"
+  },
+  {
+    "title": "Levante vs Racing de Santander",
+    "start_ts": 1795809600.0,
+    "time_str": "21:00",
+    "channel": "M+ LaLiga",
+    "competition": "LALIGA"
   },
   {
     "title": "Villarreal vs Sabah FK",
