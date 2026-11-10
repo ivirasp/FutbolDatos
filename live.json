@@ -1,8 +1,9 @@
 {
-  "date": "09-11-2026",
+  "date": "10-11-2026",
   "fetched": false,
-  "updated": "2026-11-09T10:34:47Z",
-  "updated_ts": 1794220487.202667,
+  "updated": "2026-11-10T03:27:04Z",
+  "updated_ts": 1794281224.093125,
   "requests_remaining": null,
-  "matches": []
+  "matches": [],
+  "standings": {}
 }
