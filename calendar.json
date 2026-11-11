@@ -1,19 +1,5 @@
 [
   {
-    "title": "Anaitasuna C.D. vs Alavés",
-    "start_ts": 1794333600.0,
-    "time_str": "19:00",
-    "channel": "M+ LaLiga",
-    "competition": "COPA"
-  },
-  {
-    "title": "UE Tavernes vs Valencia",
-    "start_ts": 1794340800.0,
-    "time_str": "21:00",
-    "channel": "M+ LaLiga",
-    "competition": "COPA"
-  },
-  {
     "title": "Calvo Sotelo Puertollano vs Albacete",
     "start_ts": 1794504600.0,
     "time_str": "18:30",
@@ -31,7 +17,7 @@
     "title": "Tarancón vs Levante",
     "start_ts": 1794506400.0,
     "time_str": "19:00",
-    "channel": "M+ LaLiga 2",
+    "channel": "M+ LaLiga 2 / LaLiga TV Multi 2",
     "competition": "COPA"
   },
   {
