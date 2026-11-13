@@ -1,73 +1,9 @@
 {
-  "date": "12-11-2026",
-  "fetched": true,
-  "updated": "2026-11-12T17:28:10Z",
-  "updated_ts": 1794504490.49993,
+  "date": "13-11-2026",
+  "fetched": false,
+  "updated": "2026-11-13T03:04:59Z",
+  "updated_ts": 1794539099.91941,
   "requests_remaining": 99,
-  "matches": [
-    {
-      "home_st": null,
-      "away_st": null,
-      "base": {
-        "home": null,
-        "away": null
-      },
-      "id": 1644370,
-      "competition": "COPA",
-      "round": "Round of 128",
-      "date": "12-11-2026",
-      "kickoff_ts": 1794504600,
-      "home": "Calvo Sotelo",
-      "away": "Albacete",
-      "home_api": "Calvo Sotelo",
-      "away_api": "Albacete",
-      "score": "vs",
-      "status": "NS",
-      "minute": null,
-      "ht_since": null
-    },
-    {
-      "home_st": null,
-      "away_st": null,
-      "base": {
-        "home": null,
-        "away": null
-      },
-      "id": 1644363,
-      "competition": "COPA",
-      "round": "Round of 128",
-      "date": "12-11-2026",
-      "kickoff_ts": 1794506400,
-      "home": "Navalcarnero",
-      "away": "Real Betis",
-      "home_api": "Navalcarnero",
-      "away_api": "Real Betis",
-      "score": "vs",
-      "status": "NS",
-      "minute": null,
-      "ht_since": null
-    },
-    {
-      "home_st": null,
-      "away_st": null,
-      "base": {
-        "home": null,
-        "away": null
-      },
-      "id": 1644379,
-      "competition": "COPA",
-      "round": "Round of 128",
-      "date": "12-11-2026",
-      "kickoff_ts": 1794506400,
-      "home": "Tarancón",
-      "away": "Levante",
-      "home_api": "Tarancón",
-      "away_api": "Levante",
-      "score": "vs",
-      "status": "NS",
-      "minute": null,
-      "ht_since": null
-    }
-  ],
+  "matches": [],
   "standings": {}
 }
