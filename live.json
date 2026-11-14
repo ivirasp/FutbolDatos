@@ -1,31 +1,9 @@
 {
-  "date": "13-11-2026",
-  "fetched": true,
-  "updated": "2026-11-13T22:33:47Z",
-  "updated_ts": 1794609227.745307,
+  "date": "14-11-2026",
+  "fetched": false,
+  "updated": "2026-11-14T02:40:33Z",
+  "updated_ts": 1794624033.246347,
   "requests_remaining": 99,
-  "matches": [
-    {
-      "home_st": null,
-      "away_st": null,
-      "base": {
-        "home": null,
-        "away": null
-      },
-      "id": 1644376,
-      "competition": "COPA",
-      "round": "Round of 128",
-      "date": "13-11-2026",
-      "kickoff_ts": 1794600000,
-      "home": "Salamanca UDS",
-      "away": "Celta de Vigo",
-      "home_api": "Salamanca UDS",
-      "away_api": "Celta Vigo",
-      "score": "0 - 5",
-      "status": "FT",
-      "minute": 90,
-      "ht_since": null
-    }
-  ],
+  "matches": [],
   "standings": {}
 }
