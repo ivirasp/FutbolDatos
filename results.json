@@ -1011,9 +1011,37 @@
       ],
       "Jornada 15": [
         {
-          "date": "06-12-2026",
-          "home": "Osasuna",
-          "away": "Elche",
+          "date": "04-12-2026",
+          "home": "Alavés",
+          "away": "Espanyol",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "05-12-2026",
+          "home": "Racing de Santander",
+          "away": "Deportivo de A Coruña",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "05-12-2026",
+          "home": "Rayo Vallecano",
+          "away": "Levante",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "05-12-2026",
+          "home": "Villarreal",
+          "away": "Real Sociedad",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "05-12-2026",
+          "home": "FC Barcelona",
+          "away": "Celta de Vigo",
           "score": "vs",
           "status": ""
         },
@@ -1026,29 +1054,8 @@
         },
         {
           "date": "06-12-2026",
-          "home": "Alavés",
-          "away": "Espanyol",
-          "score": "vs",
-          "status": ""
-        },
-        {
-          "date": "06-12-2026",
           "home": "Atlético de Madrid",
           "away": "Real Betis",
-          "score": "vs",
-          "status": ""
-        },
-        {
-          "date": "06-12-2026",
-          "home": "Racing de Santander",
-          "away": "Deportivo de A Coruña",
-          "score": "vs",
-          "status": ""
-        },
-        {
-          "date": "06-12-2026",
-          "home": "FC Barcelona",
-          "away": "Celta de Vigo",
           "score": "vs",
           "status": ""
         },
@@ -1061,22 +1068,15 @@
         },
         {
           "date": "06-12-2026",
+          "home": "Osasuna",
+          "away": "Elche",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "06-12-2026",
           "home": "Athletic Club",
           "away": "Real Madrid",
-          "score": "vs",
-          "status": ""
-        },
-        {
-          "date": "06-12-2026",
-          "home": "Villarreal",
-          "away": "Real Sociedad",
-          "score": "vs",
-          "status": ""
-        },
-        {
-          "date": "06-12-2026",
-          "home": "Rayo Vallecano",
-          "away": "Levante",
           "score": "vs",
           "status": ""
         }
