@@ -1061,13 +1061,6 @@
         },
         {
           "date": "06-12-2026",
-          "home": "Getafe",
-          "away": "Valencia CF",
-          "score": "vs",
-          "status": ""
-        },
-        {
-          "date": "06-12-2026",
           "home": "Osasuna",
           "away": "Elche",
           "score": "vs",
@@ -1077,6 +1070,13 @@
           "date": "06-12-2026",
           "home": "Athletic Club",
           "away": "Real Madrid",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "06-12-2026",
+          "home": "Getafe",
+          "away": "Valencia CF",
           "score": "vs",
           "status": ""
         }
