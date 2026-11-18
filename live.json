@@ -1,9 +1,136 @@
 {
   "date": "18-11-2026",
-  "fetched": false,
-  "updated": "2026-11-18T01:05:47Z",
-  "updated_ts": 1794963947.977287,
+  "fetched": true,
+  "updated": "2026-11-18T17:54:01Z",
+  "updated_ts": 1795024441.877752,
   "requests_remaining": 99,
-  "matches": [],
+  "matches": [
+    {
+      "home_st": null,
+      "away_st": null,
+      "base": {
+        "home": null,
+        "away": null
+      },
+      "id": 1644369,
+      "competition": "COPA",
+      "round": "Round of 128",
+      "date": "18-11-2026",
+      "kickoff_ts": 1795024800,
+      "home": "Portugalete",
+      "away": "Real Unión",
+      "home_api": "Portugalete",
+      "away_api": "Real Unión",
+      "score": "vs",
+      "status": "NS",
+      "minute": null,
+      "ht_since": null
+    },
+    {
+      "home_st": null,
+      "away_st": null,
+      "base": {
+        "home": null,
+        "away": null
+      },
+      "id": 1644384,
+      "competition": "COPA",
+      "round": "Round of 128",
+      "date": "18-11-2026",
+      "kickoff_ts": 1795024800,
+      "home": "Utebo",
+      "away": "Sabadell",
+      "home_api": "Utebo",
+      "away_api": "Sabadell",
+      "score": "vs",
+      "status": "NS",
+      "minute": null,
+      "ht_since": null
+    },
+    {
+      "home_st": null,
+      "away_st": null,
+      "base": {
+        "home": null,
+        "away": null
+      },
+      "id": 1644334,
+      "competition": "COPA",
+      "round": "Round of 128",
+      "date": "18-11-2026",
+      "kickoff_ts": 1795028400,
+      "home": "Alcoyano",
+      "away": "Mallorca",
+      "home_api": "Alcoyano",
+      "away_api": "Mallorca",
+      "score": "vs",
+      "status": "NS",
+      "minute": null,
+      "ht_since": null
+    },
+    {
+      "home_st": null,
+      "away_st": null,
+      "base": {
+        "home": null,
+        "away": null
+      },
+      "id": 1644346,
+      "competition": "COPA",
+      "round": "Round of 128",
+      "date": "18-11-2026",
+      "kickoff_ts": 1795028400,
+      "home": "CD Badajoz",
+      "away": "Tenerife",
+      "home_api": "Badajoz",
+      "away_api": "Tenerife",
+      "score": "vs",
+      "status": "NS",
+      "minute": null,
+      "ht_since": null
+    },
+    {
+      "home_st": null,
+      "away_st": null,
+      "base": {
+        "home": null,
+        "away": null
+      },
+      "id": 1644353,
+      "competition": "COPA",
+      "round": "Round of 128",
+      "date": "18-11-2026",
+      "kickoff_ts": 1795030200,
+      "home": "Deportiva Minera",
+      "away": "FC Cartagena",
+      "home_api": "Deportiva Minera",
+      "away_api": "FC Cartagena",
+      "score": "vs",
+      "status": "NS",
+      "minute": null,
+      "ht_since": null
+    },
+    {
+      "home_st": null,
+      "away_st": null,
+      "base": {
+        "home": null,
+        "away": null
+      },
+      "id": 1644373,
+      "competition": "COPA",
+      "round": "Round of 128",
+      "date": "18-11-2026",
+      "kickoff_ts": 1795030200,
+      "home": "Reddis",
+      "away": "Barakaldo",
+      "home_api": "Reddis",
+      "away_api": "Barakaldo",
+      "score": "vs",
+      "status": "NS",
+      "minute": null,
+      "ht_since": null
+    }
+  ],
   "standings": {}
 }
