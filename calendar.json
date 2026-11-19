@@ -1,26 +1,5 @@
 [
   {
-    "title": "Utebo C.F. vs Sabadell",
-    "start_ts": 1795024800.0,
-    "time_str": "19:00",
-    "channel": "Aragón TV / Aragón Play",
-    "competition": "COPA"
-  },
-  {
-    "title": "Alcoyano vs Mallorca",
-    "start_ts": 1795028400.0,
-    "time_str": "20:00",
-    "channel": "IB3 / À Punt (València)",
-    "competition": "COPA"
-  },
-  {
-    "title": "Badajoz vs Tenerife",
-    "start_ts": 1795028400.0,
-    "time_str": "20:00",
-    "channel": "TV Canaria",
-    "competition": "COPA"
-  },
-  {
     "title": "Athletic Club vs Espanyol",
     "start_ts": 1795204800.0,
     "time_str": "21:00",
