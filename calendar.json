@@ -1,12 +1,5 @@
 [
   {
-    "title": "Athletic Club vs Espanyol",
-    "start_ts": 1795204800.0,
-    "time_str": "21:00",
-    "channel": "M+ LaLiga / DAZN",
-    "competition": "LALIGA"
-  },
-  {
     "title": "Alavés vs Deportivo",
     "start_ts": 1795266000.0,
     "time_str": "14:00",
@@ -212,6 +205,34 @@
   {
     "title": "Levante vs Racing de Santander",
     "start_ts": 1795809600.0,
+    "time_str": "21:00",
+    "channel": "M+ LaLiga",
+    "competition": "LALIGA"
+  },
+  {
+    "title": "Betis vs Rayo Vallecano",
+    "start_ts": 1795870800.0,
+    "time_str": "14:00",
+    "channel": "M+ LaLiga",
+    "competition": "LALIGA"
+  },
+  {
+    "title": "Málaga vs Athletic Club",
+    "start_ts": 1795878900.0,
+    "time_str": "16:15",
+    "channel": "DAZN LaLiga / DAZN",
+    "competition": "LALIGA"
+  },
+  {
+    "title": "Elche vs Atlético de Madrid",
+    "start_ts": 1795887000.0,
+    "time_str": "18:30",
+    "channel": "M+ LaLiga / Movistar Plus+ / Orange Fútbol 1",
+    "competition": "LALIGA"
+  },
+  {
+    "title": "Real Madrid vs Alavés",
+    "start_ts": 1795896000.0,
     "time_str": "21:00",
     "channel": "M+ LaLiga",
     "competition": "LALIGA"
