@@ -1,33 +1,5 @@
 [
   {
-    "title": "Alavés vs Deportivo",
-    "start_ts": 1795266000.0,
-    "time_str": "14:00",
-    "channel": "M+ LaLiga",
-    "competition": "LALIGA"
-  },
-  {
-    "title": "Rayo Vallecano vs Valencia",
-    "start_ts": 1795274100.0,
-    "time_str": "16:15",
-    "channel": "DAZN LaLiga / DAZN",
-    "competition": "LALIGA"
-  },
-  {
-    "title": "Sevilla vs Betis",
-    "start_ts": 1795282200.0,
-    "time_str": "18:30",
-    "channel": "DAZN LaLiga / DAZN",
-    "competition": "LALIGA"
-  },
-  {
-    "title": "Real Madrid vs Celta",
-    "start_ts": 1795291200.0,
-    "time_str": "21:00",
-    "channel": "M+ LaLiga / Movistar Plus+ / Orange Fútbol 1",
-    "competition": "LALIGA"
-  },
-  {
     "title": "Barcelona vs Villarreal",
     "start_ts": 1795352400.0,
     "time_str": "14:00",
@@ -235,6 +207,34 @@
     "start_ts": 1795896000.0,
     "time_str": "21:00",
     "channel": "M+ LaLiga",
+    "competition": "LALIGA"
+  },
+  {
+    "title": "Valencia vs Osasuna",
+    "start_ts": 1795957200.0,
+    "time_str": "14:00",
+    "channel": "DAZN LaLiga / DAZN",
+    "competition": "LALIGA"
+  },
+  {
+    "title": "Deportivo vs Barcelona",
+    "start_ts": 1795965300.0,
+    "time_str": "16:15",
+    "channel": "DAZN LaLiga / DAZN",
+    "competition": "LALIGA"
+  },
+  {
+    "title": "Celta vs Villarreal",
+    "start_ts": 1795973400.0,
+    "time_str": "18:30",
+    "channel": "M+ LaLiga",
+    "competition": "LALIGA"
+  },
+  {
+    "title": "Real Sociedad vs Sevilla",
+    "start_ts": 1795982400.0,
+    "time_str": "21:00",
+    "channel": "DAZN LaLiga / DAZN",
     "competition": "LALIGA"
   },
   {
