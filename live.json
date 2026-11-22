@@ -1,9 +1,9 @@
 {
   "date": "22-11-2026",
   "fetched": true,
-  "updated": "2026-11-22T16:59:15Z",
-  "updated_ts": 1795366755.013873,
-  "requests_remaining": 99,
+  "updated": "2026-11-22T22:24:43Z",
+  "updated_ts": 1795386283.970551,
+  "requests_remaining": 98,
   "matches": [
     {
       "home_st": "FC Barcelona",
@@ -43,8 +43,8 @@
       "home_api": "Racing Santander",
       "away_api": "Real Sociedad",
       "score": "3 - 2",
-      "status": "2H",
-      "minute": 85,
+      "status": "FT",
+      "minute": 90,
       "ht_since": null
     },
     {
@@ -63,9 +63,9 @@
       "away": "Málaga",
       "home_api": "Osasuna",
       "away_api": "Malaga",
-      "score": "vs",
-      "status": "NS",
-      "minute": null,
+      "score": "1 - 0",
+      "status": "FT",
+      "minute": 90,
       "ht_since": null
     },
     {
@@ -84,9 +84,9 @@
       "away": "Atlético de Madrid",
       "home_api": "Getafe",
       "away_api": "Atletico Madrid",
-      "score": "vs",
-      "status": "NS",
-      "minute": null,
+      "score": "0 - 3",
+      "status": "FT",
+      "minute": 90,
       "ht_since": null
     }
   ],
@@ -104,7 +104,7 @@
         "ga": "15",
         "dg": "+36",
         "base_rank": 1,
-        "live": true
+        "live": false
       },
       {
         "rank": "2",
@@ -123,16 +123,16 @@
       {
         "rank": "3",
         "team": "Atlético de Madrid",
-        "points": "28",
-        "played": "12",
-        "won": "9",
+        "points": "31",
+        "played": "13",
+        "won": "10",
         "drawn": "1",
         "lost": "2",
-        "gf": "23",
+        "gf": "26",
         "ga": "10",
-        "dg": "+13",
+        "dg": "+16",
         "base_rank": 3,
-        "live": false
+        "live": true
       },
       {
         "rank": "4",
@@ -160,7 +160,7 @@
         "ga": "23",
         "dg": "0",
         "base_rank": 5,
-        "live": true
+        "live": false
       },
       {
         "rank": "6",
@@ -187,8 +187,8 @@
         "gf": "20",
         "ga": "32",
         "dg": "-12",
-        "base_rank": 12,
-        "live": true
+        "base_rank": 7,
+        "live": false
       },
       {
         "rank": "8",
@@ -201,7 +201,7 @@
         "gf": "15",
         "ga": "12",
         "dg": "+3",
-        "base_rank": 7,
+        "base_rank": 8,
         "live": false
       },
       {
@@ -215,7 +215,7 @@
         "gf": "18",
         "ga": "18",
         "dg": "0",
-        "base_rank": 8,
+        "base_rank": 9,
         "live": false
       },
       {
@@ -229,8 +229,8 @@
         "gf": "19",
         "ga": "18",
         "dg": "+1",
-        "base_rank": 9,
-        "live": true
+        "base_rank": 10,
+        "live": false
       },
       {
         "rank": "11",
@@ -243,7 +243,7 @@
         "gf": "14",
         "ga": "14",
         "dg": "0",
-        "base_rank": 10,
+        "base_rank": 11,
         "live": false
       },
       {
@@ -257,11 +257,25 @@
         "gf": "16",
         "ga": "17",
         "dg": "-1",
-        "base_rank": 11,
+        "base_rank": 12,
         "live": false
       },
       {
         "rank": "13",
+        "team": "Osasuna",
+        "points": "15",
+        "played": "13",
+        "won": "4",
+        "drawn": "3",
+        "lost": "6",
+        "gf": "13",
+        "ga": "23",
+        "dg": "-10",
+        "base_rank": 13,
+        "live": false
+      },
+      {
+        "rank": "14",
         "team": "Celta",
         "points": "13",
         "played": "13",
@@ -271,11 +285,11 @@
         "gf": "11",
         "ga": "12",
         "dg": "-1",
-        "base_rank": 13,
+        "base_rank": 14,
         "live": false
       },
       {
-        "rank": "14",
+        "rank": "15",
         "team": "Rayo Vallecano",
         "points": "12",
         "played": "12",
@@ -285,39 +299,11 @@
         "gf": "15",
         "ga": "22",
         "dg": "-7",
-        "base_rank": 14,
-        "live": false
-      },
-      {
-        "rank": "15",
-        "team": "Getafe",
-        "points": "12",
-        "played": "12",
-        "won": "3",
-        "drawn": "3",
-        "lost": "6",
-        "gf": "8",
-        "ga": "18",
-        "dg": "-10",
         "base_rank": 15,
         "live": false
       },
       {
         "rank": "16",
-        "team": "Osasuna",
-        "points": "12",
-        "played": "12",
-        "won": "3",
-        "drawn": "3",
-        "lost": "6",
-        "gf": "12",
-        "ga": "23",
-        "dg": "-11",
-        "base_rank": 16,
-        "live": false
-      },
-      {
-        "rank": "17",
         "team": "Valencia",
         "points": "12",
         "played": "13",
@@ -329,6 +315,20 @@
         "dg": "-11",
         "base_rank": 17,
         "live": false
+      },
+      {
+        "rank": "17",
+        "team": "Getafe",
+        "points": "12",
+        "played": "13",
+        "won": "3",
+        "drawn": "3",
+        "lost": "7",
+        "gf": "8",
+        "ga": "21",
+        "dg": "-13",
+        "base_rank": 16,
+        "live": true
       },
       {
         "rank": "18",
@@ -362,13 +362,13 @@
         "rank": "20",
         "team": "Málaga",
         "points": "5",
-        "played": "12",
+        "played": "13",
         "won": "0",
         "drawn": "5",
-        "lost": "7",
+        "lost": "8",
         "gf": "9",
-        "ga": "23",
-        "dg": "-14",
+        "ga": "24",
+        "dg": "-15",
         "base_rank": 20,
         "live": false
       }
