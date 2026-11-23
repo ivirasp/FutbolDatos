@@ -170,6 +170,18 @@
     },
     {
       "rank": "15",
+      "team": "Levante",
+      "points": "12",
+      "played": "13",
+      "won": "2",
+      "drawn": "6",
+      "lost": "5",
+      "gf": "17",
+      "ga": "22",
+      "dg": "-5"
+    },
+    {
+      "rank": "16",
       "team": "Rayo Vallecano",
       "points": "12",
       "played": "12",
@@ -181,7 +193,7 @@
       "dg": "-7"
     },
     {
-      "rank": "16",
+      "rank": "17",
       "team": "Valencia",
       "points": "12",
       "played": "13",
@@ -193,7 +205,7 @@
       "dg": "-11"
     },
     {
-      "rank": "17",
+      "rank": "18",
       "team": "Getafe",
       "points": "12",
       "played": "13",
@@ -205,27 +217,15 @@
       "dg": "-13"
     },
     {
-      "rank": "18",
-      "team": "Levante",
-      "points": "11",
-      "played": "12",
-      "won": "2",
-      "drawn": "5",
-      "lost": "5",
-      "gf": "16",
-      "ga": "21",
-      "dg": "-5"
-    },
-    {
       "rank": "19",
       "team": "Elche",
-      "points": "10",
-      "played": "12",
+      "points": "11",
+      "played": "13",
       "won": "2",
-      "drawn": "4",
+      "drawn": "5",
       "lost": "6",
-      "gf": "14",
-      "ga": "20",
+      "gf": "15",
+      "ga": "21",
       "dg": "-6"
     },
     {
