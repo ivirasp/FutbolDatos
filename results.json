@@ -5193,8 +5193,206 @@
           "score": "1 - 1",
           "status": "Fin"
         }
+      ],
+      "Segunda fase (Actual)": [
+        {
+          "date": "02-12-2026",
+          "home": "Albacete",
+          "away": "Las Palmas",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "02-12-2026",
+          "home": "Almería",
+          "away": "Granada CF",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "02-12-2026",
+          "home": "Amorebieta",
+          "away": "Osasuna",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "02-12-2026",
+          "home": "Antequera",
+          "away": "Levante",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "02-12-2026",
+          "home": "Arosa",
+          "away": "Celta de Vigo",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "02-12-2026",
+          "home": "Atlético Paso",
+          "away": "Sevilla",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "02-12-2026",
+          "home": "CE Europa de Barcelona",
+          "away": "Rayo Vallecano",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "02-12-2026",
+          "home": "FC Cartagena",
+          "away": "Elche",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "02-12-2026",
+          "home": "AD Ceuta FC",
+          "away": "Cádiz",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "02-12-2026",
+          "home": "Coria",
+          "away": "Málaga",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "02-12-2026",
+          "home": "Cultural Leonesa",
+          "away": "Castellón",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "02-12-2026",
+          "home": "Eldense",
+          "away": "Tenerife",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "02-12-2026",
+          "home": "CD Extremadura",
+          "away": "Real Betis",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "02-12-2026",
+          "home": "Gimnástica Torrelavega",
+          "away": "Alavés",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "02-12-2026",
+          "home": "Huesca",
+          "away": "Girona",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "02-12-2026",
+          "home": "Mirandés",
+          "away": "Leganés",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "02-12-2026",
+          "home": "Numancia",
+          "away": "Athletic Club",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "02-12-2026",
+          "home": "Ponferradina",
+          "away": "FC Andorra",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "02-12-2026",
+          "home": "Portugalete",
+          "away": "Deportivo de A Coruña",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "02-12-2026",
+          "home": "Rayo Majadahonda",
+          "away": "Mallorca",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "02-12-2026",
+          "home": "Real Jaén",
+          "away": "Valencia CF",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "02-12-2026",
+          "home": "Real Zaragoza",
+          "away": "Burgos CF",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "02-12-2026",
+          "home": "Real Ávila",
+          "away": "Getafe",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "02-12-2026",
+          "home": "Reus Reddis",
+          "away": "Racing de Santander",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "02-12-2026",
+          "home": "Sabadell",
+          "away": "Sporting de Gijón",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "02-12-2026",
+          "home": "Sant Andreu",
+          "away": "Eibar",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "02-12-2026",
+          "home": "Sestao River",
+          "away": "Villarreal",
+          "score": "vs",
+          "status": ""
+        },
+        {
+          "date": "02-12-2026",
+          "home": "Zamora",
+          "away": "Real Valladolid",
+          "score": "vs",
+          "status": ""
+        }
       ]
     },
-    "current": "Primera fase"
+    "current": "Segunda fase (Actual)"
   }
 }
