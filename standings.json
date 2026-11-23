@@ -27,14 +27,14 @@
     {
       "rank": "3",
       "team": "Atlético de Madrid",
-      "points": "28",
-      "played": "12",
-      "won": "9",
+      "points": "31",
+      "played": "13",
+      "won": "10",
       "drawn": "1",
       "lost": "2",
-      "gf": "23",
+      "gf": "26",
       "ga": "10",
-      "dg": "+13"
+      "dg": "+16"
     },
     {
       "rank": "4",
@@ -182,18 +182,6 @@
     },
     {
       "rank": "16",
-      "team": "Getafe",
-      "points": "12",
-      "played": "12",
-      "won": "3",
-      "drawn": "3",
-      "lost": "6",
-      "gf": "8",
-      "ga": "18",
-      "dg": "-10"
-    },
-    {
-      "rank": "17",
       "team": "Valencia",
       "points": "12",
       "played": "13",
@@ -203,6 +191,18 @@
       "gf": "9",
       "ga": "20",
       "dg": "-11"
+    },
+    {
+      "rank": "17",
+      "team": "Getafe",
+      "points": "12",
+      "played": "13",
+      "won": "3",
+      "drawn": "3",
+      "lost": "7",
+      "gf": "8",
+      "ga": "21",
+      "dg": "-13"
     },
     {
       "rank": "18",
