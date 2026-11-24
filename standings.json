@@ -268,6 +268,18 @@
     },
     {
       "rank": "3",
+      "team": "Aston Villa",
+      "points": "10",
+      "played": "5",
+      "won": "3",
+      "drawn": "1",
+      "lost": "1",
+      "gf": "12",
+      "ga": "6",
+      "dg": "+6"
+    },
+    {
+      "rank": "4",
       "team": "Arsenal",
       "points": "10",
       "played": "4",
@@ -279,7 +291,7 @@
       "dg": "+5"
     },
     {
-      "rank": "4",
+      "rank": "5",
       "team": "Como",
       "points": "9",
       "played": "4",
@@ -291,7 +303,7 @@
       "dg": "+13"
     },
     {
-      "rank": "5",
+      "rank": "6",
       "team": "FC Barcelona",
       "points": "9",
       "played": "4",
@@ -301,18 +313,6 @@
       "gf": "14",
       "ga": "6",
       "dg": "+8"
-    },
-    {
-      "rank": "6",
-      "team": "Aston Villa",
-      "points": "9",
-      "played": "4",
-      "won": "3",
-      "drawn": "0",
-      "lost": "1",
-      "gf": "12",
-      "ga": "6",
-      "dg": "+6"
     },
     {
       "rank": "7",
@@ -412,6 +412,30 @@
     },
     {
       "rank": "15",
+      "team": "LASK",
+      "points": "7",
+      "played": "5",
+      "won": "2",
+      "drawn": "1",
+      "lost": "2",
+      "gf": "10",
+      "ga": "9",
+      "dg": "+1"
+    },
+    {
+      "rank": "16",
+      "team": "Galatasaray",
+      "points": "7",
+      "played": "5",
+      "won": "2",
+      "drawn": "1",
+      "lost": "2",
+      "gf": "8",
+      "ga": "9",
+      "dg": "-1"
+    },
+    {
+      "rank": "17",
       "team": "Inter de Milán",
       "points": "6",
       "played": "4",
@@ -423,19 +447,7 @@
       "dg": "+2"
     },
     {
-      "rank": "16",
-      "team": "LASK",
-      "points": "6",
-      "played": "4",
-      "won": "2",
-      "drawn": "0",
-      "lost": "2",
-      "gf": "10",
-      "ga": "9",
-      "dg": "+1"
-    },
-    {
-      "rank": "17",
+      "rank": "18",
       "team": "Manchester United",
       "points": "6",
       "played": "4",
@@ -445,18 +457,6 @@
       "gf": "8",
       "ga": "8",
       "dg": "0"
-    },
-    {
-      "rank": "18",
-      "team": "Galatasaray",
-      "points": "6",
-      "played": "4",
-      "won": "2",
-      "drawn": "0",
-      "lost": "2",
-      "gf": "8",
-      "ga": "9",
-      "dg": "-1"
     },
     {
       "rank": "19",
@@ -472,6 +472,18 @@
     },
     {
       "rank": "20",
+      "team": "Bodo Glimt",
+      "points": "5",
+      "played": "5",
+      "won": "1",
+      "drawn": "2",
+      "lost": "2",
+      "gf": "4",
+      "ga": "9",
+      "dg": "-5"
+    },
+    {
+      "rank": "21",
       "team": "Roma",
       "points": "4",
       "played": "4",
@@ -483,7 +495,7 @@
       "dg": "+2"
     },
     {
-      "rank": "21",
+      "rank": "22",
       "team": "Shakhtar Donetsk",
       "points": "4",
       "played": "4",
@@ -495,7 +507,7 @@
       "dg": "0"
     },
     {
-      "rank": "22",
+      "rank": "23",
       "team": "Viking Stavanger",
       "points": "4",
       "played": "4",
@@ -507,7 +519,7 @@
       "dg": "-1"
     },
     {
-      "rank": "23",
+      "rank": "24",
       "team": "Atlético de Madrid",
       "points": "4",
       "played": "4",
@@ -519,7 +531,7 @@
       "dg": "-1"
     },
     {
-      "rank": "24",
+      "rank": "25",
       "team": "PSV",
       "points": "4",
       "played": "4",
@@ -529,18 +541,6 @@
       "gf": "3",
       "ga": "4",
       "dg": "-1"
-    },
-    {
-      "rank": "25",
-      "team": "Bodo Glimt",
-      "points": "4",
-      "played": "4",
-      "won": "1",
-      "drawn": "1",
-      "lost": "2",
-      "gf": "4",
-      "ga": "9",
-      "dg": "-5"
     },
     {
       "rank": "26",
