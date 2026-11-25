@@ -220,7 +220,7 @@
     "title": "Real Madrid vs Alavés",
     "start_ts": 1795896000.0,
     "time_str": "21:00",
-    "channel": "M+ LaLiga",
+    "channel": "M+ LaLiga / LaLiga TV Multi 3",
     "competition": "LALIGA"
   },
   {
@@ -264,6 +264,118 @@
     "time_str": "19:00",
     "channel": "M+ LaLiga",
     "competition": "LALIGA"
+  },
+  {
+    "title": "Real Zaragoza vs Burgos C.F.",
+    "start_ts": 1796241600.0,
+    "time_str": "21:00",
+    "channel": "Movistar+",
+    "competition": "COPA"
+  },
+  {
+    "title": "Numancia vs Athletic Club",
+    "start_ts": 1796241600.0,
+    "time_str": "21:00",
+    "channel": "Movistar+",
+    "competition": "COPA"
+  },
+  {
+    "title": "Amorebieta vs Osasuna",
+    "start_ts": 1796241600.0,
+    "time_str": "21:00",
+    "channel": "Movistar+",
+    "competition": "COPA"
+  },
+  {
+    "title": "Sestao River vs Villarreal",
+    "start_ts": 1796241600.0,
+    "time_str": "21:00",
+    "channel": "Movistar+",
+    "competition": "COPA"
+  },
+  {
+    "title": "Gimnástica T. vs Alavés",
+    "start_ts": 1796241600.0,
+    "time_str": "21:00",
+    "channel": "Movistar+",
+    "competition": "COPA"
+  },
+  {
+    "title": "Jaén vs Valencia",
+    "start_ts": 1796241600.0,
+    "time_str": "21:00",
+    "channel": "Movistar+",
+    "competition": "COPA"
+  },
+  {
+    "title": "Cartagena vs Elche",
+    "start_ts": 1796241600.0,
+    "time_str": "21:00",
+    "channel": "Movistar+",
+    "competition": "COPA"
+  },
+  {
+    "title": "C.E. Europa vs Rayo Vallecano",
+    "start_ts": 1796241600.0,
+    "time_str": "21:00",
+    "channel": "Movistar+",
+    "competition": "COPA"
+  },
+  {
+    "title": "Arosa S.C. vs Celta",
+    "start_ts": 1796241600.0,
+    "time_str": "21:00",
+    "channel": "Movistar+",
+    "competition": "COPA"
+  },
+  {
+    "title": "Portugalete vs Deportivo",
+    "start_ts": 1796241600.0,
+    "time_str": "21:00",
+    "channel": "Movistar+",
+    "competition": "COPA"
+  },
+  {
+    "title": "Real Ávila vs Getafe",
+    "start_ts": 1796241600.0,
+    "time_str": "21:00",
+    "channel": "Movistar+",
+    "competition": "COPA"
+  },
+  {
+    "title": "Antequera vs Levante",
+    "start_ts": 1796241600.0,
+    "time_str": "21:00",
+    "channel": "Movistar+",
+    "competition": "COPA"
+  },
+  {
+    "title": "C.D. Coria vs Málaga",
+    "start_ts": 1796241600.0,
+    "time_str": "21:00",
+    "channel": "Movistar+",
+    "competition": "COPA"
+  },
+  {
+    "title": "C.D. Atlético Paso vs Sevilla",
+    "start_ts": 1796241600.0,
+    "time_str": "21:00",
+    "channel": "Movistar+",
+    "competition": "COPA"
+  },
+  {
+    "title": "Reus FC Reddis vs Racing de Santander",
+    "start_ts": 1796241600.0,
+    "time_str": "21:00",
+    "channel": "Movistar+",
+    "competition": "COPA"
+  },
+  {
+    "title": "CD Extremadura vs Betis",
+    "start_ts": 1796241600.0,
+    "time_str": "21:00",
+    "channel": "Teledeporte / rtve Play",
+    "competition": "COPA"
   },
   {
     "title": "Barcelona vs Atlético de Madrid",
