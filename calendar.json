@@ -164,7 +164,7 @@
     "title": "Valencia vs Osasuna",
     "start_ts": 1795957200.0,
     "time_str": "14:00",
-    "channel": "DAZN LaLiga / DAZN",
+    "channel": "DAZN LaLiga 2 / DAZN",
     "competition": "LALIGA"
   },
   {
@@ -196,63 +196,70 @@
     "competition": "LALIGA"
   },
   {
-    "title": "Real Sociedad vs Real Madrid",
-    "start_ts": 1796234400.0,
+    "title": "Antequera vs Levante",
+    "start_ts": 1796148000.0,
     "time_str": "19:00",
-    "channel": "M+ LaLiga",
-    "competition": "LALIGA"
+    "channel": "Movistar+",
+    "competition": "COPA"
   },
   {
-    "title": "Real Zaragoza vs Burgos C.F.",
-    "start_ts": 1796241600.0,
-    "time_str": "21:00",
+    "title": "Reus FC Reddis vs Racing de Santander",
+    "start_ts": 1796148000.0,
+    "time_str": "19:00",
     "channel": "Movistar+",
     "competition": "COPA"
   },
   {
     "title": "Numancia vs Athletic Club",
-    "start_ts": 1796241600.0,
-    "time_str": "21:00",
-    "channel": "Movistar+",
-    "competition": "COPA"
-  },
-  {
-    "title": "Amorebieta vs Osasuna",
-    "start_ts": 1796241600.0,
-    "time_str": "21:00",
-    "channel": "Movistar+",
-    "competition": "COPA"
-  },
-  {
-    "title": "Sestao River vs Villarreal",
-    "start_ts": 1796241600.0,
+    "start_ts": 1796155200.0,
     "time_str": "21:00",
     "channel": "Movistar+",
     "competition": "COPA"
   },
   {
     "title": "Gimnástica T. vs Alavés",
-    "start_ts": 1796241600.0,
-    "time_str": "21:00",
-    "channel": "Movistar+",
-    "competition": "COPA"
-  },
-  {
-    "title": "Jaén vs Valencia",
-    "start_ts": 1796241600.0,
+    "start_ts": 1796155200.0,
     "time_str": "21:00",
     "channel": "Movistar+",
     "competition": "COPA"
   },
   {
     "title": "Cartagena vs Elche",
-    "start_ts": 1796241600.0,
+    "start_ts": 1796155200.0,
     "time_str": "21:00",
     "channel": "Movistar+",
     "competition": "COPA"
   },
   {
     "title": "C.E. Europa vs Rayo Vallecano",
+    "start_ts": 1796155200.0,
+    "time_str": "21:00",
+    "channel": "Movistar+",
+    "competition": "COPA"
+  },
+  {
+    "title": "CD Extremadura vs Betis",
+    "start_ts": 1796155200.0,
+    "time_str": "21:00",
+    "channel": "Teledeporte / rtve Play",
+    "competition": "COPA"
+  },
+  {
+    "title": "Real Sociedad vs Real Madrid",
+    "start_ts": 1796234400.0,
+    "time_str": "19:00",
+    "channel": "M+ LaLiga / Movistar Plus+ / Orange Fútbol 1",
+    "competition": "LALIGA"
+  },
+  {
+    "title": "Portugalete vs Deportivo",
+    "start_ts": 1796234400.0,
+    "time_str": "19:00",
+    "channel": "Movistar+",
+    "competition": "COPA"
+  },
+  {
+    "title": "Sestao River vs Villarreal",
     "start_ts": 1796241600.0,
     "time_str": "21:00",
     "channel": "Movistar+",
@@ -266,60 +273,53 @@
     "competition": "COPA"
   },
   {
-    "title": "Portugalete vs Deportivo",
-    "start_ts": 1796241600.0,
-    "time_str": "21:00",
-    "channel": "Movistar+",
-    "competition": "COPA"
+    "title": "Barcelona vs Atlético de Madrid",
+    "start_ts": 1796243400.0,
+    "time_str": "21:30",
+    "channel": "DAZN LaLiga / DAZN",
+    "competition": "LALIGA"
   },
   {
     "title": "Real Ávila vs Getafe",
-    "start_ts": 1796241600.0,
+    "start_ts": 1796320800.0,
+    "time_str": "19:00",
+    "channel": "Movistar+",
+    "competition": "COPA"
+  },
+  {
+    "title": "C.D. Atlético Paso vs Sevilla",
+    "start_ts": 1796320800.0,
+    "time_str": "19:00",
+    "channel": "M+ Vamos",
+    "competition": "COPA"
+  },
+  {
+    "title": "Real Zaragoza vs Burgos C.F.",
+    "start_ts": 1796328000.0,
     "time_str": "21:00",
     "channel": "Movistar+",
     "competition": "COPA"
   },
   {
-    "title": "Antequera vs Levante",
-    "start_ts": 1796241600.0,
+    "title": "Amorebieta vs Osasuna",
+    "start_ts": 1796328000.0,
+    "time_str": "21:00",
+    "channel": "Movistar+",
+    "competition": "COPA"
+  },
+  {
+    "title": "Jaén vs Valencia",
+    "start_ts": 1796328000.0,
     "time_str": "21:00",
     "channel": "Movistar+",
     "competition": "COPA"
   },
   {
     "title": "C.D. Coria vs Málaga",
-    "start_ts": 1796241600.0,
+    "start_ts": 1796328000.0,
     "time_str": "21:00",
     "channel": "Movistar+",
     "competition": "COPA"
-  },
-  {
-    "title": "C.D. Atlético Paso vs Sevilla",
-    "start_ts": 1796241600.0,
-    "time_str": "21:00",
-    "channel": "Movistar+",
-    "competition": "COPA"
-  },
-  {
-    "title": "Reus FC Reddis vs Racing de Santander",
-    "start_ts": 1796241600.0,
-    "time_str": "21:00",
-    "channel": "Movistar+",
-    "competition": "COPA"
-  },
-  {
-    "title": "CD Extremadura vs Betis",
-    "start_ts": 1796241600.0,
-    "time_str": "21:00",
-    "channel": "Teledeporte / rtve Play",
-    "competition": "COPA"
-  },
-  {
-    "title": "Barcelona vs Atlético de Madrid",
-    "start_ts": 1796243400.0,
-    "time_str": "21:30",
-    "channel": "DAZN LaLiga / DAZN",
-    "competition": "LALIGA"
   },
   {
     "title": "Villarreal vs Sabah FK",
@@ -374,7 +374,7 @@
     "title": "Barcelona vs Manchester City",
     "start_ts": 1796760000.0,
     "time_str": "21:00",
-    "channel": "TBD",
+    "channel": "M+ Liga de Campeones / Movistar Plus+ / Orange Fútbol 1",
     "competition": "CHAMPIONS"
   },
   {
@@ -451,7 +451,7 @@
     "title": "O. Marsella vs Celta",
     "start_ts": 1796924700.0,
     "time_str": "18:45",
-    "channel": "TBD",
+    "channel": "M+ Liga de Campeones / Movistar Plus+",
     "competition": "EUROPA"
   },
   {
