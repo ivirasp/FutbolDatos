@@ -3254,7 +3254,7 @@
           "status": "Fin"
         }
       ],
-      "Jornada 5 (Actual)": [
+      "Jornada 5": [
         {
           "date": "24-11-2026",
           "home": "Galatasaray",
@@ -3336,53 +3336,53 @@
           "date": "25-11-2026",
           "home": "Inter",
           "away": "Stuttgart",
-          "score": "1 - 0",
-          "status": ""
+          "score": "2 - 0",
+          "status": "Fin"
         },
         {
           "date": "25-11-2026",
           "home": "Atlético de Madrid",
           "away": "Viking",
           "score": "2 - 0",
-          "status": ""
+          "status": "Fin"
         },
         {
           "date": "25-11-2026",
           "home": "PSG",
           "away": "Roma",
-          "score": "1 - 1",
-          "status": ""
+          "score": "2 - 2",
+          "status": "Fin"
         },
         {
           "date": "25-11-2026",
           "home": "Brujas",
           "away": "Liverpool",
-          "score": "0 - 1",
-          "status": ""
+          "score": "0 - 3",
+          "status": "Fin"
         },
         {
           "date": "25-11-2026",
           "home": "Lille",
           "away": "Bayern Múnich",
-          "score": "1 - 1",
-          "status": ""
+          "score": "2 - 1",
+          "status": "Fin"
         },
         {
           "date": "25-11-2026",
           "home": "Sporting CP",
           "away": "Manchester United",
-          "score": "1 - 2",
-          "status": ""
+          "score": "2 - 2",
+          "status": "Fin"
         },
         {
           "date": "25-11-2026",
           "home": "Shakhtar",
           "away": "Fenerbahçe",
           "score": "0 - 1",
-          "status": ""
+          "status": "Fin"
         }
       ],
-      "Jornada 6": [
+      "Jornada 6 (Actual)": [
         {
           "date": "08-12-2026",
           "home": "Villarreal",
@@ -3767,7 +3767,7 @@
         }
       ]
     },
-    "current": "Jornada 5 (Actual)"
+    "current": "Jornada 6 (Actual)"
   },
   "EUROPA": {
     "rounds": {
