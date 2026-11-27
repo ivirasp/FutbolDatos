@@ -76,13 +76,13 @@
       "rank": "7",
       "team": "Racing",
       "points": "17",
-      "played": "13",
+      "played": "14",
       "won": "5",
       "drawn": "2",
-      "lost": "6",
+      "lost": "7",
       "gf": "20",
-      "ga": "32",
-      "dg": "-12"
+      "ga": "33",
+      "dg": "-13"
     },
     {
       "rank": "8",
@@ -146,6 +146,18 @@
     },
     {
       "rank": "13",
+      "team": "Levante",
+      "points": "15",
+      "played": "14",
+      "won": "3",
+      "drawn": "6",
+      "lost": "5",
+      "gf": "18",
+      "ga": "22",
+      "dg": "-4"
+    },
+    {
+      "rank": "14",
       "team": "Osasuna",
       "points": "15",
       "played": "13",
@@ -157,7 +169,7 @@
       "dg": "-10"
     },
     {
-      "rank": "14",
+      "rank": "15",
       "team": "Celta",
       "points": "13",
       "played": "13",
@@ -167,18 +179,6 @@
       "gf": "11",
       "ga": "12",
       "dg": "-1"
-    },
-    {
-      "rank": "15",
-      "team": "Levante",
-      "points": "12",
-      "played": "13",
-      "won": "2",
-      "drawn": "6",
-      "lost": "5",
-      "gf": "17",
-      "ga": "22",
-      "dg": "-5"
     },
     {
       "rank": "16",
