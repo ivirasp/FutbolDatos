@@ -73,7 +73,7 @@
     "title": "Antequera vs Levante",
     "start_ts": 1796148000.0,
     "time_str": "19:00",
-    "channel": "Movistar+",
+    "channel": "M+ LaLiga 2 / Movistar+",
     "competition": "COPA"
   },
   {
@@ -81,6 +81,20 @@
     "start_ts": 1796148000.0,
     "time_str": "19:00",
     "channel": "Movistar+",
+    "competition": "COPA"
+  },
+  {
+    "title": "Huesca vs Girona",
+    "start_ts": 1796149800.0,
+    "time_str": "19:30",
+    "channel": "Aragón TV / Aragón Play",
+    "competition": "COPA"
+  },
+  {
+    "title": "Albacete vs Las Palmas",
+    "start_ts": 1796151600.0,
+    "time_str": "20:00",
+    "channel": "TV Canaria / CMM (Castilla-LM)",
     "competition": "COPA"
   },
   {
@@ -94,28 +108,28 @@
     "title": "Gimnástica T. vs Alavés",
     "start_ts": 1796155200.0,
     "time_str": "21:00",
-    "channel": "Movistar+",
+    "channel": "M+ LaLiga 4 / Movistar+",
     "competition": "COPA"
   },
   {
     "title": "Cartagena vs Elche",
     "start_ts": 1796155200.0,
     "time_str": "21:00",
-    "channel": "Movistar+",
+    "channel": "M+ LaLiga 3 / Movistar+",
     "competition": "COPA"
   },
   {
     "title": "C.E. Europa vs Rayo Vallecano",
     "start_ts": 1796155200.0,
     "time_str": "21:00",
-    "channel": "Movistar+",
+    "channel": "M+ LaLiga 2 / M+ Liga de Campeones 2 / Movistar+",
     "competition": "COPA"
   },
   {
     "title": "CD Extremadura vs Betis",
     "start_ts": 1796155200.0,
     "time_str": "21:00",
-    "channel": "Teledeporte / rtve Play",
+    "channel": "Esport 3 / Teledeporte / rtve Play",
     "competition": "COPA"
   },
   {
@@ -133,6 +147,41 @@
     "competition": "COPA"
   },
   {
+    "title": "Sant Andreu vs Eibar",
+    "start_ts": 1796234400.0,
+    "time_str": "19:00",
+    "channel": "Esport 3",
+    "competition": "COPA"
+  },
+  {
+    "title": "Almería vs Granada C.F.",
+    "start_ts": 1796238000.0,
+    "time_str": "20:00",
+    "channel": "Canal Sur",
+    "competition": "COPA"
+  },
+  {
+    "title": "Sabadell vs Sporting de Gijón",
+    "start_ts": 1796238000.0,
+    "time_str": "20:00",
+    "channel": "TPA7",
+    "competition": "COPA"
+  },
+  {
+    "title": "Cultural Leonesa vs C.D. Castellón",
+    "start_ts": 1796238000.0,
+    "time_str": "20:00",
+    "channel": "À Punt (València)",
+    "competition": "COPA"
+  },
+  {
+    "title": "C.D. Eldense vs Tenerife",
+    "start_ts": 1796238000.0,
+    "time_str": "20:00",
+    "channel": "TV Canaria",
+    "competition": "COPA"
+  },
+  {
     "title": "Sestao River vs Villarreal",
     "start_ts": 1796241600.0,
     "time_str": "21:00",
@@ -144,6 +193,13 @@
     "start_ts": 1796241600.0,
     "time_str": "21:00",
     "channel": "Movistar+",
+    "competition": "COPA"
+  },
+  {
+    "title": "Rayo Majadahonda vs Mallorca",
+    "start_ts": 1796241600.0,
+    "time_str": "21:00",
+    "channel": "IB3",
     "competition": "COPA"
   },
   {
