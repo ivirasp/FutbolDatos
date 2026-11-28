@@ -3,7 +3,7 @@
     "title": "Betis vs Rayo Vallecano",
     "start_ts": 1795870800.0,
     "time_str": "14:00",
-    "channel": "M+ LaLiga",
+    "channel": "M+ LaLiga / M+ LaLiga 2",
     "competition": "LALIGA"
   },
   {
@@ -17,14 +17,14 @@
     "title": "Elche vs Atlético de Madrid",
     "start_ts": 1795887000.0,
     "time_str": "18:30",
-    "channel": "M+ LaLiga / Movistar Plus+ / Orange Fútbol 1",
+    "channel": "M+ LaLiga / M+ LaLiga 2 / Movistar Plus+ / Orange Fútbol 1",
     "competition": "LALIGA"
   },
   {
     "title": "Real Madrid vs Alavés",
     "start_ts": 1795896000.0,
     "time_str": "21:00",
-    "channel": "M+ LaLiga / LaLiga TV Multi 3",
+    "channel": "M+ LaLiga / M+ LaLiga 2 / LaLiga TV Multi 3",
     "competition": "LALIGA"
   },
   {
@@ -45,7 +45,7 @@
     "title": "Celta vs Villarreal",
     "start_ts": 1795973400.0,
     "time_str": "18:30",
-    "channel": "M+ LaLiga",
+    "channel": "M+ LaLiga / M+ LaLiga 2",
     "competition": "LALIGA"
   },
   {
