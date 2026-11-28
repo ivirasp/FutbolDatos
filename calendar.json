@@ -1,12 +1,5 @@
 [
   {
-    "title": "Levante vs Racing de Santander",
-    "start_ts": 1795809600.0,
-    "time_str": "21:00",
-    "channel": "M+ LaLiga",
-    "competition": "LALIGA"
-  },
-  {
     "title": "Betis vs Rayo Vallecano",
     "start_ts": 1795870800.0,
     "time_str": "14:00",
@@ -250,6 +243,13 @@
     "time_str": "21:00",
     "channel": "Movistar+",
     "competition": "COPA"
+  },
+  {
+    "title": "Alavés vs Espanyol",
+    "start_ts": 1796414400.0,
+    "time_str": "21:00",
+    "channel": "M+ LaLiga",
+    "competition": "LALIGA"
   },
   {
     "title": "Villarreal vs Sabah FK",
